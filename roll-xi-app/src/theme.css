@@ -1,0 +1,46 @@
+:root{
+  --pitch:#0E3B24; --night:#08130C; --panel:#0B1F12;
+  --chalk:#E8F3E4; --paper:#F4F6F2; --dim:rgba(232,243,228,.55);
+  --flood:#FFB81C; --alert:#E4572E;
+  --gold:#E8C547; --silver:#C8CDD6; --frame:rgba(232,243,228,.4);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{
+  background:var(--pitch); color:var(--paper);
+  font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  -webkit-tap-highlight-color:transparent;
+}
+.display{font-weight:900;text-transform:uppercase;letter-spacing:.01em}
+.tele{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,"Liberation Mono",monospace}
+.amber{color:var(--flood)} .chalk{color:var(--chalk)} .dim{color:var(--dim)}
+.card{background:var(--night);border:1px solid rgba(232,243,228,.18);border-radius:10px}
+.btn{
+  background:var(--flood); color:var(--night); font-weight:900; text-transform:uppercase;
+  letter-spacing:.04em; border-radius:8px; border:none; cursor:pointer;
+}
+.btn:active{transform:translateY(1px)}
+.btn:disabled{background:rgba(232,243,228,.18);color:rgba(232,243,228,.45)}
+.ghost{background:transparent;color:var(--chalk);border:1px solid rgba(232,243,228,.35);border-radius:8px;font-weight:700;cursor:pointer}
+.ghost:disabled{opacity:.4}
+.opt{background:var(--panel);border:1px solid rgba(232,243,228,.2);color:var(--paper);border-radius:10px;cursor:pointer;text-align:left}
+.opt:active{background:#143521}
+.opt:disabled{opacity:.6;cursor:default}
+.opt.right{border-color:var(--flood);background:rgba(255,184,28,.12)}
+.opt.wrong{border-color:var(--alert);background:rgba(228,87,46,.16)}
+button:focus-visible{outline:2px solid var(--flood);outline-offset:2px}
+@keyframes pop{from{transform:scale(.6);opacity:0}to{transform:scale(1);opacity:1}}
+.pop{animation:pop .22s ease-out}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+.fade{animation:fade .3s ease-out}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+.cursor{animation:blink 1s steps(1) infinite}
+@media (prefers-reduced-motion: reduce){.pop,.fade,.cursor{animation:none !important}}
+.navbar{
+  position:fixed;left:0;right:0;bottom:0;display:flex;justify-content:space-around;
+  background:var(--night);border-top:1px solid rgba(232,243,228,.18);
+  padding:6px 4px calc(6px + env(safe-area-inset-bottom));z-index:40;
+}
+.navbtn{background:none;border:none;color:var(--dim);font-size:10px;font-weight:700;
+  display:flex;flex-direction:column;align-items:center;gap:3px;cursor:pointer;padding:4px 8px;border-radius:8px}
+.navbtn.on{color:var(--flood)}
