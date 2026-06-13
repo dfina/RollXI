@@ -1,10 +1,11 @@
 import React, { useMemo, useState } from "react";
-import { Check, X } from "lucide-react";
+import { Check, X, Share2 } from "lucide-react";
 import { hashStr, mulberry32, seededShuffle } from "../lib/rng.js";
 import { load, save } from "../lib/storage.js";
 import { todayKey, dayNumber } from "../lib/date.js";
 import { dailySet, distractorsFor } from "../lib/data.js";
 import { Sticker } from "../components/KitMark.jsx";
+import { shareText, dailyTriviaShare } from "../lib/share.js";
 
 const N = 6;
 
@@ -14,10 +15,20 @@ export default function Daily({ data, onAlbum }) {
   const questions = useMemo(() => dailySet(dateKey, data.players, N), [dateKey, data]);
 
   const [state, setState] = useState(() => load("daily:" + dateKey, { answers: {} }));
+  const [shareMsg, setShareMsg] = useState(null);
   const answered = Object.keys(state.answers).length;
   const idx = Math.min(answered, N - 1);
   const done = answered >= N;
   const q = questions[idx];
+
+  async function doShare() {
+    const score = questions.filter((qq, i) => state.answers[i] === qq.name).length;
+    const status = await shareText("Roll XI", dailyTriviaShare(dayNum, score, N));
+    if (status === "copied") setShareMsg("Copied!");
+    else if (status === "shared") setShareMsg("Shared!");
+    else if (status === "failed") setShareMsg("Couldn't share");
+    if (status !== "cancelled") setTimeout(() => setShareMsg(null), 2000);
+  }
 
   const options = useMemo(() => {
     if (!q) return [];
@@ -66,7 +77,10 @@ export default function Daily({ data, onAlbum }) {
             </div>
           </div>
         )}
-        <button className="btn" style={{ width: "100%", padding: 14, fontSize: 15, marginTop: 12 }} onClick={onAlbum}>
+        <button className="btn" style={{ width: "100%", padding: 14, fontSize: 15, marginTop: 12, display: "flex", justifyContent: "center", alignItems: "center", gap: 8 }} onClick={doShare}>
+          <Share2 size={16} /> {shareMsg || "Share result"}
+        </button>
+        <button className="ghost" style={{ width: "100%", padding: 13, fontSize: 14, marginTop: 8 }} onClick={onAlbum}>
           Open the album
         </button>
         <p className="dim" style={{ fontSize: 12, textAlign: "center", marginTop: 12 }}>

@@ -1,8 +1,9 @@
 import React, { useState, useMemo, useEffect } from "react";
-import { Link2, Lightbulb, RotateCcw, Check, ArrowDown, Trophy } from "lucide-react";
+import { Link2, Lightbulb, RotateCcw, Check, ArrowDown, Trophy, Share2 } from "lucide-react";
 import { load, save } from "../lib/storage.js";
 import { todayKey, dayNumber } from "../lib/date.js";
 import { Crest } from "../components/KitMark.jsx";
+import { shareText, chainShare } from "../lib/share.js";
 import {
   buildGraph, generatePuzzle, shortestPath, validateChain,
   sharedSquads, neighbours, linked
@@ -39,6 +40,15 @@ function ChainGame({ graph, data, puzzle, mode, dayNum, dateKey, onToggleMode, o
   const [solved, setSolved] = useState(false);
   const [usedHint, setUsedHint] = useState(false);
   const [revealPath, setRevealPath] = useState(null);
+  const [shareMsg, setShareMsg] = useState(null);
+
+  async function doShareChain() {
+    const status = await shareText("Roll XI", chainShare(dayNum, chain.length - 1, optimal, usedHint));
+    if (status === "copied") setShareMsg("Copied!");
+    else if (status === "shared") setShareMsg("Shared!");
+    else if (status === "failed") setShareMsg("Couldn't share");
+    if (status !== "cancelled") setTimeout(() => setShareMsg(null), 2000);
+  }
 
   const tail = chain[chain.length - 1];
   const reachedGoal = tail === goal;
@@ -147,7 +157,12 @@ function ChainGame({ graph, data, puzzle, mode, dayNum, dateKey, onToggleMode, o
             {steps === optimal ? "The shortest possible chain." : "Shortest was " + optimal + "."}{usedHint ? " · hint used" : ""}
           </p>
           {mode === "daily" && <p className="tele amber" style={{ fontSize: 12, margin: "8px 0 0", fontWeight: 800 }}>🔥 streak {streak}</p>}
-          <button className="btn" style={{ width: "100%", padding: 12, fontSize: 14, marginTop: 12 }} onClick={onNewFree}>
+          {mode === "daily" && (
+            <button className="btn" style={{ width: "100%", padding: 12, fontSize: 14, marginTop: 12, display: "flex", justifyContent: "center", alignItems: "center", gap: 8 }} onClick={doShareChain}>
+              <Share2 size={15} /> {shareMsg || "Share result"}
+            </button>
+          )}
+          <button className="ghost" style={{ width: "100%", padding: 12, fontSize: 14, marginTop: 8 }} onClick={onNewFree}>
             Play a free chain →
           </button>
         </div>

@@ -1,9 +1,10 @@
 import React, { useState, useMemo, useEffect, useRef } from "react";
-import { RotateCcw, ChevronRight, Trophy } from "lucide-react";
+import { RotateCcw, ChevronRight, Trophy, Share2 } from "lucide-react";
 import { mulberry32, hashStr, seededShuffle, avg } from "../lib/rng.js";
 import { load, save, wipeAll } from "../lib/storage.js";
 import { Crest } from "../components/KitMark.jsx";
 import { teamStrength } from "../lib/match.js";
+import { shareText, campaignShare } from "../lib/share.js";
 import {
   FORMATIONS, FORMATION_NAMES, emptyXI, rollSequence,
   buildLeague, simulateOtherResults, standings, playMyFixture, applyResult
@@ -652,6 +653,15 @@ function ChampionScreen({ camp, onReset }) {
   const youWon = champId === "__you";
   const fin = camp.finalResult;
   const champ = fin ? (fin.winnerId === fin.aId ? camp.finalists[0] : camp.finalists[1]) : null;
+  const [shareMsg, setShareMsg] = useState(null);
+  async function doShareCampaign() {
+    const champName = champ ? champ.club : null;
+    const status = await shareText("Roll XI", campaignShare(null, champName, youWon, camp.formation));
+    if (status === "copied") setShareMsg("Copied!");
+    else if (status === "shared") setShareMsg("Shared!");
+    else if (status === "failed") setShareMsg("Couldn't share");
+    if (status !== "cancelled") setTimeout(() => setShareMsg(null), 2000);
+  }
   return (
     <div className="fade">
       <div className="card" style={{ padding: 22, marginTop: 10, textAlign: "center", border: youWon ? "2px solid var(--green)" : undefined }}>
@@ -668,7 +678,10 @@ function ChampionScreen({ camp, onReset }) {
           {youWon ? "From eleven rolled squads to the top of Europe." : "Beaten on the biggest night. Go again?"}
         </p>
       </div>
-      <button className="btn" style={{ width: "100%", padding: 14, fontSize: 15, marginTop: 12 }} onClick={onReset}>New campaign</button>
+      <button className="btn" style={{ width: "100%", padding: 13, fontSize: 14, marginTop: 12, display: "flex", justifyContent: "center", alignItems: "center", gap: 8 }} onClick={doShareCampaign}>
+        <Share2 size={15} /> {shareMsg || "Share result"}
+      </button>
+      <button className="ghost" style={{ width: "100%", padding: 13, fontSize: 14, marginTop: 8 }} onClick={onReset}>New campaign</button>
     </div>
   );
 }
