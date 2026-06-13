@@ -1,5 +1,6 @@
 {
   "packs": [
-    { "file": "pack-seed.json", "name": "Seed pack (17 champions)", "v": "0.3" }
+    { "file": "pack-seed.json", "name": "Seed pack (17 champions)", "v": "0.3" },
+    { "file": "pack-opponents-provisional.json", "name": "Provisional opponents", "v": "0.3", "provisional": true }
   ]
 }
