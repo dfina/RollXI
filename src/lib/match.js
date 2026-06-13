@@ -74,28 +74,37 @@ export function scorerPoolFromXI(slots) {
 /* ---- extra time + penalties (used by A3 knockouts; defined here now) ---- */
 export function extraTime(home, away, seed) {
   const rng = mulberry32(hashStr(seed + "|et"));
-  const lh = lambdaFor(home.attack, away.defence) * 0.33;
-  const la = lambdaFor(away.attack, home.defence) * 0.33;
+  const lh = lambdaFor(home.attack, away.defence) * 0.42;
+  const la = lambdaFor(away.attack, home.defence) * 0.42;
   return { hg: drawGoals(lh, rng), ag: drawGoals(la, rng) };
 }
 export function penalties(home, away, seed) {
   const rng = mulberry32(hashStr(seed + "|pens"));
-  // conversion odds scale gently with attacking quality
   const pConv = (s) => clamp(0.74 + (s.attack - 80) / 120, 0.6, 0.9);
   const ph = pConv(home), pa = pConv(away);
   const kicks = [];
-  let h = 0, a = 0, round = 0;
-  // best of 5, then sudden death
-  while (true) {
-    round++;
-    const hs = rng() < ph; const as = rng() < pa;
-    if (hs) h++; kicks.push({ team: "home", scored: hs, round });
-    // early-stop checks omitted for simplicity in regulation 5; sudden death below
-    if (as) a++; kicks.push({ team: "away", scored: as, round });
-    if (round >= 5) {
-      if (h !== a) break;
-      if (round > 20) break; // safety
+  let h = 0, a = 0;
+  let hTaken = 0, aTaken = 0;
+  // best-of-5: alternate kicks, stop as soon as one side cannot be caught
+  for (let i = 0; i < 10; i++) {
+    const homeTurn = i % 2 === 0;
+    if (homeTurn) {
+      const s = rng() < ph; if (s) h++; hTaken++;
+      kicks.push({ team: "home", scored: s, round: hTaken });
+    } else {
+      const s = rng() < pa; if (s) a++; aTaken++;
+      kicks.push({ team: "away", scored: s, round: aTaken });
     }
+    const hLeft = 5 - hTaken, aLeft = 5 - aTaken;
+    if (h > a + aLeft || a > h + hLeft) break;          // result already settled
+    if (hTaken === 5 && aTaken === 5) break;             // all ten taken
+  }
+  // sudden death (paired rounds) if still level after five each
+  let round = Math.max(hTaken, aTaken);
+  while (h === a && round < 30) {
+    round++;
+    const hs = rng() < ph; if (hs) h++; kicks.push({ team: "home", scored: hs, round });
+    const as = rng() < pa; if (as) a++; kicks.push({ team: "away", scored: as, round });
   }
   return { h, a, kicks, winner: h > a ? "home" : "away" };
 }
