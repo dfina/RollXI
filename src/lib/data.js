@@ -23,9 +23,10 @@ export async function loadData() {
   squads.forEach((s) => {
     s.players.forEach((p) => {
       players.push({
-        name: p.n, pos: p.p, rating: p.r, nat: p.nat,
+        name: p.n, pos: p.p, dp: p.dp && p.dp.length ? p.dp : [p.p], rating: p.r, nat: p.nat,
         photo: p.photo || null,
         squadId: s.id, club: s.club, season: s.season,
+        league: s.league, country: s.country || null, euro: s.euro || null,
         kit: s.kit, crest: s.crest || null,
         decade: decadeOf(s.season),
         key: s.id + "|" + p.n
@@ -38,8 +39,8 @@ export async function loadData() {
 export function rarityOf(rating) {
   if (rating >= 93) return { id: "legend", label: "Legend", color: "var(--gold)" };
   if (rating >= 87) return { id: "star", label: "Star", color: "var(--silver)" };
-  if (rating >= 80) return { id: "first", label: "First XI", color: "var(--flood)" };
-  return { id: "squad", label: "Squad", color: "var(--frame)" };
+  if (rating >= 80) return { id: "first", label: "First XI", color: "var(--gold)" };
+  return { id: "squad", label: "Squad", color: "var(--silver)" };
 }
 
 /* Daily set: n distinct player-seasons (no repeated player name), seeded by date. */

@@ -1,7 +1,6 @@
 import React, { useMemo, useState } from "react";
 import { load } from "../lib/storage.js";
 import { DECADES } from "../lib/date.js";
-import { rarityOf } from "../lib/data.js";
 import { Sticker } from "../components/KitMark.jsx";
 
 export default function Album({ data }) {
@@ -39,18 +38,9 @@ export default function Album({ data }) {
         {tab}: {gotTab}/{pool.length} collected · {pool.length ? Math.round(100 * gotTab / pool.length) : 0}%
       </p>
 
-      <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+      <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
         {pool.map((p) => (
-          <Sticker key={p.key} player={p} locked={!unlocked.has(p.key)}
-            frameColor={rarityOf(p.rating).color} width={86} />
-        ))}
-      </div>
-
-      <div className="card" style={{ padding: "10px 12px", marginTop: 14, display: "flex", gap: 12, flexWrap: "wrap" }}>
-        {[["Legend 93+", "var(--gold)"], ["Star 87-92", "var(--silver)"], ["First XI 80-86", "var(--flood)"], ["Squad", "var(--frame)"]].map(([t, c]) => (
-          <span key={t} style={{ fontSize: 11 }} className="dim">
-            <span style={{ display: "inline-block", width: 10, height: 10, borderRadius: 2, background: c, marginRight: 5, verticalAlign: "-1px" }} />{t}
-          </span>
+          <Sticker key={p.key} player={p} locked={!unlocked.has(p.key)} width={100} />
         ))}
       </div>
     </div>

@@ -20,97 +20,152 @@
      "n": "Bill Brown",
      "p": "GK",
      "r": 80,
-     "nat": "Scotland"
+     "nat": "Scotland",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "John Hollowbread",
      "p": "GK",
      "r": 64,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Peter Baker",
      "p": "DF",
      "r": 76,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "RB"
+     ]
     },
     {
      "n": "Ron Henry",
      "p": "DF",
      "r": 77,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Mel Hopkins",
      "p": "DF",
      "r": 70,
-     "nat": "Wales"
+     "nat": "Wales",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Maurice Norman",
      "p": "DF",
      "r": 81,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Tony Marchi",
      "p": "DF",
      "r": 72,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CB",
+      "DM"
+     ]
     },
     {
      "n": "Danny Blanchflower",
      "p": "MF",
      "r": 88,
-     "nat": "Northern Ireland"
+     "nat": "Northern Ireland",
+     "dp": [
+      "CM",
+      "RM"
+     ]
     },
     {
      "n": "Dave Mackay",
      "p": "MF",
      "r": 88,
-     "nat": "Scotland"
+     "nat": "Scotland",
+     "dp": [
+      "CM",
+      "LM"
+     ]
     },
     {
      "n": "John White",
      "p": "MF",
      "r": 86,
-     "nat": "Scotland"
+     "nat": "Scotland",
+     "dp": [
+      "AM",
+      "CM"
+     ]
     },
     {
      "n": "Cliff Jones",
      "p": "FW",
      "r": 87,
-     "nat": "Wales"
+     "nat": "Wales",
+     "dp": [
+      "RW",
+      "LW"
+     ]
     },
     {
      "n": "Bobby Smith",
      "p": "FW",
      "r": 84,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Les Allen",
      "p": "FW",
      "r": 79,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CF",
+      "SS"
+     ]
     },
     {
      "n": "Terry Dyson",
      "p": "FW",
      "r": 76,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "LW",
+      "RW"
+     ]
     },
     {
      "n": "Terry Medwin",
      "p": "FW",
      "r": 75,
-     "nat": "Wales"
+     "nat": "Wales",
+     "dp": [
+      "RW"
+     ]
     },
     {
      "n": "Frank Saul",
      "p": "FW",
      "r": 65,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CF"
+     ]
     }
    ],
    "decoys": [
@@ -156,121 +211,194 @@
      "n": "Peter Schmeichel",
      "p": "GK",
      "r": 90,
-     "nat": "Denmark"
+     "nat": "Denmark",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Raimond van der Gouw",
      "p": "GK",
      "r": 68,
-     "nat": "Netherlands"
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Gary Neville",
      "p": "DF",
      "r": 83,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "RB"
+     ]
     },
     {
      "n": "Denis Irwin",
      "p": "DF",
      "r": 83,
-     "nat": "Republic of Ireland"
+     "nat": "Republic of Ireland",
+     "dp": [
+      "LB",
+      "RB"
+     ]
     },
     {
      "n": "Jaap Stam",
      "p": "DF",
      "r": 89,
-     "nat": "Netherlands"
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Ronny Johnsen",
      "p": "DF",
      "r": 80,
-     "nat": "Norway"
+     "nat": "Norway",
+     "dp": [
+      "CB",
+      "DM"
+     ]
     },
     {
      "n": "Henning Berg",
      "p": "DF",
      "r": 76,
-     "nat": "Norway"
+     "nat": "Norway",
+     "dp": [
+      "CB",
+      "RB"
+     ]
     },
     {
      "n": "David May",
      "p": "DF",
      "r": 70,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Phil Neville",
      "p": "DF",
      "r": 74,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "LB",
+      "RB",
+      "CM"
+     ]
     },
     {
      "n": "Wes Brown",
      "p": "DF",
      "r": 70,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CB",
+      "RB"
+     ]
     },
     {
      "n": "David Beckham",
      "p": "MF",
      "r": 89,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "RM",
+      "CM"
+     ]
     },
     {
      "n": "Roy Keane",
      "p": "MF",
      "r": 91,
-     "nat": "Republic of Ireland"
+     "nat": "Republic of Ireland",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "Paul Scholes",
      "p": "MF",
      "r": 88,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CM",
+      "AM"
+     ]
     },
     {
      "n": "Nicky Butt",
      "p": "MF",
      "r": 78,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CM",
+      "DM"
+     ]
     },
     {
      "n": "Ryan Giggs",
      "p": "MF",
      "r": 88,
-     "nat": "Wales"
+     "nat": "Wales",
+     "dp": [
+      "LM",
+      "LW"
+     ]
     },
     {
      "n": "Jesper Blomqvist",
      "p": "MF",
      "r": 72,
-     "nat": "Sweden"
+     "nat": "Sweden",
+     "dp": [
+      "LM",
+      "LW"
+     ]
     },
     {
      "n": "Dwight Yorke",
      "p": "FW",
      "r": 86,
-     "nat": "Trinidad and Tobago"
+     "nat": "Trinidad and Tobago",
+     "dp": [
+      "CF",
+      "SS"
+     ]
     },
     {
      "n": "Andy Cole",
      "p": "FW",
      "r": 84,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Ole Gunnar Solskjær",
      "p": "FW",
      "r": 82,
-     "nat": "Norway"
+     "nat": "Norway",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Teddy Sheringham",
      "p": "FW",
      "r": 80,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "SS",
+      "CF"
+     ]
     }
    ],
    "decoys": [
@@ -316,121 +444,191 @@
      "n": "Jens Lehmann",
      "p": "GK",
      "r": 84,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Lauren",
      "p": "DF",
      "r": 80,
-     "nat": "Cameroon"
+     "nat": "Cameroon",
+     "dp": [
+      "RB"
+     ]
     },
     {
      "n": "Kolo Touré",
      "p": "DF",
      "r": 84,
-     "nat": "Ivory Coast"
+     "nat": "Ivory Coast",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Sol Campbell",
      "p": "DF",
      "r": 87,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Ashley Cole",
      "p": "DF",
      "r": 86,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Pascal Cygan",
      "p": "DF",
      "r": 70,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Martin Keown",
      "p": "DF",
      "r": 74,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Gaël Clichy",
      "p": "DF",
      "r": 71,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Patrick Vieira",
      "p": "MF",
      "r": 91,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CM",
+      "DM"
+     ]
     },
     {
      "n": "Gilberto Silva",
      "p": "MF",
      "r": 83,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "DM",
+      "CM"
+     ]
     },
     {
      "n": "Robert Pirès",
      "p": "MF",
      "r": 88,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "LM",
+      "AM"
+     ]
     },
     {
      "n": "Freddie Ljungberg",
      "p": "MF",
      "r": 84,
-     "nat": "Sweden"
+     "nat": "Sweden",
+     "dp": [
+      "RM",
+      "AM"
+     ]
     },
     {
      "n": "Ray Parlour",
      "p": "MF",
      "r": 75,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CM",
+      "RM"
+     ]
     },
     {
      "n": "Edu",
      "p": "MF",
      "r": 78,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "CM",
+      "DM"
+     ]
     },
     {
      "n": "Thierry Henry",
      "p": "FW",
      "r": 95,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CF",
+      "LW"
+     ]
     },
     {
      "n": "Dennis Bergkamp",
      "p": "FW",
      "r": 86,
-     "nat": "Netherlands"
+     "nat": "Netherlands",
+     "dp": [
+      "SS",
+      "AM"
+     ]
     },
     {
      "n": "Sylvain Wiltord",
      "p": "FW",
      "r": 78,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CF",
+      "RW"
+     ]
     },
     {
      "n": "Nwankwo Kanu",
      "p": "FW",
      "r": 76,
-     "nat": "Nigeria"
+     "nat": "Nigeria",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "José Antonio Reyes",
      "p": "FW",
      "r": 79,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "LW",
+      "CF"
+     ]
     },
     {
      "n": "Jérémie Aliadière",
      "p": "FW",
      "r": 64,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
     }
    ],
    "decoys": [
@@ -476,121 +674,191 @@
      "n": "Alisson",
      "p": "GK",
      "r": 91,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Adrián",
      "p": "GK",
      "r": 72,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Trent Alexander-Arnold",
      "p": "DF",
      "r": 88,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "RB"
+     ]
     },
     {
      "n": "Andrew Robertson",
      "p": "DF",
      "r": 87,
-     "nat": "Scotland"
+     "nat": "Scotland",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Virgil van Dijk",
      "p": "DF",
      "r": 92,
-     "nat": "Netherlands"
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Joe Gomez",
      "p": "DF",
      "r": 80,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CB",
+      "RB"
+     ]
     },
     {
      "n": "Joël Matip",
      "p": "DF",
      "r": 81,
-     "nat": "Cameroon"
+     "nat": "Cameroon",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Dejan Lovren",
      "p": "DF",
      "r": 74,
-     "nat": "Croatia"
+     "nat": "Croatia",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Fabinho",
      "p": "MF",
      "r": 86,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "DM",
+      "CB"
+     ]
     },
     {
      "n": "Jordan Henderson",
      "p": "MF",
      "r": 85,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "Georginio Wijnaldum",
      "p": "MF",
      "r": 84,
-     "nat": "Netherlands"
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "James Milner",
      "p": "MF",
      "r": 76,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CM",
+      "RB"
+     ]
     },
     {
      "n": "Alex Oxlade-Chamberlain",
      "p": "MF",
      "r": 78,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CM",
+      "RM"
+     ]
     },
     {
      "n": "Naby Keïta",
      "p": "MF",
      "r": 77,
-     "nat": "Guinea"
+     "nat": "Guinea",
+     "dp": [
+      "CM",
+      "AM"
+     ]
     },
     {
      "n": "Adam Lallana",
      "p": "MF",
      "r": 72,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CM",
+      "AM"
+     ]
     },
     {
      "n": "Curtis Jones",
      "p": "MF",
      "r": 68,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "CM",
+      "AM"
+     ]
     },
     {
      "n": "Mohamed Salah",
      "p": "FW",
      "r": 92,
-     "nat": "Egypt"
+     "nat": "Egypt",
+     "dp": [
+      "RW",
+      "CF"
+     ]
     },
     {
      "n": "Sadio Mané",
      "p": "FW",
      "r": 91,
-     "nat": "Senegal"
+     "nat": "Senegal",
+     "dp": [
+      "LW",
+      "CF"
+     ]
     },
     {
      "n": "Roberto Firmino",
      "p": "FW",
      "r": 87,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Divock Origi",
      "p": "FW",
      "r": 73,
-     "nat": "Belgium"
+     "nat": "Belgium",
+     "dp": [
+      "CF",
+      "LW"
+     ]
     }
    ],
    "decoys": [
@@ -636,91 +904,143 @@
      "n": "Giuliano Sarti",
      "p": "GK",
      "r": 84,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Tarcisio Burgnich",
      "p": "DF",
      "r": 87,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "RB",
+      "CB"
+     ]
     },
     {
      "n": "Giacinto Facchetti",
      "p": "DF",
      "r": 92,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Aristide Guarneri",
      "p": "DF",
      "r": 84,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Armando Picchi",
      "p": "DF",
      "r": 87,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Saul Malatrasi",
      "p": "DF",
      "r": 72,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CB",
+      "RB"
+     ]
     },
     {
      "n": "Spartaco Landini",
      "p": "DF",
      "r": 70,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Gianfranco Bedin",
      "p": "MF",
      "r": 76,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CM",
+      "DM"
+     ]
     },
     {
      "n": "Luis Suárez",
      "p": "MF",
      "r": 92,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
     },
     {
      "n": "Mario Corso",
      "p": "MF",
      "r": 88,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "LM",
+      "LW"
+     ]
     },
     {
      "n": "Sandro Mazzola",
      "p": "FW",
      "r": 91,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CF",
+      "AM"
+     ]
     },
     {
      "n": "Jair",
      "p": "FW",
      "r": 86,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "RW"
+     ]
     },
     {
      "n": "Joaquín Peiró",
      "p": "FW",
      "r": 82,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Angelo Domenghini",
      "p": "FW",
      "r": 83,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "RW",
+      "CF"
+     ]
     },
     {
      "n": "Aurelio Milani",
      "p": "FW",
      "r": 76,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
     }
    ],
    "decoys": [
@@ -766,85 +1086,133 @@
      "n": "Claudio Garella",
      "p": "GK",
      "r": 79,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Raffaele Di Fusco",
      "p": "GK",
      "r": 62,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Giuseppe Bruscolotti",
      "p": "DF",
      "r": 80,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CB",
+      "RB"
+     ]
     },
     {
      "n": "Ciro Ferrara",
      "p": "DF",
      "r": 83,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Alessandro Renica",
      "p": "DF",
      "r": 79,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Moreno Ferrario",
      "p": "DF",
      "r": 78,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "LB",
+      "CB"
+     ]
     },
     {
      "n": "Giuseppe Volpecina",
      "p": "DF",
      "r": 72,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Salvatore Bagni",
      "p": "MF",
      "r": 82,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CM",
+      "RM"
+     ]
     },
     {
      "n": "Fernando De Napoli",
      "p": "MF",
      "r": 81,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CM",
+      "DM"
+     ]
     },
     {
      "n": "Francesco Romano",
      "p": "MF",
      "r": 75,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CM",
+      "LM"
+     ]
     },
     {
      "n": "Ciro Caffarelli",
      "p": "MF",
      "r": 70,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "Diego Maradona",
      "p": "FW",
      "r": 97,
-     "nat": "Argentina"
+     "nat": "Argentina",
+     "dp": [
+      "SS",
+      "AM"
+     ]
     },
     {
      "n": "Bruno Giordano",
      "p": "FW",
      "r": 84,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Andrea Carnevale",
      "p": "FW",
      "r": 79,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
     }
    ],
    "decoys": [
@@ -890,85 +1258,132 @@
      "n": "Giovanni Galli",
      "p": "GK",
      "r": 80,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Mauro Tassotti",
      "p": "DF",
      "r": 83,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
     },
     {
      "n": "Franco Baresi",
      "p": "DF",
      "r": 93,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Paolo Maldini",
      "p": "DF",
      "r": 85,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Alessandro Costacurta",
      "p": "DF",
      "r": 76,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Filippo Galli",
      "p": "DF",
      "r": 75,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Carlo Ancelotti",
      "p": "MF",
      "r": 84,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "Roberto Donadoni",
      "p": "MF",
      "r": 85,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "RM",
+      "LM"
+     ]
     },
     {
      "n": "Angelo Colombo",
      "p": "MF",
      "r": 76,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "RM",
+      "CM"
+     ]
     },
     {
      "n": "Alberigo Evani",
      "p": "MF",
      "r": 78,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "LM",
+      "CM"
+     ]
     },
     {
      "n": "Ruud Gullit",
      "p": "FW",
      "r": 93,
-     "nat": "Netherlands"
+     "nat": "Netherlands",
+     "dp": [
+      "CF",
+      "AM"
+     ]
     },
     {
      "n": "Marco van Basten",
      "p": "FW",
      "r": 93,
-     "nat": "Netherlands"
+     "nat": "Netherlands",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Pietro Paolo Virdis",
      "p": "FW",
      "r": 82,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Daniele Massaro",
      "p": "FW",
      "r": 78,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CF",
+      "RW"
+     ]
     }
    ],
    "decoys": [
@@ -1014,115 +1429,181 @@
      "n": "Júlio César",
      "p": "GK",
      "r": 88,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Francesco Toldo",
      "p": "GK",
      "r": 72,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Maicon",
      "p": "DF",
      "r": 88,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "RB"
+     ]
     },
     {
      "n": "Javier Zanetti",
      "p": "DF",
      "r": 87,
-     "nat": "Argentina"
+     "nat": "Argentina",
+     "dp": [
+      "RB",
+      "CM"
+     ]
     },
     {
      "n": "Lúcio",
      "p": "DF",
      "r": 86,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Walter Samuel",
      "p": "DF",
      "r": 85,
-     "nat": "Argentina"
+     "nat": "Argentina",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Cristian Chivu",
      "p": "DF",
      "r": 78,
-     "nat": "Romania"
+     "nat": "Romania",
+     "dp": [
+      "CB",
+      "LB"
+     ]
     },
     {
      "n": "Marco Materazzi",
      "p": "DF",
      "r": 75,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Davide Santon",
      "p": "DF",
      "r": 70,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "LB",
+      "RB"
+     ]
     },
     {
      "n": "Iván Córdoba",
      "p": "DF",
      "r": 76,
-     "nat": "Colombia"
+     "nat": "Colombia",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Esteban Cambiasso",
      "p": "MF",
      "r": 86,
-     "nat": "Argentina"
+     "nat": "Argentina",
+     "dp": [
+      "CM",
+      "DM"
+     ]
     },
     {
      "n": "Thiago Motta",
      "p": "MF",
      "r": 81,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "CM",
+      "DM"
+     ]
     },
     {
      "n": "Wesley Sneijder",
      "p": "MF",
      "r": 90,
-     "nat": "Netherlands"
+     "nat": "Netherlands",
+     "dp": [
+      "AM"
+     ]
     },
     {
      "n": "Dejan Stanković",
      "p": "MF",
      "r": 80,
-     "nat": "Serbia"
+     "nat": "Serbia",
+     "dp": [
+      "CM",
+      "AM"
+     ]
     },
     {
      "n": "Sulley Muntari",
      "p": "MF",
      "r": 74,
-     "nat": "Ghana"
+     "nat": "Ghana",
+     "dp": [
+      "CM",
+      "LM"
+     ]
     },
     {
      "n": "Samuel Eto'o",
      "p": "FW",
      "r": 89,
-     "nat": "Cameroon"
+     "nat": "Cameroon",
+     "dp": [
+      "CF",
+      "RW"
+     ]
     },
     {
      "n": "Diego Milito",
      "p": "FW",
      "r": 88,
-     "nat": "Argentina"
+     "nat": "Argentina",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Goran Pandev",
      "p": "FW",
      "r": 78,
-     "nat": "North Macedonia"
+     "nat": "North Macedonia",
+     "dp": [
+      "SS",
+      "LW"
+     ]
     },
     {
      "n": "Mario Balotelli",
      "p": "FW",
      "r": 78,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
     }
    ],
    "decoys": [
@@ -1168,79 +1649,125 @@
      "n": "Rogelio Domínguez",
      "p": "GK",
      "r": 78,
-     "nat": "Argentina"
+     "nat": "Argentina",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Marquitos",
      "p": "DF",
      "r": 76,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "RB"
+     ]
     },
     {
      "n": "Pachín",
      "p": "DF",
      "r": 78,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "RB",
+      "CB"
+     ]
     },
     {
      "n": "José Santamaría",
      "p": "DF",
      "r": 88,
-     "nat": "Uruguay"
+     "nat": "Uruguay",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Casado",
      "p": "DF",
      "r": 74,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "José María Zárraga",
      "p": "MF",
      "r": 77,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "DM"
+     ]
     },
     {
      "n": "Luis del Sol",
      "p": "MF",
      "r": 85,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
     },
     {
      "n": "Alfredo Di Stéfano",
      "p": "FW",
      "r": 93,
-     "nat": "Argentina"
+     "nat": "Argentina",
+     "dp": [
+      "CF",
+      "AM"
+     ]
     },
     {
      "n": "Ferenc Puskás",
      "p": "FW",
      "r": 91,
-     "nat": "Hungary"
+     "nat": "Hungary",
+     "dp": [
+      "CF",
+      "SS"
+     ]
     },
     {
      "n": "Francisco Gento",
      "p": "FW",
      "r": 89,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
     },
     {
      "n": "Canário",
      "p": "FW",
      "r": 78,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "RW"
+     ]
     },
     {
      "n": "Enrique Mateos",
      "p": "FW",
      "r": 75,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CF",
+      "RW"
+     ]
     },
     {
      "n": "Pepillo",
      "p": "FW",
      "r": 72,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
     }
    ],
    "decoys": [
@@ -1286,109 +1813,171 @@
      "n": "Víctor Valdés",
      "p": "GK",
      "r": 85,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "José Manuel Pinto",
      "p": "GK",
      "r": 68,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Dani Alves",
      "p": "DF",
      "r": 87,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "RB"
+     ]
     },
     {
      "n": "Éric Abidal",
      "p": "DF",
      "r": 82,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "LB",
+      "CB"
+     ]
     },
     {
      "n": "Carles Puyol",
      "p": "DF",
      "r": 88,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "RB"
+     ]
     },
     {
      "n": "Gerard Piqué",
      "p": "DF",
      "r": 85,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Rafael Márquez",
      "p": "DF",
      "r": 80,
-     "nat": "Mexico"
+     "nat": "Mexico",
+     "dp": [
+      "CB",
+      "DM"
+     ]
     },
     {
      "n": "Sylvinho",
      "p": "DF",
      "r": 70,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Xavi",
      "p": "MF",
      "r": 93,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "Andrés Iniesta",
      "p": "MF",
      "r": 92,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "LW"
+     ]
     },
     {
      "n": "Sergio Busquets",
      "p": "MF",
      "r": 82,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "DM"
+     ]
     },
     {
      "n": "Yaya Touré",
      "p": "MF",
      "r": 84,
-     "nat": "Ivory Coast"
+     "nat": "Ivory Coast",
+     "dp": [
+      "DM",
+      "CM"
+     ]
     },
     {
      "n": "Seydou Keita",
      "p": "MF",
      "r": 78,
-     "nat": "Mali"
+     "nat": "Mali",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "Lionel Messi",
      "p": "FW",
      "r": 94,
-     "nat": "Argentina"
+     "nat": "Argentina",
+     "dp": [
+      "RW",
+      "CF"
+     ]
     },
     {
      "n": "Samuel Eto'o",
      "p": "FW",
      "r": 90,
-     "nat": "Cameroon"
+     "nat": "Cameroon",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Thierry Henry",
      "p": "FW",
      "r": 87,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "LW",
+      "CF"
+     ]
     },
     {
      "n": "Pedro",
      "p": "FW",
      "r": 72,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "RW",
+      "LW"
+     ]
     },
     {
      "n": "Bojan Krkić",
      "p": "FW",
      "r": 71,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
     }
    ],
    "decoys": [
@@ -1434,121 +2023,189 @@
      "n": "Keylor Navas",
      "p": "GK",
      "r": 84,
-     "nat": "Costa Rica"
+     "nat": "Costa Rica",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Dani Carvajal",
      "p": "DF",
      "r": 85,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
     },
     {
      "n": "Sergio Ramos",
      "p": "DF",
      "r": 90,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Raphaël Varane",
      "p": "DF",
      "r": 85,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Pepe",
      "p": "DF",
      "r": 82,
-     "nat": "Portugal"
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Nacho",
      "p": "DF",
      "r": 78,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "RB",
+      "LB"
+     ]
     },
     {
      "n": "Marcelo",
      "p": "DF",
      "r": 87,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Danilo",
      "p": "DF",
      "r": 75,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "RB",
+      "LB"
+     ]
     },
     {
      "n": "Luka Modrić",
      "p": "MF",
      "r": 90,
-     "nat": "Croatia"
+     "nat": "Croatia",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "Toni Kroos",
      "p": "MF",
      "r": 90,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "Casemiro",
      "p": "MF",
      "r": 86,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "DM"
+     ]
     },
     {
      "n": "Isco",
      "p": "MF",
      "r": 84,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "LW"
+     ]
     },
     {
      "n": "James Rodríguez",
      "p": "MF",
      "r": 82,
-     "nat": "Colombia"
+     "nat": "Colombia",
+     "dp": [
+      "AM",
+      "LW"
+     ]
     },
     {
      "n": "Mateo Kovačić",
      "p": "MF",
      "r": 78,
-     "nat": "Croatia"
+     "nat": "Croatia",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "Marco Asensio",
      "p": "MF",
      "r": 79,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "RW",
+      "LW"
+     ]
     },
     {
      "n": "Cristiano Ronaldo",
      "p": "FW",
      "r": 95,
-     "nat": "Portugal"
+     "nat": "Portugal",
+     "dp": [
+      "LW",
+      "CF"
+     ]
     },
     {
      "n": "Karim Benzema",
      "p": "FW",
      "r": 87,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Gareth Bale",
      "p": "FW",
      "r": 86,
-     "nat": "Wales"
+     "nat": "Wales",
+     "dp": [
+      "RW"
+     ]
     },
     {
      "n": "Álvaro Morata",
      "p": "FW",
      "r": 80,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Lucas Vázquez",
      "p": "FW",
      "r": 77,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "RW"
+     ]
     }
    ],
    "decoys": [
@@ -1594,73 +2251,117 @@
      "n": "Sepp Maier",
      "p": "GK",
      "r": 90,
-     "nat": "West Germany"
+     "nat": "West Germany",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Johnny Hansen",
      "p": "DF",
      "r": 76,
-     "nat": "Denmark"
+     "nat": "Denmark",
+     "dp": [
+      "RB",
+      "LB"
+     ]
     },
     {
      "n": "Franz Beckenbauer",
      "p": "DF",
      "r": 95,
-     "nat": "West Germany"
+     "nat": "West Germany",
+     "dp": [
+      "CB",
+      "DM"
+     ]
     },
     {
      "n": "Hans-Georg Schwarzenbeck",
      "p": "DF",
      "r": 80,
-     "nat": "West Germany"
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Paul Breitner",
      "p": "DF",
      "r": 88,
-     "nat": "West Germany"
+     "nat": "West Germany",
+     "dp": [
+      "LB",
+      "CM"
+     ]
     },
     {
      "n": "Franz Roth",
      "p": "MF",
      "r": 79,
-     "nat": "West Germany"
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "Rainer Zobel",
      "p": "MF",
      "r": 73,
-     "nat": "West Germany"
+     "nat": "West Germany",
+     "dp": [
+      "CM",
+      "RM"
+     ]
     },
     {
      "n": "Jupp Kapellmann",
      "p": "MF",
      "r": 75,
-     "nat": "West Germany"
+     "nat": "West Germany",
+     "dp": [
+      "RM",
+      "CM"
+     ]
     },
     {
      "n": "Bernd Dürnberger",
      "p": "MF",
      "r": 74,
-     "nat": "West Germany"
+     "nat": "West Germany",
+     "dp": [
+      "LM",
+      "CM"
+     ]
     },
     {
      "n": "Uli Hoeneß",
      "p": "FW",
      "r": 84,
-     "nat": "West Germany"
+     "nat": "West Germany",
+     "dp": [
+      "RW",
+      "CF"
+     ]
     },
     {
      "n": "Gerd Müller",
      "p": "FW",
      "r": 95,
-     "nat": "West Germany"
+     "nat": "West Germany",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Conny Torstensson",
      "p": "FW",
      "r": 76,
-     "nat": "Sweden"
+     "nat": "Sweden",
+     "dp": [
+      "CF",
+      "AM"
+     ]
     }
    ],
    "decoys": [
@@ -1706,103 +2407,162 @@
      "n": "Roman Weidenfeller",
      "p": "GK",
      "r": 82,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Mitchell Langerak",
      "p": "GK",
      "r": 65,
-     "nat": "Australia"
+     "nat": "Australia",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Łukasz Piszczek",
      "p": "DF",
      "r": 80,
-     "nat": "Poland"
+     "nat": "Poland",
+     "dp": [
+      "RB"
+     ]
     },
     {
      "n": "Neven Subotić",
      "p": "DF",
      "r": 81,
-     "nat": "Serbia"
+     "nat": "Serbia",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Mats Hummels",
      "p": "DF",
      "r": 85,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Marcel Schmelzer",
      "p": "DF",
      "r": 78,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Patrick Owomoyela",
      "p": "DF",
      "r": 70,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "RB",
+      "LB"
+     ]
     },
     {
      "n": "Felipe Santana",
      "p": "DF",
      "r": 72,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Sven Bender",
      "p": "MF",
      "r": 78,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "DM",
+      "CM"
+     ]
     },
     {
      "n": "Nuri Şahin",
      "p": "MF",
      "r": 84,
-     "nat": "Turkey"
+     "nat": "Turkey",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "Sebastian Kehl",
      "p": "MF",
      "r": 74,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "DM",
+      "CM"
+     ]
     },
     {
      "n": "Mario Götze",
      "p": "MF",
      "r": 82,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "AM",
+      "RW"
+     ]
     },
     {
      "n": "Kevin Großkreutz",
      "p": "MF",
      "r": 75,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "LM",
+      "LW",
+      "RW",
+      "LB"
+     ]
     },
     {
      "n": "Shinji Kagawa",
      "p": "MF",
      "r": 81,
-     "nat": "Japan"
+     "nat": "Japan",
+     "dp": [
+      "AM"
+     ]
     },
     {
      "n": "Jakub Błaszczykowski",
      "p": "FW",
      "r": 78,
-     "nat": "Poland"
+     "nat": "Poland",
+     "dp": [
+      "RW",
+      "RM"
+     ]
     },
     {
      "n": "Lucas Barrios",
      "p": "FW",
      "r": 80,
-     "nat": "Paraguay"
+     "nat": "Paraguay",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Robert Lewandowski",
      "p": "FW",
      "r": 78,
-     "nat": "Poland"
+     "nat": "Poland",
+     "dp": [
+      "CF"
+     ]
     }
    ],
    "decoys": [
@@ -1848,121 +2608,191 @@
      "n": "Manuel Neuer",
      "p": "GK",
      "r": 91,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Tom Starke",
      "p": "GK",
      "r": 66,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Philipp Lahm",
      "p": "DF",
      "r": 89,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "RB",
+      "LB"
+     ]
     },
     {
      "n": "David Alaba",
      "p": "DF",
      "r": 84,
-     "nat": "Austria"
+     "nat": "Austria",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Dante",
      "p": "DF",
      "r": 82,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Jérôme Boateng",
      "p": "DF",
      "r": 84,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "CB",
+      "RB"
+     ]
     },
     {
      "n": "Daniel Van Buyten",
      "p": "DF",
      "r": 74,
-     "nat": "Belgium"
+     "nat": "Belgium",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Rafinha",
      "p": "DF",
      "r": 75,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "RB",
+      "LB"
+     ]
     },
     {
      "n": "Holger Badstuber",
      "p": "DF",
      "r": 76,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Bastian Schweinsteiger",
      "p": "MF",
      "r": 89,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "CM",
+      "DM"
+     ]
     },
     {
      "n": "Javi Martínez",
      "p": "MF",
      "r": 85,
-     "nat": "Spain"
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CB"
+     ]
     },
     {
      "n": "Toni Kroos",
      "p": "MF",
      "r": 85,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "CM",
+      "AM"
+     ]
     },
     {
      "n": "Xherdan Shaqiri",
      "p": "MF",
      "r": 76,
-     "nat": "Switzerland"
+     "nat": "Switzerland",
+     "dp": [
+      "AM",
+      "RW"
+     ]
     },
     {
      "n": "Luiz Gustavo",
      "p": "MF",
      "r": 78,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "DM",
+      "CM"
+     ]
     },
     {
      "n": "Thomas Müller",
      "p": "FW",
      "r": 88,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "RW",
+      "CF",
+      "AM"
+     ]
     },
     {
      "n": "Arjen Robben",
      "p": "FW",
      "r": 89,
-     "nat": "Netherlands"
+     "nat": "Netherlands",
+     "dp": [
+      "RW"
+     ]
     },
     {
      "n": "Franck Ribéry",
      "p": "FW",
      "r": 91,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "LW"
+     ]
     },
     {
      "n": "Mario Mandžukić",
      "p": "FW",
      "r": 84,
-     "nat": "Croatia"
+     "nat": "Croatia",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Mario Gómez",
      "p": "FW",
      "r": 82,
-     "nat": "Germany"
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Claudio Pizarro",
      "p": "FW",
      "r": 74,
-     "nat": "Peru"
+     "nat": "Peru",
+     "dp": [
+      "CF"
+     ]
     }
    ],
    "decoys": [
@@ -2008,85 +2838,136 @@
      "n": "Ivan Ćurković",
      "p": "GK",
      "r": 82,
-     "nat": "Yugoslavia"
+     "nat": "Yugoslavia",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Gérard Janvion",
      "p": "DF",
      "r": 78,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "RB",
+      "CB"
+     ]
     },
     {
      "n": "Christian Lopez",
      "p": "DF",
      "r": 81,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CB",
+      "RB"
+     ]
     },
     {
      "n": "Oswaldo Piazza",
      "p": "DF",
      "r": 84,
-     "nat": "Argentina"
+     "nat": "Argentina",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Pierre Repellini",
      "p": "DF",
      "r": 73,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "LB",
+      "RB"
+     ]
     },
     {
      "n": "Gérard Farison",
      "p": "DF",
      "r": 74,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Dominique Bathenay",
      "p": "MF",
      "r": 81,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CM",
+      "DM"
+     ]
     },
     {
      "n": "Jean-Michel Larqué",
      "p": "MF",
      "r": 82,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CM",
+      "AM"
+     ]
     },
     {
      "n": "Christian Synaeghel",
      "p": "MF",
      "r": 75,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CM",
+      "RM"
+     ]
     },
     {
      "n": "Jacques Santini",
      "p": "MF",
      "r": 74,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CM",
+      "RM"
+     ]
     },
     {
      "n": "Dominique Rocheteau",
      "p": "FW",
      "r": 84,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "RW",
+      "CF"
+     ]
     },
     {
      "n": "Hervé Revelli",
      "p": "FW",
      "r": 83,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Patrick Revelli",
      "p": "FW",
      "r": 77,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "LW",
+      "RW"
+     ]
     },
     {
      "n": "Christian Sarramagna",
      "p": "FW",
      "r": 74,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "LW"
+     ]
     }
    ],
    "decoys": [
@@ -2132,85 +3013,134 @@
      "n": "Pascal Olmeta",
      "p": "GK",
      "r": 75,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Manuel Amoros",
      "p": "DF",
      "r": 82,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "RB",
+      "LB"
+     ]
     },
     {
      "n": "Basile Boli",
      "p": "DF",
      "r": 82,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Carlos Mozer",
      "p": "DF",
      "r": 83,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Bernard Casoni",
      "p": "DF",
      "r": 78,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Éric Di Meco",
      "p": "DF",
      "r": 77,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Jean Tigana",
      "p": "MF",
      "r": 82,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CM",
+      "DM"
+     ]
     },
     {
      "n": "Bruno Germain",
      "p": "MF",
      "r": 73,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "Laurent Fournier",
      "p": "MF",
      "r": 75,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CM",
+      "RM"
+     ]
     },
     {
      "n": "Chris Waddle",
      "p": "MF",
      "r": 87,
-     "nat": "England"
+     "nat": "England",
+     "dp": [
+      "AM",
+      "LW",
+      "RW"
+     ]
     },
     {
      "n": "Dragan Stojković",
      "p": "MF",
      "r": 84,
-     "nat": "Yugoslavia"
+     "nat": "Yugoslavia",
+     "dp": [
+      "AM"
+     ]
     },
     {
      "n": "Abedi Pelé",
      "p": "MF",
      "r": 86,
-     "nat": "Ghana"
+     "nat": "Ghana",
+     "dp": [
+      "AM",
+      "LW"
+     ]
     },
     {
      "n": "Jean-Pierre Papin",
      "p": "FW",
      "r": 91,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Éric Cantona",
      "p": "FW",
      "r": 84,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CF",
+      "SS"
+     ]
     }
    ],
    "decoys": [
@@ -2256,91 +3186,145 @@
      "n": "Danijel Subašić",
      "p": "GK",
      "r": 81,
-     "nat": "Croatia"
+     "nat": "Croatia",
+     "dp": [
+      "GK"
+     ]
     },
     {
      "n": "Djibril Sidibé",
      "p": "DF",
      "r": 80,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "RB"
+     ]
     },
     {
      "n": "Kamil Glik",
      "p": "DF",
      "r": 81,
-     "nat": "Poland"
+     "nat": "Poland",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Jemerson",
      "p": "DF",
      "r": 78,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
     },
     {
      "n": "Benjamin Mendy",
      "p": "DF",
      "r": 81,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "LB"
+     ]
     },
     {
      "n": "Andrea Raggi",
      "p": "DF",
      "r": 73,
-     "nat": "Italy"
+     "nat": "Italy",
+     "dp": [
+      "CB",
+      "RB",
+      "LB"
+     ]
     },
     {
      "n": "Fabinho",
      "p": "MF",
      "r": 84,
-     "nat": "Brazil"
+     "nat": "Brazil",
+     "dp": [
+      "DM",
+      "RB"
+     ]
     },
     {
      "n": "Tiémoué Bakayoko",
      "p": "MF",
      "r": 81,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "DM",
+      "CM"
+     ]
     },
     {
      "n": "João Moutinho",
      "p": "MF",
      "r": 82,
-     "nat": "Portugal"
+     "nat": "Portugal",
+     "dp": [
+      "CM"
+     ]
     },
     {
      "n": "Thomas Lemar",
      "p": "MF",
      "r": 82,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "AM",
+      "LW"
+     ]
     },
     {
      "n": "Bernardo Silva",
      "p": "MF",
      "r": 86,
-     "nat": "Portugal"
+     "nat": "Portugal",
+     "dp": [
+      "AM",
+      "RW"
+     ]
     },
     {
      "n": "Nabil Dirar",
      "p": "MF",
      "r": 72,
-     "nat": "Morocco"
+     "nat": "Morocco",
+     "dp": [
+      "RM",
+      "RW",
+      "RB"
+     ]
     },
     {
      "n": "Kylian Mbappé",
      "p": "FW",
      "r": 86,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CF",
+      "RW"
+     ]
     },
     {
      "n": "Radamel Falcao",
      "p": "FW",
      "r": 84,
-     "nat": "Colombia"
+     "nat": "Colombia",
+     "dp": [
+      "CF"
+     ]
     },
     {
      "n": "Valère Germain",
      "p": "FW",
      "r": 75,
-     "nat": "France"
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
     }
    ],
    "decoys": [

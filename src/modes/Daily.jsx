@@ -1,8 +1,9 @@
 import React, { useMemo, useState } from "react";
+import { Check, X } from "lucide-react";
 import { hashStr, mulberry32, seededShuffle } from "../lib/rng.js";
 import { load, save } from "../lib/storage.js";
 import { todayKey, dayNumber } from "../lib/date.js";
-import { dailySet, distractorsFor, rarityOf } from "../lib/data.js";
+import { dailySet, distractorsFor } from "../lib/data.js";
 import { Sticker } from "../components/KitMark.jsx";
 
 const N = 6;
@@ -61,7 +62,7 @@ export default function Daily({ data, onAlbum }) {
           <div className="card" style={{ padding: 12, marginTop: 10 }}>
             <p className="dim tele" style={{ fontSize: 11, letterSpacing: 1.5, margin: "0 0 8px" }}>STICKERS EARNED</p>
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-              {earned.map((p) => <Sticker key={p.key} player={p} frameColor={rarityOf(p.rating).color} width={84} />)}
+              {earned.map((p) => <Sticker key={p.key} player={p} width={92} />)}
             </div>
           </div>
         )}
@@ -82,7 +83,7 @@ export default function Daily({ data, onAlbum }) {
         <span style={{ letterSpacing: 3, fontSize: 12 }} aria-label={answered + " of " + N + " answered"}>
           {questions.map((_, i) => {
             const a = state.answers[i];
-            const c = a === undefined ? "rgba(232,243,228,.25)" : a === questions[i].name ? "var(--flood)" : "var(--alert)";
+            const c = a === undefined ? "var(--hair)" : a === questions[i].name ? "var(--green)" : "var(--flame)";
             return <span key={i} style={{ color: c }}>●</span>;
           })}
         </span>
@@ -91,9 +92,10 @@ export default function Daily({ data, onAlbum }) {
       <div className="card" style={{ padding: 16, marginTop: 10 }}>
         <p className="tele amber" style={{ fontSize: 11, letterSpacing: 1.5, margin: 0 }}>WHO IS THIS PLAYER?</p>
         <div style={{ display: "flex", gap: 14, marginTop: 10, alignItems: "center" }}>
-          <Sticker player={q} locked frameColor="var(--frame)" width={78} />
+          <Sticker player={q} locked width={92} />
           <div style={{ fontSize: 14, lineHeight: 1.7 }}>
             <div><span className="dim tele" style={{ fontSize: 10 }}>NATIONALITY </span><span className="chalk" style={{ fontWeight: 700 }}>{q.nat}</span></div>
+            <div><span className="dim tele" style={{ fontSize: 10 }}>POSITION </span><span className="chalk" style={{ fontWeight: 700 }}>{(q.dp && q.dp.length ? q.dp : [q.pos]).join(" / ")}</span></div>
             <div><span className="dim tele" style={{ fontSize: 10 }}>CLUB </span><span className="chalk" style={{ fontWeight: 700 }}>{q.club}</span></div>
             <div><span className="dim tele" style={{ fontSize: 10 }}>SEASON </span><span className="chalk" style={{ fontWeight: 700 }}>{q.season}</span></div>
           </div>
@@ -102,14 +104,18 @@ export default function Daily({ data, onAlbum }) {
 
       <div style={{ display: "flex", flexDirection: "column", gap: 7, marginTop: 12 }}>
         {options.map((name) => {
+          const isAnswer = name === q.name;
+          const isPickedWrong = name === picked && picked !== q.name;
           let cls = "opt";
-          if (revealed && name === q.name) cls += " right";
-          if (revealed && name === picked && picked !== q.name) cls += " wrong";
+          if (revealed && isAnswer) cls += " right";
+          if (revealed && isPickedWrong) cls += " wrong";
           return (
             <button key={name} className={cls} disabled={revealed}
-              style={{ padding: "13px 14px", fontSize: 15, fontWeight: 700 }}
+              style={{ padding: "13px 14px", fontSize: 15, fontWeight: 700, display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}
               onClick={() => pick(name)}>
-              {name}
+              <span>{name}</span>
+              {revealed && isAnswer && <Check size={18} style={{ color: "var(--green)", flexShrink: 0 }} aria-label="correct" />}
+              {revealed && isPickedWrong && <X size={18} style={{ color: "var(--flame)", flexShrink: 0 }} aria-label="your wrong pick" />}
             </button>
           );
         })}
@@ -117,7 +123,7 @@ export default function Daily({ data, onAlbum }) {
 
       {revealed && (
         <div className="fade" style={{ marginTop: 12 }}>
-          <p style={{ textAlign: "center", fontSize: 13, margin: "0 0 10px", color: picked === q.name ? "var(--flood)" : "var(--alert)", fontWeight: 700 }}>
+          <p style={{ textAlign: "center", fontSize: 13, margin: "0 0 10px", color: picked === q.name ? "var(--green)" : "var(--flame)", fontWeight: 700 }}>
             {picked === q.name ? "Sticker unlocked: " + q.name + "." : "It was " + q.name + ". One attempt, gone."}
           </p>
           <button className="btn" style={{ width: "100%", padding: 13, fontSize: 15 }} onClick={next}>
