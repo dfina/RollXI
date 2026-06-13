@@ -88,7 +88,7 @@ export default function App() {
         view === "home" ? <HomeView /> :
         view === "daily" ? <Daily data={data} onAlbum={() => setView("album")} /> :
         view === "album" ? <Album data={data} /> :
-        view === "campaign" ? <Campaign data={data} /> : <Chains />
+        view === "campaign" ? <Campaign data={data} /> : <Chains data={data} />
       )}
 
       <nav className="navbar" aria-label="Main">
