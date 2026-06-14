@@ -63,7 +63,7 @@ roll-xi-app/
 Each B-chunk indexes finalists + both semi-finalists of a competition as lightweight tier-O rows (one line: club, season, rating, kit, scorers). Breadth across competitions first.
 - B1 (done): European Cup / Champions League, 1955-56 to 2025-26. 284 verified club-seasons.
 - B2 (done): Cup Winners' Cup, 1960-61 to 1998-99. 78 verified club-seasons (winner + runner-up of all 39 editions) as tier-O rows.
-- B3: Fairs Cup + UEFA Cup / Europa League.
+- B3 (done): Fairs Cup (1955-1971) + UEFA Cup (1971-2009) + Europa League (2009-2025). 134 verified club-seasons (winner + runner-up of all 67 editions) as tier-O rows. 2025-26 excluded (in progress).
 - B4: Conference League + UEFA-era Intertoto (1995-2008).
 
 ### Ultimate data goal (confirmed)
