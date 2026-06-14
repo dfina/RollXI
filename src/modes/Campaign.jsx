@@ -22,7 +22,7 @@ export default function Campaign({ data }) {
   const reset = () => { save(SAVE_KEY, null); setCamp(null); };
 
   if (!camp) return <SetupScreen data={data} onStart={persist} />;
-  if (camp.phase === "build") return <BuildScreen data={data} camp={camp} onUpdate={persist} />;
+  if (camp.phase === "build") return <BuildScreen data={data} camp={camp} onUpdate={persist} onReset={reset} />;
   if (camp.phase === "league") return <LeagueScreen data={data} camp={camp} onUpdate={persist} onReset={reset} />;
   if (camp.phase === "leagueDone") return <LeagueDoneScreen camp={camp} onUpdate={persist} onReset={reset} />;
   if (camp.phase === "knockout") return <KnockoutScreen camp={camp} onUpdate={persist} onReset={reset} />;
@@ -49,17 +49,13 @@ function SetupScreen({ data, onStart }) {
       </p>
       <hr className="rule" />
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
-        {FORMATION_NAMES.map((name) => {
-          const c = { DF: 0, MF: 0, FW: 0 };
-          FORMATIONS[name].groups.forEach((g) => { if (c[g] !== undefined) c[g]++; });
-          return (
-            <button key={name} className={"seg" + (fm === name ? " on" : "")} style={{ padding: "13px 10px", display: "flex", justifyContent: "space-between", alignItems: "center" }}
+        {FORMATION_NAMES.map((name) => (
+            <button key={name} className={"seg" + (fm === name ? " on" : "")}
+              style={{ padding: "14px 10px", fontSize: 18, fontWeight: 900 }}
               onClick={() => setFm(name)}>
-              <span className="display" style={{ fontSize: 17 }}>{name}</span>
-              <span className="tele" style={{ fontSize: 10, opacity: 0.7 }}>{c.DF}-{c.MF}-{c.FW}</span>
+              {name}
             </button>
-          );
-        })}
+          ))}
       </div>
       <button className="btn" style={{ width: "100%", padding: 16, fontSize: 16, marginTop: 16 }} onClick={begin}>
         Start drafting →
@@ -69,10 +65,11 @@ function SetupScreen({ data, onStart }) {
 }
 
 /* ---------------- build: roll squads, pick one player each ---------------- */
-function BuildScreen({ data, camp, onUpdate }) {
+function BuildScreen({ data, camp, onUpdate, onReset }) {
   const placed = camp.xi.filter((s) => s.name).length;
   const done = placed === 11;
   const squad = !done ? data.squadById[camp.seq[camp.ptr]] : null;
+  const [slotPick, setSlotPick] = useState(null); // { player, slots:[idx,...] }
 
   const openGroups = useMemo(() => {
     const o = new Set();
@@ -83,13 +80,23 @@ function BuildScreen({ data, camp, onUpdate }) {
   const usedKeys = useMemo(() => new Set(camp.xi.filter((s) => s.name).map((s) => s.pickKey)), [camp]);
 
   function signPlayer(p) {
-    const grpOpen = openGroups.has(p.p);
-    if (!grpOpen) return; // can't fill a full line
+    if (!openGroups.has(p.p)) return;
+    const xi = camp.xi;
+    const openSlots = xi.map((s, i) => ({ ...s, i })).filter((s) => !s.name && s.grp === p.p);
+    if (openSlots.length === 1) {
+      // only one slot — assign directly
+      commitSlot(p, openSlots[0].i);
+    } else {
+      // multiple open slots — let the user pick which
+      setSlotPick({ player: p, slots: openSlots });
+    }
+  }
+
+  function commitSlot(p, slotIdx) {
     const xi = camp.xi.map((s) => ({ ...s }));
-    const idx = xi.findIndex((s) => !s.name && s.grp === p.p);
-    if (idx < 0) return;
-    xi[idx] = { ...xi[idx], name: p.n, rating: p.r, dp: p.dp || [p.p], nat: p.nat, squadId: squad.id, pickKey: squad.id + "|" + p.n };
+    xi[slotIdx] = { ...xi[slotIdx], name: p.n, rating: p.r, dp: p.dp || [p.p], nat: p.nat, squadId: squad.id, pickKey: squad.id + "|" + p.n };
     const nowDone = xi.filter((s) => s.name).length === 11;
+    setSlotPick(null);
     onUpdate({ ...camp, xi, ptr: nowDone ? camp.ptr : camp.ptr + 1 });
   }
 
@@ -111,6 +118,24 @@ function BuildScreen({ data, camp, onUpdate }) {
 
   return (
     <div className="fade">
+      {/* slot picker: shown when player has multiple open slots to choose from */}
+      {slotPick && (
+        <div style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,.45)", zIndex: 50, display: "flex", alignItems: "flex-end" }}>
+          <div className="card fade" style={{ width: "100%", padding: 18, borderRadius: "16px 16px 0 0" }}>
+            <p className="tele amber" style={{ fontSize: 11, letterSpacing: 1.5, margin: "0 0 4px", fontWeight: 800 }}>CHOOSE SLOT FOR {slotPick.player.n.toUpperCase()}</p>
+            <p className="dim" style={{ fontSize: 12, margin: "0 0 12px" }}>This player can fill more than one open slot. Pick which to fill.</p>
+            {slotPick.slots.map((s) => (
+              <button key={s.i} className="opt" style={{ width: "100%", padding: "12px 14px", fontSize: 15, fontWeight: 700, marginBottom: 6 }}
+                onClick={() => commitSlot(slotPick.player, s.i)}>
+                {s.label}
+              </button>
+            ))}
+            <button className="ghost" style={{ width: "100%", padding: 10, fontSize: 13, marginTop: 4 }}
+              onClick={() => setSlotPick(null)}>Cancel</button>
+          </div>
+        </div>
+      )}
+
       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline" }}>
         <p className="tele amber" style={{ fontSize: 12, letterSpacing: 2, margin: 0, fontWeight: 800 }}>DRAFT · {camp.formation}</p>
         <span className="tele chalk" style={{ fontSize: 12 }}>{placed}/11 signed</span>
@@ -166,6 +191,11 @@ function BuildScreen({ data, camp, onUpdate }) {
           </button>
         </div>
       )}
+
+      <button className="ghost" style={{ width: "100%", padding: 10, fontSize: 12, marginTop: 12, color: "var(--flame)", borderColor: "var(--flame)" }}
+        onClick={onReset}>
+        ← Change formation / abandon draft
+      </button>
     </div>
   );
 }
@@ -330,25 +360,20 @@ function Table({ table }) {
 function Ticker({ res, you, matchday, onDone }) {
   const [minute, setMinute] = useState(0);
   const [shown, setShown] = useState([]);
+  const [finished, setFinished] = useState(false);
   const reduce = typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   useEffect(() => {
     if (reduce) {
-      setMinute(90); setShown(res.timeline);
-      const t = setTimeout(onDone, 600);
-      return () => clearTimeout(t);
+      setMinute(90); setShown(res.timeline); setFinished(true); return;
     }
     let m = 0;
     const id = setInterval(() => {
       m += 1;
       setMinute(m);
-      const goalsNow = res.timeline.filter((e) => e.minute <= m);
-      setShown(goalsNow);
-      if (m >= 90) {
-        clearInterval(id);
-        setTimeout(onDone, 1400);
-      }
-    }, 32); // ~3s for 90 minutes
+      setShown(res.timeline.filter((e) => e.minute <= m));
+      if (m >= 90) { clearInterval(id); setFinished(true); }
+    }, 32);
     return () => clearInterval(id);
   }, []);
 
@@ -367,8 +392,8 @@ function Ticker({ res, you, matchday, onDone }) {
           </span>
           <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "left" }}>{res.home ? oppName : "Your XI"}</span>
         </div>
-        <div className="tele" style={{ fontSize: 14, marginTop: 8, color: minute >= 90 ? "var(--flame)" : "var(--green)", fontWeight: 800 }}>
-          {minute >= 90 ? "FULL TIME" : minute + "'"}
+        <div className="tele" style={{ fontSize: 14, marginTop: 8, color: finished ? "var(--flame)" : "var(--green)", fontWeight: 800 }}>
+          {finished ? "FULL TIME" : minute + "'"}
         </div>
       </div>
 
@@ -382,7 +407,7 @@ function Ticker({ res, you, matchday, onDone }) {
           </p>
         ))}
       </div>
-      {minute >= 90 && (
+      {finished && (
         <button className="btn" style={{ width: "100%", padding: 14, fontSize: 15, marginTop: 10 }} onClick={onDone}>
           Continue →
         </button>
@@ -727,14 +752,16 @@ function FinalTicker({ res, a, b, you, onDone }) {
 function GenericTicker({ timeline, hg, ag, leftName, rightName, title, extra, pens, onDone }) {
   const [minute, setMinute] = useState(0);
   const [shown, setShown] = useState([]);
+  const [finished, setFinished] = useState(false);
   const reduce = typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   useEffect(() => {
-    if (reduce) { setMinute(90); setShown(timeline); const t = setTimeout(onDone, 700); return () => clearTimeout(t); }
+    if (reduce) { setMinute(90); setShown(timeline); setFinished(true); return; }
     let m = 0;
     const id = setInterval(() => {
-      m += 1; setMinute(m);
+      m += 1;
+      setMinute(m);
       setShown(timeline.filter((e) => e.minute <= m));
-      if (m >= 90) { clearInterval(id); setTimeout(onDone, 1600); }
+      if (m >= 90) { clearInterval(id); setFinished(true); }
     }, 32);
     return () => clearInterval(id);
   }, []);
@@ -749,11 +776,11 @@ function GenericTicker({ timeline, hg, ag, leftName, rightName, title, extra, pe
           <span className="tele amber" style={{ fontSize: 34, fontWeight: 800, minWidth: 84 }}>{leftG}-{rightG}</span>
           <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "left" }}>{rightName}</span>
         </div>
-        <div className="tele" style={{ fontSize: 14, marginTop: 8, color: minute >= 90 ? "var(--flame)" : "var(--green)", fontWeight: 800 }}>
-          {minute >= 90 ? "FULL TIME" : minute + "'"}
+        <div className="tele" style={{ fontSize: 14, marginTop: 8, color: finished ? "var(--flame)" : "var(--green)", fontWeight: 800 }}>
+          {finished ? "FULL TIME" : minute + "'"}
         </div>
-        {minute >= 90 && extra && <p className="tele dim" style={{ fontSize: 11, margin: "4px 0 0" }}>{extra}</p>}
-        {minute >= 90 && pens && <p className="tele" style={{ fontSize: 12, margin: "4px 0 0", fontWeight: 800, color: "var(--flame)" }}>Penalties {pens.h}-{pens.a}</p>}
+        {finished && extra && <p className="tele dim" style={{ fontSize: 11, margin: "4px 0 0" }}>{extra}</p>}
+        {finished && pens && <p className="tele" style={{ fontSize: 12, margin: "4px 0 0", fontWeight: 800, color: "var(--flame)" }}>Penalties {pens.h}-{pens.a}</p>}
       </div>
       <div className="card" style={{ padding: "10px 14px", marginTop: 10, minHeight: 110 }}>
         {shown.length === 0 && <p className="tele dim" style={{ fontSize: 12, margin: 0 }}>Kick-off…</p>}
@@ -763,7 +790,7 @@ function GenericTicker({ timeline, hg, ag, leftName, rightName, title, extra, pe
           </p>
         ))}
       </div>
-      {minute >= 90 && <button className="btn" style={{ width: "100%", padding: 14, fontSize: 15, marginTop: 10 }} onClick={onDone}>Continue →</button>}
+      {finished && <button className="btn" style={{ width: "100%", padding: 14, fontSize: 15, marginTop: 10 }} onClick={onDone}>Continue →</button>}
     </div>
   );
 }
@@ -774,9 +801,9 @@ function ShootoutScreen({ tieObj, rl, onDone }) {
   const kicks = rl.pens.kicks;
   const reduce = typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   useEffect(() => {
-    if (reduce) { setN(kicks.length); const t = setTimeout(onDone, 800); return () => clearTimeout(t); }
+    if (reduce) { setN(kicks.length); return; }
     let i = 0;
-    const id = setInterval(() => { i += 1; setN(i); if (i >= kicks.length) { clearInterval(id); setTimeout(onDone, 1500); } }, 600);
+    const id = setInterval(() => { i += 1; setN(i); if (i >= kicks.length) clearInterval(id); }, 600);
     return () => clearInterval(id);
   }, []);
   const shown = kicks.slice(0, n);

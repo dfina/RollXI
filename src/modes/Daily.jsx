@@ -16,9 +16,10 @@ export default function Daily({ data, onAlbum }) {
 
   const [state, setState] = useState(() => load("daily:" + dateKey, { answers: {} }));
   const [shareMsg, setShareMsg] = useState(null);
+  const [pendingAdvance, setPendingAdvance] = useState(false);
   const answered = Object.keys(state.answers).length;
-  const idx = Math.min(answered, N - 1);
-  const done = answered >= N;
+  const idx = Math.min(answered - (pendingAdvance ? 1 : 0), N - 1);
+  const done = answered >= N && !pendingAdvance;
   const q = questions[idx];
 
   async function doShare() {
@@ -40,7 +41,7 @@ export default function Daily({ data, onAlbum }) {
   const revealed = picked !== undefined;
 
   function pick(name) {
-    if (revealed || done) return;
+    if (state.answers[idx] !== undefined || done) return;
     const next = { answers: { ...state.answers, [idx]: name } };
     save("daily:" + dateKey, next);
     if (name === q.name) {
@@ -53,9 +54,12 @@ export default function Daily({ data, onAlbum }) {
       save("daily:hist", hist);
     }
     setState(next);
+    setPendingAdvance(true);
   }
 
-  function next() { setState({ ...state }); } /* re-render; idx derives from answers */
+  function advanceQuestion() { setPendingAdvance(false); }
+
+  function next() { setState({ ...state }); }
 
   if (done) {
     const score = questions.filter((qq, i) => state.answers[i] === qq.name).length;
@@ -121,27 +125,27 @@ export default function Daily({ data, onAlbum }) {
           const isAnswer = name === q.name;
           const isPickedWrong = name === picked && picked !== q.name;
           let cls = "opt";
-          if (revealed && isAnswer) cls += " right";
-          if (revealed && isPickedWrong) cls += " wrong";
+          if (pendingAdvance && isAnswer) cls += " right";
+          if (pendingAdvance && isPickedWrong) cls += " wrong";
           return (
-            <button key={name} className={cls} disabled={revealed}
+            <button key={name} className={cls} disabled={pendingAdvance}
               style={{ padding: "13px 14px", fontSize: 15, fontWeight: 700, display: "flex", justifyContent: "space-between", alignItems: "center", gap: 8 }}
               onClick={() => pick(name)}>
               <span>{name}</span>
-              {revealed && isAnswer && <Check size={18} style={{ color: "var(--green)", flexShrink: 0 }} aria-label="correct" />}
-              {revealed && isPickedWrong && <X size={18} style={{ color: "var(--flame)", flexShrink: 0 }} aria-label="your wrong pick" />}
+              {pendingAdvance && isAnswer && <Check size={18} style={{ color: "var(--green)", flexShrink: 0 }} aria-label="correct" />}
+              {pendingAdvance && isPickedWrong && <X size={18} style={{ color: "var(--flame)", flexShrink: 0 }} aria-label="your wrong pick" />}
             </button>
           );
         })}
       </div>
 
-      {revealed && (
+      {pendingAdvance && (
         <div className="fade" style={{ marginTop: 12 }}>
           <p style={{ textAlign: "center", fontSize: 13, margin: "0 0 10px", color: picked === q.name ? "var(--green)" : "var(--flame)", fontWeight: 700 }}>
             {picked === q.name ? "Sticker unlocked: " + q.name + "." : "It was " + q.name + ". One attempt, gone."}
           </p>
-          <button className="btn" style={{ width: "100%", padding: 13, fontSize: 15 }} onClick={next}>
-            {answered >= N ? "See results" : "Next player"}
+          <button className="btn" style={{ width: "100%", padding: 13, fontSize: 15 }} onClick={advanceQuestion}>
+            {answered >= N ? "See results →" : "Next player →"}
           </button>
         </div>
       )}

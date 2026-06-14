@@ -2,6 +2,8 @@
   "packs": [
     { "file": "pack-seed.json", "name": "Seed pack (17 champions)", "v": "0.3" },
     { "file": "pack-pickable-wave1a.json", "name": "Wave 1a: modern UCL semi-finalists", "v": "0.9" },
+    { "file": "pack-pickable-wave1b.json", "name": "Wave 1b: 2010s UCL semi-finalists", "v": "0.10" },
+    { "file": "pack-pickable-wave1c.json", "name": "Wave 1c: 2000s UCL semi-finalists", "v": "0.12" },
     { "file": "pack-opponents-ec-ucl.json", "name": "European Cup / Champions League index", "v": "0.8", "verified": true }
   ]
 }
