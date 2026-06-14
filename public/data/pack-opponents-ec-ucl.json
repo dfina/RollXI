@@ -8,7 +8,7 @@
    "EC",
    "UCL"
   ],
-  "promotedOut": 119
+  "promotedOut": 149
  },
  "squads": [
   {
@@ -54,47 +54,6 @@
    ]
   },
   {
-   "id": "ec-acm-195556",
-   "tierType": "O",
-   "club": "AC Milan",
-   "country": "Italy",
-   "season": "1955-56",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#D50000",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "van Basten",
-    "Gullit",
-    "Shevchenko"
-   ]
-  },
-  {
-   "id": "ec-hibs-195556",
-   "tierType": "O",
-   "club": "Hibernian",
-   "country": "Scotland",
-   "season": "1955-56",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#005000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Reilly",
-    "Turnbull"
-   ]
-  },
-  {
    "id": "ec-rma-195657",
    "tierType": "O",
    "club": "Real Madrid",
@@ -133,48 +92,6 @@
    "scorers": [
     "Hamrin",
     "Batistuta"
-   ]
-  },
-  {
-   "id": "ec-mun-195657",
-   "tierType": "O",
-   "club": "Manchester United",
-   "country": "England",
-   "season": "1956-57",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#DA291C",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Charlton",
-    "Best",
-    "Law"
-   ]
-  },
-  {
-   "id": "ec-rsb-195657",
-   "tierType": "O",
-   "club": "Red Star Belgrade",
-   "country": "Yugoslavia",
-   "season": "1956-57",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#E4002B",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Pančev",
-    "Savićević",
-    "Mihajlović"
    ]
   },
   {
@@ -220,47 +137,6 @@
    ]
   },
   {
-   "id": "ec-vasas-195758",
-   "tierType": "O",
-   "club": "Vasas SC",
-   "country": "Hungary",
-   "season": "1957-58",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#E4002B",
-    "#003DA5"
-   ],
-   "crest": null,
-   "scorers": [
-    "Csordás",
-    "Szilágyi"
-   ]
-  },
-  {
-   "id": "ec-mun-195758",
-   "tierType": "O",
-   "club": "Manchester United",
-   "country": "England",
-   "season": "1957-58",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#DA291C",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Charlton",
-    "Best",
-    "Law"
-   ]
-  },
-  {
    "id": "ec-rma-195859",
    "tierType": "O",
    "club": "Real Madrid",
@@ -303,47 +179,6 @@
    ]
   },
   {
-   "id": "ec-atm-195859",
-   "tierType": "O",
-   "club": "Atletico Madrid",
-   "country": "Spain",
-   "season": "1958-59",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#CB3524",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Luis Aragonés",
-    "Griezmann",
-    "Torres"
-   ]
-  },
-  {
-   "id": "ec-yb-195859",
-   "tierType": "O",
-   "club": "BSC Young Boys",
-   "country": "Switzerland",
-   "season": "1958-59",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#FFD200",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Meier",
-    "Hügi"
-   ]
-  },
-  {
    "id": "ec-rma-195960",
    "tierType": "O",
    "club": "Real Madrid",
@@ -382,48 +217,6 @@
    "scorers": [
     "Pirmann",
     "Stein"
-   ]
-  },
-  {
-   "id": "ec-bar-195960",
-   "tierType": "O",
-   "club": "Barcelona",
-   "country": "Spain",
-   "season": "1959-60",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#A50044",
-    "#004D98"
-   ],
-   "crest": null,
-   "scorers": [
-    "Kubala",
-    "Cruyff",
-    "Messi"
-   ]
-  },
-  {
-   "id": "ec-rfc-195960",
-   "tierType": "O",
-   "club": "Glasgow Rangers",
-   "country": "Scotland",
-   "season": "1959-60",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#1B458F",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Millar",
-    "Brand",
-    "McCoist"
    ]
   },
   {
@@ -469,47 +262,6 @@
    ]
   },
   {
-   "id": "ec-rap-196061",
-   "tierType": "O",
-   "club": "Rapid Vienna",
-   "country": "Austria",
-   "season": "1960-61",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#006A33",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Hanappi",
-    "Krankl"
-   ]
-  },
-  {
-   "id": "ec-hsv-196061",
-   "tierType": "O",
-   "club": "SV Hamburg",
-   "country": "Germany",
-   "season": "1960-61",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#FFFFFF",
-    "#003DA5"
-   ],
-   "crest": null,
-   "scorers": [
-    "Keegan",
-    "Hrubesch",
-    "Magath"
-   ]
-  },
-  {
    "id": "ec-ben-196162",
    "tierType": "O",
    "club": "Benfica",
@@ -549,47 +301,6 @@
     "Di Stéfano",
     "Puskás",
     "Gento"
-   ]
-  },
-  {
-   "id": "ec-tot-196162",
-   "tierType": "O",
-   "club": "Tottenham Hotspur",
-   "country": "England",
-   "season": "1961-62",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#FFFFFF",
-    "#132257"
-   ],
-   "crest": null,
-   "scorers": [
-    "Greaves",
-    "Blanchflower",
-    "Kane"
-   ]
-  },
-  {
-   "id": "ec-std-196162",
-   "tierType": "O",
-   "club": "Standard Liege",
-   "country": "Belgium",
-   "season": "1961-62",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#E30613",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Goethals",
-    "Piters"
    ]
   },
   {
@@ -635,47 +346,6 @@
    ]
   },
   {
-   "id": "ec-dun-196263",
-   "tierType": "O",
-   "club": "Dundee",
-   "country": "Scotland",
-   "season": "1962-63",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#003087",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Gilzean",
-    "Cousin"
-   ]
-  },
-  {
-   "id": "ec-fey-196263",
-   "tierType": "O",
-   "club": "Feyenoord",
-   "country": "Netherlands",
-   "season": "1962-63",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#E30613",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Kindvall",
-    "Cruyff",
-    "van Hanegem"
-   ]
-  },
-  {
    "id": "ec-int-196364",
    "tierType": "O",
    "club": "Inter",
@@ -718,47 +388,6 @@
    ]
   },
   {
-   "id": "ec-bvb-196364",
-   "tierType": "O",
-   "club": "Borussia Dortmund",
-   "country": "Germany",
-   "season": "1963-64",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#FDE100",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Lewandowski",
-    "Riedle",
-    "Reus"
-   ]
-  },
-  {
-   "id": "ec-fcz-196364",
-   "tierType": "O",
-   "club": "FC Zurich",
-   "country": "Switzerland",
-   "season": "1963-64",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#FFFFFF",
-    "#1B458F"
-   ],
-   "crest": null,
-   "scorers": [
-    "Künzli",
-    "Martinelli"
-   ]
-  },
-  {
    "id": "ec-ben-196465",
    "tierType": "O",
    "club": "Benfica",
@@ -777,47 +406,6 @@
     "Eusébio",
     "Coluna",
     "Águas"
-   ]
-  },
-  {
-   "id": "ec-liv-196465",
-   "tierType": "O",
-   "club": "Liverpool",
-   "country": "England",
-   "season": "1964-65",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#C8102E",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Dalglish",
-    "Rush",
-    "Gerrard"
-   ]
-  },
-  {
-   "id": "ec-gyor-196465",
-   "tierType": "O",
-   "club": "Vasas Gyor",
-   "country": "Hungary",
-   "season": "1964-65",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#008C44",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Korsós",
-    "Mészöly"
    ]
   },
   {
@@ -859,48 +447,6 @@
    "scorers": [
     "Galić",
     "Vasović"
-   ]
-  },
-  {
-   "id": "ec-int-196566",
-   "tierType": "O",
-   "club": "Inter",
-   "country": "Italy",
-   "season": "1965-66",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#1E71B8",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Mazzola",
-    "Suárez",
-    "Milito"
-   ]
-  },
-  {
-   "id": "ec-mun-196566",
-   "tierType": "O",
-   "club": "Manchester United",
-   "country": "England",
-   "season": "1965-66",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#DA291C",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Charlton",
-    "Best",
-    "Law"
    ]
   },
   {
@@ -946,46 +492,6 @@
    ]
   },
   {
-   "id": "ec-duk-196667",
-   "tierType": "O",
-   "club": "Dukla Prague",
-   "country": "Czechoslovakia",
-   "season": "1966-67",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#7A0019",
-    "#FFD200"
-   ],
-   "crest": null,
-   "scorers": [
-    "Masopust",
-    "Kučera"
-   ]
-  },
-  {
-   "id": "ec-cska-196667",
-   "tierType": "O",
-   "club": "CSKA Sofia",
-   "country": "Bulgaria",
-   "season": "1966-67",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#E4002B",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Asparuhov",
-    "Yakimov"
-   ]
-  },
-  {
    "id": "ec-mun-196768",
    "tierType": "O",
    "club": "Manchester United",
@@ -1025,48 +531,6 @@
     "Eusébio",
     "Coluna",
     "Águas"
-   ]
-  },
-  {
-   "id": "ec-rma-196768",
-   "tierType": "O",
-   "club": "Real Madrid",
-   "country": "Spain",
-   "season": "1967-68",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#FFFFFF",
-    "#C9A227"
-   ],
-   "crest": null,
-   "scorers": [
-    "Di Stéfano",
-    "Puskás",
-    "Gento"
-   ]
-  },
-  {
-   "id": "ec-juv-196768",
-   "tierType": "O",
-   "club": "Juventus",
-   "country": "Italy",
-   "season": "1967-68",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#000000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Platini",
-    "Del Piero",
-    "Baggio"
    ]
   },
   {
@@ -1112,47 +576,6 @@
    ]
   },
   {
-   "id": "ec-mun-196869",
-   "tierType": "O",
-   "club": "Manchester United",
-   "country": "England",
-   "season": "1968-69",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#DA291C",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Charlton",
-    "Best",
-    "Law"
-   ]
-  },
-  {
-   "id": "ec-trn-196869",
-   "tierType": "O",
-   "club": "Spartak Trnava",
-   "country": "Czechoslovakia",
-   "season": "1968-69",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#E30613",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Adamec",
-    "Kuna"
-   ]
-  },
-  {
    "id": "ec-fey-196970",
    "tierType": "O",
    "club": "Feyenoord",
@@ -1192,47 +615,6 @@
     "Chalmers",
     "McNeill",
     "Larsson"
-   ]
-  },
-  {
-   "id": "ec-leg-196970",
-   "tierType": "O",
-   "club": "Legia Warsaw",
-   "country": "Poland",
-   "season": "1969-70",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#FFFFFF",
-    "#018749"
-   ],
-   "crest": null,
-   "scorers": [
-    "Deyna",
-    "Pieszko"
-   ]
-  },
-  {
-   "id": "ec-lee-196970",
-   "tierType": "O",
-   "club": "Leeds United",
-   "country": "England",
-   "season": "1969-70",
-   "comps": [
-    "EC"
-   ],
-   "rating": 83,
-   "kit": [
-    "#FFFFFF",
-    "#1D428A"
-   ],
-   "crest": null,
-   "scorers": [
-    "Lorimer",
-    "Jones",
-    "Clarke"
    ]
   },
   {
