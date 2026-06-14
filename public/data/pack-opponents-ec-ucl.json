@@ -8,7 +8,7 @@
    "EC",
    "UCL"
   ],
-  "promotedOut": 80
+  "promotedOut": 100
  },
  "squads": [
   {
@@ -2090,48 +2090,6 @@
    ]
   },
   {
-   "id": "ec-bay-198081",
-   "tierType": "O",
-   "club": "Bayern Munich",
-   "country": "Germany",
-   "season": "1980-81",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#DC052D",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Müller",
-    "Hoeneß",
-    "Lewandowski"
-   ]
-  },
-  {
-   "id": "ec-int-198081",
-   "tierType": "O",
-   "club": "Inter",
-   "country": "Italy",
-   "season": "1980-81",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#1E71B8",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Mazzola",
-    "Suárez",
-    "Milito"
-   ]
-  },
-  {
    "id": "ec-avl-198182",
    "tierType": "O",
    "club": "Aston Villa",
@@ -2171,47 +2129,6 @@
     "Müller",
     "Hoeneß",
     "Lewandowski"
-   ]
-  },
-  {
-   "id": "ec-and-198182",
-   "tierType": "O",
-   "club": "Anderlecht",
-   "country": "Belgium",
-   "season": "1981-82",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#5A2A82",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Coeck",
-    "Vandenbergh",
-    "Nilis"
-   ]
-  },
-  {
-   "id": "ec-cska-198182",
-   "tierType": "O",
-   "club": "CSKA Sofia",
-   "country": "Bulgaria",
-   "season": "1981-82",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#E4002B",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Asparuhov",
-    "Yakimov"
    ]
   },
   {
@@ -2257,46 +2174,6 @@
    ]
   },
   {
-   "id": "ec-rso-198283",
-   "tierType": "O",
-   "club": "Real Sociedad",
-   "country": "Spain",
-   "season": "1982-83",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#0067B1",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Satrústegui",
-    "López Ufarte"
-   ]
-  },
-  {
-   "id": "ec-wlo-198283",
-   "tierType": "O",
-   "club": "Widzew Lodz",
-   "country": "Poland",
-   "season": "1982-83",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#E30613",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Boniek",
-    "Smolarek"
-   ]
-  },
-  {
    "id": "ec-liv-198384",
    "tierType": "O",
    "club": "Liverpool",
@@ -2336,46 +2213,6 @@
     "Pruzzo",
     "Conti",
     "Totti"
-   ]
-  },
-  {
-   "id": "ec-dbu-198384",
-   "tierType": "O",
-   "club": "Dinamo Bucharest",
-   "country": "Romania",
-   "season": "1983-84",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#E4002B",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Dudu Georgescu",
-    "Rednic"
-   ]
-  },
-  {
-   "id": "ec-dut-198384",
-   "tierType": "O",
-   "club": "Dundee United",
-   "country": "Scotland",
-   "season": "1983-84",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FF6600",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Sturrock",
-    "Dodds"
    ]
   },
   {
@@ -2421,47 +2258,6 @@
    ]
   },
   {
-   "id": "ec-gbx-198485",
-   "tierType": "O",
-   "club": "Girondins Bordeaux",
-   "country": "France",
-   "season": "1984-85",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#000080",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Giresse",
-    "Tigana",
-    "Lacombe"
-   ]
-  },
-  {
-   "id": "ec-pao-198485",
-   "tierType": "O",
-   "club": "Panathinaikos",
-   "country": "Greece",
-   "season": "1984-85",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#018749",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Antoniadis",
-    "Domazos"
-   ]
-  },
-  {
    "id": "ec-ste-198586",
    "tierType": "O",
    "club": "Steaua Bucharest",
@@ -2501,47 +2297,6 @@
     "Kubala",
     "Cruyff",
     "Messi"
-   ]
-  },
-  {
-   "id": "ec-and-198586",
-   "tierType": "O",
-   "club": "Anderlecht",
-   "country": "Belgium",
-   "season": "1985-86",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#5A2A82",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Coeck",
-    "Vandenbergh",
-    "Nilis"
-   ]
-  },
-  {
-   "id": "ec-ifk-198586",
-   "tierType": "O",
-   "club": "IFK Gothenburg",
-   "country": "Sweden",
-   "season": "1985-86",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#0057B7",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Nilsson",
-    "Pettersson"
    ]
   },
   {
@@ -2587,47 +2342,6 @@
    ]
   },
   {
-   "id": "ec-dki-198687",
-   "tierType": "O",
-   "club": "Dinamo Kiev",
-   "country": "Soviet Union",
-   "season": "1986-87",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FFFFFF",
-    "#0057B7"
-   ],
-   "crest": null,
-   "scorers": [
-    "Blokhin",
-    "Belanov"
-   ]
-  },
-  {
-   "id": "ec-rma-198687",
-   "tierType": "O",
-   "club": "Real Madrid",
-   "country": "Spain",
-   "season": "1986-87",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FFFFFF",
-    "#C9A227"
-   ],
-   "crest": null,
-   "scorers": [
-    "Di Stéfano",
-    "Puskás",
-    "Gento"
-   ]
-  },
-  {
    "id": "ec-psv-198788",
    "tierType": "O",
    "club": "PSV Eindhoven",
@@ -2667,48 +2381,6 @@
     "Eusébio",
     "Coluna",
     "Águas"
-   ]
-  },
-  {
-   "id": "ec-rma-198788",
-   "tierType": "O",
-   "club": "Real Madrid",
-   "country": "Spain",
-   "season": "1987-88",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FFFFFF",
-    "#C9A227"
-   ],
-   "crest": null,
-   "scorers": [
-    "Di Stéfano",
-    "Puskás",
-    "Gento"
-   ]
-  },
-  {
-   "id": "ec-ste-198788",
-   "tierType": "O",
-   "club": "Steaua Bucharest",
-   "country": "Romania",
-   "season": "1987-88",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#0033A0",
-    "#E4002B"
-   ],
-   "crest": null,
-   "scorers": [
-    "Pițurcă",
-    "Lăcătuș",
-    "Hagi"
    ]
   },
   {
@@ -2754,47 +2426,6 @@
    ]
   },
   {
-   "id": "ec-rma-198889",
-   "tierType": "O",
-   "club": "Real Madrid",
-   "country": "Spain",
-   "season": "1988-89",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FFFFFF",
-    "#C9A227"
-   ],
-   "crest": null,
-   "scorers": [
-    "Di Stéfano",
-    "Puskás",
-    "Gento"
-   ]
-  },
-  {
-   "id": "ec-gal-198889",
-   "tierType": "O",
-   "club": "Galatasaray",
-   "country": "Turkey",
-   "season": "1988-89",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#A90432",
-    "#FBE122"
-   ],
-   "crest": null,
-   "scorers": [
-    "Hagi",
-    "Hakan Şükür"
-   ]
-  },
-  {
    "id": "ec-acm-198990",
    "tierType": "O",
    "club": "AC Milan",
@@ -2834,48 +2465,6 @@
     "Eusébio",
     "Coluna",
     "Águas"
-   ]
-  },
-  {
-   "id": "ec-bay-198990",
-   "tierType": "O",
-   "club": "Bayern Munich",
-   "country": "Germany",
-   "season": "1989-90",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#DC052D",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Müller",
-    "Hoeneß",
-    "Lewandowski"
-   ]
-  },
-  {
-   "id": "ec-om-198990",
-   "tierType": "O",
-   "club": "Olympique Marseille",
-   "country": "France",
-   "season": "1989-90",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#2FAEE0",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Papin",
-    "Boli",
-    "Waddle"
    ]
   },
   {
