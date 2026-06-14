@@ -8,7 +8,7 @@
    "EC",
    "UCL"
   ],
-  "promotedOut": 100
+  "promotedOut": 119
  },
  "squads": [
   {
@@ -1277,48 +1277,6 @@
    ]
   },
   {
-   "id": "ec-atm-197071",
-   "tierType": "O",
-   "club": "Atletico Madrid",
-   "country": "Spain",
-   "season": "1970-71",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#CB3524",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Luis Aragonés",
-    "Griezmann",
-    "Torres"
-   ]
-  },
-  {
-   "id": "ec-rsb-197071",
-   "tierType": "O",
-   "club": "Red Star Belgrade",
-   "country": "Yugoslavia",
-   "season": "1970-71",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#E4002B",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Pančev",
-    "Savićević",
-    "Mihajlović"
-   ]
-  },
-  {
    "id": "ec-aja-197172",
    "tierType": "O",
    "club": "Ajax",
@@ -1358,48 +1316,6 @@
     "Mazzola",
     "Suárez",
     "Milito"
-   ]
-  },
-  {
-   "id": "ec-ben-197172",
-   "tierType": "O",
-   "club": "Benfica",
-   "country": "Portugal",
-   "season": "1971-72",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#E30613",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Eusébio",
-    "Coluna",
-    "Águas"
-   ]
-  },
-  {
-   "id": "ec-cel-197172",
-   "tierType": "O",
-   "club": "Celtic",
-   "country": "Scotland",
-   "season": "1971-72",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#018749",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Chalmers",
-    "McNeill",
-    "Larsson"
    ]
   },
   {
@@ -1445,48 +1361,6 @@
    ]
   },
   {
-   "id": "ec-rma-197273",
-   "tierType": "O",
-   "club": "Real Madrid",
-   "country": "Spain",
-   "season": "1972-73",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FFFFFF",
-    "#C9A227"
-   ],
-   "crest": null,
-   "scorers": [
-    "Di Stéfano",
-    "Puskás",
-    "Gento"
-   ]
-  },
-  {
-   "id": "ec-der-197273",
-   "tierType": "O",
-   "club": "Derby County",
-   "country": "England",
-   "season": "1972-73",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FFFFFF",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Hector",
-    "O'Hare",
-    "Gemmill"
-   ]
-  },
-  {
    "id": "ec-atm-197374",
    "tierType": "O",
    "club": "Atletico Madrid",
@@ -1505,47 +1379,6 @@
     "Luis Aragonés",
     "Griezmann",
     "Torres"
-   ]
-  },
-  {
-   "id": "ec-ujp-197374",
-   "tierType": "O",
-   "club": "Ujpest",
-   "country": "Hungary",
-   "season": "1973-74",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#522D6D",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Bene",
-    "Göröcs"
-   ]
-  },
-  {
-   "id": "ec-cel-197374",
-   "tierType": "O",
-   "club": "Celtic",
-   "country": "Scotland",
-   "season": "1973-74",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#018749",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Chalmers",
-    "McNeill",
-    "Larsson"
    ]
   },
   {
@@ -1612,27 +1445,6 @@
    ]
   },
   {
-   "id": "ec-bar-197475",
-   "tierType": "O",
-   "club": "Barcelona",
-   "country": "Spain",
-   "season": "1974-75",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#A50044",
-    "#004D98"
-   ],
-   "crest": null,
-   "scorers": [
-    "Kubala",
-    "Cruyff",
-    "Messi"
-   ]
-  },
-  {
    "id": "ec-bay-197576",
    "tierType": "O",
    "club": "Bayern Munich",
@@ -1672,48 +1484,6 @@
     "Rocheteau",
     "H. Revelli",
     "Larqué"
-   ]
-  },
-  {
-   "id": "ec-rma-197576",
-   "tierType": "O",
-   "club": "Real Madrid",
-   "country": "Spain",
-   "season": "1975-76",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FFFFFF",
-    "#C9A227"
-   ],
-   "crest": null,
-   "scorers": [
-    "Di Stéfano",
-    "Puskás",
-    "Gento"
-   ]
-  },
-  {
-   "id": "ec-psv-197576",
-   "tierType": "O",
-   "club": "PSV Eindhoven",
-   "country": "Netherlands",
-   "season": "1975-76",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#ED1C24",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Kieft",
-    "R. Koeman",
-    "Romário"
    ]
   },
   {
@@ -1759,46 +1529,6 @@
    ]
   },
   {
-   "id": "ec-fcz-197677",
-   "tierType": "O",
-   "club": "FC Zurich",
-   "country": "Switzerland",
-   "season": "1976-77",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FFFFFF",
-    "#1B458F"
-   ],
-   "crest": null,
-   "scorers": [
-    "Künzli",
-    "Martinelli"
-   ]
-  },
-  {
-   "id": "ec-dki-197677",
-   "tierType": "O",
-   "club": "Dinamo Kiev",
-   "country": "Soviet Union",
-   "season": "1976-77",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FFFFFF",
-    "#0057B7"
-   ],
-   "crest": null,
-   "scorers": [
-    "Blokhin",
-    "Belanov"
-   ]
-  },
-  {
    "id": "ec-liv-197778",
    "tierType": "O",
    "club": "Liverpool",
@@ -1837,48 +1567,6 @@
    "scorers": [
     "Lambert",
     "Ku Simon"
-   ]
-  },
-  {
-   "id": "ec-bmg-197778",
-   "tierType": "O",
-   "club": "Borussia Monchengladbach",
-   "country": "Germany",
-   "season": "1977-78",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#000000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Heynckes",
-    "Simonsen",
-    "Stielike"
-   ]
-  },
-  {
-   "id": "ec-juv-197778",
-   "tierType": "O",
-   "club": "Juventus",
-   "country": "Italy",
-   "season": "1977-78",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#000000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Platini",
-    "Del Piero",
-    "Baggio"
    ]
   },
   {
@@ -1923,47 +1611,6 @@
    ]
   },
   {
-   "id": "ec-koln-197879",
-   "tierType": "O",
-   "club": "1.FC Koln",
-   "country": "Germany",
-   "season": "1978-79",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#E30613",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Müller",
-    "Allofs",
-    "Littbarski"
-   ]
-  },
-  {
-   "id": "ec-aut-197879",
-   "tierType": "O",
-   "club": "Austria Wien",
-   "country": "Austria",
-   "season": "1978-79",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#7A2E8A",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Schachner",
-    "Prohaska"
-   ]
-  },
-  {
    "id": "ec-nfo-197980",
    "tierType": "O",
    "club": "Nottingham Forest",
@@ -2003,48 +1650,6 @@
     "Keegan",
     "Hrubesch",
     "Magath"
-   ]
-  },
-  {
-   "id": "ec-aja-197980",
-   "tierType": "O",
-   "club": "Ajax",
-   "country": "Netherlands",
-   "season": "1979-80",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#D2122E",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Cruyff",
-    "Rep",
-    "Kluivert"
-   ]
-  },
-  {
-   "id": "ec-rma-197980",
-   "tierType": "O",
-   "club": "Real Madrid",
-   "country": "Spain",
-   "season": "1979-80",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FFFFFF",
-    "#C9A227"
-   ],
-   "crest": null,
-   "scorers": [
-    "Di Stéfano",
-    "Puskás",
-    "Gento"
    ]
   },
   {

@@ -6,6 +6,7 @@
     { "file": "pack-pickable-wave1c.json", "name": "Wave 1c: 2000s UCL semi-finalists", "v": "0.12" },
     { "file": "pack-pickable-wave1d.json", "name": "Wave 1d: 1990s EC/UCL semi-finalists", "v": "0.13" },
     { "file": "pack-pickable-wave1e.json", "name": "Wave 1e: 1980s EC semi-finalists", "v": "0.14" },
+    { "file": "pack-pickable-wave1f.json", "name": "Wave 1f: 1970s EC semi-finalists", "v": "0.15" },
     { "file": "pack-opponents-ec-ucl.json", "name": "European Cup / Champions League index", "v": "0.8", "verified": true }
   ]
 }
