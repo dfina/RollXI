@@ -8,7 +8,7 @@
    "EC",
    "UCL"
   ],
-  "promotedOut": 189
+  "promotedOut": 170
  },
  "squads": [
   {
@@ -2001,96 +2001,158 @@
    ]
   },
   {
-   "id": "ec-esp-bar-1415",
+   "id": "ec-liv-200405",
    "tierType": "O",
-   "club": "Barcelona",
-   "country": "Spain",
-   "season": "2014-15",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "2004-05",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-acm-200405",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "2004-05",
    "comps": [
     "UCL"
    ],
    "rating": 87,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-bar-200506",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2005-06",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
    "kit": [
     "#A50044",
     "#004D98"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
   },
   {
-   "id": "ec-ita-juv-1415",
+   "id": "ec-ars-200506",
    "tierType": "O",
-   "club": "Juventus",
+   "club": "Arsenal",
+   "country": "England",
+   "season": "2005-06",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#EF0107",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Henry",
+    "Bergkamp",
+    "Wright"
+   ]
+  },
+  {
+   "id": "ec-acm-200607",
+   "tierType": "O",
+   "club": "AC Milan",
    "country": "Italy",
-   "season": "2014-15",
+   "season": "2006-07",
    "comps": [
     "UCL"
    ],
-   "rating": 87,
+   "rating": 89,
    "kit": [
-    "#000000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-esp-rma-1314",
-   "tierType": "O",
-   "club": "Real Madrid",
-   "country": "Spain",
-   "season": "2013-14",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#FFFFFF",
-    "#C9A227"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-esp-atm-1314",
-   "tierType": "O",
-   "club": "Atlético Madrid",
-   "country": "Spain",
-   "season": "2013-14",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#CB3524",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-ger-bvb-1213",
-   "tierType": "O",
-   "club": "Borussia Dortmund",
-   "country": "Germany",
-   "season": "2012-13",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#FDE100",
+    "#D50000",
     "#000000"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
   },
   {
-   "id": "ec-eng-che-1112",
+   "id": "ec-liv-200607",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "2006-07",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-mun-200708",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "2007-08",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-che-200708",
    "tierType": "O",
    "club": "Chelsea",
    "country": "England",
-   "season": "2011-12",
+   "season": "2007-08",
    "comps": [
     "UCL"
    ],
@@ -2100,78 +2162,14 @@
     "#FFFFFF"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [
+    "Drogba",
+    "Lampard",
+    "Hasselbaink"
+   ]
   },
   {
-   "id": "ec-ger-bay-1112",
-   "tierType": "O",
-   "club": "Bayern München",
-   "country": "Germany",
-   "season": "2011-12",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#DC052D",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-esp-bar-1011",
-   "tierType": "O",
-   "club": "Barcelona",
-   "country": "Spain",
-   "season": "2010-11",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#A50044",
-    "#004D98"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-eng-mun-1011",
-   "tierType": "O",
-   "club": "Manchester United",
-   "country": "England",
-   "season": "2010-11",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#DA291C",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-ger-bay-0910",
-   "tierType": "O",
-   "club": "Bayern München",
-   "country": "Germany",
-   "season": "2009-10",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#DC052D",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-eng-mun-0809",
+   "id": "ec-mun-200809",
    "tierType": "O",
    "club": "Manchester United",
    "country": "England",
@@ -2185,337 +2183,18 @@
     "#000000"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
   },
   {
-   "id": "ec-eng-mun-0708",
+   "id": "ec-bay-200910",
    "tierType": "O",
-   "club": "Manchester United",
-   "country": "England",
-   "season": "2007-08",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#DA291C",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-eng-che-0708",
-   "tierType": "O",
-   "club": "Chelsea",
-   "country": "England",
-   "season": "2007-08",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#034694",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-ita-acm-0607",
-   "tierType": "O",
-   "club": "AC Milan",
-   "country": "Italy",
-   "season": "2006-07",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#D50000",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-eng-liv-0607",
-   "tierType": "O",
-   "club": "Liverpool",
-   "country": "England",
-   "season": "2006-07",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#C8102E",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-esp-bar-0506",
-   "tierType": "O",
-   "club": "Barcelona",
-   "country": "Spain",
-   "season": "2005-06",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#A50044",
-    "#004D98"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-eng-ars-0506",
-   "tierType": "O",
-   "club": "Arsenal",
-   "country": "England",
-   "season": "2005-06",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#EF0107",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-eng-liv-0405",
-   "tierType": "O",
-   "club": "Liverpool",
-   "country": "England",
-   "season": "2004-05",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#C8102E",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-ita-acm-0405",
-   "tierType": "O",
-   "club": "AC Milan",
-   "country": "Italy",
-   "season": "2004-05",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#D50000",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-eng-ars-2526",
-   "tierType": "O",
-   "club": "Arsenal",
-   "country": "England",
-   "season": "2025-26",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#EF0107",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-fra-psg-2425",
-   "tierType": "O",
-   "club": "Paris Saint-Germain",
-   "country": "France",
-   "season": "2024-25",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#004170",
-    "#E30613"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-ita-int-2425",
-   "tierType": "O",
-   "club": "Inter",
-   "country": "Italy",
-   "season": "2024-25",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#1E71B8",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-esp-rma-2324",
-   "tierType": "O",
-   "club": "Real Madrid",
-   "country": "Spain",
-   "season": "2023-24",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#FFFFFF",
-    "#C9A227"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-ger-bvb-2324",
-   "tierType": "O",
-   "club": "Borussia Dortmund",
+   "club": "Bayern Munich",
    "country": "Germany",
-   "season": "2023-24",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#FDE100",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-eng-mci-2223",
-   "tierType": "O",
-   "club": "Manchester City",
-   "country": "England",
-   "season": "2022-23",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#6CABDD",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-ita-int-2223",
-   "tierType": "O",
-   "club": "Inter",
-   "country": "Italy",
-   "season": "2022-23",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#1E71B8",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-esp-rma-2122",
-   "tierType": "O",
-   "club": "Real Madrid",
-   "country": "Spain",
-   "season": "2021-22",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#FFFFFF",
-    "#C9A227"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-eng-liv-2122",
-   "tierType": "O",
-   "club": "Liverpool",
-   "country": "England",
-   "season": "2021-22",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#C8102E",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-eng-che-2021",
-   "tierType": "O",
-   "club": "Chelsea",
-   "country": "England",
-   "season": "2020-21",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#034694",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-eng-mci-2021",
-   "tierType": "O",
-   "club": "Manchester City",
-   "country": "England",
-   "season": "2020-21",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#6CABDD",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-ger-bay-1920",
-   "tierType": "O",
-   "club": "Bayern München",
-   "country": "Germany",
-   "season": "2019-20",
+   "season": "2009-10",
    "comps": [
     "UCL"
    ],
@@ -2525,133 +2204,144 @@
     "#FFFFFF"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
   },
   {
-   "id": "ec-fra-psg-1920",
+   "id": "ec-bar-201011",
    "tierType": "O",
-   "club": "Paris Saint-Germain",
-   "country": "France",
-   "season": "2019-20",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2010-11",
    "comps": [
     "UCL"
    ],
-   "rating": 87,
+   "rating": 89,
    "kit": [
-    "#004170",
-    "#E30613"
+    "#A50044",
+    "#004D98"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
   },
   {
-   "id": "ec-eng-liv-1819",
+   "id": "ec-mun-201011",
    "tierType": "O",
-   "club": "Liverpool",
+   "club": "Manchester United",
    "country": "England",
-   "season": "2018-19",
+   "season": "2010-11",
    "comps": [
     "UCL"
    ],
    "rating": 87,
    "kit": [
-    "#C8102E",
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-che-201112",
+   "tierType": "O",
+   "club": "Chelsea",
+   "country": "England",
+   "season": "2011-12",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#034694",
     "#FFFFFF"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [
+    "Drogba",
+    "Lampard",
+    "Hasselbaink"
+   ]
   },
   {
-   "id": "ec-eng-tot-1819",
+   "id": "ec-bay-201112",
    "tierType": "O",
-   "club": "Tottenham Hotspur",
-   "country": "England",
-   "season": "2018-19",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "2011-12",
    "comps": [
     "UCL"
    ],
    "rating": 87,
    "kit": [
-    "#FFFFFF",
-    "#001C58"
+    "#DC052D",
+    "#FFFFFF"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
   },
   {
-   "id": "ec-esp-rma-1718",
+   "id": "ec-bvb-201213",
    "tierType": "O",
-   "club": "Real Madrid",
-   "country": "Spain",
-   "season": "2017-18",
+   "club": "Borussia Dortmund",
+   "country": "Germany",
+   "season": "2012-13",
    "comps": [
     "UCL"
    ],
    "rating": 87,
+   "kit": [
+    "#FDE100",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Lewandowski",
+    "Riedle",
+    "Reus"
+   ]
+  },
+  {
+   "id": "ec-rma-201314",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2013-14",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
    "kit": [
     "#FFFFFF",
     "#C9A227"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
   },
   {
-   "id": "ec-eng-liv-1718",
+   "id": "ec-atm-201314",
    "tierType": "O",
-   "club": "Liverpool",
-   "country": "England",
-   "season": "2017-18",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#C8102E",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-ita-juv-1617",
-   "tierType": "O",
-   "club": "Juventus",
-   "country": "Italy",
-   "season": "2016-17",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#000000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-esp-rma-1516",
-   "tierType": "O",
-   "club": "Real Madrid",
+   "club": "Atletico Madrid",
    "country": "Spain",
-   "season": "2015-16",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 87,
-   "kit": [
-    "#FFFFFF",
-    "#C9A227"
-   ],
-   "crest": null,
-   "scorers": []
-  },
-  {
-   "id": "ec-esp-atm-1516",
-   "tierType": "O",
-   "club": "Atlético Madrid",
-   "country": "Spain",
-   "season": "2015-16",
+   "season": "2013-14",
    "comps": [
     "UCL"
    ],
@@ -2661,7 +2351,53 @@
     "#FFFFFF"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [
+    "Luis Aragonés",
+    "Griezmann",
+    "Torres"
+   ]
+  },
+  {
+   "id": "ec-bar-201415",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2014-15",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-juv-201415",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "2014-15",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Platini",
+    "Del Piero",
+    "Baggio"
+   ]
   }
  ]
 }
