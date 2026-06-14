@@ -9,7 +9,7 @@
   "scope": "Winner and runner-up of every edition: Fairs Cup 1955-1971, UEFA Cup 1971-2009, Europa League 2009-2025 (2025-26 in progress, excluded)",
   "source": "rsssf.org + aworldofsoccer.com + Wikipedia finals, cross-checked",
   "verified": true,
-  "note": "2025-26 Europa League champion (Aston Villa) is user-supplied and beyond assistant Jan 2026 cutoff; not independently verified. Runner-up not recorded (unknown to assistant)."
+  "note": "2025-26 Europa League final (Aston Villa beat Freiburg) is user-supplied, beyond assistant Jan 2026 cutoff, not independently verified."
  },
  "squads": [
   {
@@ -2575,6 +2575,25 @@
    "crest": null,
    "scorers": [
     "Watkins"
+   ]
+  },
+  {
+   "id": "uel-freibu-202526",
+   "tierType": "O",
+   "club": "Freiburg",
+   "country": "Germany",
+   "season": "2025-26",
+   "comps": [
+    "UEL"
+   ],
+   "rating": 81,
+   "kit": [
+    "#E2001A",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Grifo"
    ]
   }
  ]
