@@ -8,7 +8,7 @@
    "EC",
    "UCL"
   ],
-  "promotedOut": 60
+  "promotedOut": 80
  },
  "squads": [
   {
@@ -2900,47 +2900,6 @@
    ]
   },
   {
-   "id": "ec-bay-199091",
-   "tierType": "O",
-   "club": "Bayern Munich",
-   "country": "Germany",
-   "season": "1990-91",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#DC052D",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Müller",
-    "Hoeneß",
-    "Lewandowski"
-   ]
-  },
-  {
-   "id": "ec-spm-199091",
-   "tierType": "O",
-   "club": "Spartak Moscow",
-   "country": "Soviet Union",
-   "season": "1990-91",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#E4002B",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Rodionov",
-    "Cherenkov"
-   ]
-  },
-  {
    "id": "ec-bar-199192",
    "tierType": "O",
    "club": "Barcelona",
@@ -2981,49 +2940,6 @@
     "Mancini",
     "Mihajlović"
    ]
-  },
-  {
-   "id": "ec-spp-199192",
-   "tierType": "O",
-   "club": "Sparta Prague",
-   "country": "Czechoslovakia",
-   "season": "1991-92",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#7A0019",
-    "#FFD200"
-   ],
-   "crest": null,
-   "scorers": [
-    "Siegl",
-    "Skuhravý"
-   ],
-   "note": "reached final group stage"
-  },
-  {
-   "id": "ec-rsb-199192",
-   "tierType": "O",
-   "club": "Red Star Belgrade",
-   "country": "Yugoslavia",
-   "season": "1991-92",
-   "comps": [
-    "EC"
-   ],
-   "rating": 84,
-   "kit": [
-    "#E4002B",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Pančev",
-    "Savićević",
-    "Mihajlović"
-   ],
-   "note": "reached final group stage"
   },
   {
    "id": "ec-om-199293",
@@ -3068,49 +2984,6 @@
    ]
   },
   {
-   "id": "ec-rfc-199293",
-   "tierType": "O",
-   "club": "Glasgow Rangers",
-   "country": "Scotland",
-   "season": "1992-93",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#1B458F",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Millar",
-    "Brand",
-    "McCoist"
-   ],
-   "note": "reached final group stage"
-  },
-  {
-   "id": "ec-ifk-199293",
-   "tierType": "O",
-   "club": "IFK Gothenburg",
-   "country": "Sweden",
-   "season": "1992-93",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#0057B7",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Nilsson",
-    "Pettersson"
-   ],
-   "note": "reached final group stage"
-  },
-  {
    "id": "ec-acm-199394",
    "tierType": "O",
    "club": "AC Milan",
@@ -3150,48 +3023,6 @@
     "Kubala",
     "Cruyff",
     "Messi"
-   ]
-  },
-  {
-   "id": "ec-mon-199394",
-   "tierType": "O",
-   "club": "AS Monaco",
-   "country": "France",
-   "season": "1993-94",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#E30613",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Mbappé",
-    "Falcao",
-    "Tévez"
-   ]
-  },
-  {
-   "id": "ec-por-199394",
-   "tierType": "O",
-   "club": "FC Porto",
-   "country": "Portugal",
-   "season": "1993-94",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#003DA5",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Madjer",
-    "Futre",
-    "Deco"
    ]
   },
   {
@@ -3237,48 +3068,6 @@
    ]
   },
   {
-   "id": "ec-bay-199495",
-   "tierType": "O",
-   "club": "Bayern Munich",
-   "country": "Germany",
-   "season": "1994-95",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#DC052D",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Müller",
-    "Hoeneß",
-    "Lewandowski"
-   ]
-  },
-  {
-   "id": "ec-psg-199495",
-   "tierType": "O",
-   "club": "Paris Saint-Germain",
-   "country": "France",
-   "season": "1994-95",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#004170",
-    "#E30613"
-   ],
-   "crest": null,
-   "scorers": [
-    "Mbappé",
-    "Weah",
-    "Raí"
-   ]
-  },
-  {
    "id": "ec-juv-199596",
    "tierType": "O",
    "club": "Juventus",
@@ -3318,47 +3107,6 @@
     "Cruyff",
     "Rep",
     "Kluivert"
-   ]
-  },
-  {
-   "id": "ec-nan-199596",
-   "tierType": "O",
-   "club": "FC Nantes",
-   "country": "France",
-   "season": "1995-96",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FFD200",
-    "#009639"
-   ],
-   "crest": null,
-   "scorers": [
-    "Loko",
-    "Pedros",
-    "Ouédec"
-   ]
-  },
-  {
-   "id": "ec-pao-199596",
-   "tierType": "O",
-   "club": "Panathinaikos",
-   "country": "Greece",
-   "season": "1995-96",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#018749",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Antoniadis",
-    "Domazos"
    ]
   },
   {
@@ -3404,48 +3152,6 @@
    ]
   },
   {
-   "id": "ec-mun-199697",
-   "tierType": "O",
-   "club": "Manchester United",
-   "country": "England",
-   "season": "1996-97",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#DA291C",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Charlton",
-    "Best",
-    "Law"
-   ]
-  },
-  {
-   "id": "ec-aja-199697",
-   "tierType": "O",
-   "club": "Ajax",
-   "country": "Netherlands",
-   "season": "1996-97",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#D2122E",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Cruyff",
-    "Rep",
-    "Kluivert"
-   ]
-  },
-  {
    "id": "ec-rma-199798",
    "tierType": "O",
    "club": "Real Madrid",
@@ -3488,48 +3194,6 @@
    ]
   },
   {
-   "id": "ec-bvb-199798",
-   "tierType": "O",
-   "club": "Borussia Dortmund",
-   "country": "Germany",
-   "season": "1997-98",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FDE100",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Lewandowski",
-    "Riedle",
-    "Reus"
-   ]
-  },
-  {
-   "id": "ec-mon-199798",
-   "tierType": "O",
-   "club": "AS Monaco",
-   "country": "France",
-   "season": "1997-98",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#E30613",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Mbappé",
-    "Falcao",
-    "Tévez"
-   ]
-  },
-  {
    "id": "ec-bay-199899",
    "tierType": "O",
    "club": "Bayern Munich",
@@ -3548,47 +3212,6 @@
     "Müller",
     "Hoeneß",
     "Lewandowski"
-   ]
-  },
-  {
-   "id": "ec-juv-199899",
-   "tierType": "O",
-   "club": "Juventus",
-   "country": "Italy",
-   "season": "1998-99",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#000000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Platini",
-    "Del Piero",
-    "Baggio"
-   ]
-  },
-  {
-   "id": "ec-dki-199899",
-   "tierType": "O",
-   "club": "Dinamo Kiev",
-   "country": "Soviet Union",
-   "season": "1998-99",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#FFFFFF",
-    "#0057B7"
-   ],
-   "crest": null,
-   "scorers": [
-    "Blokhin",
-    "Belanov"
    ]
   },
   {
@@ -3631,48 +3254,6 @@
     "Mendieta",
     "Mista",
     "Villa"
-   ]
-  },
-  {
-   "id": "ec-bay-199900",
-   "tierType": "O",
-   "club": "Bayern Munich",
-   "country": "Germany",
-   "season": "1999-00",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#DC052D",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Müller",
-    "Hoeneß",
-    "Lewandowski"
-   ]
-  },
-  {
-   "id": "ec-bar-199900",
-   "tierType": "O",
-   "club": "Barcelona",
-   "country": "Spain",
-   "season": "1999-00",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 84,
-   "kit": [
-    "#A50044",
-    "#004D98"
-   ],
-   "crest": null,
-   "scorers": [
-    "Kubala",
-    "Cruyff",
-    "Messi"
    ]
   },
   {
