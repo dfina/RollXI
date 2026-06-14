@@ -8,7 +8,7 @@
    "EC",
    "UCL"
   ],
-  "promotedOut": 149
+  "promotedOut": 150
  },
  "squads": [
   {
@@ -2796,27 +2796,6 @@
     "Mazzola",
     "Suárez",
     "Milito"
-   ]
-  },
-  {
-   "id": "ec-psg-202526",
-   "tierType": "O",
-   "club": "Paris Saint-Germain",
-   "country": "France",
-   "season": "2025-26",
-   "comps": [
-    "UCL"
-   ],
-   "rating": 89,
-   "kit": [
-    "#004170",
-    "#E30613"
-   ],
-   "crest": null,
-   "scorers": [
-    "Mbappé",
-    "Weah",
-    "Raí"
    ]
   },
   {
