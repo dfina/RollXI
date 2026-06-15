@@ -35,10 +35,20 @@ Usage:
 
 ## What's covered and what's next
 
-EC/UCL opponent index (pack-opponents-ec-ucl.json): 95 rows remaining
-(all EC/UCL finalist seasons 1955-56 to 2003-04 still as tier-O opponents).
+GLOBAL O/P DE-DUP SWEEP (14 Jun 2026): the mandated promotion-completeness step
+(remove promoted club-seasons from tier-O) had never run across Waves 1a-1g/Fa/Fb.
+168 club-seasons were sitting in BOTH tiers. Swept:
+- pack-opponents-ec-ucl.json: 284 -> 96 rows (188 pickable-overlaps removed).
+- pack-opponents-provisional.json: 48 -> 1 row (retired as placeholder; B-series indexes
+  have landed; only Man City 2018-19, unique + not in any verified index, kept).
+- CWC / UEFA indexes untouched (no promotion waves there yet; zero overlap).
+O/P overlap asserted 0 afterwards.
+
+EC/UCL opponent index now 96 tier-O rows: the W+RU finalists 1955-56..2003-04 not yet
+built, plus a handful of un-built semi-finalists (e.g. AS Monaco 2016-17).
 
 Finalists already promoted to pickable:
 - Wave Fa: 2015-16 to 2025-26 (done)
 - Wave Fb: 2004-05 to 2014-15 (done)
-- Next: Wave Fc (1990s/early 2000s), Fd (1980s), Fe (1970s), Ff (1950s-60s)
+- Wave Fc: 1990-91 to 2003-04 (DONE) — all 13 editions 1991-92..2003-04 have both finalists pickable (25 rosters built this wave; Red Star 1990-91 built earlier as template; Marseille 1990-91 RU and Man Utd 1998-99 W pickable via seed). Each web-verified per edition; every promoted club-season removed from EC/UCL tier-O in the same pass; O/P overlap = 0, P/P dups = 0.
+- Next after Fc: Fd (1980s), Fe (1970s), Ff (1955-56..1969-70), then non-EC competitions (CWC, UEFA/Fairs, Europa) and the C-series Serie A backbone.

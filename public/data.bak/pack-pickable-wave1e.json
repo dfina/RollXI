@@ -1,0 +1,3889 @@
+{
+ "meta": {
+  "name": "Wave 1e — European Cup semi-finalists 1980-81 to 1989-90 (pickable)",
+  "wave": "1e",
+  "note": "Promotes 20 1980s European Cup semi-finalist club-seasons to full pickable squads. Famous sides conf B; smaller-nation sides conf C (spine accurate, fringe approximate). Decoys auto-selected from era/league reserves.",
+  "verified": true
+ },
+ "squads": [
+  {
+   "id": "ger-bay-8081",
+   "club": "Bayern München",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1980-81",
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1980-81",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Walter Junghans",
+     "p": "GK",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Manfred Müller",
+     "p": "GK",
+     "r": 71,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Wolfgang Dremmler",
+     "p": "DF",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Klaus Augenthaler",
+     "p": "DF",
+     "r": 81,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Udo Horsmann",
+     "p": "DF",
+     "r": 76,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Hans Weiner",
+     "p": "DF",
+     "r": 75,
+     "nat": "Germany",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Paul Breitner",
+     "p": "MF",
+     "r": 86,
+     "nat": "Germany",
+     "dp": [
+      "CM",
+      "LB"
+     ]
+    },
+    {
+     "n": "Bertram Beierlorzer",
+     "p": "MF",
+     "r": 75,
+     "nat": "Germany",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Wolfgang Kraus",
+     "p": "MF",
+     "r": 76,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Karl-Heinz Rummenigge",
+     "p": "FW",
+     "r": 88,
+     "nat": "Germany",
+     "dp": [
+      "CF",
+      "RW"
+     ]
+    },
+    {
+     "n": "Dieter Hoeneß",
+     "p": "FW",
+     "r": 81,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Reinhold Mathy",
+     "p": "FW",
+     "r": 77,
+     "nat": "Germany",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Karl Del'Haye",
+     "p": "MF",
+     "r": 76,
+     "nat": "Germany",
+     "dp": [
+      "LM",
+      "RM"
+     ]
+    },
+    {
+     "n": "Bernd Martin",
+     "p": "DF",
+     "r": 74,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Günther Güttler",
+     "p": "MF",
+     "r": 73,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Norbert Janzon",
+     "p": "MF",
+     "r": 73,
+     "nat": "Germany",
+     "dp": [
+      "RM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Pierre Littbarski",
+     "FW"
+    ],
+    [
+     "Felix Magath",
+     "MF"
+    ],
+    [
+     "Lothar Matthäus",
+     "MF"
+    ],
+    [
+     "Andreas Brehme",
+     "DF"
+    ],
+    [
+     "Rudi Völler",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1980-81"
+    }
+   ]
+  },
+  {
+   "id": "ita-int-8081",
+   "club": "Inter",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1980-81",
+   "kit": [
+    "#1E71B8",
+    "#000000"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1980-81",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Ivano Bordon",
+     "p": "GK",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Giuliano Terraneo",
+     "p": "GK",
+     "r": 72,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Giuseppe Baresi",
+     "p": "DF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Graziano Bini",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Fulvio Collovati",
+     "p": "DF",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gabriele Oriali",
+     "p": "MF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Mauro Bellugi",
+     "p": "DF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Antonio Sabato",
+     "p": "MF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Hansi Müller",
+     "p": "MF",
+     "r": 82,
+     "nat": "Germany",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Evaristo Beccalossi",
+     "p": "MF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Alessandro Altobelli",
+     "p": "FW",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Carlo Muraro",
+     "p": "FW",
+     "r": 77,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Franco Causio",
+     "p": "MF",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Giampiero Marini",
+     "p": "MF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Carlo Barberis",
+     "p": "MF",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Marco Tardelli",
+     "p": "MF",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Bruno Conti",
+     "FW"
+    ],
+    [
+     "Giuseppe Giannini",
+     "MF"
+    ],
+    [
+     "Daniele Massaro",
+     "FW"
+    ],
+    [
+     "Roberto Pruzzo",
+     "FW"
+    ],
+    [
+     "Antonio Cabrini",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1980-81"
+    }
+   ]
+  },
+  {
+   "id": "bel-and-8182",
+   "club": "Anderlecht",
+   "country": "Belgium",
+   "league": "BEL",
+   "season": "1981-82",
+   "kit": [
+    "#5A2A82",
+    "#FFFFFF"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1981-82",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Jacky Munaron",
+     "p": "GK",
+     "r": 78,
+     "nat": "Belgium",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Nico De Bree",
+     "p": "GK",
+     "r": 71,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Hugo Broos",
+     "p": "DF",
+     "r": 79,
+     "nat": "Belgium",
+     "dp": [
+      "CB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Walter De Greef",
+     "p": "DF",
+     "r": 75,
+     "nat": "Belgium",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Michel De Groote",
+     "p": "DF",
+     "r": 77,
+     "nat": "Belgium",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Luka Peruzović",
+     "p": "DF",
+     "r": 78,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Frankie Vercauteren",
+     "p": "MF",
+     "r": 82,
+     "nat": "Belgium",
+     "dp": [
+      "LM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Ludo Coeck",
+     "p": "MF",
+     "r": 82,
+     "nat": "Belgium",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Juan Lozano",
+     "p": "MF",
+     "r": 80,
+     "nat": "Belgium",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Peter Boeve",
+     "p": "DF",
+     "r": 75,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Erwin Vandenbergh",
+     "p": "FW",
+     "r": 81,
+     "nat": "Belgium",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Kenneth Brylle",
+     "p": "FW",
+     "r": 78,
+     "nat": "Denmark",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Morten Olsen",
+     "p": "DF",
+     "r": 81,
+     "nat": "Denmark",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Alex Czerniatynski",
+     "p": "FW",
+     "r": 77,
+     "nat": "Belgium",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Gilbert Van Binst",
+     "p": "DF",
+     "r": 76,
+     "nat": "Belgium",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Benny Wendt",
+     "p": "FW",
+     "r": 76,
+     "nat": "Sweden",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Jan Ceulemans",
+     "FW"
+    ],
+    [
+     "Eddy Voordeckers",
+     "FW"
+    ],
+    [
+     "Franky Van der Elst",
+     "MF"
+    ],
+    [
+     "Lei Clijsters",
+     "DF"
+    ],
+    [
+     "Nico Claesen",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1981-82"
+    }
+   ]
+  },
+  {
+   "id": "bul-cska-8182",
+   "club": "CSKA Sofia",
+   "country": "Bulgaria",
+   "league": "BUL",
+   "season": "1981-82",
+   "kit": [
+    "#E4002B",
+    "#FFFFFF"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1981-82",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Georgi Velinov",
+     "p": "GK",
+     "r": 78,
+     "nat": "Bulgaria",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Ivan Goranov",
+     "p": "GK",
+     "r": 71,
+     "nat": "Bulgaria",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Georgi Dimitrov",
+     "p": "DF",
+     "r": 79,
+     "nat": "Bulgaria",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Plamen Markov",
+     "p": "DF",
+     "r": 77,
+     "nat": "Bulgaria",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Kiril Rizov",
+     "p": "DF",
+     "r": 75,
+     "nat": "Bulgaria",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Stoycho Mladenov",
+     "p": "FW",
+     "r": 81,
+     "nat": "Bulgaria",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Radoslav Zdravkov",
+     "p": "MF",
+     "r": 77,
+     "nat": "Bulgaria",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Tsvetan Yonchev",
+     "p": "MF",
+     "r": 76,
+     "nat": "Bulgaria",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Spas Dzhevizov",
+     "p": "MF",
+     "r": 76,
+     "nat": "Bulgaria",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Georgi Slavkov",
+     "p": "FW",
+     "r": 80,
+     "nat": "Bulgaria",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Plamen Nikolov",
+     "p": "MF",
+     "r": 78,
+     "nat": "Bulgaria",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Aleksandar Markov",
+     "p": "DF",
+     "r": 74,
+     "nat": "Bulgaria",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Kostadin Yanchev",
+     "p": "MF",
+     "r": 75,
+     "nat": "Bulgaria",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Mariyan Velev",
+     "p": "GK",
+     "r": 73,
+     "nat": "Bulgaria",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Tsanko Tsvetanov",
+     "p": "DF",
+     "r": 74,
+     "nat": "Bulgaria",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Stefan Staykov",
+     "p": "DF",
+     "r": 73,
+     "nat": "Bulgaria",
+     "dp": [
+      "RB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Hristo Stoichkov",
+     "FW"
+    ],
+    [
+     "Nasko Sirakov",
+     "FW"
+    ],
+    [
+     "Ayan Sadakov",
+     "MF"
+    ],
+    [
+     "Plamen Getov",
+     "FW"
+    ],
+    [
+     "Borislav Mikhaylov",
+     "GK"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1981-82"
+    }
+   ]
+  },
+  {
+   "id": "esp-rso-8283",
+   "club": "Real Sociedad",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1982-83",
+   "kit": [
+    "#0067B1",
+    "#FFFFFF"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1982-83",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Luis Arconada",
+     "p": "GK",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "José Luis González",
+     "p": "GK",
+     "r": 71,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Agustín Gajate",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Inaxio Kortabarria",
+     "p": "DF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Alberto Górriz",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Antonio Celayeta",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "José Mari Bakero",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Jesús María Zamora",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Roberto López Ufarte",
+     "p": "FW",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "LW",
+      "SS"
+     ]
+    },
+    {
+     "n": "Periko Alonso",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Jesús María Satrústegui",
+     "p": "FW",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Pedro Uralde",
+     "p": "FW",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Txomin López",
+     "p": "MF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Iñigo Idígoras",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Genar Andrinúa",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "José Diego",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "LM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Juan Señor",
+     "MF"
+    ],
+    [
+     "Ricardo Gallego",
+     "MF"
+    ],
+    [
+     "Francisco Carrasco",
+     "FW"
+    ],
+    [
+     "Marcos Alonso",
+     "FW"
+    ],
+    [
+     "Julio Salinas",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1982-83"
+    }
+   ]
+  },
+  {
+   "id": "pol-wlo-8283",
+   "club": "Widzew Lodz",
+   "country": "Poland",
+   "league": "POL",
+   "season": "1982-83",
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1982-83",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Józef Młynarczyk",
+     "p": "GK",
+     "r": 81,
+     "nat": "Poland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Henryk Bolesta",
+     "p": "GK",
+     "r": 71,
+     "nat": "Poland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Władysław Żmuda",
+     "p": "DF",
+     "r": 82,
+     "nat": "Poland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Marek Pięta",
+     "p": "DF",
+     "r": 75,
+     "nat": "Poland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Krzysztof Surlit",
+     "p": "DF",
+     "r": 75,
+     "nat": "Poland",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Mirosław Tłokiński",
+     "p": "MF",
+     "r": 78,
+     "nat": "Poland",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Zbigniew Boniek",
+     "p": "MF",
+     "r": 86,
+     "nat": "Poland",
+     "dp": [
+      "AM",
+      "RW"
+     ]
+    },
+    {
+     "n": "Marek Filipczak",
+     "p": "MF",
+     "r": 76,
+     "nat": "Poland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Andrzej Grębosz",
+     "p": "MF",
+     "r": 76,
+     "nat": "Poland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Włodzimierz Smolarek",
+     "p": "FW",
+     "r": 81,
+     "nat": "Poland",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Krzysztof Pawlak",
+     "p": "DF",
+     "r": 75,
+     "nat": "Poland",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Stanisław Burzyński",
+     "p": "MF",
+     "r": 74,
+     "nat": "Poland",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Tadeusz Świątek",
+     "p": "DF",
+     "r": 74,
+     "nat": "Poland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Zbigniew Kakietek",
+     "p": "MF",
+     "r": 73,
+     "nat": "Poland",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Wiesław Wraga",
+     "p": "FW",
+     "r": 74,
+     "nat": "Poland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Roman Wójcicki",
+     "p": "DF",
+     "r": 77,
+     "nat": "Poland",
+     "dp": [
+      "CB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Andrzej Buncol",
+     "MF"
+    ],
+    [
+     "Dariusz Dziekanowski",
+     "FW"
+    ],
+    [
+     "Jan Karaś",
+     "DF"
+    ],
+    [
+     "Ryszard Tarasiewicz",
+     "MF"
+    ],
+    [
+     "Marek Leśniak",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1982-83"
+    }
+   ]
+  },
+  {
+   "id": "rou-dbu-8384",
+   "club": "Dinamo Bucharest",
+   "country": "Romania",
+   "league": "ROU",
+   "season": "1983-84",
+   "kit": [
+    "#E4002B",
+    "#FFFFFF"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1983-84",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Dumitru Moraru",
+     "p": "GK",
+     "r": 78,
+     "nat": "Romania",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mircea Nedelcu",
+     "p": "GK",
+     "r": 71,
+     "nat": "Romania",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Ioan Andone",
+     "p": "DF",
+     "r": 80,
+     "nat": "Romania",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Alexandru Nicolae",
+     "p": "DF",
+     "r": 75,
+     "nat": "Romania",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Lică Movilă",
+     "p": "DF",
+     "r": 76,
+     "nat": "Romania",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Marin Dragnea",
+     "p": "DF",
+     "r": 75,
+     "nat": "Romania",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Costică Orac",
+     "p": "MF",
+     "r": 79,
+     "nat": "Romania",
+     "dp": [
+      "LM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Dorin Mateuț",
+     "p": "MF",
+     "r": 80,
+     "nat": "Romania",
+     "dp": [
+      "AM",
+      "RW"
+     ]
+    },
+    {
+     "n": "Ionel Augustin",
+     "p": "FW",
+     "r": 79,
+     "nat": "Romania",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Rodion Cămătaru",
+     "p": "FW",
+     "r": 81,
+     "nat": "Romania",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Marcel Țârlea",
+     "p": "MF",
+     "r": 75,
+     "nat": "Romania",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Lucian Bălan",
+     "p": "MF",
+     "r": 76,
+     "nat": "Romania",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Gheorghe Mulțescu",
+     "p": "FW",
+     "r": 77,
+     "nat": "Romania",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Ion Marin",
+     "p": "MF",
+     "r": 74,
+     "nat": "Romania",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Nelu Stănescu",
+     "p": "DF",
+     "r": 73,
+     "nat": "Romania",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Florin Răducioiu",
+     "p": "FW",
+     "r": 74,
+     "nat": "Romania",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Gheorghe Hagi",
+     "MF"
+    ],
+    [
+     "Marius Lăcătuș",
+     "FW"
+    ],
+    [
+     "Michael Klein",
+     "DF"
+    ],
+    [
+     "Mircea Rednic",
+     "DF"
+    ],
+    [
+     "Costică Ștefănescu",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1983-84"
+    }
+   ]
+  },
+  {
+   "id": "sco-dut-8384",
+   "club": "Dundee United",
+   "country": "Scotland",
+   "league": "SCO",
+   "season": "1983-84",
+   "kit": [
+    "#FF6600",
+    "#000000"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1983-84",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Hamish McAlpine",
+     "p": "GK",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "John Gardiner",
+     "p": "GK",
+     "r": 71,
+     "nat": "Scotland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Maurice Malpas",
+     "p": "DF",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Richard Gough",
+     "p": "DF",
+     "r": 81,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Paul Hegarty",
+     "p": "DF",
+     "r": 79,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "David Narey",
+     "p": "DF",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Derek Stark",
+     "p": "DF",
+     "r": 75,
+     "nat": "Scotland",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Eamonn Bannon",
+     "p": "MF",
+     "r": 79,
+     "nat": "Scotland",
+     "dp": [
+      "LM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Jim McInally",
+     "p": "MF",
+     "r": 76,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Billy Kirkwood",
+     "p": "MF",
+     "r": 76,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Ralph Milne",
+     "p": "FW",
+     "r": 79,
+     "nat": "Scotland",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Paul Sturrock",
+     "p": "FW",
+     "r": 81,
+     "nat": "Scotland",
+     "dp": [
+      "CF",
+      "SS"
+     ]
+    },
+    {
+     "n": "Davie Dodds",
+     "p": "FW",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "John Holt",
+     "p": "DF",
+     "r": 74,
+     "nat": "Scotland",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Derek Murray",
+     "p": "MF",
+     "r": 73,
+     "nat": "Scotland",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Graeme Payne",
+     "p": "MF",
+     "r": 74,
+     "nat": "Scotland",
+     "dp": [
+      "AM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Charlie Nicholas",
+     "FW"
+    ],
+    [
+     "Davie Cooper",
+     "MF"
+    ],
+    [
+     "Paul McStay",
+     "MF"
+    ],
+    [
+     "Mo Johnston",
+     "FW"
+    ],
+    [
+     "Frank McAvennie",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1983-84"
+    }
+   ]
+  },
+  {
+   "id": "fra-gbx-8485",
+   "club": "Girondins Bordeaux",
+   "country": "France",
+   "league": "FRA",
+   "season": "1984-85",
+   "kit": [
+    "#000080",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1984-85",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Dominique Dropsy",
+     "p": "GK",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Patrick Battiston",
+     "p": "DF",
+     "r": 82,
+     "nat": "France",
+     "dp": [
+      "CB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Léonard Specht",
+     "p": "DF",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Marius Trésor",
+     "p": "DF",
+     "r": 82,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gernot Rohr",
+     "p": "DF",
+     "r": 77,
+     "nat": "Germany",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Alain Giresse",
+     "p": "MF",
+     "r": 86,
+     "nat": "France",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Jean Tigana",
+     "p": "MF",
+     "r": 85,
+     "nat": "France",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "René Girard",
+     "p": "MF",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Philippe Vercruysse",
+     "p": "MF",
+     "r": 78,
+     "nat": "France",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Bernard Lacombe",
+     "p": "FW",
+     "r": 82,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Didier Six",
+     "p": "FW",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Pierre Pleimelding",
+     "p": "FW",
+     "r": 76,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Thierry Tusseau",
+     "p": "DF",
+     "r": 78,
+     "nat": "France",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Yannick Stopyra",
+     "p": "FW",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Jean-Christophe Thouvenel",
+     "p": "DF",
+     "r": 76,
+     "nat": "France",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Zlatko Vujović",
+     "p": "FW",
+     "r": 80,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CF",
+      "RW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Michel Platini",
+     "MF"
+    ],
+    [
+     "Luis Fernández",
+     "MF"
+    ],
+    [
+     "Dominique Rocheteau",
+     "FW"
+    ],
+    [
+     "Bruno Bellone",
+     "FW"
+    ],
+    [
+     "Maxime Bossis",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1984-85"
+    }
+   ]
+  },
+  {
+   "id": "gre-pao-8485",
+   "club": "Panathinaikos",
+   "country": "Greece",
+   "league": "GRE",
+   "season": "1984-85",
+   "kit": [
+    "#018749",
+    "#FFFFFF"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1984-85",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Spyros Livathinos",
+     "p": "GK",
+     "r": 77,
+     "nat": "Greece",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Nikos Sarganis",
+     "p": "GK",
+     "r": 74,
+     "nat": "Greece",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Spyros Marangos",
+     "p": "MF",
+     "r": 78,
+     "nat": "Greece",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Velizar Dimitrov",
+     "p": "DF",
+     "r": 74,
+     "nat": "Bulgaria",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Kyriakos Karataidis",
+     "p": "DF",
+     "r": 74,
+     "nat": "Greece",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Takis Nikoloudis",
+     "p": "DF",
+     "r": 75,
+     "nat": "Greece",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Dimitris Saravakos",
+     "p": "FW",
+     "r": 82,
+     "nat": "Greece",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Yannis Kalitzakis",
+     "p": "DF",
+     "r": 76,
+     "nat": "Greece",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Antonis Antoniadis",
+     "p": "FW",
+     "r": 79,
+     "nat": "Greece",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Krzysztof Baran",
+     "p": "MF",
+     "r": 75,
+     "nat": "Poland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Juan Ramón Rocha",
+     "p": "MF",
+     "r": 77,
+     "nat": "Argentina",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Lakis Nikolaou",
+     "p": "DF",
+     "r": 74,
+     "nat": "Greece",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Giorgos Vamvakoulas",
+     "p": "FW",
+     "r": 75,
+     "nat": "Greece",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Nikos Vamvakoulas",
+     "p": "MF",
+     "r": 73,
+     "nat": "Greece",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Panagiotis Tsalouchidis",
+     "p": "MF",
+     "r": 75,
+     "nat": "Greece",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Christos Dimopoulos",
+     "p": "DF",
+     "r": 73,
+     "nat": "Greece",
+     "dp": [
+      "CB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Nikos Anastopoulos",
+     "FW"
+    ],
+    [
+     "Thomas Mavros",
+     "FW"
+    ],
+    [
+     "Lakis Papaioannou",
+     "MF"
+    ],
+    [
+     "Vasilis Hatzipanagis",
+     "MF"
+    ],
+    [
+     "Tasos Mitropoulos",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1984-85"
+    }
+   ]
+  },
+  {
+   "id": "bel-and-8586",
+   "club": "Anderlecht",
+   "country": "Belgium",
+   "league": "BEL",
+   "season": "1985-86",
+   "kit": [
+    "#5A2A82",
+    "#FFFFFF"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1985-86",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Jacky Munaron",
+     "p": "GK",
+     "r": 79,
+     "nat": "Belgium",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Filip De Wilde",
+     "p": "GK",
+     "r": 73,
+     "nat": "Belgium",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Stéphane Demol",
+     "p": "DF",
+     "r": 79,
+     "nat": "Belgium",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Michel De Groote",
+     "p": "DF",
+     "r": 77,
+     "nat": "Belgium",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Georges Grün",
+     "p": "DF",
+     "r": 80,
+     "nat": "Belgium",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Marc Hofkens",
+     "p": "DF",
+     "r": 75,
+     "nat": "Belgium",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Frankie Vercauteren",
+     "p": "MF",
+     "r": 81,
+     "nat": "Belgium",
+     "dp": [
+      "LM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Enzo Scifo",
+     "p": "MF",
+     "r": 83,
+     "nat": "Belgium",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Per Frimann",
+     "p": "MF",
+     "r": 77,
+     "nat": "Denmark",
+     "dp": [
+      "AM",
+      "LM"
+     ]
+    },
+    {
+     "n": "Alex Czerniatynski",
+     "p": "FW",
+     "r": 77,
+     "nat": "Belgium",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Erwin Vandenbergh",
+     "p": "FW",
+     "r": 80,
+     "nat": "Belgium",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Luka Peruzović",
+     "p": "DF",
+     "r": 77,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Arnór Guðjohnsen",
+     "p": "MF",
+     "r": 79,
+     "nat": "Iceland",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "René Vandereycken",
+     "p": "MF",
+     "r": 79,
+     "nat": "Belgium",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Danny Veyt",
+     "p": "MF",
+     "r": 74,
+     "nat": "Belgium",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Milan Janković",
+     "p": "FW",
+     "r": 77,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CF",
+      "SS"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Jan Ceulemans",
+     "FW"
+    ],
+    [
+     "Eddy Voordeckers",
+     "FW"
+    ],
+    [
+     "Franky Van der Elst",
+     "MF"
+    ],
+    [
+     "Lei Clijsters",
+     "DF"
+    ],
+    [
+     "Nico Claesen",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1985-86"
+    }
+   ]
+  },
+  {
+   "id": "swe-ifk-8586",
+   "club": "IFK Gothenburg",
+   "country": "Sweden",
+   "league": "SWE",
+   "season": "1985-86",
+   "kit": [
+    "#0057B7",
+    "#FFFFFF"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1985-86",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Thomas Wernerson",
+     "p": "GK",
+     "r": 77,
+     "nat": "Sweden",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Anders Linderoth",
+     "p": "MF",
+     "r": 78,
+     "nat": "Sweden",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Glenn Hysén",
+     "p": "DF",
+     "r": 82,
+     "nat": "Sweden",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Tord Holmgren",
+     "p": "MF",
+     "r": 78,
+     "nat": "Sweden",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Roland Nilsson",
+     "p": "DF",
+     "r": 80,
+     "nat": "Sweden",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Stig Fredriksson",
+     "p": "DF",
+     "r": 77,
+     "nat": "Sweden",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Glenn Strömberg",
+     "p": "MF",
+     "r": 81,
+     "nat": "Sweden",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Tommy Holmgren",
+     "p": "MF",
+     "r": 76,
+     "nat": "Sweden",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Johnny Ekström",
+     "p": "FW",
+     "r": 80,
+     "nat": "Sweden",
+     "dp": [
+      "CF",
+      "RW"
+     ]
+    },
+    {
+     "n": "Dan Corneliusson",
+     "p": "FW",
+     "r": 78,
+     "nat": "Sweden",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Lennart Nilsson",
+     "p": "DF",
+     "r": 75,
+     "nat": "Sweden",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Peter Larsson",
+     "p": "DF",
+     "r": 77,
+     "nat": "Sweden",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Stefan Pettersson",
+     "p": "FW",
+     "r": 79,
+     "nat": "Sweden",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Torbjörn Nilsson",
+     "p": "FW",
+     "r": 81,
+     "nat": "Sweden",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Ruben Svensson",
+     "p": "DF",
+     "r": 74,
+     "nat": "Sweden",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Jonas Olsson",
+     "p": "MF",
+     "r": 74,
+     "nat": "Sweden",
+     "dp": [
+      "RM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Mats Magnusson",
+     "FW"
+    ],
+    [
+     "Robert Prytz",
+     "MF"
+    ],
+    [
+     "Lennart Larsson",
+     "MF"
+    ],
+    [
+     "Tomas Ravelli",
+     "GK"
+    ],
+    [
+     "Jonas Thern",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1985-86"
+    }
+   ]
+  },
+  {
+   "id": "ukr-dki-8687",
+   "club": "Dinamo Kiev",
+   "country": "Soviet Union",
+   "league": "URS",
+   "season": "1986-87",
+   "kit": [
+    "#FFFFFF",
+    "#0057B7"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1986-87",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Viktor Chanov",
+     "p": "GK",
+     "r": 80,
+     "nat": "Soviet Union",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mykhailo Mykhailov",
+     "p": "GK",
+     "r": 72,
+     "nat": "Soviet Union",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Volodymyr Bessonov",
+     "p": "DF",
+     "r": 81,
+     "nat": "Soviet Union",
+     "dp": [
+      "RB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Oleh Kuznetsov",
+     "p": "DF",
+     "r": 82,
+     "nat": "Soviet Union",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Serhiy Baltacha",
+     "p": "DF",
+     "r": 79,
+     "nat": "Soviet Union",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Anatoliy Demyanenko",
+     "p": "DF",
+     "r": 82,
+     "nat": "Soviet Union",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Vasyl Rats",
+     "p": "MF",
+     "r": 81,
+     "nat": "Soviet Union",
+     "dp": [
+      "LM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Pavlo Yakovenko",
+     "p": "MF",
+     "r": 80,
+     "nat": "Soviet Union",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Ivan Yaremchuk",
+     "p": "MF",
+     "r": 79,
+     "nat": "Soviet Union",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Oleksandr Zavarov",
+     "p": "MF",
+     "r": 85,
+     "nat": "Soviet Union",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Ihor Belanov",
+     "p": "FW",
+     "r": 85,
+     "nat": "Soviet Union",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Oleh Blokhin",
+     "p": "FW",
+     "r": 84,
+     "nat": "Soviet Union",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Oleksiy Mykhailychenko",
+     "p": "MF",
+     "r": 81,
+     "nat": "Soviet Union",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Vadym Yevtushenko",
+     "p": "FW",
+     "r": 78,
+     "nat": "Soviet Union",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Andriy Bal",
+     "p": "DF",
+     "r": 77,
+     "nat": "Soviet Union",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Volodymyr Horilyi",
+     "p": "DF",
+     "r": 74,
+     "nat": "Soviet Union",
+     "dp": [
+      "RB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Oleh Protasov",
+     "FW"
+    ],
+    [
+     "Gennadiy Lytovchenko",
+     "MF"
+    ],
+    [
+     "Rinat Dasayev",
+     "GK"
+    ],
+    [
+     "Sergei Aleinikov",
+     "MF"
+    ],
+    [
+     "Vagiz Khidiyatullin",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1986-87"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-8687",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1986-87",
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "EC semi-finalist 1986-87",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Francisco Buyo",
+     "p": "GK",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Agustín Rodríguez",
+     "p": "GK",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Chendo",
+     "p": "DF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Manolo Sanchís",
+     "p": "DF",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Antonio Maceda",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "José Antonio Camacho",
+     "p": "DF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Míchel",
+     "p": "MF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Rafael Martín Vázquez",
+     "p": "MF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Ricardo Gallego",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Emilio Butragueño",
+     "p": "FW",
+     "r": 87,
+     "nat": "Spain",
+     "dp": [
+      "SS",
+      "CF"
+     ]
+    },
+    {
+     "n": "Hugo Sánchez",
+     "p": "FW",
+     "r": 88,
+     "nat": "Mexico",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Jorge Valdano",
+     "p": "FW",
+     "r": 83,
+     "nat": "Argentina",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Juanito",
+     "p": "FW",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "RW",
+      "SS"
+     ]
+    },
+    {
+     "n": "Miguel Tendillo",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Rafael Gordillo",
+     "p": "MF",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "LM",
+      "LB"
+     ]
+    },
+    {
+     "n": "Santiago Solana",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Juan Señor",
+     "MF"
+    ],
+    [
+     "Francisco Carrasco",
+     "FW"
+    ],
+    [
+     "Marcos Alonso",
+     "FW"
+    ],
+    [
+     "Julio Salinas",
+     "FW"
+    ],
+    [
+     "Andoni Goikoetxea",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1986-87"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-8788",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1987-88",
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "EC semi-finalist 1987-88",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Francisco Buyo",
+     "p": "GK",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Agustín Rodríguez",
+     "p": "GK",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Chendo",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Manolo Sanchís",
+     "p": "DF",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Miguel Tendillo",
+     "p": "DF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "José Antonio Camacho",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Míchel",
+     "p": "MF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Rafael Martín Vázquez",
+     "p": "MF",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Ricardo Gallego",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Rafael Gordillo",
+     "p": "MF",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "LM",
+      "LB"
+     ]
+    },
+    {
+     "n": "Emilio Butragueño",
+     "p": "FW",
+     "r": 88,
+     "nat": "Spain",
+     "dp": [
+      "SS",
+      "CF"
+     ]
+    },
+    {
+     "n": "Hugo Sánchez",
+     "p": "FW",
+     "r": 89,
+     "nat": "Mexico",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Jorge Valdano",
+     "p": "FW",
+     "r": 82,
+     "nat": "Argentina",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Chano Rodríguez",
+     "p": "MF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Sebastián Losada",
+     "p": "FW",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Jesús Solana",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Juan Señor",
+     "MF"
+    ],
+    [
+     "Francisco Carrasco",
+     "FW"
+    ],
+    [
+     "Marcos Alonso",
+     "FW"
+    ],
+    [
+     "Julio Salinas",
+     "FW"
+    ],
+    [
+     "Andoni Goikoetxea",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1987-88"
+    }
+   ]
+  },
+  {
+   "id": "rou-ste-8788",
+   "club": "Steaua Bucharest",
+   "country": "Romania",
+   "league": "ROU",
+   "season": "1987-88",
+   "kit": [
+    "#0033A0",
+    "#E4002B"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1987-88",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Silviu Lung",
+     "p": "GK",
+     "r": 80,
+     "nat": "Romania",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Vasile Iordache",
+     "p": "GK",
+     "r": 73,
+     "nat": "Romania",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Iosif Rotariu",
+     "p": "DF",
+     "r": 79,
+     "nat": "Romania",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Ștefan Iovan",
+     "p": "DF",
+     "r": 80,
+     "nat": "Romania",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Miodrag Belodedici",
+     "p": "DF",
+     "r": 83,
+     "nat": "Romania",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ilie Bărbulescu",
+     "p": "DF",
+     "r": 77,
+     "nat": "Romania",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Tudorel Stoica",
+     "p": "MF",
+     "r": 80,
+     "nat": "Romania",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Marius Lăcătuș",
+     "p": "FW",
+     "r": 83,
+     "nat": "Romania",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Gavril Balint",
+     "p": "FW",
+     "r": 80,
+     "nat": "Romania",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Victor Pițurcă",
+     "p": "FW",
+     "r": 82,
+     "nat": "Romania",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Marin Radu",
+     "p": "MF",
+     "r": 77,
+     "nat": "Romania",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Adrian Bumbescu",
+     "p": "DF",
+     "r": 78,
+     "nat": "Romania",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Lucian Bălan",
+     "p": "MF",
+     "r": 77,
+     "nat": "Romania",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Ladislau Bölöni",
+     "p": "MF",
+     "r": 81,
+     "nat": "Romania",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Mihail Majearu",
+     "p": "MF",
+     "r": 76,
+     "nat": "Romania",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Anghel Iordănescu",
+     "p": "FW",
+     "r": 78,
+     "nat": "Romania",
+     "dp": [
+      "CF",
+      "SS"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Gheorghe Hagi",
+     "MF"
+    ],
+    [
+     "Rodion Cămătaru",
+     "FW"
+    ],
+    [
+     "Michael Klein",
+     "DF"
+    ],
+    [
+     "Mircea Rednic",
+     "DF"
+    ],
+    [
+     "Costică Ștefănescu",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1987-88"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-8889",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1988-89",
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "EC semi-finalist 1988-89",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Francisco Buyo",
+     "p": "GK",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Agustín Rodríguez",
+     "p": "GK",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Chendo",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Manolo Sanchís",
+     "p": "DF",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Jorge Solana",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "José Antonio Camacho",
+     "p": "DF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Míchel",
+     "p": "MF",
+     "r": 87,
+     "nat": "Spain",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Bernd Schuster",
+     "p": "MF",
+     "r": 85,
+     "nat": "Germany",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Rafael Martín Vázquez",
+     "p": "MF",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Rafael Gordillo",
+     "p": "MF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "LM",
+      "LB"
+     ]
+    },
+    {
+     "n": "Emilio Butragueño",
+     "p": "FW",
+     "r": 88,
+     "nat": "Spain",
+     "dp": [
+      "SS",
+      "CF"
+     ]
+    },
+    {
+     "n": "Hugo Sánchez",
+     "p": "FW",
+     "r": 89,
+     "nat": "Mexico",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Ricardo Gallego",
+     "p": "MF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Miguel Tendillo",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Paco Llorente",
+     "p": "FW",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Sebastián Losada",
+     "p": "FW",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Juan Señor",
+     "MF"
+    ],
+    [
+     "Francisco Carrasco",
+     "FW"
+    ],
+    [
+     "Marcos Alonso",
+     "FW"
+    ],
+    [
+     "Julio Salinas",
+     "FW"
+    ],
+    [
+     "Andoni Goikoetxea",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1988-89"
+    }
+   ]
+  },
+  {
+   "id": "tur-gal-8889",
+   "club": "Galatasaray",
+   "country": "Turkey",
+   "league": "TUR",
+   "season": "1988-89",
+   "kit": [
+    "#A90432",
+    "#FBE122"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1988-89",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Simović",
+     "p": "GK",
+     "r": 77,
+     "nat": "Yugoslavia",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Zafer Tüzün",
+     "p": "GK",
+     "r": 72,
+     "nat": "Turkey",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Semih Yuvakuran",
+     "p": "DF",
+     "r": 76,
+     "nat": "Turkey",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Kemal Serdar",
+     "p": "DF",
+     "r": 75,
+     "nat": "Turkey",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gheorghe Popescu",
+     "p": "DF",
+     "r": 80,
+     "nat": "Romania",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Erdal Keser",
+     "p": "MF",
+     "r": 78,
+     "nat": "Turkey",
+     "dp": [
+      "AM",
+      "LM"
+     ]
+    },
+    {
+     "n": "Tugay Kerimoğlu",
+     "p": "MF",
+     "r": 79,
+     "nat": "Turkey",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Uğur Tütüneker",
+     "p": "FW",
+     "r": 79,
+     "nat": "Turkey",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Tanju Çolak",
+     "p": "FW",
+     "r": 82,
+     "nat": "Turkey",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Cüneyt Tanman",
+     "p": "MF",
+     "r": 76,
+     "nat": "Turkey",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Metin Tekin",
+     "p": "MF",
+     "r": 77,
+     "nat": "Turkey",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Muhammet Altıntaş",
+     "p": "DF",
+     "r": 74,
+     "nat": "Turkey",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Arif Erdem",
+     "p": "FW",
+     "r": 76,
+     "nat": "Turkey",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "İsmail Demiriz",
+     "p": "MF",
+     "r": 74,
+     "nat": "Turkey",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Hasan Vezir",
+     "p": "FW",
+     "r": 75,
+     "nat": "Turkey",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Suat Kaya",
+     "p": "MF",
+     "r": 74,
+     "nat": "Turkey",
+     "dp": [
+      "CM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Rıdvan Dilmen",
+     "FW"
+    ],
+    [
+     "Oğuz Çetin",
+     "MF"
+    ],
+    [
+     "Feyyaz Uçar",
+     "FW"
+    ],
+    [
+     "Mustafa Denizli",
+     "FW"
+    ],
+    [
+     "Ünal Karaman",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1988-89"
+    }
+   ]
+  },
+  {
+   "id": "ger-bay-8990",
+   "club": "Bayern München",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1989-90",
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1989-90",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Raimond Aumann",
+     "p": "GK",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Gerald Hillringhaus",
+     "p": "GK",
+     "r": 71,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Stefan Reuter",
+     "p": "DF",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Klaus Augenthaler",
+     "p": "DF",
+     "r": 82,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Jürgen Kohler",
+     "p": "DF",
+     "r": 83,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Hans Pflügler",
+     "p": "DF",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Olaf Thon",
+     "p": "MF",
+     "r": 82,
+     "nat": "Germany",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Hans Dorfner",
+     "p": "MF",
+     "r": 77,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Johnny Ekström",
+     "p": "FW",
+     "r": 79,
+     "nat": "Sweden",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Stefan Effenberg",
+     "p": "MF",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Roland Wohlfarth",
+     "p": "FW",
+     "r": 81,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Brian Laudrup",
+     "p": "FW",
+     "r": 82,
+     "nat": "Denmark",
+     "dp": [
+      "LW",
+      "SS"
+     ]
+    },
+    {
+     "n": "Alan McInally",
+     "p": "FW",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Thomas Strunz",
+     "p": "MF",
+     "r": 77,
+     "nat": "Germany",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Manfred Schwabl",
+     "p": "MF",
+     "r": 76,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Bernd Grahammer",
+     "p": "MF",
+     "r": 74,
+     "nat": "Germany",
+     "dp": [
+      "DM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Pierre Littbarski",
+     "FW"
+    ],
+    [
+     "Felix Magath",
+     "MF"
+    ],
+    [
+     "Lothar Matthäus",
+     "MF"
+    ],
+    [
+     "Andreas Brehme",
+     "DF"
+    ],
+    [
+     "Rudi Völler",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1989-90"
+    }
+   ]
+  },
+  {
+   "id": "fra-om-8990",
+   "club": "Olympique Marseille",
+   "country": "France",
+   "league": "FRA",
+   "season": "1989-90",
+   "kit": [
+    "#2FAEE0",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1989-90",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Pascal Olmeta",
+     "p": "GK",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Gaëtan Huard",
+     "p": "GK",
+     "r": 72,
+     "nat": "France",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Manuel Amoros",
+     "p": "DF",
+     "r": 82,
+     "nat": "France",
+     "dp": [
+      "RB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Bernard Casoni",
+     "p": "DF",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Carlos Mozer",
+     "p": "DF",
+     "r": 81,
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Éric Di Meco",
+     "p": "DF",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Franck Sauzée",
+     "p": "MF",
+     "r": 82,
+     "nat": "France",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Didier Deschamps",
+     "p": "MF",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Chris Waddle",
+     "p": "FW",
+     "r": 85,
+     "nat": "England",
+     "dp": [
+      "LW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Jean-Pierre Papin",
+     "p": "FW",
+     "r": 87,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Abedi Pele",
+     "p": "MF",
+     "r": 85,
+     "nat": "Ghana",
+     "dp": [
+      "AM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Philippe Vercruysse",
+     "p": "MF",
+     "r": 78,
+     "nat": "France",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Jean Tigana",
+     "p": "MF",
+     "r": 82,
+     "nat": "France",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Philippe Thys",
+     "p": "DF",
+     "r": 75,
+     "nat": "France",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Bruno Germain",
+     "p": "MF",
+     "r": 76,
+     "nat": "France",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jean-Christophe Thomas",
+     "p": "FW",
+     "r": 75,
+     "nat": "France",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Michel Platini",
+     "MF"
+    ],
+    [
+     "Luis Fernández",
+     "MF"
+    ],
+    [
+     "Dominique Rocheteau",
+     "FW"
+    ],
+    [
+     "Bruno Bellone",
+     "FW"
+    ],
+    [
+     "Maxime Bossis",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1989-90"
+    }
+   ]
+  }
+ ]
+}

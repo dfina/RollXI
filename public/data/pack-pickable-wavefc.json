@@ -1,0 +1,5506 @@
+{
+ "meta": {
+  "name": "Wave Fc — EC/UCL finalists (winners + runners-up) 1990-91 to 2003-04 (pickable)",
+  "wave": "Fc",
+  "note": "Complete. All 13 editions 1991-92 to 2003-04 have both finalists pickable, each web-verified per edition (BDFutbol / Wikipedia / UEFA / club sources). 1990-91 winner Red Star Belgrade built as template; 1990-91 runner-up Marseille and 1998-99 winner Manchester United are pickable via the seed pack. Every promoted club-season was removed from the EC/UCL tier-O index in the same pass; global O/P de-dup re-run with zero overlap.",
+  "verified": true
+ },
+ "squads": [
+  {
+   "id": "srb-rsb-9091",
+   "club": "Red Star Belgrade",
+   "country": "Yugoslavia",
+   "league": "YUG",
+   "season": "1990-91",
+   "kit": [
+    "#E4002B",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1990-91",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Stevan Stojanović",
+     "p": "GK",
+     "r": 82,
+     "nat": "Yugoslavia",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Refik Šabanadžović",
+     "p": "DF",
+     "r": 79,
+     "nat": "Yugoslavia",
+     "dp": [
+      "RB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Miodrag Belodedici",
+     "p": "DF",
+     "r": 84,
+     "nat": "Romania",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Ilija Najdoski",
+     "p": "DF",
+     "r": 78,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Slobodan Marović",
+     "p": "DF",
+     "r": 76,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Duško Radinović",
+     "p": "DF",
+     "r": 73,
+     "nat": "Yugoslavia",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Goran Vasilijević",
+     "p": "DF",
+     "r": 72,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Siniša Mihajlović",
+     "p": "DF",
+     "r": 83,
+     "nat": "Yugoslavia",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Robert Prosinečki",
+     "p": "MF",
+     "r": 88,
+     "nat": "Yugoslavia",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Vladimir Jugović",
+     "p": "MF",
+     "r": 83,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Vlada Stošić",
+     "p": "MF",
+     "r": 76,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Dejan Savićević",
+     "p": "MF",
+     "r": 89,
+     "nat": "Yugoslavia",
+     "dp": [
+      "AM",
+      "SS"
+     ]
+    },
+    {
+     "n": "Dragiša Binić",
+     "p": "FW",
+     "r": 81,
+     "nat": "Yugoslavia",
+     "dp": [
+      "RW",
+      "LW"
+     ]
+    },
+    {
+     "n": "Darko Pančev",
+     "p": "FW",
+     "r": 87,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Slobodan Kaludjerović",
+     "p": "FW",
+     "r": 73,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Goran Jurić",
+     "p": "DF",
+     "r": 74,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Zvonko Milojević",
+     "p": "GK",
+     "r": 73,
+     "nat": "Yugoslavia",
+     "dp": [
+      "GK"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Zvonimir Boban",
+     "MF"
+    ],
+    [
+     "Davor Šuker",
+     "FW"
+    ],
+    [
+     "Predrag Mijatović",
+     "FW"
+    ],
+    [
+     "Alen Bokšić",
+     "FW"
+    ],
+    [
+     "Srečko Katanec",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1990-91"
+    }
+   ]
+  },
+  {
+   "id": "esp-bar-9192",
+   "club": "Barcelona",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1991-92",
+   "kit": [
+    "#004D98",
+    "#A50044"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1991-92",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Andoni Zubizarreta",
+     "p": "GK",
+     "r": 87,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Carles Busquets",
+     "p": "GK",
+     "r": 72,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Albert Ferrer",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Nando",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ronald Koeman",
+     "p": "DF",
+     "r": 89,
+     "nat": "Netherlands",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Juan Carlos",
+     "p": "DF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Miguel Ángel Nadal",
+     "p": "DF",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "José Ramón Alexanko",
+     "p": "DF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Pep Guardiola",
+     "p": "MF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "José Mari Bakero",
+     "p": "MF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Eusebio Sacristán",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Guillermo Amor",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jon Andoni Goikoetxea",
+     "p": "MF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Txiki Begiristain",
+     "p": "MF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "LW",
+      "RW"
+     ]
+    },
+    {
+     "n": "Michael Laudrup",
+     "p": "MF",
+     "r": 88,
+     "nat": "Denmark",
+     "dp": [
+      "AM",
+      "SS"
+     ]
+    },
+    {
+     "n": "Hristo Stoichkov",
+     "p": "FW",
+     "r": 88,
+     "nat": "Bulgaria",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Julio Salinas",
+     "p": "FW",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Emilio Butragueño",
+     "FW"
+    ],
+    [
+     "Fernando Hierro",
+     "DF"
+    ],
+    [
+     "Míchel",
+     "MF"
+    ],
+    [
+     "Gheorghe Hagi",
+     "MF"
+    ],
+    [
+     "Bernd Schuster",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1991-92"
+    }
+   ]
+  },
+  {
+   "id": "ita-sam-9192",
+   "club": "Sampdoria",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1991-92",
+   "kit": [
+    "#1A2D6B",
+    "#E30613"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1991-92",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Gianluca Pagliuca",
+     "p": "GK",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Giulio Nuciari",
+     "p": "GK",
+     "r": 70,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Moreno Mannini",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Marco Lanna",
+     "p": "DF",
+     "r": 77,
+     "nat": "Italy",
+     "dp": [
+      "CB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Pietro Vierchowod",
+     "p": "DF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Srečko Katanec",
+     "p": "DF",
+     "r": 80,
+     "nat": "Yugoslavia",
+     "dp": [
+      "LB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Dario Bonetti",
+     "p": "DF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Attilio Lombardo",
+     "p": "MF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "RW",
+      "RM"
+     ]
+    },
+    {
+     "n": "Fausto Pari",
+     "p": "MF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Toninho Cerezo",
+     "p": "MF",
+     "r": 80,
+     "nat": "Brazil",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Ivano Bonetti",
+     "p": "MF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Paulo Silas",
+     "p": "MF",
+     "r": 79,
+     "nat": "Brazil",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Giovanni Invernizzi",
+     "p": "MF",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Renato Buso",
+     "p": "FW",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Gianluca Vialli",
+     "p": "FW",
+     "r": 88,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Roberto Mancini",
+     "p": "FW",
+     "r": 86,
+     "nat": "Italy",
+     "dp": [
+      "SS",
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Roberto Baggio",
+     "FW"
+    ],
+    [
+     "Franco Baresi",
+     "DF"
+    ],
+    [
+     "Gianfranco Zola",
+     "FW"
+    ],
+    [
+     "Beppe Signori",
+     "FW"
+    ],
+    [
+     "Demetrio Albertini",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1991-92"
+    }
+   ]
+  },
+  {
+   "id": "fra-om-9293",
+   "club": "Olympique Marseille",
+   "country": "France",
+   "league": "FRA",
+   "season": "1992-93",
+   "kit": [
+    "#FFFFFF",
+    "#2FAEE0"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League winner 1992-93",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Fabien Barthez",
+     "p": "GK",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Pascal Olmeta",
+     "p": "GK",
+     "r": 74,
+     "nat": "France",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Jocelyn Angloma",
+     "p": "DF",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Basile Boli",
+     "p": "DF",
+     "r": 84,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Marcel Desailly",
+     "p": "DF",
+     "r": 85,
+     "nat": "France",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Éric Di Meco",
+     "p": "DF",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Bernard Casoni",
+     "p": "DF",
+     "r": 78,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Manuel Amoros",
+     "p": "DF",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "RB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Didier Deschamps",
+     "p": "MF",
+     "r": 84,
+     "nat": "France",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Franck Sauzée",
+     "p": "MF",
+     "r": 82,
+     "nat": "France",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jean-Jacques Eydelie",
+     "p": "MF",
+     "r": 75,
+     "nat": "France",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jean-Philippe Durand",
+     "p": "MF",
+     "r": 76,
+     "nat": "France",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Igor Dobrovolski",
+     "p": "MF",
+     "r": 80,
+     "nat": "Russia",
+     "dp": [
+      "AM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Jean-Marc Ferreri",
+     "p": "MF",
+     "r": 74,
+     "nat": "France",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Abedi Pelé",
+     "p": "MF",
+     "r": 86,
+     "nat": "Ghana",
+     "dp": [
+      "AM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Alen Bokšić",
+     "p": "FW",
+     "r": 84,
+     "nat": "Croatia",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Rudi Völler",
+     "p": "FW",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Jean-Pierre Papin",
+     "FW"
+    ],
+    [
+     "Eric Cantona",
+     "FW"
+    ],
+    [
+     "Chris Waddle",
+     "MF"
+    ],
+    [
+     "Zinedine Zidane",
+     "MF"
+    ],
+    [
+     "David Ginola",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1992-93"
+    }
+   ]
+  },
+  {
+   "id": "ita-acm-9293",
+   "club": "AC Milan",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1992-93",
+   "kit": [
+    "#FB090B",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League runner-up 1992-93",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Sebastiano Rossi",
+     "p": "GK",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mauro Tassotti",
+     "p": "DF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Franco Baresi",
+     "p": "DF",
+     "r": 90,
+     "nat": "Italy",
+     "dp": [
+      "SW",
+      "CB"
+     ]
+    },
+    {
+     "n": "Alessandro Costacurta",
+     "p": "DF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Paolo Maldini",
+     "p": "DF",
+     "r": 89,
+     "nat": "Italy",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Filippo Galli",
+     "p": "DF",
+     "r": 77,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Stefano Nava",
+     "p": "DF",
+     "r": 72,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Frank Rijkaard",
+     "p": "MF",
+     "r": 88,
+     "nat": "Netherlands",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Demetrio Albertini",
+     "p": "MF",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Roberto Donadoni",
+     "p": "MF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Gianluigi Lentini",
+     "p": "MF",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "RW",
+      "LW"
+     ]
+    },
+    {
+     "n": "Stefano Eranio",
+     "p": "MF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Zvonimir Boban",
+     "p": "MF",
+     "r": 84,
+     "nat": "Croatia",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Dejan Savićević",
+     "p": "MF",
+     "r": 87,
+     "nat": "Yugoslavia",
+     "dp": [
+      "AM",
+      "SS"
+     ]
+    },
+    {
+     "n": "Ruud Gullit",
+     "p": "MF",
+     "r": 87,
+     "nat": "Netherlands",
+     "dp": [
+      "AM",
+      "CF"
+     ]
+    },
+    {
+     "n": "Marco van Basten",
+     "p": "FW",
+     "r": 92,
+     "nat": "Netherlands",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Jean-Pierre Papin",
+     "p": "FW",
+     "r": 86,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Daniele Massaro",
+     "p": "FW",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Roberto Baggio",
+     "FW"
+    ],
+    [
+     "Giuseppe Signori",
+     "FW"
+    ],
+    [
+     "Lothar Matthäus",
+     "MF"
+    ],
+    [
+     "Gianluca Vialli",
+     "FW"
+    ],
+    [
+     "Diego Maradona",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1992-93"
+    }
+   ]
+  },
+  {
+   "id": "ita-acm-9394",
+   "club": "AC Milan",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1993-94",
+   "kit": [
+    "#FB090B",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League winner 1993-94",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Sebastiano Rossi",
+     "p": "GK",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mario Ielpo",
+     "p": "GK",
+     "r": 70,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mauro Tassotti",
+     "p": "DF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Franco Baresi",
+     "p": "DF",
+     "r": 90,
+     "nat": "Italy",
+     "dp": [
+      "SW",
+      "CB"
+     ]
+    },
+    {
+     "n": "Alessandro Costacurta",
+     "p": "DF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Paolo Maldini",
+     "p": "DF",
+     "r": 90,
+     "nat": "Italy",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Filippo Galli",
+     "p": "DF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Christian Panucci",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "RB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Marcel Desailly",
+     "p": "MF",
+     "r": 85,
+     "nat": "France",
+     "dp": [
+      "DM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Demetrio Albertini",
+     "p": "MF",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Roberto Donadoni",
+     "p": "MF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Stefano Eranio",
+     "p": "MF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Zvonimir Boban",
+     "p": "MF",
+     "r": 85,
+     "nat": "Croatia",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Dejan Savićević",
+     "p": "FW",
+     "r": 88,
+     "nat": "Yugoslavia",
+     "dp": [
+      "AM",
+      "SS"
+     ]
+    },
+    {
+     "n": "Daniele Massaro",
+     "p": "FW",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Marco Simone",
+     "p": "FW",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Jean-Pierre Papin",
+     "p": "FW",
+     "r": 84,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Florin Răducioiu",
+     "p": "FW",
+     "r": 78,
+     "nat": "Romania",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Roberto Baggio",
+     "FW"
+    ],
+    [
+     "Gianfranco Zola",
+     "FW"
+    ],
+    [
+     "Giuseppe Signori",
+     "FW"
+    ],
+    [
+     "Marco van Basten",
+     "FW"
+    ],
+    [
+     "Ruud Gullit",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1993-94"
+    }
+   ]
+  },
+  {
+   "id": "esp-bar-9394",
+   "club": "Barcelona",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1993-94",
+   "kit": [
+    "#004D98",
+    "#A50044"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League runner-up 1993-94",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Andoni Zubizarreta",
+     "p": "GK",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Carles Busquets",
+     "p": "GK",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Albert Ferrer",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Sergi Barjuán",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Ronald Koeman",
+     "p": "DF",
+     "r": 88,
+     "nat": "Netherlands",
+     "dp": [
+      "SW",
+      "CB"
+     ]
+    },
+    {
+     "n": "Miguel Ángel Nadal",
+     "p": "DF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Nando",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Juan Carlos",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Pep Guardiola",
+     "p": "MF",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "José Mari Bakero",
+     "p": "MF",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Guillermo Amor",
+     "p": "MF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Eusebio Sacristán",
+     "p": "MF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Txiki Begiristain",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "LW",
+      "RW"
+     ]
+    },
+    {
+     "n": "Michael Laudrup",
+     "p": "MF",
+     "r": 88,
+     "nat": "Denmark",
+     "dp": [
+      "AM",
+      "SS"
+     ]
+    },
+    {
+     "n": "Jon Andoni Goikoetxea",
+     "p": "MF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Hristo Stoichkov",
+     "p": "FW",
+     "r": 89,
+     "nat": "Bulgaria",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Romário",
+     "p": "FW",
+     "r": 91,
+     "nat": "Brazil",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Julio Salinas",
+     "p": "FW",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Gheorghe Hagi",
+     "MF"
+    ],
+    [
+     "Luís Figo",
+     "MF"
+    ],
+    [
+     "Gheorghe Popescu",
+     "DF"
+    ],
+    [
+     "Luis Enrique",
+     "MF"
+    ],
+    [
+     "Rivaldo",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1993-94"
+    }
+   ]
+  },
+  {
+   "id": "ned-aja-9495",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "league": "NED",
+   "season": "1994-95",
+   "kit": [
+    "#FFFFFF",
+    "#D2122E"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League winner 1994-95",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Edwin van der Sar",
+     "p": "GK",
+     "r": 85,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Fred Grim",
+     "p": "GK",
+     "r": 68,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Michael Reiziger",
+     "p": "DF",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Danny Blind",
+     "p": "DF",
+     "r": 83,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Frank de Boer",
+     "p": "DF",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Frank Rijkaard",
+     "p": "DF",
+     "r": 86,
+     "nat": "Netherlands",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Sonny Silooy",
+     "p": "DF",
+     "r": 75,
+     "nat": "Netherlands",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Winston Bogarde",
+     "p": "DF",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Edgar Davids",
+     "p": "MF",
+     "r": 83,
+     "nat": "Netherlands",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Clarence Seedorf",
+     "p": "MF",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jari Litmanen",
+     "p": "MF",
+     "r": 87,
+     "nat": "Finland",
+     "dp": [
+      "AM",
+      "SS"
+     ]
+    },
+    {
+     "n": "Ronald de Boer",
+     "p": "MF",
+     "r": 83,
+     "nat": "Netherlands",
+     "dp": [
+      "AM",
+      "CF"
+     ]
+    },
+    {
+     "n": "Finidi George",
+     "p": "MF",
+     "r": 81,
+     "nat": "Nigeria",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Marc Overmars",
+     "p": "MF",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Patrick Kluivert",
+     "p": "FW",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Nwankwo Kanu",
+     "p": "FW",
+     "r": 78,
+     "nat": "Nigeria",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Peter van Vossen",
+     "p": "FW",
+     "r": 75,
+     "nat": "Netherlands",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "John Veldman",
+     "p": "DF",
+     "r": 70,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Dennis Bergkamp",
+     "FW"
+    ],
+    [
+     "Brian Roy",
+     "FW"
+    ],
+    [
+     "Wim Jonk",
+     "MF"
+    ],
+    [
+     "Aron Winter",
+     "MF"
+    ],
+    [
+     "Bryan Roy",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1994-95"
+    }
+   ]
+  },
+  {
+   "id": "ita-acm-9495",
+   "club": "AC Milan",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1994-95",
+   "kit": [
+    "#FB090B",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League runner-up 1994-95",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Sebastiano Rossi",
+     "p": "GK",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mario Ielpo",
+     "p": "GK",
+     "r": 70,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mauro Tassotti",
+     "p": "DF",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Franco Baresi",
+     "p": "DF",
+     "r": 89,
+     "nat": "Italy",
+     "dp": [
+      "SW",
+      "CB"
+     ]
+    },
+    {
+     "n": "Alessandro Costacurta",
+     "p": "DF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Paolo Maldini",
+     "p": "DF",
+     "r": 90,
+     "nat": "Italy",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Christian Panucci",
+     "p": "DF",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "RB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Filippo Galli",
+     "p": "DF",
+     "r": 77,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Marcel Desailly",
+     "p": "MF",
+     "r": 85,
+     "nat": "France",
+     "dp": [
+      "DM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Demetrio Albertini",
+     "p": "MF",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Roberto Donadoni",
+     "p": "MF",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Gianluigi Lentini",
+     "p": "MF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "RW",
+      "LW"
+     ]
+    },
+    {
+     "n": "Zvonimir Boban",
+     "p": "MF",
+     "r": 85,
+     "nat": "Croatia",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Dejan Savićević",
+     "p": "FW",
+     "r": 87,
+     "nat": "Yugoslavia",
+     "dp": [
+      "AM",
+      "SS"
+     ]
+    },
+    {
+     "n": "Ruud Gullit",
+     "p": "MF",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "AM",
+      "CF"
+     ]
+    },
+    {
+     "n": "Paolo Di Canio",
+     "p": "FW",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "AM",
+      "FW"
+     ]
+    },
+    {
+     "n": "Marco Simone",
+     "p": "FW",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Daniele Massaro",
+     "p": "FW",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Roberto Baggio",
+     "FW"
+    ],
+    [
+     "George Weah",
+     "FW"
+    ],
+    [
+     "Gabriel Batistuta",
+     "FW"
+    ],
+    [
+     "Gianfranco Zola",
+     "FW"
+    ],
+    [
+     "Christian Vieri",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1994-95"
+    }
+   ]
+  },
+  {
+   "id": "ita-juv-9596",
+   "club": "Juventus",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1995-96",
+   "kit": [
+    "#FFFFFF",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League winner 1995-96",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Angelo Peruzzi",
+     "p": "GK",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Michelangelo Rampulla",
+     "p": "GK",
+     "r": 70,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Moreno Torricelli",
+     "p": "DF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Ciro Ferrara",
+     "p": "DF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Pietro Vierchowod",
+     "p": "DF",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gianluca Pessotto",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Sergio Porrini",
+     "p": "DF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Massimo Carrera",
+     "p": "DF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Didier Deschamps",
+     "p": "MF",
+     "r": 84,
+     "nat": "France",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Paulo Sousa",
+     "p": "MF",
+     "r": 84,
+     "nat": "Portugal",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Antonio Conte",
+     "p": "MF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Angelo Di Livio",
+     "p": "MF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Vladimir Jugović",
+     "p": "MF",
+     "r": 82,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Attilio Lombardo",
+     "p": "MF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "RW",
+      "RM"
+     ]
+    },
+    {
+     "n": "Gianluca Vialli",
+     "p": "FW",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Fabrizio Ravanelli",
+     "p": "FW",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Alessandro Del Piero",
+     "p": "FW",
+     "r": 86,
+     "nat": "Italy",
+     "dp": [
+      "SS",
+      "FW"
+     ]
+    },
+    {
+     "n": "Michele Padovano",
+     "p": "FW",
+     "r": 77,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Roberto Baggio",
+     "FW"
+    ],
+    [
+     "Zinedine Zidane",
+     "MF"
+    ],
+    [
+     "Filippo Inzaghi",
+     "FW"
+    ],
+    [
+     "Edgar Davids",
+     "MF"
+    ],
+    [
+     "Gianluca Zambrotta",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1995-96"
+    }
+   ]
+  },
+  {
+   "id": "ned-aja-9596",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "league": "NED",
+   "season": "1995-96",
+   "kit": [
+    "#FFFFFF",
+    "#D2122E"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League runner-up 1995-96",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Edwin van der Sar",
+     "p": "GK",
+     "r": 85,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Fred Grim",
+     "p": "GK",
+     "r": 68,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Michael Reiziger",
+     "p": "DF",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Danny Blind",
+     "p": "DF",
+     "r": 83,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Frank de Boer",
+     "p": "DF",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Winston Bogarde",
+     "p": "DF",
+     "r": 79,
+     "nat": "Netherlands",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Sonny Silooy",
+     "p": "DF",
+     "r": 75,
+     "nat": "Netherlands",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Edgar Davids",
+     "p": "MF",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Jari Litmanen",
+     "p": "MF",
+     "r": 88,
+     "nat": "Finland",
+     "dp": [
+      "AM",
+      "SS"
+     ]
+    },
+    {
+     "n": "Ronald de Boer",
+     "p": "MF",
+     "r": 83,
+     "nat": "Netherlands",
+     "dp": [
+      "AM",
+      "CF"
+     ]
+    },
+    {
+     "n": "Arnold Scholten",
+     "p": "MF",
+     "r": 74,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Kiki Musampa",
+     "p": "MF",
+     "r": 75,
+     "nat": "Netherlands",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Nordin Wooter",
+     "p": "MF",
+     "r": 73,
+     "nat": "Netherlands",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Finidi George",
+     "p": "MF",
+     "r": 81,
+     "nat": "Nigeria",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Marc Overmars",
+     "p": "MF",
+     "r": 83,
+     "nat": "Netherlands",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Patrick Kluivert",
+     "p": "FW",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Nwankwo Kanu",
+     "p": "FW",
+     "r": 80,
+     "nat": "Nigeria",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Peter Hoekstra",
+     "p": "MF",
+     "r": 73,
+     "nat": "Netherlands",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Dennis Bergkamp",
+     "FW"
+    ],
+    [
+     "Clarence Seedorf",
+     "MF"
+    ],
+    [
+     "Aron Winter",
+     "MF"
+    ],
+    [
+     "Wim Jonk",
+     "MF"
+    ],
+    [
+     "Stefan Pettersson",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1995-96"
+    }
+   ]
+  },
+  {
+   "id": "ger-bvb-9697",
+   "club": "Borussia Dortmund",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1996-97",
+   "kit": [
+    "#FDE100",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League winner 1996-97",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Stefan Klos",
+     "p": "GK",
+     "r": 82,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Wolfgang de Beer",
+     "p": "GK",
+     "r": 68,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Jürgen Kohler",
+     "p": "DF",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Matthias Sammer",
+     "p": "DF",
+     "r": 88,
+     "nat": "Germany",
+     "dp": [
+      "SW",
+      "CB"
+     ]
+    },
+    {
+     "n": "Martin Kree",
+     "p": "DF",
+     "r": 76,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Stefan Reuter",
+     "p": "DF",
+     "r": 81,
+     "nat": "Germany",
+     "dp": [
+      "RB",
+      "RM"
+     ]
+    },
+    {
+     "n": "Jörg Heinrich",
+     "p": "DF",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "LB",
+      "LM"
+     ]
+    },
+    {
+     "n": "Júlio César",
+     "p": "DF",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Wolfgang Feiersinger",
+     "p": "DF",
+     "r": 74,
+     "nat": "Austria",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Paul Lambert",
+     "p": "MF",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Paulo Sousa",
+     "p": "MF",
+     "r": 83,
+     "nat": "Portugal",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Andreas Möller",
+     "p": "MF",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Michael Zorc",
+     "p": "MF",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "René Tretschok",
+     "p": "MF",
+     "r": 73,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Lars Ricken",
+     "p": "MF",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "AM",
+      "FW"
+     ]
+    },
+    {
+     "n": "Heiko Herrlich",
+     "p": "FW",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Karl-Heinz Riedle",
+     "p": "FW",
+     "r": 82,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Stéphane Chapuisat",
+     "p": "FW",
+     "r": 82,
+     "nat": "Switzerland",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Lothar Matthäus",
+     "MF"
+    ],
+    [
+     "Jürgen Klinsmann",
+     "FW"
+    ],
+    [
+     "Oliver Bierhoff",
+     "FW"
+    ],
+    [
+     "Mehmet Scholl",
+     "MF"
+    ],
+    [
+     "Mario Basler",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1996-97"
+    }
+   ]
+  },
+  {
+   "id": "ita-juv-9697",
+   "club": "Juventus",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1996-97",
+   "kit": [
+    "#FFFFFF",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League runner-up 1996-97",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Angelo Peruzzi",
+     "p": "GK",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Michelangelo Rampulla",
+     "p": "GK",
+     "r": 70,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Ciro Ferrara",
+     "p": "DF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Paolo Montero",
+     "p": "DF",
+     "r": 83,
+     "nat": "Uruguay",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Mark Iuliano",
+     "p": "DF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Sergio Porrini",
+     "p": "DF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Gianluca Pessotto",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Moreno Torricelli",
+     "p": "DF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Didier Deschamps",
+     "p": "MF",
+     "r": 84,
+     "nat": "France",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Zinedine Zidane",
+     "p": "MF",
+     "r": 88,
+     "nat": "France",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Antonio Conte",
+     "p": "MF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Angelo Di Livio",
+     "p": "MF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Vladimir Jugović",
+     "p": "MF",
+     "r": 82,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Alessio Tacchinardi",
+     "p": "MF",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Alessandro Del Piero",
+     "p": "FW",
+     "r": 87,
+     "nat": "Italy",
+     "dp": [
+      "SS",
+      "FW"
+     ]
+    },
+    {
+     "n": "Christian Vieri",
+     "p": "FW",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Alen Bokšić",
+     "p": "FW",
+     "r": 83,
+     "nat": "Croatia",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Nicola Amoruso",
+     "p": "FW",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Gianluca Vialli",
+     "FW"
+    ],
+    [
+     "Fabrizio Ravanelli",
+     "FW"
+    ],
+    [
+     "Gabriel Batistuta",
+     "FW"
+    ],
+    [
+     "Roberto Baggio",
+     "FW"
+    ],
+    [
+     "Filippo Inzaghi",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1996-97"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-9798",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1997-98",
+   "kit": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League winner 1997-98",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Bodo Illgner",
+     "p": "GK",
+     "r": 82,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Santiago Cañizares",
+     "p": "GK",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Christian Panucci",
+     "p": "DF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Fernando Hierro",
+     "p": "DF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Manuel Sanchís",
+     "p": "DF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Roberto Carlos",
+     "p": "DF",
+     "r": 87,
+     "nat": "Brazil",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Fernando Sanz",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Aitor Karanka",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Christian Karembeu",
+     "p": "MF",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Fernando Redondo",
+     "p": "MF",
+     "r": 86,
+     "nat": "Argentina",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Clarence Seedorf",
+     "p": "MF",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Sávio",
+     "p": "MF",
+     "r": 79,
+     "nat": "Brazil",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "José Emilio Amavisca",
+     "p": "MF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Guti",
+     "p": "MF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Predrag Mijatović",
+     "p": "FW",
+     "r": 85,
+     "nat": "Yugoslavia",
+     "dp": [
+      "SS",
+      "FW"
+     ]
+    },
+    {
+     "n": "Raúl",
+     "p": "FW",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "FW",
+      "SS"
+     ]
+    },
+    {
+     "n": "Fernando Morientes",
+     "p": "FW",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Davor Šuker",
+     "p": "FW",
+     "r": 84,
+     "nat": "Croatia",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Ronaldo",
+     "FW"
+    ],
+    [
+     "Luís Figo",
+     "MF"
+    ],
+    [
+     "Rivaldo",
+     "FW"
+    ],
+    [
+     "Luis Enrique",
+     "MF"
+    ],
+    [
+     "Iván Zamorano",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1997-98"
+    }
+   ]
+  },
+  {
+   "id": "ita-juv-9798",
+   "club": "Juventus",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1997-98",
+   "kit": [
+    "#FFFFFF",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League runner-up 1997-98",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Angelo Peruzzi",
+     "p": "GK",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Michelangelo Rampulla",
+     "p": "GK",
+     "r": 70,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Alessandro Birindelli",
+     "p": "DF",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Moreno Torricelli",
+     "p": "DF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Paolo Montero",
+     "p": "DF",
+     "r": 84,
+     "nat": "Uruguay",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Mark Iuliano",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ciro Ferrara",
+     "p": "DF",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gianluca Pessotto",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Dimas",
+     "p": "DF",
+     "r": 75,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Didier Deschamps",
+     "p": "MF",
+     "r": 84,
+     "nat": "France",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Zinedine Zidane",
+     "p": "MF",
+     "r": 89,
+     "nat": "France",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Edgar Davids",
+     "p": "MF",
+     "r": 83,
+     "nat": "Netherlands",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Antonio Conte",
+     "p": "MF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Angelo Di Livio",
+     "p": "MF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Alessio Tacchinardi",
+     "p": "MF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Alessandro Del Piero",
+     "p": "FW",
+     "r": 88,
+     "nat": "Italy",
+     "dp": [
+      "SS",
+      "FW"
+     ]
+    },
+    {
+     "n": "Filippo Inzaghi",
+     "p": "FW",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Nicola Amoruso",
+     "p": "FW",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Christian Vieri",
+     "FW"
+    ],
+    [
+     "Alen Bokšić",
+     "FW"
+    ],
+    [
+     "Gianluca Vialli",
+     "FW"
+    ],
+    [
+     "Roberto Baggio",
+     "FW"
+    ],
+    [
+     "Fabrizio Ravanelli",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1997-98"
+    }
+   ]
+  },
+  {
+   "id": "ger-fcb-9899",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1998-99",
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League runner-up 1998-99",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Oliver Kahn",
+     "p": "GK",
+     "r": 88,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Bernd Dreher",
+     "p": "GK",
+     "r": 68,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Markus Babbel",
+     "p": "DF",
+     "r": 82,
+     "nat": "Germany",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Lothar Matthäus",
+     "p": "DF",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "SW",
+      "DM"
+     ]
+    },
+    {
+     "n": "Thomas Linke",
+     "p": "DF",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Samuel Kuffour",
+     "p": "DF",
+     "r": 81,
+     "nat": "Ghana",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Bixente Lizarazu",
+     "p": "DF",
+     "r": 84,
+     "nat": "France",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Michael Tarnat",
+     "p": "DF",
+     "r": 79,
+     "nat": "Germany",
+     "dp": [
+      "LB",
+      "LM"
+     ]
+    },
+    {
+     "n": "Thomas Strunz",
+     "p": "DF",
+     "r": 76,
+     "nat": "Germany",
+     "dp": [
+      "RB",
+      "CM"
+     ]
+    },
+    {
+     "n": "Jens Jeremies",
+     "p": "MF",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Stefan Effenberg",
+     "p": "MF",
+     "r": 85,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Mario Basler",
+     "p": "MF",
+     "r": 82,
+     "nat": "Germany",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Thorsten Fink",
+     "p": "MF",
+     "r": 74,
+     "nat": "Germany",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Hasan Salihamidžić",
+     "p": "MF",
+     "r": 78,
+     "nat": "Bosnia and Herzegovina",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Mehmet Scholl",
+     "p": "MF",
+     "r": 83,
+     "nat": "Germany",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Carsten Jancker",
+     "p": "FW",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Alexander Zickler",
+     "p": "FW",
+     "r": 76,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Giovane Élber",
+     "p": "FW",
+     "r": 83,
+     "nat": "Brazil",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Jürgen Klinsmann",
+     "FW"
+    ],
+    [
+     "Christian Ziege",
+     "DF"
+    ],
+    [
+     "Michael Ballack",
+     "MF"
+    ],
+    [
+     "Roy Makaay",
+     "FW"
+    ],
+    [
+     "Claudio Pizarro",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1998-99"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-9900",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1999-00",
+   "kit": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League winner 1999-00",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Iker Casillas",
+     "p": "GK",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Bodo Illgner",
+     "p": "GK",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Míchel Salgado",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Fernando Hierro",
+     "p": "DF",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Manuel Sanchís",
+     "p": "DF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Iván Campo",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Roberto Carlos",
+     "p": "DF",
+     "r": 87,
+     "nat": "Brazil",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Aitor Karanka",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Christian Karembeu",
+     "p": "MF",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "RM",
+      "RB"
+     ]
+    },
+    {
+     "n": "Fernando Redondo",
+     "p": "MF",
+     "r": 86,
+     "nat": "Argentina",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Iván Helguera",
+     "p": "MF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Steve McManaman",
+     "p": "MF",
+     "r": 83,
+     "nat": "England",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Guti",
+     "p": "MF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Geremi",
+     "p": "MF",
+     "r": 76,
+     "nat": "Cameroon",
+     "dp": [
+      "RM",
+      "RB"
+     ]
+    },
+    {
+     "n": "Sávio",
+     "p": "MF",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Raúl",
+     "p": "FW",
+     "r": 88,
+     "nat": "Spain",
+     "dp": [
+      "FW",
+      "SS"
+     ]
+    },
+    {
+     "n": "Fernando Morientes",
+     "p": "FW",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Nicolas Anelka",
+     "p": "FW",
+     "r": 82,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Luís Figo",
+     "MF"
+    ],
+    [
+     "Zinedine Zidane",
+     "MF"
+    ],
+    [
+     "Ronaldo",
+     "FW"
+    ],
+    [
+     "Predrag Mijatović",
+     "FW"
+    ],
+    [
+     "Davor Šuker",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1999-00"
+    }
+   ]
+  },
+  {
+   "id": "esp-val-9900",
+   "club": "Valencia",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1999-00",
+   "kit": [
+    "#FFFFFF",
+    "#EE3124"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League runner-up 1999-00",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Santiago Cañizares",
+     "p": "GK",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Andrés Palop",
+     "p": "GK",
+     "r": 70,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Jocelyn Angloma",
+     "p": "DF",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Mauricio Pellegrino",
+     "p": "DF",
+     "r": 79,
+     "nat": "Argentina",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Miroslav Đukić",
+     "p": "DF",
+     "r": 80,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Amedeo Carboni",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Francisco Camarasa",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Didier Deschamps",
+     "p": "MF",
+     "r": 82,
+     "nat": "France",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Gaizka Mendieta",
+     "p": "MF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Gerard",
+     "p": "MF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Javier Farinós",
+     "p": "MF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Kily González",
+     "p": "MF",
+     "r": 81,
+     "nat": "Argentina",
+     "dp": [
+      "LM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Adrian Ilie",
+     "p": "FW",
+     "r": 80,
+     "nat": "Romania",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Claudio López",
+     "p": "FW",
+     "r": 84,
+     "nat": "Argentina",
+     "dp": [
+      "FW",
+      "LW"
+     ]
+    },
+    {
+     "n": "Juan Sánchez",
+     "p": "FW",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Miguel Ángel Angulo",
+     "p": "FW",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "FW",
+      "RW"
+     ]
+    },
+    {
+     "n": "Goran Vlaović",
+     "p": "FW",
+     "r": 77,
+     "nat": "Croatia",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Pablo Aimar",
+     "MF"
+    ],
+    [
+     "Rubén Baraja",
+     "MF"
+    ],
+    [
+     "Roberto Ayala",
+     "DF"
+    ],
+    [
+     "John Carew",
+     "FW"
+    ],
+    [
+     "Vicente Rodríguez",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1999-00"
+    }
+   ]
+  },
+  {
+   "id": "ger-fcb-0001",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "league": "GER",
+   "season": "2000-01",
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League winner 2000-01",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Oliver Kahn",
+     "p": "GK",
+     "r": 89,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Stefan Wessels",
+     "p": "GK",
+     "r": 68,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Willy Sagnol",
+     "p": "DF",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Samuel Kuffour",
+     "p": "DF",
+     "r": 82,
+     "nat": "Ghana",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Patrik Andersson",
+     "p": "DF",
+     "r": 79,
+     "nat": "Sweden",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Thomas Linke",
+     "p": "DF",
+     "r": 79,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Bixente Lizarazu",
+     "p": "DF",
+     "r": 84,
+     "nat": "France",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Michael Tarnat",
+     "p": "DF",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "LB",
+      "LM"
+     ]
+    },
+    {
+     "n": "Owen Hargreaves",
+     "p": "MF",
+     "r": 79,
+     "nat": "England",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Stefan Effenberg",
+     "p": "MF",
+     "r": 85,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jens Jeremies",
+     "p": "MF",
+     "r": 79,
+     "nat": "Germany",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Mehmet Scholl",
+     "p": "MF",
+     "r": 83,
+     "nat": "Germany",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Hasan Salihamidžić",
+     "p": "MF",
+     "r": 79,
+     "nat": "Bosnia and Herzegovina",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Ciriaco Sforza",
+     "p": "MF",
+     "r": 78,
+     "nat": "Switzerland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Paulo Sérgio",
+     "p": "MF",
+     "r": 79,
+     "nat": "Brazil",
+     "dp": [
+      "RW",
+      "FW"
+     ]
+    },
+    {
+     "n": "Giovane Élber",
+     "p": "FW",
+     "r": 84,
+     "nat": "Brazil",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Carsten Jancker",
+     "p": "FW",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Alexander Zickler",
+     "p": "FW",
+     "r": 76,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Michael Ballack",
+     "MF"
+    ],
+    [
+     "Roy Makaay",
+     "FW"
+    ],
+    [
+     "Claudio Pizarro",
+     "FW"
+    ],
+    [
+     "Zé Roberto",
+     "MF"
+    ],
+    [
+     "Sebastian Deisler",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "2000-01"
+    }
+   ]
+  },
+  {
+   "id": "esp-val-0001",
+   "club": "Valencia",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "2000-01",
+   "kit": [
+    "#FFFFFF",
+    "#EE3124"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League runner-up 2000-01",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Santiago Cañizares",
+     "p": "GK",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Andrés Palop",
+     "p": "GK",
+     "r": 70,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Jocelyn Angloma",
+     "p": "DF",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Roberto Ayala",
+     "p": "DF",
+     "r": 84,
+     "nat": "Argentina",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Mauricio Pellegrino",
+     "p": "DF",
+     "r": 79,
+     "nat": "Argentina",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Amedeo Carboni",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Miroslav Đukić",
+     "p": "DF",
+     "r": 79,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Fabio Aurélio",
+     "p": "DF",
+     "r": 76,
+     "nat": "Brazil",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "David Albelda",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Gaizka Mendieta",
+     "p": "MF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Rubén Baraja",
+     "p": "MF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Kily González",
+     "p": "MF",
+     "r": 81,
+     "nat": "Argentina",
+     "dp": [
+      "LM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Pablo Aimar",
+     "p": "MF",
+     "r": 83,
+     "nat": "Argentina",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Gerard",
+     "p": "MF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Vicente",
+     "p": "MF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Juan Sánchez",
+     "p": "FW",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "John Carew",
+     "p": "FW",
+     "r": 80,
+     "nat": "Norway",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Zlatko Zahovič",
+     "p": "FW",
+     "r": 82,
+     "nat": "Slovenia",
+     "dp": [
+      "AM",
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Claudio López",
+     "FW"
+    ],
+    [
+     "Mista",
+     "FW"
+    ],
+    [
+     "Adrian Mutu",
+     "FW"
+    ],
+    [
+     "Marco Di Vaio",
+     "FW"
+    ],
+    [
+     "Ricardo Oliveira",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "2000-01"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-0102",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "2001-02",
+   "kit": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League winner 2001-02",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Iker Casillas",
+     "p": "GK",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "César Sánchez",
+     "p": "GK",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Míchel Salgado",
+     "p": "DF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Fernando Hierro",
+     "p": "DF",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Iván Helguera",
+     "p": "DF",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Roberto Carlos",
+     "p": "DF",
+     "r": 87,
+     "nat": "Brazil",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Aitor Karanka",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Francisco Pavón",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Claude Makélélé",
+     "p": "MF",
+     "r": 84,
+     "nat": "France",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Zinedine Zidane",
+     "p": "MF",
+     "r": 91,
+     "nat": "France",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Luís Figo",
+     "p": "MF",
+     "r": 89,
+     "nat": "Portugal",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Santiago Solari",
+     "p": "MF",
+     "r": 80,
+     "nat": "Argentina",
+     "dp": [
+      "LW",
+      "LM"
+     ]
+    },
+    {
+     "n": "Guti",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Steve McManaman",
+     "p": "MF",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Flávio Conceição",
+     "p": "MF",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Geremi",
+     "p": "MF",
+     "r": 77,
+     "nat": "Cameroon",
+     "dp": [
+      "RM",
+      "RB"
+     ]
+    },
+    {
+     "n": "Raúl",
+     "p": "FW",
+     "r": 89,
+     "nat": "Spain",
+     "dp": [
+      "FW",
+      "SS"
+     ]
+    },
+    {
+     "n": "Fernando Morientes",
+     "p": "FW",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Ronaldo",
+     "FW"
+    ],
+    [
+     "David Beckham",
+     "MF"
+    ],
+    [
+     "Pavel Nedvěd",
+     "MF"
+    ],
+    [
+     "Hristo Stoichkov",
+     "FW"
+    ],
+    [
+     "Iván Zamorano",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "2001-02"
+    }
+   ]
+  },
+  {
+   "id": "ger-b04-0102",
+   "club": "Bayer Leverkusen",
+   "country": "Germany",
+   "league": "GER",
+   "season": "2001-02",
+   "kit": [
+    "#E32219",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League runner-up 2001-02",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Hans-Jörg Butt",
+     "p": "GK",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Frank Juric",
+     "p": "GK",
+     "r": 68,
+     "nat": "Australia",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Zoltán Sebescen",
+     "p": "DF",
+     "r": 74,
+     "nat": "Germany",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Diego Placente",
+     "p": "DF",
+     "r": 78,
+     "nat": "Argentina",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Lúcio",
+     "p": "DF",
+     "r": 84,
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Jens Nowotny",
+     "p": "DF",
+     "r": 82,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Boris Živković",
+     "p": "DF",
+     "r": 75,
+     "nat": "Croatia",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Carsten Ramelow",
+     "p": "MF",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "DM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Bernd Schneider",
+     "p": "MF",
+     "r": 82,
+     "nat": "Germany",
+     "dp": [
+      "RW",
+      "RM"
+     ]
+    },
+    {
+     "n": "Michael Ballack",
+     "p": "MF",
+     "r": 87,
+     "nat": "Germany",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Yıldıray Baştürk",
+     "p": "MF",
+     "r": 80,
+     "nat": "Turkey",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Zé Roberto",
+     "p": "MF",
+     "r": 83,
+     "nat": "Brazil",
+     "dp": [
+      "LW",
+      "LM"
+     ]
+    },
+    {
+     "n": "Marko Babić",
+     "p": "MF",
+     "r": 74,
+     "nat": "Croatia",
+     "dp": [
+      "LM"
+     ]
+    },
+    {
+     "n": "Hanno Balitsch",
+     "p": "DF",
+     "r": 72,
+     "nat": "Germany",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Oliver Neuville",
+     "p": "FW",
+     "r": 81,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Ulf Kirsten",
+     "p": "FW",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Thomas Brdarić",
+     "p": "FW",
+     "r": 73,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Dimitar Berbatov",
+     "p": "FW",
+     "r": 78,
+     "nat": "Bulgaria",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Miroslav Klose",
+     "FW"
+    ],
+    [
+     "Sebastian Kehl",
+     "MF"
+    ],
+    [
+     "Stefan Kießling",
+     "FW"
+    ],
+    [
+     "Arturo Vidal",
+     "MF"
+    ],
+    [
+     "Hakan Çalhanoğlu",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "2001-02"
+    }
+   ]
+  },
+  {
+   "id": "ita-acm-0203",
+   "club": "AC Milan",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "2002-03",
+   "kit": [
+    "#FB090B",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League winner 2002-03",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Dida",
+     "p": "GK",
+     "r": 84,
+     "nat": "Brazil",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Christian Abbiati",
+     "p": "GK",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Alessandro Costacurta",
+     "p": "DF",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Paolo Maldini",
+     "p": "DF",
+     "r": 88,
+     "nat": "Italy",
+     "dp": [
+      "CB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Alessandro Nesta",
+     "p": "DF",
+     "r": 88,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Kakha Kaladze",
+     "p": "DF",
+     "r": 81,
+     "nat": "Georgia",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Roque Júnior",
+     "p": "DF",
+     "r": 79,
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Martin Laursen",
+     "p": "DF",
+     "r": 78,
+     "nat": "Denmark",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Serginho",
+     "p": "DF",
+     "r": 77,
+     "nat": "Brazil",
+     "dp": [
+      "LB",
+      "LM"
+     ]
+    },
+    {
+     "n": "Gennaro Gattuso",
+     "p": "MF",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Andrea Pirlo",
+     "p": "MF",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Clarence Seedorf",
+     "p": "MF",
+     "r": 85,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Rui Costa",
+     "p": "MF",
+     "r": 84,
+     "nat": "Portugal",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Massimo Ambrosini",
+     "p": "MF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Filippo Inzaghi",
+     "p": "FW",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Andriy Shevchenko",
+     "p": "FW",
+     "r": 89,
+     "nat": "Ukraine",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Rivaldo",
+     "p": "FW",
+     "r": 84,
+     "nat": "Brazil",
+     "dp": [
+      "AM",
+      "FW"
+     ]
+    },
+    {
+     "n": "Jon Dahl Tomasson",
+     "p": "FW",
+     "r": 81,
+     "nat": "Denmark",
+     "dp": [
+      "SS",
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Kaká",
+     "MF"
+    ],
+    [
+     "Ronaldinho",
+     "FW"
+    ],
+    [
+     "Hernán Crespo",
+     "FW"
+    ],
+    [
+     "Cafu",
+     "DF"
+    ],
+    [
+     "Christian Vieri",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "2002-03"
+    }
+   ]
+  },
+  {
+   "id": "ita-juv-0203",
+   "club": "Juventus",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "2002-03",
+   "kit": [
+    "#FFFFFF",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League runner-up 2002-03",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Gianluigi Buffon",
+     "p": "GK",
+     "r": 88,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Antonio Chimenti",
+     "p": "GK",
+     "r": 70,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Lilian Thuram",
+     "p": "DF",
+     "r": 85,
+     "nat": "France",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Ciro Ferrara",
+     "p": "DF",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Paolo Montero",
+     "p": "DF",
+     "r": 82,
+     "nat": "Uruguay",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Igor Tudor",
+     "p": "DF",
+     "r": 79,
+     "nat": "Croatia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gianluca Zambrotta",
+     "p": "DF",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "LB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Alessandro Birindelli",
+     "p": "DF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Gianluca Pessotto",
+     "p": "DF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Pavel Nedvěd",
+     "p": "MF",
+     "r": 88,
+     "nat": "Czech Republic",
+     "dp": [
+      "AM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Edgar Davids",
+     "p": "MF",
+     "r": 83,
+     "nat": "Netherlands",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Alessio Tacchinardi",
+     "p": "MF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Mauro Camoranesi",
+     "p": "MF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Antonio Conte",
+     "p": "MF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Alessandro Del Piero",
+     "p": "FW",
+     "r": 87,
+     "nat": "Italy",
+     "dp": [
+      "SS",
+      "FW"
+     ]
+    },
+    {
+     "n": "David Trezeguet",
+     "p": "FW",
+     "r": 85,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Marcelo Zalayeta",
+     "p": "FW",
+     "r": 75,
+     "nat": "Uruguay",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Marco Di Vaio",
+     "p": "FW",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Zinedine Zidane",
+     "MF"
+    ],
+    [
+     "Christian Vieri",
+     "FW"
+    ],
+    [
+     "Filippo Inzaghi",
+     "FW"
+    ],
+    [
+     "Roberto Baggio",
+     "FW"
+    ],
+    [
+     "Gabriel Batistuta",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "2002-03"
+    }
+   ]
+  },
+  {
+   "id": "por-por-0304",
+   "club": "FC Porto",
+   "country": "Portugal",
+   "league": "POR",
+   "season": "2003-04",
+   "kit": [
+    "#0033A0",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League winner 2003-04",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Vítor Baía",
+     "p": "GK",
+     "r": 83,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Nuno Espírito Santo",
+     "p": "GK",
+     "r": 70,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Paulo Ferreira",
+     "p": "DF",
+     "r": 81,
+     "nat": "Portugal",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Jorge Costa",
+     "p": "DF",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ricardo Carvalho",
+     "p": "DF",
+     "r": 85,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Nuno Valente",
+     "p": "DF",
+     "r": 78,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Pedro Emanuel",
+     "p": "DF",
+     "r": 75,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Giourkas Seitaridis",
+     "p": "DF",
+     "r": 78,
+     "nat": "Greece",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Bruno Alves",
+     "p": "DF",
+     "r": 72,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Costinha",
+     "p": "MF",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Maniche",
+     "p": "MF",
+     "r": 82,
+     "nat": "Portugal",
+     "dp": [
+      "CM",
+      "RM"
+     ]
+    },
+    {
+     "n": "Deco",
+     "p": "MF",
+     "r": 87,
+     "nat": "Portugal",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Pedro Mendes",
+     "p": "MF",
+     "r": 77,
+     "nat": "Portugal",
+     "dp": [
+      "CM",
+      "LM"
+     ]
+    },
+    {
+     "n": "Dmitri Alenichev",
+     "p": "MF",
+     "r": 79,
+     "nat": "Russia",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Derlei",
+     "p": "FW",
+     "r": 81,
+     "nat": "Brazil",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Benni McCarthy",
+     "p": "FW",
+     "r": 81,
+     "nat": "South Africa",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Carlos Alberto",
+     "p": "FW",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "SS",
+      "FW"
+     ]
+    },
+    {
+     "n": "Edgaras Jankauskas",
+     "p": "FW",
+     "r": 76,
+     "nat": "Lithuania",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Hélder Postiga",
+     "FW"
+    ],
+    [
+     "Hulk",
+     "FW"
+    ],
+    [
+     "Radamel Falcao",
+     "FW"
+    ],
+    [
+     "Lucho González",
+     "MF"
+    ],
+    [
+     "Ricardo Quaresma",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "2003-04"
+    }
+   ]
+  },
+  {
+   "id": "fra-mon-0304",
+   "club": "AS Monaco",
+   "country": "France",
+   "league": "FRA",
+   "season": "2003-04",
+   "kit": [
+    "#CE1126",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "Champions League runner-up 2003-04",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Flavio Roma",
+     "p": "GK",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Stéphane Porato",
+     "p": "GK",
+     "r": 68,
+     "nat": "France",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Hugo Ibarra",
+     "p": "DF",
+     "r": 77,
+     "nat": "Argentina",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Gaël Givet",
+     "p": "DF",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Julien Rodriguez",
+     "p": "DF",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Patrice Evra",
+     "p": "DF",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Sébastien Squillaci",
+     "p": "DF",
+     "r": 78,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Akis Zikos",
+     "p": "MF",
+     "r": 77,
+     "nat": "Greece",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Lucas Bernardi",
+     "p": "MF",
+     "r": 79,
+     "nat": "Argentina",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Ludovic Giuly",
+     "p": "MF",
+     "r": 84,
+     "nat": "France",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Jérôme Rothen",
+     "p": "MF",
+     "r": 82,
+     "nat": "France",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Jaroslav Plašil",
+     "p": "MF",
+     "r": 74,
+     "nat": "Czech Republic",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Édouard Cissé",
+     "p": "MF",
+     "r": 76,
+     "nat": "France",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Dado Pršo",
+     "p": "FW",
+     "r": 80,
+     "nat": "Croatia",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Shabani Nonda",
+     "p": "FW",
+     "r": 81,
+     "nat": "DR Congo",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Fernando Morientes",
+     "p": "FW",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Emmanuel Adebayor",
+     "p": "FW",
+     "r": 74,
+     "nat": "Togo",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Djibril Cissé",
+     "FW"
+    ],
+    [
+     "Thierry Henry",
+     "FW"
+    ],
+    [
+     "Marcelo Gallardo",
+     "MF"
+    ],
+    [
+     "Sonny Anderson",
+     "FW"
+    ],
+    [
+     "Nicolas Anelka",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "2003-04"
+    }
+   ]
+  }
+ ]
+}
