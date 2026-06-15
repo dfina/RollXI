@@ -1,0 +1,3808 @@
+{
+ "meta": {
+  "name": "Wave Fd — EC/UCL finalists (winners + runners-up) 1980-81 to 1989-90 (pickable)",
+  "wave": "Fd",
+  "note": "Complete. All 10 editions 1980-81 to 1989-90 have both finalists pickable, each web-verified per edition (final match sheets, BDFutbol / Wikipedia / UEFA / club sources). Every promoted club-season removed from the EC/UCL tier-O index in the same pass; global O/P de-dup re-run with zero overlap. Eastern European sides (Steaua, Benfica) carry conf C where squad depth beyond the final XI is less documented.",
+  "verified": true
+ },
+ "squads": [
+  {
+   "id": "eng-liv-8081",
+   "club": "Liverpool",
+   "country": "England",
+   "league": "ENG",
+   "season": "1980-81",
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1980-81",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Ray Clemence",
+     "p": "GK",
+     "r": 85,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Steve Ogrizovic",
+     "p": "GK",
+     "r": 68,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Phil Neal",
+     "p": "DF",
+     "r": 82,
+     "nat": "England",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Alan Kennedy",
+     "p": "DF",
+     "r": 79,
+     "nat": "England",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Phil Thompson",
+     "p": "DF",
+     "r": 82,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Alan Hansen",
+     "p": "DF",
+     "r": 84,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Colin Irwin",
+     "p": "DF",
+     "r": 70,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Richard Money",
+     "p": "DF",
+     "r": 68,
+     "nat": "England",
+     "dp": [
+      "RB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Ray Kennedy",
+     "p": "MF",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "LM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Sammy Lee",
+     "p": "MF",
+     "r": 78,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Terry McDermott",
+     "p": "MF",
+     "r": 82,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Graeme Souness",
+     "p": "MF",
+     "r": 86,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jimmy Case",
+     "p": "MF",
+     "r": 79,
+     "nat": "England",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Kenny Dalglish",
+     "p": "FW",
+     "r": 88,
+     "nat": "Scotland",
+     "dp": [
+      "SS",
+      "FW"
+     ]
+    },
+    {
+     "n": "David Johnson",
+     "p": "FW",
+     "r": 78,
+     "nat": "England",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Howard Gayle",
+     "p": "FW",
+     "r": 68,
+     "nat": "England",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Ian Rush",
+     "p": "FW",
+     "r": 80,
+     "nat": "Wales",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Bruce Grobbelaar",
+     "GK"
+    ],
+    [
+     "Mark Lawrenson",
+     "DF"
+    ],
+    [
+     "Ronnie Whelan",
+     "MF"
+    ],
+    [
+     "Craig Johnston",
+     "MF"
+    ],
+    [
+     "Bryan Robson",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1980-81"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-8081",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1980-81",
+   "kit": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1980-81",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Agustín Rodríguez",
+     "p": "GK",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Miguel Ángel González",
+     "p": "GK",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Rafael García Cortés",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Andrés Sabido",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Antonio García Navajas",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "José Antonio Camacho",
+     "p": "DF",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Isidoro San José",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Gregorio Benito",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Uli Stielike",
+     "p": "MF",
+     "r": 84,
+     "nat": "West Germany",
+     "dp": [
+      "DM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Vicente del Bosque",
+     "p": "MF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Ángel de los Santos",
+     "p": "MF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Ricardo Gallego",
+     "p": "MF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Isidro",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Juanito",
+     "p": "FW",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "RW",
+      "FW"
+     ]
+    },
+    {
+     "n": "Santillana",
+     "p": "FW",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Laurie Cunningham",
+     "p": "FW",
+     "r": 82,
+     "nat": "England",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Francisco García Hernández",
+     "p": "FW",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Pirri",
+     "MF"
+    ],
+    [
+     "Jorge Valdano",
+     "FW"
+    ],
+    [
+     "Emilio Butragueño",
+     "FW"
+    ],
+    [
+     "Hugo Sánchez",
+     "FW"
+    ],
+    [
+     "Míchel",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1980-81"
+    }
+   ]
+  },
+  {
+   "id": "eng-avl-8182",
+   "club": "Aston Villa",
+   "country": "England",
+   "league": "ENG",
+   "season": "1981-82",
+   "kit": [
+    "#670E36",
+    "#95BFE5"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1981-82",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Jimmy Rimmer",
+     "p": "GK",
+     "r": 78,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Nigel Spink",
+     "p": "GK",
+     "r": 75,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Kenny Swain",
+     "p": "DF",
+     "r": 76,
+     "nat": "England",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Ken McNaught",
+     "p": "DF",
+     "r": 77,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Allan Evans",
+     "p": "DF",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gary Williams",
+     "p": "DF",
+     "r": 73,
+     "nat": "England",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Colin Gibson",
+     "p": "DF",
+     "r": 72,
+     "nat": "England",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Des Bremner",
+     "p": "MF",
+     "r": 76,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Dennis Mortimer",
+     "p": "MF",
+     "r": 80,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Gordon Cowans",
+     "p": "MF",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Tony Morley",
+     "p": "MF",
+     "r": 80,
+     "nat": "England",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Gary Shaw",
+     "p": "FW",
+     "r": 79,
+     "nat": "England",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Peter Withe",
+     "p": "FW",
+     "r": 80,
+     "nat": "England",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "David Geddis",
+     "p": "FW",
+     "r": 71,
+     "nat": "England",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Andy Blair",
+     "p": "MF",
+     "r": 70,
+     "nat": "Scotland",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Terry Donovan",
+     "p": "FW",
+     "r": 69,
+     "nat": "England",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Bryan Robson",
+     "MF"
+    ],
+    [
+     "Trevor Francis",
+     "FW"
+    ],
+    [
+     "Glenn Hoddle",
+     "MF"
+    ],
+    [
+     "Kevin Keegan",
+     "FW"
+    ],
+    [
+     "Steve Archibald",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1981-82"
+    }
+   ]
+  },
+  {
+   "id": "ger-fcb-8182",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1981-82",
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1981-82",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Manfred Müller",
+     "p": "GK",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Udo Horsmann",
+     "p": "DF",
+     "r": 74,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Klaus Augenthaler",
+     "p": "DF",
+     "r": 82,
+     "nat": "West Germany",
+     "dp": [
+      "SW",
+      "CB"
+     ]
+    },
+    {
+     "n": "Hans Weiner",
+     "p": "DF",
+     "r": 73,
+     "nat": "West Germany",
+     "dp": [
+      "CB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Kurt Niedermayer",
+     "p": "DF",
+     "r": 72,
+     "nat": "West Germany",
+     "dp": [
+      "DF"
+     ]
+    },
+    {
+     "n": "Wolfgang Dremmler",
+     "p": "MF",
+     "r": 77,
+     "nat": "West Germany",
+     "dp": [
+      "DM",
+      "RB"
+     ]
+    },
+    {
+     "n": "Paul Breitner",
+     "p": "MF",
+     "r": 86,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Bernd Dürnberger",
+     "p": "MF",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Reinhold Mathy",
+     "p": "MF",
+     "r": 74,
+     "nat": "West Germany",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Wolfgang Kraus",
+     "p": "MF",
+     "r": 73,
+     "nat": "West Germany",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Karl Del'Haye",
+     "p": "MF",
+     "r": 75,
+     "nat": "West Germany",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Karl-Heinz Rummenigge",
+     "p": "FW",
+     "r": 89,
+     "nat": "West Germany",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Dieter Hoeneß",
+     "p": "FW",
+     "r": 80,
+     "nat": "West Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Günther Güttler",
+     "p": "MF",
+     "r": 70,
+     "nat": "West Germany",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Bertram Beierlorzer",
+     "p": "DF",
+     "r": 70,
+     "nat": "West Germany",
+     "dp": [
+      "DF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Jean-Marie Pfaff",
+     "GK"
+    ],
+    [
+     "Lothar Matthäus",
+     "MF"
+    ],
+    [
+     "Sepp Maier",
+     "GK"
+    ],
+    [
+     "Roland Wohlfarth",
+     "FW"
+    ],
+    [
+     "Søren Lerby",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1981-82"
+    }
+   ]
+  },
+  {
+   "id": "ger-ham-8283",
+   "club": "SV Hamburg",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1982-83",
+   "kit": [
+    "#FFFFFF",
+    "#E2001A"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1982-83",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Uli Stein",
+     "p": "GK",
+     "r": 80,
+     "nat": "West Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Jürgen Groh",
+     "p": "DF",
+     "r": 75,
+     "nat": "West Germany",
+     "dp": [
+      "RB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Holger Hieronymus",
+     "p": "DF",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ditmar Jakobs",
+     "p": "DF",
+     "r": 78,
+     "nat": "West Germany",
+     "dp": [
+      "SW",
+      "CB"
+     ]
+    },
+    {
+     "n": "Manfred Kaltz",
+     "p": "DF",
+     "r": 82,
+     "nat": "West Germany",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Bernd Wehmeyer",
+     "p": "DF",
+     "r": 73,
+     "nat": "West Germany",
+     "dp": [
+      "LB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Felix Magath",
+     "p": "MF",
+     "r": 83,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Wolfgang Rolff",
+     "p": "MF",
+     "r": 75,
+     "nat": "West Germany",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Thomas von Heesen",
+     "p": "MF",
+     "r": 78,
+     "nat": "West Germany",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Jimmy Hartwig",
+     "p": "MF",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Caspar Memering",
+     "p": "MF",
+     "r": 72,
+     "nat": "West Germany",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Lars Bastrup",
+     "p": "FW",
+     "r": 75,
+     "nat": "Denmark",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Horst Hrubesch",
+     "p": "FW",
+     "r": 82,
+     "nat": "West Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Jürgen Milewski",
+     "p": "FW",
+     "r": 75,
+     "nat": "West Germany",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Kevin Keegan",
+     "FW"
+    ],
+    [
+     "Rudi Völler",
+     "FW"
+    ],
+    [
+     "Pierre Littbarski",
+     "MF"
+    ],
+    [
+     "Klaus Allofs",
+     "FW"
+    ],
+    [
+     "Karl-Heinz Rummenigge",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1982-83"
+    }
+   ]
+  },
+  {
+   "id": "ita-juv-8283",
+   "club": "Juventus",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1982-83",
+   "kit": [
+    "#FFFFFF",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1982-83",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Dino Zoff",
+     "p": "GK",
+     "r": 86,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Luciano Bodini",
+     "p": "GK",
+     "r": 70,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Claudio Gentile",
+     "p": "DF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Sergio Brio",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gaetano Scirea",
+     "p": "DF",
+     "r": 87,
+     "nat": "Italy",
+     "dp": [
+      "SW"
+     ]
+    },
+    {
+     "n": "Antonio Cabrini",
+     "p": "DF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Nicola Caricola",
+     "p": "DF",
+     "r": 71,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Massimo Bonini",
+     "p": "MF",
+     "r": 79,
+     "nat": "San Marino",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Marco Tardelli",
+     "p": "MF",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Cesare Prandelli",
+     "p": "MF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Domenico Marocchino",
+     "p": "MF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Beniamino Vignola",
+     "p": "MF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Michel Platini",
+     "p": "MF",
+     "r": 90,
+     "nat": "France",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Zbigniew Boniek",
+     "p": "FW",
+     "r": 85,
+     "nat": "Poland",
+     "dp": [
+      "RW",
+      "FW"
+     ]
+    },
+    {
+     "n": "Roberto Bettega",
+     "p": "FW",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Paolo Rossi",
+     "p": "FW",
+     "r": 86,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Liam Brady",
+     "MF"
+    ],
+    [
+     "Diego Maradona",
+     "FW"
+    ],
+    [
+     "Zico",
+     "MF"
+    ],
+    [
+     "Falcão",
+     "MF"
+    ],
+    [
+     "Bruno Conti",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1982-83"
+    }
+   ]
+  },
+  {
+   "id": "eng-liv-8384",
+   "club": "Liverpool",
+   "country": "England",
+   "league": "ENG",
+   "season": "1983-84",
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1983-84",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Bruce Grobbelaar",
+     "p": "GK",
+     "r": 82,
+     "nat": "Zimbabwe",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Bob Bolder",
+     "p": "GK",
+     "r": 68,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Phil Neal",
+     "p": "DF",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Alan Kennedy",
+     "p": "DF",
+     "r": 79,
+     "nat": "England",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Mark Lawrenson",
+     "p": "DF",
+     "r": 84,
+     "nat": "Republic of Ireland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Alan Hansen",
+     "p": "DF",
+     "r": 85,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Steve Nicol",
+     "p": "DF",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "RB",
+      "RM"
+     ]
+    },
+    {
+     "n": "Gary Gillespie",
+     "p": "DF",
+     "r": 73,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Sammy Lee",
+     "p": "MF",
+     "r": 78,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Ronnie Whelan",
+     "p": "MF",
+     "r": 80,
+     "nat": "Republic of Ireland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Graeme Souness",
+     "p": "MF",
+     "r": 87,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Craig Johnston",
+     "p": "MF",
+     "r": 78,
+     "nat": "Australia",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Kenny Dalglish",
+     "p": "FW",
+     "r": 88,
+     "nat": "Scotland",
+     "dp": [
+      "SS",
+      "FW"
+     ]
+    },
+    {
+     "n": "Ian Rush",
+     "p": "FW",
+     "r": 87,
+     "nat": "Wales",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Michael Robinson",
+     "p": "FW",
+     "r": 74,
+     "nat": "Republic of Ireland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "David Hodgson",
+     "p": "FW",
+     "r": 71,
+     "nat": "England",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Phil Thompson",
+     "p": "DF",
+     "r": 79,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "John Barnes",
+     "MF"
+    ],
+    [
+     "Peter Beardsley",
+     "FW"
+    ],
+    [
+     "Bryan Robson",
+     "MF"
+    ],
+    [
+     "Glenn Hoddle",
+     "MF"
+    ],
+    [
+     "Gary Lineker",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1983-84"
+    }
+   ]
+  },
+  {
+   "id": "ita-rom-8384",
+   "club": "AS Roma",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1983-84",
+   "kit": [
+    "#8E1F2F",
+    "#F0BC42"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1983-84",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Franco Tancredi",
+     "p": "GK",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Michele Nappi",
+     "p": "DF",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Ubaldo Righetti",
+     "p": "DF",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Dario Bonetti",
+     "p": "DF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Sebastiano Nela",
+     "p": "DF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Bruno Conti",
+     "p": "MF",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Agostino Di Bartolomei",
+     "p": "MF",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Toninho Cerezo",
+     "p": "MF",
+     "r": 83,
+     "nat": "Brazil",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Falcão",
+     "p": "MF",
+     "r": 88,
+     "nat": "Brazil",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Carlo Ancelotti",
+     "p": "MF",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Odoacre Chierico",
+     "p": "MF",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Giuseppe Giannini",
+     "p": "MF",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Roberto Pruzzo",
+     "p": "FW",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Francesco Graziani",
+     "p": "FW",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Diego Maradona",
+     "FW"
+    ],
+    [
+     "Michel Platini",
+     "MF"
+    ],
+    [
+     "Zico",
+     "MF"
+    ],
+    [
+     "Liam Brady",
+     "MF"
+    ],
+    [
+     "Karl-Heinz Rummenigge",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1983-84"
+    }
+   ]
+  },
+  {
+   "id": "ita-juv-8485",
+   "club": "Juventus",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1984-85",
+   "kit": [
+    "#FFFFFF",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1984-85",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Stefano Tacconi",
+     "p": "GK",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Luciano Bodini",
+     "p": "GK",
+     "r": 70,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Luciano Favero",
+     "p": "DF",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Sergio Brio",
+     "p": "DF",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gaetano Scirea",
+     "p": "DF",
+     "r": 87,
+     "nat": "Italy",
+     "dp": [
+      "SW"
+     ]
+    },
+    {
+     "n": "Antonio Cabrini",
+     "p": "DF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Stefano Pioli",
+     "p": "DF",
+     "r": 71,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Massimo Bonini",
+     "p": "MF",
+     "r": 80,
+     "nat": "San Marino",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Marco Tardelli",
+     "p": "MF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Beniamino Vignola",
+     "p": "MF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Cesare Prandelli",
+     "p": "MF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Michel Platini",
+     "p": "MF",
+     "r": 92,
+     "nat": "France",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Zbigniew Boniek",
+     "p": "FW",
+     "r": 85,
+     "nat": "Poland",
+     "dp": [
+      "RW",
+      "FW"
+     ]
+    },
+    {
+     "n": "Paolo Rossi",
+     "p": "FW",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Massimo Briaschi",
+     "p": "FW",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "FW",
+      "LW"
+     ]
+    },
+    {
+     "n": "Nicola Caricola",
+     "p": "DF",
+     "r": 71,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Dino Zoff",
+     "GK"
+    ],
+    [
+     "Diego Maradona",
+     "FW"
+    ],
+    [
+     "Liam Brady",
+     "MF"
+    ],
+    [
+     "Bruno Conti",
+     "MF"
+    ],
+    [
+     "Karl-Heinz Rummenigge",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1984-85"
+    }
+   ]
+  },
+  {
+   "id": "eng-liv-8485",
+   "club": "Liverpool",
+   "country": "England",
+   "league": "ENG",
+   "season": "1984-85",
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1984-85",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Bruce Grobbelaar",
+     "p": "GK",
+     "r": 83,
+     "nat": "Zimbabwe",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Bob Bolder",
+     "p": "GK",
+     "r": 68,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Phil Neal",
+     "p": "DF",
+     "r": 80,
+     "nat": "England",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Jim Beglin",
+     "p": "DF",
+     "r": 74,
+     "nat": "Republic of Ireland",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Mark Lawrenson",
+     "p": "DF",
+     "r": 84,
+     "nat": "Republic of Ireland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Alan Hansen",
+     "p": "DF",
+     "r": 85,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gary Gillespie",
+     "p": "DF",
+     "r": 76,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Steve Nicol",
+     "p": "DF",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "RB",
+      "RM"
+     ]
+    },
+    {
+     "n": "Ronnie Whelan",
+     "p": "MF",
+     "r": 81,
+     "nat": "Republic of Ireland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "John Wark",
+     "p": "MF",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Sammy Lee",
+     "p": "MF",
+     "r": 76,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Kevin MacDonald",
+     "p": "MF",
+     "r": 72,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Craig Johnston",
+     "p": "MF",
+     "r": 78,
+     "nat": "Australia",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Kenny Dalglish",
+     "p": "FW",
+     "r": 87,
+     "nat": "Scotland",
+     "dp": [
+      "SS",
+      "FW"
+     ]
+    },
+    {
+     "n": "Ian Rush",
+     "p": "FW",
+     "r": 87,
+     "nat": "Wales",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Paul Walsh",
+     "p": "FW",
+     "r": 78,
+     "nat": "England",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Michael Robinson",
+     "p": "FW",
+     "r": 72,
+     "nat": "Republic of Ireland",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "John Barnes",
+     "MF"
+    ],
+    [
+     "Peter Beardsley",
+     "FW"
+    ],
+    [
+     "Gary Lineker",
+     "FW"
+    ],
+    [
+     "Bryan Robson",
+     "MF"
+    ],
+    [
+     "Chris Waddle",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1984-85"
+    }
+   ]
+  },
+  {
+   "id": "rou-ste-8586",
+   "club": "Steaua Bucharest",
+   "country": "Romania",
+   "league": "ROU",
+   "season": "1985-86",
+   "kit": [
+    "#E30613",
+    "#0033A0"
+   ],
+   "tier": 1,
+   "conf": "C",
+   "honour": "European Cup winner 1985-86",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Helmuth Duckadam",
+     "p": "GK",
+     "r": 82,
+     "nat": "Romania",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Vasile Iordache",
+     "p": "GK",
+     "r": 70,
+     "nat": "Romania",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Ștefan Iovan",
+     "p": "DF",
+     "r": 78,
+     "nat": "Romania",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Adrian Bumbescu",
+     "p": "DF",
+     "r": 76,
+     "nat": "Romania",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Miodrag Belodedici",
+     "p": "DF",
+     "r": 82,
+     "nat": "Romania",
+     "dp": [
+      "SW",
+      "CB"
+     ]
+    },
+    {
+     "n": "Ilie Bărbulescu",
+     "p": "DF",
+     "r": 74,
+     "nat": "Romania",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Iosif Rotariu",
+     "p": "DF",
+     "r": 73,
+     "nat": "Romania",
+     "dp": [
+      "RB",
+      "DF"
+     ]
+    },
+    {
+     "n": "Mihail Majearu",
+     "p": "MF",
+     "r": 74,
+     "nat": "Romania",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Tudorel Stoica",
+     "p": "MF",
+     "r": 79,
+     "nat": "Romania",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Ladislau Bölöni",
+     "p": "MF",
+     "r": 81,
+     "nat": "Romania",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Aurel Bălan",
+     "p": "MF",
+     "r": 73,
+     "nat": "Romania",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Marin Radu",
+     "p": "MF",
+     "r": 72,
+     "nat": "Romania",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Anghel Iordănescu",
+     "p": "FW",
+     "r": 79,
+     "nat": "Romania",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Marius Lăcătuș",
+     "p": "FW",
+     "r": 82,
+     "nat": "Romania",
+     "dp": [
+      "RW",
+      "FW"
+     ]
+    },
+    {
+     "n": "Victor Pițurcă",
+     "p": "FW",
+     "r": 79,
+     "nat": "Romania",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Gavril Balint",
+     "p": "FW",
+     "r": 78,
+     "nat": "Romania",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Gheorghe Hagi",
+     "MF"
+    ],
+    [
+     "Dan Petrescu",
+     "DF"
+    ],
+    [
+     "Ilie Dumitrescu",
+     "FW"
+    ],
+    [
+     "Gheorghe Popescu",
+     "DF"
+    ],
+    [
+     "Florin Răducioiu",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1985-86"
+    }
+   ]
+  },
+  {
+   "id": "esp-bar-8586",
+   "club": "Barcelona",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1985-86",
+   "kit": [
+    "#004D98",
+    "#A50044"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1985-86",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Javier Urruti",
+     "p": "GK",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Gerardo Miranda",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Migueli",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "José Ramón Alexanko",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Julio Alberto",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Pedraza",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Bernd Schuster",
+     "p": "MF",
+     "r": 87,
+     "nat": "West Germany",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Víctor Muñoz",
+     "p": "MF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Marcos Alonso",
+     "p": "MF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "LM"
+     ]
+    },
+    {
+     "n": "Ramón Calderé",
+     "p": "MF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Ángel Moratalla",
+     "p": "MF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Esteban Vigo",
+     "p": "MF",
+     "r": 72,
+     "nat": "Spain",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Francisco Carrasco",
+     "p": "FW",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Steve Archibald",
+     "p": "FW",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Pichi Alonso",
+     "p": "FW",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Diego Maradona",
+     "FW"
+    ],
+    [
+     "Gary Lineker",
+     "FW"
+    ],
+    [
+     "Mark Hughes",
+     "FW"
+    ],
+    [
+     "Hristo Stoichkov",
+     "FW"
+    ],
+    [
+     "Ronald Koeman",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1985-86"
+    }
+   ]
+  },
+  {
+   "id": "por-por-8687",
+   "club": "FC Porto",
+   "country": "Portugal",
+   "league": "POR",
+   "season": "1986-87",
+   "kit": [
+    "#0033A0",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1986-87",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Józef Młynarczyk",
+     "p": "GK",
+     "r": 80,
+     "nat": "Poland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "José Carlos",
+     "p": "GK",
+     "r": 70,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "João Pinto",
+     "p": "DF",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Eduardo Luís",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Celso",
+     "p": "DF",
+     "r": 74,
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Augusto Inácio",
+     "p": "DF",
+     "r": 75,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "António Frasco",
+     "p": "DF",
+     "r": 72,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Jaime Magalhães",
+     "p": "MF",
+     "r": 76,
+     "nat": "Portugal",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "António André",
+     "p": "MF",
+     "r": 76,
+     "nat": "Portugal",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Quim Vitorino",
+     "p": "MF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "António Sousa",
+     "p": "MF",
+     "r": 78,
+     "nat": "Portugal",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jaime Pacheco",
+     "p": "MF",
+     "r": 74,
+     "nat": "Portugal",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Paulo Futre",
+     "p": "FW",
+     "r": 86,
+     "nat": "Portugal",
+     "dp": [
+      "LW",
+      "FW"
+     ]
+    },
+    {
+     "n": "Rabah Madjer",
+     "p": "FW",
+     "r": 83,
+     "nat": "Algeria",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Juary",
+     "p": "FW",
+     "r": 76,
+     "nat": "Brazil",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Fernando Gomes",
+     "p": "FW",
+     "r": 82,
+     "nat": "Portugal",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Mário Jardel",
+     "FW"
+    ],
+    [
+     "Hulk",
+     "FW"
+    ],
+    [
+     "Radamel Falcao",
+     "FW"
+    ],
+    [
+     "Deco",
+     "MF"
+    ],
+    [
+     "Ricardo Quaresma",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1986-87"
+    }
+   ]
+  },
+  {
+   "id": "ger-fcb-8687",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1986-87",
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1986-87",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Jean-Marie Pfaff",
+     "p": "GK",
+     "r": 84,
+     "nat": "Belgium",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Raimond Aumann",
+     "p": "GK",
+     "r": 72,
+     "nat": "West Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Norbert Eder",
+     "p": "DF",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Hans Pflügler",
+     "p": "DF",
+     "r": 78,
+     "nat": "West Germany",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Norbert Nachtweih",
+     "p": "DF",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "SW",
+      "CB"
+     ]
+    },
+    {
+     "n": "Helmut Winklhofer",
+     "p": "DF",
+     "r": 73,
+     "nat": "West Germany",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Klaus Augenthaler",
+     "p": "DF",
+     "r": 84,
+     "nat": "West Germany",
+     "dp": [
+      "SW"
+     ]
+    },
+    {
+     "n": "Hans-Dieter Flick",
+     "p": "MF",
+     "r": 75,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Lothar Matthäus",
+     "p": "MF",
+     "r": 88,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Andreas Brehme",
+     "p": "DF",
+     "r": 84,
+     "nat": "West Germany",
+     "dp": [
+      "LB",
+      "LM"
+     ]
+    },
+    {
+     "n": "Michael Rummenigge",
+     "p": "MF",
+     "r": 77,
+     "nat": "West Germany",
+     "dp": [
+      "AM",
+      "FW"
+     ]
+    },
+    {
+     "n": "Hans Dorfner",
+     "p": "MF",
+     "r": 74,
+     "nat": "West Germany",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Ludwig Kögl",
+     "p": "FW",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "FW",
+      "LW"
+     ]
+    },
+    {
+     "n": "Dieter Hoeneß",
+     "p": "FW",
+     "r": 81,
+     "nat": "West Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Roland Wohlfarth",
+     "p": "FW",
+     "r": 79,
+     "nat": "West Germany",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Karl-Heinz Rummenigge",
+     "FW"
+    ],
+    [
+     "Jürgen Klinsmann",
+     "FW"
+    ],
+    [
+     "Stefan Effenberg",
+     "MF"
+    ],
+    [
+     "Rudi Völler",
+     "FW"
+    ],
+    [
+     "Paul Breitner",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1986-87"
+    }
+   ]
+  },
+  {
+   "id": "ned-psv-8788",
+   "club": "PSV Eindhoven",
+   "country": "Netherlands",
+   "league": "NED",
+   "season": "1987-88",
+   "kit": [
+    "#ED1C24",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1987-88",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Hans van Breukelen",
+     "p": "GK",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Eric Gerets",
+     "p": "DF",
+     "r": 82,
+     "nat": "Belgium",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Berry van Aerle",
+     "p": "DF",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "RB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Ronald Koeman",
+     "p": "DF",
+     "r": 87,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ivan Nielsen",
+     "p": "DF",
+     "r": 76,
+     "nat": "Denmark",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Jan Heintze",
+     "p": "DF",
+     "r": 76,
+     "nat": "Denmark",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Gerald Vanenburg",
+     "p": "MF",
+     "r": 83,
+     "nat": "Netherlands",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Edward Linskens",
+     "p": "MF",
+     "r": 73,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Søren Lerby",
+     "p": "MF",
+     "r": 82,
+     "nat": "Denmark",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Willy van der Kerkhof",
+     "p": "MF",
+     "r": 76,
+     "nat": "Netherlands",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Frank Arnesen",
+     "p": "MF",
+     "r": 80,
+     "nat": "Denmark",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Lajos Mészáros",
+     "p": "MF",
+     "r": 73,
+     "nat": "Hungary",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Anton Janssen",
+     "p": "MF",
+     "r": 72,
+     "nat": "Netherlands",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Wim Kieft",
+     "p": "FW",
+     "r": 81,
+     "nat": "Netherlands",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Hans Gillhaus",
+     "p": "FW",
+     "r": 79,
+     "nat": "Netherlands",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Romário",
+     "FW"
+    ],
+    [
+     "Ruud Gullit",
+     "MF"
+    ],
+    [
+     "Phillip Cocu",
+     "MF"
+    ],
+    [
+     "Jaap Stam",
+     "DF"
+    ],
+    [
+     "Luc Nilis",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1987-88"
+    }
+   ]
+  },
+  {
+   "id": "por-ben-8788",
+   "club": "Benfica",
+   "country": "Portugal",
+   "league": "POR",
+   "season": "1987-88",
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "C",
+   "honour": "European Cup runner-up 1987-88",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Silvino",
+     "p": "GK",
+     "r": 79,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Neno",
+     "p": "GK",
+     "r": 72,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "António Veloso",
+     "p": "DF",
+     "r": 78,
+     "nat": "Portugal",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Dito",
+     "p": "DF",
+     "r": 74,
+     "nat": "Portugal",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Carlos Mozer",
+     "p": "DF",
+     "r": 81,
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Álvaro",
+     "p": "DF",
+     "r": 74,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Elzo",
+     "p": "MF",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Sheu",
+     "p": "MF",
+     "r": 75,
+     "nat": "Portugal",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Chiquinho",
+     "p": "MF",
+     "r": 74,
+     "nat": "Portugal",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "António Pacheco",
+     "p": "MF",
+     "r": 77,
+     "nat": "Portugal",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Diamantino",
+     "p": "MF",
+     "r": 78,
+     "nat": "Portugal",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Valdo",
+     "p": "MF",
+     "r": 80,
+     "nat": "Brazil",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Rui Águas",
+     "p": "FW",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Mats Magnusson",
+     "p": "FW",
+     "r": 79,
+     "nat": "Sweden",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Redouane Hajry",
+     "p": "FW",
+     "r": 72,
+     "nat": "Morocco",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Eusébio",
+     "FW"
+    ],
+    [
+     "Rui Costa",
+     "MF"
+    ],
+    [
+     "João Pinto",
+     "FW"
+    ],
+    [
+     "Nené",
+     "FW"
+    ],
+    [
+     "Fernando Chalana",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1987-88"
+    }
+   ]
+  },
+  {
+   "id": "ita-acm-8889",
+   "club": "AC Milan",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1988-89",
+   "kit": [
+    "#FB090B",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1988-89",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Giovanni Galli",
+     "p": "GK",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Andrea Pazzagli",
+     "p": "GK",
+     "r": 70,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mauro Tassotti",
+     "p": "DF",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Franco Baresi",
+     "p": "DF",
+     "r": 90,
+     "nat": "Italy",
+     "dp": [
+      "SW"
+     ]
+    },
+    {
+     "n": "Filippo Galli",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Paolo Maldini",
+     "p": "DF",
+     "r": 86,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Alessandro Costacurta",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Carlo Ancelotti",
+     "p": "MF",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Frank Rijkaard",
+     "p": "MF",
+     "r": 88,
+     "nat": "Netherlands",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Roberto Donadoni",
+     "p": "MF",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Angelo Colombo",
+     "p": "MF",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Alberigo Evani",
+     "p": "MF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "LM"
+     ]
+    },
+    {
+     "n": "Ruud Gullit",
+     "p": "FW",
+     "r": 90,
+     "nat": "Netherlands",
+     "dp": [
+      "AM",
+      "FW"
+     ]
+    },
+    {
+     "n": "Marco van Basten",
+     "p": "FW",
+     "r": 92,
+     "nat": "Netherlands",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Pietro Paolo Virdis",
+     "p": "FW",
+     "r": 77,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Daniele Massaro",
+     "p": "FW",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Marco Simone",
+     "p": "FW",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Dejan Savićević",
+     "MF"
+    ],
+    [
+     "Zvonimir Boban",
+     "MF"
+    ],
+    [
+     "Jean-Pierre Papin",
+     "FW"
+    ],
+    [
+     "Roberto Baggio",
+     "FW"
+    ],
+    [
+     "Gianluca Vialli",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1988-89"
+    }
+   ]
+  },
+  {
+   "id": "rou-ste-8889",
+   "club": "Steaua Bucharest",
+   "country": "Romania",
+   "league": "ROU",
+   "season": "1988-89",
+   "kit": [
+    "#E30613",
+    "#0033A0"
+   ],
+   "tier": 1,
+   "conf": "C",
+   "honour": "European Cup runner-up 1988-89",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Silviu Lung",
+     "p": "GK",
+     "r": 79,
+     "nat": "Romania",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Dan Petrescu",
+     "p": "DF",
+     "r": 79,
+     "nat": "Romania",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Ștefan Iovan",
+     "p": "DF",
+     "r": 78,
+     "nat": "Romania",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Adrian Bumbescu",
+     "p": "DF",
+     "r": 76,
+     "nat": "Romania",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gheorghe Ungureanu",
+     "p": "DF",
+     "r": 73,
+     "nat": "Romania",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Ilie Bărbulescu",
+     "p": "DF",
+     "r": 72,
+     "nat": "Romania",
+     "dp": [
+      "DF"
+     ]
+    },
+    {
+     "n": "Iosif Rotariu",
+     "p": "MF",
+     "r": 75,
+     "nat": "Romania",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Tudorel Stoica",
+     "p": "MF",
+     "r": 78,
+     "nat": "Romania",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Gheorghe Hagi",
+     "p": "MF",
+     "r": 88,
+     "nat": "Romania",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Mihai Minea",
+     "p": "MF",
+     "r": 72,
+     "nat": "Romania",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Marin Radu",
+     "p": "MF",
+     "r": 72,
+     "nat": "Romania",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Marius Lăcătuș",
+     "p": "FW",
+     "r": 83,
+     "nat": "Romania",
+     "dp": [
+      "RW",
+      "FW"
+     ]
+    },
+    {
+     "n": "Gavril Balint",
+     "p": "FW",
+     "r": 79,
+     "nat": "Romania",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Victor Pițurcă",
+     "p": "FW",
+     "r": 78,
+     "nat": "Romania",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Miodrag Belodedici",
+     "DF"
+    ],
+    [
+     "Ilie Dumitrescu",
+     "FW"
+    ],
+    [
+     "Helmuth Duckadam",
+     "GK"
+    ],
+    [
+     "Florin Răducioiu",
+     "FW"
+    ],
+    [
+     "Gheorghe Popescu",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1988-89"
+    }
+   ]
+  },
+  {
+   "id": "ita-acm-8990",
+   "club": "AC Milan",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1989-90",
+   "kit": [
+    "#FB090B",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1989-90",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Giovanni Galli",
+     "p": "GK",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Andrea Pazzagli",
+     "p": "GK",
+     "r": 70,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mauro Tassotti",
+     "p": "DF",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Franco Baresi",
+     "p": "DF",
+     "r": 90,
+     "nat": "Italy",
+     "dp": [
+      "SW"
+     ]
+    },
+    {
+     "n": "Alessandro Costacurta",
+     "p": "DF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Paolo Maldini",
+     "p": "DF",
+     "r": 87,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Filippo Galli",
+     "p": "DF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Carlo Ancelotti",
+     "p": "MF",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Frank Rijkaard",
+     "p": "MF",
+     "r": 88,
+     "nat": "Netherlands",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Roberto Donadoni",
+     "p": "MF",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Angelo Colombo",
+     "p": "MF",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Alberigo Evani",
+     "p": "MF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "LM"
+     ]
+    },
+    {
+     "n": "Diego Fuser",
+     "p": "MF",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Ruud Gullit",
+     "p": "FW",
+     "r": 88,
+     "nat": "Netherlands",
+     "dp": [
+      "AM",
+      "FW"
+     ]
+    },
+    {
+     "n": "Marco van Basten",
+     "p": "FW",
+     "r": 92,
+     "nat": "Netherlands",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Daniele Massaro",
+     "p": "FW",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Marco Simone",
+     "p": "FW",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Dejan Savićević",
+     "MF"
+    ],
+    [
+     "Jean-Pierre Papin",
+     "FW"
+    ],
+    [
+     "Zvonimir Boban",
+     "MF"
+    ],
+    [
+     "Marcel Desailly",
+     "DF"
+    ],
+    [
+     "Diego Maradona",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1989-90"
+    }
+   ]
+  },
+  {
+   "id": "por-ben-8990",
+   "club": "Benfica",
+   "country": "Portugal",
+   "league": "POR",
+   "season": "1989-90",
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "C",
+   "honour": "European Cup runner-up 1989-90",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Silvino",
+     "p": "GK",
+     "r": 79,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Neno",
+     "p": "GK",
+     "r": 72,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "José Carlos",
+     "p": "DF",
+     "r": 74,
+     "nat": "Portugal",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Aldair",
+     "p": "DF",
+     "r": 84,
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ricardo Gomes",
+     "p": "DF",
+     "r": 83,
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Samuel",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "António Veloso",
+     "p": "DF",
+     "r": 77,
+     "nat": "Portugal",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Jonas Thern",
+     "p": "MF",
+     "r": 81,
+     "nat": "Sweden",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Hernâni",
+     "p": "MF",
+     "r": 74,
+     "nat": "Portugal",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Valdo",
+     "p": "MF",
+     "r": 83,
+     "nat": "Brazil",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Vítor Paneira",
+     "p": "MF",
+     "r": 77,
+     "nat": "Portugal",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "António Pacheco",
+     "p": "MF",
+     "r": 78,
+     "nat": "Portugal",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "William",
+     "p": "MF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Mats Magnusson",
+     "p": "FW",
+     "r": 80,
+     "nat": "Sweden",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Vata",
+     "p": "FW",
+     "r": 75,
+     "nat": "Angola",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "César Brito",
+     "p": "FW",
+     "r": 73,
+     "nat": "Brazil",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Eusébio",
+     "FW"
+    ],
+    [
+     "Rui Costa",
+     "MF"
+    ],
+    [
+     "João Pinto",
+     "FW"
+    ],
+    [
+     "Nené",
+     "FW"
+    ],
+    [
+     "Fernando Chalana",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1989-90"
+    }
+   ]
+  }
+ ]
+}

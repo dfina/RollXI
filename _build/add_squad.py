@@ -2,7 +2,7 @@ import json, sys, os
 sys.path.insert(0,'_build')
 from audit import nc, load_packs, DATA
 
-WAVE='public/data/pack-pickable-wavefc.json'
+WAVE='public/data/pack-pickable-wavefd.json'
 EC='public/data/pack-opponents-ec-ucl.json'
 
 def add(squads):
