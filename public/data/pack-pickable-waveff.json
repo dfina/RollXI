@@ -1,0 +1,4395 @@
+{
+ "meta": {
+  "name": "Wave Ff — EC finalists 1955-56 to 1969-70",
+  "wave": "Ff",
+  "note": "Complete. All 15 editions 1955-56 to 1969-70 have both finalists pickable (29 rosters built this wave; Inter 1964-65 was already pickable). Web-verified per edition via final match sheets (Real Madrid official site, Transfermarkt, The Celtic Wiki, Inter.it, AC Milan official, Wikipedia). Every promoted club-season removed from EC/UCL tier-O in the same pass. EC/UCL tier-O index is now at ZERO — all finalist club-seasons across the full competition history are pickable. O/P overlap = 0, P/P dups = 0. Eastern European and lesser-documented clubs carry conf C.",
+  "verified": true
+ },
+ "squads": [
+  {
+   "id": "esp-rma-195556",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1955-56",
+   "kit": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1955-56",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Juan Alonso",
+     "p": "GK",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Ángel Atienza",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Marquitos",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Rafael Lesmes",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Miguel Muñoz",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "José Zárraga",
+     "p": "MF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Ramón Marsal",
+     "p": "MF",
+     "r": 72,
+     "nat": "Spain",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Joseíto",
+     "p": "FW",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Alfredo Di Stéfano",
+     "p": "FW",
+     "r": 93,
+     "nat": "Argentina",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Héctor Rial",
+     "p": "FW",
+     "r": 80,
+     "nat": "Argentina",
+     "dp": [
+      "SS",
+      "CF"
+     ]
+    },
+    {
+     "n": "Francisco Gento",
+     "p": "FW",
+     "r": 88,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Puskás",
+     "FW"
+    ],
+    [
+     "Raymond Kopa",
+     "MF"
+    ],
+    [
+     "Luis Del Sol",
+     "MF"
+    ],
+    [
+     "Didi",
+     "MF"
+    ],
+    [
+     "Amancio",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1955-56"
+    }
+   ]
+  },
+  {
+   "id": "fra-rei-195556",
+   "club": "Reims",
+   "country": "France",
+   "league": "FRA",
+   "season": "1955-56",
+   "kit": [
+    "#CC0000",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "C",
+   "honour": "European Cup runner-up 1955-56",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "René-Jean Jacquet",
+     "p": "GK",
+     "r": 73,
+     "nat": "France",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Raoul Giraudo",
+     "p": "DF",
+     "r": 73,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Robert Jonquet",
+     "p": "DF",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Simon Zimny",
+     "p": "DF",
+     "r": 72,
+     "nat": "France",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Armand Penverne",
+     "p": "MF",
+     "r": 74,
+     "nat": "France",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Léon Siatka",
+     "p": "MF",
+     "r": 72,
+     "nat": "France",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Michel Leblond",
+     "p": "MF",
+     "r": 74,
+     "nat": "France",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Michel Hidalgo",
+     "p": "MF",
+     "r": 76,
+     "nat": "France",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Bronisław Głowacki",
+     "p": "MF",
+     "r": 74,
+     "nat": "France",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Raymond Kopa",
+     "p": "FW",
+     "r": 87,
+     "nat": "France",
+     "dp": [
+      "AM",
+      "SS"
+     ]
+    },
+    {
+     "n": "Michel Bliard",
+     "p": "FW",
+     "r": 74,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Jean Templin",
+     "p": "FW",
+     "r": 74,
+     "nat": "France",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Just Fontaine",
+     "FW"
+    ],
+    [
+     "Roger Piantoni",
+     "FW"
+    ],
+    [
+     "Thadée Cisowski",
+     "FW"
+    ],
+    [
+     "Jean Vincent",
+     "FW"
+    ],
+    [
+     "Maryan Wisniewski",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1955-56"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-195657",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1956-57",
+   "kit": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1956-57",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Juan Alonso",
+     "p": "GK",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Joaquín Torres",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Marquitos",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Rafael Lesmes",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Miguel Muñoz",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "José Zárraga",
+     "p": "MF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Raymond Kopa",
+     "p": "MF",
+     "r": 87,
+     "nat": "France",
+     "dp": [
+      "AM",
+      "RW"
+     ]
+    },
+    {
+     "n": "Enrique Mateos",
+     "p": "MF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Alfredo Di Stéfano",
+     "p": "FW",
+     "r": 93,
+     "nat": "Argentina",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Héctor Rial",
+     "p": "FW",
+     "r": 80,
+     "nat": "Argentina",
+     "dp": [
+      "SS"
+     ]
+    },
+    {
+     "n": "Francisco Gento",
+     "p": "FW",
+     "r": 88,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Puskás",
+     "FW"
+    ],
+    [
+     "Luis Del Sol",
+     "MF"
+    ],
+    [
+     "Amancio",
+     "FW"
+    ],
+    [
+     "Didi",
+     "MF"
+    ],
+    [
+     "Joseíto",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1956-57"
+    }
+   ]
+  },
+  {
+   "id": "ita-fio-195657",
+   "club": "Fiorentina",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1956-57",
+   "kit": [
+    "#4B0082",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "C",
+   "honour": "European Cup runner-up 1956-57",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Giuliano Sarti",
+     "p": "GK",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Aldo Magnini",
+     "p": "DF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Mauro Orzan",
+     "p": "DF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Sergio Cervato",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Gino Scaramucci",
+     "p": "DF",
+     "r": 72,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Giuseppe Segato",
+     "p": "MF",
+     "r": 77,
+     "nat": "Italy",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Arnaldo Sentimenti IV",
+     "p": "GK",
+     "r": 70,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Julinho",
+     "p": "MF",
+     "r": 83,
+     "nat": "Brazil",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Luigi Bizzarri",
+     "p": "MF",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Renzo Gratton",
+     "p": "MF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Virgilio Virgili",
+     "p": "FW",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Miguel Montuori",
+     "p": "FW",
+     "r": 78,
+     "nat": "Argentina",
+     "dp": [
+      "SS",
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Gianni Rivera",
+     "AM"
+    ],
+    [
+     "Sandro Salvadore",
+     "DF"
+    ],
+    [
+     "Giuseppe Chiappella",
+     "MF"
+    ],
+    [
+     "Giorgio Ferrini",
+     "MF"
+    ],
+    [
+     "Narciso Lorenzi",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1956-57"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-195758",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1957-58",
+   "kit": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1957-58",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Juan Alonso",
+     "p": "GK",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Ángel Atienza",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "José Santamaría",
+     "p": "DF",
+     "r": 83,
+     "nat": "Uruguay",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Rafael Lesmes",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Juan Santisteban",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "José Zárraga",
+     "p": "MF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Raymond Kopa",
+     "p": "MF",
+     "r": 87,
+     "nat": "France",
+     "dp": [
+      "AM",
+      "RW"
+     ]
+    },
+    {
+     "n": "Joseíto",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Alfredo Di Stéfano",
+     "p": "FW",
+     "r": 93,
+     "nat": "Argentina",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Héctor Rial",
+     "p": "FW",
+     "r": 79,
+     "nat": "Argentina",
+     "dp": [
+      "SS"
+     ]
+    },
+    {
+     "n": "Francisco Gento",
+     "p": "FW",
+     "r": 88,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Puskás",
+     "FW"
+    ],
+    [
+     "Enrique Mateos",
+     "MF"
+    ],
+    [
+     "Marquitos",
+     "DF"
+    ],
+    [
+     "Amancio",
+     "FW"
+    ],
+    [
+     "Luis Del Sol",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1957-58"
+    }
+   ]
+  },
+  {
+   "id": "ita-acm-195758",
+   "club": "AC Milan",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1957-58",
+   "kit": [
+    "#FB090B",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1957-58",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Narciso Soldan",
+     "p": "GK",
+     "r": 78,
+     "nat": "Uruguay",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Alfio Fontana",
+     "p": "DF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Cesare Maldini",
+     "p": "DF",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Eros Beraldo",
+     "p": "DF",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Mario Bergamaschi",
+     "p": "DF",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Luigi Radice",
+     "p": "MF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Nils Liedholm",
+     "p": "MF",
+     "r": 85,
+     "nat": "Sweden",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Juan Alberto Schiaffino",
+     "p": "MF",
+     "r": 87,
+     "nat": "Uruguay",
+     "dp": [
+      "AM",
+      "SS"
+     ]
+    },
+    {
+     "n": "Giancarlo Danova",
+     "p": "FW",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Ernesto Grillo",
+     "p": "FW",
+     "r": 82,
+     "nat": "Argentina",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Ernesto Cucchiaroni",
+     "p": "FW",
+     "r": 79,
+     "nat": "Argentina",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Gunnar Nordahl",
+     "FW"
+    ],
+    [
+     "Gunnar Gren",
+     "MF"
+    ],
+    [
+     "Carlo Galli",
+     "FW"
+    ],
+    [
+     "Gastone Bean",
+     "MF"
+    ],
+    [
+     "José Altafini",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1957-58"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-195859",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1958-59",
+   "kit": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1958-59",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Rogelio Domínguez",
+     "p": "GK",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Marquitos",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "José Santamaría",
+     "p": "DF",
+     "r": 83,
+     "nat": "Uruguay",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "José Zárraga",
+     "p": "MF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Juan Santisteban",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Antonio Ruiz",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Raymond Kopa",
+     "p": "MF",
+     "r": 87,
+     "nat": "France",
+     "dp": [
+      "AM",
+      "RW"
+     ]
+    },
+    {
+     "n": "Enrique Mateos",
+     "p": "MF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Alfredo Di Stéfano",
+     "p": "FW",
+     "r": 93,
+     "nat": "Argentina",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Héctor Rial",
+     "p": "FW",
+     "r": 79,
+     "nat": "Argentina",
+     "dp": [
+      "SS"
+     ]
+    },
+    {
+     "n": "Francisco Gento",
+     "p": "FW",
+     "r": 88,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Ferenc Puskás",
+     "p": "FW",
+     "r": 91,
+     "nat": "Hungary",
+     "dp": [
+      "CF",
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Juan Alonso",
+     "GK"
+    ],
+    [
+     "Amancio",
+     "FW"
+    ],
+    [
+     "Luis Del Sol",
+     "MF"
+    ],
+    [
+     "Joseíto",
+     "MF"
+    ],
+    [
+     "Didi",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1958-59"
+    }
+   ]
+  },
+  {
+   "id": "fra-rei-195859",
+   "club": "Reims",
+   "country": "France",
+   "league": "FRA",
+   "season": "1958-59",
+   "kit": [
+    "#CC0000",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "C",
+   "honour": "European Cup runner-up 1958-59",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Dominique Colonna",
+     "p": "GK",
+     "r": 77,
+     "nat": "France",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Piotr Rodzik",
+     "p": "DF",
+     "r": 73,
+     "nat": "France",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Robert Jonquet",
+     "p": "DF",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Raoul Giraudo",
+     "p": "DF",
+     "r": 73,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Armand Penverne",
+     "p": "MF",
+     "r": 74,
+     "nat": "France",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Michel Leblond",
+     "p": "MF",
+     "r": 73,
+     "nat": "France",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Robert Lamartine",
+     "p": "MF",
+     "r": 72,
+     "nat": "France",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Michel Bliard",
+     "p": "FW",
+     "r": 74,
+     "nat": "France",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Just Fontaine",
+     "p": "FW",
+     "r": 86,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Roger Piantoni",
+     "p": "FW",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "LW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Jean Vincent",
+     "p": "FW",
+     "r": 76,
+     "nat": "France",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Raymond Kopa",
+     "MF"
+    ],
+    [
+     "Maryan Wisniewski",
+     "MF"
+    ],
+    [
+     "Thadée Cisowski",
+     "FW"
+    ],
+    [
+     "Jean Templin",
+     "FW"
+    ],
+    [
+     "Michel Hidalgo",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1958-59"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-195960",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1959-60",
+   "kit": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1959-60",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Rogelio Domínguez",
+     "p": "GK",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Marquitos",
+     "p": "DF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "José Santamaría",
+     "p": "DF",
+     "r": 83,
+     "nat": "Uruguay",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Pachín",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "José Zárraga",
+     "p": "MF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Manuel Vidal",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Canário",
+     "p": "MF",
+     "r": 79,
+     "nat": "Brazil",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Luis Del Sol",
+     "p": "MF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Alfredo Di Stéfano",
+     "p": "FW",
+     "r": 93,
+     "nat": "Argentina",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Ferenc Puskás",
+     "p": "FW",
+     "r": 92,
+     "nat": "Hungary",
+     "dp": [
+      "CF",
+      "FW"
+     ]
+    },
+    {
+     "n": "Francisco Gento",
+     "p": "FW",
+     "r": 88,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Raymond Kopa",
+     "MF"
+    ],
+    [
+     "Héctor Rial",
+     "FW"
+    ],
+    [
+     "Enrique Mateos",
+     "MF"
+    ],
+    [
+     "Marquitos",
+     "DF"
+    ],
+    [
+     "Amancio",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1959-60"
+    }
+   ]
+  },
+  {
+   "id": "ger-sge-195960",
+   "club": "Eintracht Frankfurt",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1959-60",
+   "kit": [
+    "#E1000F",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1959-60",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Egon Loy",
+     "p": "GK",
+     "r": 78,
+     "nat": "West Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Friedrich Lutz",
+     "p": "DF",
+     "r": 73,
+     "nat": "West Germany",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Hans Weilbächer",
+     "p": "MF",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Hermann Höfer",
+     "p": "DF",
+     "r": 73,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Hans Eigenbrodt",
+     "p": "DF",
+     "r": 74,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Dieter Stinka",
+     "p": "MF",
+     "r": 73,
+     "nat": "West Germany",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Richard Kress",
+     "p": "FW",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Dieter Lindner",
+     "p": "MF",
+     "r": 74,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Erwin Stein",
+     "p": "FW",
+     "r": 78,
+     "nat": "West Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Alfred Pfaff",
+     "p": "MF",
+     "r": 79,
+     "nat": "West Germany",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Erich Meier",
+     "p": "FW",
+     "r": 74,
+     "nat": "West Germany",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Jürgen Grabowski",
+     "MF"
+    ],
+    [
+     "Bernd Hölzenbein",
+     "FW"
+    ],
+    [
+     "Karl-Heinz Körbel",
+     "DF"
+    ],
+    [
+     "Jürgen Rode",
+     "MF"
+    ],
+    [
+     "Anthony Yeboah",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1959-60"
+    }
+   ]
+  },
+  {
+   "id": "por-ben-196061",
+   "club": "Benfica",
+   "country": "Portugal",
+   "league": "POR",
+   "season": "1960-61",
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1960-61",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Costa Pereira",
+     "p": "GK",
+     "r": 81,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mário João",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Ângelo",
+     "p": "DF",
+     "r": 72,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Neto",
+     "p": "DF",
+     "r": 74,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Germano",
+     "p": "DF",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Cruz",
+     "p": "DF",
+     "r": 72,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "José Augusto",
+     "p": "MF",
+     "r": 79,
+     "nat": "Portugal",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Santana",
+     "p": "MF",
+     "r": 76,
+     "nat": "Portugal",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "José Águas",
+     "p": "FW",
+     "r": 81,
+     "nat": "Angola",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Mário Coluna",
+     "p": "MF",
+     "r": 83,
+     "nat": "Mozambique",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Cavém",
+     "p": "FW",
+     "r": 76,
+     "nat": "Portugal",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Eusébio",
+     "p": "FW",
+     "r": 90,
+     "nat": "Mozambique",
+     "dp": [
+      "FW",
+      "AM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Fernando Peyroteo",
+     "FW"
+    ],
+    [
+     "Matateu",
+     "FW"
+    ],
+    [
+     "Jaime Graça",
+     "MF"
+    ],
+    [
+     "Raul",
+     "FW"
+    ],
+    [
+     "Fernando Chalana",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1960-61"
+    }
+   ]
+  },
+  {
+   "id": "esp-bar-196061",
+   "club": "Barcelona",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1960-61",
+   "kit": [
+    "#004D98",
+    "#A50044"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1960-61",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Antoni Ramallets",
+     "p": "GK",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Foncho",
+     "p": "DF",
+     "r": 72,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Joaquim Garay",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Joan Vergés",
+     "p": "MF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Segarra Gensana",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Teódulo García",
+     "p": "MF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "László Kubala",
+     "p": "MF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CF"
+     ]
+    },
+    {
+     "n": "Luis Suárez",
+     "p": "MF",
+     "r": 87,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Evaristo",
+     "p": "FW",
+     "r": 80,
+     "nat": "Brazil",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Sándor Kocsis",
+     "p": "FW",
+     "r": 87,
+     "nat": "Hungary",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Zoltán Czibor",
+     "p": "FW",
+     "r": 83,
+     "nat": "Hungary",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Johan Cruyff",
+     "FW"
+    ],
+    [
+     "Rivaldo",
+     "FW"
+    ],
+    [
+     "Ronaldinho",
+     "MF"
+    ],
+    [
+     "Diego Maradona",
+     "FW"
+    ],
+    [
+     "Romário",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1960-61"
+    }
+   ]
+  },
+  {
+   "id": "por-ben-196162",
+   "club": "Benfica",
+   "country": "Portugal",
+   "league": "POR",
+   "season": "1961-62",
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1961-62",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Costa Pereira",
+     "p": "GK",
+     "r": 81,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mário João",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Germano",
+     "p": "DF",
+     "r": 81,
+     "nat": "Portugal",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Ângelo",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Cruz",
+     "p": "DF",
+     "r": 72,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Domiciano Cavém",
+     "p": "MF",
+     "r": 77,
+     "nat": "Portugal",
+     "dp": [
+      "RM",
+      "FW"
+     ]
+    },
+    {
+     "n": "José Augusto",
+     "p": "MF",
+     "r": 79,
+     "nat": "Portugal",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Mário Coluna",
+     "p": "MF",
+     "r": 84,
+     "nat": "Mozambique",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "José Águas",
+     "p": "FW",
+     "r": 81,
+     "nat": "Angola",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Eusébio",
+     "p": "FW",
+     "r": 90,
+     "nat": "Mozambique",
+     "dp": [
+      "FW",
+      "AM"
+     ]
+    },
+    {
+     "n": "António Simões",
+     "p": "MF",
+     "r": 76,
+     "nat": "Portugal",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Fernando Peyroteo",
+     "FW"
+    ],
+    [
+     "Matateu",
+     "FW"
+    ],
+    [
+     "Jaime Graça",
+     "MF"
+    ],
+    [
+     "Fernando Chalana",
+     "MF"
+    ],
+    [
+     "Nené",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1961-62"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-196162",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1961-62",
+   "kit": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1961-62",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "José Araquistáin",
+     "p": "GK",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Vicente Miera",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "José Santamaría",
+     "p": "DF",
+     "r": 82,
+     "nat": "Uruguay",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Pedro Casado",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Pachín",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Felo",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Luis Del Sol",
+     "p": "MF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Francisco Gento",
+     "p": "FW",
+     "r": 87,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Justo Tejada",
+     "p": "FW",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Alfredo Di Stéfano",
+     "p": "FW",
+     "r": 91,
+     "nat": "Argentina",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Ferenc Puskás",
+     "p": "FW",
+     "r": 89,
+     "nat": "Hungary",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Marquitos",
+     "DF"
+    ],
+    [
+     "Canário",
+     "MF"
+    ],
+    [
+     "Amancio",
+     "FW"
+    ],
+    [
+     "Raymond Kopa",
+     "MF"
+    ],
+    [
+     "Héctor Rial",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1961-62"
+    }
+   ]
+  },
+  {
+   "id": "ita-acm-196263",
+   "club": "AC Milan",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1962-63",
+   "kit": [
+    "#FB090B",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1962-63",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Giorgio Ghezzi",
+     "p": "GK",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mario David",
+     "p": "DF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Cesare Maldini",
+     "p": "DF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Mario Trebbi",
+     "p": "DF",
+     "r": 72,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Víctor Benítez",
+     "p": "DF",
+     "r": 76,
+     "nat": "Venezuela",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Giovanni Trapattoni",
+     "p": "MF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Dino Sani",
+     "p": "MF",
+     "r": 79,
+     "nat": "Brazil",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Gianni Rivera",
+     "p": "MF",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Gino Pivatelli",
+     "p": "FW",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "José Altafini",
+     "p": "FW",
+     "r": 84,
+     "nat": "Brazil",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Angelo Mora",
+     "p": "FW",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "LW",
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Nils Liedholm",
+     "MF"
+    ],
+    [
+     "Juan Schiaffino",
+     "MF"
+    ],
+    [
+     "Ernesto Grillo",
+     "FW"
+    ],
+    [
+     "Carlo Galli",
+     "FW"
+    ],
+    [
+     "Gunnar Nordahl",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1962-63"
+    }
+   ]
+  },
+  {
+   "id": "por-ben-196263",
+   "club": "Benfica",
+   "country": "Portugal",
+   "league": "POR",
+   "season": "1962-63",
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1962-63",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Costa Pereira",
+     "p": "GK",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Domiciano Cavém",
+     "p": "DF",
+     "r": 76,
+     "nat": "Portugal",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Fernando Cruz",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Humberto Fernandes",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Raúl Machado",
+     "p": "DF",
+     "r": 72,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Mário Coluna",
+     "p": "MF",
+     "r": 84,
+     "nat": "Mozambique",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "José Augusto",
+     "p": "MF",
+     "r": 79,
+     "nat": "Portugal",
+     "dp": [
+      "AM",
+      "RM"
+     ]
+    },
+    {
+     "n": "António Simões",
+     "p": "MF",
+     "r": 77,
+     "nat": "Portugal",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "José Torres",
+     "p": "FW",
+     "r": 79,
+     "nat": "Portugal",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Eusébio",
+     "p": "FW",
+     "r": 91,
+     "nat": "Mozambique",
+     "dp": [
+      "FW",
+      "AM"
+     ]
+    },
+    {
+     "n": "José Águas",
+     "p": "FW",
+     "r": 80,
+     "nat": "Angola",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Fernando Peyroteo",
+     "FW"
+    ],
+    [
+     "Matateu",
+     "FW"
+    ],
+    [
+     "Jaime Graça",
+     "MF"
+    ],
+    [
+     "Fernando Chalana",
+     "MF"
+    ],
+    [
+     "Nené",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1962-63"
+    }
+   ]
+  },
+  {
+   "id": "ita-int-196364",
+   "club": "Inter",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1963-64",
+   "kit": [
+    "#0066CC",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1963-64",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Giuliano Sarti",
+     "p": "GK",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Tarcisio Burgnich",
+     "p": "DF",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Armando Picchi",
+     "p": "DF",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "SW"
+     ]
+    },
+    {
+     "n": "Aristide Guarneri",
+     "p": "DF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Giacinto Facchetti",
+     "p": "DF",
+     "r": 88,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Carlo Tagnin",
+     "p": "MF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Jair",
+     "p": "MF",
+     "r": 79,
+     "nat": "Brazil",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Luis Suárez",
+     "p": "MF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Sandro Mazzola",
+     "p": "FW",
+     "r": 87,
+     "nat": "Italy",
+     "dp": [
+      "AM",
+      "SS"
+     ]
+    },
+    {
+     "n": "Mario Corso",
+     "p": "FW",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "LW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Aurelio Milani",
+     "p": "FW",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Roberto Boninsegna",
+     "FW"
+    ],
+    [
+     "Gianfranco Bedin",
+     "MF"
+    ],
+    [
+     "Mauro Bellugi",
+     "DF"
+    ],
+    [
+     "Mario Frustalupi",
+     "MF"
+    ],
+    [
+     "Alessandro Altobelli",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1963-64"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-196364",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1963-64",
+   "kit": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1963-64",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Vicente Cobo",
+     "p": "GK",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Pachín",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "José Santamaría",
+     "p": "DF",
+     "r": 81,
+     "nat": "Uruguay",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Isidro Sánchez",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Lucien Muller",
+     "p": "DF",
+     "r": 75,
+     "nat": "France",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Ignacio Zoco",
+     "p": "MF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Felo",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Amancio",
+     "p": "FW",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Alfredo Di Stéfano",
+     "p": "FW",
+     "r": 88,
+     "nat": "Argentina",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Ferenc Puskás",
+     "p": "FW",
+     "r": 85,
+     "nat": "Hungary",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Francisco Gento",
+     "p": "FW",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Raymond Kopa",
+     "MF"
+    ],
+    [
+     "Luis Del Sol",
+     "MF"
+    ],
+    [
+     "Marquitos",
+     "DF"
+    ],
+    [
+     "Héctor Rial",
+     "FW"
+    ],
+    [
+     "Enrique Mateos",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1963-64"
+    }
+   ]
+  },
+  {
+   "id": "por-ben-196465",
+   "club": "Benfica",
+   "country": "Portugal",
+   "league": "POR",
+   "season": "1964-65",
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1964-65",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Costa Pereira",
+     "p": "GK",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Domiciano Cavém",
+     "p": "DF",
+     "r": 75,
+     "nat": "Portugal",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Fernando Cruz",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Neto",
+     "p": "DF",
+     "r": 74,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Germano",
+     "p": "DF",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Raúl",
+     "p": "DF",
+     "r": 72,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "José Augusto",
+     "p": "MF",
+     "r": 78,
+     "nat": "Portugal",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Mário Coluna",
+     "p": "MF",
+     "r": 83,
+     "nat": "Mozambique",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "José Torres",
+     "p": "FW",
+     "r": 79,
+     "nat": "Portugal",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Eusébio",
+     "p": "FW",
+     "r": 91,
+     "nat": "Mozambique",
+     "dp": [
+      "FW",
+      "AM"
+     ]
+    },
+    {
+     "n": "António Simões",
+     "p": "MF",
+     "r": 78,
+     "nat": "Portugal",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Fernando Peyroteo",
+     "FW"
+    ],
+    [
+     "Matateu",
+     "FW"
+    ],
+    [
+     "Jaime Graça",
+     "MF"
+    ],
+    [
+     "Fernando Chalana",
+     "MF"
+    ],
+    [
+     "Nené",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1964-65"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-196566",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1965-66",
+   "kit": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1965-66",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "José Araquistáin",
+     "p": "GK",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Pachín",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Pedro De Felipe",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Manuel Sanchís",
+     "p": "MF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Ignacio Zoco",
+     "p": "MF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Pirri",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Manuel Velázquez",
+     "p": "MF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Fernando Serena",
+     "p": "FW",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "FW"
+     ]
+    },
+    {
+     "n": "Amancio",
+     "p": "FW",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Ramón Grosso",
+     "p": "FW",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Francisco Gento",
+     "p": "FW",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Di Stéfano",
+     "FW"
+    ],
+    [
+     "Puskás",
+     "FW"
+    ],
+    [
+     "Canário",
+     "MF"
+    ],
+    [
+     "Del Sol",
+     "MF"
+    ],
+    [
+     "Eusébio",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1965-66"
+    }
+   ]
+  },
+  {
+   "id": "srb-par-196566",
+   "club": "Partizan Belgrade",
+   "country": "Yugoslavia",
+   "league": "YUG",
+   "season": "1965-66",
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "C",
+   "honour": "European Cup runner-up 1965-66",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Milutin Šoškić",
+     "p": "GK",
+     "r": 80,
+     "nat": "Yugoslavia",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Fahrudin Jusufi",
+     "p": "DF",
+     "r": 74,
+     "nat": "Yugoslavia",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Branko Rašović",
+     "p": "MF",
+     "r": 74,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Dragoslav Šekularac",
+     "p": "MF",
+     "r": 78,
+     "nat": "Yugoslavia",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Velibor Vasović",
+     "p": "DF",
+     "r": 82,
+     "nat": "Yugoslavia",
+     "dp": [
+      "SW",
+      "CB"
+     ]
+    },
+    {
+     "n": "Miroslav Bečejac",
+     "p": "DF",
+     "r": 73,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ilija Bajić",
+     "p": "MF",
+     "r": 74,
+     "nat": "Yugoslavia",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Radoslav Kovačević",
+     "p": "MF",
+     "r": 76,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Mustafa Hasanagić",
+     "p": "FW",
+     "r": 76,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Milan Galić",
+     "p": "FW",
+     "r": 78,
+     "nat": "Yugoslavia",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Janez Pirmajer",
+     "p": "FW",
+     "r": 74,
+     "nat": "Yugoslavia",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Dragan Džajić",
+     "MF"
+    ],
+    [
+     "Vladimir Beara",
+     "GK"
+    ],
+    [
+     "Stjepan Bobek",
+     "FW"
+    ],
+    [
+     "Dragoslav Šekularac",
+     "MF"
+    ],
+    [
+     "Josip Skoblar",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1965-66"
+    }
+   ]
+  },
+  {
+   "id": "sco-cel-196667",
+   "club": "Celtic",
+   "country": "Scotland",
+   "league": "SCO",
+   "season": "1966-67",
+   "kit": [
+    "#16A34A",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1966-67",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Ronnie Simpson",
+     "p": "GK",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "John Fallon",
+     "p": "GK",
+     "r": 70,
+     "nat": "Scotland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Jim Craig",
+     "p": "DF",
+     "r": 74,
+     "nat": "Scotland",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Tommy Gemmell",
+     "p": "DF",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Billy McNeill",
+     "p": "DF",
+     "r": 83,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "John Clark",
+     "p": "MF",
+     "r": 77,
+     "nat": "Scotland",
+     "dp": [
+      "DM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Bobby Murdoch",
+     "p": "MF",
+     "r": 81,
+     "nat": "Scotland",
+     "dp": [
+      "CM",
+      "RM"
+     ]
+    },
+    {
+     "n": "Bertie Auld",
+     "p": "MF",
+     "r": 79,
+     "nat": "Scotland",
+     "dp": [
+      "LM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Jimmy Johnstone",
+     "p": "FW",
+     "r": 85,
+     "nat": "Scotland",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Bobby Lennox",
+     "p": "FW",
+     "r": 79,
+     "nat": "Scotland",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Willie Wallace",
+     "p": "FW",
+     "r": 79,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Stevie Chalmers",
+     "p": "FW",
+     "r": 77,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Denis Law",
+     "FW"
+    ],
+    [
+     "Kenny Dalglish",
+     "FW"
+    ],
+    [
+     "Graeme Souness",
+     "MF"
+    ],
+    [
+     "Joe McBride",
+     "FW"
+    ],
+    [
+     "Bobby Collins",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1966-67"
+    }
+   ]
+  },
+  {
+   "id": "ita-int-196667",
+   "club": "Inter",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1966-67",
+   "kit": [
+    "#0066CC",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1966-67",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Giuliano Sarti",
+     "p": "GK",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Tarcisio Burgnich",
+     "p": "DF",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Armando Picchi",
+     "p": "DF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "SW"
+     ]
+    },
+    {
+     "n": "Aristide Guarneri",
+     "p": "DF",
+     "r": 77,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Giacinto Facchetti",
+     "p": "DF",
+     "r": 88,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Gianfranco Bedin",
+     "p": "MF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Jair",
+     "p": "MF",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Mauro Bicicli",
+     "p": "MF",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Sandro Mazzola",
+     "p": "FW",
+     "r": 86,
+     "nat": "Italy",
+     "dp": [
+      "AM",
+      "SS"
+     ]
+    },
+    {
+     "n": "Angelo Domenghini",
+     "p": "FW",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Renato Cappellini",
+     "p": "FW",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Mario Corso",
+     "p": "FW",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "LW",
+      "AM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Roberto Boninsegna",
+     "FW"
+    ],
+    [
+     "Luis Suárez",
+     "MF"
+    ],
+    [
+     "Gianfranco Bedin",
+     "MF"
+    ],
+    [
+     "Alessandro Altobelli",
+     "FW"
+    ],
+    [
+     "Karl-Heinz Schnellinger",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1966-67"
+    }
+   ]
+  },
+  {
+   "id": "eng-mun-196768",
+   "club": "Manchester United",
+   "country": "England",
+   "league": "ENG",
+   "season": "1967-68",
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1967-68",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Alex Stepney",
+     "p": "GK",
+     "r": 80,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Bill Foulkes",
+     "p": "DF",
+     "r": 79,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "David Sadler",
+     "p": "DF",
+     "r": 77,
+     "nat": "England",
+     "dp": [
+      "CB",
+      "CM"
+     ]
+    },
+    {
+     "n": "Tony Dunne",
+     "p": "DF",
+     "r": 78,
+     "nat": "Republic of Ireland",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Shay Brennan",
+     "p": "DF",
+     "r": 74,
+     "nat": "Republic of Ireland",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Nobby Stiles",
+     "p": "MF",
+     "r": 79,
+     "nat": "England",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Pat Crerand",
+     "p": "MF",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Bobby Charlton",
+     "p": "MF",
+     "r": 88,
+     "nat": "England",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "John Aston",
+     "p": "FW",
+     "r": 77,
+     "nat": "England",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "George Best",
+     "p": "FW",
+     "r": 90,
+     "nat": "Northern Ireland",
+     "dp": [
+      "RW",
+      "FW"
+     ]
+    },
+    {
+     "n": "Brian Kidd",
+     "p": "FW",
+     "r": 75,
+     "nat": "England",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Denis Law",
+     "p": "FW",
+     "r": 87,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Dave Mackay",
+     "MF"
+    ],
+    [
+     "Alan Mullery",
+     "MF"
+    ],
+    [
+     "Colin Bell",
+     "MF"
+    ],
+    [
+     "Peter Osgood",
+     "FW"
+    ],
+    [
+     "Alan Ball",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1967-68"
+    }
+   ]
+  },
+  {
+   "id": "por-ben-196768",
+   "club": "Benfica",
+   "country": "Portugal",
+   "league": "POR",
+   "season": "1967-68",
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1967-68",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "José Henrique",
+     "p": "GK",
+     "r": 79,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Adolfo",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Humberto Fernandes",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Jacinto Santos",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Fernando Cruz",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Jaime Graça",
+     "p": "MF",
+     "r": 77,
+     "nat": "Portugal",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Mário Coluna",
+     "p": "MF",
+     "r": 81,
+     "nat": "Mozambique",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "António Simões",
+     "p": "MF",
+     "r": 78,
+     "nat": "Portugal",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "José Augusto",
+     "p": "MF",
+     "r": 78,
+     "nat": "Portugal",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Eusébio",
+     "p": "FW",
+     "r": 89,
+     "nat": "Mozambique",
+     "dp": [
+      "FW",
+      "AM"
+     ]
+    },
+    {
+     "n": "José Torres",
+     "p": "FW",
+     "r": 78,
+     "nat": "Portugal",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Fernando Peyroteo",
+     "FW"
+    ],
+    [
+     "Matateu",
+     "FW"
+    ],
+    [
+     "Nené",
+     "FW"
+    ],
+    [
+     "Fernando Chalana",
+     "MF"
+    ],
+    [
+     "Rui Costa",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1967-68"
+    }
+   ]
+  },
+  {
+   "id": "ita-acm-196869",
+   "club": "AC Milan",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1968-69",
+   "kit": [
+    "#FB090B",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1968-69",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Fabio Cudicini",
+     "p": "GK",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Angelo Anquilletti",
+     "p": "DF",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Roberto Rosato",
+     "p": "DF",
+     "r": 77,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Karl-Heinz Schnellinger",
+     "p": "DF",
+     "r": 83,
+     "nat": "West Germany",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Saul Malatrasi",
+     "p": "DF",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Giovanni Trapattoni",
+     "p": "MF",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Giovanni Lodetti",
+     "p": "MF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Kurt Hamrin",
+     "p": "MF",
+     "r": 82,
+     "nat": "Sweden",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Gianni Rivera",
+     "p": "MF",
+     "r": 86,
+     "nat": "Italy",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Angelo Sormani",
+     "p": "FW",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "CF",
+      "SS"
+     ]
+    },
+    {
+     "n": "Pierino Prati",
+     "p": "FW",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "José Altafini",
+     "FW"
+    ],
+    [
+     "Nils Liedholm",
+     "MF"
+    ],
+    [
+     "Sandro Malatrasi",
+     "DF"
+    ],
+    [
+     "Marco van Basten",
+     "FW"
+    ],
+    [
+     "Ruud Gullit",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1968-69"
+    }
+   ]
+  },
+  {
+   "id": "ned-aja-196869",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "league": "NED",
+   "season": "1968-69",
+   "kit": [
+    "#FFFFFF",
+    "#D2122E"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1968-69",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Gert Bals",
+     "p": "GK",
+     "r": 74,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Wim Suurbier",
+     "p": "DF",
+     "r": 79,
+     "nat": "Netherlands",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Barry Hulshoff",
+     "p": "DF",
+     "r": 77,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Velibor Vasović",
+     "p": "DF",
+     "r": 82,
+     "nat": "Yugoslavia",
+     "dp": [
+      "SW",
+      "CB"
+     ]
+    },
+    {
+     "n": "Theo van Duivenbode",
+     "p": "DF",
+     "r": 74,
+     "nat": "Netherlands",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Sjaak Swart",
+     "p": "MF",
+     "r": 76,
+     "nat": "Netherlands",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Henk Groot",
+     "p": "MF",
+     "r": 73,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Anton Pronk",
+     "p": "MF",
+     "r": 72,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Johan Cruyff",
+     "p": "FW",
+     "r": 88,
+     "nat": "Netherlands",
+     "dp": [
+      "CF",
+      "SS"
+     ]
+    },
+    {
+     "n": "Inge Danielsson",
+     "p": "FW",
+     "r": 73,
+     "nat": "Sweden",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Piet Keizer",
+     "p": "FW",
+     "r": 83,
+     "nat": "Netherlands",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Johan Neeskens",
+     "MF"
+    ],
+    [
+     "Ruud Krol",
+     "DF"
+    ],
+    [
+     "Arie Haan",
+     "MF"
+    ],
+    [
+     "Johnny Rep",
+     "FW"
+    ],
+    [
+     "Gerrie Mühren",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1968-69"
+    }
+   ]
+  },
+  {
+   "id": "ned-fey-196970",
+   "club": "Feyenoord",
+   "country": "Netherlands",
+   "league": "NED",
+   "season": "1969-70",
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1969-70",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Eddy Treytel",
+     "p": "GK",
+     "r": 77,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Eddy Pieters Graafland",
+     "p": "GK",
+     "r": 75,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Joop Romeijn",
+     "p": "DF",
+     "r": 73,
+     "nat": "Netherlands",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Ben Laseroms",
+     "p": "DF",
+     "r": 74,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Rinus Israël",
+     "p": "DF",
+     "r": 82,
+     "nat": "Netherlands",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Theo van Duivenbode",
+     "p": "DF",
+     "r": 75,
+     "nat": "Netherlands",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Franz Hasil",
+     "p": "MF",
+     "r": 77,
+     "nat": "Austria",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Wim Jansen",
+     "p": "MF",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Willem van Hanegem",
+     "p": "MF",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Henk Wery",
+     "p": "FW",
+     "r": 74,
+     "nat": "Netherlands",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Ove Kindvall",
+     "p": "FW",
+     "r": 79,
+     "nat": "Sweden",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Joop van Daele",
+     "p": "FW",
+     "r": 73,
+     "nat": "Netherlands",
+     "dp": [
+      "LW",
+      "FW"
+     ]
+    },
+    {
+     "n": "Coen Moulijn",
+     "p": "FW",
+     "r": 81,
+     "nat": "Netherlands",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Johan Cruyff",
+     "FW"
+    ],
+    [
+     "Ruud Gullit",
+     "MF"
+    ],
+    [
+     "Johan Neeskens",
+     "MF"
+    ],
+    [
+     "Mario Jardel",
+     "FW"
+    ],
+    [
+     "Robin van Persie",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1969-70"
+    }
+   ]
+  },
+  {
+   "id": "sco-cel-196970",
+   "club": "Celtic",
+   "country": "Scotland",
+   "league": "SCO",
+   "season": "1969-70",
+   "kit": [
+    "#16A34A",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1969-70",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Evan Williams",
+     "p": "GK",
+     "r": 74,
+     "nat": "Scotland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "David Hay",
+     "p": "DF",
+     "r": 76,
+     "nat": "Scotland",
+     "dp": [
+      "RB",
+      "CM"
+     ]
+    },
+    {
+     "n": "Jim Brogan",
+     "p": "DF",
+     "r": 74,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Billy McNeill",
+     "p": "DF",
+     "r": 83,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Tommy Gemmell",
+     "p": "DF",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Bobby Murdoch",
+     "p": "MF",
+     "r": 81,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Bertie Auld",
+     "p": "MF",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Jimmy Johnstone",
+     "p": "FW",
+     "r": 85,
+     "nat": "Scotland",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Bobby Lennox",
+     "p": "FW",
+     "r": 79,
+     "nat": "Scotland",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Willie Wallace",
+     "p": "FW",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Stevie Chalmers",
+     "p": "FW",
+     "r": 76,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "John Hughes",
+     "p": "FW",
+     "r": 76,
+     "nat": "Scotland",
+     "dp": [
+      "CF",
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Denis Law",
+     "FW"
+    ],
+    [
+     "Kenny Dalglish",
+     "FW"
+    ],
+    [
+     "Graeme Souness",
+     "MF"
+    ],
+    [
+     "John Clark",
+     "MF"
+    ],
+    [
+     "Ronnie Simpson",
+     "GK"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1969-70"
+    }
+   ]
+  }
+ ]
+}
