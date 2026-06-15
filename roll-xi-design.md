@@ -64,7 +64,7 @@ Each B-chunk indexes finalists + both semi-finalists of a competition as lightwe
 - B1 (done): European Cup / Champions League, 1955-56 to 2025-26. 284 verified club-seasons.
 - B2 (done): Cup Winners' Cup, 1960-61 to 1998-99. 78 verified club-seasons (winner + runner-up of all 39 editions) as tier-O rows.
 - B3 (done): Fairs Cup (1955-1971) + UEFA Cup (1971-2009) + Europa League (2009-2025). 134 verified club-seasons (winner + runner-up of all 67 editions) as tier-O rows. 2025-26 excluded (in progress).
-- B4: Conference League + UEFA-era Intertoto (1995-2008).
+- B4 (DONE): Conference League (2021-22 to 2025-26, W+RU, 10 rows) + Intertoto 1995-2005 (W+RU per final, 64 rows) + Intertoto 2006-2008 outright winners (3 rows). Total: 77 tier-O rows in pack-opponents-confl-itc.json.
 
 ### Ultimate data goal (confirmed)
 **Most main-draw participants of EVERY European competition (EC/UCL, CWC, Fairs/UEFA, Europa, Conference, Intertoto), from EVERY country, become PICKABLE (tier-P, full 16-20 player rosters).** All Serie A 1960-2026 on top. "Main draw" = proper competition rounds; qualifying-round-only entrants are excluded. Trivia, chains and the album all draw from the pickable pool, so the end state gives all three modes full all-competition, all-country breadth. Scale is large (~8,000-12,000 club-seasons; 150-200+ sessions to complete fully) — this is fine because the two-tier model keeps the game whole at every stage.

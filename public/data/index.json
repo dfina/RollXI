@@ -92,6 +92,11 @@
    "name": "Fairs Cup / UEFA Cup / Europa League index",
    "v": "0.18",
    "verified": true
+  },
+  {
+   "file": "pack-opponents-confl-itc.json",
+   "name": "B4: Conference League + Intertoto Cup (tier-O)",
+   "v": "0.22"
   }
  ]
 }
