@@ -52,4 +52,5 @@ Finalists already promoted to pickable:
 - Wave Fb: 2004-05 to 2014-15 (done)
 - Wave Fc: 1990-91 to 2003-04 (DONE) — all 13 editions 1991-92..2003-04 have both finalists pickable (25 rosters built this wave; Red Star 1990-91 built earlier as template; Marseille 1990-91 RU and Man Utd 1998-99 W pickable via seed). Each web-verified per edition; every promoted club-season removed from EC/UCL tier-O in the same pass; O/P overlap = 0, P/P dups = 0.
 - Wave Fd: 1980-81 to 1989-90 (DONE) — all 10 editions, both finalists web-verified per edition (final match sheets), 20 rosters built, removed from EC/UCL tier-O; O/P overlap = 0, P/P dups = 0. Steaua/Benfica carry conf C on squad depth.
-- Next after Fd: Fe (1970s), Ff (1955-56..1969-70), then non-EC competitions (CWC, UEFA/Fairs, Europa) and the C-series Serie A backbone.
+- Wave Fe: 1970-71 to 1979-80 (DONE) — all 10 editions, 18 rosters built (2 already pickable), web-verified per edition, O/P overlap = 0.
+- Next after Fe: Ff (1955-56..1969-70), then non-EC competitions and C-series Serie A backbone.

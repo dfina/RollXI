@@ -1,0 +1,3003 @@
+{
+ "meta": {
+  "name": "Wave Fe — EC/UCL finalists (winners + runners-up) 1970-71 to 1979-80",
+  "wave": "Fe",
+  "note": "Complete. All 10 editions 1970-71 to 1979-80 have both finalists pickable (18 rosters built this wave; Bayern Munich 1973-74 and Saint-Étienne 1975-76 were already pickable). Each web-verified per edition via final match sheets. Every promoted club-season removed from EC/UCL tier-O in the same pass; O/P overlap = 0. Panathinaikos, Club Brugge and Malmö FF carry conf C on squad depth.",
+  "verified": true
+ },
+ "squads": [
+  {
+   "id": "ned-aja-7071",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "league": "NED",
+   "season": "1970-71",
+   "kit": [
+    "#FFFFFF",
+    "#D2122E"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1970-71",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Heinz Stuy",
+     "p": "GK",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Wim Suurbier",
+     "p": "DF",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Velibor Vasović",
+     "p": "DF",
+     "r": 82,
+     "nat": "Yugoslavia",
+     "dp": [
+      "SW",
+      "CB"
+     ]
+    },
+    {
+     "n": "Barry Hulshoff",
+     "p": "DF",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Horst Blankenburg",
+     "p": "DF",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Johan Neeskens",
+     "p": "MF",
+     "r": 87,
+     "nat": "Netherlands",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Nico Rijnders",
+     "p": "MF",
+     "r": 74,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Gerrie Mühren",
+     "p": "MF",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Arie Haan",
+     "p": "MF",
+     "r": 81,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Sjaak Swart",
+     "p": "FW",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Johan Cruyff",
+     "p": "FW",
+     "r": 93,
+     "nat": "Netherlands",
+     "dp": [
+      "CF",
+      "SS"
+     ]
+    },
+    {
+     "n": "Piet Keizer",
+     "p": "FW",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Dick van Dijk",
+     "p": "FW",
+     "r": 77,
+     "nat": "Netherlands",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Ruud Krol",
+     "p": "DF",
+     "r": 81,
+     "nat": "Netherlands",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Johan Boskamp",
+     "p": "MF",
+     "r": 72,
+     "nat": "Netherlands",
+     "dp": [
+      "MF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Rinus Israel",
+     "DF"
+    ],
+    [
+     "Henk Groot",
+     "FW"
+    ],
+    [
+     "Rep",
+     "FW"
+    ],
+    [
+     "Robbie Rensenbrink",
+     "FW"
+    ],
+    [
+     "Johan de Boer",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1970-71"
+    }
+   ]
+  },
+  {
+   "id": "gre-pao-7071",
+   "club": "Panathinaikos",
+   "country": "Greece",
+   "league": "GRE",
+   "season": "1970-71",
+   "kit": [
+    "#006633",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "C",
+   "honour": "European Cup runner-up 1970-71",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Takis Ikonomopoulos",
+     "p": "GK",
+     "r": 74,
+     "nat": "Greece",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Nikos Tomaras",
+     "p": "DF",
+     "r": 73,
+     "nat": "Greece",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Nikos Sourpis",
+     "p": "DF",
+     "r": 73,
+     "nat": "Greece",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Stelios Eleftherakis",
+     "p": "DF",
+     "r": 74,
+     "nat": "Greece",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Nikos Kamaras",
+     "p": "DF",
+     "r": 72,
+     "nat": "Greece",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Kostas Vlachos",
+     "p": "DF",
+     "r": 73,
+     "nat": "Greece",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Mimis Domazos",
+     "p": "MF",
+     "r": 82,
+     "nat": "Greece",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Kostas Fylakouris",
+     "p": "MF",
+     "r": 74,
+     "nat": "Greece",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Antonis Grammos",
+     "p": "MF",
+     "r": 73,
+     "nat": "Greece",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Antonis Antoniadis",
+     "p": "FW",
+     "r": 80,
+     "nat": "Greece",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Giorgos Kapsis",
+     "p": "FW",
+     "r": 74,
+     "nat": "Greece",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Vaggelis Kalogiannis",
+     "p": "MF",
+     "r": 71,
+     "nat": "Greece",
+     "dp": [
+      "MF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Eusébio",
+     "FW"
+    ],
+    [
+     "Georgi Asparuhov",
+     "FW"
+    ],
+    [
+     "Anatoliy Byshovets",
+     "FW"
+    ],
+    [
+     "Dragan Džajić",
+     "MF"
+    ],
+    [
+     "Gerd Müller",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1970-71"
+    }
+   ]
+  },
+  {
+   "id": "ned-aja-7172",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "league": "NED",
+   "season": "1971-72",
+   "kit": [
+    "#FFFFFF",
+    "#D2122E"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1971-72",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Heinz Stuy",
+     "p": "GK",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Wim Suurbier",
+     "p": "DF",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Barry Hulshoff",
+     "p": "DF",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Horst Blankenburg",
+     "p": "DF",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ruud Krol",
+     "p": "DF",
+     "r": 82,
+     "nat": "Netherlands",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Johan Neeskens",
+     "p": "MF",
+     "r": 87,
+     "nat": "Netherlands",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Arie Haan",
+     "p": "MF",
+     "r": 81,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Gerrie Mühren",
+     "p": "MF",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Sjaak Swart",
+     "p": "FW",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Johan Cruyff",
+     "p": "FW",
+     "r": 93,
+     "nat": "Netherlands",
+     "dp": [
+      "CF",
+      "SS"
+     ]
+    },
+    {
+     "n": "Piet Keizer",
+     "p": "FW",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Johnny Rep",
+     "p": "FW",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "RW",
+      "FW"
+     ]
+    },
+    {
+     "n": "Rob Rensenbrink",
+     "p": "FW",
+     "r": 79,
+     "nat": "Netherlands",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Rinus Israel",
+     "DF"
+    ],
+    [
+     "Velibor Vasović",
+     "DF"
+    ],
+    [
+     "Dick van Dijk",
+     "FW"
+    ],
+    [
+     "Johan Boskamp",
+     "MF"
+    ],
+    [
+     "Henk Groot",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1971-72"
+    }
+   ]
+  },
+  {
+   "id": "ita-int-7172",
+   "club": "Inter",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1971-72",
+   "kit": [
+    "#0066CC",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1971-72",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Ivano Bordon",
+     "p": "GK",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Tarcisio Burgnich",
+     "p": "DF",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Mauro Bellugi",
+     "p": "DF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "CB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Mario Giubertoni",
+     "p": "DF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Giacinto Facchetti",
+     "p": "DF",
+     "r": 86,
+     "nat": "Italy",
+     "dp": [
+      "LB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Gabriele Oriali",
+     "p": "MF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Gianfranco Bedin",
+     "p": "MF",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Mario Frustalupi",
+     "p": "MF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jair",
+     "p": "FW",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Sandro Mazzola",
+     "p": "FW",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "AM",
+      "SS"
+     ]
+    },
+    {
+     "n": "Roberto Boninsegna",
+     "p": "FW",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Mario Corso",
+     "p": "MF",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "LW",
+      "AM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Gigi Riva",
+     "FW"
+    ],
+    [
+     "Gianni Rivera",
+     "AM"
+    ],
+    [
+     "Romeo Benetti",
+     "MF"
+    ],
+    [
+     "Pietro Anastasi",
+     "FW"
+    ],
+    [
+     "Dino Zoff",
+     "GK"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1971-72"
+    }
+   ]
+  },
+  {
+   "id": "ned-aja-7273",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "league": "NED",
+   "season": "1972-73",
+   "kit": [
+    "#FFFFFF",
+    "#D2122E"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1972-73",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Heinz Stuy",
+     "p": "GK",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Wim Suurbier",
+     "p": "DF",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Barry Hulshoff",
+     "p": "DF",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Horst Blankenburg",
+     "p": "DF",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ruud Krol",
+     "p": "DF",
+     "r": 83,
+     "nat": "Netherlands",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Johan Neeskens",
+     "p": "MF",
+     "r": 88,
+     "nat": "Netherlands",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Arie Haan",
+     "p": "MF",
+     "r": 82,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Gerrie Mühren",
+     "p": "MF",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "MF"
+     ]
+    },
+    {
+     "n": "Johan Cruyff",
+     "p": "FW",
+     "r": 93,
+     "nat": "Netherlands",
+     "dp": [
+      "CF",
+      "SS"
+     ]
+    },
+    {
+     "n": "Johnny Rep",
+     "p": "FW",
+     "r": 82,
+     "nat": "Netherlands",
+     "dp": [
+      "RW",
+      "FW"
+     ]
+    },
+    {
+     "n": "Piet Keizer",
+     "p": "FW",
+     "r": 83,
+     "nat": "Netherlands",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Rob Rensenbrink",
+     "p": "FW",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Henk Groot",
+     "FW"
+    ],
+    [
+     "Johan Boskamp",
+     "MF"
+    ],
+    [
+     "Velibor Vasović",
+     "DF"
+    ],
+    [
+     "Dick van Dijk",
+     "FW"
+    ],
+    [
+     "Rinus Israel",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1972-73"
+    }
+   ]
+  },
+  {
+   "id": "ita-juv-7273",
+   "club": "Juventus",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1972-73",
+   "kit": [
+    "#FFFFFF",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1972-73",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Dino Zoff",
+     "p": "GK",
+     "r": 88,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Sandro Salvadore",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Francesco Morini",
+     "p": "DF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Luciano Marchetti",
+     "p": "DF",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Giuseppe Longobucco",
+     "p": "DF",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Romeo Benetti",
+     "p": "MF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Giuseppe Furino",
+     "p": "MF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Fabio Capello",
+     "p": "MF",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Franco Causio",
+     "p": "MF",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Antonello Cuccureddu",
+     "p": "DF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "José Altafini",
+     "p": "FW",
+     "r": 82,
+     "nat": "Brazil",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Pietro Anastasi",
+     "p": "FW",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Roberto Bettega",
+     "p": "FW",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "CF",
+      "SS"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Gigi Riva",
+     "FW"
+    ],
+    [
+     "Sandro Mazzola",
+     "MF"
+    ],
+    [
+     "Gianni Rivera",
+     "AM"
+    ],
+    [
+     "Roberto Boninsegna",
+     "FW"
+    ],
+    [
+     "Helmut Haller",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1972-73"
+    }
+   ]
+  },
+  {
+   "id": "esp-atm-7374",
+   "club": "Atletico Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1973-74",
+   "kit": [
+    "#CC0000",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1973-74",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Miguel Reina",
+     "p": "GK",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Adelardo",
+     "p": "MF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Ramón Heredia",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Isacio Calleja",
+     "p": "DF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Javier Capón",
+     "p": "DF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Gonzalo Melo",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Enrique Heraldo Bezerra",
+     "p": "MF",
+     "r": 74,
+     "nat": "Brazil",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Eusebio",
+     "p": "MF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Luís Pereira",
+     "p": "DF",
+     "r": 81,
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Luis Aragonés",
+     "p": "FW",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CF"
+     ]
+    },
+    {
+     "n": "José Eulogio Gárate",
+     "p": "FW",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Alberto Fernández",
+     "p": "FW",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Roberto Ufarte",
+     "p": "FW",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Irureta",
+     "p": "MF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "MF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Hugo Sánchez",
+     "FW"
+    ],
+    [
+     "Fernando Torres",
+     "FW"
+    ],
+    [
+     "Diego Forlán",
+     "FW"
+    ],
+    [
+     "Radamel Falcao",
+     "FW"
+    ],
+    [
+     "Antoine Griezmann",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1973-74"
+    }
+   ]
+  },
+  {
+   "id": "ger-fcb-7475",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1974-75",
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1974-75",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Sepp Maier",
+     "p": "GK",
+     "r": 88,
+     "nat": "West Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Bernd Dürnberger",
+     "p": "DF",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Hans-Georg Schwarzenbeck",
+     "p": "DF",
+     "r": 82,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Franz Beckenbauer",
+     "p": "DF",
+     "r": 92,
+     "nat": "West Germany",
+     "dp": [
+      "SW"
+     ]
+    },
+    {
+     "n": "Björn Andersson",
+     "p": "DF",
+     "r": 74,
+     "nat": "Sweden",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Franz Roth",
+     "p": "MF",
+     "r": 78,
+     "nat": "West Germany",
+     "dp": [
+      "LM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Conny Torstensson",
+     "p": "MF",
+     "r": 77,
+     "nat": "Sweden",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Rainer Zobel",
+     "p": "MF",
+     "r": 74,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jupp Kapellmann",
+     "p": "MF",
+     "r": 75,
+     "nat": "West Germany",
+     "dp": [
+      "LW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Gerd Müller",
+     "p": "FW",
+     "r": 92,
+     "nat": "West Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Uli Hoeneß",
+     "p": "FW",
+     "r": 83,
+     "nat": "West Germany",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Johnny Hansen",
+     "p": "DF",
+     "r": 73,
+     "nat": "Denmark",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Karl-Heinz Rummenigge",
+     "p": "FW",
+     "r": 80,
+     "nat": "West Germany",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Paul Breitner",
+     "DF"
+    ],
+    [
+     "Karl Del'Haye",
+     "MF"
+    ],
+    [
+     "Lothar Matthäus",
+     "MF"
+    ],
+    [
+     "Klaus Augenthaler",
+     "DF"
+    ],
+    [
+     "Dieter Hoeneß",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1974-75"
+    }
+   ]
+  },
+  {
+   "id": "eng-lee-7475",
+   "club": "Leeds United",
+   "country": "England",
+   "league": "ENG",
+   "season": "1974-75",
+   "kit": [
+    "#FFFFFF",
+    "#0000CC"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1974-75",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "David Stewart",
+     "p": "GK",
+     "r": 76,
+     "nat": "Scotland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Paul Reaney",
+     "p": "DF",
+     "r": 77,
+     "nat": "England",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Frank Gray",
+     "p": "DF",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Billy Bremner",
+     "p": "MF",
+     "r": 86,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Paul Madeley",
+     "p": "DF",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "CB",
+      "CM"
+     ]
+    },
+    {
+     "n": "Norman Hunter",
+     "p": "DF",
+     "r": 84,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Peter Lorimer",
+     "p": "MF",
+     "r": 83,
+     "nat": "Scotland",
+     "dp": [
+      "RM",
+      "FW"
+     ]
+    },
+    {
+     "n": "Johnny Giles",
+     "p": "MF",
+     "r": 85,
+     "nat": "Republic of Ireland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Terry Yorath",
+     "p": "MF",
+     "r": 74,
+     "nat": "Wales",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Eddie Gray",
+     "p": "MF",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Allan Clarke",
+     "p": "FW",
+     "r": 82,
+     "nat": "England",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Joe Jordan",
+     "p": "FW",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Trevor Cherry",
+     "p": "DF",
+     "r": 74,
+     "nat": "England",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Kevin Keegan",
+     "FW"
+    ],
+    [
+     "Mick Jones",
+     "FW"
+    ],
+    [
+     "Jack Charlton",
+     "DF"
+    ],
+    [
+     "Gary Sprake",
+     "GK"
+    ],
+    [
+     "Mick Bates",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1974-75"
+    }
+   ]
+  },
+  {
+   "id": "ger-fcb-7576",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1975-76",
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1975-76",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Sepp Maier",
+     "p": "GK",
+     "r": 87,
+     "nat": "West Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Johnny Hansen",
+     "p": "DF",
+     "r": 74,
+     "nat": "Denmark",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Udo Horsmann",
+     "p": "DF",
+     "r": 75,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Hans-Georg Schwarzenbeck",
+     "p": "DF",
+     "r": 82,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Franz Beckenbauer",
+     "p": "DF",
+     "r": 91,
+     "nat": "West Germany",
+     "dp": [
+      "SW"
+     ]
+    },
+    {
+     "n": "Bernd Dürnberger",
+     "p": "MF",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Franz Roth",
+     "p": "MF",
+     "r": 78,
+     "nat": "West Germany",
+     "dp": [
+      "CM",
+      "LM"
+     ]
+    },
+    {
+     "n": "Jupp Kapellmann",
+     "p": "MF",
+     "r": 75,
+     "nat": "West Germany",
+     "dp": [
+      "AM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Karl-Heinz Rummenigge",
+     "p": "FW",
+     "r": 83,
+     "nat": "West Germany",
+     "dp": [
+      "FW",
+      "RW"
+     ]
+    },
+    {
+     "n": "Gerd Müller",
+     "p": "FW",
+     "r": 91,
+     "nat": "West Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Uli Hoeneß",
+     "p": "FW",
+     "r": 82,
+     "nat": "West Germany",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Rainer Zobel",
+     "p": "MF",
+     "r": 73,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Conny Torstensson",
+     "p": "MF",
+     "r": 76,
+     "nat": "Sweden",
+     "dp": [
+      "RM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Paul Breitner",
+     "DF"
+    ],
+    [
+     "Dieter Hoeneß",
+     "FW"
+    ],
+    [
+     "Karl Del'Haye",
+     "MF"
+    ],
+    [
+     "Klaus Augenthaler",
+     "DF"
+    ],
+    [
+     "Jean-Marie Pfaff",
+     "GK"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1975-76"
+    }
+   ]
+  },
+  {
+   "id": "eng-liv-7677",
+   "club": "Liverpool",
+   "country": "England",
+   "league": "ENG",
+   "season": "1976-77",
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1976-77",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Ray Clemence",
+     "p": "GK",
+     "r": 87,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Phil Neal",
+     "p": "DF",
+     "r": 82,
+     "nat": "England",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Joey Jones",
+     "p": "DF",
+     "r": 74,
+     "nat": "Wales",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Tommy Smith",
+     "p": "DF",
+     "r": 80,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Emlyn Hughes",
+     "p": "DF",
+     "r": 83,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ian Callaghan",
+     "p": "MF",
+     "r": 78,
+     "nat": "England",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Terry McDermott",
+     "p": "MF",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jimmy Case",
+     "p": "MF",
+     "r": 78,
+     "nat": "England",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Steve Heighway",
+     "p": "MF",
+     "r": 80,
+     "nat": "Republic of Ireland",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Kevin Keegan",
+     "p": "FW",
+     "r": 88,
+     "nat": "England",
+     "dp": [
+      "FW",
+      "SS"
+     ]
+    },
+    {
+     "n": "Kenny Dalglish",
+     "p": "FW",
+     "r": 88,
+     "nat": "Scotland",
+     "dp": [
+      "SS"
+     ]
+    },
+    {
+     "n": "David Fairclough",
+     "p": "FW",
+     "r": 73,
+     "nat": "England",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Ray Kennedy",
+     "p": "MF",
+     "r": 80,
+     "nat": "England",
+     "dp": [
+      "LM"
+     ]
+    },
+    {
+     "n": "Phil Thompson",
+     "p": "DF",
+     "r": 78,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Bob Latchford",
+     "FW"
+    ],
+    [
+     "Mick Channon",
+     "FW"
+    ],
+    [
+     "Steve Coppell",
+     "MF"
+    ],
+    [
+     "Trevor Francis",
+     "FW"
+    ],
+    [
+     "Gordon Hill",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1976-77"
+    }
+   ]
+  },
+  {
+   "id": "ger-bmg-7677",
+   "club": "Borussia Monchengladbach",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1976-77",
+   "kit": [
+    "#FFFFFF",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1976-77",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Wolfgang Kneib",
+     "p": "GK",
+     "r": 77,
+     "nat": "West Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Berti Vogts",
+     "p": "DF",
+     "r": 84,
+     "nat": "West Germany",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Hans Klinkhammer",
+     "p": "DF",
+     "r": 73,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Bernard Dietz",
+     "p": "DF",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Winfried Schäfer",
+     "p": "MF",
+     "r": 73,
+     "nat": "West Germany",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Rainer Bonhof",
+     "p": "MF",
+     "r": 83,
+     "nat": "West Germany",
+     "dp": [
+      "CM",
+      "RM"
+     ]
+    },
+    {
+     "n": "Herbert Wimmer",
+     "p": "MF",
+     "r": 77,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Christian Kulik",
+     "p": "MF",
+     "r": 73,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Uli Stielike",
+     "p": "MF",
+     "r": 82,
+     "nat": "West Germany",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Hans-Jürgen Wittkamp",
+     "p": "DF",
+     "r": 73,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Frank Wohlers",
+     "p": "MF",
+     "r": 73,
+     "nat": "West Germany",
+     "dp": [
+      "LM"
+     ]
+    },
+    {
+     "n": "Allan Simonsen",
+     "p": "FW",
+     "r": 86,
+     "nat": "Denmark",
+     "dp": [
+      "FW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Jupp Heynckes",
+     "p": "FW",
+     "r": 82,
+     "nat": "West Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Henning Jensen",
+     "p": "FW",
+     "r": 77,
+     "nat": "Denmark",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Gerd Müller",
+     "FW"
+    ],
+    [
+     "Karl-Heinz Rummenigge",
+     "FW"
+    ],
+    [
+     "Lothar Matthäus",
+     "MF"
+    ],
+    [
+     "Klaus Allofs",
+     "FW"
+    ],
+    [
+     "Pierre Littbarski",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1976-77"
+    }
+   ]
+  },
+  {
+   "id": "eng-liv-7778",
+   "club": "Liverpool",
+   "country": "England",
+   "league": "ENG",
+   "season": "1977-78",
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1977-78",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Ray Clemence",
+     "p": "GK",
+     "r": 87,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Phil Neal",
+     "p": "DF",
+     "r": 82,
+     "nat": "England",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Phil Thompson",
+     "p": "DF",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Alan Hansen",
+     "p": "DF",
+     "r": 84,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ray Kennedy",
+     "p": "MF",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "LM"
+     ]
+    },
+    {
+     "n": "Emlyn Hughes",
+     "p": "DF",
+     "r": 82,
+     "nat": "England",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Terry McDermott",
+     "p": "MF",
+     "r": 82,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jimmy Case",
+     "p": "MF",
+     "r": 79,
+     "nat": "England",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Graeme Souness",
+     "p": "MF",
+     "r": 86,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Steve Heighway",
+     "p": "MF",
+     "r": 79,
+     "nat": "Republic of Ireland",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Kenny Dalglish",
+     "p": "FW",
+     "r": 89,
+     "nat": "Scotland",
+     "dp": [
+      "SS",
+      "FW"
+     ]
+    },
+    {
+     "n": "David Fairclough",
+     "p": "FW",
+     "r": 73,
+     "nat": "England",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Kevin Keegan",
+     "FW"
+    ],
+    [
+     "John Barnes",
+     "MF"
+    ],
+    [
+     "Terry Francis",
+     "FW"
+    ],
+    [
+     "Bryan Robson",
+     "MF"
+    ],
+    [
+     "Bob Latchford",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1977-78"
+    }
+   ]
+  },
+  {
+   "id": "bel-clb-7778",
+   "club": "Club Brugge",
+   "country": "Belgium",
+   "league": "BEL",
+   "season": "1977-78",
+   "kit": [
+    "#0033A0",
+    "#000000"
+   ],
+   "tier": 1,
+   "conf": "C",
+   "honour": "European Cup runner-up 1977-78",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Birger Jensen",
+     "p": "GK",
+     "r": 78,
+     "nat": "Denmark",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Alfons Bastijns",
+     "p": "DF",
+     "r": 74,
+     "nat": "Belgium",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Eduard Krieger",
+     "p": "DF",
+     "r": 73,
+     "nat": "Belgium",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Georges Leekens",
+     "p": "DF",
+     "r": 77,
+     "nat": "Belgium",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gino Maes",
+     "p": "DF",
+     "r": 73,
+     "nat": "Belgium",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Julien Cools",
+     "p": "MF",
+     "r": 76,
+     "nat": "Belgium",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Daniel De Cubber",
+     "p": "MF",
+     "r": 75,
+     "nat": "Belgium",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "René Vandereycken",
+     "p": "MF",
+     "r": 80,
+     "nat": "Belgium",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Lajos Kű",
+     "p": "MF",
+     "r": 74,
+     "nat": "Hungary",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Jan Sørensen",
+     "p": "FW",
+     "r": 77,
+     "nat": "Denmark",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Jan Simoen",
+     "p": "FW",
+     "r": 74,
+     "nat": "Belgium",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Erwin Vandenbergh",
+     "p": "FW",
+     "r": 76,
+     "nat": "Belgium",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Roger Van Gool",
+     "p": "FW",
+     "r": 77,
+     "nat": "Belgium",
+     "dp": [
+      "RW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Paul Van Himst",
+     "FW"
+    ],
+    [
+     "Jan Ceulemans",
+     "MF"
+    ],
+    [
+     "Enzo Scifo",
+     "MF"
+    ],
+    [
+     "Marc Degryse",
+     "FW"
+    ],
+    [
+     "Luc Nilis",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1977-78"
+    }
+   ]
+  },
+  {
+   "id": "eng-nfo-7879",
+   "club": "Nottingham Forest",
+   "country": "England",
+   "league": "ENG",
+   "season": "1978-79",
+   "kit": [
+    "#DD0000",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1978-79",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Peter Shilton",
+     "p": "GK",
+     "r": 88,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Chris Woods",
+     "p": "GK",
+     "r": 72,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Viv Anderson",
+     "p": "DF",
+     "r": 80,
+     "nat": "England",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Kenny Burns",
+     "p": "DF",
+     "r": 82,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Larry Lloyd",
+     "p": "DF",
+     "r": 80,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Frank Clark",
+     "p": "DF",
+     "r": 75,
+     "nat": "England",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Trevor Francis",
+     "p": "FW",
+     "r": 85,
+     "nat": "England",
+     "dp": [
+      "RW",
+      "FW"
+     ]
+    },
+    {
+     "n": "Ian Bowyer",
+     "p": "MF",
+     "r": 77,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "John McGovern",
+     "p": "MF",
+     "r": 76,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "John Robertson",
+     "p": "MF",
+     "r": 83,
+     "nat": "Scotland",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Tony Woodcock",
+     "p": "FW",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Garry Birtles",
+     "p": "FW",
+     "r": 79,
+     "nat": "England",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Archie Gemmill",
+     "p": "MF",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "David Needham",
+     "p": "DF",
+     "r": 73,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Martin O'Neill",
+     "MF"
+    ],
+    [
+     "Colin Barrett",
+     "DF"
+    ],
+    [
+     "Peter Withe",
+     "FW"
+    ],
+    [
+     "Asa Hartford",
+     "MF"
+    ],
+    [
+     "Stan Bowles",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1978-79"
+    }
+   ]
+  },
+  {
+   "id": "swe-mff-7879",
+   "club": "Malmo FF",
+   "country": "Sweden",
+   "league": "SWE",
+   "season": "1978-79",
+   "kit": [
+    "#4B9CD3",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "C",
+   "honour": "European Cup runner-up 1978-79",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Jan Möller",
+     "p": "GK",
+     "r": 77,
+     "nat": "Sweden",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Roland Andersson",
+     "p": "DF",
+     "r": 74,
+     "nat": "Sweden",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Ingemar Erlandsson",
+     "p": "DF",
+     "r": 73,
+     "nat": "Sweden",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Staffan Tapper",
+     "p": "MF",
+     "r": 78,
+     "nat": "Sweden",
+     "dp": [
+      "DM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Magnus Andersson",
+     "p": "DF",
+     "r": 73,
+     "nat": "Sweden",
+     "dp": [
+      "CB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Kent Jönsson",
+     "p": "MF",
+     "r": 74,
+     "nat": "Sweden",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Robert Prytz",
+     "p": "MF",
+     "r": 77,
+     "nat": "Sweden",
+     "dp": [
+      "AM",
+      "RM"
+     ]
+    },
+    {
+     "n": "Anders Ljungberg",
+     "p": "MF",
+     "r": 76,
+     "nat": "Sweden",
+     "dp": [
+      "LW",
+      "MF"
+     ]
+    },
+    {
+     "n": "Thomas Cervin",
+     "p": "FW",
+     "r": 74,
+     "nat": "Sweden",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Jan-Olov Kindvall",
+     "p": "FW",
+     "r": 74,
+     "nat": "Sweden",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Tommy Hansson",
+     "p": "FW",
+     "r": 73,
+     "nat": "Sweden",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Thomas Ravelli",
+     "GK"
+    ],
+    [
+     "Glenn Hysén",
+     "DF"
+    ],
+    [
+     "Martin Dahlin",
+     "FW"
+    ],
+    [
+     "Kennet Andersson",
+     "FW"
+    ],
+    [
+     "Zlatan Ibrahimović",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1978-79"
+    }
+   ]
+  },
+  {
+   "id": "eng-nfo-7980",
+   "club": "Nottingham Forest",
+   "country": "England",
+   "league": "ENG",
+   "season": "1979-80",
+   "kit": [
+    "#DD0000",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup winner 1979-80",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Peter Shilton",
+     "p": "GK",
+     "r": 89,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Chris Woods",
+     "p": "GK",
+     "r": 73,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Viv Anderson",
+     "p": "DF",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Larry Lloyd",
+     "p": "DF",
+     "r": 80,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Kenny Burns",
+     "p": "DF",
+     "r": 83,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Frank Gray",
+     "p": "DF",
+     "r": 77,
+     "nat": "Scotland",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Bryn Gunn",
+     "p": "DF",
+     "r": 70,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ian Bowyer",
+     "p": "MF",
+     "r": 77,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "John McGovern",
+     "p": "MF",
+     "r": 76,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Gary Mills",
+     "p": "MF",
+     "r": 73,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "John Robertson",
+     "p": "MF",
+     "r": 84,
+     "nat": "Scotland",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Martin O'Neill",
+     "p": "MF",
+     "r": 79,
+     "nat": "Northern Ireland",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Garry Birtles",
+     "p": "FW",
+     "r": 80,
+     "nat": "England",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "John O'Hare",
+     "p": "FW",
+     "r": 72,
+     "nat": "Scotland",
+     "dp": [
+      "FW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Peter Withe",
+     "FW"
+    ],
+    [
+     "Tony Woodcock",
+     "FW"
+    ],
+    [
+     "Archie Gemmill",
+     "MF"
+    ],
+    [
+     "Trevor Francis",
+     "FW"
+    ],
+    [
+     "Asa Hartford",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1979-80"
+    }
+   ]
+  },
+  {
+   "id": "ger-ham-7980",
+   "club": "SV Hamburg",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1979-80",
+   "kit": [
+    "#FFFFFF",
+    "#E2001A"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "European Cup runner-up 1979-80",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Rudi Kargus",
+     "p": "GK",
+     "r": 79,
+     "nat": "West Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Manfred Kaltz",
+     "p": "DF",
+     "r": 83,
+     "nat": "West Germany",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Peter Nogly",
+     "p": "DF",
+     "r": 75,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ivan Buljan",
+     "p": "DF",
+     "r": 80,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Ditmar Jakobs",
+     "p": "DF",
+     "r": 78,
+     "nat": "West Germany",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Holger Hieronymus",
+     "p": "MF",
+     "r": 76,
+     "nat": "West Germany",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Felix Magath",
+     "p": "MF",
+     "r": 82,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Caspar Memering",
+     "p": "MF",
+     "r": 72,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jimmy Hartwig",
+     "p": "MF",
+     "r": 75,
+     "nat": "West Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Kevin Keegan",
+     "p": "FW",
+     "r": 87,
+     "nat": "England",
+     "dp": [
+      "FW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Willi Reimann",
+     "p": "FW",
+     "r": 75,
+     "nat": "West Germany",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Jürgen Milewski",
+     "p": "FW",
+     "r": 74,
+     "nat": "West Germany",
+     "dp": [
+      "FW"
+     ]
+    },
+    {
+     "n": "Horst Hrubesch",
+     "p": "FW",
+     "r": 82,
+     "nat": "West Germany",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Uwe Seeler",
+     "FW"
+    ],
+    [
+     "Lars Bastrup",
+     "FW"
+    ],
+    [
+     "Thomas von Heesen",
+     "MF"
+    ],
+    [
+     "Bernd Wehmeyer",
+     "DF"
+    ],
+    [
+     "Søren Lerby",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1979-80"
+    }
+   ]
+  }
+ ]
+}
