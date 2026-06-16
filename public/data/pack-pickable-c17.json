@@ -1,0 +1,3621 @@
+{
+  "squads": [
+    {
+      "id": "ita-inter-2009",
+      "club": "Inter",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#0066CC",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 1 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Júlio César",
+          "p": "GK",
+          "r": 87,
+          "nat": "Brazil",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Maicon",
+          "p": "DF",
+          "r": 87,
+          "nat": "Brazil",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Javier Zanetti",
+          "p": "DF",
+          "r": 86,
+          "nat": "Argentina",
+          "dp": [
+            "RB",
+            "DM"
+          ]
+        },
+        {
+          "n": "Iván Córdoba",
+          "p": "DF",
+          "r": 82,
+          "nat": "Colombia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Walter Samuel",
+          "p": "DF",
+          "r": 82,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Chivu",
+          "p": "DF",
+          "r": 81,
+          "nat": "Romania",
+          "dp": [
+            "CB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Maxwell",
+          "p": "DF",
+          "r": 81,
+          "nat": "Brazil",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Esteban Cambiasso",
+          "p": "MF",
+          "r": 86,
+          "nat": "Argentina",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Dejan Stanković",
+          "p": "MF",
+          "r": 83,
+          "nat": "Serbia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Patrick Vieira",
+          "p": "MF",
+          "r": 79,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Sulley Muntari",
+          "p": "MF",
+          "r": 80,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Zlatan Ibrahimović",
+          "p": "FW",
+          "r": 91,
+          "nat": "Sweden",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mario Balotelli",
+          "p": "FW",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Adriano",
+          "p": "FW",
+          "r": 81,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Julio Cruz",
+          "p": "FW",
+          "r": 79,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Hernán Crespo",
+          "p": "FW",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Júlio César",
+          "GK"
+        ],
+        [
+          "Maicon",
+          "DF"
+        ],
+        [
+          "Javier Zanetti",
+          "DF"
+        ],
+        [
+          "Iván Córdoba",
+          "DF"
+        ]
+      ],
+      "euro": "UCL"
+    },
+    {
+      "id": "ita-juventus-2009",
+      "club": "Juventus",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 2 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Gianluigi Buffon",
+          "p": "GK",
+          "r": 88,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Alex Manninger",
+          "p": "GK",
+          "r": 77,
+          "nat": "Austria",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Giorgio Chiellini",
+          "p": "DF",
+          "r": 84,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Nicola Legrottaglie",
+          "p": "DF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Zdeněk Grygera",
+          "p": "DF",
+          "r": 78,
+          "nat": "Czechia",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Olof Mellberg",
+          "p": "DF",
+          "r": 78,
+          "nat": "Sweden",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Molinaro",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Mohamed Sissoko",
+          "p": "MF",
+          "r": 81,
+          "nat": "Mali",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Claudio Marchisio",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mauro Camoranesi",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Pavel Nedvěd",
+          "p": "MF",
+          "r": 82,
+          "nat": "Czechia",
+          "dp": [
+            "LM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Tiago",
+          "p": "MF",
+          "r": 77,
+          "nat": "Portugal",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alessandro Del Piero",
+          "p": "FW",
+          "r": 86,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Amauri",
+          "p": "FW",
+          "r": 83,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Vincenzo Iaquinta",
+          "p": "FW",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "David Trezeguet",
+          "p": "FW",
+          "r": 80,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ],
+        [
+          "Alex Manninger",
+          "GK"
+        ],
+        [
+          "Giorgio Chiellini",
+          "DF"
+        ],
+        [
+          "Nicola Legrottaglie",
+          "DF"
+        ]
+      ],
+      "euro": "UCL"
+    },
+    {
+      "id": "ita-milan-2009",
+      "club": "AC Milan",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#D50000",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 3 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Christian Abbiati",
+          "p": "GK",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Paolo Maldini",
+          "p": "DF",
+          "r": 83,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Kakha Kaladze",
+          "p": "DF",
+          "r": 79,
+          "nat": "Georgia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gianluca Zambrotta",
+          "p": "DF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Marek Jankulovski",
+          "p": "DF",
+          "r": 79,
+          "nat": "Czechia",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Daniele Bonera",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrea Pirlo",
+          "p": "MF",
+          "r": 87,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Massimo Ambrosini",
+          "p": "MF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Gennaro Gattuso",
+          "p": "MF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Clarence Seedorf",
+          "p": "MF",
+          "r": 84,
+          "nat": "Netherlands",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "David Beckham",
+          "p": "MF",
+          "r": 80,
+          "nat": "England",
+          "dp": [
+            "RM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Kaká",
+          "p": "MF",
+          "r": 89,
+          "nat": "Brazil",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Ronaldinho",
+          "p": "FW",
+          "r": 85,
+          "nat": "Brazil",
+          "dp": [
+            "LW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Alexandre Pato",
+          "p": "FW",
+          "r": 85,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Filippo Inzaghi",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Andriy Shevchenko",
+          "p": "FW",
+          "r": 77,
+          "nat": "Ukraine",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Christian Abbiati",
+          "GK"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Kakha Kaladze",
+          "DF"
+        ],
+        [
+          "Gianluca Zambrotta",
+          "DF"
+        ]
+      ],
+      "euro": "UEL"
+    },
+    {
+      "id": "ita-fiorentina-2009",
+      "club": "Fiorentina",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#4B0082",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 4 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Sébastien Frey",
+          "p": "GK",
+          "r": 83,
+          "nat": "France",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Alessandro Gamberini",
+          "p": "DF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Per Krøldrup",
+          "p": "DF",
+          "r": 77,
+          "nat": "Denmark",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Dario Dainelli",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Manuel Pasqual",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Juan Manuel Vargas",
+          "p": "DF",
+          "r": 78,
+          "nat": "Peru",
+          "dp": [
+            "LB",
+            "LM"
+          ]
+        },
+        {
+          "n": "Felipe Melo",
+          "p": "MF",
+          "r": 82,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Riccardo Montolivo",
+          "p": "MF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marco Donadel",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Zdravko Kuzmanović",
+          "p": "MF",
+          "r": 78,
+          "nat": "Serbia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mario Santana",
+          "p": "MF",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Stevan Jovetić",
+          "p": "FW",
+          "r": 78,
+          "nat": "Montenegro",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Adrian Mutu",
+          "p": "FW",
+          "r": 85,
+          "nat": "Romania",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alberto Gilardino",
+          "p": "FW",
+          "r": 84,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giampaolo Pazzini",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Martin Jørgensen",
+          "p": "MF",
+          "r": 76,
+          "nat": "Denmark",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Sébastien Frey",
+          "GK"
+        ],
+        [
+          "Alessandro Gamberini",
+          "DF"
+        ],
+        [
+          "Per Krøldrup",
+          "DF"
+        ],
+        [
+          "Dario Dainelli",
+          "DF"
+        ]
+      ],
+      "euro": "UCL"
+    },
+    {
+      "id": "ita-genoa-2009",
+      "club": "Genoa",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#CC0000",
+        "#003DA5"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 5 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Rubinho",
+          "p": "GK",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Domenico Criscito",
+          "p": "DF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Salvatore Bocchetti",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Matteo Ferrari",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giuseppe Biava",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Sokratis Papastathopoulos",
+          "p": "DF",
+          "r": 76,
+          "nat": "Greece",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Omar Milanetto",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marco Rossi",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ivan Jurić",
+          "p": "MF",
+          "r": 78,
+          "nat": "Croatia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Thiago Motta",
+          "p": "MF",
+          "r": 83,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Giuseppe Sculli",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Raffaele Palladino",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Diego Milito",
+          "p": "FW",
+          "r": 86,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Bosko Janković",
+          "p": "MF",
+          "r": 77,
+          "nat": "Serbia",
+          "dp": [
+            "AM",
+            "RW"
+          ]
+        },
+        {
+          "n": "Giandomenico Mesto",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "RM"
+          ]
+        },
+        {
+          "n": "Luciano Figueroa",
+          "p": "FW",
+          "r": 74,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Rubinho",
+          "GK"
+        ],
+        [
+          "Domenico Criscito",
+          "DF"
+        ],
+        [
+          "Salvatore Bocchetti",
+          "DF"
+        ],
+        [
+          "Matteo Ferrari",
+          "DF"
+        ]
+      ],
+      "euro": "UEL"
+    },
+    {
+      "id": "ita-roma-2009",
+      "club": "AS Roma",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#8E1F2F",
+        "#F0BC42"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 6 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Doni",
+          "p": "GK",
+          "r": 80,
+          "nat": "Brazil",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Philippe Mexès",
+          "p": "DF",
+          "r": 83,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Juan",
+          "p": "DF",
+          "r": 82,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Christian Panucci",
+          "p": "DF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "John Arne Riise",
+          "p": "DF",
+          "r": 79,
+          "nat": "Norway",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Marco Cassetti",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cicinho",
+          "p": "DF",
+          "r": 77,
+          "nat": "Brazil",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Daniele De Rossi",
+          "p": "MF",
+          "r": 87,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "David Pizarro",
+          "p": "MF",
+          "r": 82,
+          "nat": "Chile",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Simone Perrotta",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Matteo Brighi",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Rodrigo Taddei",
+          "p": "MF",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Francesco Totti",
+          "p": "FW",
+          "r": 86,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mirko Vučinić",
+          "p": "FW",
+          "r": 84,
+          "nat": "Montenegro",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Júlio Baptista",
+          "p": "FW",
+          "r": 80,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Jérémy Ménez",
+          "p": "FW",
+          "r": 78,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Doni",
+          "GK"
+        ],
+        [
+          "Philippe Mexès",
+          "DF"
+        ],
+        [
+          "Juan",
+          "DF"
+        ],
+        [
+          "Christian Panucci",
+          "DF"
+        ]
+      ],
+      "euro": "UCL"
+    },
+    {
+      "id": "ita-udinese-2009",
+      "club": "Udinese",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#FFFFFF",
+        "#1D1D1B"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 7 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Samir Handanović",
+          "p": "GK",
+          "r": 82,
+          "nat": "Slovenia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Cristián Zapata",
+          "p": "DF",
+          "r": 79,
+          "nat": "Colombia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrea Coda",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Maurizio Domizzi",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Aleksandar Luković",
+          "p": "DF",
+          "r": 76,
+          "nat": "Serbia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Mauricio Isla",
+          "p": "DF",
+          "r": 77,
+          "nat": "Chile",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gökhan Inler",
+          "p": "MF",
+          "r": 81,
+          "nat": "Switzerland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Gaetano D’Agostino",
+          "p": "MF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Kwadwo Asamoah",
+          "p": "MF",
+          "r": 78,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Simone Pepe",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonio Di Natale",
+          "p": "FW",
+          "r": 86,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Fabio Quagliarella",
+          "p": "FW",
+          "r": 84,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alexis Sánchez",
+          "p": "FW",
+          "r": 79,
+          "nat": "Chile",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Antonio Floro Flores",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giampiero Pinzi",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Giovanni Pasquale",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Samir Handanović",
+          "GK"
+        ],
+        [
+          "Cristián Zapata",
+          "DF"
+        ],
+        [
+          "Andrea Coda",
+          "DF"
+        ],
+        [
+          "Maurizio Domizzi",
+          "DF"
+        ]
+      ],
+      "euro": "UEL"
+    },
+    {
+      "id": "ita-palermo-2009",
+      "club": "Palermo",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#F7A6B8",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 8 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Marco Amelia",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Simon Kjær",
+          "p": "DF",
+          "r": 79,
+          "nat": "Denmark",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cesare Bovo",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Mattia Cassani",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Federico Balzaretti",
+          "p": "DF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrea Raggi",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giulio Migliaccio",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonio Nocerino",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Fabio Liverani",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Fábio Simplício",
+          "p": "MF",
+          "r": 79,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mark Bresciano",
+          "p": "MF",
+          "r": 77,
+          "nat": "Australia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Edinson Cavani",
+          "p": "FW",
+          "r": 82,
+          "nat": "Uruguay",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Fabrizio Miccoli",
+          "p": "FW",
+          "r": 83,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Davide Succi",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Igor Budan",
+          "p": "FW",
+          "r": 74,
+          "nat": "Croatia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giovanni Tedesco",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Marco Amelia",
+          "GK"
+        ],
+        [
+          "Simon Kjær",
+          "DF"
+        ],
+        [
+          "Cesare Bovo",
+          "DF"
+        ],
+        [
+          "Mattia Cassani",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-cagliari-2009",
+      "club": "Cagliari",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#CC0000",
+        "#003DA5"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 9 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Federico Marchetti",
+          "p": "GK",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Diego López",
+          "p": "DF",
+          "r": 77,
+          "nat": "Uruguay",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Michele Canini",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Davide Astori",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Francesco Pisano",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Alessandro Agostini",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniele Conti",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Davide Biondini",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Andrea Lazzari",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Andrea Cossu",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Michele Fini",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alessandro Matri",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Robert Acquafresca",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Jeda",
+          "p": "FW",
+          "r": 76,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Joaquín Larrivey",
+          "p": "FW",
+          "r": 73,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Michele Ferri",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Federico Marchetti",
+          "GK"
+        ],
+        [
+          "Diego López",
+          "DF"
+        ],
+        [
+          "Michele Canini",
+          "DF"
+        ],
+        [
+          "Davide Astori",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-lazio-2009",
+      "club": "Lazio",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#87CEEB",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 10 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Fernando Muslera",
+          "p": "GK",
+          "r": 77,
+          "nat": "Uruguay",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Juan Pablo Carrizo",
+          "p": "GK",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Stephan Lichtsteiner",
+          "p": "DF",
+          "r": 79,
+          "nat": "Switzerland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Aleksandar Kolarov",
+          "p": "DF",
+          "r": 80,
+          "nat": "Serbia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Sebastiano Siviglia",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Modibo Diakité",
+          "p": "DF",
+          "r": 75,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "David Rozehnal",
+          "p": "DF",
+          "r": 75,
+          "nat": "Czechia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Ledesma",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Cristian Brocchi",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ousmane Dabo",
+          "p": "MF",
+          "r": 75,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Matuzalém",
+          "p": "MF",
+          "r": 76,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Stefano Mauri",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Pasquale Foggia",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mauro Zárate",
+          "p": "FW",
+          "r": 84,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Goran Pandev",
+          "p": "FW",
+          "r": 83,
+          "nat": "North Macedonia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Tommaso Rocchi",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Fernando Muslera",
+          "GK"
+        ],
+        [
+          "Juan Pablo Carrizo",
+          "GK"
+        ],
+        [
+          "Stephan Lichtsteiner",
+          "DF"
+        ],
+        [
+          "Aleksandar Kolarov",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-atalanta-2009",
+      "club": "Atalanta",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#1A1A6E",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 11 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Andrea Consigli",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Ferdinando Coppola",
+          "p": "GK",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Gianpaolo Bellini",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Thomas Manfredini",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniele Capelli",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Leonardo Talamonti",
+          "p": "DF",
+          "r": 74,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "György Garics",
+          "p": "DF",
+          "r": 74,
+          "nat": "Austria",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Luca Cigarini",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Tiberio Guarente",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Simone Padoin",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Cristiano Doni",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Jaime Valdés",
+          "p": "MF",
+          "r": 77,
+          "nat": "Chile",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Sergio Floccari",
+          "p": "FW",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Christian Vieri",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Gianvito Plasmati",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Federico Peluso",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Andrea Consigli",
+          "GK"
+        ],
+        [
+          "Ferdinando Coppola",
+          "GK"
+        ],
+        [
+          "Gianpaolo Bellini",
+          "DF"
+        ],
+        [
+          "Thomas Manfredini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-napoli-2009",
+      "club": "Napoli",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#6EC6E6",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 12 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Gennaro Iezzo",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Nicolás Navarro",
+          "p": "GK",
+          "r": 74,
+          "nat": "Argentina",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Paolo Cannavaro",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Fabiano Santacroce",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Matteo Contini",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Salvatore Aronica",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Leandro Rinaudo",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Christian Maggio",
+          "p": "DF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Walter Gargano",
+          "p": "MF",
+          "r": 79,
+          "nat": "Uruguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Manuele Blasi",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Michele Pazienza",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marek Hamšík",
+          "p": "MF",
+          "r": 84,
+          "nat": "Slovakia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ezequiel Lavezzi",
+          "p": "FW",
+          "r": 84,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Germán Denis",
+          "p": "FW",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Marcelo Zalayeta",
+          "p": "FW",
+          "r": 76,
+          "nat": "Uruguay",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Inácio Piá",
+          "p": "FW",
+          "r": 73,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Gennaro Iezzo",
+          "GK"
+        ],
+        [
+          "Nicolás Navarro",
+          "GK"
+        ],
+        [
+          "Paolo Cannavaro",
+          "DF"
+        ],
+        [
+          "Fabiano Santacroce",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-sampdoria-2009",
+      "club": "Sampdoria",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#1A2D6B",
+        "#E30613"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 13 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Luca Castellazzi",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Antonio Mirante",
+          "p": "GK",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Daniele Gastaldello",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Stefano Lucchini",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Hugo Campagnaro",
+          "p": "DF",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Pietro Accardi",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Reto Ziegler",
+          "p": "DF",
+          "r": 75,
+          "nat": "Switzerland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Angelo Palombo",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Daniele Franceschini",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Gennaro Delvecchio",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Paolo Sammarco",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonio Cassano",
+          "p": "FW",
+          "r": 85,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giampaolo Pazzini",
+          "p": "FW",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Claudio Bellucci",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Emiliano Bonazzoli",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Bruno Fornaroli",
+          "p": "FW",
+          "r": 72,
+          "nat": "Uruguay",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Luca Castellazzi",
+          "GK"
+        ],
+        [
+          "Antonio Mirante",
+          "GK"
+        ],
+        [
+          "Daniele Gastaldello",
+          "DF"
+        ],
+        [
+          "Stefano Lucchini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-siena-2009",
+      "club": "Siena",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 14 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Gianluca Curci",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Daniele Portanova",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniele Ficagna",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Luca Rossettini",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristiano Del Grosso",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Simone Vergassola",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Paul Codrea",
+          "p": "MF",
+          "r": 75,
+          "nat": "Romania",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Houssine Kharja",
+          "p": "MF",
+          "r": 78,
+          "nat": "Morocco",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Daniele Galloppa",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Lukáš Jarolím",
+          "p": "MF",
+          "r": 74,
+          "nat": "Czechia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Massimo Maccarone",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Emanuele Calaiò",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Abdelkader Ghezzal",
+          "p": "FW",
+          "r": 76,
+          "nat": "Algeria",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mario Frick",
+          "p": "FW",
+          "r": 74,
+          "nat": "Liechtenstein",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Nicola Amoruso",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Reginaldo",
+          "p": "FW",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Gianluca Curci",
+          "GK"
+        ],
+        [
+          "Daniele Portanova",
+          "DF"
+        ],
+        [
+          "Daniele Ficagna",
+          "DF"
+        ],
+        [
+          "Luca Rossettini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-catania-2009",
+      "club": "Catania",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#0057B8",
+        "#E30613"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 15 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Albano Bizzarri",
+          "p": "GK",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Matías Silvestre",
+          "p": "DF",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Lorenzo Stovini",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Christian Terlizzi",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ciro Capuano",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Alessandro Potenza",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Marco Biagianti",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Pablo Ledesma",
+          "p": "MF",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mariano Izco",
+          "p": "MF",
+          "r": 74,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Giuseppe Mascara",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Jorge Martínez",
+          "p": "FW",
+          "r": 78,
+          "nat": "Uruguay",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Takayuki Morimoto",
+          "p": "FW",
+          "r": 75,
+          "nat": "Japan",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Michele Paolucci",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Gianvito Plasmati",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Pablo Álvarez",
+          "p": "DF",
+          "r": 74,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ezequiel Carboni",
+          "p": "MF",
+          "r": 74,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Albano Bizzarri",
+          "GK"
+        ],
+        [
+          "Matías Silvestre",
+          "DF"
+        ],
+        [
+          "Lorenzo Stovini",
+          "DF"
+        ],
+        [
+          "Christian Terlizzi",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-chievo-2009",
+      "club": "Chievo",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#FFD100",
+        "#0057B8"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 16 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Stefano Sorrentino",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Mario Yepes",
+          "p": "DF",
+          "r": 78,
+          "nat": "Colombia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrea Mantovani",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Santiago Morero",
+          "p": "DF",
+          "r": 74,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Davide Mandelli",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Nicolas Frey",
+          "p": "DF",
+          "r": 74,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Vincenzo Italiano",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Michele Marcolini",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Simone Bentivoglio",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Luciano",
+          "p": "MF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Giampiero Pinzi",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Sergio Pellissier",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Erjon Bogdani",
+          "p": "FW",
+          "r": 74,
+          "nat": "Albania",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Andrea Esposito",
+          "p": "FW",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Stephen Makinwa",
+          "p": "FW",
+          "r": 73,
+          "nat": "Nigeria",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giuseppe Colucci",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Stefano Sorrentino",
+          "GK"
+        ],
+        [
+          "Mario Yepes",
+          "DF"
+        ],
+        [
+          "Andrea Mantovani",
+          "DF"
+        ],
+        [
+          "Santiago Morero",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-bologna-2009",
+      "club": "Bologna",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#BA251E",
+        "#000033"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 17 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Francesco Antonioli",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Miguel Britos",
+          "p": "DF",
+          "r": 75,
+          "nat": "Uruguay",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniele Portanova",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Vangelis Moras",
+          "p": "DF",
+          "r": 74,
+          "nat": "Greece",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Paolo Castellini",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Zenoni",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gaby Mudingayi",
+          "p": "MF",
+          "r": 76,
+          "nat": "Belgium",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Nicola Mingazzini",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Sergio Volpi",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Davide Bombardini",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Francesco Valiani",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marco Di Vaio",
+          "p": "FW",
+          "r": 83,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Adailton",
+          "p": "FW",
+          "r": 76,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Massimo Marazzina",
+          "p": "FW",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Pablo Osvaldo",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "César Aparecido",
+          "p": "DF",
+          "r": 73,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Francesco Antonioli",
+          "GK"
+        ],
+        [
+          "Miguel Britos",
+          "DF"
+        ],
+        [
+          "Daniele Portanova",
+          "DF"
+        ],
+        [
+          "Vangelis Moras",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-torino-2009",
+      "club": "Torino",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#8B0000",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 18 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Matteo Sereni",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Angelo Ogbonna",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cesare Natali",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Aimo Diana",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marco Pisano",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Paolo Hernán Dellafiore",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Eugenio Corini",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Simone Barone",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Paolo Zanetti",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alessandro Rosina",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Blerim Džemaili",
+          "p": "MF",
+          "r": 76,
+          "nat": "Switzerland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Rolando Bianchi",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Roberto Stellone",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Nicola Amoruso",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Elvis Abbruscato",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Vince Grella",
+          "p": "MF",
+          "r": 74,
+          "nat": "Australia",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Matteo Sereni",
+          "GK"
+        ],
+        [
+          "Angelo Ogbonna",
+          "DF"
+        ],
+        [
+          "Cesare Natali",
+          "DF"
+        ],
+        [
+          "Aimo Diana",
+          "MF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-reggina-2009",
+      "club": "Reggina",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#1f2937",
+        "#f9fafb"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 19 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Andrea Campagnolo",
+          "p": "GK",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Carlos Valdez",
+          "p": "DF",
+          "r": 74,
+          "nat": "Uruguay",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Maurizio Lanzaro",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Bruno Cirillo",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrea Costa",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gleison Dos Santos",
+          "p": "DF",
+          "r": 73,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Edgar Barreto",
+          "p": "MF",
+          "r": 77,
+          "nat": "Paraguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Emil Hallfreðsson",
+          "p": "MF",
+          "r": 75,
+          "nat": "Iceland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Franco Brienza",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Francesco Cozza",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Luca Vigiani",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Fabio Ceravolo",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Bernardo Corradi",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alessio Sestu",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Maurizio Tognozzi",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Christian Stuani",
+          "p": "FW",
+          "r": 72,
+          "nat": "Uruguay",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Andrea Campagnolo",
+          "GK"
+        ],
+        [
+          "Carlos Valdez",
+          "DF"
+        ],
+        [
+          "Maurizio Lanzaro",
+          "DF"
+        ],
+        [
+          "Bruno Cirillo",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-lecce-2009",
+      "club": "Lecce",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2008-09",
+      "kit": [
+        "#FFD700",
+        "#CC0000"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2008-09, 20 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Francesco Benussi",
+          "p": "GK",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Andrea Esposito",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Souleymane Diamoutene",
+          "p": "DF",
+          "r": 74,
+          "nat": "Mali",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Fabiano",
+          "p": "DF",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gianni Munari",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Fabio Caserta",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Simone Tiribocchi",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "José Ignacio Castillo",
+          "p": "FW",
+          "r": 75,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Daniele Cacia",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Edinho",
+          "p": "MF",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Guillermo Giacomazzi",
+          "p": "MF",
+          "r": 76,
+          "nat": "Uruguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Vitorino Antunes",
+          "p": "DF",
+          "r": 73,
+          "nat": "Portugal",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Angelo",
+          "p": "DF",
+          "r": 73,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Jaime Valdés",
+          "p": "MF",
+          "r": 75,
+          "nat": "Chile",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Luca Ariatti",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Andrea Zanchetta",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Francesco Benussi",
+          "GK"
+        ],
+        [
+          "Andrea Esposito",
+          "DF"
+        ],
+        [
+          "Souleymane Diamoutene",
+          "DF"
+        ],
+        [
+          "Fabiano",
+          "DF"
+        ]
+      ]
+    }
+  ]
+}

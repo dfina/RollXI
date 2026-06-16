@@ -167,6 +167,31 @@
       "file": "pack-pickable-c14.json",
       "name": "C14: Serie A 2011-12 (all non-duplicated clubs)",
       "v": "0.24"
+    },
+    {
+      "file": "pack-pickable-c15.json",
+      "name": "C15: Serie A 2010-11 (rebuilt, source-checked)",
+      "v": "0.25"
+    },
+    {
+      "file": "pack-pickable-c16.json",
+      "name": "C16: Serie A 2009-10 (rebuilt, Inter 2009-10 skipped as already pickable)",
+      "v": "0.25"
+    },
+    {
+      "file": "pack-pickable-c17.json",
+      "name": "C17: Serie A 2008-09 (rebuilt, source-checked)",
+      "v": "0.25"
+    },
+    {
+      "file": "pack-pickable-c18.json",
+      "name": "C18: Serie A 2007-08 (rebuilt, source-checked)",
+      "v": "0.25"
+    },
+    {
+      "file": "pack-pickable-c19.json",
+      "name": "C19: Serie A 2006-07 (rebuilt, Milan 2006-07 skipped as already pickable)",
+      "v": "0.25"
     }
   ]
 }
