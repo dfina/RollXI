@@ -1,0 +1,3750 @@
+{
+  "meta": {
+    "pack": "C7: Serie A 2018-19",
+    "sourceNotes": [
+      "Built as C-series five-season rolling batch; participant skeleton checked against Transfermarkt/WorldFootball and player pools checked against FBref/WorldFootball/Transfermarkt where available.",
+      "Ratings are game calibration judgements derived from role, team finish and statistical prominence."
+    ],
+    "skippedAlreadyPickable": []
+  },
+  "squads": [
+    {
+      "id": "ita-juv-201819",
+      "club": "Juventus",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A champion 2018-19",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Wojciech Szczęsny",
+          "p": "GK",
+          "r": 85,
+          "nat": "Poland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Mattia Perin",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "João Cancelo",
+          "p": "DF",
+          "r": 84,
+          "nat": "Portugal",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Giorgio Chiellini",
+          "p": "DF",
+          "r": 86,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Leonardo Bonucci",
+          "p": "DF",
+          "r": 84,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniele Rugani",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Alex Sandro",
+          "p": "DF",
+          "r": 82,
+          "nat": "Brazil",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Blaise Matuidi",
+          "p": "MF",
+          "r": 81,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Miralem Pjanić",
+          "p": "MF",
+          "r": 85,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Sami Khedira",
+          "p": "MF",
+          "r": 78,
+          "nat": "Germany",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Emre Can",
+          "p": "MF",
+          "r": 80,
+          "nat": "Germany",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Rodrigo Bentancur",
+          "p": "MF",
+          "r": 79,
+          "nat": "Uruguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Federico Bernardeschi",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "RW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Paulo Dybala",
+          "p": "FW",
+          "r": 85,
+          "nat": "Argentina",
+          "dp": [
+            "SS",
+            "AM"
+          ]
+        },
+        {
+          "n": "Mario Mandžukić",
+          "p": "FW",
+          "r": 82,
+          "nat": "Croatia",
+          "dp": [
+            "CF",
+            "LW"
+          ]
+        },
+        {
+          "n": "Cristiano Ronaldo",
+          "p": "FW",
+          "r": 93,
+          "nat": "Portugal",
+          "dp": [
+            "LW",
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Alessandro Del Piero",
+          "FW"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ],
+        [
+          "Michel Platini",
+          "MF"
+        ],
+        [
+          "Zinedine Zidane",
+          "MF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2018-19"
+        }
+      ]
+    },
+    {
+      "id": "ita-nap-201819",
+      "club": "Napoli",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#12A3E8",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 2rd place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "David Ospina",
+          "p": "GK",
+          "r": 78,
+          "nat": "Colombia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Alex Meret",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Elseid Hysaj",
+          "p": "DF",
+          "r": 77,
+          "nat": "Albania",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Nikola Maksimović",
+          "p": "DF",
+          "r": 76,
+          "nat": "Serbia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Kalidou Koulibaly",
+          "p": "DF",
+          "r": 89,
+          "nat": "Senegal",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Raúl Albiol",
+          "p": "DF",
+          "r": 80,
+          "nat": "Spain",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Mário Rui",
+          "p": "DF",
+          "r": 76,
+          "nat": "Portugal",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Allan",
+          "p": "MF",
+          "r": 83,
+          "nat": "Brazil",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Fabián Ruiz",
+          "p": "MF",
+          "r": 80,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Piotr Zieliński",
+          "p": "MF",
+          "r": 81,
+          "nat": "Poland",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "José Callejón",
+          "p": "FW",
+          "r": 80,
+          "nat": "Spain",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Amin Younes",
+          "p": "FW",
+          "r": 75,
+          "nat": "Germany",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Lorenzo Insigne",
+          "p": "FW",
+          "r": 85,
+          "nat": "Italy",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Dries Mertens",
+          "p": "FW",
+          "r": 84,
+          "nat": "Belgium",
+          "dp": [
+            "CF",
+            "SS"
+          ]
+        },
+        {
+          "n": "Arkadiusz Milik",
+          "p": "FW",
+          "r": 82,
+          "nat": "Poland",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Simone Verdi",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RW",
+            "LW"
+          ]
+        },
+        {
+          "n": "Kevin Malcuit",
+          "p": "DF",
+          "r": 77,
+          "nat": "France",
+          "dp": [
+            "RB",
+            "DF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Diego Maradona",
+          "MF"
+        ],
+        [
+          "Careca",
+          "FW"
+        ],
+        [
+          "Gianfranco Zola",
+          "FW"
+        ],
+        [
+          "Edinson Cavani",
+          "FW"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2018-19"
+        }
+      ]
+    },
+    {
+      "id": "ita-ata-201819",
+      "club": "Atalanta",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#1E64C8",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 3rd place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Pierluigi Gollini",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Etrit Berisha",
+          "p": "GK",
+          "r": 74,
+          "nat": "Albania",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Rafael Tolói",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "José Luis Palomino",
+          "p": "DF",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gianluca Mancini",
+          "p": "DF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Berat Djimsiti",
+          "p": "DF",
+          "r": 75,
+          "nat": "Albania",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Hans Hateboer",
+          "p": "DF",
+          "r": 78,
+          "nat": "Netherlands",
+          "dp": [
+            "RB",
+            "RM"
+          ]
+        },
+        {
+          "n": "Robin Gosens",
+          "p": "DF",
+          "r": 78,
+          "nat": "Germany",
+          "dp": [
+            "LB",
+            "LM"
+          ]
+        },
+        {
+          "n": "Timothy Castagne",
+          "p": "DF",
+          "r": 77,
+          "nat": "Belgium",
+          "dp": [
+            "RB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Marten de Roon",
+          "p": "MF",
+          "r": 80,
+          "nat": "Netherlands",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Remo Freuler",
+          "p": "MF",
+          "r": 80,
+          "nat": "Switzerland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mario Pašalić",
+          "p": "MF",
+          "r": 78,
+          "nat": "Croatia",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Papu Gómez",
+          "p": "MF",
+          "r": 86,
+          "nat": "Argentina",
+          "dp": [
+            "AM",
+            "LW"
+          ]
+        },
+        {
+          "n": "Josip Iličić",
+          "p": "FW",
+          "r": 84,
+          "nat": "Slovenia",
+          "dp": [
+            "SS",
+            "RW"
+          ]
+        },
+        {
+          "n": "Duván Zapata",
+          "p": "FW",
+          "r": 86,
+          "nat": "Colombia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Musa Barrow",
+          "p": "FW",
+          "r": 75,
+          "nat": "Gambia",
+          "dp": [
+            "FW"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Claudio Caniggia",
+          "FW"
+        ],
+        [
+          "Cristiano Doni",
+          "MF"
+        ],
+        [
+          "Filippo Inzaghi",
+          "FW"
+        ],
+        [
+          "Glenn Strömberg",
+          "MF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2018-19"
+        }
+      ]
+    },
+    {
+      "id": "ita-int-201819",
+      "club": "Inter",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#0057B8",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 4th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Samir Handanović",
+          "p": "GK",
+          "r": 86,
+          "nat": "Slovenia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Danilo D’Ambrosio",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Milan Škriniar",
+          "p": "DF",
+          "r": 85,
+          "nat": "Slovakia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Stefan de Vrij",
+          "p": "DF",
+          "r": 83,
+          "nat": "Netherlands",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Miranda",
+          "p": "DF",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Kwadwo Asamoah",
+          "p": "DF",
+          "r": 78,
+          "nat": "Ghana",
+          "dp": [
+            "LB",
+            "LM"
+          ]
+        },
+        {
+          "n": "Marcelo Brozović",
+          "p": "MF",
+          "r": 84,
+          "nat": "Croatia",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Matías Vecino",
+          "p": "MF",
+          "r": 78,
+          "nat": "Uruguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Roberto Gagliardini",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Radja Nainggolan",
+          "p": "MF",
+          "r": 80,
+          "nat": "Belgium",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Ivan Perišić",
+          "p": "MF",
+          "r": 82,
+          "nat": "Croatia",
+          "dp": [
+            "LW",
+            "LM"
+          ]
+        },
+        {
+          "n": "Matteo Politano",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Keita Baldé",
+          "p": "FW",
+          "r": 77,
+          "nat": "Senegal",
+          "dp": [
+            "LW",
+            "CF"
+          ]
+        },
+        {
+          "n": "Mauro Icardi",
+          "p": "FW",
+          "r": 85,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Lautaro Martínez",
+          "p": "FW",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Antonio Candreva",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RM",
+            "RW"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Javier Zanetti",
+          "DF"
+        ],
+        [
+          "Ronaldo",
+          "FW"
+        ],
+        [
+          "Wesley Sneijder",
+          "MF"
+        ],
+        [
+          "Diego Milito",
+          "FW"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2018-19"
+        }
+      ]
+    },
+    {
+      "id": "ita-mil-201819",
+      "club": "AC Milan",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#FB090B",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 5th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Gianluigi Donnarumma",
+          "p": "GK",
+          "r": 85,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Davide Calabria",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Andrea Conti",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Alessio Romagnoli",
+          "p": "DF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Mateo Musacchio",
+          "p": "DF",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristián Zapata",
+          "p": "DF",
+          "r": 73,
+          "nat": "Colombia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ricardo Rodríguez",
+          "p": "DF",
+          "r": 77,
+          "nat": "Switzerland",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Franck Kessié",
+          "p": "MF",
+          "r": 80,
+          "nat": "Ivory Coast",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Lucas Biglia",
+          "p": "MF",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Tiémoué Bakayoko",
+          "p": "MF",
+          "r": 78,
+          "nat": "France",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Hakan Çalhanoğlu",
+          "p": "MF",
+          "r": 80,
+          "nat": "Turkey",
+          "dp": [
+            "AM",
+            "LW"
+          ]
+        },
+        {
+          "n": "Suso",
+          "p": "FW",
+          "r": 82,
+          "nat": "Spain",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Samu Castillejo",
+          "p": "FW",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Krzysztof Piątek",
+          "p": "FW",
+          "r": 82,
+          "nat": "Poland",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Patrick Cutrone",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Gonzalo Higuaín",
+          "p": "FW",
+          "r": 80,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Franco Baresi",
+          "DF"
+        ],
+        [
+          "Andriy Shevchenko",
+          "FW"
+        ],
+        [
+          "Kaká",
+          "MF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2018-19"
+        }
+      ]
+    },
+    {
+      "id": "ita-rom-201819",
+      "club": "AS Roma",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#8E1F2F",
+        "#F0BC42"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 6th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Robin Olsen",
+          "p": "GK",
+          "r": 75,
+          "nat": "Sweden",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Kostas Manolas",
+          "p": "DF",
+          "r": 82,
+          "nat": "Greece",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Federico Fazio",
+          "p": "DF",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Juan Jesus",
+          "p": "DF",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Aleksandar Kolarov",
+          "p": "DF",
+          "r": 80,
+          "nat": "Serbia",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Alessandro Florenzi",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "RM"
+          ]
+        },
+        {
+          "n": "Bryan Cristante",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Daniele De Rossi",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Lorenzo Pellegrini",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Steven Nzonzi",
+          "p": "MF",
+          "r": 77,
+          "nat": "France",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Nicolò Zaniolo",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "RW"
+          ]
+        },
+        {
+          "n": "Cengiz Ünder",
+          "p": "FW",
+          "r": 78,
+          "nat": "Turkey",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Stephan El Shaarawy",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Justin Kluivert",
+          "p": "FW",
+          "r": 75,
+          "nat": "Netherlands",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Edin Džeko",
+          "p": "FW",
+          "r": 82,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Patrik Schick",
+          "p": "FW",
+          "r": 75,
+          "nat": "Czechia",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Francesco Totti",
+          "FW"
+        ],
+        [
+          "Daniele De Rossi",
+          "MF"
+        ],
+        [
+          "Bruno Conti",
+          "MF"
+        ],
+        [
+          "Aldair",
+          "DF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2018-19"
+        }
+      ]
+    },
+    {
+      "id": "ita-tor-201819",
+      "club": "Torino",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#7A263A",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 7th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Salvatore Sirigu",
+          "p": "GK",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Armando Izzo",
+          "p": "DF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Nicolas Nkoulou",
+          "p": "DF",
+          "r": 78,
+          "nat": "Cameroon",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Emiliano Moretti",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Ansaldi",
+          "p": "DF",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "LB",
+            "RB"
+          ]
+        },
+        {
+          "n": "Ola Aina",
+          "p": "DF",
+          "r": 75,
+          "nat": "Nigeria",
+          "dp": [
+            "RB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Tomás Rincón",
+          "p": "MF",
+          "r": 76,
+          "nat": "Venezuela",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Daniele Baselli",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Saša Lukić",
+          "p": "MF",
+          "r": 74,
+          "nat": "Serbia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Soualiho Meïté",
+          "p": "MF",
+          "r": 75,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Iago Falque",
+          "p": "FW",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "SS",
+            "RW"
+          ]
+        },
+        {
+          "n": "Álex Berenguer",
+          "p": "MF",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "AM",
+            "LW"
+          ]
+        },
+        {
+          "n": "Simone Zaza",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Andrea Belotti",
+          "p": "FW",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Vittorio Parigini",
+          "p": "FW",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Lorenzo De Silvestri",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Andrea Pirlo",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ]
+      ]
+    },
+    {
+      "id": "ita-laz-201819",
+      "club": "Lazio",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#87CEEB",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 8th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Thomas Strakosha",
+          "p": "GK",
+          "r": 79,
+          "nat": "Albania",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Francesco Acerbi",
+          "p": "DF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ștefan Radu",
+          "p": "DF",
+          "r": 77,
+          "nat": "Romania",
+          "dp": [
+            "CB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Luiz Felipe",
+          "p": "DF",
+          "r": 77,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Bastos",
+          "p": "DF",
+          "r": 74,
+          "nat": "Angola",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Adam Marušić",
+          "p": "DF",
+          "r": 76,
+          "nat": "Montenegro",
+          "dp": [
+            "RB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Senad Lulić",
+          "p": "MF",
+          "r": 77,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "LM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Lucas Leiva",
+          "p": "MF",
+          "r": 80,
+          "nat": "Brazil",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Sergej Milinković-Savić",
+          "p": "MF",
+          "r": 85,
+          "nat": "Serbia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Luis Alberto",
+          "p": "MF",
+          "r": 82,
+          "nat": "Spain",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Marco Parolo",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Joaquín Correa",
+          "p": "FW",
+          "r": 80,
+          "nat": "Argentina",
+          "dp": [
+            "SS",
+            "LW"
+          ]
+        },
+        {
+          "n": "Ciro Immobile",
+          "p": "FW",
+          "r": 85,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Felipe Caicedo",
+          "p": "FW",
+          "r": 77,
+          "nat": "Ecuador",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Danilo Cataldi",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Rômulo",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "RM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Alessandro Nesta",
+          "DF"
+        ],
+        [
+          "Pavel Nedvěd",
+          "MF"
+        ],
+        [
+          "Giuseppe Signori",
+          "FW"
+        ],
+        [
+          "Miroslav Klose",
+          "FW"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2018-19"
+        }
+      ]
+    },
+    {
+      "id": "ita-sam-201819",
+      "club": "Sampdoria",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#1E5AA8",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 9th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Emil Audero",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Bartosz Bereszyński",
+          "p": "DF",
+          "r": 74,
+          "nat": "Poland",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Joachim Andersen",
+          "p": "DF",
+          "r": 79,
+          "nat": "Denmark",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Omar Colley",
+          "p": "DF",
+          "r": 76,
+          "nat": "Gambia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Nicola Murru",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Albin Ekdal",
+          "p": "MF",
+          "r": 75,
+          "nat": "Sweden",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Karol Linetty",
+          "p": "MF",
+          "r": 75,
+          "nat": "Poland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Dennis Praet",
+          "p": "MF",
+          "r": 78,
+          "nat": "Belgium",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Gastón Ramírez",
+          "p": "MF",
+          "r": 75,
+          "nat": "Uruguay",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Riccardo Saponara",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Jakub Jankto",
+          "p": "MF",
+          "r": 74,
+          "nat": "Czechia",
+          "dp": [
+            "LM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Fabio Quagliarella",
+          "p": "FW",
+          "r": 85,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Grégoire Defrel",
+          "p": "FW",
+          "r": 77,
+          "nat": "France",
+          "dp": [
+            "SS",
+            "CF"
+          ]
+        },
+        {
+          "n": "Manolo Gabbiadini",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF",
+            "RW"
+          ]
+        },
+        {
+          "n": "Gianluca Caprari",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "SS",
+            "LW"
+          ]
+        },
+        {
+          "n": "Ronaldo Vieira",
+          "p": "MF",
+          "r": 72,
+          "nat": "England",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Andrea Pirlo",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ]
+      ]
+    },
+    {
+      "id": "ita-bol-201819",
+      "club": "Bologna",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#0033A0",
+        "#A00000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 10th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Łukasz Skorupski",
+          "p": "GK",
+          "r": 76,
+          "nat": "Poland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Danilo",
+          "p": "DF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Mattia Bani",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Filip Helander",
+          "p": "DF",
+          "r": 74,
+          "nat": "Sweden",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ibrahima Mbaye",
+          "p": "DF",
+          "r": 73,
+          "nat": "Senegal",
+          "dp": [
+            "RB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Mitchell Dijks",
+          "p": "DF",
+          "r": 74,
+          "nat": "Netherlands",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Andrea Poli",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Erick Pulgar",
+          "p": "MF",
+          "r": 77,
+          "nat": "Chile",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Blerim Džemaili",
+          "p": "MF",
+          "r": 75,
+          "nat": "Switzerland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Roberto Soriano",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Riccardo Orsolini",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Rodrigo Palacio",
+          "p": "FW",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CF",
+            "SS"
+          ]
+        },
+        {
+          "n": "Federico Santander",
+          "p": "FW",
+          "r": 75,
+          "nat": "Paraguay",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Nicola Sansone",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Mattias Svanberg",
+          "p": "MF",
+          "r": 74,
+          "nat": "Sweden",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ladislav Krejčí",
+          "p": "MF",
+          "r": 72,
+          "nat": "Czechia",
+          "dp": [
+            "LM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Andrea Pirlo",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ]
+      ]
+    },
+    {
+      "id": "ita-sas-201819",
+      "club": "Sassuolo",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#00843D",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 11th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Andrea Consigli",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Pol Lirola",
+          "p": "DF",
+          "r": 76,
+          "nat": "Spain",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Marlon",
+          "p": "DF",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gian Marco Ferrari",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Rogério",
+          "p": "DF",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Federico Peluso",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Manuel Locatelli",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Francesco Magnanelli",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Alfred Duncan",
+          "p": "MF",
+          "r": 77,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Stefano Sensi",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mehdi Bourabia",
+          "p": "MF",
+          "r": 74,
+          "nat": "Morocco",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Jérémie Boga",
+          "p": "FW",
+          "r": 77,
+          "nat": "Ivory Coast",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Domenico Berardi",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Khouma Babacar",
+          "p": "FW",
+          "r": 74,
+          "nat": "Senegal",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Kevin-Prince Boateng",
+          "p": "FW",
+          "r": 74,
+          "nat": "Ghana",
+          "dp": [
+            "SS",
+            "CF"
+          ]
+        },
+        {
+          "n": "Filip Đuričić",
+          "p": "MF",
+          "r": 74,
+          "nat": "Serbia",
+          "dp": [
+            "AM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Andrea Pirlo",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ]
+      ]
+    },
+    {
+      "id": "ita-udi-201819",
+      "club": "Udinese",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 12th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Juan Musso",
+          "p": "GK",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "William Troost-Ekong",
+          "p": "DF",
+          "r": 75,
+          "nat": "Nigeria",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Bram Nuytinck",
+          "p": "DF",
+          "r": 76,
+          "nat": "Netherlands",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Samir",
+          "p": "DF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "CB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Jens Stryger Larsen",
+          "p": "DF",
+          "r": 76,
+          "nat": "Denmark",
+          "dp": [
+            "RB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Marvin Zeegelaar",
+          "p": "DF",
+          "r": 72,
+          "nat": "Netherlands",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Rodrigo De Paul",
+          "p": "MF",
+          "r": 81,
+          "nat": "Argentina",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Rolando Mandragora",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Valon Behrami",
+          "p": "MF",
+          "r": 74,
+          "nat": "Switzerland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Seko Fofana",
+          "p": "MF",
+          "r": 78,
+          "nat": "Ivory Coast",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonín Barák",
+          "p": "MF",
+          "r": 75,
+          "nat": "Czechia",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Ignacio Pussetto",
+          "p": "FW",
+          "r": 75,
+          "nat": "Argentina",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Kevin Lasagna",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Stefano Okaka",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Darwin Machís",
+          "p": "FW",
+          "r": 73,
+          "nat": "Venezuela",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Hidde ter Avest",
+          "p": "DF",
+          "r": 72,
+          "nat": "Netherlands",
+          "dp": [
+            "RB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Andrea Pirlo",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ]
+      ]
+    },
+    {
+      "id": "ita-spa-201819",
+      "club": "SPAL",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#77C8E8",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 13th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Alfred Gomis",
+          "p": "GK",
+          "r": 75,
+          "nat": "Senegal",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Francesco Vicari",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Thiago Cionek",
+          "p": "DF",
+          "r": 73,
+          "nat": "Poland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Felipe",
+          "p": "DF",
+          "r": 73,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Manuel Lazzari",
+          "p": "DF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "RM"
+          ]
+        },
+        {
+          "n": "Mohamed Fares",
+          "p": "DF",
+          "r": 76,
+          "nat": "Algeria",
+          "dp": [
+            "LB",
+            "LM"
+          ]
+        },
+        {
+          "n": "Pasquale Schiattarella",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Simone Missiroli",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mirko Valdifiori",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Jasmin Kurtić",
+          "p": "MF",
+          "r": 76,
+          "nat": "Slovenia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mattia Valoti",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Andrea Petagna",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Sergio Floccari",
+          "p": "FW",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alberto Paloschi",
+          "p": "FW",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mirco Antenucci",
+          "p": "FW",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "SS"
+          ]
+        },
+        {
+          "n": "Kevin Bonifazi",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Andrea Pirlo",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ]
+      ]
+    },
+    {
+      "id": "ita-par-201819",
+      "club": "Parma",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#FFFFFF",
+        "#FFD100"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 14th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Luigi Sepe",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Bruno Alves",
+          "p": "DF",
+          "r": 77,
+          "nat": "Portugal",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Simone Iacoponi",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Riccardo Gagliolo",
+          "p": "DF",
+          "r": 73,
+          "nat": "Sweden",
+          "dp": [
+            "CB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Alessandro Bastoni",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Federico Dimarco",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "LM"
+          ]
+        },
+        {
+          "n": "Juraj Kucka",
+          "p": "MF",
+          "r": 76,
+          "nat": "Slovakia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Luca Rigoni",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonino Barillà",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "LM"
+          ]
+        },
+        {
+          "n": "Leo Štulac",
+          "p": "MF",
+          "r": 73,
+          "nat": "Slovenia",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Matteo Scozzarella",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Gervinho",
+          "p": "FW",
+          "r": 80,
+          "nat": "Ivory Coast",
+          "dp": [
+            "LW",
+            "CF"
+          ]
+        },
+        {
+          "n": "Roberto Inglese",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Jonathan Biabiany",
+          "p": "FW",
+          "r": 72,
+          "nat": "France",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Mattia Sprocati",
+          "p": "FW",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Fabio Ceravolo",
+          "p": "FW",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Andrea Pirlo",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ]
+      ]
+    },
+    {
+      "id": "ita-cag-201819",
+      "club": "Cagliari",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#003DA5",
+        "#C8102E"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 15th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Alessio Cragno",
+          "p": "GK",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Darijo Srna",
+          "p": "DF",
+          "r": 74,
+          "nat": "Croatia",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Luca Ceppitelli",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Filippo Romagna",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ragnar Klavan",
+          "p": "DF",
+          "r": 73,
+          "nat": "Estonia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Charalampos Lykogiannis",
+          "p": "DF",
+          "r": 73,
+          "nat": "Greece",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Nicolò Barella",
+          "p": "MF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Luca Cigarini",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Artur Ioniță",
+          "p": "MF",
+          "r": 74,
+          "nat": "Moldova",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Lucas Castro",
+          "p": "MF",
+          "r": 74,
+          "nat": "Argentina",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "João Pedro",
+          "p": "FW",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "SS",
+            "CF"
+          ]
+        },
+        {
+          "n": "Leonardo Pavoletti",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Diego Farias",
+          "p": "FW",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "LW",
+            "SS"
+          ]
+        },
+        {
+          "n": "Valter Birsa",
+          "p": "MF",
+          "r": 73,
+          "nat": "Slovenia",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Paolo Faragò",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Marko Pajač",
+          "p": "DF",
+          "r": 71,
+          "nat": "Croatia",
+          "dp": [
+            "LB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Andrea Pirlo",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ]
+      ]
+    },
+    {
+      "id": "ita-fio-201819",
+      "club": "Fiorentina",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#5B259F",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 16th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Alban Lafont",
+          "p": "GK",
+          "r": 76,
+          "nat": "France",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Nikola Milenković",
+          "p": "DF",
+          "r": 79,
+          "nat": "Serbia",
+          "dp": [
+            "CB",
+            "RB"
+          ]
+        },
+        {
+          "n": "Germán Pezzella",
+          "p": "DF",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Vitor Hugo",
+          "p": "DF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristiano Biraghi",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Vincent Laurini",
+          "p": "DF",
+          "r": 72,
+          "nat": "France",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Jordan Veretout",
+          "p": "MF",
+          "r": 79,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Edimilson Fernandes",
+          "p": "MF",
+          "r": 74,
+          "nat": "Switzerland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marco Benassi",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Gerson",
+          "p": "MF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Federico Chiesa",
+          "p": "FW",
+          "r": 83,
+          "nat": "Italy",
+          "dp": [
+            "RW",
+            "LW"
+          ]
+        },
+        {
+          "n": "Giovanni Simeone",
+          "p": "FW",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Luis Muriel",
+          "p": "FW",
+          "r": 77,
+          "nat": "Colombia",
+          "dp": [
+            "CF",
+            "LW"
+          ]
+        },
+        {
+          "n": "Kevin Mirallas",
+          "p": "FW",
+          "r": 73,
+          "nat": "Belgium",
+          "dp": [
+            "LW",
+            "RW"
+          ]
+        },
+        {
+          "n": "Marko Pjaca",
+          "p": "FW",
+          "r": 73,
+          "nat": "Croatia",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Bryan Dabo",
+          "p": "MF",
+          "r": 72,
+          "nat": "Burkina Faso",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Andrea Pirlo",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ]
+      ]
+    },
+    {
+      "id": "ita-gen-201819",
+      "club": "Genoa",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#AD0000",
+        "#0033A0"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 17th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Ionut Radu",
+          "p": "GK",
+          "r": 76,
+          "nat": "Romania",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Davide Biraschi",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Romero",
+          "p": "DF",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Domenico Criscito",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Ervin Zukanović",
+          "p": "DF",
+          "r": 73,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "CB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Pedro Pereira",
+          "p": "DF",
+          "r": 72,
+          "nat": "Portugal",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Oscar Hiljemark",
+          "p": "MF",
+          "r": 73,
+          "nat": "Sweden",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Miguel Veloso",
+          "p": "MF",
+          "r": 73,
+          "nat": "Portugal",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Daniel Bessa",
+          "p": "MF",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Darko Lazović",
+          "p": "MF",
+          "r": 75,
+          "nat": "Serbia",
+          "dp": [
+            "RM",
+            "LM"
+          ]
+        },
+        {
+          "n": "Christian Kouamé",
+          "p": "FW",
+          "r": 76,
+          "nat": "Ivory Coast",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Krzysztof Piątek",
+          "p": "FW",
+          "r": 81,
+          "nat": "Poland",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Gianluca Lapadula",
+          "p": "FW",
+          "r": 73,
+          "nat": "Peru",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Goran Pandev",
+          "p": "FW",
+          "r": 73,
+          "nat": "North Macedonia",
+          "dp": [
+            "SS"
+          ]
+        },
+        {
+          "n": "Lukas Lerager",
+          "p": "MF",
+          "r": 73,
+          "nat": "Denmark",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonio Sanabria",
+          "p": "FW",
+          "r": 74,
+          "nat": "Paraguay",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Andrea Pirlo",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ]
+      ]
+    },
+    {
+      "id": "ita-emp-201819",
+      "club": "Empoli",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 18th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Ivan Provedel",
+          "p": "GK",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Bartłomiej Drągowski",
+          "p": "GK",
+          "r": 74,
+          "nat": "Poland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Giovanni Di Lorenzo",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Matías Silvestre",
+          "p": "DF",
+          "r": 73,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Domenico Maietta",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Manuel Pasqual",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Rade Krunić",
+          "p": "MF",
+          "r": 76,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Ismaël Bennacer",
+          "p": "MF",
+          "r": 78,
+          "nat": "Algeria",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Afriyie Acquah",
+          "p": "MF",
+          "r": 73,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Hamed Traorè",
+          "p": "MF",
+          "r": 75,
+          "nat": "Ivory Coast",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Miha Zajc",
+          "p": "MF",
+          "r": 74,
+          "nat": "Slovenia",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Francesco Caputo",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Diego Farias",
+          "p": "FW",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "SS",
+            "LW"
+          ]
+        },
+        {
+          "n": "Antonino La Gumina",
+          "p": "FW",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Dimitri Oberlin",
+          "p": "FW",
+          "r": 71,
+          "nat": "Switzerland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Luca Antonelli",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Andrea Pirlo",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ]
+      ]
+    },
+    {
+      "id": "ita-fro-201819",
+      "club": "Frosinone",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#FFD100",
+        "#0057B8"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 19th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Marco Sportiello",
+          "p": "GK",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Francesco Bardi",
+          "p": "GK",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Luka Krajnc",
+          "p": "DF",
+          "r": 71,
+          "nat": "Slovenia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Bartosz Salamon",
+          "p": "DF",
+          "r": 71,
+          "nat": "Poland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Marco Capuano",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Molinaro",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Lorenzo Ariaudo",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Raffaele Maiello",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Mirko Gori",
+          "p": "MF",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Francesco Cassata",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Luca Paganini",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Camillo Ciano",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "SS",
+            "RW"
+          ]
+        },
+        {
+          "n": "Daniel Ciofani",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Andrea Pinamonti",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Joel Campbell",
+          "p": "FW",
+          "r": 73,
+          "nat": "Costa Rica",
+          "dp": [
+            "RW",
+            "FW"
+          ]
+        },
+        {
+          "n": "Marcello Trotta",
+          "p": "FW",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Andrea Pirlo",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ]
+      ]
+    },
+    {
+      "id": "ita-chi-201819",
+      "club": "Chievo",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2018-19",
+      "kit": [
+        "#FFD100",
+        "#0057B8"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2018-19, 20th place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Stefano Sorrentino",
+          "p": "GK",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Nenad Tomović",
+          "p": "DF",
+          "r": 72,
+          "nat": "Serbia",
+          "dp": [
+            "CB",
+            "RB"
+          ]
+        },
+        {
+          "n": "Mattia Bani",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Federico Barba",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Pawel Jaroszyński",
+          "p": "DF",
+          "r": 71,
+          "nat": "Poland",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Fabio Depaoli",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "RM"
+          ]
+        },
+        {
+          "n": "Ivan Radovanović",
+          "p": "MF",
+          "r": 73,
+          "nat": "Serbia",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Perparim Hetemaj",
+          "p": "MF",
+          "r": 73,
+          "nat": "Finland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Sofian Kiyine",
+          "p": "MF",
+          "r": 72,
+          "nat": "Morocco",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Emanuele Giaccherini",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "LW"
+          ]
+        },
+        {
+          "n": "Valter Birsa",
+          "p": "MF",
+          "r": 73,
+          "nat": "Slovenia",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Mariusz Stępiński",
+          "p": "FW",
+          "r": 73,
+          "nat": "Poland",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Riccardo Meggiorini",
+          "p": "FW",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "SS"
+          ]
+        },
+        {
+          "n": "Sergio Pellissier",
+          "p": "FW",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Manuel Pucciarelli",
+          "p": "FW",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "SS"
+          ]
+        },
+        {
+          "n": "Mehdi Léris",
+          "p": "MF",
+          "r": 71,
+          "nat": "France",
+          "dp": [
+            "RM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Andrea Pirlo",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ]
+      ]
+    }
+  ]
+}

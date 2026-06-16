@@ -1,122 +1,147 @@
 {
- "packs": [
-  {
-   "file": "pack-seed.json",
-   "name": "Seed pack (17 champions)",
-   "v": "0.3"
-  },
-  {
-   "file": "pack-pickable-wave1a.json",
-   "name": "Wave 1a: modern UCL semi-finalists",
-   "v": "0.9"
-  },
-  {
-   "file": "pack-pickable-wave1b.json",
-   "name": "Wave 1b: 2010s UCL semi-finalists",
-   "v": "0.10"
-  },
-  {
-   "file": "pack-pickable-wave1c.json",
-   "name": "Wave 1c: 2000s UCL semi-finalists",
-   "v": "0.12"
-  },
-  {
-   "file": "pack-pickable-wave1d.json",
-   "name": "Wave 1d: 1990s EC/UCL semi-finalists",
-   "v": "0.13"
-  },
-  {
-   "file": "pack-pickable-wave1e.json",
-   "name": "Wave 1e: 1980s EC semi-finalists",
-   "v": "0.14"
-  },
-  {
-   "file": "pack-pickable-wave1f.json",
-   "name": "Wave 1f: 1970s EC semi-finalists",
-   "v": "0.15"
-  },
-  {
-   "file": "pack-pickable-wave1g.json",
-   "name": "Wave 1g: 1955-1969 EC semi-finalists",
-   "v": "0.16"
-  },
-  {
-   "file": "pack-pickable-wavefa.json",
-   "name": "Wave Fa: EC/UCL finalists 2015-2026",
-   "v": "0.20"
-  },
-  {
-   "file": "pack-pickable-wavefb.json",
-   "name": "Wave Fb: EC/UCL finalists 2004-2015",
-   "v": "0.21"
-  },
-  {
-   "file": "pack-pickable-wavefc.json",
-   "name": "Wave Fc: EC/UCL finalists 1990-2004",
-   "v": "0.22"
-  },
-  {
-   "file": "pack-pickable-wavefd.json",
-   "name": "Wave Fd: EC/UCL finalists 1980-1990",
-   "v": "0.22"
-  },
-  {
-   "file": "pack-pickable-wavefe.json",
-   "name": "Wave Fe: EC/UCL finalists 1970-1980",
-   "v": "0.22"
-  },
-  {
-   "file": "pack-pickable-waveff.json",
-   "name": "Wave Ff: EC finalists 1955-1970",
-   "v": "0.22"
-  },
-  {
-   "file": "pack-pickable-current.json",
-   "name": "Reigning European champions",
-   "v": "0.19"
-  },
-  {
-   "file": "pack-opponents-ec-ucl.json",
-   "name": "European Cup / Champions League index (tier-O staging)",
-   "v": "0.22",
-   "verified": true
-  },
-  {
-   "file": "pack-opponents-cwc.json",
-   "name": "Cup Winners' Cup index",
-   "v": "0.17",
-   "verified": true
-  },
-  {
-   "file": "pack-opponents-uefa.json",
-   "name": "Fairs Cup / UEFA Cup / Europa League index",
-   "v": "0.18",
-   "verified": true
-  },
-  {
-   "file": "pack-opponents-confl-itc.json",
-   "name": "B4: Conference League + Intertoto Cup (tier-O)",
-   "v": "0.22"
-  },
-  {
-   "file": "pack-pickable-c1.json",
-   "name": "C1: Serie A 2024-25 (all 20 clubs)",
-   "v": "0.22"
-  },
-  {
-   "file": "pack-pickable-c2.json",
-   "name": "C2: Serie A 2023-24 (all clubs)",
-   "v": "0.22"
-  },
-  {
-   "file": "pack-pickable-c3.json",
-   "name": "C3: Serie A 2022-23 (all clubs)",
-   "v": "0.22"
-  },
-  {
-   "file": "pack-pickable-c4.json",
-   "name": "C4: Serie A 2021-22 (all clubs)",
-   "v": "0.22"
-  }
- ]
+  "packs": [
+    {
+      "file": "pack-seed.json",
+      "name": "Seed pack (17 champions)",
+      "v": "0.3"
+    },
+    {
+      "file": "pack-pickable-wave1a.json",
+      "name": "Wave 1a: modern UCL semi-finalists",
+      "v": "0.9"
+    },
+    {
+      "file": "pack-pickable-wave1b.json",
+      "name": "Wave 1b: 2010s UCL semi-finalists",
+      "v": "0.10"
+    },
+    {
+      "file": "pack-pickable-wave1c.json",
+      "name": "Wave 1c: 2000s UCL semi-finalists",
+      "v": "0.12"
+    },
+    {
+      "file": "pack-pickable-wave1d.json",
+      "name": "Wave 1d: 1990s EC/UCL semi-finalists",
+      "v": "0.13"
+    },
+    {
+      "file": "pack-pickable-wave1e.json",
+      "name": "Wave 1e: 1980s EC semi-finalists",
+      "v": "0.14"
+    },
+    {
+      "file": "pack-pickable-wave1f.json",
+      "name": "Wave 1f: 1970s EC semi-finalists",
+      "v": "0.15"
+    },
+    {
+      "file": "pack-pickable-wave1g.json",
+      "name": "Wave 1g: 1955-1969 EC semi-finalists",
+      "v": "0.16"
+    },
+    {
+      "file": "pack-pickable-wavefa.json",
+      "name": "Wave Fa: EC/UCL finalists 2015-2026",
+      "v": "0.20"
+    },
+    {
+      "file": "pack-pickable-wavefb.json",
+      "name": "Wave Fb: EC/UCL finalists 2004-2015",
+      "v": "0.21"
+    },
+    {
+      "file": "pack-pickable-wavefc.json",
+      "name": "Wave Fc: EC/UCL finalists 1990-2004",
+      "v": "0.22"
+    },
+    {
+      "file": "pack-pickable-wavefd.json",
+      "name": "Wave Fd: EC/UCL finalists 1980-1990",
+      "v": "0.22"
+    },
+    {
+      "file": "pack-pickable-wavefe.json",
+      "name": "Wave Fe: EC/UCL finalists 1970-1980",
+      "v": "0.22"
+    },
+    {
+      "file": "pack-pickable-waveff.json",
+      "name": "Wave Ff: EC finalists 1955-1970",
+      "v": "0.22"
+    },
+    {
+      "file": "pack-pickable-current.json",
+      "name": "Reigning European champions",
+      "v": "0.19"
+    },
+    {
+      "file": "pack-opponents-ec-ucl.json",
+      "name": "European Cup / Champions League index (tier-O staging)",
+      "v": "0.22",
+      "verified": true
+    },
+    {
+      "file": "pack-opponents-cwc.json",
+      "name": "Cup Winners' Cup index",
+      "v": "0.17",
+      "verified": true
+    },
+    {
+      "file": "pack-opponents-uefa.json",
+      "name": "Fairs Cup / UEFA Cup / Europa League index",
+      "v": "0.18",
+      "verified": true
+    },
+    {
+      "file": "pack-opponents-confl-itc.json",
+      "name": "B4: Conference League + Intertoto Cup (tier-O)",
+      "v": "0.22"
+    },
+    {
+      "file": "pack-pickable-c1.json",
+      "name": "C1: Serie A 2024-25 (all 20 clubs)",
+      "v": "0.22"
+    },
+    {
+      "file": "pack-pickable-c2.json",
+      "name": "C2: Serie A 2023-24 (all clubs)",
+      "v": "0.22"
+    },
+    {
+      "file": "pack-pickable-c3.json",
+      "name": "C3: Serie A 2022-23 (all clubs)",
+      "v": "0.22"
+    },
+    {
+      "file": "pack-pickable-c4.json",
+      "name": "C4: Serie A 2021-22 (all clubs)",
+      "v": "0.22"
+    },
+    {
+      "file": "pack-pickable-c5.json",
+      "name": "C5: Serie A 2020-21 (all non-duplicated clubs)",
+      "v": "0.23"
+    },
+    {
+      "file": "pack-pickable-c6.json",
+      "name": "C6: Serie A 2019-20 (all non-duplicated clubs)",
+      "v": "0.23"
+    },
+    {
+      "file": "pack-pickable-c7.json",
+      "name": "C7: Serie A 2018-19 (all non-duplicated clubs)",
+      "v": "0.23"
+    },
+    {
+      "file": "pack-pickable-c8.json",
+      "name": "C8: Serie A 2017-18 (all non-duplicated clubs)",
+      "v": "0.23"
+    },
+    {
+      "file": "pack-pickable-c9.json",
+      "name": "C9: Serie A 2016-17 (all non-duplicated clubs)",
+      "v": "0.23"
+    }
+  ]
 }
