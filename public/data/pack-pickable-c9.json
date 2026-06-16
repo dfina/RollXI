@@ -195,7 +195,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UEL",
           "season": "2016-17"
         }
       ]
@@ -385,7 +385,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UCL",
           "season": "2016-17"
         }
       ]
@@ -573,12 +573,6 @@
           "Glenn Strömberg",
           "MF"
         ]
-      ],
-      "euro": [
-        {
-          "comp": "UEFA",
-          "season": "2016-17"
-        }
       ]
     },
     {
@@ -763,12 +757,6 @@
           "Miroslav Klose",
           "FW"
         ]
-      ],
-      "euro": [
-        {
-          "comp": "UEFA",
-          "season": "2016-17"
-        }
       ]
     },
     {
@@ -953,12 +941,6 @@
           "Kaká",
           "MF"
         ]
-      ],
-      "euro": [
-        {
-          "comp": "UEFA",
-          "season": "2016-17"
-        }
       ]
     },
     {
@@ -1149,7 +1131,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UEL",
           "season": "2016-17"
         }
       ]
@@ -1337,6 +1319,12 @@
           "Gianluigi Buffon",
           "GK"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2016-17"
+        }
       ]
     },
     {
@@ -2070,6 +2058,12 @@
           "Gianluigi Buffon",
           "GK"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2016-17"
+        }
       ]
     },
     {

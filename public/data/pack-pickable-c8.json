@@ -197,7 +197,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UCL",
           "season": "2017-18"
         }
       ]
@@ -386,7 +386,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UCL",
           "season": "2017-18"
         }
       ]
@@ -576,12 +576,6 @@
           "Diego Milito",
           "FW"
         ]
-      ],
-      "euro": [
-        {
-          "comp": "UEFA",
-          "season": "2017-18"
-        }
       ]
     },
     {
@@ -771,7 +765,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UEL",
           "season": "2017-18"
         }
       ]
@@ -960,7 +954,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UEL",
           "season": "2017-18"
         }
       ]
@@ -1154,7 +1148,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UEL",
           "season": "2017-18"
         }
       ]

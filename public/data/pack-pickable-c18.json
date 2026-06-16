@@ -179,7 +179,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2007-08"
+        }
+      ]
     },
     {
       "id": "ita-roma-2008",
@@ -360,7 +365,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2007-08"
+        }
+      ]
     },
     {
       "id": "ita-juventus-2008",
@@ -540,8 +550,7 @@
           "Zdeněk Grygera",
           "DF"
         ]
-      ],
-      "euro": "UCL"
+      ]
     },
     {
       "id": "ita-fiorentina-2008",
@@ -722,7 +731,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2007-08"
+        }
+      ]
     },
     {
       "id": "ita-milan-2008",
@@ -903,7 +917,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2007-08"
+        }
+      ]
     },
     {
       "id": "ita-sampdoria-2008",
@@ -2163,6 +2182,12 @@
           "Aleksandar Kolarov",
           "DF"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2007-08"
+        }
       ]
     },
     {
@@ -3423,6 +3448,12 @@
           "Francesco Pratali",
           "DF"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2007-08"
+        }
       ]
     },
     {

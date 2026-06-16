@@ -195,7 +195,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UCL",
           "season": "2019-20"
         }
       ]
@@ -397,7 +397,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UCL",
           "season": "2019-20"
         }
       ]
@@ -591,7 +591,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UCL",
           "season": "2019-20"
         }
       ]
@@ -783,7 +783,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UEL",
           "season": "2019-20"
         }
       ]
@@ -975,7 +975,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UEL",
           "season": "2019-20"
         }
       ]
@@ -1165,12 +1165,6 @@
           "Kaká",
           "MF"
         ]
-      ],
-      "euro": [
-        {
-          "comp": "UEFA",
-          "season": "2019-20"
-        }
       ]
     },
     {
@@ -1358,7 +1352,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UCL",
           "season": "2019-20"
         }
       ]

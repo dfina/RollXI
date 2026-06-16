@@ -337,7 +337,7 @@ function squadContextLabel(squad) {
   return squad.league === "ITA" ? "Serie A" : (squad.league || "");
 }
 function compLabel(comp) {
-  const map = { EC: "EC", UCL: "UCL", UEL: "UEL", UEFA: "UEFA", CONFL: "UECL", CWC: "CWC", ITC: "UIC" };
+  const map = { EC: "EC", UCL: "UCL", UEL: "UEL", UEFA: "UEFA", UECL: "UECL", CONFL: "UECL", CWC: "CWC", INT: "INT", ITC: "INT" };
   return map[comp] || comp;
 }
 

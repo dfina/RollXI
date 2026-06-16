@@ -183,7 +183,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2009-10"
+        }
+      ]
     },
     {
       "id": "ita-milan-2010",
@@ -368,7 +373,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2009-10"
+        }
+      ]
     },
     {
       "id": "ita-sampdoria-2010",
@@ -549,8 +559,7 @@
           "Reto Ziegler",
           "DF"
         ]
-      ],
-      "euro": "UEL"
+      ]
     },
     {
       "id": "ita-palermo-2010",
@@ -730,8 +739,7 @@
           "Mattia Cassani",
           "DF"
         ]
-      ],
-      "euro": "UEL"
+      ]
     },
     {
       "id": "ita-napoli-2010",
@@ -915,8 +923,7 @@
           "Salvatore Aronica",
           "DF"
         ]
-      ],
-      "euro": "UEL"
+      ]
     },
     {
       "id": "ita-juventus-2010",
@@ -1098,7 +1105,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2009-10"
+        }
+      ]
     },
     {
       "id": "ita-parma-2010",
@@ -1464,6 +1476,12 @@
           "Emiliano Moretti",
           "DF"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2009-10"
+        }
       ]
     },
     {
@@ -1826,7 +1844,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2009-10"
+        }
+      ]
     },
     {
       "id": "ita-lazio-2010",
@@ -2008,6 +2031,12 @@
           "Aleksandar Kolarov",
           "DF"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2009-10"
+        }
       ]
     },
     {

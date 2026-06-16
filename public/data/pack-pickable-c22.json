@@ -181,7 +181,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2003-04"
+        }
+      ]
     },
     {
       "id": "ita-as-roma-04",
@@ -362,7 +367,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2003-04"
+        }
+      ]
     },
     {
       "id": "ita-juventus-04",
@@ -543,7 +553,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2003-04"
+        }
+      ]
     },
     {
       "id": "ita-inter-04",
@@ -724,7 +739,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2003-04"
+        }
+      ]
     },
     {
       "id": "ita-parma-04",
@@ -905,7 +925,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2003-04"
+        }
+      ]
     },
     {
       "id": "ita-lazio-04",
@@ -1087,7 +1112,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2003-04"
+        }
+      ]
     },
     {
       "id": "ita-udinese-04",
@@ -1268,7 +1298,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2003-04"
+        }
+      ]
     },
     {
       "id": "ita-sampdoria-04",

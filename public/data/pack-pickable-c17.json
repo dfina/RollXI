@@ -181,7 +181,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2008-09"
+        }
+      ]
     },
     {
       "id": "ita-juventus-2009",
@@ -363,7 +368,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2008-09"
+        }
+      ]
     },
     {
       "id": "ita-milan-2009",
@@ -547,7 +557,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2008-09"
+        }
+      ]
     },
     {
       "id": "ita-fiorentina-2009",
@@ -729,7 +744,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2008-09"
+        }
+      ]
     },
     {
       "id": "ita-genoa-2009",
@@ -912,8 +932,7 @@
           "Matteo Ferrari",
           "DF"
         ]
-      ],
-      "euro": "UEL"
+      ]
     },
     {
       "id": "ita-roma-2009",
@@ -1094,7 +1113,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2008-09"
+        }
+      ]
     },
     {
       "id": "ita-udinese-2009",
@@ -1275,7 +1299,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2008-09"
+        }
+      ]
     },
     {
       "id": "ita-palermo-2009",
@@ -2175,6 +2204,12 @@
           "Fabiano Santacroce",
           "DF"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2008-09"
+        }
       ]
     },
     {
@@ -2355,6 +2390,12 @@
           "Stefano Lucchini",
           "DF"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2008-09"
+        }
       ]
     },
     {

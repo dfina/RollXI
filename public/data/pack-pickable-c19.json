@@ -179,7 +179,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2006-07"
+        }
+      ]
     },
     {
       "id": "ita-roma-2007",
@@ -360,7 +365,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2006-07"
+        }
+      ]
     },
     {
       "id": "ita-lazio-2007",
@@ -540,8 +550,7 @@
           "Sebastiano Siviglia",
           "DF"
         ]
-      ],
-      "euro": "UCL"
+      ]
     },
     {
       "id": "ita-palermo-2007",
@@ -722,7 +731,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2006-07"
+        }
+      ]
     },
     {
       "id": "ita-fiorentina-2007",
@@ -902,8 +916,7 @@
           "Dario Dainelli",
           "DF"
         ]
-      ],
-      "euro": "UEL"
+      ]
     },
     {
       "id": "ita-empoli-2007",
@@ -1083,8 +1096,7 @@
           "Francesco Pratali",
           "DF"
         ]
-      ],
-      "euro": "UEL"
+      ]
     },
     {
       "id": "ita-atalanta-2007",
@@ -1804,6 +1816,12 @@
           "Dario Knežević",
           "DF"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2006-07"
+        }
       ]
     },
     {
@@ -1984,6 +2002,12 @@
           "Massimo Paci",
           "DF"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2006-07"
+        }
       ]
     },
     {

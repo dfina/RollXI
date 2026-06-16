@@ -552,7 +552,7 @@
       ],
       "euro": [
         {
-          "comp": "UCL",
+          "comp": "UEL",
           "season": "2011-12"
         }
       ]
@@ -1293,12 +1293,6 @@
           "Paolo Maldini",
           "DF"
         ]
-      ],
-      "euro": [
-        {
-          "comp": "UEL",
-          "season": "2011-12"
-        }
       ]
     },
     {
@@ -2919,12 +2913,6 @@
           "Paolo Maldini",
           "DF"
         ]
-      ],
-      "euro": [
-        {
-          "comp": "UEL",
-          "season": "2011-12"
-        }
       ]
     },
     {

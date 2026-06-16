@@ -195,7 +195,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UCL",
           "season": "2018-19"
         }
       ]
@@ -395,7 +395,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UCL",
           "season": "2018-19"
         }
       ]
@@ -585,12 +585,6 @@
           "Glenn Strömberg",
           "MF"
         ]
-      ],
-      "euro": [
-        {
-          "comp": "UEFA",
-          "season": "2018-19"
-        }
       ]
     },
     {
@@ -780,7 +774,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UCL",
           "season": "2018-19"
         }
       ]
@@ -968,7 +962,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UEL",
           "season": "2018-19"
         }
       ]
@@ -1158,7 +1152,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UCL",
           "season": "2018-19"
         }
       ]
@@ -1534,7 +1528,7 @@
       ],
       "euro": [
         {
-          "comp": "UEFA",
+          "comp": "UEL",
           "season": "2018-19"
         }
       ]

@@ -180,7 +180,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2002-03"
+        }
+      ]
     },
     {
       "id": "ita-parma-03",
@@ -361,7 +366,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2002-03"
+        }
+      ]
     },
     {
       "id": "ita-udinese-03",
@@ -542,6 +552,12 @@
           "Alberto",
           "DF"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2002-03"
+        }
       ]
     },
     {
@@ -723,7 +739,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2002-03"
+        }
+      ]
     },
     {
       "id": "ita-as-roma-03",
@@ -904,7 +925,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2002-03"
+        }
+      ]
     },
     {
       "id": "ita-brescia-03",

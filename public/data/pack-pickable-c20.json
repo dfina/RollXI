@@ -186,7 +186,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2005-06"
+        }
+      ]
     },
     {
       "id": "ita-inter-06",
@@ -372,7 +377,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2005-06"
+        }
+      ]
     },
     {
       "id": "ita-fiorentina-06",
@@ -744,7 +754,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2005-06"
+        }
+      ]
     },
     {
       "id": "ita-lazio-06",
@@ -1288,7 +1303,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2005-06"
+        }
+      ]
     },
     {
       "id": "ita-livorno-06",
@@ -2197,7 +2217,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2005-06"
+        }
+      ]
     },
     {
       "id": "ita-sampdoria-06",
@@ -2379,7 +2404,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2005-06"
+        }
+      ]
     },
     {
       "id": "ita-reggina-06",

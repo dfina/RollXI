@@ -183,7 +183,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2010-11"
+        }
+      ]
     },
     {
       "id": "ita-inter-2011",
@@ -369,7 +374,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2010-11"
+        }
+      ]
     },
     {
       "id": "ita-napoli-2011",
@@ -555,7 +565,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2010-11"
+        }
+      ]
     },
     {
       "id": "ita-udinese-2011",
@@ -741,8 +756,7 @@
           "Maurizio Domizzi",
           "DF"
         ]
-      ],
-      "euro": "UCL"
+      ]
     },
     {
       "id": "ita-lazio-2011",
@@ -926,8 +940,7 @@
           "Giuseppe Biava",
           "DF"
         ]
-      ],
-      "euro": "UEL"
+      ]
     },
     {
       "id": "ita-roma-2011",
@@ -1113,7 +1126,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2010-11"
+        }
+      ]
     },
     {
       "id": "ita-juventus-2011",
@@ -1297,7 +1315,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2010-11"
+        }
+      ]
     },
     {
       "id": "ita-palermo-2011",
@@ -1480,7 +1503,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2010-11"
+        }
+      ]
     },
     {
       "id": "ita-fiorentina-2011",
@@ -3298,6 +3326,12 @@
           "Reto Ziegler",
           "DF"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2010-11"
+        }
       ]
     },
     {

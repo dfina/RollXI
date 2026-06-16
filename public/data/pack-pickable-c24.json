@@ -180,7 +180,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2001-02"
+        }
+      ]
     },
     {
       "id": "ita-as-roma-02",
@@ -362,7 +367,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2001-02"
+        }
+      ]
     },
     {
       "id": "ita-inter-02",
@@ -543,7 +553,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2001-02"
+        }
+      ]
     },
     {
       "id": "ita-ac-milan-02",
@@ -724,7 +739,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2001-02"
+        }
+      ]
     },
     {
       "id": "ita-chievo-02",
@@ -1085,7 +1105,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2001-02"
+        }
+      ]
     },
     {
       "id": "ita-bologna-02",
@@ -1445,8 +1470,7 @@
           "Zé Maria",
           "DF"
         ]
-      ],
-      "euro": "Intertoto"
+      ]
     },
     {
       "id": "ita-atalanta-02",
@@ -1809,7 +1833,12 @@
           "MF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2001-02"
+        }
+      ]
     },
     {
       "id": "ita-torino-02",
@@ -2349,6 +2378,12 @@
           "Dario Dainelli",
           "DF"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "INT",
+          "season": "2001-02"
+        }
       ]
     },
     {
@@ -3070,6 +3105,12 @@
           "Nuno Gomes",
           "FW"
         ]
+      ],
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2001-02"
+        }
       ]
     },
     {

@@ -181,7 +181,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2004-05"
+        }
+      ]
     },
     {
       "id": "ita-inter-05",
@@ -362,7 +367,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2004-05"
+        }
+      ]
     },
     {
       "id": "ita-udinese-05",
@@ -546,7 +556,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2004-05"
+        }
+      ]
     },
     {
       "id": "ita-sampdoria-05",
@@ -1268,7 +1283,12 @@
           "DF"
         ]
       ],
-      "euro": "UCL"
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2004-05"
+        }
+      ]
     },
     {
       "id": "ita-livorno-05",
@@ -1630,7 +1650,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2004-05"
+        }
+      ]
     },
     {
       "id": "ita-lecce-05",
@@ -3073,7 +3098,12 @@
           "DF"
         ]
       ],
-      "euro": "UEL"
+      "euro": [
+        {
+          "comp": "UEFA",
+          "season": "2004-05"
+        }
+      ]
     },
     {
       "id": "ita-brescia-05",
