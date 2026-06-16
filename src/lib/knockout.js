@@ -84,7 +84,10 @@ export function aggregate(tieObj) {
 export function resolveLevel(you, tieObj) {
   const homeStr = strengthOf(you, tieObj.home);
   const awayStr = strengthOf(you, tieObj.away);
-  const et = extraTime(homeStr, awayStr, tieObj.id + "-et");
+  const etGoals = extraTime(homeStr, awayStr, tieObj.id + "-et");
+  const etTl = buildTimeline(you, tieObj.home, tieObj.away, etGoals.hg, etGoals.ag, tieObj.id + "-et")
+    .map((e) => ({ ...e, minute: 90 + Math.max(1, Math.ceil(e.minute * 30 / 92)) }));
+  const et = { hg: etGoals.hg, ag: etGoals.ag, timeline: etTl };
   const agg = aggregate(tieObj);
   const homeTotal = agg.homeGoals + et.hg;
   const awayTotal = agg.awayGoals + et.ag;
@@ -103,7 +106,10 @@ export function playFinal(you, a, b) {
   let et = null, pens = null, winnerId;
   let tl = buildTimeline(you, a, b, r.hg, r.ag, seed);
   if (r.hg === r.ag) {
-    et = extraTime(sa, sb, seed + "-et");
+    const etGoals = extraTime(sa, sb, seed + "-et");
+    const etTl = buildTimeline(you, a, b, etGoals.hg, etGoals.ag, seed + "-et")
+      .map((e) => ({ ...e, minute: 90 + Math.max(1, Math.ceil(e.minute * 30 / 92)) }));
+    et = { hg: etGoals.hg, ag: etGoals.ag, timeline: etTl };
     if (r.hg + et.hg !== r.ag + et.ag) {
       winnerId = (r.hg + et.hg > r.ag + et.ag) ? a.id : b.id;
     } else {

@@ -336,6 +336,7 @@ function Table({ table }) {
         {table.map((t, i) => {
           const rank = i + 1;
           const band = rank <= 8 ? "var(--green)" : rank <= 24 ? "var(--flame)" : "var(--dim)";
+          const comp = t.comps && t.comps.length > 0 ? t.comps[0] : null;
           return (
             <div key={t.id} style={{
               display: "flex", alignItems: "center", gap: 8, padding: "5px 12px",
@@ -344,7 +345,10 @@ function Table({ table }) {
             }}>
               <span className="tele" style={{ width: 26, fontSize: 11, color: band, fontWeight: 800 }}>{rank}</span>
               <span style={{ flex: 1, minWidth: 0, fontSize: 12, fontWeight: t.isYou ? 800 : 600, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
-                {t.club} <span className="dim tele" style={{ fontSize: 9 }}>{(t.season || "").slice(2)}</span>
+                {t.club}{" "}
+                <span className="dim tele" style={{ fontSize: 9 }}>
+                  {(t.season || "").slice(2)}{comp ? " · " + comp : ""}
+                </span>
               </span>
               <span className="tele dim" style={{ fontSize: 10, width: 54, textAlign: "right" }}>{t.played}p {t.gf - t.ga >= 0 ? "+" : ""}{t.gf - t.ga}</span>
               <span className="tele" style={{ fontSize: 12, fontWeight: 800, width: 24, textAlign: "right" }}>{t.pts}</span>
@@ -373,7 +377,7 @@ function Ticker({ res, you, matchday, onDone }) {
       setMinute(m);
       setShown(res.timeline.filter((e) => e.minute <= m));
       if (m >= 90) { clearInterval(id); setFinished(true); }
-    }, 32);
+    }, 60);
     return () => clearInterval(id);
   }, []);
 
@@ -456,6 +460,7 @@ function LeagueDoneScreen({ camp, onUpdate, onReset }) {
 function KnockoutScreen({ camp, onUpdate, onReset }) {
   const [ticker, setTicker] = useState(null);  // { tie, legNo, res }
   const [shootout, setShootout] = useState(null); // { tie, resolution }
+  const [etScreen, setEtScreen] = useState(null); // { tieId, rl } when ET settles a tie
   const ko = camp.ko;
   const you = camp.you;
   const stage = camp.koStage;
@@ -488,8 +493,8 @@ function KnockoutScreen({ camp, onUpdate, onReset }) {
     if (agg.level) {
       const rl = resolveLevel(you, tieObj);
       if (rl.pens) { setShootout({ tieId: tieObj.id, rl }); return; }
-      // decided in ET
-      finalizeTie(tieObj, rl.winnerId, rl.et, null);
+      // ET settled it — show animated ET before finalising
+      setEtScreen({ tieId: tieObj.id, rl });
     } else {
       finalizeTie(tieObj, agg.homeGoals > agg.awayGoals ? tieObj.home.id : tieObj.away.id, null, null);
     }
@@ -529,6 +534,24 @@ function KnockoutScreen({ camp, onUpdate, onReset }) {
   if (ticker) {
     const tieObj = ties.find((t) => t.id === ticker.tieId);
     return <TieLegTicker res={ticker.res} legNo={ticker.legNo} tieObj={tieObj} onDone={afterLeg} />;
+  }
+  if (etScreen) {
+    const tieObj = ties.find((t) => t.id === etScreen.tieId);
+    const rl = etScreen.rl;
+    const agg = aggregate(tieObj);
+    return <GenericTicker
+      timeline={[]}
+      hg={0} ag={0}
+      leftName={tieObj.home.isYou ? "Your XI" : tieObj.home.club}
+      rightName={tieObj.away.isYou ? "Your XI" : tieObj.away.club}
+      title={ROUND_NAMES[stage].toUpperCase() + " · EXTRA TIME"}
+      etTimeline={rl.et ? rl.et.timeline : []}
+      scoreOffset={{ left: agg.homeGoals, right: agg.awayGoals }}
+      pens={null}
+      onDone={() => {
+        finalizeTie(tieObj, rl.winnerId, rl.et, null);
+        setEtScreen(null);
+      }} />;
   }
   if (shootout) {
     const tieObj = ties.find((t) => t.id === shootout.tieId);
@@ -744,29 +767,40 @@ function TieLegTicker({ res, legNo, tieObj, onDone }) {
 function FinalTicker({ res, a, b, you, onDone }) {
   return <GenericTicker timeline={res.timeline} hg={res.hg} ag={res.ag}
     leftName={a.isYou ? "Your XI" : a.club} rightName={b.isYou ? "Your XI" : b.club}
-    title="THE FINAL" extra={res.et ? "After extra time: " + (res.hg + res.et.hg) + "-" + (res.ag + res.et.ag) : null}
+    title="THE FINAL"
+    etTimeline={res.et ? res.et.timeline : null}
     pens={res.pens} onDone={onDone} />;
 }
 
-/* shared accelerated-clock ticker */
-function GenericTicker({ timeline, hg, ag, leftName, rightName, title, extra, pens, onDone }) {
+/* shared accelerated-clock ticker — handles regular time and optional ET continuation */
+function GenericTicker({ timeline, hg, ag, leftName, rightName, title, extra, pens, etTimeline, scoreOffset, onDone }) {
+  const allTimeline = React.useMemo(
+    () => etTimeline ? [...timeline, ...etTimeline] : timeline,
+    [] // eslint-disable-line
+  );
+  const maxMin = etTimeline ? 120 : 90;
+  const off = scoreOffset || { left: 0, right: 0 };
   const [minute, setMinute] = useState(0);
   const [shown, setShown] = useState([]);
   const [finished, setFinished] = useState(false);
   const reduce = typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   useEffect(() => {
-    if (reduce) { setMinute(90); setShown(timeline); setFinished(true); return; }
+    if (reduce) { setMinute(maxMin); setShown(allTimeline); setFinished(true); return; }
     let m = 0;
     const id = setInterval(() => {
       m += 1;
       setMinute(m);
-      setShown(timeline.filter((e) => e.minute <= m));
-      if (m >= 90) { clearInterval(id); setFinished(true); }
-    }, 32);
+      setShown(allTimeline.filter((e) => e.minute <= m));
+      if (m >= maxMin) { clearInterval(id); setFinished(true); }
+    }, 60);
     return () => clearInterval(id);
   }, []);
-  const leftG = shown.filter((e) => e.side === "home").length;
-  const rightG = shown.filter((e) => e.side === "away").length;
+  const leftG = off.left + shown.filter((e) => e.side === "home").length;
+  const rightG = off.right + shown.filter((e) => e.side === "away").length;
+  const minLabel = finished
+    ? (etTimeline ? "AET" : "FULL TIME")
+    : (minute > 90 ? "ET " + (minute - 90) + "'" : minute + "'");
+  const minColor = finished ? "var(--flame)" : (minute > 90 ? "var(--amber)" : "var(--green)");
   return (
     <div className="fade" style={{ paddingTop: 8 }}>
       <p className="tele dim" style={{ fontSize: 11, letterSpacing: 1.5, textAlign: "center", margin: 0 }}>{title}</p>
@@ -776,8 +810,8 @@ function GenericTicker({ timeline, hg, ag, leftName, rightName, title, extra, pe
           <span className="tele amber" style={{ fontSize: 34, fontWeight: 800, minWidth: 84 }}>{leftG}-{rightG}</span>
           <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "left" }}>{rightName}</span>
         </div>
-        <div className="tele" style={{ fontSize: 14, marginTop: 8, color: finished ? "var(--flame)" : "var(--green)", fontWeight: 800 }}>
-          {finished ? "FULL TIME" : minute + "'"}
+        <div className="tele" style={{ fontSize: 14, marginTop: 8, color: minColor, fontWeight: 800 }}>
+          {minLabel}
         </div>
         {finished && extra && <p className="tele dim" style={{ fontSize: 11, margin: "4px 0 0" }}>{extra}</p>}
         {finished && pens && <p className="tele" style={{ fontSize: 12, margin: "4px 0 0", fontWeight: 800, color: "var(--flame)" }}>Penalties {pens.h}-{pens.a}</p>}

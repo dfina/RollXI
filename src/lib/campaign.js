@@ -2,11 +2,13 @@ import { mulberry32, hashStr, seededShuffle } from "./rng.js";
 import { playMatch, teamStrength, oppStrength, goalTimeline, scorerPoolFromXI } from "./match.js";
 
 export const FORMATIONS = {
-  "4-3-3":   { groups: ["GK","DF","DF","DF","DF","MF","MF","MF","FW","FW","FW"], xy: [[50,90],[14,68],[38,72],[62,72],[86,68],[28,46],[50,50],[72,46],[20,18],[50,13],[80,18]], labels:["GK","RB","CB","CB","LB","CM","CM","CM","RW","ST","LW"] },
-  "4-4-2":   { groups: ["GK","DF","DF","DF","DF","MF","MF","MF","MF","FW","FW"], xy: [[50,90],[14,68],[38,72],[62,72],[86,68],[14,44],[38,48],[62,48],[86,44],[36,15],[64,15]], labels:["GK","RB","CB","CB","LB","LM","CM","CM","RM","ST","ST"] },
-  "4-2-3-1": { groups: ["GK","DF","DF","DF","DF","MF","MF","MF","MF","MF","FW"], xy: [[50,90],[14,68],[38,72],[62,72],[86,68],[36,56],[64,56],[20,34],[50,30],[80,34],[50,13]], labels:["GK","RB","CB","CB","LB","DM","DM","AM","AM","AM","ST"] },
+  // xy: [x%, y%] — x=0 is left side of pitch, x=100 is right.
+  // LB/RB and LW/RW must be on the geometrically correct side.
+  "4-3-3":   { groups: ["GK","DF","DF","DF","DF","MF","MF","MF","FW","FW","FW"], xy: [[50,90],[86,68],[38,72],[62,72],[14,68],[28,46],[50,50],[72,46],[80,18],[50,13],[20,18]], labels:["GK","RB","CB","CB","LB","CM","CM","CM","RW","ST","LW"] },
+  "4-4-2":   { groups: ["GK","DF","DF","DF","DF","MF","MF","MF","MF","FW","FW"], xy: [[50,90],[86,68],[38,72],[62,72],[14,68],[14,44],[38,48],[62,48],[86,44],[36,15],[64,15]], labels:["GK","RB","CB","CB","LB","LM","CM","CM","RM","ST","ST"] },
+  "4-2-3-1": { groups: ["GK","DF","DF","DF","DF","MF","MF","MF","MF","MF","FW"], xy: [[50,90],[86,68],[38,72],[62,72],[14,68],[36,56],[64,56],[20,34],[50,30],[80,34],[50,13]], labels:["GK","RB","CB","CB","LB","DM","DM","LW","AM","RW","ST"] },
   "3-5-2":   { groups: ["GK","DF","DF","DF","MF","MF","MF","MF","MF","FW","FW"], xy: [[50,90],[28,70],[50,73],[72,70],[10,48],[32,50],[50,54],[68,50],[90,48],[36,15],[64,15]], labels:["GK","CB","CB","CB","LM","CM","CM","CM","RM","ST","ST"] },
-  "3-4-3":   { groups: ["GK","DF","DF","DF","MF","MF","MF","MF","FW","FW","FW"], xy: [[50,90],[28,70],[50,73],[72,70],[14,46],[38,50],[62,50],[86,46],[20,16],[50,13],[80,16]], labels:["GK","CB","CB","CB","LM","CM","CM","RM","RW","ST","LW"] }
+  "3-4-3":   { groups: ["GK","DF","DF","DF","MF","MF","MF","MF","FW","FW","FW"], xy: [[50,90],[28,70],[50,73],[72,70],[14,46],[38,50],[62,50],[86,46],[80,16],[50,13],[20,16]], labels:["GK","CB","CB","CB","LM","CM","CM","RM","RW","ST","LW"] }
 };
 export const FORMATION_NAMES = ["4-3-3","4-4-2","4-2-3-1","3-5-2","3-4-3"];
 
@@ -31,6 +33,7 @@ export function buildLeague(seed, you, oppRows) {
   const field = pool.slice(0, 35).map((o, i) => ({
     id: o.id, club: o.club, season: o.season, country: o.country,
     rating: o.rating, kit: o.kit, crest: o.crest || null, scorers: o.scorers || [],
+    comps: o.comps || [],
     pts: 0, gf: 0, ga: 0, played: 0, seedRank: i
   }));
   const me = { id: "__you", club: you.club, season: you.season, kit: you.kit, crest: you.crest || null,
@@ -87,8 +90,7 @@ export function playMyFixture(league, you, fixture) {
   const myScorers = scorerPoolFromXI(you.xi);
   const opScorers = (opp.scorers || []).map((n) => ({ name: n, weight: 1 }));
   const tl = goalTimeline(
-    fixture.home ? r.hg : r.ag,
-    fixture.home ? r.ag : r.hg,
+    r.hg, r.ag,
     fixture.home ? myScorers : opScorers,
     fixture.home ? opScorers : myScorers,
     seed
