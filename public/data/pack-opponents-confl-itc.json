@@ -12,25 +12,6 @@
  },
  "squads": [
   {
-   "id": "confl-roma-2122",
-   "tierType": "O",
-   "club": "AS Roma",
-   "country": "Italy",
-   "season": "2021-22",
-   "comps": [
-    "CONFL"
-   ],
-   "rating": 78,
-   "kit": [
-    "#8E1F2F",
-    "#F0BC42"
-   ],
-   "crest": null,
-   "scorers": [
-    "Abraham"
-   ]
-  },
-  {
    "id": "confl-fey-2122",
    "tierType": "O",
    "club": "Feyenoord",
