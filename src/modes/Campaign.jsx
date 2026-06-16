@@ -15,6 +15,9 @@ import {
 } from "../lib/knockout.js";
 
 const SAVE_KEY = "campaign:v1";
+const MATCH_TICK_MS = 500; // 90 simulated minutes ≈ 45 seconds
+const SHOOTOUT_TICK_MS = 750;
+
 
 export default function Campaign({ data }) {
   const [camp, setCamp] = useState(() => load(SAVE_KEY, null));
@@ -150,7 +153,7 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
               <Crest kit={squad.kit} crest={squad.crest} name={squad.club} size={26} />
               <div style={{ minWidth: 0 }}>
                 <div className="display chalk" style={{ fontSize: 15, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{squad.club}</div>
-                <div className="tele dim" style={{ fontSize: 11 }}>{squad.season}</div>
+                <div className="tele dim" style={{ fontSize: 11 }}>{squad.season} · {squadContextLabel(squad)}</div>
               </div>
             </div>
             <button className="ghost" style={{ padding: "7px 10px", fontSize: 12, display: "inline-flex", alignItems: "center", gap: 5 }}
@@ -297,7 +300,7 @@ function LeagueScreen({ data, camp, onUpdate, onReset }) {
         </div>
       )}
 
-      <Table table={table} />
+      <Table table={table} currentOpponentId={fixture ? fixture.oppId : null} />
 
       <button className="ghost" style={{ width: "100%", padding: 11, fontSize: 12, marginTop: 14, color: "var(--flame)", borderColor: "var(--flame)" }} onClick={onReset}>
         Abandon campaign
@@ -328,7 +331,17 @@ function YouCrest() {
   return <span style={{ width: 34, height: 34, borderRadius: "50%", background: "linear-gradient(135deg,#1C1C1A 60%,#E1492E 60%)", display: "inline-flex", alignItems: "center", justifyContent: "center", color: "#fff", fontWeight: 900, fontSize: 11 }}>XI</span>;
 }
 
-function Table({ table }) {
+function squadContextLabel(squad) {
+  const comp = squad.euro && squad.euro.length > 0 ? squad.euro[0].comp : null;
+  if (comp) return compLabel(comp);
+  return squad.league === "ITA" ? "Serie A" : (squad.league || "");
+}
+function compLabel(comp) {
+  const map = { EC: "EC", UCL: "UCL", UEL: "UEL", UEFA: "UEFA", CONFL: "UECL", CWC: "CWC", ITC: "UIC" };
+  return map[comp] || comp;
+}
+
+function Table({ table, currentOpponentId }) {
   return (
     <div className="card" style={{ padding: "8px 0", marginTop: 12, overflow: "hidden" }}>
       <p className="tele dim" style={{ fontSize: 10, letterSpacing: 1.5, margin: "2px 12px 6px" }}>LEAGUE TABLE · TOP 8 QUALIFY · 9-24 PLAY OFF</p>
@@ -337,14 +350,15 @@ function Table({ table }) {
           const rank = i + 1;
           const band = rank <= 8 ? "var(--green)" : rank <= 24 ? "var(--flame)" : "var(--dim)";
           const comp = t.comps && t.comps.length > 0 ? t.comps[0] : null;
+          const isCurrentOpponent = currentOpponentId && t.id === currentOpponentId;
           return (
             <div key={t.id} style={{
               display: "flex", alignItems: "center", gap: 8, padding: "5px 12px",
-              background: t.isYou ? "rgba(225,73,46,.1)" : "transparent",
-              borderLeft: "3px solid " + (t.isYou ? "var(--flame)" : "transparent")
+              background: t.isYou ? "rgba(225,73,46,.12)" : isCurrentOpponent ? "rgba(14,122,67,.12)" : "transparent",
+              borderLeft: "3px solid " + (t.isYou ? "var(--flame)" : isCurrentOpponent ? "var(--green)" : "transparent")
             }}>
               <span className="tele" style={{ width: 26, fontSize: 11, color: band, fontWeight: 800 }}>{rank}</span>
-              <span style={{ flex: 1, minWidth: 0, fontSize: 12, fontWeight: t.isYou ? 800 : 600, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+              <span style={{ flex: 1, minWidth: 0, fontSize: 12, fontWeight: (t.isYou || isCurrentOpponent) ? 800 : 600, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
                 {t.club}{" "}
                 <span className="dim tele" style={{ fontSize: 9 }}>
                   {(t.season || "").slice(2)}{comp ? " · " + comp : ""}
@@ -377,7 +391,7 @@ function Ticker({ res, you, matchday, onDone }) {
       setMinute(m);
       setShown(res.timeline.filter((e) => e.minute <= m));
       if (m >= 90) { clearInterval(id); setFinished(true); }
-    }, 60);
+    }, MATCH_TICK_MS);
     return () => clearInterval(id);
   }, []);
 
@@ -403,13 +417,17 @@ function Ticker({ res, you, matchday, onDone }) {
 
       <div className="card" style={{ padding: "10px 14px", marginTop: 10, minHeight: 120 }}>
         {shown.length === 0 && <p className="tele dim" style={{ fontSize: 12, margin: 0 }}>Kick-off…</p>}
-        {shown.map((e, i) => (
-          <p key={i} className="tele fade" style={{ fontSize: 12, margin: "5px 0", display: "flex", justifyContent: e.mine ? "flex-start" : "flex-end", gap: 8, color: e.mine ? "var(--green)" : "var(--ink2)" }}>
-            {e.mine
-              ? <span><b>{e.minute}'</b> ⚽ {e.scorer || "Your XI"}</span>
-              : <span style={{ textAlign: "right" }}>{e.scorer || oppName} ⚽ <b>{e.minute}'</b></span>}
-          </p>
-        ))}
+        {shown.map((e, i) => {
+          const isLeft = e.mine ? res.home : !res.home;
+          const fallback = e.mine ? "Your XI" : oppName;
+          return (
+            <p key={i} className="tele fade" style={{ fontSize: 12, margin: "5px 0", display: "flex", justifyContent: isLeft ? "flex-start" : "flex-end", gap: 8, color: e.mine ? "var(--green)" : "var(--ink2)" }}>
+              {isLeft
+                ? <span><b>{e.minute}'</b> ⚽ {e.scorer || fallback}</span>
+                : <span style={{ textAlign: "right" }}>{e.scorer || fallback} ⚽ <b>{e.minute}'</b></span>}
+            </p>
+          );
+        })}
       </div>
       {finished && (
         <button className="btn" style={{ width: "100%", padding: 14, fontSize: 15, marginTop: 10 }} onClick={onDone}>
@@ -653,21 +671,55 @@ function OtherTies({ ties, you, onUpdate }) {
 }
 
 function FinalScreen({ camp, you, onUpdate, onReset }) {
-  const [ticker, setTicker] = useState(null);
+  const [finalFlow, setFinalFlow] = useState(null); // { phase:"rt"|"et"|"pens", res }
   const [a, b] = camp.finalists;
-  const result = camp.finalResult;
 
   function play() {
     const res = playFinal(you, a, b);
-    setTicker(res);
+    setFinalFlow({ phase: "rt", res });
   }
-  function afterFinal() {
-    const champId = ticker.winnerId;
-    setTicker(null);
-    onUpdate({ ...camp, phase: "champion", finalResult: ticker, championId: champId });
+  function finishFinal(res) {
+    onUpdate({ ...camp, phase: "champion", finalResult: res, championId: res.winnerId });
   }
 
-  if (ticker) return <FinalTicker res={ticker} a={a} b={b} you={you} onDone={afterFinal} />;
+  if (finalFlow) {
+    const res = finalFlow.res;
+    const leftName = a.isYou ? "Your XI" : a.club;
+    const rightName = b.isYou ? "Your XI" : b.club;
+    const levelAfterEt = res.et && (res.hg + res.et.hg === res.ag + res.et.ag);
+
+    if (finalFlow.phase === "rt") {
+      return <GenericTicker
+        key="final-rt"
+        timeline={res.timeline}
+        hg={res.hg} ag={res.ag}
+        leftName={leftName} rightName={rightName}
+        title="THE FINAL"
+        onDone={() => {
+          if (res.hg === res.ag && res.et) setFinalFlow({ phase: "et", res });
+          else finishFinal(res);
+        }} />;
+    }
+
+    if (finalFlow.phase === "et") {
+      return <GenericTicker
+        key="final-et"
+        timeline={[]}
+        hg={0} ag={0}
+        leftName={leftName} rightName={rightName}
+        title="THE FINAL · EXTRA TIME"
+        etTimeline={res.et ? res.et.timeline : []}
+        scoreOffset={{ left: res.hg, right: res.ag }}
+        onDone={() => {
+          if (levelAfterEt && res.pens) setFinalFlow({ phase: "pens", res });
+          else finishFinal(res);
+        }} />;
+    }
+
+    if (finalFlow.phase === "pens") {
+      return <ShootoutScreen tieObj={{ home: a, away: b }} rl={{ pens: res.pens }} onDone={() => finishFinal(res)} />;
+    }
+  }
 
   return (
     <div className="fade">
@@ -776,25 +828,26 @@ function FinalTicker({ res, a, b, you, onDone }) {
 function GenericTicker({ timeline, hg, ag, leftName, rightName, title, extra, pens, etTimeline, scoreOffset, onDone }) {
   const allTimeline = React.useMemo(
     () => etTimeline ? [...timeline, ...etTimeline] : timeline,
-    [] // eslint-disable-line
+    [timeline, etTimeline]
   );
   const maxMin = etTimeline ? 120 : 90;
+  const clockStart = scoreOffset ? 90 : 0;
   const off = scoreOffset || { left: 0, right: 0 };
-  const [minute, setMinute] = useState(0);
+  const [minute, setMinute] = useState(clockStart);
   const [shown, setShown] = useState([]);
   const [finished, setFinished] = useState(false);
   const reduce = typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   useEffect(() => {
     if (reduce) { setMinute(maxMin); setShown(allTimeline); setFinished(true); return; }
-    let m = 0;
+    let m = clockStart;
     const id = setInterval(() => {
       m += 1;
       setMinute(m);
       setShown(allTimeline.filter((e) => e.minute <= m));
       if (m >= maxMin) { clearInterval(id); setFinished(true); }
-    }, 60);
+    }, MATCH_TICK_MS);
     return () => clearInterval(id);
-  }, []);
+  }, [allTimeline, clockStart, maxMin, reduce]);
   const leftG = off.left + shown.filter((e) => e.side === "home").length;
   const rightG = off.right + shown.filter((e) => e.side === "away").length;
   const minLabel = finished
@@ -837,7 +890,7 @@ function ShootoutScreen({ tieObj, rl, onDone }) {
   useEffect(() => {
     if (reduce) { setN(kicks.length); return; }
     let i = 0;
-    const id = setInterval(() => { i += 1; setN(i); if (i >= kicks.length) clearInterval(id); }, 600);
+    const id = setInterval(() => { i += 1; setN(i); if (i >= kicks.length) clearInterval(id); }, SHOOTOUT_TICK_MS);
     return () => clearInterval(id);
   }, []);
   const shown = kicks.slice(0, n);

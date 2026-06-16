@@ -45,7 +45,7 @@ export function goalTimeline(hg, ag, scorersHome, scorersAway, seed) {
   const events = [];
   const place = (n, side, pool) => {
     for (let i = 0; i < n; i++) {
-      events.push({ minute: 1 + Math.floor(rng() * 92), side, scorer: pickScorer(pool, rng) });
+      events.push({ minute: 1 + Math.floor(rng() * 90), side, scorer: pickScorer(pool, rng) });
     }
   };
   place(hg, "home", scorersHome);
@@ -53,7 +53,7 @@ export function goalTimeline(hg, ag, scorersHome, scorersAway, seed) {
   events.sort((a, b) => a.minute - b.minute);
   // de-dupe identical minutes by nudging
   let last = -1;
-  for (const e of events) { if (e.minute <= last) e.minute = Math.min(92, last + 1); last = e.minute; }
+  for (const e of events) { if (e.minute <= last) e.minute = Math.min(90, last + 1); last = e.minute; }
   return events;
 }
 
