@@ -1,0 +1,3645 @@
+{
+  "meta": {
+    "id": "pack-pickable-c13",
+    "name": "C13: Serie A 2012-13 (all non-duplicated clubs)",
+    "source": "C-series five-season batch; public roster/stat spot checks; human validation gate for Priority A issues"
+  },
+  "squads": [
+    {
+      "id": "ita-juv-2013",
+      "club": "Juventus",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 1 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Gianluigi Buffon",
+          "p": "GK",
+          "r": 89,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Andrea Barzagli",
+          "p": "DF",
+          "r": 86,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Leonardo Bonucci",
+          "p": "DF",
+          "r": 85,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giorgio Chiellini",
+          "p": "DF",
+          "r": 86,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Stephan Lichtsteiner",
+          "p": "DF",
+          "r": 82,
+          "nat": "Switzerland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Kwadwo Asamoah",
+          "p": "DF",
+          "r": 81,
+          "nat": "Ghana",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrea Pirlo",
+          "p": "MF",
+          "r": 89,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Arturo Vidal",
+          "p": "MF",
+          "r": 88,
+          "nat": "Chile",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Claudio Marchisio",
+          "p": "MF",
+          "r": 85,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Paul Pogba",
+          "p": "MF",
+          "r": 82,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mirko Vučinić",
+          "p": "FW",
+          "r": 83,
+          "nat": "Montenegro",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Fabio Quagliarella",
+          "p": "FW",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Sebastian Giovinco",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alessandro Matri",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Simone Padoin",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Martín Cáceres",
+          "p": "DF",
+          "r": 80,
+          "nat": "Uruguay",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Martín Cáceres",
+          "DF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2012-13"
+        }
+      ]
+    },
+    {
+      "id": "ita-nap-2013",
+      "club": "Napoli",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#6EC6E6",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 2 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Morgan De Sanctis",
+          "p": "GK",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Hugo Campagnaro",
+          "p": "DF",
+          "r": 80,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Paolo Cannavaro",
+          "p": "DF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Miguel Britos",
+          "p": "DF",
+          "r": 77,
+          "nat": "Uruguay",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Christian Maggio",
+          "p": "DF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Juan Zúñiga",
+          "p": "DF",
+          "r": 81,
+          "nat": "Colombia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Valon Behrami",
+          "p": "MF",
+          "r": 80,
+          "nat": "Switzerland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Gökhan Inler",
+          "p": "MF",
+          "r": 82,
+          "nat": "Switzerland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marek Hamšík",
+          "p": "MF",
+          "r": 87,
+          "nat": "Slovakia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Blerim Džemaili",
+          "p": "MF",
+          "r": 78,
+          "nat": "Switzerland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Edinson Cavani",
+          "p": "FW",
+          "r": 91,
+          "nat": "Uruguay",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Lorenzo Insigne",
+          "p": "FW",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Goran Pandev",
+          "p": "FW",
+          "r": 80,
+          "nat": "North Macedonia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Eduardo Vargas",
+          "p": "FW",
+          "r": 75,
+          "nat": "Chile",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giandomenico Mesto",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Alessandro Gamberini",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Alessandro Gamberini",
+          "DF"
+        ],
+        [
+          "Morgan De Sanctis",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2012-13"
+        }
+      ]
+    },
+    {
+      "id": "ita-mil-2013",
+      "club": "AC Milan",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#D50000",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 3 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Christian Abbiati",
+          "p": "GK",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Philippe Mexès",
+          "p": "DF",
+          "r": 79,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Zapata",
+          "p": "DF",
+          "r": 78,
+          "nat": "Colombia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ignazio Abate",
+          "p": "DF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Mattia De Sciglio",
+          "p": "DF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Kevin Constant",
+          "p": "DF",
+          "r": 76,
+          "nat": "Guinea",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Riccardo Montolivo",
+          "p": "MF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Nigel de Jong",
+          "p": "MF",
+          "r": 80,
+          "nat": "Netherlands",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Massimo Ambrosini",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Kevin-Prince Boateng",
+          "p": "MF",
+          "r": 81,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Stephan El Shaarawy",
+          "p": "FW",
+          "r": 84,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mario Balotelli",
+          "p": "FW",
+          "r": 84,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giampaolo Pazzini",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Robinho",
+          "p": "FW",
+          "r": 79,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Bojan Krkić",
+          "p": "FW",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Sulley Muntari",
+          "p": "MF",
+          "r": 76,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Sulley Muntari",
+          "MF"
+        ],
+        [
+          "Christian Abbiati",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2012-13"
+        }
+      ]
+    },
+    {
+      "id": "ita-fio-2013",
+      "club": "Fiorentina",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#4B0082",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 4 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Emiliano Viviano",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Gonzalo Rodríguez",
+          "p": "DF",
+          "r": 81,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Facundo Roncaglia",
+          "p": "DF",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Nenad Tomović",
+          "p": "DF",
+          "r": 76,
+          "nat": "Serbia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Manuel Pasqual",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Borja Valero",
+          "p": "MF",
+          "r": 83,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "David Pizarro",
+          "p": "MF",
+          "r": 82,
+          "nat": "Chile",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alberto Aquilani",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Matías Fernández",
+          "p": "MF",
+          "r": 79,
+          "nat": "Chile",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Juan Cuadrado",
+          "p": "FW",
+          "r": 83,
+          "nat": "Colombia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Stevan Jovetić",
+          "p": "FW",
+          "r": 85,
+          "nat": "Montenegro",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Adem Ljajić",
+          "p": "FW",
+          "r": 81,
+          "nat": "Serbia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Luca Toni",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mounir El Hamdaoui",
+          "p": "FW",
+          "r": 76,
+          "nat": "Morocco",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giulio Migliaccio",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Stefan Savić",
+          "p": "DF",
+          "r": 78,
+          "nat": "Montenegro",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Stefan Savić",
+          "DF"
+        ],
+        [
+          "Emiliano Viviano",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-udi-2013",
+      "club": "Udinese",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#FFFFFF",
+        "#1D1D1B"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 5 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Željko Brkić",
+          "p": "GK",
+          "r": 77,
+          "nat": "Serbia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Danilo",
+          "p": "DF",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Maurizio Domizzi",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Thomas Heurtaux",
+          "p": "DF",
+          "r": 76,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Dusan Basta",
+          "p": "DF",
+          "r": 78,
+          "nat": "Serbia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Pablo Armero",
+          "p": "DF",
+          "r": 78,
+          "nat": "Colombia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Allan",
+          "p": "MF",
+          "r": 79,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Giampiero Pinzi",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Roberto Pereyra",
+          "p": "MF",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonio Di Natale",
+          "p": "FW",
+          "r": 87,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Luis Muriel",
+          "p": "FW",
+          "r": 80,
+          "nat": "Colombia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Maicosuel",
+          "p": "FW",
+          "r": 76,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Andrea Lazzari",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Emmanuel Badu",
+          "p": "MF",
+          "r": 75,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mehdi Benatia",
+          "p": "DF",
+          "r": 80,
+          "nat": "Morocco",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gabriel Silva",
+          "p": "DF",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Gabriel Silva",
+          "DF"
+        ],
+        [
+          "Željko Brkić",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2012-13"
+        }
+      ]
+    },
+    {
+      "id": "ita-laz-2013",
+      "club": "Lazio",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#87CEEB",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 6 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Federico Marchetti",
+          "p": "GK",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "André Dias",
+          "p": "DF",
+          "r": 77,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giuseppe Biava",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ștefan Radu",
+          "p": "DF",
+          "r": 79,
+          "nat": "Romania",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Abdoulay Konko",
+          "p": "DF",
+          "r": 76,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Ledesma",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Hernanes",
+          "p": "MF",
+          "r": 83,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonio Candreva",
+          "p": "MF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Senad Lulić",
+          "p": "MF",
+          "r": 78,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Álvaro González",
+          "p": "MF",
+          "r": 76,
+          "nat": "Uruguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Miroslav Klose",
+          "p": "FW",
+          "r": 83,
+          "nat": "Germany",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Sergio Floccari",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Libor Kozák",
+          "p": "FW",
+          "r": 75,
+          "nat": "Czechia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Stefano Mauri",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Lorik Cana",
+          "p": "DF",
+          "r": 76,
+          "nat": "Albania",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ogenyi Onazi",
+          "p": "MF",
+          "r": 74,
+          "nat": "Nigeria",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Ogenyi Onazi",
+          "MF"
+        ],
+        [
+          "Federico Marchetti",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2012-13"
+        }
+      ]
+    },
+    {
+      "id": "ita-rom-2013",
+      "club": "AS Roma",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#8E1F2F",
+        "#F0BC42"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 7 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Maarten Stekelenburg",
+          "p": "GK",
+          "r": 78,
+          "nat": "Netherlands",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Marquinhos",
+          "p": "DF",
+          "r": 81,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Leandro Castán",
+          "p": "DF",
+          "r": 79,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Nicolás Burdisso",
+          "p": "DF",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Federico Balzaretti",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniele De Rossi",
+          "p": "MF",
+          "r": 84,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Miralem Pjanić",
+          "p": "MF",
+          "r": 83,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Michael Bradley",
+          "p": "MF",
+          "r": 77,
+          "nat": "United States",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alessandro Florenzi",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Francesco Totti",
+          "p": "FW",
+          "r": 86,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Pablo Osvaldo",
+          "p": "FW",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Erik Lamela",
+          "p": "FW",
+          "r": 84,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mattia Destro",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Marquinho",
+          "p": "MF",
+          "r": 76,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Rodrigo Taddei",
+          "p": "MF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ivan Piris",
+          "p": "DF",
+          "r": 74,
+          "nat": "Paraguay",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Ivan Piris",
+          "DF"
+        ],
+        [
+          "Maarten Stekelenburg",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-cat-2013",
+      "club": "Catania",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#0057B8",
+        "#E30613"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 8 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Mariano Andújar",
+          "p": "GK",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Nicolás Spolli",
+          "p": "DF",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Nicola Legrottaglie",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giuseppe Bellusci",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Pablo Álvarez",
+          "p": "DF",
+          "r": 74,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Francesco Lodi",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Sergio Almirón",
+          "p": "MF",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mariano Izco",
+          "p": "MF",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alejandro Gómez",
+          "p": "FW",
+          "r": 82,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Lucas Castro",
+          "p": "FW",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Gonzalo Bergessio",
+          "p": "FW",
+          "r": 79,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Pablo Barrientos",
+          "p": "FW",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Marco Biagianti",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Fabián Rinaudo",
+          "p": "MF",
+          "r": 74,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Giovanni Marchese",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ciro Capuano",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Ciro Capuano",
+          "DF"
+        ],
+        [
+          "Mariano Andújar",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-int-2013",
+      "club": "Inter",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#0066CC",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 9 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Samir Handanović",
+          "p": "GK",
+          "r": 84,
+          "nat": "Slovenia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Andrea Ranocchia",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Juan Jesus",
+          "p": "DF",
+          "r": 77,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Walter Samuel",
+          "p": "DF",
+          "r": 79,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Javier Zanetti",
+          "p": "DF",
+          "r": 81,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Yuto Nagatomo",
+          "p": "DF",
+          "r": 77,
+          "nat": "Japan",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Esteban Cambiasso",
+          "p": "MF",
+          "r": 82,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Fredy Guarín",
+          "p": "MF",
+          "r": 80,
+          "nat": "Colombia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mateo Kovačić",
+          "p": "MF",
+          "r": 79,
+          "nat": "Croatia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Rodrigo Palacio",
+          "p": "FW",
+          "r": 83,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Antonio Cassano",
+          "p": "FW",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Diego Milito",
+          "p": "FW",
+          "r": 81,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Álvaro Pereira",
+          "p": "DF",
+          "r": 76,
+          "nat": "Uruguay",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gaby Mudingayi",
+          "p": "MF",
+          "r": 75,
+          "nat": "Belgium",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ezequiel Schelotto",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ricky Álvarez",
+          "p": "MF",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Ricky Álvarez",
+          "MF"
+        ],
+        [
+          "Samir Handanović",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2012-13"
+        }
+      ]
+    },
+    {
+      "id": "ita-par-2013",
+      "club": "Parma",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#FFD700",
+        "#003DA5"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 10 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Antonio Mirante",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Gabriel Paletta",
+          "p": "DF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Alessandro Lucarelli",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Zaccardo",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Massimo Gobbi",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Marco Parolo",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Jaime Valdés",
+          "p": "MF",
+          "r": 77,
+          "nat": "Chile",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Afriyie Acquah",
+          "p": "MF",
+          "r": 75,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Daniele Galloppa",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Jonathan Biabiany",
+          "p": "FW",
+          "r": 78,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Amauri",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Nicola Sansone",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Ishak Belfodil",
+          "p": "FW",
+          "r": 78,
+          "nat": "Algeria",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Raffaele Palladino",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Dorlan Pabón",
+          "p": "FW",
+          "r": 74,
+          "nat": "Colombia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Yohan Benalouane",
+          "p": "DF",
+          "r": 74,
+          "nat": "Tunisia",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Yohan Benalouane",
+          "DF"
+        ],
+        [
+          "Antonio Mirante",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-cag-2013",
+      "club": "Cagliari",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#CC0000",
+        "#003DA5"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 11 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Michael Agazzi",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Davide Astori",
+          "p": "DF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Luca Rossettini",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Francesco Pisano",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Danilo Avelar",
+          "p": "DF",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniele Conti",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Radja Nainggolan",
+          "p": "MF",
+          "r": 82,
+          "nat": "Belgium",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Andrea Cossu",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Albin Ekdal",
+          "p": "MF",
+          "r": 76,
+          "nat": "Sweden",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marco Sau",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Víctor Ibarbo",
+          "p": "FW",
+          "r": 77,
+          "nat": "Colombia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Nenê",
+          "p": "FW",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Thiago Ribeiro",
+          "p": "FW",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Daniele Dessena",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Nicola Murru",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Mauricio Pinilla",
+          "p": "FW",
+          "r": 76,
+          "nat": "Chile",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Mauricio Pinilla",
+          "FW"
+        ],
+        [
+          "Michael Agazzi",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-chi-2013",
+      "club": "Chievo",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#FFD100",
+        "#0057B8"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 12 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Christian Puggioni",
+          "p": "GK",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Dario Dainelli",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Bostjan Cesar",
+          "p": "DF",
+          "r": 75,
+          "nat": "Slovenia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Marco Andreolli",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Nicolas Frey",
+          "p": "DF",
+          "r": 74,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Luca Rigoni",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Perparim Hetemaj",
+          "p": "MF",
+          "r": 76,
+          "nat": "Finland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ivan Radovanović",
+          "p": "MF",
+          "r": 75,
+          "nat": "Serbia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Cyril Théréau",
+          "p": "FW",
+          "r": 77,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alberto Paloschi",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Sergio Pellissier",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Luciano",
+          "p": "MF",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Roberto Guana",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Gennaro Sardo",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Boukhary Dramé",
+          "p": "DF",
+          "r": 74,
+          "nat": "Senegal",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Samir Ujkani",
+          "p": "GK",
+          "r": 72,
+          "nat": "Kosovo",
+          "dp": [
+            "GK"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Samir Ujkani",
+          "GK"
+        ],
+        [
+          "Christian Puggioni",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-bol-2013",
+      "club": "Bologna",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#BA251E",
+        "#000033"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 13 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Gianluca Curci",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Mikael Antonsson",
+          "p": "DF",
+          "r": 75,
+          "nat": "Sweden",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Frederik Sørensen",
+          "p": "DF",
+          "r": 75,
+          "nat": "Denmark",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "György Garics",
+          "p": "DF",
+          "r": 74,
+          "nat": "Austria",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Archimede Morleo",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Diego Pérez",
+          "p": "MF",
+          "r": 76,
+          "nat": "Uruguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Panagiotis Kone",
+          "p": "MF",
+          "r": 77,
+          "nat": "Greece",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Saphir Taïder",
+          "p": "MF",
+          "r": 77,
+          "nat": "Algeria",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Michele Pazienza",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alessandro Diamanti",
+          "p": "FW",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alberto Gilardino",
+          "p": "FW",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Manolo Gabbiadini",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Robert Acquafresca",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Davide Moscardelli",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Tiberio Guarente",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Cesare Natali",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Cesare Natali",
+          "DF"
+        ],
+        [
+          "Gianluca Curci",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-sam-2013",
+      "club": "Sampdoria",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#1A2D6B",
+        "#E30613"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 14 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Sergio Romero",
+          "p": "GK",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Daniele Gastaldello",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Shkodran Mustafi",
+          "p": "DF",
+          "r": 76,
+          "nat": "Germany",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Lorenzo De Silvestri",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gaetano Berardi",
+          "p": "DF",
+          "r": 73,
+          "nat": "Switzerland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Angelo Palombo",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Pedro Obiang",
+          "p": "MF",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Andrea Poli",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Éder",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mauro Icardi",
+          "p": "FW",
+          "r": 81,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Maxi López",
+          "p": "FW",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Estigarribia",
+          "p": "MF",
+          "r": 75,
+          "nat": "Paraguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Roberto Soriano",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Nenad Krstičić",
+          "p": "MF",
+          "r": 75,
+          "nat": "Serbia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Gianni Munari",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Nicola Pozzi",
+          "p": "FW",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Nicola Pozzi",
+          "FW"
+        ],
+        [
+          "Sergio Romero",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-ata-2013",
+      "club": "Atalanta",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#1A1A6E",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 15 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Andrea Consigli",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Guglielmo Stendardo",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Mario Yepes",
+          "p": "DF",
+          "r": 75,
+          "nat": "Colombia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Stefano Lucchini",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Federico Peluso",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Luca Cigarini",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Giacomo Bonaventura",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Carlos Carmona",
+          "p": "MF",
+          "r": 75,
+          "nat": "Chile",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Cristian Raimondi",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Germán Denis",
+          "p": "FW",
+          "r": 81,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Maximiliano Moralez",
+          "p": "FW",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Marko Livaja",
+          "p": "FW",
+          "r": 74,
+          "nat": "Croatia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giulio Migliaccio",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Daniele Baselli",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Yohan Benalouane",
+          "p": "DF",
+          "r": 74,
+          "nat": "Tunisia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Guido Marilungo",
+          "p": "FW",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Guido Marilungo",
+          "FW"
+        ],
+        [
+          "Andrea Consigli",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-tor-2013",
+      "club": "Torino",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#8B0000",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 16 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Jean-François Gillet",
+          "p": "GK",
+          "r": 75,
+          "nat": "Belgium",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Kamil Glik",
+          "p": "DF",
+          "r": 78,
+          "nat": "Poland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Angelo Ogbonna",
+          "p": "DF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Matteo Darmian",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Danilo D’Ambrosio",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giuseppe Vives",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alessio Cerci",
+          "p": "FW",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Rolando Bianchi",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Riccardo Meggiorini",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Valter Birsa",
+          "p": "MF",
+          "r": 75,
+          "nat": "Slovenia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alessandro Gazzi",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mario Santana",
+          "p": "MF",
+          "r": 74,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Migjen Basha",
+          "p": "MF",
+          "r": 74,
+          "nat": "Albania",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Matteo Brighi",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Salvatore Masiello",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Guillermo Rodríguez",
+          "p": "DF",
+          "r": 73,
+          "nat": "Uruguay",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Guillermo Rodríguez",
+          "DF"
+        ],
+        [
+          "Jean-François Gillet",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-gen-2013",
+      "club": "Genoa",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#CC0000",
+        "#003DA5"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 17 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Sebastien Frey",
+          "p": "GK",
+          "r": 77,
+          "nat": "France",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Andreas Granqvist",
+          "p": "DF",
+          "r": 76,
+          "nat": "Sweden",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniele Portanova",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Emiliano Moretti",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Luca Antonelli",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Juraj Kucka",
+          "p": "MF",
+          "r": 78,
+          "nat": "Slovakia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Andrea Bertolacci",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Francelino Matuzalém",
+          "p": "MF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marco Borriello",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Ciro Immobile",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Bosko Janković",
+          "p": "FW",
+          "r": 75,
+          "nat": "Serbia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Juan Manuel Vargas",
+          "p": "MF",
+          "r": 75,
+          "nat": "Peru",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Cristóbal Jorquera",
+          "p": "MF",
+          "r": 74,
+          "nat": "Chile",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Cesare Bovo",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniel Tozser",
+          "p": "MF",
+          "r": 73,
+          "nat": "Hungary",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marco Rossi",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Marco Rossi",
+          "MF"
+        ],
+        [
+          "Sebastien Frey",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-pal-2013",
+      "club": "Palermo",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#F7A6B8",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 18 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Stefano Sorrentino",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Ezequiel Muñoz",
+          "p": "DF",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Steve von Bergen",
+          "p": "DF",
+          "r": 74,
+          "nat": "Switzerland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrea Mantovani",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Michel Morganella",
+          "p": "DF",
+          "r": 73,
+          "nat": "Switzerland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Édgar Barreto",
+          "p": "MF",
+          "r": 77,
+          "nat": "Paraguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Massimo Donati",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Jasmin Kurtić",
+          "p": "MF",
+          "r": 75,
+          "nat": "Slovenia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Josip Iličić",
+          "p": "FW",
+          "r": 80,
+          "nat": "Slovenia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Fabrizio Miccoli",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Paulo Dybala",
+          "p": "FW",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Abel Hernández",
+          "p": "FW",
+          "r": 76,
+          "nat": "Uruguay",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Franco Brienza",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Santiago García",
+          "p": "DF",
+          "r": 73,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Arevalo Ríos",
+          "p": "MF",
+          "r": 74,
+          "nat": "Uruguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Eran Zahavi",
+          "p": "MF",
+          "r": 73,
+          "nat": "Israel",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Eran Zahavi",
+          "MF"
+        ],
+        [
+          "Stefano Sorrentino",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-sie-2013",
+      "club": "Siena",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 19 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Gianluca Pegolo",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Felipe",
+          "p": "DF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Massimo Paci",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristiano Del Grosso",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Angelo",
+          "p": "DF",
+          "r": 73,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Francesco Bolzoni",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Simone Vergassola",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Gaetano D’Agostino",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alessandro Rosina",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Emanuele Calaiò",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Reginaldo",
+          "p": "FW",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Zé Eduardo",
+          "p": "FW",
+          "r": 73,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Innocent Emeghara",
+          "p": "FW",
+          "r": 75,
+          "nat": "Switzerland",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alessio Sestu",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marcel Büchel",
+          "p": "MF",
+          "r": 73,
+          "nat": "Liechtenstein",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Claudio Terzi",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Claudio Terzi",
+          "DF"
+        ],
+        [
+          "Gianluca Pegolo",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-pes-2013",
+      "club": "Pescara",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2012-13",
+      "kit": [
+        "#7EC8E3",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2012-13, 20 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Mattia Perin",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Marco Capuano",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Uroš Ćosić",
+          "p": "DF",
+          "r": 72,
+          "nat": "Serbia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Antonio Balzano",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristiano Del Grosso",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Birkir Bjarnason",
+          "p": "MF",
+          "r": 75,
+          "nat": "Iceland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Emmanuel Cascione",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Juan Fernando Quintero",
+          "p": "MF",
+          "r": 76,
+          "nat": "Colombia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Vladimír Weiss",
+          "p": "FW",
+          "r": 75,
+          "nat": "Slovakia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Gianluca Caprari",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Jonathas",
+          "p": "FW",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mervan Çelik",
+          "p": "FW",
+          "r": 72,
+          "nat": "Sweden",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giuseppe Sculli",
+          "p": "FW",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Ante Vukušić",
+          "p": "FW",
+          "r": 72,
+          "nat": "Croatia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Manuele Blasi",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Eugenio Romulo Togni",
+          "p": "MF",
+          "r": 72,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Eugenio Romulo Togni",
+          "MF"
+        ],
+        [
+          "Mattia Perin",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    }
+  ]
+}

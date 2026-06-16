@@ -142,6 +142,31 @@
       "file": "pack-pickable-c9.json",
       "name": "C9: Serie A 2016-17 (all non-duplicated clubs)",
       "v": "0.23"
+    },
+    {
+      "file": "pack-pickable-c10.json",
+      "name": "C10: Serie A 2015-16 (all non-duplicated clubs)",
+      "v": "0.24"
+    },
+    {
+      "file": "pack-pickable-c11.json",
+      "name": "C11: Serie A 2014-15 (all non-duplicated clubs)",
+      "v": "0.24"
+    },
+    {
+      "file": "pack-pickable-c12.json",
+      "name": "C12: Serie A 2013-14 (all non-duplicated clubs)",
+      "v": "0.24"
+    },
+    {
+      "file": "pack-pickable-c13.json",
+      "name": "C13: Serie A 2012-13 (all non-duplicated clubs)",
+      "v": "0.24"
+    },
+    {
+      "file": "pack-pickable-c14.json",
+      "name": "C14: Serie A 2011-12 (all non-duplicated clubs)",
+      "v": "0.24"
     }
   ]
 }

@@ -1,0 +1,3649 @@
+{
+  "meta": {
+    "id": "pack-pickable-c10",
+    "name": "C10: Serie A 2015-16 (all non-duplicated clubs)",
+    "source": "C-series five-season batch; public roster/stat spot checks; human validation gate for Priority A issues"
+  },
+  "squads": [
+    {
+      "id": "ita-juv-2016",
+      "club": "Juventus",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 1 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Gianluigi Buffon",
+          "p": "GK",
+          "r": 90,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Andrea Barzagli",
+          "p": "DF",
+          "r": 86,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Leonardo Bonucci",
+          "p": "DF",
+          "r": 87,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giorgio Chiellini",
+          "p": "DF",
+          "r": 87,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Patrice Evra",
+          "p": "DF",
+          "r": 82,
+          "nat": "France",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Stephan Lichtsteiner",
+          "p": "DF",
+          "r": 82,
+          "nat": "Switzerland",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Claudio Marchisio",
+          "p": "MF",
+          "r": 85,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Sami Khedira",
+          "p": "MF",
+          "r": 84,
+          "nat": "Germany",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Paul Pogba",
+          "p": "MF",
+          "r": 89,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Juan Cuadrado",
+          "p": "MF",
+          "r": 83,
+          "nat": "Colombia",
+          "dp": [
+            "RM",
+            "RW"
+          ]
+        },
+        {
+          "n": "Paulo Dybala",
+          "p": "FW",
+          "r": 87,
+          "nat": "Argentina",
+          "dp": [
+            "SS",
+            "CF"
+          ]
+        },
+        {
+          "n": "Álvaro Morata",
+          "p": "FW",
+          "r": 83,
+          "nat": "Spain",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mario Mandžukić",
+          "p": "FW",
+          "r": 84,
+          "nat": "Croatia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Simone Zaza",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alex Sandro",
+          "p": "DF",
+          "r": 82,
+          "nat": "Brazil",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Roberto Pereyra",
+          "p": "MF",
+          "r": 80,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Pereyra",
+          "MF"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2015-16"
+        }
+      ]
+    },
+    {
+      "id": "ita-nap-2016",
+      "club": "Napoli",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#6EC6E6",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 2 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Pepe Reina",
+          "p": "GK",
+          "r": 83,
+          "nat": "Spain",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Elseid Hysaj",
+          "p": "DF",
+          "r": 80,
+          "nat": "Albania",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Raúl Albiol",
+          "p": "DF",
+          "r": 82,
+          "nat": "Spain",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Kalidou Koulibaly",
+          "p": "DF",
+          "r": 84,
+          "nat": "Senegal",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Faouzi Ghoulam",
+          "p": "DF",
+          "r": 81,
+          "nat": "Algeria",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Jorginho",
+          "p": "MF",
+          "r": 83,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Allan",
+          "p": "MF",
+          "r": 82,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marek Hamšík",
+          "p": "MF",
+          "r": 86,
+          "nat": "Slovakia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "David López",
+          "p": "MF",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "José Callejón",
+          "p": "FW",
+          "r": 83,
+          "nat": "Spain",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Lorenzo Insigne",
+          "p": "FW",
+          "r": 84,
+          "nat": "Italy",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Gonzalo Higuaín",
+          "p": "FW",
+          "r": 91,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Dries Mertens",
+          "p": "FW",
+          "r": 83,
+          "nat": "Belgium",
+          "dp": [
+            "LW",
+            "CF"
+          ]
+        },
+        {
+          "n": "Manolo Gabbiadini",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Vlad Chiricheș",
+          "p": "DF",
+          "r": 77,
+          "nat": "Romania",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Omar El Kaddouri",
+          "p": "MF",
+          "r": 76,
+          "nat": "Morocco",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Omar El Kaddouri",
+          "MF"
+        ],
+        [
+          "Pepe Reina",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2015-16"
+        }
+      ]
+    },
+    {
+      "id": "ita-rom-2016",
+      "club": "AS Roma",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#8E1F2F",
+        "#F0BC42"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 3 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Wojciech Szczęsny",
+          "p": "GK",
+          "r": 82,
+          "nat": "Poland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Kostas Manolas",
+          "p": "DF",
+          "r": 84,
+          "nat": "Greece",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Antonio Rüdiger",
+          "p": "DF",
+          "r": 80,
+          "nat": "Germany",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Lucas Digne",
+          "p": "DF",
+          "r": 80,
+          "nat": "France",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Alessandro Florenzi",
+          "p": "DF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "RM"
+          ]
+        },
+        {
+          "n": "Daniele De Rossi",
+          "p": "MF",
+          "r": 83,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Miralem Pjanić",
+          "p": "MF",
+          "r": 86,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Radja Nainggolan",
+          "p": "MF",
+          "r": 85,
+          "nat": "Belgium",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Seydou Keita",
+          "p": "MF",
+          "r": 78,
+          "nat": "Mali",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mohamed Salah",
+          "p": "FW",
+          "r": 84,
+          "nat": "Egypt",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Edin Džeko",
+          "p": "FW",
+          "r": 82,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Stephan El Shaarawy",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Diego Perotti",
+          "p": "FW",
+          "r": 79,
+          "nat": "Argentina",
+          "dp": [
+            "LW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Francesco Totti",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "SS"
+          ]
+        },
+        {
+          "n": "Maicon",
+          "p": "DF",
+          "r": 79,
+          "nat": "Brazil",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Emerson Palmieri",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Emerson Palmieri",
+          "DF"
+        ],
+        [
+          "Wojciech Szczęsny",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2015-16"
+        }
+      ]
+    },
+    {
+      "id": "ita-int-2016",
+      "club": "Inter",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#0066CC",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 4 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Samir Handanović",
+          "p": "GK",
+          "r": 84,
+          "nat": "Slovenia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Jeison Murillo",
+          "p": "DF",
+          "r": 80,
+          "nat": "Colombia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Miranda",
+          "p": "DF",
+          "r": 83,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Juan Jesus",
+          "p": "DF",
+          "r": 77,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Yuto Nagatomo",
+          "p": "DF",
+          "r": 76,
+          "nat": "Japan",
+          "dp": [
+            "LB",
+            "RB"
+          ]
+        },
+        {
+          "n": "Danilo D’Ambrosio",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Gary Medel",
+          "p": "MF",
+          "r": 79,
+          "nat": "Chile",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Geoffrey Kondogbia",
+          "p": "MF",
+          "r": 79,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marcelo Brozović",
+          "p": "MF",
+          "r": 80,
+          "nat": "Croatia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ivan Perišić",
+          "p": "MF",
+          "r": 82,
+          "nat": "Croatia",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Adem Ljajić",
+          "p": "MF",
+          "r": 79,
+          "nat": "Serbia",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Mauro Icardi",
+          "p": "FW",
+          "r": 84,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Rodrigo Palacio",
+          "p": "FW",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Stevan Jovetić",
+          "p": "FW",
+          "r": 80,
+          "nat": "Montenegro",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Éder",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Felipe Melo",
+          "p": "MF",
+          "r": 77,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Felipe Melo",
+          "MF"
+        ],
+        [
+          "Samir Handanović",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-fio-2016",
+      "club": "Fiorentina",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#4B0082",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 5 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Ciprian Tătărușanu",
+          "p": "GK",
+          "r": 78,
+          "nat": "Romania",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Gonzalo Rodríguez",
+          "p": "DF",
+          "r": 82,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Davide Astori",
+          "p": "DF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Marcos Alonso",
+          "p": "DF",
+          "r": 80,
+          "nat": "Spain",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Nenad Tomović",
+          "p": "DF",
+          "r": 76,
+          "nat": "Serbia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Borja Valero",
+          "p": "MF",
+          "r": 83,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Matías Vecino",
+          "p": "MF",
+          "r": 79,
+          "nat": "Uruguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Milan Badelj",
+          "p": "MF",
+          "r": 80,
+          "nat": "Croatia",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Josip Iličić",
+          "p": "MF",
+          "r": 82,
+          "nat": "Slovenia",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Federico Bernardeschi",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Nikola Kalinić",
+          "p": "FW",
+          "r": 82,
+          "nat": "Croatia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Khouma Babacar",
+          "p": "FW",
+          "r": 77,
+          "nat": "Senegal",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giuseppe Rossi",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Cristian Tello",
+          "p": "MF",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Jakub Błaszczykowski",
+          "p": "MF",
+          "r": 78,
+          "nat": "Poland",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Facundo Roncaglia",
+          "p": "DF",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Facundo Roncaglia",
+          "DF"
+        ],
+        [
+          "Ciprian Tătărușanu",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2015-16"
+        }
+      ]
+    },
+    {
+      "id": "ita-sas-2016",
+      "club": "Sassuolo",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#00A651",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 6 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Andrea Consigli",
+          "p": "GK",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Francesco Acerbi",
+          "p": "DF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Šime Vrsaljko",
+          "p": "DF",
+          "r": 80,
+          "nat": "Croatia",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Federico Peluso",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Paolo Cannavaro",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Francesco Magnanelli",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Simone Missiroli",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Lorenzo Pellegrini",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alfred Duncan",
+          "p": "MF",
+          "r": 76,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Domenico Berardi",
+          "p": "FW",
+          "r": 83,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Nicola Sansone",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Grégoire Defrel",
+          "p": "FW",
+          "r": 79,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Diego Falcinelli",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Matteo Politano",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Marcello Gazzola",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Emanuele Terranova",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Emanuele Terranova",
+          "DF"
+        ],
+        [
+          "Andrea Consigli",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-mil-2016",
+      "club": "AC Milan",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#D50000",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 7 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Gianluigi Donnarumma",
+          "p": "GK",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Alessio Romagnoli",
+          "p": "DF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Alex",
+          "p": "DF",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ignazio Abate",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Mattia De Sciglio",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "RB"
+          ]
+        },
+        {
+          "n": "Luca Antonelli",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Riccardo Montolivo",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Giacomo Bonaventura",
+          "p": "MF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Juraj Kucka",
+          "p": "MF",
+          "r": 78,
+          "nat": "Slovakia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Andrea Bertolacci",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Carlos Bacca",
+          "p": "FW",
+          "r": 83,
+          "nat": "Colombia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "M’Baye Niang",
+          "p": "FW",
+          "r": 77,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Keisuke Honda",
+          "p": "FW",
+          "r": 78,
+          "nat": "Japan",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Luiz Adriano",
+          "p": "FW",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mario Balotelli",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Jérémy Ménez",
+          "p": "FW",
+          "r": 76,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Jérémy Ménez",
+          "FW"
+        ],
+        [
+          "Gianluigi Donnarumma",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-laz-2016",
+      "club": "Lazio",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#87CEEB",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 8 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Federico Marchetti",
+          "p": "GK",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Stefan de Vrij",
+          "p": "DF",
+          "r": 81,
+          "nat": "Netherlands",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Wesley Hoedt",
+          "p": "DF",
+          "r": 76,
+          "nat": "Netherlands",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Dusan Basta",
+          "p": "DF",
+          "r": 77,
+          "nat": "Serbia",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Ștefan Radu",
+          "p": "DF",
+          "r": 78,
+          "nat": "Romania",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Lucas Biglia",
+          "p": "MF",
+          "r": 83,
+          "nat": "Argentina",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Marco Parolo",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Sergej Milinković-Savić",
+          "p": "MF",
+          "r": 78,
+          "nat": "Serbia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonio Candreva",
+          "p": "MF",
+          "r": 83,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Felipe Anderson",
+          "p": "MF",
+          "r": 81,
+          "nat": "Brazil",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Miroslav Klose",
+          "p": "FW",
+          "r": 79,
+          "nat": "Germany",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alessandro Matri",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Keita Baldé",
+          "p": "FW",
+          "r": 78,
+          "nat": "Senegal",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Senad Lulić",
+          "p": "MF",
+          "r": 79,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "LM"
+          ]
+        },
+        {
+          "n": "Santiago Gentiletti",
+          "p": "DF",
+          "r": 75,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Danilo Cataldi",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Danilo Cataldi",
+          "MF"
+        ],
+        [
+          "Federico Marchetti",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2015-16"
+        }
+      ]
+    },
+    {
+      "id": "ita-chi-2016",
+      "club": "Chievo",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#FFD100",
+        "#0057B8"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 9 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Albano Bizzarri",
+          "p": "GK",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Alessandro Gamberini",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Bostjan Cesar",
+          "p": "DF",
+          "r": 75,
+          "nat": "Slovenia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Massimo Gobbi",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Nicolas Frey",
+          "p": "DF",
+          "r": 74,
+          "nat": "France",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Lucas Castro",
+          "p": "MF",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Valter Birsa",
+          "p": "MF",
+          "r": 78,
+          "nat": "Slovenia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Perparim Hetemaj",
+          "p": "MF",
+          "r": 76,
+          "nat": "Finland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ivan Radovanović",
+          "p": "MF",
+          "r": 75,
+          "nat": "Serbia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Riccardo Meggiorini",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alberto Paloschi",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Roberto Inglese",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Sergio Pellissier",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Nicola Rigoni",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Fabrizio Cacciatore",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Samuel Bastien",
+          "p": "MF",
+          "r": 73,
+          "nat": "Belgium",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Samuel Bastien",
+          "MF"
+        ],
+        [
+          "Albano Bizzarri",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-emp-2016",
+      "club": "Empoli",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#009BDB",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 10 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Łukasz Skorupski",
+          "p": "GK",
+          "r": 77,
+          "nat": "Poland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Lorenzo Tonelli",
+          "p": "DF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Federico Barba",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Mario Rui",
+          "p": "DF",
+          "r": 77,
+          "nat": "Portugal",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Vincent Laurini",
+          "p": "DF",
+          "r": 74,
+          "nat": "France",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Leandro Paredes",
+          "p": "MF",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Piotr Zieliński",
+          "p": "MF",
+          "r": 79,
+          "nat": "Poland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Daniele Croce",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Rade Krunić",
+          "p": "MF",
+          "r": 74,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Massimo Maccarone",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Riccardo Saponara",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Manuel Pucciarelli",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Marko Livaja",
+          "p": "FW",
+          "r": 74,
+          "nat": "Croatia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Marcel Büchel",
+          "p": "MF",
+          "r": 74,
+          "nat": "Liechtenstein",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Uroš Ćosić",
+          "p": "DF",
+          "r": 73,
+          "nat": "Serbia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Alberto Pelagotti",
+          "p": "GK",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Alberto Pelagotti",
+          "GK"
+        ],
+        [
+          "Łukasz Skorupski",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-gen-2016",
+      "club": "Genoa",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#CC0000",
+        "#003DA5"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 11 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Mattia Perin",
+          "p": "GK",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Armando Izzo",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Nicolás Burdisso",
+          "p": "DF",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Sebastián De Maio",
+          "p": "DF",
+          "r": 75,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Ansaldi",
+          "p": "DF",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "LB",
+            "RB"
+          ]
+        },
+        {
+          "n": "Tomás Rincón",
+          "p": "MF",
+          "r": 78,
+          "nat": "Venezuela",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Blerim Džemaili",
+          "p": "MF",
+          "r": 77,
+          "nat": "Switzerland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Diego Laxalt",
+          "p": "MF",
+          "r": 76,
+          "nat": "Uruguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Suso",
+          "p": "MF",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Leonardo Pavoletti",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Goran Pandev",
+          "p": "FW",
+          "r": 76,
+          "nat": "North Macedonia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alessio Cerci",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Diego Perotti",
+          "p": "FW",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Tino Costa",
+          "p": "MF",
+          "r": 75,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ezequiel Muñoz",
+          "p": "DF",
+          "r": 74,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giovanni Marchese",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Giovanni Marchese",
+          "DF"
+        ],
+        [
+          "Mattia Perin",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-tor-2016",
+      "club": "Torino",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#8B0000",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 12 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Daniele Padelli",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Kamil Glik",
+          "p": "DF",
+          "r": 80,
+          "nat": "Poland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Nikola Maksimović",
+          "p": "DF",
+          "r": 78,
+          "nat": "Serbia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Emiliano Moretti",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Molinaro",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Marco Benassi",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Giuseppe Vives",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Daniele Baselli",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Afriyie Acquah",
+          "p": "MF",
+          "r": 75,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Andrea Belotti",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Ciro Immobile",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Fabio Quagliarella",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Josef Martínez",
+          "p": "FW",
+          "r": 75,
+          "nat": "Venezuela",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Bruno Peres",
+          "p": "MF",
+          "r": 79,
+          "nat": "Brazil",
+          "dp": [
+            "RB",
+            "RM"
+          ]
+        },
+        {
+          "n": "Joel Obi",
+          "p": "MF",
+          "r": 74,
+          "nat": "Nigeria",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Davide Zappacosta",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Davide Zappacosta",
+          "DF"
+        ],
+        [
+          "Daniele Padelli",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-ata-2016",
+      "club": "Atalanta",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#1A1A6E",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 13 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Marco Sportiello",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Andrea Masiello",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Rafael Tolói",
+          "p": "DF",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Guglielmo Stendardo",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Boukary Dramé",
+          "p": "DF",
+          "r": 74,
+          "nat": "Senegal",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Marten de Roon",
+          "p": "MF",
+          "r": 78,
+          "nat": "Netherlands",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Jasmin Kurtić",
+          "p": "MF",
+          "r": 77,
+          "nat": "Slovenia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alejandro Gómez",
+          "p": "MF",
+          "r": 81,
+          "nat": "Argentina",
+          "dp": [
+            "LW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Daniele Cigarini",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mauricio Pinilla",
+          "p": "FW",
+          "r": 77,
+          "nat": "Chile",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Marco Borriello",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Germán Denis",
+          "p": "FW",
+          "r": 75,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Gaetano Monachello",
+          "p": "FW",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Cristian Raimondi",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Giulio Migliaccio",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Gabriel Paletta",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Gabriel Paletta",
+          "DF"
+        ],
+        [
+          "Marco Sportiello",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-bol-2016",
+      "club": "Bologna",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#BA251E",
+        "#000033"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 14 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Antonio Mirante",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Domenico Maietta",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniele Gastaldello",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Adam Masina",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Ibrahima Mbaye",
+          "p": "DF",
+          "r": 75,
+          "nat": "Senegal",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Saphir Taïder",
+          "p": "MF",
+          "r": 76,
+          "nat": "Algeria",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Godfred Donsah",
+          "p": "MF",
+          "r": 75,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Amadou Diawara",
+          "p": "MF",
+          "r": 78,
+          "nat": "Guinea",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Anthony Mounier",
+          "p": "MF",
+          "r": 75,
+          "nat": "France",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Mattia Destro",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Emanuele Giaccherini",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Franco Brienza",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Sergio Floccari",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Lorenzo Crisetig",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marios Oikonomou",
+          "p": "DF",
+          "r": 74,
+          "nat": "Greece",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Simone Verdi",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Simone Verdi",
+          "FW"
+        ],
+        [
+          "Antonio Mirante",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-sam-2016",
+      "club": "Sampdoria",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#1A2D6B",
+        "#E30613"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 15 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Emiliano Viviano",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Matías Silvestre",
+          "p": "DF",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Niklas Moisander",
+          "p": "DF",
+          "r": 76,
+          "nat": "Finland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Vasco Regini",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Lorenzo De Silvestri",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Édgar Barreto",
+          "p": "MF",
+          "r": 76,
+          "nat": "Paraguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Fernando",
+          "p": "MF",
+          "r": 77,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Roberto Soriano",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Carlos Carbonero",
+          "p": "MF",
+          "r": 74,
+          "nat": "Colombia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Éder",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Luis Muriel",
+          "p": "FW",
+          "r": 78,
+          "nat": "Colombia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Antonio Cassano",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Fabio Quagliarella",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Joaquín Correa",
+          "p": "FW",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mattia Cassani",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrea Ranocchia",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Andrea Ranocchia",
+          "DF"
+        ],
+        [
+          "Emiliano Viviano",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-pal-2016",
+      "club": "Palermo",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#F7A6B8",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 16 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Stefano Sorrentino",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Giancarlo González",
+          "p": "DF",
+          "r": 76,
+          "nat": "Costa Rica",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Edoardo Goldaniga",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Sinisa Anđelković",
+          "p": "DF",
+          "r": 73,
+          "nat": "Slovenia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Achraf Lazaar",
+          "p": "DF",
+          "r": 75,
+          "nat": "Morocco",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Oscar Hiljemark",
+          "p": "MF",
+          "r": 76,
+          "nat": "Sweden",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mato Jajalo",
+          "p": "MF",
+          "r": 74,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Enzo Maresca",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Franco Vázquez",
+          "p": "MF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Alberto Gilardino",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Aleksandar Trajkovski",
+          "p": "FW",
+          "r": 74,
+          "nat": "North Macedonia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Robin Quaison",
+          "p": "FW",
+          "r": 75,
+          "nat": "Sweden",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Ivaylo Chochev",
+          "p": "MF",
+          "r": 74,
+          "nat": "Bulgaria",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Uroš Đurđević",
+          "p": "FW",
+          "r": 72,
+          "nat": "Serbia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Michel Morganella",
+          "p": "DF",
+          "r": 73,
+          "nat": "Switzerland",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Aljaž Struna",
+          "p": "DF",
+          "r": 73,
+          "nat": "Slovenia",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Aljaž Struna",
+          "DF"
+        ],
+        [
+          "Stefano Sorrentino",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-udi-2016",
+      "club": "Udinese",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#FFFFFF",
+        "#1D1D1B"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 17 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Orestis Karnezis",
+          "p": "GK",
+          "r": 78,
+          "nat": "Greece",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Danilo",
+          "p": "DF",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Thomas Heurtaux",
+          "p": "DF",
+          "r": 76,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Felipe",
+          "p": "DF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Silvan Widmer",
+          "p": "DF",
+          "r": 77,
+          "nat": "Switzerland",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Emmanuel Badu",
+          "p": "MF",
+          "r": 77,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Guilherme",
+          "p": "MF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Bruno Fernandes",
+          "p": "MF",
+          "r": 80,
+          "nat": "Portugal",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Francesco Lodi",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonio Di Natale",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Duván Zapata",
+          "p": "FW",
+          "r": 77,
+          "nat": "Colombia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Cyril Théréau",
+          "p": "FW",
+          "r": 77,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Stipe Perica",
+          "p": "FW",
+          "r": 74,
+          "nat": "Croatia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Ali Adnan",
+          "p": "DF",
+          "r": 75,
+          "nat": "Iraq",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Edenílson",
+          "p": "MF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Panagiotis Kone",
+          "p": "MF",
+          "r": 75,
+          "nat": "Greece",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Panagiotis Kone",
+          "MF"
+        ],
+        [
+          "Orestis Karnezis",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-car-2016",
+      "club": "Carpi",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#FFFFFF",
+        "#FF0000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 18 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Vid Belec",
+          "p": "GK",
+          "r": 74,
+          "nat": "Slovenia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Cristian Zaccardo",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Simone Romagnoli",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Riccardo Gagliolo",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gaetano Letizia",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Lorenzo Lollo",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marco Crimi",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Raphael Martinho",
+          "p": "MF",
+          "r": 73,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Isaac Cofie",
+          "p": "MF",
+          "r": 73,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Kevin Lasagna",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Jerry Mbakogu",
+          "p": "FW",
+          "r": 75,
+          "nat": "Nigeria",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Federico Di Gaudio",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Matteo Mancosu",
+          "p": "FW",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Ryder Matos",
+          "p": "FW",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Wallace",
+          "p": "DF",
+          "r": 72,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Željko Brkić",
+          "p": "GK",
+          "r": 73,
+          "nat": "Serbia",
+          "dp": [
+            "GK"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Željko Brkić",
+          "GK"
+        ],
+        [
+          "Vid Belec",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-fro-2016",
+      "club": "Frosinone",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#FFD700",
+        "#003DA5"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 19 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Nicola Leali",
+          "p": "GK",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Leonardo Blanchard",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Adriano Russo",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Roberto Crivello",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Aleandro Rosi",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Mirko Gori",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Danilo Soddimo",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Raman Chibsah",
+          "p": "MF",
+          "r": 73,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Paolo Sammarco",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Daniel Ciofani",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Federico Dionisi",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Aleksandar Tonev",
+          "p": "FW",
+          "r": 73,
+          "nat": "Bulgaria",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Samuele Longo",
+          "p": "FW",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Modibo Diakité",
+          "p": "DF",
+          "r": 73,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Robert Gucher",
+          "p": "MF",
+          "r": 72,
+          "nat": "Austria",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Matteo Ciofani",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Matteo Ciofani",
+          "DF"
+        ],
+        [
+          "Nicola Leali",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-ver-2016",
+      "club": "Hellas Verona",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2015-16",
+      "kit": [
+        "#0033A0",
+        "#FFD100"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2015-16, 20 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Rafael",
+          "p": "GK",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Vangelis Moras",
+          "p": "DF",
+          "r": 74,
+          "nat": "Greece",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Rafael Márquez",
+          "p": "DF",
+          "r": 77,
+          "nat": "Mexico",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Eros Pisano",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Samuel Souprayen",
+          "p": "DF",
+          "r": 73,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Leandro Greco",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Bosko Janković",
+          "p": "MF",
+          "r": 74,
+          "nat": "Serbia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Artur Ionita",
+          "p": "MF",
+          "r": 75,
+          "nat": "Moldova",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Jacopo Sala",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Luca Toni",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giampaolo Pazzini",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Juanito Gómez",
+          "p": "FW",
+          "r": 74,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Lazaros Christodoulopoulos",
+          "p": "FW",
+          "r": 73,
+          "nat": "Greece",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Ante Rebić",
+          "p": "FW",
+          "r": 73,
+          "nat": "Croatia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Filip Helander",
+          "p": "DF",
+          "r": 73,
+          "nat": "Sweden",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Federico Viviani",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Federico Viviani",
+          "MF"
+        ],
+        [
+          "Rafael",
+          "GK"
+        ],
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Paolo Maldini",
+          "DF"
+        ]
+      ]
+    }
+  ]
+}
