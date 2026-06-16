@@ -2464,25 +2464,6 @@
    ]
   },
   {
-   "id": "uel-asroma-202223",
-   "tierType": "O",
-   "club": "AS Roma",
-   "country": "Italy",
-   "season": "2022-23",
-   "comps": [
-    "UEL"
-   ],
-   "rating": 81,
-   "kit": [
-    "#8E1F2F",
-    "#F0BC42"
-   ],
-   "crest": null,
-   "scorers": [
-    "Dybala"
-   ]
-  },
-  {
    "id": "uel-bayerl-202324",
    "tierType": "O",
    "club": "Bayer Leverkusen",

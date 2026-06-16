@@ -69,25 +69,6 @@
    ]
   },
   {
-   "id": "confl-fio-2223",
-   "tierType": "O",
-   "club": "Fiorentina",
-   "country": "Italy",
-   "season": "2022-23",
-   "comps": [
-    "CONFL"
-   ],
-   "rating": 75,
-   "kit": [
-    "#4B0082",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Jović"
-   ]
-  },
-  {
    "id": "confl-oly-2324",
    "tierType": "O",
    "club": "Olympiacos",
