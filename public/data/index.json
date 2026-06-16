@@ -102,6 +102,11 @@
    "file": "pack-pickable-c1.json",
    "name": "C1: Serie A 2024-25 (all 20 clubs)",
    "v": "0.22"
+  },
+  {
+   "file": "pack-pickable-c2.json",
+   "name": "C2: Serie A 2023-24 (all clubs)",
+   "v": "0.22"
   }
  ]
 }

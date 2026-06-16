@@ -2483,25 +2483,6 @@
    ]
   },
   {
-   "id": "uel-atalan-202324",
-   "tierType": "O",
-   "club": "Atalanta",
-   "country": "Italy",
-   "season": "2023-24",
-   "comps": [
-    "UEL"
-   ],
-   "rating": 83,
-   "kit": [
-    "#1E71B8",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Lookman"
-   ]
-  },
-  {
    "id": "uel-bayerl-202324",
    "tierType": "O",
    "club": "Bayer Leverkusen",

@@ -107,25 +107,6 @@
    ]
   },
   {
-   "id": "confl-fio-2324",
-   "tierType": "O",
-   "club": "Fiorentina",
-   "country": "Italy",
-   "season": "2023-24",
-   "comps": [
-    "CONFL"
-   ],
-   "rating": 75,
-   "kit": [
-    "#4B0082",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Nzola"
-   ]
-  },
-  {
    "id": "confl-che-2425",
    "tierType": "O",
    "club": "Chelsea",
