@@ -1,8 +1,8 @@
-# Roll XI (app, v0.3)
+# Roll XI
 
 A mobile-first football game across the European club game, 1960-2026.
-Modes: daily sticker trivia with a Panini-style album (live), Champions
-League format campaign (chunk A2-A3), link-up chains (chunk A4).
+Modes: daily sticker trivia with a Panini-style album, Champions
+League format campaign, and link-up chains.
 
 ## Run locally
     npm install

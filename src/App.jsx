@@ -57,11 +57,11 @@ export default function App() {
         <button className="ghost" style={{ width: "100%", padding: "14px", fontSize: 14, marginTop: 10, display: "flex", justifyContent: "space-between", alignItems: "center" }}
           onClick={() => setView("campaign")}>
           <span>Campaign</span>
-          <span className="tele dim" style={{ fontSize: 12 }}>chunk A2 →</span>
+          <span className="tele dim" style={{ fontSize: 12 }}>Build your XI →</span>
         </button>
 
         <p className="dim tele" style={{ fontSize: 11, marginTop: 18, textAlign: "center" }}>
-          v0.3 · {data ? data.squads.length : 0} pickable squads · {data ? data.players.length : 0} players · opponent index pending
+          {data ? data.squads.length : 0} pickable squads · {data ? data.players.length : 0} players · {data ? data.oppRows.length : 0} opponents
         </p>
         {!storageAvailable() && (
           <p className="tele" style={{ fontSize: 11, marginTop: 6, textAlign: "center", color: "var(--flame)" }}>
