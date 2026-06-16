@@ -192,6 +192,26 @@
       "file": "pack-pickable-c19.json",
       "name": "C19: Serie A 2006-07 (rebuilt, Milan 2006-07 skipped as already pickable)",
       "v": "0.25"
+    },
+    {
+      "file": "pack-pickable-c20.json",
+      "label": "C-series Serie A 2005-06"
+    },
+    {
+      "file": "pack-pickable-c21.json",
+      "label": "C-series Serie A 2004-05"
+    },
+    {
+      "file": "pack-pickable-c22.json",
+      "label": "C-series Serie A 2003-04"
+    },
+    {
+      "file": "pack-pickable-c23.json",
+      "label": "C-series Serie A 2002-03"
+    },
+    {
+      "file": "pack-pickable-c24.json",
+      "label": "C-series Serie A 2001-02"
     }
   ]
 }

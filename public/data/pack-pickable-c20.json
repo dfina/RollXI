@@ -1,0 +1,3468 @@
+{
+  "squads": [
+    {
+      "id": "ita-juventus-06",
+      "club": "Juventus",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2005-06, 20 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Gianluigi Buffon",
+          "p": "GK",
+          "r": 91,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Christian Abbiati",
+          "p": "GK",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Fabio Cannavaro",
+          "p": "DF",
+          "r": 92,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Lilian Thuram",
+          "p": "DF",
+          "r": 88,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gianluca Zambrotta",
+          "p": "DF",
+          "r": 88,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Giorgio Chiellini",
+          "p": "DF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Jonathan Zebina",
+          "p": "DF",
+          "r": 79,
+          "nat": "France",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Robert Kovač",
+          "p": "DF",
+          "r": 79,
+          "nat": "Croatia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Emerson",
+          "p": "MF",
+          "r": 88,
+          "nat": "Brazil",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Patrick Vieira",
+          "p": "MF",
+          "r": 87,
+          "nat": "France",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Pavel Nedvěd",
+          "p": "MF",
+          "r": 87,
+          "nat": "Czech Republic",
+          "dp": [
+            "LM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Mauro Camoranesi",
+          "p": "MF",
+          "r": 84,
+          "nat": "Italy",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Alessandro Del Piero",
+          "p": "FW",
+          "r": 88,
+          "nat": "Italy",
+          "dp": [
+            "SS",
+            "CF"
+          ]
+        },
+        {
+          "n": "David Trezeguet",
+          "p": "FW",
+          "r": 88,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Zlatan Ibrahimović",
+          "p": "FW",
+          "r": 86,
+          "nat": "Sweden",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Adrian Mutu",
+          "p": "FW",
+          "r": 82,
+          "nat": "Romania",
+          "dp": [
+            "SS",
+            "LW"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ],
+        [
+          "Christian Abbiati",
+          "GK"
+        ],
+        [
+          "Fabio Cannavaro",
+          "DF"
+        ],
+        [
+          "Lilian Thuram",
+          "DF"
+        ]
+      ],
+      "euro": "UCL"
+    },
+    {
+      "id": "ita-inter-06",
+      "club": "Inter",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#0057B8",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2005-06, 1 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Francesco Toldo",
+          "p": "GK",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Júlio César",
+          "p": "GK",
+          "r": 81,
+          "nat": "Brazil",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Javier Zanetti",
+          "p": "DF",
+          "r": 86,
+          "nat": "Argentina",
+          "dp": [
+            "RB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Iván Córdoba",
+          "p": "DF",
+          "r": 84,
+          "nat": "Colombia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Walter Samuel",
+          "p": "DF",
+          "r": 84,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Marco Materazzi",
+          "p": "DF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Nicolás Burdisso",
+          "p": "DF",
+          "r": 79,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giuseppe Favalli",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Esteban Cambiasso",
+          "p": "MF",
+          "r": 86,
+          "nat": "Argentina",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Juan Sebastián Verón",
+          "p": "MF",
+          "r": 84,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Dejan Stanković",
+          "p": "MF",
+          "r": 84,
+          "nat": "Serbia and Montenegro",
+          "dp": [
+            "CM",
+            "RM"
+          ]
+        },
+        {
+          "n": "Luís Figo",
+          "p": "MF",
+          "r": 84,
+          "nat": "Portugal",
+          "dp": [
+            "RM",
+            "AM"
+          ]
+        },
+        {
+          "n": "David Pizarro",
+          "p": "MF",
+          "r": 81,
+          "nat": "Chile",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Adriano",
+          "p": "FW",
+          "r": 88,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Obafemi Martins",
+          "p": "FW",
+          "r": 82,
+          "nat": "Nigeria",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Julio Cruz",
+          "p": "FW",
+          "r": 80,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Francesco Toldo",
+          "GK"
+        ],
+        [
+          "Júlio César",
+          "GK"
+        ],
+        [
+          "Javier Zanetti",
+          "DF"
+        ],
+        [
+          "Iván Córdoba",
+          "DF"
+        ]
+      ],
+      "euro": "UCL"
+    },
+    {
+      "id": "ita-fiorentina-06",
+      "club": "Fiorentina",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#5A2D81",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2005-06, 9 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Sébastien Frey",
+          "p": "GK",
+          "r": 82,
+          "nat": "France",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Bogdan Lobonț",
+          "p": "GK",
+          "r": 76,
+          "nat": "Romania",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Tomáš Ujfaluši",
+          "p": "DF",
+          "r": 82,
+          "nat": "Czech Republic",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Dario Dainelli",
+          "p": "DF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Alessandro Gamberini",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Manuel Pasqual",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Marco Di Loreto",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Marco Donadel",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Cristian Brocchi",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Stefano Fiore",
+          "p": "MF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Martin Jørgensen",
+          "p": "MF",
+          "r": 80,
+          "nat": "Denmark",
+          "dp": [
+            "RM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Riccardo Montolivo",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Valeri Bojinov",
+          "p": "FW",
+          "r": 78,
+          "nat": "Bulgaria",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giampaolo Pazzini",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Luca Toni",
+          "p": "FW",
+          "r": 87,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Luis Jiménez",
+          "p": "MF",
+          "r": 76,
+          "nat": "Chile",
+          "dp": [
+            "AM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Sébastien Frey",
+          "GK"
+        ],
+        [
+          "Bogdan Lobonț",
+          "GK"
+        ],
+        [
+          "Tomáš Ujfaluši",
+          "DF"
+        ],
+        [
+          "Dario Dainelli",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-as-roma-06",
+      "club": "AS Roma",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#8E1B1B",
+        "#F2A900"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2005-06, 2 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Doni",
+          "p": "GK",
+          "r": 80,
+          "nat": "Brazil",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Gianluca Curci",
+          "p": "GK",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Christian Panucci",
+          "p": "DF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Philippe Mexès",
+          "p": "DF",
+          "r": 82,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Chivu",
+          "p": "DF",
+          "r": 83,
+          "nat": "Romania",
+          "dp": [
+            "CB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Leandro Cufré",
+          "p": "DF",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "LB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Samuel Kuffour",
+          "p": "DF",
+          "r": 77,
+          "nat": "Ghana",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cesare Bovo",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniele De Rossi",
+          "p": "MF",
+          "r": 84,
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Simone Perrotta",
+          "p": "MF",
+          "r": 83,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Rodrigo Taddei",
+          "p": "MF",
+          "r": 81,
+          "nat": "Brazil",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Alberto Aquilani",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mancini",
+          "p": "MF",
+          "r": 82,
+          "nat": "Brazil",
+          "dp": [
+            "RW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Damiano Tommasi",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Francesco Totti",
+          "p": "FW",
+          "r": 90,
+          "nat": "Italy",
+          "dp": [
+            "SS",
+            "AM"
+          ]
+        },
+        {
+          "n": "Shabani Nonda",
+          "p": "FW",
+          "r": 77,
+          "nat": "DR Congo",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Doni",
+          "GK"
+        ],
+        [
+          "Gianluca Curci",
+          "GK"
+        ],
+        [
+          "Christian Panucci",
+          "DF"
+        ],
+        [
+          "Philippe Mexès",
+          "DF"
+        ]
+      ],
+      "euro": "UEL"
+    },
+    {
+      "id": "ita-lazio-06",
+      "club": "Lazio",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#87CEEB",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2005-06, 16 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Angelo Peruzzi",
+          "p": "GK",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Marco Ballotta",
+          "p": "GK",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Massimo Oddo",
+          "p": "DF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Sebastiano Siviglia",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Emilson Cribari",
+          "p": "DF",
+          "r": 77,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Guglielmo Stendardo",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Luciano Zauri",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "RB"
+          ]
+        },
+        {
+          "n": "Manuel Belleri",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Fabio Liverani",
+          "p": "MF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ousmane Dabo",
+          "p": "MF",
+          "r": 77,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Gaby Mudingayi",
+          "p": "MF",
+          "r": 76,
+          "nat": "Belgium",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Stefano Mauri",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "LM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Goran Pandev",
+          "p": "FW",
+          "r": 81,
+          "nat": "Macedonia",
+          "dp": [
+            "SS"
+          ]
+        },
+        {
+          "n": "Tommaso Rocchi",
+          "p": "FW",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Paolo Di Canio",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "SS"
+          ]
+        },
+        {
+          "n": "Igli Tare",
+          "p": "FW",
+          "r": 75,
+          "nat": "Albania",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Angelo Peruzzi",
+          "GK"
+        ],
+        [
+          "Marco Ballotta",
+          "GK"
+        ],
+        [
+          "Massimo Oddo",
+          "DF"
+        ],
+        [
+          "Sebastiano Siviglia",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-chievo-06",
+      "club": "Chievo",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#FFD000",
+        "#003DA5"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2005-06, 4 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Stefano Sorrentino",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Lorenzo Squizzi",
+          "p": "GK",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Davide Mandelli",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Salvatore Lanna",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Lorenzo D’Anna",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Michele Marcolini",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Franco Semioli",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Matteo Brighi",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Paolo Sammarco",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Roberto Baronio",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Luciano",
+          "p": "MF",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "RM",
+            "RW"
+          ]
+        },
+        {
+          "n": "Sergio Pellissier",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Amauri",
+          "p": "FW",
+          "r": 80,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Victor Obinna",
+          "p": "FW",
+          "r": 76,
+          "nat": "Nigeria",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Simone Tiribocchi",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Massimo Marazzina",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Stefano Sorrentino",
+          "GK"
+        ],
+        [
+          "Lorenzo Squizzi",
+          "GK"
+        ],
+        [
+          "Davide Mandelli",
+          "DF"
+        ],
+        [
+          "Salvatore Lanna",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-palermo-06",
+      "club": "Palermo",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#F5A3C7",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "A",
+      "honour": "Serie A 2005-06, 5 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Federico Agliardi",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Alberto Fontana",
+          "p": "GK",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Cristian Zaccardo",
+          "p": "DF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Andrea Barzagli",
+          "p": "DF",
+          "r": 83,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giuseppe Biava",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Fabio Grosso",
+          "p": "DF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Eugenio Corini",
+          "p": "MF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Simone Barone",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Massimo Mutarelli",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mario Santana",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Franco Brienza",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Andrea Caracciolo",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Stephen Makinwa",
+          "p": "FW",
+          "r": 77,
+          "nat": "Nigeria",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Denis Godeas",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mariano González",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "LM"
+          ]
+        },
+        {
+          "n": "Giovanni Tedesco",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Federico Agliardi",
+          "GK"
+        ],
+        [
+          "Alberto Fontana",
+          "GK"
+        ],
+        [
+          "Cristian Zaccardo",
+          "DF"
+        ],
+        [
+          "Andrea Barzagli",
+          "DF"
+        ]
+      ],
+      "euro": "UEL"
+    },
+    {
+      "id": "ita-livorno-06",
+      "club": "Livorno",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#6F1D1B",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2005-06, 6 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Marco Amelia",
+          "p": "GK",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Fabio Galante",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Alessandro Grandoni",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Jorge Vargas",
+          "p": "DF",
+          "r": 77,
+          "nat": "Chile",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "David Balleri",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Marc Pfertzel",
+          "p": "DF",
+          "r": 74,
+          "nat": "France",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Stefano Morrone",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Dario Passoni",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Daniele De Ascentis",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "José Vidigal",
+          "p": "MF",
+          "r": 75,
+          "nat": "Portugal",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "César Prates",
+          "p": "DF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Cristiano Lucarelli",
+          "p": "FW",
+          "r": 84,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Tomáš Danilevičius",
+          "p": "FW",
+          "r": 76,
+          "nat": "Lithuania",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Ibrahima Bakayoko",
+          "p": "FW",
+          "r": 76,
+          "nat": "Ivory Coast",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Raffaele Palladino",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "SS",
+            "RW"
+          ]
+        },
+        {
+          "n": "Luca Vigiani",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "RM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Marco Amelia",
+          "GK"
+        ],
+        [
+          "Fabio Galante",
+          "DF"
+        ],
+        [
+          "Alessandro Grandoni",
+          "DF"
+        ],
+        [
+          "Jorge Vargas",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-parma-06",
+      "club": "Parma",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#FFD21E",
+        "#0033A0"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2005-06, 7 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Luca Bucci",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Paolo Cannavaro",
+          "p": "DF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniele Bonera",
+          "p": "DF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Matteo Contini",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Marco Marchionni",
+          "p": "MF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Vincenzo Grella",
+          "p": "MF",
+          "r": 78,
+          "nat": "Australia",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Fábio Simplício",
+          "p": "MF",
+          "r": 80,
+          "nat": "Brazil",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Mark Bresciano",
+          "p": "MF",
+          "r": 79,
+          "nat": "Australia",
+          "dp": [
+            "AM",
+            "RM"
+          ]
+        },
+        {
+          "n": "Daniele Dessena",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Domenico Morfeo",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Bernardo Corradi",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Andrea Pisanu",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Cristiano Lupatelli",
+          "p": "GK",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Giuseppe Cardone",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Fernando Couto",
+          "p": "DF",
+          "r": 76,
+          "nat": "Portugal",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giovanni Pasquale",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Luca Bucci",
+          "GK"
+        ],
+        [
+          "Paolo Cannavaro",
+          "DF"
+        ],
+        [
+          "Daniele Bonera",
+          "DF"
+        ],
+        [
+          "Matteo Contini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-empoli-06",
+      "club": "Empoli",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2005-06, 8 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Gianluca Berti",
+          "p": "GK",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Daniele Balli",
+          "p": "GK",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Francesco Pratali",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrea Raggi",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Stefano Lucchini",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrea Coda",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Vittorio Tosto",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Sergio Almirón",
+          "p": "MF",
+          "r": 79,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonio Buscè",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Ighli Vannucchi",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Davide Moro",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Francesco Tavano",
+          "p": "FW",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Nicola Pozzi",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Luca Saudati",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Christian Riganò",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Richard Vanigli",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Gianluca Berti",
+          "GK"
+        ],
+        [
+          "Daniele Balli",
+          "GK"
+        ],
+        [
+          "Francesco Pratali",
+          "DF"
+        ],
+        [
+          "Andrea Raggi",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-ascoli-06",
+      "club": "Ascoli",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2005-06, 9 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Ferdinando Coppola",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Massimo Paci",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Maurizio Domizzi",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gianluca Comotto",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Mirko Cudini",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gianluca Falsini",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Michele Fini",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Roberto Guana",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Fabio Pecchia",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Pasquale Foggia",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "RW"
+          ]
+        },
+        {
+          "n": "Andrea Soncin",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Fabio Quagliarella",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Marco Ferrante",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Igor Budan",
+          "p": "FW",
+          "r": 75,
+          "nat": "Croatia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Sasa Bjelanović",
+          "p": "FW",
+          "r": 75,
+          "nat": "Croatia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Cristiano Del Grosso",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Ferdinando Coppola",
+          "GK"
+        ],
+        [
+          "Massimo Paci",
+          "DF"
+        ],
+        [
+          "Maurizio Domizzi",
+          "DF"
+        ],
+        [
+          "Gianluca Comotto",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-udinese-06",
+      "club": "Udinese",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2005-06, 10 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Morgan De Sanctis",
+          "p": "GK",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Valerio Bertotto",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Felipe",
+          "p": "DF",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Néstor Sensini",
+          "p": "DF",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristián Zapata",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giovanni Pasquale",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Giampiero Pinzi",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Sulley Muntari",
+          "p": "MF",
+          "r": 79,
+          "nat": "Ghana",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Christian Obodo",
+          "p": "MF",
+          "r": 78,
+          "nat": "Nigeria",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Vincenzo Iaquinta",
+          "p": "FW",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "David Di Michele",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Antonio Di Natale",
+          "p": "FW",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Paulo Barreto",
+          "p": "FW",
+          "r": 76,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Stefano Mauri",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "LM"
+          ]
+        },
+        {
+          "n": "Andrea Coda",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Damiano Zenoni",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "RM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Morgan De Sanctis",
+          "GK"
+        ],
+        [
+          "Valerio Bertotto",
+          "DF"
+        ],
+        [
+          "Felipe",
+          "DF"
+        ],
+        [
+          "Néstor Sensini",
+          "DF"
+        ]
+      ],
+      "euro": "UCL"
+    },
+    {
+      "id": "ita-sampdoria-06",
+      "club": "Sampdoria",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2005-06, 11 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Luca Castellazzi",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Francesco Antonioli",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Giulio Falcone",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Luigi Sala",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristian Zenoni",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Marcello Castellini",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Max Tonetto",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Angelo Palombo",
+          "p": "MF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Sergio Volpi",
+          "p": "MF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Aimo Diana",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Massimo Donati",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Vitaliy Kutuzov",
+          "p": "FW",
+          "r": 75,
+          "nat": "Belarus",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Francesco Flachi",
+          "p": "FW",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Fabio Bazzani",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Cristiano Doni",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Emiliano Bonazzoli",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Luca Castellazzi",
+          "GK"
+        ],
+        [
+          "Francesco Antonioli",
+          "GK"
+        ],
+        [
+          "Giulio Falcone",
+          "DF"
+        ],
+        [
+          "Luigi Sala",
+          "DF"
+        ]
+      ],
+      "euro": "UEL"
+    },
+    {
+      "id": "ita-reggina-06",
+      "club": "Reggina",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#8B0000",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2005-06, 12 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Ivan Pelizzoli",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Emanuele Belardi",
+          "p": "GK",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Maurizio Lanzaro",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Francesco Modesto",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Gaetano De Rosa",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Bruno Cirillo",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giandomenico Mesto",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "RM"
+          ]
+        },
+        {
+          "n": "Francesco Cozza",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Mozart",
+          "p": "MF",
+          "r": 77,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Carlos Paredes",
+          "p": "MF",
+          "r": 76,
+          "nat": "Paraguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Luca Vigiani",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Nicola Amoruso",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Rolando Bianchi",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Ivan Franceschini",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Simone Missiroli",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Giovanni Tedesco",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Ivan Pelizzoli",
+          "GK"
+        ],
+        [
+          "Emanuele Belardi",
+          "GK"
+        ],
+        [
+          "Maurizio Lanzaro",
+          "DF"
+        ],
+        [
+          "Francesco Modesto",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-cagliari-06",
+      "club": "Cagliari",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#0033A0",
+        "#A50021"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2005-06, 13 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Antonio Chimenti",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Andrea Campagnolo",
+          "p": "GK",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Diego López",
+          "p": "DF",
+          "r": 78,
+          "nat": "Uruguay",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Michele Canini",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniele Conti",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Alessandro Agostini",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Francesco Pisano",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Nelson Abeijón",
+          "p": "MF",
+          "r": 76,
+          "nat": "Uruguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mauro Esposito",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "David Suazo",
+          "p": "FW",
+          "r": 82,
+          "nat": "Honduras",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Antonio Langella",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Andrea Cossu",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Davide Marchini",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Giorgio Contini",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Michele Fini",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Emanuele Calaiò",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Antonio Chimenti",
+          "GK"
+        ],
+        [
+          "Andrea Campagnolo",
+          "GK"
+        ],
+        [
+          "Diego López",
+          "DF"
+        ],
+        [
+          "Michele Canini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-siena-06",
+      "club": "Siena",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2005-06, 14 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Alex Manninger",
+          "p": "GK",
+          "r": 77,
+          "nat": "Austria",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Marco Fortin",
+          "p": "GK",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Daniele Portanova",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Igor Tudor",
+          "p": "DF",
+          "r": 78,
+          "nat": "Croatia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Daniele Ficagna",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Cristiano Del Grosso",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Simone Vergassola",
+          "p": "MF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Roberto D’Aversa",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Paul Codrea",
+          "p": "MF",
+          "r": 75,
+          "nat": "Romania",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Enrico Chiesa",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Erjon Bogdani",
+          "p": "FW",
+          "r": 77,
+          "nat": "Albania",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Tore André Flo",
+          "p": "FW",
+          "r": 75,
+          "nat": "Norway",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Massimo Maccarone",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mario Frick",
+          "p": "FW",
+          "r": 74,
+          "nat": "Liechtenstein",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Daniele Gastaldello",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Luca Antonini",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Alex Manninger",
+          "GK"
+        ],
+        [
+          "Marco Fortin",
+          "GK"
+        ],
+        [
+          "Daniele Portanova",
+          "DF"
+        ],
+        [
+          "Igor Tudor",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-messina-06",
+      "club": "Messina",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#FFD200",
+        "#C00000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2005-06, 15 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Marco Storari",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Emanuele Manitta",
+          "p": "GK",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Rahman Rezaei",
+          "p": "DF",
+          "r": 76,
+          "nat": "Iran",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Marco Zoro",
+          "p": "DF",
+          "r": 75,
+          "nat": "Ivory Coast",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Salvatore Aronica",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Alessandro Parisi",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Marco Zanchi",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Carmine Coppola",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Domenico Giampà",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Nicolás Córdova",
+          "p": "MF",
+          "r": 76,
+          "nat": "Chile",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Rafael",
+          "p": "MF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ivica Iliev",
+          "p": "FW",
+          "r": 75,
+          "nat": "Serbia and Montenegro",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Arturo Di Napoli",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Riccardo Zampagna",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Sergio Floccari",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giuseppe Sculli",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Marco Storari",
+          "GK"
+        ],
+        [
+          "Emanuele Manitta",
+          "GK"
+        ],
+        [
+          "Rahman Rezaei",
+          "DF"
+        ],
+        [
+          "Cristian Zoro",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-lecce-06",
+      "club": "Lecce",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#E31B23",
+        "#FFD200"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2005-06, 19 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Vincenzo Sicignano",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Francesco Benussi",
+          "p": "GK",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Souleymane Diamoutene",
+          "p": "DF",
+          "r": 75,
+          "nat": "Mali",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Lorenzo Stovini",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Angelo",
+          "p": "DF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Marco Cassetti",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "RM"
+          ]
+        },
+        {
+          "n": "Erminio Rullo",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Cristian Ledesma",
+          "p": "MF",
+          "r": 79,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Guillermo Giacomazzi",
+          "p": "MF",
+          "r": 77,
+          "nat": "Uruguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alex Pinardi",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Jaime Valdés",
+          "p": "MF",
+          "r": 76,
+          "nat": "Chile",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Axel Konan",
+          "p": "FW",
+          "r": 75,
+          "nat": "Ivory Coast",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Mirko Vučinić",
+          "p": "FW",
+          "r": 80,
+          "nat": "Montenegro",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Javier Chevantón",
+          "p": "FW",
+          "r": 79,
+          "nat": "Uruguay",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Daniele Corvia",
+          "p": "FW",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Babù",
+          "p": "FW",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Vincenzo Sicignano",
+          "GK"
+        ],
+        [
+          "Francesco Benussi",
+          "GK"
+        ],
+        [
+          "Souleymane Diamoutene",
+          "DF"
+        ],
+        [
+          "Lorenzo Stovini",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-treviso-06",
+      "club": "Treviso",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2005-06",
+      "kit": [
+        "#87CEFA",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 2005-06, 18 place",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Samir Handanović",
+          "p": "GK",
+          "r": 76,
+          "nat": "Slovenia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Matteo Sereni",
+          "p": "GK",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "William Viali",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Marcello Cottafava",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Paolo Dellafiore",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gustavo",
+          "p": "DF",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gabriele Giuliatto",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Riccardo Allegretti",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Gianni Guigou",
+          "p": "MF",
+          "r": 74,
+          "nat": "Uruguay",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Pinga",
+          "p": "MF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Walter Baseggio",
+          "p": "MF",
+          "r": 75,
+          "nat": "Belgium",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Fabio Gallo",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Reginaldo",
+          "p": "FW",
+          "r": 76,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Marco Borriello",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Dino Fava",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Luigi Beghetto",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Samir Handanović",
+          "GK"
+        ],
+        [
+          "Matteo Sereni",
+          "GK"
+        ],
+        [
+          "William Viali",
+          "DF"
+        ],
+        [
+          "Marcello Cottafava",
+          "DF"
+        ]
+      ]
+    }
+  ]
+}
