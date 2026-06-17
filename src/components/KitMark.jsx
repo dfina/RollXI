@@ -1,5 +1,6 @@
-import React, { useState, useRef, useLayoutEffect } from "react";
+import React, { useEffect, useState, useRef, useLayoutEffect } from "react";
 import { badgeFor } from "../lib/badges.js";
+import { resolveClubCrestUrl } from "../lib/crestResolver.js";
 
 /* Auto-fit: render the full text, then shrink font-size until it fits inside
    the box on up to two lines. Guarantees no truncation and no ellipsis. */
@@ -34,11 +35,30 @@ function AutoFitName({ text, maxFont, minFont, box }) {
 }
 
 /* ---- small logo-with-fallback (club crest OR competition/league badge) ---- */
-function LogoMark({ url, colors, short, name, size, round }) {
+function LogoMark({ url, colors, short, name, size, round, resolveClub = false }) {
+  const [resolvedUrl, setResolvedUrl] = useState(url || null);
   const [failed, setFailed] = useState(false);
-  if (url && !failed) {
+
+  useEffect(() => {
+    let active = true;
+    setFailed(false);
+    if (url) {
+      setResolvedUrl(url);
+      return () => { active = false; };
+    }
+    setResolvedUrl(null);
+    if (resolveClub && name) {
+      resolveClubCrestUrl(name).then((next) => {
+        if (active && next) setResolvedUrl(next);
+      }).catch(() => {});
+    }
+    return () => { active = false; };
+  }, [url, name, resolveClub]);
+
+  if (resolvedUrl && !failed) {
     return (
-      <img src={url} alt={(name || short) + " logo"} width={size} height={size}
+      <img src={resolvedUrl} alt={(name || short) + " logo"} width={size} height={size}
+        loading="lazy" decoding="async" referrerPolicy="no-referrer"
         style={{ objectFit: "contain", flexShrink: 0, display: "block" }}
         onError={() => setFailed(true)} />
     );
@@ -60,7 +80,7 @@ function LogoMark({ url, colors, short, name, size, round }) {
 /* Club crest, used elsewhere in the UI (opponent panels, lists). */
 export function Crest({ kit, crest, name, size = 28 }) {
   const initials = name.split(" ").map((w) => w[0]).join("").slice(0, 3).toUpperCase();
-  return <LogoMark url={crest} colors={kit} short={initials} name={name} size={size} round={false} />;
+  return <LogoMark url={crest} colors={kit} short={initials} name={name} size={size} round={false} resolveClub={true} />;
 }
 
 /* ---- Panini-style player sticker ----
@@ -134,7 +154,7 @@ export function Sticker({ player, locked, width = 100 }) {
         {!locked && (
           <span style={{ flex: "0 0 auto", display: "inline-flex" }}>
             <LogoMark url={player.crest} colors={player.kit} short={clubInitials} name={player.club}
-              size={Math.round(width * 0.22)} round={false} />
+              size={Math.round(width * 0.22)} round={false} resolveClub={true} />
           </span>
         )}
       </div>
