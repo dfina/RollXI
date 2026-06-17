@@ -29,7 +29,8 @@ export function buildKnockout(standings, seed) {
 
 function teamRef(t) {
   return { id: t.id, club: t.club, season: t.season || null, rating: t.rating || (t.strength ? t.strength.overall : 80),
-    kit: t.kit, crest: t.crest || null, scorers: t.scorers || [], isYou: !!t.isYou, seedRank: t.seedRank };
+    kit: t.kit, crest: t.crest || null, scorers: t.scorers || [], comps: t.comps || [], euro: t.euro || [],
+    isYou: !!t.isYou, seedRank: t.seedRank };
 }
 function tie(a, b, round, idx) {
   return {

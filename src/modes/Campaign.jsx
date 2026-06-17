@@ -15,7 +15,7 @@ import {
 } from "../lib/knockout.js";
 
 const SAVE_KEY = "campaign:v1";
-const MATCH_TICK_MS = 500; // 90 simulated minutes ≈ 45 seconds
+const MATCH_TICK_MS = 222; // 90 simulated minutes ≈ 20 seconds
 const SHOOTOUT_TICK_MS = 750;
 
 
@@ -74,23 +74,22 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
   const squad = !done ? data.squadById[camp.seq[camp.ptr]] : null;
   const [slotPick, setSlotPick] = useState(null); // { player, slots:[idx,...] }
 
-  const openGroups = useMemo(() => {
-    const o = new Set();
-    camp.xi.forEach((s) => { if (!s.name) o.add(s.grp); });
-    return o;
+  const openSlotLabels = useMemo(() => {
+    const labels = [];
+    camp.xi.forEach((s) => { if (!s.name && !labels.includes(s.label)) labels.push(s.label); });
+    return labels;
   }, [camp]);
 
   const usedKeys = useMemo(() => new Set(camp.xi.filter((s) => s.name).map((s) => s.pickKey)), [camp]);
 
   function signPlayer(p) {
-    if (!openGroups.has(p.p)) return;
-    const xi = camp.xi;
-    const openSlots = xi.map((s, i) => ({ ...s, i })).filter((s) => !s.name && s.grp === p.p);
+    const openSlots = playerOpenSlots(p, camp.xi);
+    if (openSlots.length === 0) return;
     if (openSlots.length === 1) {
-      // only one slot — assign directly
+      // only one compatible slot — assign directly
       commitSlot(p, openSlots[0].i);
     } else {
-      // multiple open slots — let the user pick which
+      // multiple compatible open slots — let the user pick which
       setSlotPick({ player: p, slots: openSlots });
     }
   }
@@ -126,7 +125,7 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
         <div style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,.45)", zIndex: 50, display: "flex", alignItems: "flex-end" }}>
           <div className="card fade" style={{ width: "100%", padding: 18, borderRadius: "16px 16px 0 0" }}>
             <p className="tele amber" style={{ fontSize: 11, letterSpacing: 1.5, margin: "0 0 4px", fontWeight: 800 }}>CHOOSE SLOT FOR {slotPick.player.n.toUpperCase()}</p>
-            <p className="dim" style={{ fontSize: 12, margin: "0 0 12px" }}>This player can fill more than one open slot. Pick which to fill.</p>
+            <p className="dim" style={{ fontSize: 12, margin: "0 0 12px" }}>This player can fill more than one compatible role in your tactic. Pick which slot to fill.</p>
             {slotPick.slots.map((s) => (
               <button key={s.i} className="opt" style={{ width: "100%", padding: "12px 14px", fontSize: 15, fontWeight: 700, marginBottom: 6 }}
                 onClick={() => commitSlot(slotPick.player, s.i)}>
@@ -162,11 +161,13 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
             </button>
           </div>
           <p className="dim tele" style={{ fontSize: 10, letterSpacing: 1, margin: "10px 0 6px" }}>
-            SIGN ONE · OPEN LINES: {["GK","DF","MF","FW"].filter((g) => openGroups.has(g)).join(" · ")}
+            SIGN ONE · OPEN ROLES: {openSlotLabels.join(" · ")}
           </p>
           <div style={{ display: "flex", flexDirection: "column", gap: 5, maxHeight: 240, overflowY: "auto" }}>
             {squad.players.slice().sort((a, b) => b.r - a.r).map((p) => {
-              const lineOpen = openGroups.has(p.p);
+              const compatibleOpenSlots = playerOpenSlots(p, camp.xi);
+              const tacticLabels = playerTacticLabels(p, camp.xi, true);
+              const lineOpen = compatibleOpenSlots.length > 0;
               const taken = usedKeys.has(squad.id + "|" + p.n);
               const dis = !lineOpen || taken;
               return (
@@ -174,10 +175,10 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
                   style={{ padding: "9px 11px", display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 13 }}
                   onClick={() => signPlayer(p)}>
                   <span style={{ minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
-                    {p.n} <span className="dim tele" style={{ fontSize: 10 }}>{(p.dp || [p.p]).join("/")}</span>
+                    {p.n} <span className="dim tele" style={{ fontSize: 10 }}>{tacticLabels.join("/") || "—"}</span>
                   </span>
                   <span className="tele" style={{ fontWeight: 800, flexShrink: 0, marginLeft: 8, color: lineOpen ? "var(--ink)" : "var(--dim)" }}>
-                    {p.r}{!lineOpen ? " · full" : ""}
+                    {p.r}{taken ? " · picked" : !lineOpen ? " · full" : ""}
                   </span>
                 </button>
               );
@@ -327,8 +328,8 @@ function FixtureRow({ you, opp, home }) {
     </div>
   );
 }
-function YouCrest() {
-  return <span style={{ width: 34, height: 34, borderRadius: "50%", background: "linear-gradient(135deg,#1C1C1A 60%,#E1492E 60%)", display: "inline-flex", alignItems: "center", justifyContent: "center", color: "#fff", fontWeight: 900, fontSize: 11 }}>XI</span>;
+function YouCrest({ size = 34 } = {}) {
+  return <span style={{ width: size, height: size, borderRadius: "50%", background: "linear-gradient(135deg,#1C1C1A 60%,#E1492E 60%)", display: "inline-flex", alignItems: "center", justifyContent: "center", color: "#fff", fontWeight: 900, fontSize: Math.max(9, size * 0.32) }}>XI</span>;
 }
 
 function squadContextLabel(squad) {
@@ -339,6 +340,80 @@ function squadContextLabel(squad) {
 function compLabel(comp) {
   const map = { EC: "EC", UCL: "UCL", UEL: "UEL", UEFA: "UEFA", UECL: "UECL", CONFL: "UECL", CWC: "CWC", INT: "INT", ITC: "INT" };
   return map[comp] || comp;
+}
+
+function opponentCompetitionLabel(team) {
+  if (!team || team.isYou) return "";
+  const list = team.comps || team.euro || [];
+  const first = list && list.length ? list[0] : null;
+  const comp = typeof first === "string" ? first : (first ? first.comp : null);
+  return comp ? compLabel(comp) : "";
+}
+
+function TeamTickerName({ team, align = "left" }) {
+  const isYou = team && (team.isYou || team.club === "Your XI");
+  const label = opponentCompetitionLabel(team);
+  const body = (
+    <div style={{ minWidth: 0, textAlign: align === "right" ? "right" : "left" }}>
+      <div className="display chalk" style={{ fontSize: 13, lineHeight: 1.08, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+        {isYou ? "Your XI" : team.club}
+      </div>
+      {!isYou && (team.season || label) && (
+        <div className="tele dim" style={{ fontSize: 9.5, marginTop: 2, lineHeight: 1 }}>
+          {team.season || ""}{label ? " · " + label : ""}
+        </div>
+      )}
+    </div>
+  );
+  const mark = isYou
+    ? <YouCrest size={28} />
+    : <Crest kit={team.kit || ["#1C1C1A", "#EFE7D3"]} crest={team.crest} name={team.club} size={28} />;
+  return (
+    <span style={{ flex: 1, minWidth: 0, display: "flex", alignItems: "center", gap: 6, justifyContent: align === "right" ? "flex-end" : "flex-start" }}>
+      {align === "left" && mark}
+      {body}
+      {align === "right" && mark}
+    </span>
+  );
+}
+
+const DETAIL_TO_TACTIC = {
+  GK: ["GK"],
+  RB: ["RB"], RWB: ["RB", "RM"],
+  LB: ["LB"], LWB: ["LB", "LM"],
+  CB: ["CB"], SW: ["CB"], DF: ["RB", "CB", "LB"],
+  DM: ["DM", "CM"], CM: ["CM"], AM: ["AM", "CM"], MF: ["DM", "CM", "AM", "LM", "RM", "LW", "RW"],
+  RM: ["RM", "RW"], LM: ["LM", "LW"],
+  RW: ["RW", "RM"], LW: ["LW", "LM"],
+  SS: ["AM", "ST"], CF: ["ST"], ST: ["ST"], FW: ["ST", "LW", "RW"]
+};
+
+function playerPossibleTacticLabels(player) {
+  const raw = (player.dp && player.dp.length ? player.dp : [player.p]).map((x) => String(x || "").toUpperCase());
+  const labels = [];
+  raw.forEach((code) => {
+    (DETAIL_TO_TACTIC[code] || DETAIL_TO_TACTIC[player.p] || []).forEach((label) => {
+      if (!labels.includes(label)) labels.push(label);
+    });
+  });
+  return labels;
+}
+
+function playerTacticLabels(player, xi, openOnly = false) {
+  const possible = new Set(playerPossibleTacticLabels(player));
+  const labels = [];
+  xi.forEach((slot) => {
+    if (openOnly && slot.name) return;
+    if (possible.has(slot.label) && !labels.includes(slot.label)) labels.push(slot.label);
+  });
+  return labels;
+}
+
+function playerOpenSlots(player, xi) {
+  const possible = new Set(playerPossibleTacticLabels(player));
+  return xi
+    .map((slot, i) => ({ ...slot, i }))
+    .filter((slot) => !slot.name && possible.has(slot.label));
 }
 
 function Table({ table, currentOpponentId }) {
@@ -404,11 +479,11 @@ function Ticker({ res, you, matchday, onDone }) {
       <p className="tele dim" style={{ fontSize: 11, letterSpacing: 1.5, textAlign: "center", margin: 0 }}>MATCHDAY {matchday} · {res.home ? "HOME" : "AWAY"}</p>
       <div className="card" style={{ padding: 16, marginTop: 8, textAlign: "center" }}>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 14 }}>
-          <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "right" }}>{res.home ? "Your XI" : oppName}</span>
+          <TeamTickerName team={res.home ? { ...you, isYou: true, club: "Your XI" } : res.opp} align="right" />
           <span className="tele amber" style={{ fontSize: 36, fontWeight: 800, minWidth: 86 }}>
             {res.home ? myG : opG}-{res.home ? opG : myG}
           </span>
-          <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "left" }}>{res.home ? oppName : "Your XI"}</span>
+          <TeamTickerName team={res.home ? res.opp : { ...you, isYou: true, club: "Your XI" }} align="left" />
         </div>
         <div className="tele" style={{ fontSize: 14, marginTop: 8, color: finished ? "var(--flame)" : "var(--green)", fontWeight: 800 }}>
           {finished ? "FULL TIME" : minute + "'"}
@@ -562,6 +637,8 @@ function KnockoutScreen({ camp, onUpdate, onReset }) {
       hg={0} ag={0}
       leftName={tieObj.home.isYou ? "Your XI" : tieObj.home.club}
       rightName={tieObj.away.isYou ? "Your XI" : tieObj.away.club}
+      leftTeam={tieObj.home}
+      rightTeam={tieObj.away}
       title={ROUND_NAMES[stage].toUpperCase() + " · EXTRA TIME"}
       etTimeline={rl.et ? rl.et.timeline : []}
       scoreOffset={{ left: agg.homeGoals, right: agg.awayGoals }}
@@ -694,6 +771,8 @@ function FinalScreen({ camp, you, onUpdate, onReset }) {
         timeline={res.timeline}
         hg={res.hg} ag={res.ag}
         leftName={leftName} rightName={rightName}
+        leftTeam={a}
+        rightTeam={b}
         title="THE FINAL"
         onDone={() => {
           if (res.hg === res.ag && res.et) setFinalFlow({ phase: "et", res });
@@ -707,6 +786,8 @@ function FinalScreen({ camp, you, onUpdate, onReset }) {
         timeline={[]}
         hg={0} ag={0}
         leftName={leftName} rightName={rightName}
+        leftTeam={a}
+        rightTeam={b}
         title="THE FINAL · EXTRA TIME"
         etTimeline={res.et ? res.et.timeline : []}
         scoreOffset={{ left: res.hg, right: res.ag }}
@@ -742,7 +823,7 @@ function TeamBadge({ ref2 }) {
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 5, maxWidth: 120 }}>
       {ref2.isYou ? <YouCrest /> : <Crest kit={ref2.kit} crest={ref2.crest} name={ref2.club} size={36} />}
       <span className="display chalk" style={{ fontSize: 13, textAlign: "center", lineHeight: 1.1 }}>{ref2.isYou ? "Your XI" : ref2.club}</span>
-      <span className="tele dim" style={{ fontSize: 10 }}>{ref2.season || "All-Stars"}</span>
+      <span className="tele dim" style={{ fontSize: 10 }}>{ref2.season || "All-Stars"}{opponentCompetitionLabel(ref2) ? " · " + opponentCompetitionLabel(ref2) : ""}</span>
     </div>
   );
 }
@@ -814,18 +895,22 @@ function TieLegTicker({ res, legNo, tieObj, onDone }) {
   const visitRef = legNo === 1 ? tieObj.home : tieObj.away;
   return <GenericTicker timeline={res.timeline} hg={res.hg} ag={res.ag}
     leftName={hostRef.isYou ? "Your XI" : hostRef.club} rightName={visitRef.isYou ? "Your XI" : visitRef.club}
+    leftTeam={hostRef}
+    rightTeam={visitRef}
     title={"LEG " + legNo + " · " + (hostRef.isYou ? "HOME" : "AWAY")} onDone={onDone} />;
 }
 function FinalTicker({ res, a, b, you, onDone }) {
   return <GenericTicker timeline={res.timeline} hg={res.hg} ag={res.ag}
     leftName={a.isYou ? "Your XI" : a.club} rightName={b.isYou ? "Your XI" : b.club}
+    leftTeam={a}
+    rightTeam={b}
     title="THE FINAL"
     etTimeline={res.et ? res.et.timeline : null}
     pens={res.pens} onDone={onDone} />;
 }
 
 /* shared accelerated-clock ticker — handles regular time and optional ET continuation */
-function GenericTicker({ timeline, hg, ag, leftName, rightName, title, extra, pens, etTimeline, scoreOffset, onDone }) {
+function GenericTicker({ timeline, hg, ag, leftName, rightName, leftTeam, rightTeam, title, extra, pens, etTimeline, scoreOffset, onDone }) {
   const allTimeline = React.useMemo(
     () => etTimeline ? [...timeline, ...etTimeline] : timeline,
     [timeline, etTimeline]
@@ -859,9 +944,9 @@ function GenericTicker({ timeline, hg, ag, leftName, rightName, title, extra, pe
       <p className="tele dim" style={{ fontSize: 11, letterSpacing: 1.5, textAlign: "center", margin: 0 }}>{title}</p>
       <div className="card" style={{ padding: 16, marginTop: 8, textAlign: "center" }}>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 12 }}>
-          <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "right" }}>{leftName}</span>
+          <TeamTickerName team={leftTeam || { club: leftName, isYou: leftName === "Your XI" }} align="right" />
           <span className="tele amber" style={{ fontSize: 34, fontWeight: 800, minWidth: 84 }}>{leftG}-{rightG}</span>
-          <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "left" }}>{rightName}</span>
+          <TeamTickerName team={rightTeam || { club: rightName, isYou: rightName === "Your XI" }} align="left" />
         </div>
         <div className="tele" style={{ fontSize: 14, marginTop: 8, color: minColor, fontWeight: 800 }}>
           {minLabel}

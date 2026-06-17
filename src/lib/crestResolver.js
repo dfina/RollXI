@@ -179,7 +179,7 @@ export const CREST_PAGE_OVERRIDES = {
   // Explicitly resolved from the former runtime-search fallback list.
   "aberdeen": "Aberdeen F.C.",
   "ajax": "AFC Ajax",
-  "ancona": "AC Ancona",
+  "ancona": "US Ancona",
   "ascoli": "Ascoli Calcio 1898 FC",
   "atalanta": "Atalanta BC",
   "auxerre": "AJ Auxerre",
