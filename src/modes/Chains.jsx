@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from "react";
 import { Link2, Lightbulb, RotateCcw, Check, ArrowDown, Trophy, Share2 } from "lucide-react";
 import { load, save } from "../lib/storage.js";
 import { todayKey, dayNumber } from "../lib/date.js";
-import { Crest } from "../components/KitMark.jsx";
+import { PlayerHeadshot } from "../components/KitMark.jsx";
 import { shareText, chainShare } from "../lib/share.js";
 import {
   buildGraph, generatePuzzle, shortestPath, validateChain,
@@ -181,10 +181,13 @@ function ChainGame({ graph, data, puzzle, mode, dayNum, dateKey, onToggleMode, o
             <p className="tele dim" style={{ fontSize: 10, letterSpacing: 1.5, margin: "0 0 8px" }}>TEAM-MATES OF {lastName(tail).toUpperCase()}</p>
             <div style={{ display: "flex", flexDirection: "column", gap: 5, maxHeight: 280, overflowY: "auto" }}>
               {options.map((p) => (
-                <button key={p.name} className="opt" style={{ padding: "9px 11px", display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 13 }}
+                <button key={p.name} className="opt" style={{ padding: "8px 10px", display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 13, gap: 8 }}
                   onClick={() => addPlayer(p.name)}>
-                  <span style={{ minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
-                    {p.name} <span className="dim tele" style={{ fontSize: 10 }}>{p.nat}</span>
+                  <span style={{ display: "flex", alignItems: "center", gap: 8, minWidth: 0 }}>
+                    <PlayerHeadshot player={p} name={p.name} size={28} />
+                    <span style={{ minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+                      {p.name} <span className="dim tele" style={{ fontSize: 10 }}>{p.nat}</span>
+                    </span>
                   </span>
                   <span className="tele dim" style={{ fontSize: 10, flexShrink: 0, marginLeft: 8 }}>{(p.dp || []).join("/")}</span>
                 </button>
@@ -224,11 +227,11 @@ function lastName(n) { const p = n.split(" "); return p[p.length - 1]; }
 
 function PlayerTag({ name, graph, highlight }) {
   const p = graph.people[name];
-  const sq = p.squads[0];
   return (
-    <div style={{ textAlign: "center", flex: 1, minWidth: 0 }}>
+    <div style={{ textAlign: "center", flex: 1, minWidth: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 5 }}>
+      <PlayerHeadshot player={p} name={name} size={44} />
       <div className="display chalk" style={{ fontSize: 14, lineHeight: 1.1, color: highlight ? "var(--flame)" : "var(--ink)" }}>{name}</div>
-      <div className="tele dim" style={{ fontSize: 10, marginTop: 2 }}>{p.nat} · {(p.dp || []).join("/")}</div>
+      <div className="tele dim" style={{ fontSize: 10, marginTop: 0 }}>{p.nat} · {(p.dp || []).join("/")}</div>
     </div>
   );
 }
@@ -236,13 +239,15 @@ function PlayerTag({ name, graph, highlight }) {
 function ChainRow({ name, graph, squadById, prev, isStart, isGoal }) {
   const p = graph.people[name];
   return (
-    <div style={{ display: "flex", alignItems: "center", gap: 8, padding: "4px 0" }}>
-      <div style={{
-        width: 30, height: 30, borderRadius: "50%", flexShrink: 0,
-        background: isStart ? "var(--ink)" : isGoal ? "var(--flame)" : "var(--green)",
-        display: "flex", alignItems: "center", justifyContent: "center"
-      }}>
-        <span className="tele" style={{ fontSize: 11, fontWeight: 800, color: "#fff" }}>{isStart ? "A" : isGoal ? "B" : "✓"}</span>
+    <div style={{ display: "flex", alignItems: "center", gap: 9, padding: "4px 0" }}>
+      <div style={{ position: "relative", width: 34, height: 34, flexShrink: 0 }}>
+        <PlayerHeadshot player={p} name={name} size={34} />
+        <span className="tele" style={{
+          position: "absolute", right: -3, bottom: -3, width: 15, height: 15, borderRadius: "50%",
+          background: isStart ? "var(--ink)" : isGoal ? "var(--flame)" : "var(--green)",
+          display: "inline-flex", alignItems: "center", justifyContent: "center",
+          fontSize: 8, fontWeight: 900, color: "#fff", border: "1px solid rgba(255,255,255,.85)"
+        }}>{isStart ? "A" : isGoal ? "B" : "✓"}</span>
       </div>
       <div style={{ minWidth: 0 }}>
         <div className="chalk" style={{ fontSize: 13, fontWeight: 700, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{name}</div>

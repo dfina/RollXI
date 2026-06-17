@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef, useLayoutEffect } from "react";
 import { badgeFor } from "../lib/badges.js";
 import { resolveClubCrestUrl } from "../lib/crestResolver.js";
+import { resolveSeasonPlayerPhoto, resolveCanonicalPlayerPhoto } from "../lib/playerImageResolver.js";
 
 /* Auto-fit: render the full text, then shrink font-size until it fits inside
    the box on up to two lines. Guarantees no truncation and no ellipsis. */
@@ -83,6 +84,51 @@ export function Crest({ kit, crest, name, size = 28 }) {
   return <LogoMark url={crest} colors={kit} short={initials} name={name} size={size} round={false} resolveClub={true} />;
 }
 
+
+/* ---- player headshot with robust fallback ---- */
+export function PlayerHeadshot({ player, name, size = 34, seasonAware = false, locked = false }) {
+  const displayName = player?.name || name || "Player";
+  const initials = displayName.split(" ").map((w) => w[0]).join("").slice(0, 2).toUpperCase();
+  const [src, setSrc] = useState(null);
+  const [failed, setFailed] = useState(false);
+
+  useEffect(() => {
+    let active = true;
+    setFailed(false);
+    setSrc(null);
+    if (locked) return () => { active = false; };
+    const resolver = seasonAware ? resolveSeasonPlayerPhoto : resolveCanonicalPlayerPhoto;
+    resolver(player || displayName).then((url) => {
+      if (active && url) setSrc(url);
+    }).catch(() => {});
+    return () => { active = false; };
+  }, [player, displayName, seasonAware, locked]);
+
+  const baseStyle = {
+    width: size, height: size, borderRadius: "50%", flexShrink: 0,
+    display: "inline-flex", alignItems: "center", justifyContent: "center",
+    overflow: "hidden", border: "1px solid rgba(0,0,0,.18)",
+    background: "linear-gradient(135deg, rgba(20,20,20,.9), rgba(160,130,72,.9))"
+  };
+
+  if (!locked && src && !failed) {
+    return (
+      <span style={baseStyle}>
+        <img src={src} alt={displayName} width={size} height={size}
+          loading="lazy" decoding="async" referrerPolicy="no-referrer"
+          style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center", display: "block" }}
+          onError={() => setFailed(true)} />
+      </span>
+    );
+  }
+
+  return (
+    <span aria-hidden="true" style={baseStyle}>
+      <span className="tele" style={{ color: "#fff", fontSize: Math.max(8, size * 0.32), fontWeight: 900 }}>{locked ? "?" : initials}</span>
+    </span>
+  );
+}
+
 /* ---- Panini-style player sticker ----
    - card fills the whole frame (no outer border)
    - photo (or kit+monogram fallback) on a club-colour backdrop
@@ -90,12 +136,25 @@ export function Crest({ kit, crest, name, size = 28 }) {
    - bottom strip: player name (left) and club logo (right), no club name, no position
    Always prefers a real photo when player.photo is set. */
 export function Sticker({ player, locked, width = 100 }) {
+  const [photoSrc, setPhotoSrc] = useState(null);
   const [failed, setFailed] = useState(false);
   const photoH = Math.round(width * 1.16);
   const initials = player.name.split(" ").map((w) => w[0]).join("").slice(0, 2).toUpperCase();
   const badge = badgeFor(player);
   const clubInitials = player.club.split(" ").map((w) => w[0]).join("").slice(0, 3).toUpperCase();
   const nameStripH = Math.round(width * 0.3);
+
+  useEffect(() => {
+    let active = true;
+    setPhotoSrc(null);
+    setFailed(false);
+    if (!locked) {
+      resolveSeasonPlayerPhoto(player).then((url) => {
+        if (active && url) setPhotoSrc(url);
+      }).catch(() => {});
+    }
+    return () => { active = false; };
+  }, [player, locked]);
 
   return (
     <div style={{
@@ -130,9 +189,10 @@ export function Sticker({ player, locked, width = 100 }) {
         {/* the player image or fallback */}
         {locked ? (
           <span style={{ color: "rgba(60,60,60,.6)", fontSize: width * 0.3, fontWeight: 900 }}>?</span>
-        ) : player.photo && !failed ? (
-          <img src={player.photo} alt={player.name} width={width} height={photoH}
-            style={{ objectFit: "cover", objectPosition: "top center" }} onError={() => setFailed(true)} />
+        ) : photoSrc && !failed ? (
+          <img src={photoSrc} alt={player.name} width={width} height={photoH}
+            loading="lazy" decoding="async" referrerPolicy="no-referrer"
+            style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top center", display: "block" }} onError={() => setFailed(true)} />
         ) : (
           <span style={{ fontSize: width * 0.4, fontWeight: 900, color: "#0c0c0c", textShadow: "0 0 4px rgba(255,255,255,.55)" }}>
             {initials}

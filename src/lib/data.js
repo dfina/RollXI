@@ -24,7 +24,7 @@ export async function loadData() {
     s.players.forEach((p) => {
       players.push({
         name: p.n, pos: p.p, dp: p.dp && p.dp.length ? p.dp : [p.p], rating: p.r, nat: p.nat,
-        photo: p.photo || null,
+        photo: p.photo || null, seasonPhoto: p.seasonPhoto || p.clubSeasonPhoto || null, canonicalPhoto: p.canonicalPhoto || null,
         squadId: s.id, club: s.club, season: s.season,
         league: s.league, country: s.country || null, euro: s.euro || null,
         kit: s.kit, crest: s.crest || null,

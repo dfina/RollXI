@@ -11,9 +11,10 @@ export function buildGraph(squads) {
 
   squads.forEach((s) => {
     s.players.forEach((p) => {
-      if (!people[p.n]) people[p.n] = { name: p.n, squads: [], nat: p.nat, dp: p.dp || [p.p], rating: p.r };
-      people[p.n].squads.push({ id: s.id, club: s.club, season: s.season });
+      if (!people[p.n]) people[p.n] = { name: p.n, squads: [], nat: p.nat, dp: p.dp || [p.p], rating: p.r, photo: p.photo || p.canonicalPhoto || null };
+      people[p.n].squads.push({ id: s.id, club: s.club, season: s.season, photo: p.seasonPhoto || p.clubSeasonPhoto || p.photo || null });
       people[p.n].rating = Math.max(people[p.n].rating, p.r);
+      if (!people[p.n].photo && (p.photo || p.canonicalPhoto)) people[p.n].photo = p.photo || p.canonicalPhoto;
       if (!adj[p.n]) adj[p.n] = new Set();
     });
   });
