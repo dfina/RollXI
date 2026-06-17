@@ -1,0 +1,487 @@
+{
+  "meta": {
+    "scope": "UEFA Champions League 2000-01 main draw / group-stage participants not already represented as P/O",
+    "source": "UEFA official season clubs page"
+  },
+  "squads": [
+    {
+      "id": "ucl-anderlech-200001",
+      "tierType": "O",
+      "club": "Anderlecht",
+      "country": "Belgium",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 80,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Koller"
+      ]
+    },
+    {
+      "id": "ucl-arsenal-200001",
+      "tierType": "O",
+      "club": "Arsenal",
+      "country": "England",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 87,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Henry",
+        "Bergkamp"
+      ]
+    },
+    {
+      "id": "ucl-deportivo-200001",
+      "tierType": "O",
+      "club": "Deportivo La Coruña",
+      "country": "Spain",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 86,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Makaay",
+        "Djalminha"
+      ]
+    },
+    {
+      "id": "ucl-galatasar-200001",
+      "tierType": "O",
+      "club": "Galatasaray",
+      "country": "Turkey",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 85,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Hakan Şükür"
+      ]
+    },
+    {
+      "id": "ucl-lyon-200001",
+      "tierType": "O",
+      "club": "Lyon",
+      "country": "France",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 82,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Anderson"
+      ]
+    },
+    {
+      "id": "ucl-mancheste-200001",
+      "tierType": "O",
+      "club": "Manchester United",
+      "country": "England",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 90,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Beckham",
+        "Giggs"
+      ]
+    },
+    {
+      "id": "ucl-panathina-200001",
+      "tierType": "O",
+      "club": "Panathinaikos",
+      "country": "Greece",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 80,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Warzycha"
+      ]
+    },
+    {
+      "id": "ucl-parissain-200001",
+      "tierType": "O",
+      "club": "Paris Saint-Germain",
+      "country": "France",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 83,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Anelka"
+      ]
+    },
+    {
+      "id": "ucl-spartakmo-200001",
+      "tierType": "O",
+      "club": "Spartak Moscow",
+      "country": "Russia",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 80,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Titov"
+      ]
+    },
+    {
+      "id": "ucl-sturmgraz-200001",
+      "tierType": "O",
+      "club": "Sturm Graz",
+      "country": "Austria",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 78,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Vastic"
+      ]
+    },
+    {
+      "id": "ucl-barcelona-200001",
+      "tierType": "O",
+      "club": "Barcelona",
+      "country": "Spain",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 88,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Rivaldo",
+        "Kluivert"
+      ]
+    },
+    {
+      "id": "ucl-beikta-200001",
+      "tierType": "O",
+      "club": "Beşiktaş",
+      "country": "Turkey",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 78,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Nihat"
+      ]
+    },
+    {
+      "id": "ucl-dynamokyi-200001",
+      "tierType": "O",
+      "club": "Dynamo Kyiv",
+      "country": "Ukraine",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 82,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Rebrov"
+      ]
+    },
+    {
+      "id": "ucl-hamburg-200001",
+      "tierType": "O",
+      "club": "Hamburg",
+      "country": "Germany",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 80,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Barbarez"
+      ]
+    },
+    {
+      "id": "ucl-heerenvee-200001",
+      "tierType": "O",
+      "club": "Heerenveen",
+      "country": "Netherlands",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 76,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Allbäck"
+      ]
+    },
+    {
+      "id": "ucl-helsingbo-200001",
+      "tierType": "O",
+      "club": "Helsingborg",
+      "country": "Sweden",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 75,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Larsson"
+      ]
+    },
+    {
+      "id": "ucl-bayerleve-200001",
+      "tierType": "O",
+      "club": "Bayer Leverkusen",
+      "country": "Germany",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 83,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Ballack"
+      ]
+    },
+    {
+      "id": "ucl-monaco-200001",
+      "tierType": "O",
+      "club": "Monaco",
+      "country": "France",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 82,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Trezeguet"
+      ]
+    },
+    {
+      "id": "ucl-olympiaco-200001",
+      "tierType": "O",
+      "club": "Olympiacos",
+      "country": "Greece",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 81,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Giovanni"
+      ]
+    },
+    {
+      "id": "ucl-psv-200001",
+      "tierType": "O",
+      "club": "PSV",
+      "country": "Netherlands",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 82,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Van Nistelrooy"
+      ]
+    },
+    {
+      "id": "ucl-rangers-200001",
+      "tierType": "O",
+      "club": "Rangers",
+      "country": "Scotland",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 82,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Mols"
+      ]
+    },
+    {
+      "id": "ucl-rosenborg-200001",
+      "tierType": "O",
+      "club": "Rosenborg",
+      "country": "Norway",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 78,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Brattbakk"
+      ]
+    },
+    {
+      "id": "ucl-shakhtard-200001",
+      "tierType": "O",
+      "club": "Shakhtar Donetsk",
+      "country": "Ukraine",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 77,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Vorobei"
+      ]
+    },
+    {
+      "id": "ucl-spartapra-200001",
+      "tierType": "O",
+      "club": "Sparta Praha",
+      "country": "Czech Republic",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 78,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Koller"
+      ]
+    },
+    {
+      "id": "ucl-sportingc-200001",
+      "tierType": "O",
+      "club": "Sporting CP",
+      "country": "Portugal",
+      "season": "2000-01",
+      "comps": [
+        "UCL"
+      ],
+      "rating": 80,
+      "kit": [
+        "#DDD",
+        "#222"
+      ],
+      "crest": null,
+      "scorers": [
+        "Jardel"
+      ]
+    }
+  ]
+}

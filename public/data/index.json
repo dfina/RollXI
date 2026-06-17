@@ -212,6 +212,16 @@
     {
       "file": "pack-pickable-c24.json",
       "label": "C-series Serie A 2001-02"
+    },
+    {
+      "file": "pack-pickable-c25.json",
+      "name": "C25: Serie A 2000-01",
+      "v": "0.35"
+    },
+    {
+      "file": "pack-opponents-ucl-main-200001.json",
+      "name": "Tier-O UCL main draw 2000-01 gap fill",
+      "v": "0.35"
     }
   ]
 }

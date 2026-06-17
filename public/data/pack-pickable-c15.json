@@ -32,7 +32,9 @@
           "nat": "Brazil",
           "dp": [
             "CB"
-          ]
+          ],
+          "clubSeasonPhoto": "https://commons.wikimedia.org/wiki/Special:FilePath/Thiago_silva_4_commons.jpg",
+          "photoEvidence": "AC Milan-specific Commons image, Milan-Siena 2011-12; used as club-context override instead of Brazil canonical image"
         },
         {
           "n": "Alessandro Nesta",
@@ -41,7 +43,9 @@
           "nat": "Italy",
           "dp": [
             "CB"
-          ]
+          ],
+          "clubSeasonPhoto": "https://commons.wikimedia.org/wiki/Special:FilePath/Alessandro_Nesta_2010.jpg",
+          "photoEvidence": "AC Milan-specific Commons image, 2010"
         },
         {
           "n": "Ignazio Abate",
@@ -87,7 +91,9 @@
           "nat": "Italy",
           "dp": [
             "CM"
-          ]
+          ],
+          "clubSeasonPhoto": "https://commons.wikimedia.org/wiki/Special:FilePath/Andrea_Pirlo_vs_Real_Madrid.jpg",
+          "photoEvidence": "AC Milan-specific Commons image, Real Madrid vs AC Milan, 2010-11 UCL"
         },
         {
           "n": "Gennaro Gattuso",
@@ -134,7 +140,9 @@
           "nat": "Sweden",
           "dp": [
             "CF"
-          ]
+          ],
+          "clubSeasonPhoto": "https://commons.wikimedia.org/wiki/Special:FilePath/Ibra_milan.JPG",
+          "photoEvidence": "AC Milan-specific Commons image, Real Madrid vs AC Milan, 2010-11 UCL"
         },
         {
           "n": "Robinho",
