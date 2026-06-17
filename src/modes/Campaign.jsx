@@ -81,6 +81,31 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
   }, [camp]);
 
   const usedKeys = useMemo(() => new Set(camp.xi.filter((s) => s.name).map((s) => s.pickKey)), [camp]);
+  const signableCurrentSquad = useMemo(() => squadHasSignablePlayer(squad, camp.xi, usedKeys), [squad, camp.xi, usedKeys]);
+
+  useEffect(() => {
+    if (done || !squad || camp.rerolls > 0 || signableCurrentSquad) return;
+    let nextPtr = camp.ptr;
+    let extraRolls = 0;
+    let foundFit = false;
+    while (nextPtr + 1 < camp.seq.length) {
+      nextPtr += 1;
+      extraRolls += 1;
+      const nextSquad = data.squadById[camp.seq[nextPtr]];
+      if (squadHasSignablePlayer(nextSquad, camp.xi, usedKeys)) {
+        foundFit = true;
+        break;
+      }
+    }
+    if (foundFit && nextPtr !== camp.ptr) {
+      onUpdate({
+        ...camp,
+        ptr: nextPtr,
+        autoRolls: (camp.autoRolls || 0) + extraRolls,
+        lastAutoRolls: extraRolls
+      });
+    }
+  }, [done, squad, signableCurrentSquad, camp, data.squadById, onUpdate, usedKeys]);
 
   function signPlayer(p) {
     const openSlots = playerOpenSlots(p, camp.xi);
@@ -99,12 +124,12 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
     xi[slotIdx] = { ...xi[slotIdx], name: p.n, rating: p.r, dp: p.dp || [p.p], nat: p.nat, squadId: squad.id, pickKey: squad.id + "|" + p.n };
     const nowDone = xi.filter((s) => s.name).length === 11;
     setSlotPick(null);
-    onUpdate({ ...camp, xi, ptr: nowDone ? camp.ptr : camp.ptr + 1 });
+    onUpdate({ ...camp, xi, ptr: nowDone ? camp.ptr : camp.ptr + 1, lastAutoRolls: 0 });
   }
 
   function reroll() {
     if (camp.rerolls <= 0 || camp.ptr + 1 >= camp.seq.length) return;
-    onUpdate({ ...camp, ptr: camp.ptr + 1, rerolls: camp.rerolls - 1 });
+    onUpdate({ ...camp, ptr: camp.ptr + 1, rerolls: camp.rerolls - 1, lastAutoRolls: 0 });
   }
 
   function kickOffLeague() {
@@ -160,7 +185,12 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
               <RotateCcw size={13} /> Re-roll ({camp.rerolls})
             </button>
           </div>
-          <p className="dim tele" style={{ fontSize: 10, letterSpacing: 1, margin: "10px 0 6px" }}>
+          {camp.lastAutoRolls > 0 && (
+            <p className="tele" style={{ fontSize: 10, letterSpacing: 1, margin: "10px 0 6px", color: "var(--green)", fontWeight: 800 }}>
+              EXTRA ROLL{camp.lastAutoRolls > 1 ? "S" : ""} GRANTED · NO AVAILABLE PLAYER FOR YOUR OPEN ROLES
+            </p>
+          )}
+          <p className="dim tele" style={{ fontSize: 10, letterSpacing: 1, margin: camp.lastAutoRolls > 0 ? "0 0 6px" : "10px 0 6px" }}>
             SIGN ONE · OPEN ROLES: {openSlotLabels.join(" · ")}
           </p>
           <div style={{ display: "flex", flexDirection: "column", gap: 5, maxHeight: 240, overflowY: "auto" }}>
@@ -414,6 +444,11 @@ function playerOpenSlots(player, xi) {
   return xi
     .map((slot, i) => ({ ...slot, i }))
     .filter((slot) => !slot.name && possible.has(slot.label));
+}
+
+function squadHasSignablePlayer(squad, xi, usedKeys) {
+  if (!squad || !squad.players || !squad.players.length) return false;
+  return squad.players.some((p) => !usedKeys.has(squad.id + "|" + p.n) && playerOpenSlots(p, xi).length > 0);
 }
 
 function Table({ table, currentOpponentId }) {

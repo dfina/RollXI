@@ -4,15 +4,17 @@
    The sticker shows a EUROPEAN competition badge top-left when the player's
    season had a continental run, otherwise the DOMESTIC league badge. */
 
+const commonsFile = (name) => "https://commons.wikimedia.org/wiki/Special:Redirect/file/" + encodeURIComponent(name);
+
 export const COMPETITIONS = {
-  EC:   { label: "European Cup",          short: "EC",   colors: ["#0A2C5E", "#FFFFFF"], logo: null },
-  UCL:  { label: "Champions League",      short: "UCL",  colors: ["#0A1A3F", "#FFFFFF"], logo: null },
-  CWC:  { label: "Cup Winners' Cup",      short: "CWC",  colors: ["#5A1A2B", "#FFFFFF"], logo: null },
-  FAIRS:{ label: "Fairs Cup",             short: "ICFC", colors: ["#1E5631", "#FFFFFF"], logo: null },
-  UEFA: { label: "UEFA Cup",              short: "UEFA", colors: ["#2A2A2A", "#FF8A00"], logo: null },
-  UEL:  { label: "Europa League",         short: "UEL",  colors: ["#1A1A1A", "#FF6A00"], logo: null },
-  UECL: { label: "Conference League",     short: "UECL", colors: ["#0B3D2E", "#7FE3B0"], logo: null },
-  INT:  { label: "Intertoto Cup",         short: "INT",  colors: ["#3A5A1E", "#FFFFFF"], logo: null }
+  EC:   { label: "European Cup",          short: "EC",   colors: ["#0A2C5E", "#FFFFFF"], logo: commonsFile("UEFA logo.svg") },
+  UCL:  { label: "Champions League",      short: "UCL",  colors: ["#0A1A3F", "#FFFFFF"], logo: commonsFile("UEFA Champions League logo.svg") },
+  CWC:  { label: "Cup Winners' Cup",      short: "CWC",  colors: ["#5A1A2B", "#FFFFFF"], logo: commonsFile("UEFA Cup Winners Cup logo.svg") },
+  FAIRS:{ label: "Fairs Cup",             short: "ICFC", colors: ["#1E5631", "#FFFFFF"], logo: commonsFile("UEFA logo.svg") },
+  UEFA: { label: "UEFA Cup",              short: "UEFA", colors: ["#2A2A2A", "#FF8A00"], logo: commonsFile("UEFA logo.svg") },
+  UEL:  { label: "Europa League",         short: "UEL",  colors: ["#1A1A1A", "#FF6A00"], logo: commonsFile("UEFA Europa league logo.svg") },
+  UECL: { label: "Conference League",     short: "UECL", colors: ["#0B3D2E", "#7FE3B0"], logo: commonsFile("UEFA Europa Conference League logo.svg") },
+  INT:  { label: "Intertoto Cup",         short: "INT",  colors: ["#3A5A1E", "#FFFFFF"], logo: commonsFile("UEFA Intertoto Cup.svg") }
 };
 
 export const LEAGUES = {
