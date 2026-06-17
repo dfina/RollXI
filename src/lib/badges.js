@@ -18,7 +18,7 @@ export const COMPETITIONS = {
 };
 
 export const LEAGUES = {
-  ITA: { label: "Serie A",      short: "ITA", colors: ["#0A2E6E", "#FFFFFF"], logo: null },
+  ITA: { label: "Serie A",      short: "ITA", colors: ["#0A2E6E", "#FFFFFF"], logo: commonsFile("Serie A logo 2022.svg") },
   ENG: { label: "England",      short: "ENG", colors: ["#3D1A5B", "#FFFFFF"], logo: null },
   ESP: { label: "Spain",        short: "ESP", colors: ["#9E1B32", "#FFD24A"], logo: null },
   GER: { label: "Germany",      short: "GER", colors: ["#1A1A1A", "#E30613"], logo: null },

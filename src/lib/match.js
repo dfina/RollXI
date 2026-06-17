@@ -78,7 +78,7 @@ export function extraTime(home, away, seed) {
   const la = lambdaFor(away.attack, home.defence) * 0.42;
   return { hg: drawGoals(lh, rng), ag: drawGoals(la, rng) };
 }
-export function penalties(home, away, seed) {
+export function penalties(home, away, seed, homeTakers = [], awayTakers = []) {
   const rng = mulberry32(hashStr(seed + "|pens"));
   const pConv = (s) => clamp(0.74 + (s.attack - 80) / 120, 0.6, 0.9);
   const ph = pConv(home), pa = pConv(away);
@@ -90,10 +90,10 @@ export function penalties(home, away, seed) {
     const homeTurn = i % 2 === 0;
     if (homeTurn) {
       const s = rng() < ph; if (s) h++; hTaken++;
-      kicks.push({ team: "home", scored: s, round: hTaken });
+      kicks.push({ team: "home", scored: s, round: hTaken, kicker: takerFor(homeTakers, hTaken) });
     } else {
       const s = rng() < pa; if (s) a++; aTaken++;
-      kicks.push({ team: "away", scored: s, round: aTaken });
+      kicks.push({ team: "away", scored: s, round: aTaken, kicker: takerFor(awayTakers, aTaken) });
     }
     const hLeft = 5 - hTaken, aLeft = 5 - aTaken;
     if (h > a + aLeft || a > h + hLeft) break;          // result already settled
@@ -103,8 +103,27 @@ export function penalties(home, away, seed) {
   let round = Math.max(hTaken, aTaken);
   while (h === a && round < 30) {
     round++;
-    const hs = rng() < ph; if (hs) h++; kicks.push({ team: "home", scored: hs, round });
-    const as = rng() < pa; if (as) a++; kicks.push({ team: "away", scored: as, round });
+    const hs = rng() < ph; if (hs) h++; kicks.push({ team: "home", scored: hs, round, kicker: takerFor(homeTakers, round) });
+    const as = rng() < pa; if (as) a++; kicks.push({ team: "away", scored: as, round, kicker: takerFor(awayTakers, round) });
   }
   return { h, a, kicks, winner: h > a ? "home" : "away" };
+}
+
+function takerFor(list, round) {
+  if (!list || list.length === 0) return null;
+  return list[(Math.max(1, round) - 1) % list.length] || null;
+}
+
+export function penaltyTakersFromXI(slots) {
+  const posWeight = { FW: 4, MF: 3, DF: 2, GK: 1 };
+  return slots
+    .filter((s) => s && s.name)
+    .slice()
+    .sort((a, b) => {
+      const aw = posWeight[a.grp] || 0;
+      const bw = posWeight[b.grp] || 0;
+      if (bw !== aw) return bw - aw;
+      return (b.rating || 0) - (a.rating || 0);
+    })
+    .map((s) => s.name);
 }

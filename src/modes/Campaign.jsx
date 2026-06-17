@@ -384,12 +384,15 @@ function TeamTickerName({ team, align = "left" }) {
   const isYou = team && (team.isYou || team.club === "Your XI");
   const label = opponentCompetitionLabel(team);
   const body = (
-    <div style={{ minWidth: 0, textAlign: align === "right" ? "right" : "left" }}>
-      <div className="display chalk" style={{ fontSize: 13, lineHeight: 1.08, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+    <div style={{ minWidth: 0, flex: "1 1 auto", textAlign: align === "right" ? "right" : "left" }}>
+      <div className="display chalk" style={{
+        fontSize: 12.5, lineHeight: 1.08, whiteSpace: "normal", overflow: "visible",
+        overflowWrap: "anywhere", wordBreak: "normal", hyphens: "auto"
+      }}>
         {isYou ? "Your XI" : team.club}
       </div>
       {!isYou && (team.season || label) && (
-        <div className="tele dim" style={{ fontSize: 9.5, marginTop: 2, lineHeight: 1 }}>
+        <div className="tele dim" style={{ fontSize: 9.5, marginTop: 2, lineHeight: 1.05, whiteSpace: "normal" }}>
           {team.season || ""}{label ? " · " + label : ""}
         </div>
       )}
@@ -399,7 +402,7 @@ function TeamTickerName({ team, align = "left" }) {
     ? <YouCrest size={28} />
     : <Crest kit={team.kit || ["#1C1C1A", "#EFE7D3"]} crest={team.crest} name={team.club} size={28} />;
   return (
-    <span style={{ flex: 1, minWidth: 0, display: "flex", alignItems: "center", gap: 6, justifyContent: align === "right" ? "flex-end" : "flex-start" }}>
+    <span style={{ flex: "1 1 0", minWidth: 0, display: "flex", alignItems: "center", gap: 6, justifyContent: align === "right" ? "flex-end" : "flex-start" }}>
       {align === "left" && mark}
       {body}
       {align === "right" && mark}
@@ -978,9 +981,9 @@ function GenericTicker({ timeline, hg, ag, leftName, rightName, leftTeam, rightT
     <div className="fade" style={{ paddingTop: 8 }}>
       <p className="tele dim" style={{ fontSize: 11, letterSpacing: 1.5, textAlign: "center", margin: 0 }}>{title}</p>
       <div className="card" style={{ padding: 16, marginTop: 8, textAlign: "center" }}>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 12 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) auto minmax(0,1fr)", alignItems: "center", gap: 10 }}>
           <TeamTickerName team={leftTeam || { club: leftName, isYou: leftName === "Your XI" }} align="right" />
-          <span className="tele amber" style={{ fontSize: 34, fontWeight: 800, minWidth: 84 }}>{leftG}-{rightG}</span>
+          <span className="tele amber" style={{ fontSize: 34, fontWeight: 800, minWidth: 78 }}>{leftG}-{rightG}</span>
           <TeamTickerName team={rightTeam || { club: rightName, isYou: rightName === "Your XI" }} align="left" />
         </div>
         <div className="tele" style={{ fontSize: 14, marginTop: 8, color: minColor, fontWeight: 800 }}>
@@ -1020,20 +1023,23 @@ function ShootoutScreen({ tieObj, rl, onDone }) {
     <div className="fade" style={{ paddingTop: 8 }}>
       <p className="tele" style={{ fontSize: 11, letterSpacing: 1.5, textAlign: "center", margin: 0, color: "var(--flame)", fontWeight: 800 }}>PENALTY SHOOTOUT</p>
       <div className="card" style={{ padding: 16, marginTop: 8, textAlign: "center" }}>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 12 }}>
-          <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "right" }}>{tieObj.home.isYou ? "Your XI" : tieObj.home.club}</span>
-          <span className="tele amber" style={{ fontSize: 32, fontWeight: 800, minWidth: 78 }}>{h}-{a}</span>
-          <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "left" }}>{tieObj.away.isYou ? "Your XI" : tieObj.away.club}</span>
+        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) auto minmax(0,1fr)", alignItems: "center", gap: 10 }}>
+          <TeamTickerName team={tieObj.home} align="right" />
+          <span className="tele amber" style={{ fontSize: 32, fontWeight: 800, minWidth: 74 }}>{h}-{a}</span>
+          <TeamTickerName team={tieObj.away} align="left" />
         </div>
       </div>
       <div className="card" style={{ padding: "10px 14px", marginTop: 10, minHeight: 90 }}>
-        {shown.map((k, i) => (
-          <p key={i} className="tele fade" style={{ fontSize: 12, margin: "4px 0", display: "flex", justifyContent: k.team === "home" ? "flex-start" : "flex-end" }}>
-            <span style={{ color: k.scored ? "var(--green)" : "var(--flame)" }}>
-              {k.team === "home" ? "← " : ""}{k.scored ? "Scored" : "Missed"}{k.team === "away" ? " →" : ""}
-            </span>
-          </p>
-        ))}
+        {shown.map((k, i) => {
+          const label = k.kicker ? k.kicker + " " + (k.scored ? "scored" : "missed") : (k.scored ? "Scored" : "Missed");
+          return (
+            <p key={i} className="tele fade" style={{ fontSize: 12, margin: "4px 0", display: "flex", justifyContent: k.team === "home" ? "flex-start" : "flex-end" }}>
+              <span style={{ color: k.scored ? "var(--green)" : "var(--flame)", textAlign: k.team === "home" ? "left" : "right" }}>
+                {k.team === "home" ? "← " : ""}{label}{k.team === "away" ? " →" : ""}
+              </span>
+            </p>
+          );
+        })}
       </div>
       {n >= kicks.length && <button className="btn" style={{ width: "100%", padding: 14, fontSize: 15, marginTop: 10 }} onClick={onDone}>Continue →</button>}
     </div>

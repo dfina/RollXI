@@ -1,5 +1,5 @@
 import { mulberry32, hashStr, seededShuffle } from "./rng.js";
-import { playMatch, oppStrength, extraTime, penalties, goalTimeline, scorerPoolFromXI } from "./match.js";
+import { playMatch, oppStrength, extraTime, penalties, goalTimeline, scorerPoolFromXI, penaltyTakersFromXI } from "./match.js";
 
 /* ---- build the knockout bracket from the final league standings ----
    Modern UCL: 1-8 seeded into R16; 9-24 contest a play-off whose 8 winners
@@ -95,7 +95,8 @@ export function resolveLevel(you, tieObj) {
   if (homeTotal !== awayTotal) {
     return { et, pens: null, winnerId: homeTotal > awayTotal ? tieObj.home.id : tieObj.away.id, etDecided: true };
   }
-  const pk = penalties(homeStr, awayStr, tieObj.id);
+  const takers = penaltyTakersFromXI(you.xi);
+  const pk = penalties(homeStr, awayStr, tieObj.id, tieObj.home.isYou ? takers : [], tieObj.away.isYou ? takers : []);
   return { et, pens: pk, winnerId: pk.winner === "home" ? tieObj.home.id : tieObj.away.id, etDecided: false };
 }
 
@@ -114,7 +115,8 @@ export function playFinal(you, a, b) {
     if (r.hg + et.hg !== r.ag + et.ag) {
       winnerId = (r.hg + et.hg > r.ag + et.ag) ? a.id : b.id;
     } else {
-      pens = penalties(sa, sb, seed);
+      const takers = penaltyTakersFromXI(you.xi);
+      pens = penalties(sa, sb, seed, a.isYou ? takers : [], b.isYou ? takers : []);
       winnerId = pens.winner === "home" ? a.id : b.id;
     }
   } else {
