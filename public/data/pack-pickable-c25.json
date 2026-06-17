@@ -1174,16 +1174,6 @@
           ]
         },
         {
-          "n": "Fabio Rustico",
-          "p": "DF",
-          "r": 76,
-          "nat": "Italy",
-          "dp": [
-            "CB",
-            "RB"
-          ]
-        },
-        {
           "n": "Massimo Paganin",
           "p": "DF",
           "r": 76,
@@ -1249,25 +1239,6 @@
           ]
         },
         {
-          "n": "Fabio Gallo",
-          "p": "MF",
-          "r": 77,
-          "nat": "Italy",
-          "dp": [
-            "CM"
-          ]
-        },
-        {
-          "n": "Ljubiša Dundjerski",
-          "p": "MF",
-          "r": 76,
-          "nat": "Serbia and Montenegro",
-          "dp": [
-            "CM",
-            "DM"
-          ]
-        },
-        {
           "n": "Cristiano Doni",
           "p": "MF",
           "r": 82,
@@ -1303,6 +1274,27 @@
           "dp": [
             "ST"
           ]
+        },
+        {
+          "n": "Damiano Zenoni",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": "RB/RWB"
+        },
+        {
+          "n": "Cristian Zenoni",
+          "p": "DF",
+          "r": 78,
+          "nat": "Italy",
+          "dp": "RB/RM"
+        },
+        {
+          "n": "Massimo Donati",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": "CM"
         }
       ],
       "decoys": [
@@ -1345,24 +1337,6 @@
           "nat": "Czech Republic",
           "dp": [
             "GK"
-          ]
-        },
-        {
-          "n": "Daniele Adani",
-          "p": "DF",
-          "r": 78,
-          "nat": "Italy",
-          "dp": [
-            "CB"
-          ]
-        },
-        {
-          "n": "Dario Dainelli",
-          "p": "DF",
-          "r": 76,
-          "nat": "Italy",
-          "dp": [
-            "CB"
           ]
         },
         {
@@ -1423,16 +1397,6 @@
           ]
         },
         {
-          "n": "Matuzalém",
-          "p": "MF",
-          "r": 77,
-          "nat": "Brazil",
-          "dp": [
-            "CM",
-            "DM"
-          ]
-        },
-        {
           "n": "Andrés Yllana",
           "p": "MF",
           "r": 76,
@@ -1471,13 +1435,32 @@
           ]
         },
         {
-          "n": "Luca Toni",
-          "p": "FW",
+          "n": "Alessandro Calori",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": "CB"
+        },
+        {
+          "n": "Daniele Bonera",
+          "p": "DF",
           "r": 76,
           "nat": "Italy",
-          "dp": [
-            "ST"
-          ]
+          "dp": "CB/RB"
+        },
+        {
+          "n": "Filippo Galli",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": "CB"
+        },
+        {
+          "n": "Pier Paolo Bisoli",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": "CM/DM"
         }
       ],
       "decoys": [
@@ -1831,13 +1814,11 @@
           ]
         },
         {
-          "n": "Igor Kolyvanov",
+          "n": "Giacomo Cipriani",
           "p": "FW",
-          "r": 77,
-          "nat": "Russia",
-          "dp": [
-            "ST"
-          ]
+          "r": 75,
+          "nat": "Italy",
+          "dp": "CF"
         }
       ],
       "decoys": [
@@ -1919,15 +1900,6 @@
           "dp": [
             "RB",
             "RM"
-          ]
-        },
-        {
-          "n": "Salvatore Monaco",
-          "p": "DF",
-          "r": 76,
-          "nat": "Italy",
-          "dp": [
-            "CB"
           ]
         },
         {
@@ -2014,6 +1986,13 @@
           "dp": [
             "ST"
           ]
+        },
+        {
+          "n": "Mirko Pieri",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": "LB/LM"
         }
       ],
       "decoys": [
@@ -2103,15 +2082,6 @@
           ]
         },
         {
-          "n": "Regis Genaux",
-          "p": "DF",
-          "r": 75,
-          "nat": "Belgium",
-          "dp": [
-            "RB"
-          ]
-        },
-        {
           "n": "Giuliano Giannichedda",
           "p": "MF",
           "r": 80,
@@ -2160,15 +2130,6 @@
           ]
         },
         {
-          "n": "David Pizarro",
-          "p": "MF",
-          "r": 80,
-          "nat": "Chile",
-          "dp": [
-            "CM"
-          ]
-        },
-        {
           "n": "Roberto Sosa",
           "p": "FW",
           "r": 78,
@@ -2195,6 +2156,20 @@
           "dp": [
             "ST"
           ]
+        },
+        {
+          "n": "Alberto",
+          "p": "DF",
+          "r": 77,
+          "nat": "Brazil",
+          "dp": "RB/RM"
+        },
+        {
+          "n": "Massimo Margiotta",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": "CF"
         }
       ],
       "decoys": [
@@ -2265,15 +2240,6 @@
         },
         {
           "n": "Alberto Savino",
-          "p": "DF",
-          "r": 76,
-          "nat": "Italy",
-          "dp": [
-            "CB"
-          ]
-        },
-        {
-          "n": "Alberto Malusci",
           "p": "DF",
           "r": 76,
           "nat": "Italy",
@@ -2373,6 +2339,13 @@
           "dp": [
             "ST"
           ]
+        },
+        {
+          "n": "Rodolfo Giorgetti",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": "CM/RM"
         }
       ],
       "decoys": [
@@ -2619,15 +2592,6 @@
           ]
         },
         {
-          "n": "Maurizio Lanzaro",
-          "p": "DF",
-          "r": 75,
-          "nat": "Italy",
-          "dp": [
-            "CB"
-          ]
-        },
-        {
           "n": "Anthony Šerić",
           "p": "DF",
           "r": 76,
@@ -2722,6 +2686,13 @@
           "dp": [
             "ST"
           ]
+        },
+        {
+          "n": "Emiliano Bonazzoli",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": "CF"
         }
       ],
       "decoys": [
@@ -2786,16 +2757,6 @@
           ]
         },
         {
-          "n": "Marco Caneira",
-          "p": "DF",
-          "r": 76,
-          "nat": "Portugal",
-          "dp": [
-            "CB",
-            "RB"
-          ]
-        },
-        {
           "n": "Giovanni Morabito",
           "p": "DF",
           "r": 76,
@@ -2812,15 +2773,6 @@
           "dp": [
             "CB",
             "LB"
-          ]
-        },
-        {
-          "n": "Ivan Franceschini",
-          "p": "DF",
-          "r": 76,
-          "nat": "Italy",
-          "dp": [
-            "CB"
           ]
         },
         {
@@ -2871,16 +2823,6 @@
           ]
         },
         {
-          "n": "Junior Mozart",
-          "p": "MF",
-          "r": 78,
-          "nat": "Brazil",
-          "dp": [
-            "CM",
-            "DM"
-          ]
-        },
-        {
           "n": "Erjon Bogdani",
           "p": "FW",
           "r": 77,
@@ -2897,6 +2839,27 @@
           "dp": [
             "ST"
           ]
+        },
+        {
+          "n": "Oscar Brevi",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": "DM/CM"
+        },
+        {
+          "n": "Fabio Vicari",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": "RM/CM"
+        },
+        {
+          "n": "Davide Dionigi",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": "CF"
         }
       ],
       "decoys": [
