@@ -1,3362 +1,3339 @@
 {
- "meta": {
-  "name": "C4 — Serie A 2021-22 (all 20 clubs)",
-  "wave": "C4",
-  "note": "Complete. All 20 Serie A 2021-22 clubs pickable (all 20 built this wave). AC Milan champions (19th Scudetto, first in 11 years, Pioli). Relegated: Venezia, Cagliari, Genoa. Post-build corrections: Vlahović removed from Fiorentina (moved to Juve Jan 2022); Locatelli removed from Sassuolo (moved to Juve summer 2021); Zaccagni removed from Hellas Verona (moved to Lazio Jan 2022); Boulaye Dia removed from Salernitana (already in Villarreal wave1a). O/P overlap = 0, P/P dups = 0.",
-  "verified": true
- },
- "squads": [
-  {
-   "id": "ita-mil-2122",
-   "club": "AC Milan",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#FB090B",
-    "#000000"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A champion 2021-22 (19th title, first in 11 years)",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Mike Maignan",
-     "p": "GK",
-     "r": 87,
-     "nat": "France",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Davide Calabria",
-     "p": "DF",
-     "r": 77,
-     "nat": "Italy",
-     "dp": [
-      "RB"
-     ]
-    },
-    {
-     "n": "Fikayo Tomori",
-     "p": "DF",
-     "r": 81,
-     "nat": "England",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Pierre Kalulu",
-     "p": "DF",
-     "r": 76,
-     "nat": "France",
-     "dp": [
-      "CB",
-      "RB"
-     ]
-    },
-    {
-     "n": "Alessio Romagnoli",
-     "p": "DF",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Simon Kjær",
-     "p": "DF",
-     "r": 78,
-     "nat": "Denmark",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Theo Hernández",
-     "p": "DF",
-     "r": 84,
-     "nat": "France",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Sandro Tonali",
-     "p": "MF",
-     "r": 81,
-     "nat": "Italy",
-     "dp": [
-      "CM",
-      "DM"
-     ]
-    },
-    {
-     "n": "Ismaël Bennacer",
-     "p": "MF",
-     "r": 79,
-     "nat": "Algeria",
-     "dp": [
-      "DM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Franck Kessié",
-     "p": "MF",
-     "r": 83,
-     "nat": "Ivory Coast",
-     "dp": [
-      "CM"
-     ]
-    },
-    {
-     "n": "Alexis Saelemaekers",
-     "p": "MF",
-     "r": 76,
-     "nat": "Belgium",
-     "dp": [
-      "RW",
-      "RM"
-     ]
-    },
-    {
-     "n": "Brahim Díaz",
-     "p": "MF",
-     "r": 76,
-     "nat": "Spain",
-     "dp": [
-      "AM",
-      "RW"
-     ]
-    },
-    {
-     "n": "Rade Krunić",
-     "p": "MF",
-     "r": 73,
-     "nat": "Bosnia-Herzegovina",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Rafael Leão",
-     "p": "FW",
-     "r": 84,
-     "nat": "Portugal",
-     "dp": [
-      "LW"
-     ]
-    },
-    {
-     "n": "Olivier Giroud",
-     "p": "FW",
-     "r": 80,
-     "nat": "France",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Zlatan Ibrahimović",
-     "p": "FW",
-     "r": 82,
-     "nat": "Sweden",
-     "dp": [
-      "CF"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Paolo Maldini",
-     "DF"
-    ],
-    [
-     "Franco Baresi",
-     "DF"
-    ],
-    [
-     "Andriy Shevchenko",
-     "FW"
-    ],
-    [
-     "Kaká",
-     "MF"
-    ],
-    [
-     "George Weah",
-     "FW"
-    ]
-   ],
-   "euro": [
-    {
-     "comp": "UCL",
-     "season": "2021-22"
-    }
-   ]
+  "meta": {
+    "name": "C4 — Serie A 2021-22 (all 20 clubs)",
+    "wave": "C4",
+    "note": "Complete. All 20 Serie A 2021-22 clubs pickable (all 20 built this wave). AC Milan champions (19th Scudetto, first in 11 years, Pioli). Relegated: Venezia, Cagliari, Genoa. Post-build corrections: Vlahović removed from Fiorentina (moved to Juve Jan 2022); Locatelli removed from Sassuolo (moved to Juve summer 2021); Zaccagni removed from Hellas Verona (moved to Lazio Jan 2022); Boulaye Dia removed from Salernitana (already in Villarreal wave1a). O/P overlap = 0, P/P dups = 0.",
+    "verified": true
   },
-  {
-   "id": "ita-int-2122",
-   "club": "Inter",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#0066CC",
-    "#000000"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A runner-up 2021-22 (2 pts behind Milan)",
-   "tierType": "P",
-   "crest": null,
-   "players": [
+  "squads": [
     {
-     "n": "Samir Handanović",
-     "p": "GK",
-     "r": 81,
-     "nat": "Slovenia",
-     "dp": [
-      "GK"
-     ]
+      "id": "ita-mil-2122",
+      "club": "AC Milan",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#FB090B",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A champion 2021-22 (19th title, first in 11 years)",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Mike Maignan",
+          "p": "GK",
+          "r": 87,
+          "nat": "France",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Davide Calabria",
+          "p": "DF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Fikayo Tomori",
+          "p": "DF",
+          "r": 81,
+          "nat": "England",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Pierre Kalulu",
+          "p": "DF",
+          "r": 76,
+          "nat": "France",
+          "dp": [
+            "CB",
+            "RB"
+          ]
+        },
+        {
+          "n": "Alessio Romagnoli",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Simon Kjær",
+          "p": "DF",
+          "r": 78,
+          "nat": "Denmark",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Theo Hernández",
+          "p": "DF",
+          "r": 84,
+          "nat": "France",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Sandro Tonali",
+          "p": "MF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Ismaël Bennacer",
+          "p": "MF",
+          "r": 79,
+          "nat": "Algeria",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Franck Kessié",
+          "p": "MF",
+          "r": 83,
+          "nat": "Ivory Coast",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alexis Saelemaekers",
+          "p": "MF",
+          "r": 76,
+          "nat": "Belgium",
+          "dp": [
+            "RW",
+            "RM"
+          ]
+        },
+        {
+          "n": "Brahim Díaz",
+          "p": "MF",
+          "r": 76,
+          "nat": "Spain",
+          "dp": [
+            "AM",
+            "RW"
+          ]
+        },
+        {
+          "n": "Rade Krunić",
+          "p": "MF",
+          "r": 73,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Rafael Leão",
+          "p": "FW",
+          "r": 84,
+          "nat": "Portugal",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Olivier Giroud",
+          "p": "FW",
+          "r": 80,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Zlatan Ibrahimović",
+          "p": "FW",
+          "r": 82,
+          "nat": "Sweden",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Paolo Maldini",
+          "DF"
+        ],
+        [
+          "Franco Baresi",
+          "DF"
+        ],
+        [
+          "Andriy Shevchenko",
+          "FW"
+        ],
+        [
+          "Kaká",
+          "MF"
+        ],
+        [
+          "George Weah",
+          "FW"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2021-22"
+        }
+      ]
     },
     {
-     "n": "Milan Škriniar",
-     "p": "DF",
-     "r": 85,
-     "nat": "Slovakia",
-     "dp": [
-      "CB"
-     ]
+      "id": "ita-int-2122",
+      "club": "Inter",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#0066CC",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A runner-up 2021-22 (2 pts behind Milan)",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Samir Handanović",
+          "p": "GK",
+          "r": 81,
+          "nat": "Slovenia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Milan Škriniar",
+          "p": "DF",
+          "r": 85,
+          "nat": "Slovakia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Stefan de Vrij",
+          "p": "DF",
+          "r": 82,
+          "nat": "Netherlands",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Alessandro Bastoni",
+          "p": "DF",
+          "r": 84,
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Denzel Dumfries",
+          "p": "MF",
+          "r": 79,
+          "nat": "Netherlands",
+          "dp": [
+            "RM",
+            "RB"
+          ]
+        },
+        {
+          "n": "Matteo Darmian",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Federico Dimarco",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "LM"
+          ]
+        },
+        {
+          "n": "Nicolò Barella",
+          "p": "MF",
+          "r": 86,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Marcelo Brozović",
+          "p": "MF",
+          "r": 85,
+          "nat": "Croatia",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Hakan Çalhanoglu",
+          "p": "MF",
+          "r": 84,
+          "nat": "Turkey",
+          "dp": [
+            "DM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Ivan Perišić",
+          "p": "FW",
+          "r": 82,
+          "nat": "Croatia",
+          "dp": [
+            "LW",
+            "LM"
+          ]
+        },
+        {
+          "n": "Lautaro Martínez",
+          "p": "FW",
+          "r": 88,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Edin Džeko",
+          "p": "FW",
+          "r": 80,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alexis Sánchez",
+          "p": "FW",
+          "r": 75,
+          "nat": "Chile",
+          "dp": [
+            "FW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Joaquín Correa",
+          "p": "FW",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "FW",
+            "AM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Romelu Lukaku",
+          "FW"
+        ],
+        [
+          "Javier Zanetti",
+          "DF"
+        ],
+        [
+          "Walter Samuel",
+          "DF"
+        ],
+        [
+          "Diego Milito",
+          "FW"
+        ],
+        [
+          "Wesley Sneijder",
+          "MF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2021-22"
+        }
+      ]
     },
     {
-     "n": "Stefan de Vrij",
-     "p": "DF",
-     "r": 82,
-     "nat": "Netherlands",
-     "dp": [
-      "CB"
-     ]
+      "id": "ita-nap-2122",
+      "club": "Napoli",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#6EC6E6",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 3rd place 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "David Ospina",
+          "p": "GK",
+          "r": 80,
+          "nat": "Colombia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Alex Meret",
+          "p": "GK",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Giovanni Di Lorenzo",
+          "p": "DF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Kalidou Koulibaly",
+          "p": "DF",
+          "r": 87,
+          "nat": "Senegal",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Amir Rrahmani",
+          "p": "DF",
+          "r": 80,
+          "nat": "Kosovo",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Mario Rui",
+          "p": "DF",
+          "r": 75,
+          "nat": "Portugal",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Mathías Olivera",
+          "p": "DF",
+          "r": 75,
+          "nat": "Uruguay",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "André-Frank Zambo Anguissa",
+          "p": "MF",
+          "r": 82,
+          "nat": "Cameroon",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Fabián Ruiz",
+          "p": "MF",
+          "r": 82,
+          "nat": "Spain",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Piotr Zieliński",
+          "p": "MF",
+          "r": 82,
+          "nat": "Poland",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Stanislav Lobotka",
+          "p": "MF",
+          "r": 82,
+          "nat": "Slovakia",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Matteo Politano",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Lorenzo Insigne",
+          "p": "FW",
+          "r": 83,
+          "nat": "Italy",
+          "dp": [
+            "LW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Victor Osimhen",
+          "p": "FW",
+          "r": 87,
+          "nat": "Nigeria",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Dries Mertens",
+          "p": "FW",
+          "r": 80,
+          "nat": "Belgium",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "Hirving Lozano",
+          "p": "FW",
+          "r": 77,
+          "nat": "Mexico",
+          "dp": [
+            "RW"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Diego Maradona",
+          "FW"
+        ],
+        [
+          "Edinson Cavani",
+          "FW"
+        ],
+        [
+          "Ezequiel Lavezzi",
+          "FW"
+        ],
+        [
+          "Marek Hamšík",
+          "MF"
+        ],
+        [
+          "Ciro Immobile",
+          "FW"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2021-22"
+        }
+      ]
     },
     {
-     "n": "Alessandro Bastoni",
-     "p": "DF",
-     "r": 84,
-     "nat": "Italy",
-     "dp": [
-      "CB",
-      "LB"
-     ]
+      "id": "ita-laz-2122",
+      "club": "Lazio",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#87CEEB",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 5th place 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Pepe Reina",
+          "p": "GK",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Thomas Strakosha",
+          "p": "GK",
+          "r": 74,
+          "nat": "Albania",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Adam Marušič",
+          "p": "DF",
+          "r": 75,
+          "nat": "Montenegro",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Luiz Felipe",
+          "p": "DF",
+          "r": 76,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Francesco Acerbi",
+          "p": "DF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "SW"
+          ]
+        },
+        {
+          "n": "Elseid Hysaj",
+          "p": "DF",
+          "r": 73,
+          "nat": "Albania",
+          "dp": [
+            "LB",
+            "RB"
+          ]
+        },
+        {
+          "n": "Patric",
+          "p": "DF",
+          "r": 72,
+          "nat": "Spain",
+          "dp": [
+            "CB",
+            "RB"
+          ]
+        },
+        {
+          "n": "Sergej Milinković-Savić",
+          "p": "MF",
+          "r": 87,
+          "nat": "Serbia",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Luis Alberto",
+          "p": "MF",
+          "r": 83,
+          "nat": "Spain",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Lucas Leiva",
+          "p": "MF",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Danilo Cataldi",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Mattia Zaccagni",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "LW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Felipe Anderson",
+          "p": "FW",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "RW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Pedro",
+          "p": "FW",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "FW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Ciro Immobile",
+          "p": "FW",
+          "r": 85,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Hernán Crespo",
+          "FW"
+        ],
+        [
+          "Pavel Nedvěd",
+          "MF"
+        ],
+        [
+          "Miroslav Klose",
+          "FW"
+        ],
+        [
+          "Alessandro Nesta",
+          "DF"
+        ],
+        [
+          "Roberto Mancini",
+          "MF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UEL",
+          "season": "2021-22"
+        }
+      ]
     },
     {
-     "n": "Denzel Dumfries",
-     "p": "MF",
-     "r": 79,
-     "nat": "Netherlands",
-     "dp": [
-      "RM",
-      "RB"
-     ]
+      "id": "ita-juv-2122",
+      "club": "Juventus",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 4th place 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Wojciech Szczęsny",
+          "p": "GK",
+          "r": 84,
+          "nat": "Poland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Matthijs de Ligt",
+          "p": "DF",
+          "r": 84,
+          "nat": "Netherlands",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Leonardo Bonucci",
+          "p": "DF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Danilo",
+          "p": "DF",
+          "r": 77,
+          "nat": "Brazil",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Juan Cuadrado",
+          "p": "MF",
+          "r": 77,
+          "nat": "Colombia",
+          "dp": [
+            "RM",
+            "RB"
+          ]
+        },
+        {
+          "n": "Alex Sandro",
+          "p": "DF",
+          "r": 73,
+          "nat": "Brazil",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Manuel Locatelli",
+          "p": "MF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Adrien Rabiot",
+          "p": "MF",
+          "r": 81,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Weston McKennie",
+          "p": "MF",
+          "r": 75,
+          "nat": "United States",
+          "dp": [
+            "CM",
+            "RM"
+          ]
+        },
+        {
+          "n": "Federico Bernardeschi",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "MF"
+          ]
+        },
+        {
+          "n": "Paulo Dybala",
+          "p": "FW",
+          "r": 85,
+          "nat": "Argentina",
+          "dp": [
+            "SS",
+            "AM"
+          ]
+        },
+        {
+          "n": "Álvaro Morata",
+          "p": "FW",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Moise Kean",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Dušan Vlahović",
+          "p": "FW",
+          "r": 85,
+          "nat": "Serbia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Federico Chiesa",
+          "p": "FW",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "RW",
+            "FW"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Alessandro Del Piero",
+          "FW"
+        ],
+        [
+          "Cristiano Ronaldo",
+          "FW"
+        ],
+        [
+          "Gianluigi Buffon",
+          "GK"
+        ],
+        [
+          "Michel Platini",
+          "MF"
+        ],
+        [
+          "Zinedine Zidane",
+          "MF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2021-22"
+        }
+      ]
     },
     {
-     "n": "Matteo Darmian",
-     "p": "DF",
-     "r": 75,
-     "nat": "Italy",
-     "dp": [
-      "RB",
-      "CB"
-     ]
+      "id": "ita-rom-2122",
+      "club": "AS Roma",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#8E1F2F",
+        "#F0BC42"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 6th, UECL winner 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Rui Patrício",
+          "p": "GK",
+          "r": 82,
+          "nat": "Portugal",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Gianluca Mancini",
+          "p": "DF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Chris Smalling",
+          "p": "DF",
+          "r": 79,
+          "nat": "England",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Roger Ibañez",
+          "p": "DF",
+          "r": 77,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Rick Karsdorp",
+          "p": "DF",
+          "r": 74,
+          "nat": "Netherlands",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Matías Viña",
+          "p": "DF",
+          "r": 73,
+          "nat": "Uruguay",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Nicola Zalewski",
+          "p": "MF",
+          "r": 71,
+          "nat": "Poland",
+          "dp": [
+            "LB",
+            "LW"
+          ]
+        },
+        {
+          "n": "Bryan Cristante",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Jordan Veretout",
+          "p": "MF",
+          "r": 77,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Lorenzo Pellegrini",
+          "p": "MF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Henrikh Mkhitaryan",
+          "p": "MF",
+          "r": 80,
+          "nat": "Armenia",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Nicolo Zaniolo",
+          "p": "FW",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "RW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Tammy Abraham",
+          "p": "FW",
+          "r": 80,
+          "nat": "England",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Stephan El Shaarawy",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "LW"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Francesco Totti",
+          "FW"
+        ],
+        [
+          "Gabriel Batistuta",
+          "FW"
+        ],
+        [
+          "Daniele De Rossi",
+          "MF"
+        ],
+        [
+          "Aldair",
+          "DF"
+        ],
+        [
+          "Paulo Roberto Falcão",
+          "MF"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UECL",
+          "season": "2021-22"
+        }
+      ]
     },
     {
-     "n": "Federico Dimarco",
-     "p": "DF",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "LB",
-      "LM"
-     ]
+      "id": "ita-fio-2122",
+      "club": "Fiorentina",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#4B0082",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 7th place 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Pietro Terracciano",
+          "p": "GK",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Alvaro Odriozola",
+          "p": "DF",
+          "r": 73,
+          "nat": "Spain",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Nikola Milenković",
+          "p": "DF",
+          "r": 79,
+          "nat": "Serbia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Lucas Martínez Quarta",
+          "p": "DF",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Igor",
+          "p": "DF",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Cristiano Biraghi",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Lucas Torreira",
+          "p": "MF",
+          "r": 78,
+          "nat": "Uruguay",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Giacomo Bonaventura",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Gaetano Castrovilli",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Nicolás González",
+          "p": "FW",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "RW",
+            "LW"
+          ]
+        },
+        {
+          "n": "Arthur Cabral",
+          "p": "FW",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Jonathan Ikoné",
+          "p": "FW",
+          "r": 73,
+          "nat": "France",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Riccardo Saponara",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "RW"
+          ]
+        },
+        {
+          "n": "Youssef Maleh",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Gabriel Batistuta",
+          "FW"
+        ],
+        [
+          "Rui Costa",
+          "MF"
+        ],
+        [
+          "Franck Ribéry",
+          "MF"
+        ],
+        [
+          "Adrian Mutu",
+          "FW"
+        ]
+      ]
     },
     {
-     "n": "Nicolò Barella",
-     "p": "MF",
-     "r": 86,
-     "nat": "Italy",
-     "dp": [
-      "CM"
-     ]
+      "id": "ita-ata-2122",
+      "club": "Atalanta",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#1A1A6E",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 8th place 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Juan Musso",
+          "p": "GK",
+          "r": 82,
+          "nat": "Argentina",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Rafael Tolói",
+          "p": "DF",
+          "r": 77,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Berat Djimsiti",
+          "p": "DF",
+          "r": 78,
+          "nat": "Albania",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "José Luis Palomino",
+          "p": "DF",
+          "r": 75,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Hans Hateboer",
+          "p": "DF",
+          "r": 74,
+          "nat": "Netherlands",
+          "dp": [
+            "RB",
+            "RM"
+          ]
+        },
+        {
+          "n": "Joakim Mæhle",
+          "p": "DF",
+          "r": 74,
+          "nat": "Denmark",
+          "dp": [
+            "LB",
+            "LM"
+          ]
+        },
+        {
+          "n": "Davide Zappacosta",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "RM"
+          ]
+        },
+        {
+          "n": "Remo Freuler",
+          "p": "MF",
+          "r": 79,
+          "nat": "Switzerland",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Marten de Roon",
+          "p": "MF",
+          "r": 80,
+          "nat": "Netherlands",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Teun Koopmeiners",
+          "p": "MF",
+          "r": 81,
+          "nat": "Netherlands",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Mario Pasalic",
+          "p": "MF",
+          "r": 77,
+          "nat": "Croatia",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Ruslan Malinovskyi",
+          "p": "MF",
+          "r": 76,
+          "nat": "Ukraine",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Jeremie Boga",
+          "p": "FW",
+          "r": 76,
+          "nat": "Ivory Coast",
+          "dp": [
+            "LW",
+            "FW"
+          ]
+        },
+        {
+          "n": "Luis Muriel",
+          "p": "FW",
+          "r": 79,
+          "nat": "Colombia",
+          "dp": [
+            "CF",
+            "FW"
+          ]
+        },
+        {
+          "n": "Duvan Zapata",
+          "p": "FW",
+          "r": 82,
+          "nat": "Colombia",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Papu Gómez",
+          "FW"
+        ],
+        [
+          "Ciro Immobile",
+          "FW"
+        ],
+        [
+          "Victor Osimhen",
+          "FW"
+        ],
+        [
+          "Roberto Firmino",
+          "FW"
+        ],
+        [
+          "Lorenzo Insigne",
+          "FW"
+        ]
+      ],
+      "euro": [
+        {
+          "comp": "UCL",
+          "season": "2021-22"
+        }
+      ]
     },
     {
-     "n": "Marcelo Brozović",
-     "p": "MF",
-     "r": 85,
-     "nat": "Croatia",
-     "dp": [
-      "DM",
-      "CM"
-     ]
+      "id": "ita-hvr-2122",
+      "club": "Hellas Verona",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#FFD700",
+        "#003DA5"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 9th place 2021-22 (outstanding season)",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Lorenzo Montipò",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Nicolò Casale",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Giangiacomo Magnani",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Davide Faraoni",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Darko Lazovic",
+          "p": "MF",
+          "r": 74,
+          "nat": "Serbia",
+          "dp": [
+            "LM",
+            "LB"
+          ]
+        },
+        {
+          "n": "Ivan Ilić",
+          "p": "MF",
+          "r": 73,
+          "nat": "Serbia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonín Barák",
+          "p": "MF",
+          "r": 76,
+          "nat": "Czech Republic",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Adrien Tameze",
+          "p": "MF",
+          "r": 72,
+          "nat": "France",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Giovanni Simeone",
+          "p": "FW",
+          "r": 80,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Gianluca Caprari",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "FW"
+          ]
+        },
+        {
+          "n": "Kevin Lasagna",
+          "p": "FW",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Federico Ceccherini",
+          "p": "DF",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Luca Toni",
+          "FW"
+        ],
+        [
+          "Adrian Mutu",
+          "FW"
+        ],
+        [
+          "Preben Elkjaer",
+          "FW"
+        ],
+        [
+          "Hans-Peter Briegel",
+          "MF"
+        ],
+        [
+          "Michael Laudrup",
+          "MF"
+        ]
+      ]
     },
     {
-     "n": "Hakan Çalhanoglu",
-     "p": "MF",
-     "r": 84,
-     "nat": "Turkey",
-     "dp": [
-      "DM",
-      "AM"
-     ]
+      "id": "ita-sas-2122",
+      "club": "Sassuolo",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#00A651",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 11th place 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Andrea Consigli",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Vlad Chiricheș",
+          "p": "DF",
+          "r": 73,
+          "nat": "Romania",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gian Marco Ferrari",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Kaan Ayhan",
+          "p": "DF",
+          "r": 73,
+          "nat": "Turkey",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Jeremy Toljan",
+          "p": "DF",
+          "r": 71,
+          "nat": "Germany",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Rogério",
+          "p": "DF",
+          "r": 71,
+          "nat": "Brazil",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Maxime López",
+          "p": "MF",
+          "r": 72,
+          "nat": "France",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Hamed Traoré",
+          "p": "MF",
+          "r": 74,
+          "nat": "Ivory Coast",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Domenico Berardi",
+          "p": "FW",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "RW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Gianluca Scamacca",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Giacomo Raspadori",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CF",
+            "SS"
+          ]
+        },
+        {
+          "n": "Kristoffer Thorstvedt",
+          "p": "MF",
+          "r": 72,
+          "nat": "Norway",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto De Zerbi",
+          "MF"
+        ],
+        [
+          "Francesco Magnanelli",
+          "MF"
+        ],
+        [
+          "Giorgio Squinzi",
+          "MF"
+        ],
+        [
+          "Florian Müller",
+          "GK"
+        ],
+        [
+          "Alfred Duncan",
+          "MF"
+        ]
+      ]
     },
     {
-     "n": "Ivan Perišić",
-     "p": "FW",
-     "r": 82,
-     "nat": "Croatia",
-     "dp": [
-      "LW",
-      "LM"
-     ]
+      "id": "ita-udi-2122",
+      "club": "Udinese",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 12th place 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Marco Silvestri",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Rodrigo Becão",
+          "p": "DF",
+          "r": 76,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Jaka Bijol",
+          "p": "DF",
+          "r": 75,
+          "nat": "Slovenia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Pablo Marí",
+          "p": "DF",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Nahuel Molina",
+          "p": "DF",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Destiny Udogie",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Roberto Pereyra",
+          "p": "MF",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Tolgay Arslan",
+          "p": "MF",
+          "r": 71,
+          "nat": "Germany",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Walace",
+          "p": "MF",
+          "r": 72,
+          "nat": "Brazil",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Gerard Deulofeu",
+          "p": "FW",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "RW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Isaac Success",
+          "p": "FW",
+          "r": 71,
+          "nat": "Nigeria",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Beto",
+          "p": "FW",
+          "r": 73,
+          "nat": "Portugal",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Zico",
+          "MF"
+        ],
+        [
+          "Oliver Bierhoff",
+          "FW"
+        ],
+        [
+          "Antonio Di Natale",
+          "FW"
+        ],
+        [
+          "Alexis Sánchez",
+          "FW"
+        ],
+        [
+          "Arturo Vidal",
+          "MF"
+        ]
+      ]
     },
     {
-     "n": "Lautaro Martínez",
-     "p": "FW",
-     "r": 88,
-     "nat": "Argentina",
-     "dp": [
-      "CF"
-     ]
+      "id": "ita-bol-2122",
+      "club": "Bologna",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#BA1A22",
+        "#003DA5"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 13th place 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Łukasz Skorupski",
+          "p": "GK",
+          "r": 78,
+          "nat": "Poland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Lorenzo De Silvestri",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Adama Soumaoro",
+          "p": "DF",
+          "r": 73,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gary Medel",
+          "p": "MF",
+          "r": 74,
+          "nat": "Chile",
+          "dp": [
+            "CB",
+            "DM"
+          ]
+        },
+        {
+          "n": "Aaron Hickey",
+          "p": "DF",
+          "r": 74,
+          "nat": "Scotland",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Nicolas Dominguez",
+          "p": "MF",
+          "r": 72,
+          "nat": "Argentina",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Jerdy Schouten",
+          "p": "MF",
+          "r": 75,
+          "nat": "Netherlands",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Roberto Soriano",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Riccardo Orsolini",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Nicola Sansone",
+          "p": "FW",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "FW",
+            "RW"
+          ]
+        },
+        {
+          "n": "Marko Arnautovic",
+          "p": "FW",
+          "r": 79,
+          "nat": "Austria",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Musa Barrow",
+          "p": "FW",
+          "r": 74,
+          "nat": "Gambia",
+          "dp": [
+            "FW",
+            "AM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Roberto Baggio",
+          "FW"
+        ],
+        [
+          "Sinisa Mihajlovic",
+          "MF"
+        ],
+        [
+          "Marco Di Vaio",
+          "FW"
+        ],
+        [
+          "Rodrigo Palacio",
+          "FW"
+        ],
+        [
+          "Andrea Poli",
+          "MF"
+        ]
+      ]
     },
     {
-     "n": "Edin Džeko",
-     "p": "FW",
-     "r": 80,
-     "nat": "Bosnia-Herzegovina",
-     "dp": [
-      "CF"
-     ]
+      "id": "ita-tor-2122",
+      "club": "Torino",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#8B0000",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 10th place 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Vanja Milinkovic-Savic",
+          "p": "GK",
+          "r": 79,
+          "nat": "Serbia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Alessandro Buongiorno",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gleison Bremer",
+          "p": "DF",
+          "r": 81,
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Armando Izzo",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ricardo Rodríguez",
+          "p": "DF",
+          "r": 73,
+          "nat": "Switzerland",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Wilfried Singo",
+          "p": "MF",
+          "r": 75,
+          "nat": "Ivory Coast",
+          "dp": [
+            "RM",
+            "RB"
+          ]
+        },
+        {
+          "n": "Rolando Mandragora",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Sasa Lukic",
+          "p": "MF",
+          "r": 74,
+          "nat": "Serbia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Josip Brekalo",
+          "p": "MF",
+          "r": 74,
+          "nat": "Croatia",
+          "dp": [
+            "LW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Andrea Belotti",
+          "p": "FW",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Praet",
+          "p": "MF",
+          "r": 74,
+          "nat": "Belgium",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Antonio Sanabria",
+          "p": "FW",
+          "r": 73,
+          "nat": "Paraguay",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Valentino Mazzola",
+          "MF"
+        ],
+        [
+          "Marco Ferrante",
+          "FW"
+        ],
+        [
+          "Emiliano Moretti",
+          "DF"
+        ],
+        [
+          "Marco Ferrante",
+          "FW"
+        ],
+        [
+          "Luca Marchegiani",
+          "GK"
+        ]
+      ]
     },
     {
-     "n": "Alexis Sánchez",
-     "p": "FW",
-     "r": 75,
-     "nat": "Chile",
-     "dp": [
-      "FW",
-      "AM"
-     ]
+      "id": "ita-sam-2122",
+      "club": "Sampdoria",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#003DA5",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 15th place 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Emil Audero",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Maya Yoshida",
+          "p": "DF",
+          "r": 74,
+          "nat": "Japan",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Bartosz Bereszyński",
+          "p": "DF",
+          "r": 72,
+          "nat": "Poland",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Omar Colley",
+          "p": "DF",
+          "r": 73,
+          "nat": "Gambia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Nicola Murru",
+          "p": "DF",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Albin Ekdal",
+          "p": "MF",
+          "r": 73,
+          "nat": "Sweden",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Morten Thorsby",
+          "p": "MF",
+          "r": 72,
+          "nat": "Norway",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonio Candreva",
+          "p": "FW",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "RW",
+            "RM"
+          ]
+        },
+        {
+          "n": "Mikkel Damsgaard",
+          "p": "MF",
+          "r": 74,
+          "nat": "Denmark",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Fabio Quagliarella",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Manolo Gabbiadini",
+          "p": "FW",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "LW",
+            "FW"
+          ]
+        },
+        {
+          "n": "Francesco Caputo",
+          "p": "FW",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Gianluca Vialli",
+          "FW"
+        ],
+        [
+          "Roberto Mancini",
+          "MF"
+        ],
+        [
+          "Clarence Seedorf",
+          "MF"
+        ],
+        [
+          "Ruud Gullit",
+          "MF"
+        ],
+        [
+          "David Platt",
+          "MF"
+        ]
+      ]
     },
     {
-     "n": "Joaquín Correa",
-     "p": "FW",
-     "r": 76,
-     "nat": "Argentina",
-     "dp": [
-      "FW",
-      "AM"
-     ]
+      "id": "ita-spe-2122",
+      "club": "Spezia",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "C",
+      "honour": "Serie A 16th place 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Ivan Provedel",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Jakub Kiwior",
+          "p": "DF",
+          "r": 73,
+          "nat": "Poland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Kelvin Amian",
+          "p": "DF",
+          "r": 71,
+          "nat": "France",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Arkadiusz Reca",
+          "p": "DF",
+          "r": 71,
+          "nat": "Poland",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Martin Erlic",
+          "p": "DF",
+          "r": 73,
+          "nat": "Croatia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Simone Bastoni",
+          "p": "MF",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "LM",
+            "LB"
+          ]
+        },
+        {
+          "n": "Giulio Maggiore",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Jakub Jankto",
+          "p": "MF",
+          "r": 72,
+          "nat": "Czech Republic",
+          "dp": [
+            "LM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Emmanuel Gyasi",
+          "p": "FW",
+          "r": 72,
+          "nat": "Ghana",
+          "dp": [
+            "RW",
+            "FW"
+          ]
+        },
+        {
+          "n": "M'Bala Nzola",
+          "p": "FW",
+          "r": 73,
+          "nat": "Angola",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Daniele Verde",
+          "p": "FW",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "RW"
+          ]
+        },
+        {
+          "n": "Kevin Agudelo",
+          "p": "MF",
+          "r": 71,
+          "nat": "Colombia",
+          "dp": [
+            "CM",
+            "FW"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Francesco Cosenza",
+          "DF"
+        ],
+        [
+          "Christian Galano",
+          "FW"
+        ],
+        [
+          "Riccardo Saponara",
+          "MF"
+        ],
+        [
+          "Roberto Inglese",
+          "FW"
+        ],
+        [
+          "Claudio Terzi",
+          "DF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-emp-2122",
+      "club": "Empoli",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#009BDB",
+        "#FFFFFF"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A 14th place 2021-22 (promoted from Serie B 2020-21)",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Guglielmo Vicario",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Petar Stojanović",
+          "p": "DF",
+          "r": 71,
+          "nat": "Slovenia",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Sebastian Walukiewicz",
+          "p": "DF",
+          "r": 71,
+          "nat": "Poland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ardian Ismajli",
+          "p": "DF",
+          "r": 73,
+          "nat": "Albania",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Fabiano Parisi",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Samuele Ricci",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Kristjan Asllani",
+          "p": "MF",
+          "r": 73,
+          "nat": "Albania",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Liam Henderson",
+          "p": "MF",
+          "r": 70,
+          "nat": "Scotland",
+          "dp": [
+            "CM",
+            "LW"
+          ]
+        },
+        {
+          "n": "Nedim Bajrami",
+          "p": "MF",
+          "r": 72,
+          "nat": "Switzerland",
+          "dp": [
+            "AM",
+            "LW"
+          ]
+        },
+        {
+          "n": "Patrick Cutrone",
+          "p": "FW",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CF",
+            "FW"
+          ]
+        },
+        {
+          "n": "Andrea Pinamonti",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Filippo Bandinelli",
+          "p": "MF",
+          "r": 70,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Maurizio Sarri",
+          "MF"
+        ],
+        [
+          "Giuseppe Galderisi",
+          "FW"
+        ],
+        [
+          "Massimo Maccarone",
+          "FW"
+        ],
+        [
+          "Davide Moscardelli",
+          "FW"
+        ],
+        [
+          "Gianluca Di Marzio",
+          "FW"
+        ]
+      ]
+    },
+    {
+      "id": "ita-cag-2122",
+      "club": "Cagliari",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#CC0000",
+        "#003DA5"
+      ],
+      "tier": 1,
+      "conf": "B",
+      "honour": "Serie A relegated 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Alessio Cragno",
+          "p": "GK",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Luca Ceppitelli",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrea Carboni",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Diego Godin",
+          "p": "DF",
+          "r": 80,
+          "nat": "Uruguay",
+          "dp": [
+            "CB",
+            "SW"
+          ]
+        },
+        {
+          "n": "Dalbert",
+          "p": "DF",
+          "r": 72,
+          "nat": "Brazil",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Răzvan Marin",
+          "p": "MF",
+          "r": 75,
+          "nat": "Romania",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Alessandro Grassi",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Nahitan Nández",
+          "p": "MF",
+          "r": 73,
+          "nat": "Uruguay",
+          "dp": [
+            "CM",
+            "RM"
+          ]
+        },
+        {
+          "n": "Charalampos Lykogiannis",
+          "p": "DF",
+          "r": 71,
+          "nat": "Greece",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Joao Pedro",
+          "p": "FW",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "Leonardo Pavoletti",
+          "p": "FW",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Keita Baldé",
+          "p": "FW",
+          "r": 73,
+          "nat": "Senegal",
+          "dp": [
+            "FW",
+            "LW"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Gigi Riva",
+          "FW"
+        ],
+        [
+          "Davide Riva",
+          "FW"
+        ],
+        [
+          "Marco Storari",
+          "GK"
+        ],
+        [
+          "Pierluigi Cera",
+          "DF"
+        ],
+        [
+          "Enzo Maresca",
+          "MF"
+        ]
+      ]
+    },
+    {
+      "id": "ita-ven-2122",
+      "club": "Venezia",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#1A1A1A",
+        "#FF6600"
+      ],
+      "tier": 1,
+      "conf": "C",
+      "honour": "Serie A relegated 2021-22 (promoted 2020-21, first top-flight since 2001-02)",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Niki Maenpää",
+          "p": "GK",
+          "r": 71,
+          "nat": "Finland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Ridgeciano Haps",
+          "p": "DF",
+          "r": 72,
+          "nat": "Netherlands",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Michael Svoboda",
+          "p": "DF",
+          "r": 71,
+          "nat": "Czech Republic",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Pietro Ceccaroni",
+          "p": "DF",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ethan Ampadu",
+          "p": "MF",
+          "r": 73,
+          "nat": "Wales",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Gianluca Busio",
+          "p": "MF",
+          "r": 72,
+          "nat": "United States",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Mattia Aramu",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "MF"
+          ]
+        },
+        {
+          "n": "Sofian Kiyine",
+          "p": "MF",
+          "r": 71,
+          "nat": "Morocco",
+          "dp": [
+            "MF",
+            "LW"
+          ]
+        },
+        {
+          "n": "David Okereke",
+          "p": "FW",
+          "r": 72,
+          "nat": "Nigeria",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Thomas Henry",
+          "p": "FW",
+          "r": 73,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Francesco Forte",
+          "p": "FW",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "CF",
+            "FW"
+          ]
+        },
+        {
+          "n": "Domen Črnigoj",
+          "p": "MF",
+          "r": 71,
+          "nat": "Slovenia",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Marco Ferrante",
+          "FW"
+        ],
+        [
+          "Filippo Inzaghi",
+          "FW"
+        ],
+        [
+          "Alvaro Recoba",
+          "FW"
+        ],
+        [
+          "Dean Saunders",
+          "FW"
+        ],
+        [
+          "Francesco Baiano",
+          "FW"
+        ]
+      ]
+    },
+    {
+      "id": "ita-gen-2122",
+      "club": "Genoa",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#CC0000",
+        "#003DA5"
+      ],
+      "tier": 1,
+      "conf": "C",
+      "honour": "Serie A relegated 2021-22",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Salvatore Sirigu",
+          "p": "GK",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Domenico Criscito",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Johan Vásquez",
+          "p": "DF",
+          "r": 72,
+          "nat": "Mexico",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Mattia Bani",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Leo Östigård",
+          "p": "DF",
+          "r": 72,
+          "nat": "Norway",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrea Cambiaso",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "LM"
+          ]
+        },
+        {
+          "n": "Milan Badelj",
+          "p": "MF",
+          "r": 74,
+          "nat": "Croatia",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Stefano Sturaro",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Caleb Ekuban",
+          "p": "FW",
+          "r": 71,
+          "nat": "Ghana",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Mattia Destro",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Flávio Aleksander Paixão",
+          "p": "FW",
+          "r": 72,
+          "nat": "Portugal",
+          "dp": [
+            "FW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Riccardo Calafiori",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Diego Milito",
+          "FW"
+        ],
+        [
+          "Claudio Onofri",
+          "MF"
+        ],
+        [
+          "Luca Toni",
+          "FW"
+        ],
+        [
+          "Goran Pandev",
+          "FW"
+        ],
+        [
+          "Stéphane Guivarc'h",
+          "FW"
+        ]
+      ]
+    },
+    {
+      "id": "ita-sal-2122",
+      "club": "Salernitana",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "2021-22",
+      "kit": [
+        "#CC0000",
+        "#000000"
+      ],
+      "tier": 1,
+      "conf": "C",
+      "honour": "Serie A 17th place 2021-22 (survival on final day)",
+      "tierType": "P",
+      "crest": null,
+      "players": [
+        {
+          "n": "Vid Belec",
+          "p": "GK",
+          "r": 72,
+          "nat": "Slovenia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Norbert Gyömbér",
+          "p": "DF",
+          "r": 72,
+          "nat": "Slovakia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Lassana Coulibaly",
+          "p": "MF",
+          "r": 72,
+          "nat": "Mali",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Milan Djuric",
+          "p": "FW",
+          "r": 72,
+          "nat": "Bosnia-Herzegovina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Grigoris Kastanos",
+          "p": "MF",
+          "r": 71,
+          "nat": "Cyprus",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Mamadou Coulibaly",
+          "p": "MF",
+          "r": 71,
+          "nat": "Senegal",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Franck Ribéry",
+          "p": "FW",
+          "r": 78,
+          "nat": "France",
+          "dp": [
+            "AM",
+            "FW"
+          ]
+        },
+        {
+          "n": "Federico Bonazzoli",
+          "p": "FW",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "CF",
+            "FW"
+          ]
+        },
+        {
+          "n": "Flavius Daniliuc",
+          "p": "DF",
+          "r": 71,
+          "nat": "Austria",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Filippo Ruggeri",
+          "p": "DF",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Emil Bohinen",
+          "p": "MF",
+          "r": 71,
+          "nat": "Norway",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Simy",
+          "p": "FW",
+          "r": 72,
+          "nat": "Nigeria",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "decoys": [
+        [
+          "Ivan Juric",
+          "MF"
+        ],
+        [
+          "Igor Protti",
+          "FW"
+        ],
+        [
+          "Emiliano Alfieri",
+          "MF"
+        ],
+        [
+          "Vincenzo Cascione",
+          "MF"
+        ],
+        [
+          "Marco Branca",
+          "FW"
+        ]
+      ]
     }
-   ],
-   "decoys": [
-    [
-     "Romelu Lukaku",
-     "FW"
-    ],
-    [
-     "Javier Zanetti",
-     "DF"
-    ],
-    [
-     "Walter Samuel",
-     "DF"
-    ],
-    [
-     "Diego Milito",
-     "FW"
-    ],
-    [
-     "Wesley Sneijder",
-     "MF"
-    ]
-   ],
-   "euro": [
-    {
-     "comp": "UCL",
-     "season": "2021-22"
-    }
-   ]
-  },
-  {
-   "id": "ita-nap-2122",
-   "club": "Napoli",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#6EC6E6",
-    "#FFFFFF"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A 3rd place 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "David Ospina",
-     "p": "GK",
-     "r": 80,
-     "nat": "Colombia",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Alex Meret",
-     "p": "GK",
-     "r": 79,
-     "nat": "Italy",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Giovanni Di Lorenzo",
-     "p": "DF",
-     "r": 82,
-     "nat": "Italy",
-     "dp": [
-      "RB"
-     ]
-    },
-    {
-     "n": "Kalidou Koulibaly",
-     "p": "DF",
-     "r": 87,
-     "nat": "Senegal",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Amir Rrahmani",
-     "p": "DF",
-     "r": 80,
-     "nat": "Kosovo",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Mario Rui",
-     "p": "DF",
-     "r": 75,
-     "nat": "Portugal",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Mathías Olivera",
-     "p": "DF",
-     "r": 75,
-     "nat": "Uruguay",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "André-Frank Zambo Anguissa",
-     "p": "MF",
-     "r": 82,
-     "nat": "Cameroon",
-     "dp": [
-      "CM",
-      "DM"
-     ]
-    },
-    {
-     "n": "Fabián Ruiz",
-     "p": "MF",
-     "r": 82,
-     "nat": "Spain",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Piotr Zieliński",
-     "p": "MF",
-     "r": 82,
-     "nat": "Poland",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Stanislav Lobotka",
-     "p": "MF",
-     "r": 82,
-     "nat": "Slovakia",
-     "dp": [
-      "DM"
-     ]
-    },
-    {
-     "n": "Matteo Politano",
-     "p": "FW",
-     "r": 77,
-     "nat": "Italy",
-     "dp": [
-      "RW"
-     ]
-    },
-    {
-     "n": "Lorenzo Insigne",
-     "p": "FW",
-     "r": 83,
-     "nat": "Italy",
-     "dp": [
-      "LW",
-      "AM"
-     ]
-    },
-    {
-     "n": "Victor Osimhen",
-     "p": "FW",
-     "r": 87,
-     "nat": "Nigeria",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Dries Mertens",
-     "p": "FW",
-     "r": 80,
-     "nat": "Belgium",
-     "dp": [
-      "CF",
-      "AM"
-     ]
-    },
-    {
-     "n": "Hirving Lozano",
-     "p": "FW",
-     "r": 77,
-     "nat": "Mexico",
-     "dp": [
-      "RW"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Diego Maradona",
-     "FW"
-    ],
-    [
-     "Edinson Cavani",
-     "FW"
-    ],
-    [
-     "Ezequiel Lavezzi",
-     "FW"
-    ],
-    [
-     "Marek Hamšík",
-     "MF"
-    ],
-    [
-     "Ciro Immobile",
-     "FW"
-    ]
-   ],
-   "euro": [
-    {
-     "comp": "UCL",
-     "season": "2021-22"
-    }
-   ]
-  },
-  {
-   "id": "ita-laz-2122",
-   "club": "Lazio",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#87CEEB",
-    "#FFFFFF"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A 5th place 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Pepe Reina",
-     "p": "GK",
-     "r": 74,
-     "nat": "Spain",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Thomas Strakosha",
-     "p": "GK",
-     "r": 74,
-     "nat": "Albania",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Adam Marušič",
-     "p": "DF",
-     "r": 75,
-     "nat": "Montenegro",
-     "dp": [
-      "RB"
-     ]
-    },
-    {
-     "n": "Luiz Felipe",
-     "p": "DF",
-     "r": 76,
-     "nat": "Brazil",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Francesco Acerbi",
-     "p": "DF",
-     "r": 81,
-     "nat": "Italy",
-     "dp": [
-      "CB",
-      "SW"
-     ]
-    },
-    {
-     "n": "Elseid Hysaj",
-     "p": "DF",
-     "r": 73,
-     "nat": "Albania",
-     "dp": [
-      "LB",
-      "RB"
-     ]
-    },
-    {
-     "n": "Patric",
-     "p": "DF",
-     "r": 72,
-     "nat": "Spain",
-     "dp": [
-      "CB",
-      "RB"
-     ]
-    },
-    {
-     "n": "Sergej Milinković-Savić",
-     "p": "MF",
-     "r": 87,
-     "nat": "Serbia",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Luis Alberto",
-     "p": "MF",
-     "r": 83,
-     "nat": "Spain",
-     "dp": [
-      "AM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Lucas Leiva",
-     "p": "MF",
-     "r": 74,
-     "nat": "Brazil",
-     "dp": [
-      "DM"
-     ]
-    },
-    {
-     "n": "Danilo Cataldi",
-     "p": "MF",
-     "r": 73,
-     "nat": "Italy",
-     "dp": [
-      "DM"
-     ]
-    },
-    {
-     "n": "Mattia Zaccagni",
-     "p": "FW",
-     "r": 79,
-     "nat": "Italy",
-     "dp": [
-      "LW",
-      "AM"
-     ]
-    },
-    {
-     "n": "Felipe Anderson",
-     "p": "FW",
-     "r": 78,
-     "nat": "Brazil",
-     "dp": [
-      "RW",
-      "AM"
-     ]
-    },
-    {
-     "n": "Pedro",
-     "p": "FW",
-     "r": 77,
-     "nat": "Spain",
-     "dp": [
-      "FW",
-      "AM"
-     ]
-    },
-    {
-     "n": "Ciro Immobile",
-     "p": "FW",
-     "r": 85,
-     "nat": "Italy",
-     "dp": [
-      "CF"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Hernán Crespo",
-     "FW"
-    ],
-    [
-     "Pavel Nedvěd",
-     "MF"
-    ],
-    [
-     "Miroslav Klose",
-     "FW"
-    ],
-    [
-     "Alessandro Nesta",
-     "DF"
-    ],
-    [
-     "Roberto Mancini",
-     "MF"
-    ]
-   ],
-   "euro": [
-    {
-     "comp": "UCL",
-     "season": "2021-22"
-    }
-   ]
-  },
-  {
-   "id": "ita-juv-2122",
-   "club": "Juventus",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#FFFFFF",
-    "#000000"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A 4th place 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Wojciech Szczęsny",
-     "p": "GK",
-     "r": 84,
-     "nat": "Poland",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Matthijs de Ligt",
-     "p": "DF",
-     "r": 84,
-     "nat": "Netherlands",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Leonardo Bonucci",
-     "p": "DF",
-     "r": 80,
-     "nat": "Italy",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Danilo",
-     "p": "DF",
-     "r": 77,
-     "nat": "Brazil",
-     "dp": [
-      "RB",
-      "CB"
-     ]
-    },
-    {
-     "n": "Juan Cuadrado",
-     "p": "MF",
-     "r": 77,
-     "nat": "Colombia",
-     "dp": [
-      "RM",
-      "RB"
-     ]
-    },
-    {
-     "n": "Alex Sandro",
-     "p": "DF",
-     "r": 73,
-     "nat": "Brazil",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Manuel Locatelli",
-     "p": "MF",
-     "r": 79,
-     "nat": "Italy",
-     "dp": [
-      "DM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Adrien Rabiot",
-     "p": "MF",
-     "r": 81,
-     "nat": "France",
-     "dp": [
-      "CM"
-     ]
-    },
-    {
-     "n": "Weston McKennie",
-     "p": "MF",
-     "r": 75,
-     "nat": "United States",
-     "dp": [
-      "CM",
-      "RM"
-     ]
-    },
-    {
-     "n": "Federico Bernardeschi",
-     "p": "MF",
-     "r": 74,
-     "nat": "Italy",
-     "dp": [
-      "AM",
-      "MF"
-     ]
-    },
-    {
-     "n": "Paulo Dybala",
-     "p": "FW",
-     "r": 85,
-     "nat": "Argentina",
-     "dp": [
-      "SS",
-      "AM"
-     ]
-    },
-    {
-     "n": "Álvaro Morata",
-     "p": "FW",
-     "r": 78,
-     "nat": "Spain",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Moise Kean",
-     "p": "FW",
-     "r": 75,
-     "nat": "Italy",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Dušan Vlahović",
-     "p": "FW",
-     "r": 85,
-     "nat": "Serbia",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Federico Chiesa",
-     "p": "FW",
-     "r": 82,
-     "nat": "Italy",
-     "dp": [
-      "RW",
-      "FW"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Alessandro Del Piero",
-     "FW"
-    ],
-    [
-     "Cristiano Ronaldo",
-     "FW"
-    ],
-    [
-     "Gianluigi Buffon",
-     "GK"
-    ],
-    [
-     "Michel Platini",
-     "MF"
-    ],
-    [
-     "Zinedine Zidane",
-     "MF"
-    ]
-   ],
-   "euro": [
-    {
-     "comp": "UCL",
-     "season": "2021-22"
-    }
-   ]
-  },
-  {
-   "id": "ita-rom-2122",
-   "club": "AS Roma",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#8E1F2F",
-    "#F0BC42"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A 6th, UECL winner 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Rui Patrício",
-     "p": "GK",
-     "r": 82,
-     "nat": "Portugal",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Gianluca Mancini",
-     "p": "DF",
-     "r": 79,
-     "nat": "Italy",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Chris Smalling",
-     "p": "DF",
-     "r": 79,
-     "nat": "England",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Roger Ibañez",
-     "p": "DF",
-     "r": 77,
-     "nat": "Brazil",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Rick Karsdorp",
-     "p": "DF",
-     "r": 74,
-     "nat": "Netherlands",
-     "dp": [
-      "RB"
-     ]
-    },
-    {
-     "n": "Matías Viña",
-     "p": "DF",
-     "r": 73,
-     "nat": "Uruguay",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Nicola Zalewski",
-     "p": "MF",
-     "r": 71,
-     "nat": "Poland",
-     "dp": [
-      "LB",
-      "LW"
-     ]
-    },
-    {
-     "n": "Bryan Cristante",
-     "p": "MF",
-     "r": 77,
-     "nat": "Italy",
-     "dp": [
-      "CM",
-      "DM"
-     ]
-    },
-    {
-     "n": "Jordan Veretout",
-     "p": "MF",
-     "r": 77,
-     "nat": "France",
-     "dp": [
-      "CM"
-     ]
-    },
-    {
-     "n": "Lorenzo Pellegrini",
-     "p": "MF",
-     "r": 82,
-     "nat": "Italy",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Henrikh Mkhitaryan",
-     "p": "MF",
-     "r": 80,
-     "nat": "Armenia",
-     "dp": [
-      "AM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Nicolo Zaniolo",
-     "p": "FW",
-     "r": 78,
-     "nat": "Italy",
-     "dp": [
-      "RW",
-      "AM"
-     ]
-    },
-    {
-     "n": "Tammy Abraham",
-     "p": "FW",
-     "r": 80,
-     "nat": "England",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Stephan El Shaarawy",
-     "p": "FW",
-     "r": 75,
-     "nat": "Italy",
-     "dp": [
-      "LW"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Francesco Totti",
-     "FW"
-    ],
-    [
-     "Gabriel Batistuta",
-     "FW"
-    ],
-    [
-     "Daniele De Rossi",
-     "MF"
-    ],
-    [
-     "Aldair",
-     "DF"
-    ],
-    [
-     "Paulo Roberto Falcão",
-     "MF"
-    ]
-   ],
-   "euro": [
-    {
-     "comp": "CONFL",
-     "season": "2021-22"
-    }
-   ]
-  },
-  {
-   "id": "ita-fio-2122",
-   "club": "Fiorentina",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#4B0082",
-    "#FFFFFF"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A 7th place 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Pietro Terracciano",
-     "p": "GK",
-     "r": 75,
-     "nat": "Italy",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Alvaro Odriozola",
-     "p": "DF",
-     "r": 73,
-     "nat": "Spain",
-     "dp": [
-      "RB"
-     ]
-    },
-    {
-     "n": "Nikola Milenković",
-     "p": "DF",
-     "r": 79,
-     "nat": "Serbia",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Lucas Martínez Quarta",
-     "p": "DF",
-     "r": 77,
-     "nat": "Argentina",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Igor",
-     "p": "DF",
-     "r": 75,
-     "nat": "Brazil",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Cristiano Biraghi",
-     "p": "DF",
-     "r": 73,
-     "nat": "Italy",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Lucas Torreira",
-     "p": "MF",
-     "r": 78,
-     "nat": "Uruguay",
-     "dp": [
-      "DM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Giacomo Bonaventura",
-     "p": "MF",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Gaetano Castrovilli",
-     "p": "MF",
-     "r": 75,
-     "nat": "Italy",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Nicolás González",
-     "p": "FW",
-     "r": 78,
-     "nat": "Argentina",
-     "dp": [
-      "RW",
-      "LW"
-     ]
-    },
-    {
-     "n": "Arthur Cabral",
-     "p": "FW",
-     "r": 74,
-     "nat": "Brazil",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Jonathan Ikoné",
-     "p": "FW",
-     "r": 73,
-     "nat": "France",
-     "dp": [
-      "RW"
-     ]
-    },
-    {
-     "n": "Riccardo Saponara",
-     "p": "MF",
-     "r": 72,
-     "nat": "Italy",
-     "dp": [
-      "AM",
-      "RW"
-     ]
-    },
-    {
-     "n": "Youssef Maleh",
-     "p": "MF",
-     "r": 72,
-     "nat": "Italy",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Roberto Baggio",
-     "FW"
-    ],
-    [
-     "Gabriel Batistuta",
-     "FW"
-    ],
-    [
-     "Rui Costa",
-     "MF"
-    ],
-    [
-     "Franck Ribéry",
-     "MF"
-    ],
-    [
-     "Adrian Mutu",
-     "FW"
-    ]
-   ],
-   "euro": [
-    {
-     "comp": "CONFL",
-     "season": "2021-22"
-    }
-   ]
-  },
-  {
-   "id": "ita-ata-2122",
-   "club": "Atalanta",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#1A1A6E",
-    "#000000"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A 8th place 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Juan Musso",
-     "p": "GK",
-     "r": 82,
-     "nat": "Argentina",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Rafael Tolói",
-     "p": "DF",
-     "r": 77,
-     "nat": "Brazil",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Berat Djimsiti",
-     "p": "DF",
-     "r": 78,
-     "nat": "Albania",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "José Luis Palomino",
-     "p": "DF",
-     "r": 75,
-     "nat": "Argentina",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Hans Hateboer",
-     "p": "DF",
-     "r": 74,
-     "nat": "Netherlands",
-     "dp": [
-      "RB",
-      "RM"
-     ]
-    },
-    {
-     "n": "Joakim Mæhle",
-     "p": "DF",
-     "r": 74,
-     "nat": "Denmark",
-     "dp": [
-      "LB",
-      "LM"
-     ]
-    },
-    {
-     "n": "Davide Zappacosta",
-     "p": "DF",
-     "r": 75,
-     "nat": "Italy",
-     "dp": [
-      "RB",
-      "RM"
-     ]
-    },
-    {
-     "n": "Remo Freuler",
-     "p": "MF",
-     "r": 79,
-     "nat": "Switzerland",
-     "dp": [
-      "CM",
-      "DM"
-     ]
-    },
-    {
-     "n": "Marten de Roon",
-     "p": "MF",
-     "r": 80,
-     "nat": "Netherlands",
-     "dp": [
-      "DM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Teun Koopmeiners",
-     "p": "MF",
-     "r": 81,
-     "nat": "Netherlands",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Mario Pasalic",
-     "p": "MF",
-     "r": 77,
-     "nat": "Croatia",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Ruslan Malinovskyi",
-     "p": "MF",
-     "r": 76,
-     "nat": "Ukraine",
-     "dp": [
-      "AM"
-     ]
-    },
-    {
-     "n": "Jeremie Boga",
-     "p": "FW",
-     "r": 76,
-     "nat": "Ivory Coast",
-     "dp": [
-      "LW",
-      "FW"
-     ]
-    },
-    {
-     "n": "Luis Muriel",
-     "p": "FW",
-     "r": 79,
-     "nat": "Colombia",
-     "dp": [
-      "CF",
-      "FW"
-     ]
-    },
-    {
-     "n": "Duvan Zapata",
-     "p": "FW",
-     "r": 82,
-     "nat": "Colombia",
-     "dp": [
-      "CF"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Papu Gómez",
-     "FW"
-    ],
-    [
-     "Ciro Immobile",
-     "FW"
-    ],
-    [
-     "Victor Osimhen",
-     "FW"
-    ],
-    [
-     "Roberto Firmino",
-     "FW"
-    ],
-    [
-     "Lorenzo Insigne",
-     "FW"
-    ]
-   ],
-   "euro": [
-    {
-     "comp": "UCL",
-     "season": "2021-22"
-    }
-   ]
-  },
-  {
-   "id": "ita-hvr-2122",
-   "club": "Hellas Verona",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#FFD700",
-    "#003DA5"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A 9th place 2021-22 (outstanding season)",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Lorenzo Montipò",
-     "p": "GK",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Nicolò Casale",
-     "p": "DF",
-     "r": 74,
-     "nat": "Italy",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Giangiacomo Magnani",
-     "p": "DF",
-     "r": 72,
-     "nat": "Italy",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Davide Faraoni",
-     "p": "DF",
-     "r": 73,
-     "nat": "Italy",
-     "dp": [
-      "RB"
-     ]
-    },
-    {
-     "n": "Darko Lazovic",
-     "p": "MF",
-     "r": 74,
-     "nat": "Serbia",
-     "dp": [
-      "LM",
-      "LB"
-     ]
-    },
-    {
-     "n": "Ivan Ilić",
-     "p": "MF",
-     "r": 73,
-     "nat": "Serbia",
-     "dp": [
-      "CM"
-     ]
-    },
-    {
-     "n": "Antonín Barák",
-     "p": "MF",
-     "r": 76,
-     "nat": "Czech Republic",
-     "dp": [
-      "AM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Adrien Tameze",
-     "p": "MF",
-     "r": 72,
-     "nat": "France",
-     "dp": [
-      "DM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Giovanni Simeone",
-     "p": "FW",
-     "r": 80,
-     "nat": "Argentina",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Gianluca Caprari",
-     "p": "FW",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "AM",
-      "FW"
-     ]
-    },
-    {
-     "n": "Kevin Lasagna",
-     "p": "FW",
-     "r": 71,
-     "nat": "Italy",
-     "dp": [
-      "FW"
-     ]
-    },
-    {
-     "n": "Federico Ceccherini",
-     "p": "DF",
-     "r": 71,
-     "nat": "Italy",
-     "dp": [
-      "CB"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Luca Toni",
-     "FW"
-    ],
-    [
-     "Adrian Mutu",
-     "FW"
-    ],
-    [
-     "Preben Elkjaer",
-     "FW"
-    ],
-    [
-     "Hans-Peter Briegel",
-     "MF"
-    ],
-    [
-     "Michael Laudrup",
-     "MF"
-    ]
-   ],
-   "euro": []
-  },
-  {
-   "id": "ita-sas-2122",
-   "club": "Sassuolo",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#00A651",
-    "#000000"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A 11th place 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Andrea Consigli",
-     "p": "GK",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Vlad Chiricheș",
-     "p": "DF",
-     "r": 73,
-     "nat": "Romania",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Gian Marco Ferrari",
-     "p": "DF",
-     "r": 73,
-     "nat": "Italy",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Kaan Ayhan",
-     "p": "DF",
-     "r": 73,
-     "nat": "Turkey",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Jeremy Toljan",
-     "p": "DF",
-     "r": 71,
-     "nat": "Germany",
-     "dp": [
-      "RB"
-     ]
-    },
-    {
-     "n": "Rogério",
-     "p": "DF",
-     "r": 71,
-     "nat": "Brazil",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Maxime López",
-     "p": "MF",
-     "r": 72,
-     "nat": "France",
-     "dp": [
-      "DM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Hamed Traoré",
-     "p": "MF",
-     "r": 74,
-     "nat": "Ivory Coast",
-     "dp": [
-      "AM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Domenico Berardi",
-     "p": "FW",
-     "r": 82,
-     "nat": "Italy",
-     "dp": [
-      "RW",
-      "AM"
-     ]
-    },
-    {
-     "n": "Gianluca Scamacca",
-     "p": "FW",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Giacomo Raspadori",
-     "p": "FW",
-     "r": 75,
-     "nat": "Italy",
-     "dp": [
-      "CF",
-      "SS"
-     ]
-    },
-    {
-     "n": "Kristoffer Thorstvedt",
-     "p": "MF",
-     "r": 72,
-     "nat": "Norway",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Roberto De Zerbi",
-     "MF"
-    ],
-    [
-     "Francesco Magnanelli",
-     "MF"
-    ],
-    [
-     "Giorgio Squinzi",
-     "MF"
-    ],
-    [
-     "Florian Müller",
-     "GK"
-    ],
-    [
-     "Alfred Duncan",
-     "MF"
-    ]
-   ],
-   "euro": [
-    {
-     "comp": "UEL",
-     "season": "2021-22"
-    }
-   ]
-  },
-  {
-   "id": "ita-udi-2122",
-   "club": "Udinese",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#FFFFFF",
-    "#000000"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A 12th place 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Marco Silvestri",
-     "p": "GK",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Rodrigo Becão",
-     "p": "DF",
-     "r": 76,
-     "nat": "Brazil",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Jaka Bijol",
-     "p": "DF",
-     "r": 75,
-     "nat": "Slovenia",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Pablo Marí",
-     "p": "DF",
-     "r": 74,
-     "nat": "Spain",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Nahuel Molina",
-     "p": "DF",
-     "r": 78,
-     "nat": "Argentina",
-     "dp": [
-      "RB"
-     ]
-    },
-    {
-     "n": "Destiny Udogie",
-     "p": "DF",
-     "r": 75,
-     "nat": "Italy",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Roberto Pereyra",
-     "p": "MF",
-     "r": 76,
-     "nat": "Argentina",
-     "dp": [
-      "AM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Tolgay Arslan",
-     "p": "MF",
-     "r": 71,
-     "nat": "Germany",
-     "dp": [
-      "DM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Walace",
-     "p": "MF",
-     "r": 72,
-     "nat": "Brazil",
-     "dp": [
-      "DM"
-     ]
-    },
-    {
-     "n": "Gerard Deulofeu",
-     "p": "FW",
-     "r": 77,
-     "nat": "Spain",
-     "dp": [
-      "RW",
-      "AM"
-     ]
-    },
-    {
-     "n": "Isaac Success",
-     "p": "FW",
-     "r": 71,
-     "nat": "Nigeria",
-     "dp": [
-      "FW"
-     ]
-    },
-    {
-     "n": "Beto",
-     "p": "FW",
-     "r": 73,
-     "nat": "Portugal",
-     "dp": [
-      "CF"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Zico",
-     "MF"
-    ],
-    [
-     "Oliver Bierhoff",
-     "FW"
-    ],
-    [
-     "Antonio Di Natale",
-     "FW"
-    ],
-    [
-     "Alexis Sánchez",
-     "FW"
-    ],
-    [
-     "Arturo Vidal",
-     "MF"
-    ]
-   ],
-   "euro": []
-  },
-  {
-   "id": "ita-bol-2122",
-   "club": "Bologna",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#BA1A22",
-    "#003DA5"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A 13th place 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Łukasz Skorupski",
-     "p": "GK",
-     "r": 78,
-     "nat": "Poland",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Lorenzo De Silvestri",
-     "p": "DF",
-     "r": 72,
-     "nat": "Italy",
-     "dp": [
-      "RB"
-     ]
-    },
-    {
-     "n": "Adama Soumaoro",
-     "p": "DF",
-     "r": 73,
-     "nat": "France",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Gary Medel",
-     "p": "MF",
-     "r": 74,
-     "nat": "Chile",
-     "dp": [
-      "CB",
-      "DM"
-     ]
-    },
-    {
-     "n": "Aaron Hickey",
-     "p": "DF",
-     "r": 74,
-     "nat": "Scotland",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Nicolas Dominguez",
-     "p": "MF",
-     "r": 72,
-     "nat": "Argentina",
-     "dp": [
-      "CM"
-     ]
-    },
-    {
-     "n": "Jerdy Schouten",
-     "p": "MF",
-     "r": 75,
-     "nat": "Netherlands",
-     "dp": [
-      "DM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Roberto Soriano",
-     "p": "MF",
-     "r": 73,
-     "nat": "Italy",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Riccardo Orsolini",
-     "p": "FW",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "RW"
-     ]
-    },
-    {
-     "n": "Nicola Sansone",
-     "p": "FW",
-     "r": 71,
-     "nat": "Italy",
-     "dp": [
-      "FW",
-      "RW"
-     ]
-    },
-    {
-     "n": "Marko Arnautovic",
-     "p": "FW",
-     "r": 79,
-     "nat": "Austria",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Musa Barrow",
-     "p": "FW",
-     "r": 74,
-     "nat": "Gambia",
-     "dp": [
-      "FW",
-      "AM"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Roberto Baggio",
-     "FW"
-    ],
-    [
-     "Sinisa Mihajlovic",
-     "MF"
-    ],
-    [
-     "Marco Di Vaio",
-     "FW"
-    ],
-    [
-     "Rodrigo Palacio",
-     "FW"
-    ],
-    [
-     "Andrea Poli",
-     "MF"
-    ]
-   ],
-   "euro": []
-  },
-  {
-   "id": "ita-tor-2122",
-   "club": "Torino",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#8B0000",
-    "#FFFFFF"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A 10th place 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Vanja Milinkovic-Savic",
-     "p": "GK",
-     "r": 79,
-     "nat": "Serbia",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Alessandro Buongiorno",
-     "p": "DF",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Gleison Bremer",
-     "p": "DF",
-     "r": 81,
-     "nat": "Brazil",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Armando Izzo",
-     "p": "DF",
-     "r": 73,
-     "nat": "Italy",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Ricardo Rodríguez",
-     "p": "DF",
-     "r": 73,
-     "nat": "Switzerland",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Wilfried Singo",
-     "p": "MF",
-     "r": 75,
-     "nat": "Ivory Coast",
-     "dp": [
-      "RM",
-      "RB"
-     ]
-    },
-    {
-     "n": "Rolando Mandragora",
-     "p": "MF",
-     "r": 75,
-     "nat": "Italy",
-     "dp": [
-      "CM",
-      "DM"
-     ]
-    },
-    {
-     "n": "Sasa Lukic",
-     "p": "MF",
-     "r": 74,
-     "nat": "Serbia",
-     "dp": [
-      "CM"
-     ]
-    },
-    {
-     "n": "Josip Brekalo",
-     "p": "MF",
-     "r": 74,
-     "nat": "Croatia",
-     "dp": [
-      "LW",
-      "AM"
-     ]
-    },
-    {
-     "n": "Andrea Belotti",
-     "p": "FW",
-     "r": 81,
-     "nat": "Italy",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Praet",
-     "p": "MF",
-     "r": 74,
-     "nat": "Belgium",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Antonio Sanabria",
-     "p": "FW",
-     "r": 73,
-     "nat": "Paraguay",
-     "dp": [
-      "CF"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Valentino Mazzola",
-     "MF"
-    ],
-    [
-     "Marco Ferrante",
-     "FW"
-    ],
-    [
-     "Emiliano Moretti",
-     "DF"
-    ],
-    [
-     "Marco Ferrante",
-     "FW"
-    ],
-    [
-     "Luca Marchegiani",
-     "GK"
-    ]
-   ],
-   "euro": []
-  },
-  {
-   "id": "ita-sam-2122",
-   "club": "Sampdoria",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#003DA5",
-    "#FFFFFF"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A 15th place 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Emil Audero",
-     "p": "GK",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Maya Yoshida",
-     "p": "DF",
-     "r": 74,
-     "nat": "Japan",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Bartosz Bereszyński",
-     "p": "DF",
-     "r": 72,
-     "nat": "Poland",
-     "dp": [
-      "RB"
-     ]
-    },
-    {
-     "n": "Omar Colley",
-     "p": "DF",
-     "r": 73,
-     "nat": "Gambia",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Nicola Murru",
-     "p": "DF",
-     "r": 71,
-     "nat": "Italy",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Albin Ekdal",
-     "p": "MF",
-     "r": 73,
-     "nat": "Sweden",
-     "dp": [
-      "DM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Morten Thorsby",
-     "p": "MF",
-     "r": 72,
-     "nat": "Norway",
-     "dp": [
-      "CM"
-     ]
-    },
-    {
-     "n": "Antonio Candreva",
-     "p": "FW",
-     "r": 75,
-     "nat": "Italy",
-     "dp": [
-      "RW",
-      "RM"
-     ]
-    },
-    {
-     "n": "Mikkel Damsgaard",
-     "p": "MF",
-     "r": 74,
-     "nat": "Denmark",
-     "dp": [
-      "AM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Fabio Quagliarella",
-     "p": "FW",
-     "r": 74,
-     "nat": "Italy",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Manolo Gabbiadini",
-     "p": "FW",
-     "r": 72,
-     "nat": "Italy",
-     "dp": [
-      "LW",
-      "FW"
-     ]
-    },
-    {
-     "n": "Francesco Caputo",
-     "p": "FW",
-     "r": 73,
-     "nat": "Italy",
-     "dp": [
-      "CF"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Gianluca Vialli",
-     "FW"
-    ],
-    [
-     "Roberto Mancini",
-     "MF"
-    ],
-    [
-     "Clarence Seedorf",
-     "MF"
-    ],
-    [
-     "Ruud Gullit",
-     "MF"
-    ],
-    [
-     "David Platt",
-     "MF"
-    ]
-   ],
-   "euro": []
-  },
-  {
-   "id": "ita-spe-2122",
-   "club": "Spezia",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#FFFFFF",
-    "#000000"
-   ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "Serie A 16th place 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Ivan Provedel",
-     "p": "GK",
-     "r": 77,
-     "nat": "Italy",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Jakub Kiwior",
-     "p": "DF",
-     "r": 73,
-     "nat": "Poland",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Kelvin Amian",
-     "p": "DF",
-     "r": 71,
-     "nat": "France",
-     "dp": [
-      "RB"
-     ]
-    },
-    {
-     "n": "Arkadiusz Reca",
-     "p": "DF",
-     "r": 71,
-     "nat": "Poland",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Martin Erlic",
-     "p": "DF",
-     "r": 73,
-     "nat": "Croatia",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Simone Bastoni",
-     "p": "MF",
-     "r": 71,
-     "nat": "Italy",
-     "dp": [
-      "LM",
-      "LB"
-     ]
-    },
-    {
-     "n": "Giulio Maggiore",
-     "p": "MF",
-     "r": 72,
-     "nat": "Italy",
-     "dp": [
-      "CM"
-     ]
-    },
-    {
-     "n": "Jakub Jankto",
-     "p": "MF",
-     "r": 72,
-     "nat": "Czech Republic",
-     "dp": [
-      "LM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Emmanuel Gyasi",
-     "p": "FW",
-     "r": 72,
-     "nat": "Ghana",
-     "dp": [
-      "RW",
-      "FW"
-     ]
-    },
-    {
-     "n": "M'Bala Nzola",
-     "p": "FW",
-     "r": 73,
-     "nat": "Angola",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Daniele Verde",
-     "p": "FW",
-     "r": 71,
-     "nat": "Italy",
-     "dp": [
-      "AM",
-      "RW"
-     ]
-    },
-    {
-     "n": "Kevin Agudelo",
-     "p": "MF",
-     "r": 71,
-     "nat": "Colombia",
-     "dp": [
-      "CM",
-      "FW"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Francesco Cosenza",
-     "DF"
-    ],
-    [
-     "Christian Galano",
-     "FW"
-    ],
-    [
-     "Riccardo Saponara",
-     "MF"
-    ],
-    [
-     "Roberto Inglese",
-     "FW"
-    ],
-    [
-     "Claudio Terzi",
-     "DF"
-    ]
-   ],
-   "euro": []
-  },
-  {
-   "id": "ita-emp-2122",
-   "club": "Empoli",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#009BDB",
-    "#FFFFFF"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A 14th place 2021-22 (promoted from Serie B 2020-21)",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Guglielmo Vicario",
-     "p": "GK",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Petar Stojanović",
-     "p": "DF",
-     "r": 71,
-     "nat": "Slovenia",
-     "dp": [
-      "RB"
-     ]
-    },
-    {
-     "n": "Sebastian Walukiewicz",
-     "p": "DF",
-     "r": 71,
-     "nat": "Poland",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Ardian Ismajli",
-     "p": "DF",
-     "r": 73,
-     "nat": "Albania",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Fabiano Parisi",
-     "p": "DF",
-     "r": 72,
-     "nat": "Italy",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Samuele Ricci",
-     "p": "MF",
-     "r": 74,
-     "nat": "Italy",
-     "dp": [
-      "DM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Kristjan Asllani",
-     "p": "MF",
-     "r": 73,
-     "nat": "Albania",
-     "dp": [
-      "CM",
-      "DM"
-     ]
-    },
-    {
-     "n": "Liam Henderson",
-     "p": "MF",
-     "r": 70,
-     "nat": "Scotland",
-     "dp": [
-      "CM",
-      "LW"
-     ]
-    },
-    {
-     "n": "Nedim Bajrami",
-     "p": "MF",
-     "r": 72,
-     "nat": "Switzerland",
-     "dp": [
-      "AM",
-      "LW"
-     ]
-    },
-    {
-     "n": "Patrick Cutrone",
-     "p": "FW",
-     "r": 73,
-     "nat": "Italy",
-     "dp": [
-      "CF",
-      "FW"
-     ]
-    },
-    {
-     "n": "Andrea Pinamonti",
-     "p": "FW",
-     "r": 74,
-     "nat": "Italy",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Filippo Bandinelli",
-     "p": "MF",
-     "r": 70,
-     "nat": "Italy",
-     "dp": [
-      "AM",
-      "CM"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Maurizio Sarri",
-     "MF"
-    ],
-    [
-     "Giuseppe Galderisi",
-     "FW"
-    ],
-    [
-     "Massimo Maccarone",
-     "FW"
-    ],
-    [
-     "Davide Moscardelli",
-     "FW"
-    ],
-    [
-     "Gianluca Di Marzio",
-     "FW"
-    ]
-   ],
-   "euro": []
-  },
-  {
-   "id": "ita-cag-2122",
-   "club": "Cagliari",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#CC0000",
-    "#003DA5"
-   ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Serie A relegated 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Alessio Cragno",
-     "p": "GK",
-     "r": 77,
-     "nat": "Italy",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Luca Ceppitelli",
-     "p": "DF",
-     "r": 73,
-     "nat": "Italy",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Andrea Carboni",
-     "p": "DF",
-     "r": 72,
-     "nat": "Italy",
-     "dp": [
-      "CB",
-      "LB"
-     ]
-    },
-    {
-     "n": "Diego Godin",
-     "p": "DF",
-     "r": 80,
-     "nat": "Uruguay",
-     "dp": [
-      "CB",
-      "SW"
-     ]
-    },
-    {
-     "n": "Dalbert",
-     "p": "DF",
-     "r": 72,
-     "nat": "Brazil",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Răzvan Marin",
-     "p": "MF",
-     "r": 75,
-     "nat": "Romania",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Alessandro Grassi",
-     "p": "MF",
-     "r": 72,
-     "nat": "Italy",
-     "dp": [
-      "DM"
-     ]
-    },
-    {
-     "n": "Nahitan Nández",
-     "p": "MF",
-     "r": 73,
-     "nat": "Uruguay",
-     "dp": [
-      "CM",
-      "RM"
-     ]
-    },
-    {
-     "n": "Charalampos Lykogiannis",
-     "p": "DF",
-     "r": 71,
-     "nat": "Greece",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Joao Pedro",
-     "p": "FW",
-     "r": 78,
-     "nat": "Brazil",
-     "dp": [
-      "CF",
-      "AM"
-     ]
-    },
-    {
-     "n": "Leonardo Pavoletti",
-     "p": "FW",
-     "r": 73,
-     "nat": "Italy",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Keita Baldé",
-     "p": "FW",
-     "r": 73,
-     "nat": "Senegal",
-     "dp": [
-      "FW",
-      "LW"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Gigi Riva",
-     "FW"
-    ],
-    [
-     "Davide Riva",
-     "FW"
-    ],
-    [
-     "Marco Storari",
-     "GK"
-    ],
-    [
-     "Pierluigi Cera",
-     "DF"
-    ],
-    [
-     "Enzo Maresca",
-     "MF"
-    ]
-   ],
-   "euro": []
-  },
-  {
-   "id": "ita-ven-2122",
-   "club": "Venezia",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#1A1A1A",
-    "#FF6600"
-   ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "Serie A relegated 2021-22 (promoted 2020-21, first top-flight since 2001-02)",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Niki Maenpää",
-     "p": "GK",
-     "r": 71,
-     "nat": "Finland",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Ridgeciano Haps",
-     "p": "DF",
-     "r": 72,
-     "nat": "Netherlands",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Michael Svoboda",
-     "p": "DF",
-     "r": 71,
-     "nat": "Czech Republic",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Pietro Ceccaroni",
-     "p": "DF",
-     "r": 71,
-     "nat": "Italy",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Ethan Ampadu",
-     "p": "MF",
-     "r": 73,
-     "nat": "Wales",
-     "dp": [
-      "DM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Gianluca Busio",
-     "p": "MF",
-     "r": 72,
-     "nat": "United States",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Mattia Aramu",
-     "p": "MF",
-     "r": 73,
-     "nat": "Italy",
-     "dp": [
-      "AM",
-      "MF"
-     ]
-    },
-    {
-     "n": "Sofian Kiyine",
-     "p": "MF",
-     "r": 71,
-     "nat": "Morocco",
-     "dp": [
-      "MF",
-      "LW"
-     ]
-    },
-    {
-     "n": "David Okereke",
-     "p": "FW",
-     "r": 72,
-     "nat": "Nigeria",
-     "dp": [
-      "FW"
-     ]
-    },
-    {
-     "n": "Thomas Henry",
-     "p": "FW",
-     "r": 73,
-     "nat": "France",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Francesco Forte",
-     "p": "FW",
-     "r": 71,
-     "nat": "Italy",
-     "dp": [
-      "CF",
-      "FW"
-     ]
-    },
-    {
-     "n": "Domen Črnigoj",
-     "p": "MF",
-     "r": 71,
-     "nat": "Slovenia",
-     "dp": [
-      "CM"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Marco Ferrante",
-     "FW"
-    ],
-    [
-     "Filippo Inzaghi",
-     "FW"
-    ],
-    [
-     "Alvaro Recoba",
-     "FW"
-    ],
-    [
-     "Dean Saunders",
-     "FW"
-    ],
-    [
-     "Francesco Baiano",
-     "FW"
-    ]
-   ],
-   "euro": []
-  },
-  {
-   "id": "ita-gen-2122",
-   "club": "Genoa",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#CC0000",
-    "#003DA5"
-   ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "Serie A relegated 2021-22",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Salvatore Sirigu",
-     "p": "GK",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Domenico Criscito",
-     "p": "DF",
-     "r": 76,
-     "nat": "Italy",
-     "dp": [
-      "LB",
-      "CB"
-     ]
-    },
-    {
-     "n": "Johan Vásquez",
-     "p": "DF",
-     "r": 72,
-     "nat": "Mexico",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Mattia Bani",
-     "p": "DF",
-     "r": 74,
-     "nat": "Italy",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Leo Östigård",
-     "p": "DF",
-     "r": 72,
-     "nat": "Norway",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Andrea Cambiaso",
-     "p": "DF",
-     "r": 73,
-     "nat": "Italy",
-     "dp": [
-      "LB",
-      "LM"
-     ]
-    },
-    {
-     "n": "Milan Badelj",
-     "p": "MF",
-     "r": 74,
-     "nat": "Croatia",
-     "dp": [
-      "DM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Stefano Sturaro",
-     "p": "MF",
-     "r": 72,
-     "nat": "Italy",
-     "dp": [
-      "CM"
-     ]
-    },
-    {
-     "n": "Caleb Ekuban",
-     "p": "FW",
-     "r": 71,
-     "nat": "Ghana",
-     "dp": [
-      "FW"
-     ]
-    },
-    {
-     "n": "Mattia Destro",
-     "p": "FW",
-     "r": 74,
-     "nat": "Italy",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Flávio Aleksander Paixão",
-     "p": "FW",
-     "r": 72,
-     "nat": "Portugal",
-     "dp": [
-      "FW",
-      "AM"
-     ]
-    },
-    {
-     "n": "Riccardo Calafiori",
-     "p": "DF",
-     "r": 72,
-     "nat": "Italy",
-     "dp": [
-      "LB",
-      "CB"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Diego Milito",
-     "FW"
-    ],
-    [
-     "Claudio Onofri",
-     "MF"
-    ],
-    [
-     "Luca Toni",
-     "FW"
-    ],
-    [
-     "Goran Pandev",
-     "FW"
-    ],
-    [
-     "Stéphane Guivarc'h",
-     "FW"
-    ]
-   ],
-   "euro": []
-  },
-  {
-   "id": "ita-sal-2122",
-   "club": "Salernitana",
-   "country": "Italy",
-   "league": "ITA",
-   "season": "2021-22",
-   "kit": [
-    "#CC0000",
-    "#000000"
-   ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "Serie A 17th place 2021-22 (survival on final day)",
-   "tierType": "P",
-   "crest": null,
-   "players": [
-    {
-     "n": "Vid Belec",
-     "p": "GK",
-     "r": 72,
-     "nat": "Slovenia",
-     "dp": [
-      "GK"
-     ]
-    },
-    {
-     "n": "Norbert Gyömbér",
-     "p": "DF",
-     "r": 72,
-     "nat": "Slovakia",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Lassana Coulibaly",
-     "p": "MF",
-     "r": 72,
-     "nat": "Mali",
-     "dp": [
-      "DM",
-      "CM"
-     ]
-    },
-    {
-     "n": "Milan Djuric",
-     "p": "FW",
-     "r": 72,
-     "nat": "Bosnia-Herzegovina",
-     "dp": [
-      "CF"
-     ]
-    },
-    {
-     "n": "Grigoris Kastanos",
-     "p": "MF",
-     "r": 71,
-     "nat": "Cyprus",
-     "dp": [
-      "CM",
-      "AM"
-     ]
-    },
-    {
-     "n": "Mamadou Coulibaly",
-     "p": "MF",
-     "r": 71,
-     "nat": "Senegal",
-     "dp": [
-      "CM"
-     ]
-    },
-    {
-     "n": "Franck Ribéry",
-     "p": "FW",
-     "r": 78,
-     "nat": "France",
-     "dp": [
-      "AM",
-      "FW"
-     ]
-    },
-    {
-     "n": "Federico Bonazzoli",
-     "p": "FW",
-     "r": 71,
-     "nat": "Italy",
-     "dp": [
-      "CF",
-      "FW"
-     ]
-    },
-    {
-     "n": "Flavius Daniliuc",
-     "p": "DF",
-     "r": 71,
-     "nat": "Austria",
-     "dp": [
-      "CB"
-     ]
-    },
-    {
-     "n": "Filippo Ruggeri",
-     "p": "DF",
-     "r": 71,
-     "nat": "Italy",
-     "dp": [
-      "LB"
-     ]
-    },
-    {
-     "n": "Emil Bohinen",
-     "p": "MF",
-     "r": 71,
-     "nat": "Norway",
-     "dp": [
-      "CM"
-     ]
-    },
-    {
-     "n": "Simy",
-     "p": "FW",
-     "r": 72,
-     "nat": "Nigeria",
-     "dp": [
-      "CF"
-     ]
-    }
-   ],
-   "decoys": [
-    [
-     "Ivan Juric",
-     "MF"
-    ],
-    [
-     "Igor Protti",
-     "FW"
-    ],
-    [
-     "Emiliano Alfieri",
-     "MF"
-    ],
-    [
-     "Vincenzo Cascione",
-     "MF"
-    ],
-    [
-     "Marco Branca",
-     "FW"
-    ]
-   ],
-   "euro": []
-  }
- ]
+  ]
 }

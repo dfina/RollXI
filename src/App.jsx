@@ -57,11 +57,11 @@ export default function App() {
         <button className="ghost" style={{ width: "100%", padding: "14px", fontSize: 14, marginTop: 10, display: "flex", justifyContent: "space-between", alignItems: "center" }}
           onClick={() => setView("campaign")}>
           <span>Campaign</span>
-          <span className="tele dim" style={{ fontSize: 12 }}>chunk A2 →</span>
+          <span className="tele dim" style={{ fontSize: 12 }}>Build your XI →</span>
         </button>
 
         <p className="dim tele" style={{ fontSize: 11, marginTop: 18, textAlign: "center" }}>
-          v0.3 · {data ? data.squads.length : 0} pickable squads · {data ? data.players.length : 0} players · opponent index pending
+          {data ? data.squads.length : 0} pickable squads · {data ? data.players.length : 0} players · {data ? data.oppRows.length : 0} opponents
         </p>
         {!storageAvailable() && (
           <p className="tele" style={{ fontSize: 11, marginTop: 6, textAlign: "center", color: "var(--flame)" }}>
@@ -85,17 +85,10 @@ export default function App() {
       {err && <p style={{ color: "var(--flame)", fontSize: 13 }}>Data failed to load: {err}</p>}
       {!data && !err && <p className="tele dim" style={{ textAlign: "center", marginTop: 40, fontSize: 13 }}>Loading the squads…</p>}
       {data && (
-        <>
-          {view === "home" && <HomeView />}
-          {view === "daily" && <Daily data={data} onAlbum={() => setView("album")} />}
-          {view === "album" && <Album data={data} />}
-          {view === "chains" && <Chains data={data} />}
-          {/* Campaign stays mounted for the whole session so in-memory state
-              (and the storage fallback) survives tab switches. */}
-          <div style={{ display: view === "campaign" ? "block" : "none" }}>
-            <Campaign data={data} />
-          </div>
-        </>
+        view === "home" ? <HomeView /> :
+        view === "daily" ? <Daily data={data} onAlbum={() => setView("album")} /> :
+        view === "album" ? <Album data={data} /> :
+        view === "campaign" ? <Campaign data={data} /> : <Chains data={data} />
       )}
 
       <nav className="navbar" aria-label="Main">

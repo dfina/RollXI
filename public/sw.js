@@ -1,4 +1,4 @@
-const CACHE = "rollxi-v0.6";
+const CACHE = "rollxi-cache";
 const CORE = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {

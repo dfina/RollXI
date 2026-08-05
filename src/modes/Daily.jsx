@@ -9,6 +9,50 @@ import { shareText, dailyTriviaShare } from "../lib/share.js";
 
 const N = 6;
 
+const POSITION_LABELS = {
+  GK: "Goalkeeper",
+  SW: "Sweeper",
+  DF: "Defender",
+  CB: "Centre-back",
+  LB: "Left-back",
+  RB: "Right-back",
+  LWB: "Left wing-back",
+  RWB: "Right wing-back",
+  MF: "Midfielder",
+  DM: "Defensive midfielder",
+  CM: "Central midfielder",
+  AM: "Attacking midfielder",
+  LM: "Left midfielder",
+  RM: "Right midfielder",
+  FW: "Forward",
+  CF: "Centre-forward",
+  ST: "Striker",
+  LW: "Left winger",
+  RW: "Right winger"
+};
+
+function fullPositionLabel(code) {
+  if (!code) return "Unknown position";
+  const parts = String(code).split(/[\/,-]/).map((p) => p.trim()).filter(Boolean);
+  if (parts.length > 1) return parts.map(fullPositionLabel).join(" / ");
+  const clean = parts[0] || String(code).trim();
+  return POSITION_LABELS[clean] || clean;
+}
+
+function fullPositionList(player) {
+  const raw = player?.dp && player.dp.length ? player.dp : [player?.pos];
+  const seen = new Set();
+  const labels = [];
+  raw.forEach((code) => {
+    const label = fullPositionLabel(code);
+    if (!seen.has(label)) {
+      seen.add(label);
+      labels.push(label);
+    }
+  });
+  return labels.join(" / ");
+}
+
 export default function Daily({ data, onAlbum }) {
   const dateKey = todayKey();
   const dayNum = dayNumber(dateKey);
@@ -113,7 +157,7 @@ export default function Daily({ data, onAlbum }) {
           <Sticker player={q} locked width={92} />
           <div style={{ fontSize: 14, lineHeight: 1.7 }}>
             <div><span className="dim tele" style={{ fontSize: 10 }}>NATIONALITY </span><span className="chalk" style={{ fontWeight: 700 }}>{q.nat}</span></div>
-            <div><span className="dim tele" style={{ fontSize: 10 }}>POSITION </span><span className="chalk" style={{ fontWeight: 700 }}>{(q.dp && q.dp.length ? q.dp : [q.pos]).join(" / ")}</span></div>
+            <div><span className="dim tele" style={{ fontSize: 10 }}>POSITION </span><span className="chalk" style={{ fontWeight: 700 }}>{fullPositionList(q)}</span></div>
             <div><span className="dim tele" style={{ fontSize: 10 }}>CLUB </span><span className="chalk" style={{ fontWeight: 700 }}>{q.club}</span></div>
             <div><span className="dim tele" style={{ fontSize: 10 }}>SEASON </span><span className="chalk" style={{ fontWeight: 700 }}>{q.season}</span></div>
           </div>
