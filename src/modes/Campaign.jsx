@@ -15,11 +15,32 @@ import {
 } from "../lib/knockout.js";
 
 const SAVE_KEY = "campaign:v1";
-const MATCH_TICK_MS = 222; // 90 simulated minutes ≈ 20 seconds
-const SHOOTOUT_TICK_MS = 750;
 
+class CampaignErrorBoundary extends React.Component {
+  constructor(props) { super(props); this.state = { error: null }; }
+  static getDerivedStateFromError(e) { return { error: e }; }
+  componentDidCatch(error, info) { console.error("[Campaign crash]", error, info); }
+  render() {
+    if (this.state.error) {
+      return (
+        <div className="fade" style={{ textAlign: "center", padding: "32px 16px" }}>
+          <p className="tele" style={{ color: "var(--flame)", fontWeight: 800, fontSize: 14, margin: "0 0 8px" }}>Campaign error</p>
+          <p className="dim" style={{ fontSize: 13, margin: "0 0 20px" }}>
+            Something went wrong. Your progress may be recoverable — try going back first.
+            If the issue persists, reset below.
+          </p>
+          <button className="ghost" style={{ padding: "12px 20px", fontSize: 14, color: "var(--flame)", borderColor: "var(--flame)" }}
+            onClick={() => { save(SAVE_KEY, null); this.setState({ error: null }); }}>
+            Reset campaign
+          </button>
+        </div>
+      );
+    }
+    return this.props.children;
+  }
+}
 
-export default function Campaign({ data }) {
+function CampaignInner({ data }) {
   const [camp, setCamp] = useState(() => load(SAVE_KEY, null));
   const persist = (c) => { setCamp(c); save(SAVE_KEY, c); };
   const reset = () => { save(SAVE_KEY, null); setCamp(null); };
@@ -30,6 +51,14 @@ export default function Campaign({ data }) {
   if (camp.phase === "leagueDone") return <LeagueDoneScreen camp={camp} onUpdate={persist} onReset={reset} />;
   if (camp.phase === "knockout") return <KnockoutScreen camp={camp} onUpdate={persist} onReset={reset} />;
   return <ChampionScreen camp={camp} onReset={reset} />;
+}
+
+export default function Campaign({ data }) {
+  return (
+    <CampaignErrorBoundary>
+      <CampaignInner data={data} />
+    </CampaignErrorBoundary>
+  );
 }
 
 /* ---------------- setup: choose formation ---------------- */
@@ -71,50 +100,30 @@ function SetupScreen({ data, onStart }) {
 function BuildScreen({ data, camp, onUpdate, onReset }) {
   const placed = camp.xi.filter((s) => s.name).length;
   const done = placed === 11;
-  const squad = !done ? data.squadById[camp.seq[camp.ptr]] : null;
+  const rawSquad = !done ? data.squadById[camp.seq[camp.ptr]] : null;
+  // Guard: if the squad record exists but is missing a valid players array, skip it by
+  // treating it as absent — the user will see the pitch with no card, and can re-roll.
+  const squad = (rawSquad && Array.isArray(rawSquad.players) && rawSquad.players.length > 0)
+    ? rawSquad : null;
   const [slotPick, setSlotPick] = useState(null); // { player, slots:[idx,...] }
 
-  const openSlotLabels = useMemo(() => {
-    const labels = [];
-    camp.xi.forEach((s) => { if (!s.name && !labels.includes(s.label)) labels.push(s.label); });
-    return labels;
+  const openGroups = useMemo(() => {
+    const o = new Set();
+    camp.xi.forEach((s) => { if (!s.name) o.add(s.grp); });
+    return o;
   }, [camp]);
 
   const usedKeys = useMemo(() => new Set(camp.xi.filter((s) => s.name).map((s) => s.pickKey)), [camp]);
-  const signableCurrentSquad = useMemo(() => squadHasSignablePlayer(squad, camp.xi, usedKeys), [squad, camp.xi, usedKeys]);
-
-  useEffect(() => {
-    if (done || !squad || camp.rerolls > 0 || signableCurrentSquad) return;
-    let nextPtr = camp.ptr;
-    let extraRolls = 0;
-    let foundFit = false;
-    while (nextPtr + 1 < camp.seq.length) {
-      nextPtr += 1;
-      extraRolls += 1;
-      const nextSquad = data.squadById[camp.seq[nextPtr]];
-      if (squadHasSignablePlayer(nextSquad, camp.xi, usedKeys)) {
-        foundFit = true;
-        break;
-      }
-    }
-    if (foundFit && nextPtr !== camp.ptr) {
-      onUpdate({
-        ...camp,
-        ptr: nextPtr,
-        autoRolls: (camp.autoRolls || 0) + extraRolls,
-        lastAutoRolls: extraRolls
-      });
-    }
-  }, [done, squad, signableCurrentSquad, camp, data.squadById, onUpdate, usedKeys]);
 
   function signPlayer(p) {
-    const openSlots = playerOpenSlots(p, camp.xi);
-    if (openSlots.length === 0) return;
+    if (!openGroups.has(p.p)) return;
+    const xi = camp.xi;
+    const openSlots = xi.map((s, i) => ({ ...s, i })).filter((s) => !s.name && s.grp === p.p);
     if (openSlots.length === 1) {
-      // only one compatible slot — assign directly
+      // only one slot — assign directly
       commitSlot(p, openSlots[0].i);
     } else {
-      // multiple compatible open slots — let the user pick which
+      // multiple open slots — let the user pick which
       setSlotPick({ player: p, slots: openSlots });
     }
   }
@@ -124,12 +133,12 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
     xi[slotIdx] = { ...xi[slotIdx], name: p.n, rating: p.r, dp: p.dp || [p.p], nat: p.nat, squadId: squad.id, pickKey: squad.id + "|" + p.n };
     const nowDone = xi.filter((s) => s.name).length === 11;
     setSlotPick(null);
-    onUpdate({ ...camp, xi, ptr: nowDone ? camp.ptr : camp.ptr + 1, lastAutoRolls: 0 });
+    onUpdate({ ...camp, xi, ptr: nowDone ? camp.ptr : camp.ptr + 1 });
   }
 
   function reroll() {
     if (camp.rerolls <= 0 || camp.ptr + 1 >= camp.seq.length) return;
-    onUpdate({ ...camp, ptr: camp.ptr + 1, rerolls: camp.rerolls - 1, lastAutoRolls: 0 });
+    onUpdate({ ...camp, ptr: camp.ptr + 1, rerolls: camp.rerolls - 1 });
   }
 
   function kickOffLeague() {
@@ -150,7 +159,7 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
         <div style={{ position: "fixed", inset: 0, background: "rgba(0,0,0,.45)", zIndex: 50, display: "flex", alignItems: "flex-end" }}>
           <div className="card fade" style={{ width: "100%", padding: 18, borderRadius: "16px 16px 0 0" }}>
             <p className="tele amber" style={{ fontSize: 11, letterSpacing: 1.5, margin: "0 0 4px", fontWeight: 800 }}>CHOOSE SLOT FOR {slotPick.player.n.toUpperCase()}</p>
-            <p className="dim" style={{ fontSize: 12, margin: "0 0 12px" }}>This player can fill more than one compatible role in your tactic. Pick which slot to fill.</p>
+            <p className="dim" style={{ fontSize: 12, margin: "0 0 12px" }}>This player can fill more than one open slot. Pick which to fill.</p>
             {slotPick.slots.map((s) => (
               <button key={s.i} className="opt" style={{ width: "100%", padding: "12px 14px", fontSize: 15, fontWeight: 700, marginBottom: 6 }}
                 onClick={() => commitSlot(slotPick.player, s.i)}>
@@ -177,7 +186,7 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
               <Crest kit={squad.kit} crest={squad.crest} name={squad.club} size={26} />
               <div style={{ minWidth: 0 }}>
                 <div className="display chalk" style={{ fontSize: 15, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{squad.club}</div>
-                <div className="tele dim" style={{ fontSize: 11 }}>{squad.season} · {squadContextLabel(squad)}</div>
+                <div className="tele dim" style={{ fontSize: 11 }}>{squad.season}</div>
               </div>
             </div>
             <button className="ghost" style={{ padding: "7px 10px", fontSize: 12, display: "inline-flex", alignItems: "center", gap: 5 }}
@@ -185,19 +194,12 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
               <RotateCcw size={13} /> Re-roll ({camp.rerolls})
             </button>
           </div>
-          {camp.lastAutoRolls > 0 && (
-            <p className="tele" style={{ fontSize: 10, letterSpacing: 1, margin: "10px 0 6px", color: "var(--green)", fontWeight: 800 }}>
-              EXTRA ROLL{camp.lastAutoRolls > 1 ? "S" : ""} GRANTED · NO AVAILABLE PLAYER FOR YOUR OPEN ROLES
-            </p>
-          )}
-          <p className="dim tele" style={{ fontSize: 10, letterSpacing: 1, margin: camp.lastAutoRolls > 0 ? "0 0 6px" : "10px 0 6px" }}>
-            SIGN ONE · OPEN ROLES: {openSlotLabels.join(" · ")}
+          <p className="dim tele" style={{ fontSize: 10, letterSpacing: 1, margin: "10px 0 6px" }}>
+            SIGN ONE · OPEN LINES: {["GK","DF","MF","FW"].filter((g) => openGroups.has(g)).join(" · ")}
           </p>
           <div style={{ display: "flex", flexDirection: "column", gap: 5, maxHeight: 240, overflowY: "auto" }}>
             {squad.players.slice().sort((a, b) => b.r - a.r).map((p) => {
-              const compatibleOpenSlots = playerOpenSlots(p, camp.xi);
-              const tacticLabels = playerTacticLabels(p, camp.xi, true);
-              const lineOpen = compatibleOpenSlots.length > 0;
+              const lineOpen = openGroups.has(p.p);
               const taken = usedKeys.has(squad.id + "|" + p.n);
               const dis = !lineOpen || taken;
               return (
@@ -205,10 +207,10 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
                   style={{ padding: "9px 11px", display: "flex", justifyContent: "space-between", alignItems: "center", fontSize: 13 }}
                   onClick={() => signPlayer(p)}>
                   <span style={{ minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
-                    {p.n} <span className="dim tele" style={{ fontSize: 10 }}>{tacticLabels.join("/") || "—"}</span>
+                    {p.n} <span className="dim tele" style={{ fontSize: 10 }}>{(p.dp || [p.p]).join("/")}</span>
                   </span>
                   <span className="tele" style={{ fontWeight: 800, flexShrink: 0, marginLeft: 8, color: lineOpen ? "var(--ink)" : "var(--dim)" }}>
-                    {p.r}{taken ? " · picked" : !lineOpen ? " · full" : ""}
+                    {p.r}{!lineOpen ? " · full" : ""}
                   </span>
                 </button>
               );
@@ -331,7 +333,7 @@ function LeagueScreen({ data, camp, onUpdate, onReset }) {
         </div>
       )}
 
-      <Table table={table} currentOpponentId={fixture ? fixture.oppId : null} />
+      <Table table={table} />
 
       <button className="ghost" style={{ width: "100%", padding: 11, fontSize: 12, marginTop: 14, color: "var(--flame)", borderColor: "var(--flame)" }} onClick={onReset}>
         Abandon campaign
@@ -358,103 +360,11 @@ function FixtureRow({ you, opp, home }) {
     </div>
   );
 }
-function YouCrest({ size = 34 } = {}) {
-  return <span style={{ width: size, height: size, borderRadius: "50%", background: "linear-gradient(135deg,#1C1C1A 60%,#E1492E 60%)", display: "inline-flex", alignItems: "center", justifyContent: "center", color: "#fff", fontWeight: 900, fontSize: Math.max(9, size * 0.32) }}>XI</span>;
+function YouCrest() {
+  return <span style={{ width: 34, height: 34, borderRadius: "50%", background: "linear-gradient(135deg,#1C1C1A 60%,#E1492E 60%)", display: "inline-flex", alignItems: "center", justifyContent: "center", color: "#fff", fontWeight: 900, fontSize: 11 }}>XI</span>;
 }
 
-function squadContextLabel(squad) {
-  const comp = squad.euro && squad.euro.length > 0 ? squad.euro[0].comp : null;
-  if (comp) return compLabel(comp);
-  return squad.league === "ITA" ? "Serie A" : (squad.league || "");
-}
-function compLabel(comp) {
-  const map = { EC: "EC", UCL: "UCL", UEL: "UEL", UEFA: "UEFA", UECL: "UECL", CONFL: "UECL", CWC: "CWC", INT: "INT", ITC: "INT" };
-  return map[comp] || comp;
-}
-
-function opponentCompetitionLabel(team) {
-  if (!team || team.isYou) return "";
-  const list = team.comps || team.euro || [];
-  const first = list && list.length ? list[0] : null;
-  const comp = typeof first === "string" ? first : (first ? first.comp : null);
-  return comp ? compLabel(comp) : "";
-}
-
-function TeamTickerName({ team, align = "left" }) {
-  const isYou = team && (team.isYou || team.club === "Your XI");
-  const label = opponentCompetitionLabel(team);
-  const body = (
-    <div style={{ minWidth: 0, flex: "1 1 auto", textAlign: align === "right" ? "right" : "left" }}>
-      <div className="display chalk" style={{
-        fontSize: 12.5, lineHeight: 1.08, whiteSpace: "normal", overflow: "visible",
-        overflowWrap: "anywhere", wordBreak: "normal", hyphens: "auto"
-      }}>
-        {isYou ? "Your XI" : team.club}
-      </div>
-      {!isYou && (team.season || label) && (
-        <div className="tele dim" style={{ fontSize: 9.5, marginTop: 2, lineHeight: 1.05, whiteSpace: "normal" }}>
-          {team.season || ""}{label ? " · " + label : ""}
-        </div>
-      )}
-    </div>
-  );
-  const mark = isYou
-    ? <YouCrest size={28} />
-    : <Crest kit={team.kit || ["#1C1C1A", "#EFE7D3"]} crest={team.crest} name={team.club} size={28} />;
-  return (
-    <span style={{ flex: "1 1 0", minWidth: 0, display: "flex", alignItems: "center", gap: 6, justifyContent: align === "right" ? "flex-end" : "flex-start" }}>
-      {align === "left" && mark}
-      {body}
-      {align === "right" && mark}
-    </span>
-  );
-}
-
-const DETAIL_TO_TACTIC = {
-  GK: ["GK"],
-  RB: ["RB"], RWB: ["RB", "RM"],
-  LB: ["LB"], LWB: ["LB", "LM"],
-  CB: ["CB"], SW: ["CB"], DF: ["RB", "CB", "LB"],
-  DM: ["DM", "CM"], CM: ["CM"], AM: ["AM", "CM"], MF: ["DM", "CM", "AM", "LM", "RM", "LW", "RW"],
-  RM: ["RM", "RW"], LM: ["LM", "LW"],
-  RW: ["RW", "RM"], LW: ["LW", "LM"],
-  SS: ["AM", "ST"], CF: ["ST"], ST: ["ST"], FW: ["ST", "LW", "RW"]
-};
-
-function playerPossibleTacticLabels(player) {
-  const raw = (player.dp && player.dp.length ? player.dp : [player.p]).map((x) => String(x || "").toUpperCase());
-  const labels = [];
-  raw.forEach((code) => {
-    (DETAIL_TO_TACTIC[code] || DETAIL_TO_TACTIC[player.p] || []).forEach((label) => {
-      if (!labels.includes(label)) labels.push(label);
-    });
-  });
-  return labels;
-}
-
-function playerTacticLabels(player, xi, openOnly = false) {
-  const possible = new Set(playerPossibleTacticLabels(player));
-  const labels = [];
-  xi.forEach((slot) => {
-    if (openOnly && slot.name) return;
-    if (possible.has(slot.label) && !labels.includes(slot.label)) labels.push(slot.label);
-  });
-  return labels;
-}
-
-function playerOpenSlots(player, xi) {
-  const possible = new Set(playerPossibleTacticLabels(player));
-  return xi
-    .map((slot, i) => ({ ...slot, i }))
-    .filter((slot) => !slot.name && possible.has(slot.label));
-}
-
-function squadHasSignablePlayer(squad, xi, usedKeys) {
-  if (!squad || !squad.players || !squad.players.length) return false;
-  return squad.players.some((p) => !usedKeys.has(squad.id + "|" + p.n) && playerOpenSlots(p, xi).length > 0);
-}
-
-function Table({ table, currentOpponentId }) {
+function Table({ table }) {
   return (
     <div className="card" style={{ padding: "8px 0", marginTop: 12, overflow: "hidden" }}>
       <p className="tele dim" style={{ fontSize: 10, letterSpacing: 1.5, margin: "2px 12px 6px" }}>LEAGUE TABLE · TOP 8 QUALIFY · 9-24 PLAY OFF</p>
@@ -463,15 +373,14 @@ function Table({ table, currentOpponentId }) {
           const rank = i + 1;
           const band = rank <= 8 ? "var(--green)" : rank <= 24 ? "var(--flame)" : "var(--dim)";
           const comp = t.comps && t.comps.length > 0 ? t.comps[0] : null;
-          const isCurrentOpponent = currentOpponentId && t.id === currentOpponentId;
           return (
             <div key={t.id} style={{
               display: "flex", alignItems: "center", gap: 8, padding: "5px 12px",
-              background: t.isYou ? "rgba(225,73,46,.12)" : isCurrentOpponent ? "rgba(14,122,67,.12)" : "transparent",
-              borderLeft: "3px solid " + (t.isYou ? "var(--flame)" : isCurrentOpponent ? "var(--green)" : "transparent")
+              background: t.isYou ? "rgba(225,73,46,.1)" : "transparent",
+              borderLeft: "3px solid " + (t.isYou ? "var(--flame)" : "transparent")
             }}>
               <span className="tele" style={{ width: 26, fontSize: 11, color: band, fontWeight: 800 }}>{rank}</span>
-              <span style={{ flex: 1, minWidth: 0, fontSize: 12, fontWeight: (t.isYou || isCurrentOpponent) ? 800 : 600, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
+              <span style={{ flex: 1, minWidth: 0, fontSize: 12, fontWeight: t.isYou ? 800 : 600, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>
                 {t.club}{" "}
                 <span className="dim tele" style={{ fontSize: 9 }}>
                   {(t.season || "").slice(2)}{comp ? " · " + comp : ""}
@@ -504,7 +413,7 @@ function Ticker({ res, you, matchday, onDone }) {
       setMinute(m);
       setShown(res.timeline.filter((e) => e.minute <= m));
       if (m >= 90) { clearInterval(id); setFinished(true); }
-    }, MATCH_TICK_MS);
+    }, 60);
     return () => clearInterval(id);
   }, []);
 
@@ -517,11 +426,11 @@ function Ticker({ res, you, matchday, onDone }) {
       <p className="tele dim" style={{ fontSize: 11, letterSpacing: 1.5, textAlign: "center", margin: 0 }}>MATCHDAY {matchday} · {res.home ? "HOME" : "AWAY"}</p>
       <div className="card" style={{ padding: 16, marginTop: 8, textAlign: "center" }}>
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 14 }}>
-          <TeamTickerName team={res.home ? { ...you, isYou: true, club: "Your XI" } : res.opp} align="right" />
+          <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "right" }}>{res.home ? "Your XI" : oppName}</span>
           <span className="tele amber" style={{ fontSize: 36, fontWeight: 800, minWidth: 86 }}>
             {res.home ? myG : opG}-{res.home ? opG : myG}
           </span>
-          <TeamTickerName team={res.home ? res.opp : { ...you, isYou: true, club: "Your XI" }} align="left" />
+          <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "left" }}>{res.home ? oppName : "Your XI"}</span>
         </div>
         <div className="tele" style={{ fontSize: 14, marginTop: 8, color: finished ? "var(--flame)" : "var(--green)", fontWeight: 800 }}>
           {finished ? "FULL TIME" : minute + "'"}
@@ -530,17 +439,13 @@ function Ticker({ res, you, matchday, onDone }) {
 
       <div className="card" style={{ padding: "10px 14px", marginTop: 10, minHeight: 120 }}>
         {shown.length === 0 && <p className="tele dim" style={{ fontSize: 12, margin: 0 }}>Kick-off…</p>}
-        {shown.map((e, i) => {
-          const isLeft = e.mine ? res.home : !res.home;
-          const fallback = e.mine ? "Your XI" : oppName;
-          return (
-            <p key={i} className="tele fade" style={{ fontSize: 12, margin: "5px 0", display: "flex", justifyContent: isLeft ? "flex-start" : "flex-end", gap: 8, color: e.mine ? "var(--green)" : "var(--ink2)" }}>
-              {isLeft
-                ? <span><b>{e.minute}'</b> ⚽ {e.scorer || fallback}</span>
-                : <span style={{ textAlign: "right" }}>{e.scorer || fallback} ⚽ <b>{e.minute}'</b></span>}
-            </p>
-          );
-        })}
+        {shown.map((e, i) => (
+          <p key={i} className="tele fade" style={{ fontSize: 12, margin: "5px 0", display: "flex", justifyContent: e.mine ? "flex-start" : "flex-end", gap: 8, color: e.mine ? "var(--green)" : "var(--ink2)" }}>
+            {e.mine
+              ? <span><b>{e.minute}'</b> ⚽ {e.scorer || "Your XI"}</span>
+              : <span style={{ textAlign: "right" }}>{e.scorer || oppName} ⚽ <b>{e.minute}'</b></span>}
+          </p>
+        ))}
       </div>
       {finished && (
         <button className="btn" style={{ width: "100%", padding: 14, fontSize: 15, marginTop: 10 }} onClick={onDone}>
@@ -675,8 +580,6 @@ function KnockoutScreen({ camp, onUpdate, onReset }) {
       hg={0} ag={0}
       leftName={tieObj.home.isYou ? "Your XI" : tieObj.home.club}
       rightName={tieObj.away.isYou ? "Your XI" : tieObj.away.club}
-      leftTeam={tieObj.home}
-      rightTeam={tieObj.away}
       title={ROUND_NAMES[stage].toUpperCase() + " · EXTRA TIME"}
       etTimeline={rl.et ? rl.et.timeline : []}
       scoreOffset={{ left: agg.homeGoals, right: agg.awayGoals }}
@@ -786,59 +689,21 @@ function OtherTies({ ties, you, onUpdate }) {
 }
 
 function FinalScreen({ camp, you, onUpdate, onReset }) {
-  const [finalFlow, setFinalFlow] = useState(null); // { phase:"rt"|"et"|"pens", res }
+  const [ticker, setTicker] = useState(null);
   const [a, b] = camp.finalists;
+  const result = camp.finalResult;
 
   function play() {
     const res = playFinal(you, a, b);
-    setFinalFlow({ phase: "rt", res });
+    setTicker(res);
   }
-  function finishFinal(res) {
-    onUpdate({ ...camp, phase: "champion", finalResult: res, championId: res.winnerId });
+  function afterFinal() {
+    const champId = ticker.winnerId;
+    setTicker(null);
+    onUpdate({ ...camp, phase: "champion", finalResult: ticker, championId: champId });
   }
 
-  if (finalFlow) {
-    const res = finalFlow.res;
-    const leftName = a.isYou ? "Your XI" : a.club;
-    const rightName = b.isYou ? "Your XI" : b.club;
-    const levelAfterEt = res.et && (res.hg + res.et.hg === res.ag + res.et.ag);
-
-    if (finalFlow.phase === "rt") {
-      return <GenericTicker
-        key="final-rt"
-        timeline={res.timeline}
-        hg={res.hg} ag={res.ag}
-        leftName={leftName} rightName={rightName}
-        leftTeam={a}
-        rightTeam={b}
-        title="THE FINAL"
-        onDone={() => {
-          if (res.hg === res.ag && res.et) setFinalFlow({ phase: "et", res });
-          else finishFinal(res);
-        }} />;
-    }
-
-    if (finalFlow.phase === "et") {
-      return <GenericTicker
-        key="final-et"
-        timeline={[]}
-        hg={0} ag={0}
-        leftName={leftName} rightName={rightName}
-        leftTeam={a}
-        rightTeam={b}
-        title="THE FINAL · EXTRA TIME"
-        etTimeline={res.et ? res.et.timeline : []}
-        scoreOffset={{ left: res.hg, right: res.ag }}
-        onDone={() => {
-          if (levelAfterEt && res.pens) setFinalFlow({ phase: "pens", res });
-          else finishFinal(res);
-        }} />;
-    }
-
-    if (finalFlow.phase === "pens") {
-      return <ShootoutScreen tieObj={{ home: a, away: b }} rl={{ pens: res.pens }} onDone={() => finishFinal(res)} />;
-    }
-  }
+  if (ticker) return <FinalTicker res={ticker} a={a} b={b} you={you} onDone={afterFinal} />;
 
   return (
     <div className="fade">
@@ -861,7 +726,7 @@ function TeamBadge({ ref2 }) {
     <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: 5, maxWidth: 120 }}>
       {ref2.isYou ? <YouCrest /> : <Crest kit={ref2.kit} crest={ref2.crest} name={ref2.club} size={36} />}
       <span className="display chalk" style={{ fontSize: 13, textAlign: "center", lineHeight: 1.1 }}>{ref2.isYou ? "Your XI" : ref2.club}</span>
-      <span className="tele dim" style={{ fontSize: 10 }}>{ref2.season || "All-Stars"}{opponentCompetitionLabel(ref2) ? " · " + opponentCompetitionLabel(ref2) : ""}</span>
+      <span className="tele dim" style={{ fontSize: 10 }}>{ref2.season || "All-Stars"}</span>
     </div>
   );
 }
@@ -933,44 +798,39 @@ function TieLegTicker({ res, legNo, tieObj, onDone }) {
   const visitRef = legNo === 1 ? tieObj.home : tieObj.away;
   return <GenericTicker timeline={res.timeline} hg={res.hg} ag={res.ag}
     leftName={hostRef.isYou ? "Your XI" : hostRef.club} rightName={visitRef.isYou ? "Your XI" : visitRef.club}
-    leftTeam={hostRef}
-    rightTeam={visitRef}
     title={"LEG " + legNo + " · " + (hostRef.isYou ? "HOME" : "AWAY")} onDone={onDone} />;
 }
 function FinalTicker({ res, a, b, you, onDone }) {
   return <GenericTicker timeline={res.timeline} hg={res.hg} ag={res.ag}
     leftName={a.isYou ? "Your XI" : a.club} rightName={b.isYou ? "Your XI" : b.club}
-    leftTeam={a}
-    rightTeam={b}
     title="THE FINAL"
     etTimeline={res.et ? res.et.timeline : null}
     pens={res.pens} onDone={onDone} />;
 }
 
 /* shared accelerated-clock ticker — handles regular time and optional ET continuation */
-function GenericTicker({ timeline, hg, ag, leftName, rightName, leftTeam, rightTeam, title, extra, pens, etTimeline, scoreOffset, onDone }) {
+function GenericTicker({ timeline, hg, ag, leftName, rightName, title, extra, pens, etTimeline, scoreOffset, onDone }) {
   const allTimeline = React.useMemo(
     () => etTimeline ? [...timeline, ...etTimeline] : timeline,
-    [timeline, etTimeline]
+    [] // eslint-disable-line
   );
   const maxMin = etTimeline ? 120 : 90;
-  const clockStart = scoreOffset ? 90 : 0;
   const off = scoreOffset || { left: 0, right: 0 };
-  const [minute, setMinute] = useState(clockStart);
+  const [minute, setMinute] = useState(0);
   const [shown, setShown] = useState([]);
   const [finished, setFinished] = useState(false);
   const reduce = typeof window !== "undefined" && window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   useEffect(() => {
     if (reduce) { setMinute(maxMin); setShown(allTimeline); setFinished(true); return; }
-    let m = clockStart;
+    let m = 0;
     const id = setInterval(() => {
       m += 1;
       setMinute(m);
       setShown(allTimeline.filter((e) => e.minute <= m));
       if (m >= maxMin) { clearInterval(id); setFinished(true); }
-    }, MATCH_TICK_MS);
+    }, 60);
     return () => clearInterval(id);
-  }, [allTimeline, clockStart, maxMin, reduce]);
+  }, []);
   const leftG = off.left + shown.filter((e) => e.side === "home").length;
   const rightG = off.right + shown.filter((e) => e.side === "away").length;
   const minLabel = finished
@@ -981,10 +841,10 @@ function GenericTicker({ timeline, hg, ag, leftName, rightName, leftTeam, rightT
     <div className="fade" style={{ paddingTop: 8 }}>
       <p className="tele dim" style={{ fontSize: 11, letterSpacing: 1.5, textAlign: "center", margin: 0 }}>{title}</p>
       <div className="card" style={{ padding: 16, marginTop: 8, textAlign: "center" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) auto minmax(0,1fr)", alignItems: "center", gap: 10 }}>
-          <TeamTickerName team={leftTeam || { club: leftName, isYou: leftName === "Your XI" }} align="right" />
-          <span className="tele amber" style={{ fontSize: 34, fontWeight: 800, minWidth: 78 }}>{leftG}-{rightG}</span>
-          <TeamTickerName team={rightTeam || { club: rightName, isYou: rightName === "Your XI" }} align="left" />
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 12 }}>
+          <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "right" }}>{leftName}</span>
+          <span className="tele amber" style={{ fontSize: 34, fontWeight: 800, minWidth: 84 }}>{leftG}-{rightG}</span>
+          <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "left" }}>{rightName}</span>
         </div>
         <div className="tele" style={{ fontSize: 14, marginTop: 8, color: minColor, fontWeight: 800 }}>
           {minLabel}
@@ -1013,7 +873,7 @@ function ShootoutScreen({ tieObj, rl, onDone }) {
   useEffect(() => {
     if (reduce) { setN(kicks.length); return; }
     let i = 0;
-    const id = setInterval(() => { i += 1; setN(i); if (i >= kicks.length) clearInterval(id); }, SHOOTOUT_TICK_MS);
+    const id = setInterval(() => { i += 1; setN(i); if (i >= kicks.length) clearInterval(id); }, 600);
     return () => clearInterval(id);
   }, []);
   const shown = kicks.slice(0, n);
@@ -1023,23 +883,20 @@ function ShootoutScreen({ tieObj, rl, onDone }) {
     <div className="fade" style={{ paddingTop: 8 }}>
       <p className="tele" style={{ fontSize: 11, letterSpacing: 1.5, textAlign: "center", margin: 0, color: "var(--flame)", fontWeight: 800 }}>PENALTY SHOOTOUT</p>
       <div className="card" style={{ padding: 16, marginTop: 8, textAlign: "center" }}>
-        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) auto minmax(0,1fr)", alignItems: "center", gap: 10 }}>
-          <TeamTickerName team={tieObj.home} align="right" />
-          <span className="tele amber" style={{ fontSize: 32, fontWeight: 800, minWidth: 74 }}>{h}-{a}</span>
-          <TeamTickerName team={tieObj.away} align="left" />
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 12 }}>
+          <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "right" }}>{tieObj.home.isYou ? "Your XI" : tieObj.home.club}</span>
+          <span className="tele amber" style={{ fontSize: 32, fontWeight: 800, minWidth: 78 }}>{h}-{a}</span>
+          <span className="display chalk" style={{ fontSize: 13, flex: 1, textAlign: "left" }}>{tieObj.away.isYou ? "Your XI" : tieObj.away.club}</span>
         </div>
       </div>
       <div className="card" style={{ padding: "10px 14px", marginTop: 10, minHeight: 90 }}>
-        {shown.map((k, i) => {
-          const label = k.kicker ? k.kicker + " " + (k.scored ? "scored" : "missed") : (k.scored ? "Scored" : "Missed");
-          return (
-            <p key={i} className="tele fade" style={{ fontSize: 12, margin: "4px 0", display: "flex", justifyContent: k.team === "home" ? "flex-start" : "flex-end" }}>
-              <span style={{ color: k.scored ? "var(--green)" : "var(--flame)", textAlign: k.team === "home" ? "left" : "right" }}>
-                {k.team === "home" ? "← " : ""}{label}{k.team === "away" ? " →" : ""}
-              </span>
-            </p>
-          );
-        })}
+        {shown.map((k, i) => (
+          <p key={i} className="tele fade" style={{ fontSize: 12, margin: "4px 0", display: "flex", justifyContent: k.team === "home" ? "flex-start" : "flex-end" }}>
+            <span style={{ color: k.scored ? "var(--green)" : "var(--flame)" }}>
+              {k.team === "home" ? "← " : ""}{k.scored ? "Scored" : "Missed"}{k.team === "away" ? " →" : ""}
+            </span>
+          </p>
+        ))}
       </div>
       {n >= kicks.length && <button className="btn" style={{ width: "100%", padding: 14, fontSize: 15, marginTop: 10 }} onClick={onDone}>Continue →</button>}
     </div>

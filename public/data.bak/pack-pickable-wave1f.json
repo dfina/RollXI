@@ -1,0 +1,3893 @@
+{
+ "meta": {
+  "name": "Wave 1f — European Cup semi-finalists 1970-71 to 1979-80 (pickable)",
+  "wave": "1f",
+  "note": "Promotes 20 1970s European Cup semi-finalist club-seasons to full pickable squads. Famous sides conf B; smaller-nation sides conf C (spine accurate, fringe approximate). Saint-Étienne 1974-75 spine web-verified; 1975-76 already in seed pack. Decoys auto-selected from era/league reserves.",
+  "verified": true
+ },
+ "squads": [
+  {
+   "id": "esp-atm-7071",
+   "club": "Atlético Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1970-71",
+   "kit": [
+    "#CB3524",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "C",
+   "honour": "EC semi-finalist 1970-71",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Miguel Reina",
+     "p": "GK",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Pacheco",
+     "p": "GK",
+     "r": 72,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Jorge Melo",
+     "p": "DF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Iglesias",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ovejero",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Eusebio Bejarano",
+     "p": "DF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Adelardo",
+     "p": "MF",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Luis Aragonés",
+     "p": "MF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CF"
+     ]
+    },
+    {
+     "n": "Salcedo",
+     "p": "MF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "José Eulogio Gárate",
+     "p": "FW",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Javier Irureta",
+     "p": "MF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "RM",
+      "AM"
+     ]
+    },
+    {
+     "n": "José Armando Ufarte",
+     "p": "FW",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Alberto",
+     "p": "FW",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Calleja",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Benegas",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Orozco",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Pirri",
+     "MF"
+    ],
+    [
+     "Amancio Amaro",
+     "FW"
+    ],
+    [
+     "Carles Rexach",
+     "FW"
+    ],
+    [
+     "Quini",
+     "FW"
+    ],
+    [
+     "Marcial Pina",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1970-71"
+    }
+   ]
+  },
+  {
+   "id": "srb-rsb-7071",
+   "club": "Red Star Belgrade",
+   "country": "Yugoslavia",
+   "league": "YUG",
+   "season": "1970-71",
+   "kit": [
+    "#E4002B",
+    "#FFFFFF"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1970-71",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Ognjen Petrović",
+     "p": "GK",
+     "r": 78,
+     "nat": "Yugoslavia",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Radomir Vukčević",
+     "p": "GK",
+     "r": 72,
+     "nat": "Yugoslavia",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Zoran Jelikić",
+     "p": "DF",
+     "r": 76,
+     "nat": "Yugoslavia",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Kiril Dojčinovski",
+     "p": "DF",
+     "r": 78,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Miroslav Pavlović",
+     "p": "DF",
+     "r": 77,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Jovan Aćimović",
+     "p": "MF",
+     "r": 80,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Slobodan Janković",
+     "p": "DF",
+     "r": 77,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Dragan Holcer",
+     "p": "DF",
+     "r": 79,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Vojin Lazarević",
+     "p": "FW",
+     "r": 80,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Dušan Savić",
+     "p": "FW",
+     "r": 79,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Trifun Mihajlović",
+     "p": "MF",
+     "r": 76,
+     "nat": "Yugoslavia",
+     "dp": [
+      "LM"
+     ]
+    },
+    {
+     "n": "Branko Klenkovski",
+     "p": "MF",
+     "r": 75,
+     "nat": "Yugoslavia",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Petar Krivokuća",
+     "p": "MF",
+     "r": 76,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Nikola Damjanac",
+     "p": "GK",
+     "r": 73,
+     "nat": "Yugoslavia",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Vladislav Bogićević",
+     "p": "MF",
+     "r": 80,
+     "nat": "Yugoslavia",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Stevan Ostojić",
+     "p": "FW",
+     "r": 76,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Roberto Bettega",
+     "FW"
+    ],
+    [
+     "Franco Causio",
+     "MF"
+    ],
+    [
+     "Gaetano Scirea",
+     "DF"
+    ],
+    [
+     "Marco Tardelli",
+     "MF"
+    ],
+    [
+     "Romeo Benetti",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1970-71"
+    }
+   ]
+  },
+  {
+   "id": "por-ben-7172",
+   "club": "Benfica",
+   "country": "Portugal",
+   "league": "POR",
+   "season": "1971-72",
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1971-72",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "José Henrique",
+     "p": "GK",
+     "r": 79,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Manuel Bento",
+     "p": "GK",
+     "r": 77,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Adolfo Calisto",
+     "p": "DF",
+     "r": 77,
+     "nat": "Portugal",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Humberto Coelho",
+     "p": "DF",
+     "r": 82,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Jacinto Santos",
+     "p": "DF",
+     "r": 78,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "António Simões",
+     "p": "MF",
+     "r": 81,
+     "nat": "Portugal",
+     "dp": [
+      "LM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Toni",
+     "p": "MF",
+     "r": 81,
+     "nat": "Portugal",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Adriano Correia",
+     "p": "MF",
+     "r": 77,
+     "nat": "Portugal",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Eusébio",
+     "p": "FW",
+     "r": 88,
+     "nat": "Portugal",
+     "dp": [
+      "CF",
+      "RW"
+     ]
+    },
+    {
+     "n": "Jaime Graça",
+     "p": "MF",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Nené",
+     "p": "FW",
+     "r": 82,
+     "nat": "Portugal",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Rui Jordão",
+     "p": "FW",
+     "r": 81,
+     "nat": "Portugal",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Artur Correia",
+     "p": "DF",
+     "r": 76,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Messias",
+     "p": "DF",
+     "r": 75,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Vítor Martins",
+     "p": "MF",
+     "r": 75,
+     "nat": "Portugal",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Diamantino Costa",
+     "p": "FW",
+     "r": 76,
+     "nat": "Portugal",
+     "dp": [
+      "RW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Vítor Baptista",
+     "FW"
+    ],
+    [
+     "Artur Jorge",
+     "FW"
+    ],
+    [
+     "Octávio Machado",
+     "MF"
+    ],
+    [
+     "Vítor Baía",
+     "GK"
+    ],
+    [
+     "Chalana",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1971-72"
+    }
+   ]
+  },
+  {
+   "id": "sco-cel-7172",
+   "club": "Celtic",
+   "country": "Scotland",
+   "league": "SCO",
+   "season": "1971-72",
+   "kit": [
+    "#018749",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1971-72",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Evan Williams",
+     "p": "GK",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Denis Connaghan",
+     "p": "GK",
+     "r": 72,
+     "nat": "Scotland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Jim Craig",
+     "p": "DF",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Billy McNeill",
+     "p": "DF",
+     "r": 83,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "George Connelly",
+     "p": "DF",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Tommy Gemmell",
+     "p": "DF",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Jim Brogan",
+     "p": "DF",
+     "r": 77,
+     "nat": "Scotland",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Bobby Murdoch",
+     "p": "MF",
+     "r": 82,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Bobby Lennox",
+     "p": "FW",
+     "r": 81,
+     "nat": "Scotland",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Kenny Dalglish",
+     "p": "FW",
+     "r": 83,
+     "nat": "Scotland",
+     "dp": [
+      "CF",
+      "SS"
+     ]
+    },
+    {
+     "n": "Lou Macari",
+     "p": "FW",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Jimmy Johnstone",
+     "p": "FW",
+     "r": 84,
+     "nat": "Scotland",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Tommy Callaghan",
+     "p": "MF",
+     "r": 77,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Harry Hood",
+     "p": "FW",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "David Hay",
+     "p": "MF",
+     "r": 79,
+     "nat": "Scotland",
+     "dp": [
+      "CM",
+      "RB"
+     ]
+    },
+    {
+     "n": "Danny McGrain",
+     "p": "DF",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "RB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Dixie Deans",
+     "FW"
+    ],
+    [
+     "Pat Stanton",
+     "DF"
+    ],
+    [
+     "Sandy Jardine",
+     "DF"
+    ],
+    [
+     "Willie Johnston",
+     "FW"
+    ],
+    [
+     "Joe Harper",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1971-72"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-7273",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1972-73",
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1972-73",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Andrés Junquera",
+     "p": "GK",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "García Remón",
+     "p": "GK",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "José Luis",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Gregorio Benito",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Antonio Benito",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Francisco Zoco",
+     "p": "DF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Manuel Sanchís Martínez",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Pirri",
+     "p": "MF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Ignacio Zoco",
+     "p": "MF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Amancio Amaro",
+     "p": "FW",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Pedro de Felipe",
+     "p": "DF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Aguilar",
+     "p": "MF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Santillana",
+     "p": "FW",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Óscar Más",
+     "p": "FW",
+     "r": 79,
+     "nat": "Argentina",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Vicente del Bosque",
+     "p": "MF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Macanás",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "José Eulogio Gárate",
+     "FW"
+    ],
+    [
+     "Luis Aragonés",
+     "MF"
+    ],
+    [
+     "Carles Rexach",
+     "FW"
+    ],
+    [
+     "Quini",
+     "FW"
+    ],
+    [
+     "Marcial Pina",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1972-73"
+    }
+   ]
+  },
+  {
+   "id": "eng-der-7273",
+   "club": "Derby County",
+   "country": "England",
+   "league": "ENG",
+   "season": "1972-73",
+   "kit": [
+    "#FFFFFF",
+    "#000000"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1972-73",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Colin Boulton",
+     "p": "GK",
+     "r": 78,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Graham Moseley",
+     "p": "GK",
+     "r": 72,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Ron Webster",
+     "p": "DF",
+     "r": 78,
+     "nat": "England",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "David Nish",
+     "p": "DF",
+     "r": 79,
+     "nat": "England",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Roy McFarland",
+     "p": "DF",
+     "r": 82,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Colin Todd",
+     "p": "DF",
+     "r": 82,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "John Robson",
+     "p": "DF",
+     "r": 76,
+     "nat": "England",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Archie Gemmill",
+     "p": "MF",
+     "r": 81,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Henry Newton",
+     "p": "MF",
+     "r": 78,
+     "nat": "England",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Alan Durban",
+     "p": "MF",
+     "r": 78,
+     "nat": "Wales",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Kevin Hector",
+     "p": "FW",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "CF",
+      "SS"
+     ]
+    },
+    {
+     "n": "John O'Hare",
+     "p": "FW",
+     "r": 79,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Alan Hinton",
+     "p": "FW",
+     "r": 80,
+     "nat": "England",
+     "dp": [
+      "LW",
+      "RW"
+     ]
+    },
+    {
+     "n": "Roger Davies",
+     "p": "FW",
+     "r": 78,
+     "nat": "England",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Steve Powell",
+     "p": "DF",
+     "r": 75,
+     "nat": "England",
+     "dp": [
+      "RB",
+      "CM"
+     ]
+    },
+    {
+     "n": "Terry Hennessey",
+     "p": "DF",
+     "r": 76,
+     "nat": "Wales",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Francis Lee",
+     "FW"
+    ],
+    [
+     "Colin Bell",
+     "MF"
+    ],
+    [
+     "Mike Summerbee",
+     "FW"
+    ],
+    [
+     "Emlyn Hughes",
+     "DF"
+    ],
+    [
+     "Kevin Keegan",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1972-73"
+    }
+   ]
+  },
+  {
+   "id": "hun-ujp-7374",
+   "club": "Ujpest",
+   "country": "Hungary",
+   "league": "HUN",
+   "season": "1973-74",
+   "kit": [
+    "#522D6D",
+    "#FFFFFF"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1973-74",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "István Géczi",
+     "p": "GK",
+     "r": 79,
+     "nat": "Hungary",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "László Borbély",
+     "p": "GK",
+     "r": 72,
+     "nat": "Hungary",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Péter Kellner",
+     "p": "DF",
+     "r": 76,
+     "nat": "Hungary",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Sándor Kondás",
+     "p": "DF",
+     "r": 77,
+     "nat": "Hungary",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ede Dunai",
+     "p": "FW",
+     "r": 80,
+     "nat": "Hungary",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "János Harsányi",
+     "p": "DF",
+     "r": 76,
+     "nat": "Hungary",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Antal Dunai",
+     "p": "FW",
+     "r": 81,
+     "nat": "Hungary",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Ferenc Bene",
+     "p": "FW",
+     "r": 83,
+     "nat": "Hungary",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "János Göröcs",
+     "p": "MF",
+     "r": 80,
+     "nat": "Hungary",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "László Fazekas",
+     "p": "FW",
+     "r": 81,
+     "nat": "Hungary",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Imre Juhász",
+     "p": "MF",
+     "r": 78,
+     "nat": "Hungary",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Géza Tóth",
+     "p": "MF",
+     "r": 76,
+     "nat": "Hungary",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Béla Tóth",
+     "p": "DF",
+     "r": 75,
+     "nat": "Hungary",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Zoltán Nagy",
+     "p": "MF",
+     "r": 74,
+     "nat": "Hungary",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Sándor Zámbó",
+     "p": "MF",
+     "r": 75,
+     "nat": "Hungary",
+     "dp": [
+      "LM"
+     ]
+    },
+    {
+     "n": "Mihály Kozma",
+     "p": "DF",
+     "r": 74,
+     "nat": "Hungary",
+     "dp": [
+      "RB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Flórián Albert",
+     "FW"
+    ],
+    [
+     "Lajos Kű",
+     "FW"
+    ],
+    [
+     "József Tóth",
+     "MF"
+    ],
+    [
+     "Tibor Nyilasi",
+     "MF"
+    ],
+    [
+     "László Bálint",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1973-74"
+    }
+   ]
+  },
+  {
+   "id": "sco-cel-7374",
+   "club": "Celtic",
+   "country": "Scotland",
+   "league": "SCO",
+   "season": "1973-74",
+   "kit": [
+    "#018749",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1973-74",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Ally Hunter",
+     "p": "GK",
+     "r": 77,
+     "nat": "Scotland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Denis Connaghan",
+     "p": "GK",
+     "r": 72,
+     "nat": "Scotland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Danny McGrain",
+     "p": "DF",
+     "r": 82,
+     "nat": "Scotland",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Billy McNeill",
+     "p": "DF",
+     "r": 82,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Jim Brogan",
+     "p": "DF",
+     "r": 77,
+     "nat": "Scotland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "George Connelly",
+     "p": "DF",
+     "r": 80,
+     "nat": "Scotland",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Steve Murray",
+     "p": "MF",
+     "r": 78,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Bobby Murdoch",
+     "p": "MF",
+     "r": 81,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Kenny Dalglish",
+     "p": "FW",
+     "r": 84,
+     "nat": "Scotland",
+     "dp": [
+      "CF",
+      "SS"
+     ]
+    },
+    {
+     "n": "Harry Hood",
+     "p": "FW",
+     "r": 79,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Bobby Lennox",
+     "p": "FW",
+     "r": 81,
+     "nat": "Scotland",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Jimmy Johnstone",
+     "p": "FW",
+     "r": 84,
+     "nat": "Scotland",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Tommy Callaghan",
+     "p": "MF",
+     "r": 77,
+     "nat": "Scotland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Paul Wilson",
+     "p": "FW",
+     "r": 76,
+     "nat": "Scotland",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Dixie Deans",
+     "p": "FW",
+     "r": 79,
+     "nat": "Scotland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Pat McCluskey",
+     "p": "DF",
+     "r": 75,
+     "nat": "Scotland",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "David Hay",
+     "MF"
+    ],
+    [
+     "Lou Macari",
+     "FW"
+    ],
+    [
+     "Pat Stanton",
+     "DF"
+    ],
+    [
+     "Sandy Jardine",
+     "DF"
+    ],
+    [
+     "Willie Johnston",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1973-74"
+    }
+   ]
+  },
+  {
+   "id": "fra-ase-7475",
+   "club": "Saint-Étienne",
+   "country": "France",
+   "league": "FRA",
+   "season": "1974-75",
+   "kit": [
+    "#009639",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1974-75",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Ivan Ćurković",
+     "p": "GK",
+     "r": 82,
+     "nat": "Yugoslavia",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Daniel Rondelaere",
+     "p": "GK",
+     "r": 72,
+     "nat": "France",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Gérard Janvion",
+     "p": "DF",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Gérard Farison",
+     "p": "DF",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Osvaldo Piazza",
+     "p": "DF",
+     "r": 82,
+     "nat": "Argentina",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Christian Lopez",
+     "p": "DF",
+     "r": 81,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Pierre Repellini",
+     "p": "DF",
+     "r": 77,
+     "nat": "France",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Jean-Michel Larqué",
+     "p": "MF",
+     "r": 83,
+     "nat": "France",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Dominique Bathenay",
+     "p": "MF",
+     "r": 81,
+     "nat": "France",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Christian Synaeghel",
+     "p": "MF",
+     "r": 78,
+     "nat": "France",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Hervé Revelli",
+     "p": "FW",
+     "r": 83,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Patrick Revelli",
+     "p": "FW",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Yves Triantafilos",
+     "p": "FW",
+     "r": 78,
+     "nat": "France",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Jacques Santini",
+     "p": "MF",
+     "r": 78,
+     "nat": "France",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Georges Bereta",
+     "p": "FW",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Christian Sarramagna",
+     "p": "FW",
+     "r": 77,
+     "nat": "France",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Dominique Rocheteau",
+     "FW"
+    ],
+    [
+     "Marius Trésor",
+     "DF"
+    ],
+    [
+     "Jean-Marc Guillou",
+     "MF"
+    ],
+    [
+     "Charles Orlanducci",
+     "DF"
+    ],
+    [
+     "Henri Michel",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1974-75"
+    }
+   ]
+  },
+  {
+   "id": "esp-bar-7475",
+   "club": "Barcelona",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1974-75",
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "EC semi-finalist 1974-75",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Pedro María Artola",
+     "p": "GK",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Salvador Sadurní",
+     "p": "GK",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Antonio de la Cruz",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Antonio Torres",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Migueli",
+     "p": "DF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Joaquim Rifé",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "RB",
+      "CM"
+     ]
+    },
+    {
+     "n": "Francisco Gallego",
+     "p": "MF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Johan Neeskens",
+     "p": "MF",
+     "r": 86,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Johan Cruyff",
+     "p": "FW",
+     "r": 92,
+     "nat": "Netherlands",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Juan Manuel Asensi",
+     "p": "MF",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Charly Rexach",
+     "p": "FW",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Marcial Pina",
+     "p": "FW",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Hugo Sotil",
+     "p": "FW",
+     "r": 82,
+     "nat": "Peru",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Carles Marinho",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Tente Sánchez",
+     "p": "MF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Juan Carlos Heredia",
+     "p": "FW",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Pirri",
+     "MF"
+    ],
+    [
+     "Amancio Amaro",
+     "FW"
+    ],
+    [
+     "José Eulogio Gárate",
+     "FW"
+    ],
+    [
+     "Luis Aragonés",
+     "MF"
+    ],
+    [
+     "Carles Rexach",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1974-75"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-7576",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1975-76",
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1975-76",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Miguel Ángel González",
+     "p": "GK",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "García Remón",
+     "p": "GK",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Sol",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Gregorio Benito",
+     "p": "DF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Camacho",
+     "p": "DF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Pirri",
+     "p": "MF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Francisco Zoco",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Manuel Velázquez",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Günter Netzer",
+     "p": "MF",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Amancio Amaro",
+     "p": "FW",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Santillana",
+     "p": "FW",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Roberto Martínez",
+     "p": "FW",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Óscar Más",
+     "p": "FW",
+     "r": 79,
+     "nat": "Argentina",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Vicente del Bosque",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "José Luis",
+     "p": "DF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Rubiñán",
+     "p": "DF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "José Eulogio Gárate",
+     "FW"
+    ],
+    [
+     "Luis Aragonés",
+     "MF"
+    ],
+    [
+     "Carles Rexach",
+     "FW"
+    ],
+    [
+     "Quini",
+     "FW"
+    ],
+    [
+     "Marcial Pina",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1975-76"
+    }
+   ]
+  },
+  {
+   "id": "ned-psv-7576",
+   "club": "PSV Eindhoven",
+   "country": "Netherlands",
+   "league": "NED",
+   "season": "1975-76",
+   "kit": [
+    "#ED1C24",
+    "#FFFFFF"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1975-76",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Jan van Beveren",
+     "p": "GK",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Pim Doesburg",
+     "p": "GK",
+     "r": 74,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Krijn Blaauw",
+     "p": "DF",
+     "r": 76,
+     "nat": "Netherlands",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Jan Poortvliet",
+     "p": "DF",
+     "r": 79,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Adri van Kraay",
+     "p": "DF",
+     "r": 79,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gerrie Deijkers",
+     "p": "FW",
+     "r": 77,
+     "nat": "Netherlands",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Willy van der Kuijlen",
+     "p": "FW",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Jan van der Veen",
+     "p": "MF",
+     "r": 77,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Ralf Edström",
+     "p": "FW",
+     "r": 82,
+     "nat": "Sweden",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Willy van de Kerkhof",
+     "p": "MF",
+     "r": 81,
+     "nat": "Netherlands",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "René van de Kerkhof",
+     "p": "FW",
+     "r": 81,
+     "nat": "Netherlands",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Harry Lubse",
+     "p": "MF",
+     "r": 76,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Gerrie van der Heijden",
+     "p": "DF",
+     "r": 75,
+     "nat": "Netherlands",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Jan Stevens",
+     "p": "DF",
+     "r": 74,
+     "nat": "Netherlands",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Piet Schrijvers",
+     "p": "GK",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Theo Laseroms",
+     "p": "DF",
+     "r": 75,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Johan Cruyff",
+     "FW"
+    ],
+    [
+     "Johan Neeskens",
+     "MF"
+    ],
+    [
+     "Ruud Krol",
+     "DF"
+    ],
+    [
+     "Rob Rensenbrink",
+     "FW"
+    ],
+    [
+     "Wim Jansen",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1975-76"
+    }
+   ]
+  },
+  {
+   "id": "sui-fcz-7677",
+   "club": "FC Zurich",
+   "country": "Switzerland",
+   "league": "SUI",
+   "season": "1976-77",
+   "kit": [
+    "#FFFFFF",
+    "#0a4ea2"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1976-77",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Karl Grob",
+     "p": "GK",
+     "r": 79,
+     "nat": "Switzerland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Erminio Pianta",
+     "p": "GK",
+     "r": 72,
+     "nat": "Switzerland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Gianpietro Zappa",
+     "p": "DF",
+     "r": 78,
+     "nat": "Switzerland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Rudolf Brunnenmeier",
+     "p": "DF",
+     "r": 75,
+     "nat": "Switzerland",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Reto Stäuble",
+     "p": "DF",
+     "r": 76,
+     "nat": "Switzerland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ruedi Heer",
+     "p": "DF",
+     "r": 75,
+     "nat": "Switzerland",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Karl Heinz Fischbach",
+     "p": "MF",
+     "r": 78,
+     "nat": "Switzerland",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Iljas Katić",
+     "p": "MF",
+     "r": 78,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Hansruedi Baumann",
+     "p": "DF",
+     "r": 75,
+     "nat": "Switzerland",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Franco Cucinotta",
+     "p": "FW",
+     "r": 78,
+     "nat": "Switzerland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "René Botteron",
+     "p": "MF",
+     "r": 80,
+     "nat": "Switzerland",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Daniel Jeandupeux",
+     "p": "FW",
+     "r": 80,
+     "nat": "Switzerland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Peter Risi",
+     "p": "FW",
+     "r": 79,
+     "nat": "Switzerland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Hansjörg Pfister",
+     "p": "FW",
+     "r": 75,
+     "nat": "Switzerland",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Kurt Baldinger",
+     "p": "DF",
+     "r": 74,
+     "nat": "Switzerland",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Walter Seili",
+     "p": "MF",
+     "r": 73,
+     "nat": "Switzerland",
+     "dp": [
+      "LM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Köbi Kuhn",
+     "MF"
+    ],
+    [
+     "Umberto Barberis",
+     "MF"
+    ],
+    [
+     "Lucio Bizzini",
+     "DF"
+    ],
+    [
+     "Claudio Sulser",
+     "FW"
+    ],
+    [
+     "Hanspeter Latour",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1976-77"
+    }
+   ]
+  },
+  {
+   "id": "ukr-dki-7677",
+   "club": "Dinamo Kiev",
+   "country": "Soviet Union",
+   "league": "URS",
+   "season": "1976-77",
+   "kit": [
+    "#FFFFFF",
+    "#0057B7"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1976-77",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Yevhen Rudakov",
+     "p": "GK",
+     "r": 82,
+     "nat": "Soviet Union",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mykhailo Mykhailov",
+     "p": "GK",
+     "r": 72,
+     "nat": "Soviet Union",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Volodymyr Troshkin",
+     "p": "DF",
+     "r": 79,
+     "nat": "Soviet Union",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Mykhailo Fomenko",
+     "p": "DF",
+     "r": 79,
+     "nat": "Soviet Union",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Stefan Reshko",
+     "p": "DF",
+     "r": 79,
+     "nat": "Soviet Union",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Viktor Matviyenko",
+     "p": "DF",
+     "r": 78,
+     "nat": "Soviet Union",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Volodymyr Muntyan",
+     "p": "MF",
+     "r": 82,
+     "nat": "Soviet Union",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Volodymyr Veremeyev",
+     "p": "MF",
+     "r": 81,
+     "nat": "Soviet Union",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Anatoliy Konkov",
+     "p": "MF",
+     "r": 80,
+     "nat": "Soviet Union",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Oleh Blokhin",
+     "p": "FW",
+     "r": 86,
+     "nat": "Soviet Union",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Volodymyr Onyshchenko",
+     "p": "FW",
+     "r": 81,
+     "nat": "Soviet Union",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Leonid Buryak",
+     "p": "MF",
+     "r": 82,
+     "nat": "Soviet Union",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Viktor Kolotov",
+     "p": "MF",
+     "r": 82,
+     "nat": "Soviet Union",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Anatoliy Boyko",
+     "p": "DF",
+     "r": 75,
+     "nat": "Soviet Union",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Petro Slobodyan",
+     "p": "FW",
+     "r": 77,
+     "nat": "Soviet Union",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Oleksandr Berezhnyi",
+     "p": "DF",
+     "r": 74,
+     "nat": "Soviet Union",
+     "dp": [
+      "CB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "David Kipiani",
+     "MF"
+    ],
+    [
+     "Vladimir Fedotov",
+     "FW"
+    ],
+    [
+     "Volodymyr Bezsonov",
+     "DF"
+    ],
+    [
+     "Anatoliy Byshovets",
+     "FW"
+    ],
+    [
+     "Yevhen Lovchev",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1976-77"
+    }
+   ]
+  },
+  {
+   "id": "ger-bmg-7778",
+   "club": "Borussia Monchengladbach",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1977-78",
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "EC semi-finalist 1977-78",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Wolfgang Kneib",
+     "p": "GK",
+     "r": 79,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Wolfgang Kleff",
+     "p": "GK",
+     "r": 77,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Berti Vogts",
+     "p": "DF",
+     "r": 83,
+     "nat": "Germany",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Hans Klinkhammer",
+     "p": "DF",
+     "r": 77,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Hans-Jürgen Wittkamp",
+     "p": "DF",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Wilfried Hannes",
+     "p": "DF",
+     "r": 77,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Rainer Bonhof",
+     "p": "MF",
+     "r": 83,
+     "nat": "Germany",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Horst Wohlers",
+     "p": "MF",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Uli Stielike",
+     "p": "MF",
+     "r": 82,
+     "nat": "Germany",
+     "dp": [
+      "DM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Allan Simonsen",
+     "p": "FW",
+     "r": 85,
+     "nat": "Denmark",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Jupp Heynckes",
+     "p": "FW",
+     "r": 83,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Herbert Wimmer",
+     "p": "MF",
+     "r": 79,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Christian Kulik",
+     "p": "MF",
+     "r": 77,
+     "nat": "Germany",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Kalle Del'Haye",
+     "p": "FW",
+     "r": 77,
+     "nat": "Germany",
+     "dp": [
+      "RW",
+      "LW"
+     ]
+    },
+    {
+     "n": "Winfried Schäfer",
+     "p": "DF",
+     "r": 75,
+     "nat": "Germany",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Dietmar Danner",
+     "p": "MF",
+     "r": 77,
+     "nat": "Germany",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Gerd Müller",
+     "FW"
+    ],
+    [
+     "Paul Breitner",
+     "MF"
+    ],
+    [
+     "Uli Hoeneß",
+     "FW"
+    ],
+    [
+     "Wolfgang Overath",
+     "MF"
+    ],
+    [
+     "Günter Netzer",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1977-78"
+    }
+   ]
+  },
+  {
+   "id": "ita-juv-7778",
+   "club": "Juventus",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "1977-78",
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "EC semi-finalist 1977-78",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Dino Zoff",
+     "p": "GK",
+     "r": 86,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Massimo Piloni",
+     "p": "GK",
+     "r": 72,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Claudio Gentile",
+     "p": "DF",
+     "r": 83,
+     "nat": "Italy",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Gaetano Scirea",
+     "p": "DF",
+     "r": 85,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Sergio Brio",
+     "p": "DF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Antonello Cuccureddu",
+     "p": "DF",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "LB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Giuseppe Furino",
+     "p": "MF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Romeo Benetti",
+     "p": "MF",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Marco Tardelli",
+     "p": "MF",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Franco Causio",
+     "p": "MF",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "AM",
+      "RM"
+     ]
+    },
+    {
+     "n": "Roberto Bettega",
+     "p": "FW",
+     "r": 84,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Pietro Paolo Virdis",
+     "p": "FW",
+     "r": 78,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Roberto Boninsegna",
+     "p": "FW",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Giuseppe Damiani",
+     "p": "FW",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Domenico Marocchino",
+     "p": "MF",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Gianfranco Zanon",
+     "p": "DF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Sandro Salvadore",
+     "DF"
+    ],
+    [
+     "Fabio Capello",
+     "MF"
+    ],
+    [
+     "Pietro Anastasi",
+     "FW"
+    ],
+    [
+     "José Altafini",
+     "FW"
+    ],
+    [
+     "Giacinto Facchetti",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1977-78"
+    }
+   ]
+  },
+  {
+   "id": "ger-koln-7879",
+   "club": "1.FC Koln",
+   "country": "Germany",
+   "league": "GER",
+   "season": "1978-79",
+   "kit": [
+    "#FFFFFF",
+    "#E4002B"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1978-79",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Harald Schumacher",
+     "p": "GK",
+     "r": 83,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Klaus Scheer",
+     "p": "GK",
+     "r": 72,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Harald Konopka",
+     "p": "DF",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Gerhard Strack",
+     "p": "DF",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Herbert Zimmermann",
+     "p": "MF",
+     "r": 79,
+     "nat": "Germany",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Bernd Cullmann",
+     "p": "MF",
+     "r": 79,
+     "nat": "Germany",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Heinz Flohe",
+     "p": "MF",
+     "r": 83,
+     "nat": "Germany",
+     "dp": [
+      "AM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Bernd Klotz",
+     "p": "DF",
+     "r": 75,
+     "nat": "Germany",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Roger Van Gool",
+     "p": "FW",
+     "r": 79,
+     "nat": "Belgium",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Dieter Müller",
+     "p": "FW",
+     "r": 83,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Rolf Pingel",
+     "p": "FW",
+     "r": 75,
+     "nat": "Germany",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Yasuhiko Okudera",
+     "p": "MF",
+     "r": 77,
+     "nat": "Japan",
+     "dp": [
+      "LM",
+      "RM"
+     ]
+    },
+    {
+     "n": "Dieter Prestin",
+     "p": "DF",
+     "r": 75,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Wolfgang Glock",
+     "p": "MF",
+     "r": 75,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Bernd Schuster",
+     "p": "MF",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Dieter Heinrichs",
+     "p": "DF",
+     "r": 74,
+     "nat": "Germany",
+     "dp": [
+      "LB"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Gerd Müller",
+     "FW"
+    ],
+    [
+     "Paul Breitner",
+     "MF"
+    ],
+    [
+     "Uli Hoeneß",
+     "FW"
+    ],
+    [
+     "Wolfgang Overath",
+     "MF"
+    ],
+    [
+     "Günter Netzer",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1978-79"
+    }
+   ]
+  },
+  {
+   "id": "aut-auw-7879",
+   "club": "Austria Wien",
+   "country": "Austria",
+   "league": "AUT",
+   "season": "1978-79",
+   "kit": [
+    "#5C2D91",
+    "#FFFFFF"
+   ],
+   "tier": 3,
+   "conf": "C",
+   "honour": "EC semi-finalist 1978-79",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Friedl Koncilia",
+     "p": "GK",
+     "r": 81,
+     "nat": "Austria",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Robert Sara",
+     "p": "DF",
+     "r": 78,
+     "nat": "Austria",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Erich Obermayer",
+     "p": "DF",
+     "r": 79,
+     "nat": "Austria",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Josef Hickersberger",
+     "p": "MF",
+     "r": 80,
+     "nat": "Austria",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Heinrich Strasser",
+     "p": "DF",
+     "r": 76,
+     "nat": "Austria",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Felix Gasselich",
+     "p": "MF",
+     "r": 78,
+     "nat": "Austria",
+     "dp": [
+      "AM",
+      "RM"
+     ]
+    },
+    {
+     "n": "Herbert Prohaska",
+     "p": "MF",
+     "r": 84,
+     "nat": "Austria",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Thomas Parits",
+     "p": "FW",
+     "r": 78,
+     "nat": "Austria",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Walter Schachner",
+     "p": "FW",
+     "r": 81,
+     "nat": "Austria",
+     "dp": [
+      "CF",
+      "RW"
+     ]
+    },
+    {
+     "n": "Johann Pirkner",
+     "p": "FW",
+     "r": 77,
+     "nat": "Austria",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Wilhelm Kreuz",
+     "p": "MF",
+     "r": 77,
+     "nat": "Austria",
+     "dp": [
+      "LM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Robert Daxbacher",
+     "p": "DF",
+     "r": 75,
+     "nat": "Austria",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gerhard Steinkogler",
+     "p": "FW",
+     "r": 74,
+     "nat": "Austria",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Franz Wohlfahrt",
+     "p": "GK",
+     "r": 73,
+     "nat": "Austria",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Ernst Baumeister",
+     "p": "MF",
+     "r": 76,
+     "nat": "Austria",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Karl Daxbacher",
+     "p": "MF",
+     "r": 75,
+     "nat": "Austria",
+     "dp": [
+      "DM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Hans Krankl",
+     "FW"
+    ],
+    [
+     "Bruno Pezzey",
+     "DF"
+    ],
+    [
+     "Kurt Jara",
+     "MF"
+    ],
+    [
+     "Hans Pirkner",
+     "FW"
+    ],
+    [
+     "Eduard Krieger",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1978-79"
+    }
+   ]
+  },
+  {
+   "id": "ned-aja-7980",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "league": "NED",
+   "season": "1979-80",
+   "kit": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "EC semi-finalist 1979-80",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Piet Schrijvers",
+     "p": "GK",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Hans Galjé",
+     "p": "GK",
+     "r": 73,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Frank Arnesen",
+     "p": "MF",
+     "r": 81,
+     "nat": "Denmark",
+     "dp": [
+      "AM",
+      "RM"
+     ]
+    },
+    {
+     "n": "Ruud Krol",
+     "p": "DF",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "CB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Wim Suurbier",
+     "p": "DF",
+     "r": 79,
+     "nat": "Netherlands",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Ronald Spelbos",
+     "p": "DF",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Søren Lerby",
+     "p": "MF",
+     "r": 83,
+     "nat": "Denmark",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Jan Everse",
+     "p": "MF",
+     "r": 77,
+     "nat": "Netherlands",
+     "dp": [
+      "LM"
+     ]
+    },
+    {
+     "n": "Tscheu La Ling",
+     "p": "FW",
+     "r": 81,
+     "nat": "Netherlands",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Simon Tahamata",
+     "p": "FW",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Wim Kieft",
+     "p": "FW",
+     "r": 81,
+     "nat": "Netherlands",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Dick Schoenaker",
+     "p": "MF",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Frank Rijkaard",
+     "p": "MF",
+     "r": 80,
+     "nat": "Netherlands",
+     "dp": [
+      "DM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Henning Jensen",
+     "p": "FW",
+     "r": 79,
+     "nat": "Denmark",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Ray Clarke",
+     "p": "FW",
+     "r": 77,
+     "nat": "England",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Michel Valke",
+     "p": "MF",
+     "r": 74,
+     "nat": "Netherlands",
+     "dp": [
+      "RM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Johan Cruyff",
+     "FW"
+    ],
+    [
+     "Johan Neeskens",
+     "MF"
+    ],
+    [
+     "Willy van der Kuijlen",
+     "FW"
+    ],
+    [
+     "Rob Rensenbrink",
+     "FW"
+    ],
+    [
+     "Wim Jansen",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1979-80"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-7980",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "1979-80",
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "EC semi-finalist 1979-80",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Miguel Ángel González",
+     "p": "GK",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Agustín Rodríguez",
+     "p": "GK",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Gregorio Benito",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Antonio García Navajas",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "José Antonio Camacho",
+     "p": "DF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Rafael García Cortés",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Vicente del Bosque",
+     "p": "MF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Ángel de los Santos",
+     "p": "MF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "RM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Uli Stielike",
+     "p": "MF",
+     "r": 83,
+     "nat": "Germany",
+     "dp": [
+      "DM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Juanito",
+     "p": "FW",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "RW",
+      "SS"
+     ]
+    },
+    {
+     "n": "Santillana",
+     "p": "FW",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Laurie Cunningham",
+     "p": "FW",
+     "r": 83,
+     "nat": "England",
+     "dp": [
+      "LW",
+      "RW"
+     ]
+    },
+    {
+     "n": "García Hernández",
+     "p": "MF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Isidro",
+     "p": "DF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Pirri",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Francisco Pineda",
+     "p": "MF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "RM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Amancio Amaro",
+     "FW"
+    ],
+    [
+     "José Eulogio Gárate",
+     "FW"
+    ],
+    [
+     "Luis Aragonés",
+     "MF"
+    ],
+    [
+     "Carles Rexach",
+     "FW"
+    ],
+    [
+     "Quini",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "EC",
+     "season": "1979-80"
+    }
+   ]
+  }
+ ]
+}

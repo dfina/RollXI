@@ -1,0 +1,5946 @@
+{
+ "meta": {
+  "name": "European Cup / Champions League — finalists & semi-finalists",
+  "source": "myfootballfacts.com (finals + semi-finals), cross-checked vs Wikipedia",
+  "verified": true,
+  "scope": "Winner, runner-up and both semi-finalists of every edition 1955-56 to 2025-26",
+  "comps": [
+   "EC",
+   "UCL"
+  ]
+ },
+ "squads": [
+  {
+   "id": "ec-rma-195556",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1955-56",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-reims-195556",
+   "tierType": "O",
+   "club": "Reims",
+   "country": "France",
+   "season": "1955-56",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kopa",
+    "Fontaine",
+    "Piantoni"
+   ]
+  },
+  {
+   "id": "ec-acm-195556",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "1955-56",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-hibs-195556",
+   "tierType": "O",
+   "club": "Hibernian",
+   "country": "Scotland",
+   "season": "1955-56",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#005000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Reilly",
+    "Turnbull"
+   ]
+  },
+  {
+   "id": "ec-rma-195657",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1956-57",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-fio-195657",
+   "tierType": "O",
+   "club": "Fiorentina",
+   "country": "Italy",
+   "season": "1956-57",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#592C82",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Hamrin",
+    "Batistuta"
+   ]
+  },
+  {
+   "id": "ec-mun-195657",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "1956-57",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-rsb-195657",
+   "tierType": "O",
+   "club": "Red Star Belgrade",
+   "country": "Yugoslavia",
+   "season": "1956-57",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#E4002B",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Pančev",
+    "Savićević",
+    "Mihajlović"
+   ]
+  },
+  {
+   "id": "ec-rma-195758",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1957-58",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-acm-195758",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "1957-58",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-vasas-195758",
+   "tierType": "O",
+   "club": "Vasas SC",
+   "country": "Hungary",
+   "season": "1957-58",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#E4002B",
+    "#003DA5"
+   ],
+   "crest": null,
+   "scorers": [
+    "Csordás",
+    "Szilágyi"
+   ]
+  },
+  {
+   "id": "ec-mun-195758",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "1957-58",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-rma-195859",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1958-59",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-reims-195859",
+   "tierType": "O",
+   "club": "Reims",
+   "country": "France",
+   "season": "1958-59",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kopa",
+    "Fontaine",
+    "Piantoni"
+   ]
+  },
+  {
+   "id": "ec-atm-195859",
+   "tierType": "O",
+   "club": "Atletico Madrid",
+   "country": "Spain",
+   "season": "1958-59",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#CB3524",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Luis Aragonés",
+    "Griezmann",
+    "Torres"
+   ]
+  },
+  {
+   "id": "ec-yb-195859",
+   "tierType": "O",
+   "club": "BSC Young Boys",
+   "country": "Switzerland",
+   "season": "1958-59",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#FFD200",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Meier",
+    "Hügi"
+   ]
+  },
+  {
+   "id": "ec-rma-195960",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1959-60",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-sge-195960",
+   "tierType": "O",
+   "club": "Eintracht Frankfurt",
+   "country": "Germany",
+   "season": "1959-60",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#E1000F",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Pirmann",
+    "Stein"
+   ]
+  },
+  {
+   "id": "ec-bar-195960",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "1959-60",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-rfc-195960",
+   "tierType": "O",
+   "club": "Glasgow Rangers",
+   "country": "Scotland",
+   "season": "1959-60",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#1B458F",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Millar",
+    "Brand",
+    "McCoist"
+   ]
+  },
+  {
+   "id": "ec-ben-196061",
+   "tierType": "O",
+   "club": "Benfica",
+   "country": "Portugal",
+   "season": "1960-61",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Eusébio",
+    "Coluna",
+    "Águas"
+   ]
+  },
+  {
+   "id": "ec-bar-196061",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "1960-61",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-rap-196061",
+   "tierType": "O",
+   "club": "Rapid Vienna",
+   "country": "Austria",
+   "season": "1960-61",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#006A33",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Hanappi",
+    "Krankl"
+   ]
+  },
+  {
+   "id": "ec-hsv-196061",
+   "tierType": "O",
+   "club": "SV Hamburg",
+   "country": "Germany",
+   "season": "1960-61",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#FFFFFF",
+    "#003DA5"
+   ],
+   "crest": null,
+   "scorers": [
+    "Keegan",
+    "Hrubesch",
+    "Magath"
+   ]
+  },
+  {
+   "id": "ec-ben-196162",
+   "tierType": "O",
+   "club": "Benfica",
+   "country": "Portugal",
+   "season": "1961-62",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Eusébio",
+    "Coluna",
+    "Águas"
+   ]
+  },
+  {
+   "id": "ec-rma-196162",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1961-62",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-tot-196162",
+   "tierType": "O",
+   "club": "Tottenham Hotspur",
+   "country": "England",
+   "season": "1961-62",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#FFFFFF",
+    "#132257"
+   ],
+   "crest": null,
+   "scorers": [
+    "Greaves",
+    "Blanchflower",
+    "Kane"
+   ]
+  },
+  {
+   "id": "ec-std-196162",
+   "tierType": "O",
+   "club": "Standard Liege",
+   "country": "Belgium",
+   "season": "1961-62",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Goethals",
+    "Piters"
+   ]
+  },
+  {
+   "id": "ec-acm-196263",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "1962-63",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-ben-196263",
+   "tierType": "O",
+   "club": "Benfica",
+   "country": "Portugal",
+   "season": "1962-63",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Eusébio",
+    "Coluna",
+    "Águas"
+   ]
+  },
+  {
+   "id": "ec-dun-196263",
+   "tierType": "O",
+   "club": "Dundee",
+   "country": "Scotland",
+   "season": "1962-63",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#003087",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Gilzean",
+    "Cousin"
+   ]
+  },
+  {
+   "id": "ec-fey-196263",
+   "tierType": "O",
+   "club": "Feyenoord",
+   "country": "Netherlands",
+   "season": "1962-63",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kindvall",
+    "Cruyff",
+    "van Hanegem"
+   ]
+  },
+  {
+   "id": "ec-int-196364",
+   "tierType": "O",
+   "club": "Inter",
+   "country": "Italy",
+   "season": "1963-64",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#1E71B8",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mazzola",
+    "Suárez",
+    "Milito"
+   ]
+  },
+  {
+   "id": "ec-rma-196364",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1963-64",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-bvb-196364",
+   "tierType": "O",
+   "club": "Borussia Dortmund",
+   "country": "Germany",
+   "season": "1963-64",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#FDE100",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Lewandowski",
+    "Riedle",
+    "Reus"
+   ]
+  },
+  {
+   "id": "ec-fcz-196364",
+   "tierType": "O",
+   "club": "FC Zurich",
+   "country": "Switzerland",
+   "season": "1963-64",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#FFFFFF",
+    "#1B458F"
+   ],
+   "crest": null,
+   "scorers": [
+    "Künzli",
+    "Martinelli"
+   ]
+  },
+  {
+   "id": "ec-int-196465",
+   "tierType": "O",
+   "club": "Inter",
+   "country": "Italy",
+   "season": "1964-65",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#1E71B8",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mazzola",
+    "Suárez",
+    "Milito"
+   ]
+  },
+  {
+   "id": "ec-ben-196465",
+   "tierType": "O",
+   "club": "Benfica",
+   "country": "Portugal",
+   "season": "1964-65",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Eusébio",
+    "Coluna",
+    "Águas"
+   ]
+  },
+  {
+   "id": "ec-liv-196465",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "1964-65",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-gyor-196465",
+   "tierType": "O",
+   "club": "Vasas Gyor",
+   "country": "Hungary",
+   "season": "1964-65",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#008C44",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Korsós",
+    "Mészöly"
+   ]
+  },
+  {
+   "id": "ec-rma-196566",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1965-66",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-par-196566",
+   "tierType": "O",
+   "club": "Partizan Belgrade",
+   "country": "Yugoslavia",
+   "season": "1965-66",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Galić",
+    "Vasović"
+   ]
+  },
+  {
+   "id": "ec-int-196566",
+   "tierType": "O",
+   "club": "Inter",
+   "country": "Italy",
+   "season": "1965-66",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#1E71B8",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mazzola",
+    "Suárez",
+    "Milito"
+   ]
+  },
+  {
+   "id": "ec-mun-196566",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "1965-66",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-cel-196667",
+   "tierType": "O",
+   "club": "Celtic",
+   "country": "Scotland",
+   "season": "1966-67",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#018749",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Chalmers",
+    "McNeill",
+    "Larsson"
+   ]
+  },
+  {
+   "id": "ec-int-196667",
+   "tierType": "O",
+   "club": "Inter",
+   "country": "Italy",
+   "season": "1966-67",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#1E71B8",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mazzola",
+    "Suárez",
+    "Milito"
+   ]
+  },
+  {
+   "id": "ec-duk-196667",
+   "tierType": "O",
+   "club": "Dukla Prague",
+   "country": "Czechoslovakia",
+   "season": "1966-67",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#7A0019",
+    "#FFD200"
+   ],
+   "crest": null,
+   "scorers": [
+    "Masopust",
+    "Kučera"
+   ]
+  },
+  {
+   "id": "ec-cska-196667",
+   "tierType": "O",
+   "club": "CSKA Sofia",
+   "country": "Bulgaria",
+   "season": "1966-67",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#E4002B",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Asparuhov",
+    "Yakimov"
+   ]
+  },
+  {
+   "id": "ec-mun-196768",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "1967-68",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-ben-196768",
+   "tierType": "O",
+   "club": "Benfica",
+   "country": "Portugal",
+   "season": "1967-68",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Eusébio",
+    "Coluna",
+    "Águas"
+   ]
+  },
+  {
+   "id": "ec-rma-196768",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1967-68",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-juv-196768",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "1967-68",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Platini",
+    "Del Piero",
+    "Baggio"
+   ]
+  },
+  {
+   "id": "ec-acm-196869",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "1968-69",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-aja-196869",
+   "tierType": "O",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "season": "1968-69",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Cruyff",
+    "Rep",
+    "Kluivert"
+   ]
+  },
+  {
+   "id": "ec-mun-196869",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "1968-69",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-trn-196869",
+   "tierType": "O",
+   "club": "Spartak Trnava",
+   "country": "Czechoslovakia",
+   "season": "1968-69",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#E30613",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Adamec",
+    "Kuna"
+   ]
+  },
+  {
+   "id": "ec-fey-196970",
+   "tierType": "O",
+   "club": "Feyenoord",
+   "country": "Netherlands",
+   "season": "1969-70",
+   "comps": [
+    "EC"
+   ],
+   "rating": 87,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kindvall",
+    "Cruyff",
+    "van Hanegem"
+   ]
+  },
+  {
+   "id": "ec-cel-196970",
+   "tierType": "O",
+   "club": "Celtic",
+   "country": "Scotland",
+   "season": "1969-70",
+   "comps": [
+    "EC"
+   ],
+   "rating": 85,
+   "kit": [
+    "#018749",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Chalmers",
+    "McNeill",
+    "Larsson"
+   ]
+  },
+  {
+   "id": "ec-leg-196970",
+   "tierType": "O",
+   "club": "Legia Warsaw",
+   "country": "Poland",
+   "season": "1969-70",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#FFFFFF",
+    "#018749"
+   ],
+   "crest": null,
+   "scorers": [
+    "Deyna",
+    "Pieszko"
+   ]
+  },
+  {
+   "id": "ec-lee-196970",
+   "tierType": "O",
+   "club": "Leeds United",
+   "country": "England",
+   "season": "1969-70",
+   "comps": [
+    "EC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#FFFFFF",
+    "#1D428A"
+   ],
+   "crest": null,
+   "scorers": [
+    "Lorimer",
+    "Jones",
+    "Clarke"
+   ]
+  },
+  {
+   "id": "ec-aja-197071",
+   "tierType": "O",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "season": "1970-71",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Cruyff",
+    "Rep",
+    "Kluivert"
+   ]
+  },
+  {
+   "id": "ec-pao-197071",
+   "tierType": "O",
+   "club": "Panathinaikos",
+   "country": "Greece",
+   "season": "1970-71",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#018749",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Antoniadis",
+    "Domazos"
+   ]
+  },
+  {
+   "id": "ec-atm-197071",
+   "tierType": "O",
+   "club": "Atletico Madrid",
+   "country": "Spain",
+   "season": "1970-71",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#CB3524",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Luis Aragonés",
+    "Griezmann",
+    "Torres"
+   ]
+  },
+  {
+   "id": "ec-rsb-197071",
+   "tierType": "O",
+   "club": "Red Star Belgrade",
+   "country": "Yugoslavia",
+   "season": "1970-71",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#E4002B",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Pančev",
+    "Savićević",
+    "Mihajlović"
+   ]
+  },
+  {
+   "id": "ec-aja-197172",
+   "tierType": "O",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "season": "1971-72",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Cruyff",
+    "Rep",
+    "Kluivert"
+   ]
+  },
+  {
+   "id": "ec-int-197172",
+   "tierType": "O",
+   "club": "Inter",
+   "country": "Italy",
+   "season": "1971-72",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#1E71B8",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mazzola",
+    "Suárez",
+    "Milito"
+   ]
+  },
+  {
+   "id": "ec-ben-197172",
+   "tierType": "O",
+   "club": "Benfica",
+   "country": "Portugal",
+   "season": "1971-72",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Eusébio",
+    "Coluna",
+    "Águas"
+   ]
+  },
+  {
+   "id": "ec-cel-197172",
+   "tierType": "O",
+   "club": "Celtic",
+   "country": "Scotland",
+   "season": "1971-72",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#018749",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Chalmers",
+    "McNeill",
+    "Larsson"
+   ]
+  },
+  {
+   "id": "ec-aja-197273",
+   "tierType": "O",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "season": "1972-73",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Cruyff",
+    "Rep",
+    "Kluivert"
+   ]
+  },
+  {
+   "id": "ec-juv-197273",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "1972-73",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Platini",
+    "Del Piero",
+    "Baggio"
+   ]
+  },
+  {
+   "id": "ec-rma-197273",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1972-73",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-der-197273",
+   "tierType": "O",
+   "club": "Derby County",
+   "country": "England",
+   "season": "1972-73",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFFFFF",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Hector",
+    "O'Hare",
+    "Gemmill"
+   ]
+  },
+  {
+   "id": "ec-bay-197374",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "1973-74",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-atm-197374",
+   "tierType": "O",
+   "club": "Atletico Madrid",
+   "country": "Spain",
+   "season": "1973-74",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#CB3524",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Luis Aragonés",
+    "Griezmann",
+    "Torres"
+   ]
+  },
+  {
+   "id": "ec-ujp-197374",
+   "tierType": "O",
+   "club": "Ujpest",
+   "country": "Hungary",
+   "season": "1973-74",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#522D6D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Bene",
+    "Göröcs"
+   ]
+  },
+  {
+   "id": "ec-cel-197374",
+   "tierType": "O",
+   "club": "Celtic",
+   "country": "Scotland",
+   "season": "1973-74",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#018749",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Chalmers",
+    "McNeill",
+    "Larsson"
+   ]
+  },
+  {
+   "id": "ec-bay-197475",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "1974-75",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-lee-197475",
+   "tierType": "O",
+   "club": "Leeds United",
+   "country": "England",
+   "season": "1974-75",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#FFFFFF",
+    "#1D428A"
+   ],
+   "crest": null,
+   "scorers": [
+    "Lorimer",
+    "Jones",
+    "Clarke"
+   ]
+  },
+  {
+   "id": "ec-ase-197475",
+   "tierType": "O",
+   "club": "Saint-Etienne",
+   "country": "France",
+   "season": "1974-75",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#009639",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Rocheteau",
+    "H. Revelli",
+    "Larqué"
+   ]
+  },
+  {
+   "id": "ec-bar-197475",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "1974-75",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-bay-197576",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "1975-76",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-ase-197576",
+   "tierType": "O",
+   "club": "Saint-Etienne",
+   "country": "France",
+   "season": "1975-76",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#009639",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Rocheteau",
+    "H. Revelli",
+    "Larqué"
+   ]
+  },
+  {
+   "id": "ec-rma-197576",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1975-76",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-psv-197576",
+   "tierType": "O",
+   "club": "PSV Eindhoven",
+   "country": "Netherlands",
+   "season": "1975-76",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#ED1C24",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kieft",
+    "R. Koeman",
+    "Romário"
+   ]
+  },
+  {
+   "id": "ec-liv-197677",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "1976-77",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-bmg-197677",
+   "tierType": "O",
+   "club": "Borussia Monchengladbach",
+   "country": "Germany",
+   "season": "1976-77",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Heynckes",
+    "Simonsen",
+    "Stielike"
+   ]
+  },
+  {
+   "id": "ec-fcz-197677",
+   "tierType": "O",
+   "club": "FC Zurich",
+   "country": "Switzerland",
+   "season": "1976-77",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFFFFF",
+    "#1B458F"
+   ],
+   "crest": null,
+   "scorers": [
+    "Künzli",
+    "Martinelli"
+   ]
+  },
+  {
+   "id": "ec-dki-197677",
+   "tierType": "O",
+   "club": "Dinamo Kiev",
+   "country": "Soviet Union",
+   "season": "1976-77",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFFFFF",
+    "#0057B7"
+   ],
+   "crest": null,
+   "scorers": [
+    "Blokhin",
+    "Belanov"
+   ]
+  },
+  {
+   "id": "ec-liv-197778",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "1977-78",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-clb-197778",
+   "tierType": "O",
+   "club": "Club Brugge",
+   "country": "Belgium",
+   "season": "1977-78",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#0066B3",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Lambert",
+    "Ku Simon"
+   ]
+  },
+  {
+   "id": "ec-bmg-197778",
+   "tierType": "O",
+   "club": "Borussia Monchengladbach",
+   "country": "Germany",
+   "season": "1977-78",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Heynckes",
+    "Simonsen",
+    "Stielike"
+   ]
+  },
+  {
+   "id": "ec-juv-197778",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "1977-78",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Platini",
+    "Del Piero",
+    "Baggio"
+   ]
+  },
+  {
+   "id": "ec-nfo-197879",
+   "tierType": "O",
+   "club": "Nottingham Forest",
+   "country": "England",
+   "season": "1978-79",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#E53233",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Birtles",
+    "Woodcock",
+    "Robertson"
+   ]
+  },
+  {
+   "id": "ec-mff-197879",
+   "tierType": "O",
+   "club": "Malmo FF",
+   "country": "Sweden",
+   "season": "1978-79",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#6CACE4",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kindvall",
+    "Cervin"
+   ]
+  },
+  {
+   "id": "ec-koln-197879",
+   "tierType": "O",
+   "club": "1.FC Koln",
+   "country": "Germany",
+   "season": "1978-79",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Allofs",
+    "Littbarski"
+   ]
+  },
+  {
+   "id": "ec-aut-197879",
+   "tierType": "O",
+   "club": "Austria Wien",
+   "country": "Austria",
+   "season": "1978-79",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#7A2E8A",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Schachner",
+    "Prohaska"
+   ]
+  },
+  {
+   "id": "ec-nfo-197980",
+   "tierType": "O",
+   "club": "Nottingham Forest",
+   "country": "England",
+   "season": "1979-80",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#E53233",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Birtles",
+    "Woodcock",
+    "Robertson"
+   ]
+  },
+  {
+   "id": "ec-hsv-197980",
+   "tierType": "O",
+   "club": "SV Hamburg",
+   "country": "Germany",
+   "season": "1979-80",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#FFFFFF",
+    "#003DA5"
+   ],
+   "crest": null,
+   "scorers": [
+    "Keegan",
+    "Hrubesch",
+    "Magath"
+   ]
+  },
+  {
+   "id": "ec-aja-197980",
+   "tierType": "O",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "season": "1979-80",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Cruyff",
+    "Rep",
+    "Kluivert"
+   ]
+  },
+  {
+   "id": "ec-rma-197980",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1979-80",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-liv-198081",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "1980-81",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-rma-198081",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1980-81",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-bay-198081",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "1980-81",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-int-198081",
+   "tierType": "O",
+   "club": "Inter",
+   "country": "Italy",
+   "season": "1980-81",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#1E71B8",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mazzola",
+    "Suárez",
+    "Milito"
+   ]
+  },
+  {
+   "id": "ec-avl-198182",
+   "tierType": "O",
+   "club": "Aston Villa",
+   "country": "England",
+   "season": "1981-82",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#7A003C",
+    "#95BFE5"
+   ],
+   "crest": null,
+   "scorers": [
+    "Withe",
+    "Shaw",
+    "Morley"
+   ]
+  },
+  {
+   "id": "ec-bay-198182",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "1981-82",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-and-198182",
+   "tierType": "O",
+   "club": "Anderlecht",
+   "country": "Belgium",
+   "season": "1981-82",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#5A2A82",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Coeck",
+    "Vandenbergh",
+    "Nilis"
+   ]
+  },
+  {
+   "id": "ec-cska-198182",
+   "tierType": "O",
+   "club": "CSKA Sofia",
+   "country": "Bulgaria",
+   "season": "1981-82",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#E4002B",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Asparuhov",
+    "Yakimov"
+   ]
+  },
+  {
+   "id": "ec-hsv-198283",
+   "tierType": "O",
+   "club": "SV Hamburg",
+   "country": "Germany",
+   "season": "1982-83",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#FFFFFF",
+    "#003DA5"
+   ],
+   "crest": null,
+   "scorers": [
+    "Keegan",
+    "Hrubesch",
+    "Magath"
+   ]
+  },
+  {
+   "id": "ec-juv-198283",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "1982-83",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Platini",
+    "Del Piero",
+    "Baggio"
+   ]
+  },
+  {
+   "id": "ec-rso-198283",
+   "tierType": "O",
+   "club": "Real Sociedad",
+   "country": "Spain",
+   "season": "1982-83",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#0067B1",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Satrústegui",
+    "López Ufarte"
+   ]
+  },
+  {
+   "id": "ec-wlo-198283",
+   "tierType": "O",
+   "club": "Widzew Lodz",
+   "country": "Poland",
+   "season": "1982-83",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Boniek",
+    "Smolarek"
+   ]
+  },
+  {
+   "id": "ec-liv-198384",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "1983-84",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-rom-198384",
+   "tierType": "O",
+   "club": "AS Roma",
+   "country": "Italy",
+   "season": "1983-84",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#8E1F2F",
+    "#F0BC42"
+   ],
+   "crest": null,
+   "scorers": [
+    "Pruzzo",
+    "Conti",
+    "Totti"
+   ]
+  },
+  {
+   "id": "ec-dbu-198384",
+   "tierType": "O",
+   "club": "Dinamo Bucharest",
+   "country": "Romania",
+   "season": "1983-84",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#E4002B",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dudu Georgescu",
+    "Rednic"
+   ]
+  },
+  {
+   "id": "ec-dut-198384",
+   "tierType": "O",
+   "club": "Dundee United",
+   "country": "Scotland",
+   "season": "1983-84",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FF6600",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Sturrock",
+    "Dodds"
+   ]
+  },
+  {
+   "id": "ec-juv-198485",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "1984-85",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Platini",
+    "Del Piero",
+    "Baggio"
+   ]
+  },
+  {
+   "id": "ec-liv-198485",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "1984-85",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-gbx-198485",
+   "tierType": "O",
+   "club": "Girondins Bordeaux",
+   "country": "France",
+   "season": "1984-85",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#000080",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Giresse",
+    "Tigana",
+    "Lacombe"
+   ]
+  },
+  {
+   "id": "ec-pao-198485",
+   "tierType": "O",
+   "club": "Panathinaikos",
+   "country": "Greece",
+   "season": "1984-85",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#018749",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Antoniadis",
+    "Domazos"
+   ]
+  },
+  {
+   "id": "ec-ste-198586",
+   "tierType": "O",
+   "club": "Steaua Bucharest",
+   "country": "Romania",
+   "season": "1985-86",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#0033A0",
+    "#E4002B"
+   ],
+   "crest": null,
+   "scorers": [
+    "Pițurcă",
+    "Lăcătuș",
+    "Hagi"
+   ]
+  },
+  {
+   "id": "ec-bar-198586",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "1985-86",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-and-198586",
+   "tierType": "O",
+   "club": "Anderlecht",
+   "country": "Belgium",
+   "season": "1985-86",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#5A2A82",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Coeck",
+    "Vandenbergh",
+    "Nilis"
+   ]
+  },
+  {
+   "id": "ec-ifk-198586",
+   "tierType": "O",
+   "club": "IFK Gothenburg",
+   "country": "Sweden",
+   "season": "1985-86",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#0057B7",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Nilsson",
+    "Pettersson"
+   ]
+  },
+  {
+   "id": "ec-por-198687",
+   "tierType": "O",
+   "club": "FC Porto",
+   "country": "Portugal",
+   "season": "1986-87",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#003DA5",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Madjer",
+    "Futre",
+    "Deco"
+   ]
+  },
+  {
+   "id": "ec-bay-198687",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "1986-87",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-dki-198687",
+   "tierType": "O",
+   "club": "Dinamo Kiev",
+   "country": "Soviet Union",
+   "season": "1986-87",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFFFFF",
+    "#0057B7"
+   ],
+   "crest": null,
+   "scorers": [
+    "Blokhin",
+    "Belanov"
+   ]
+  },
+  {
+   "id": "ec-rma-198687",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1986-87",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-psv-198788",
+   "tierType": "O",
+   "club": "PSV Eindhoven",
+   "country": "Netherlands",
+   "season": "1987-88",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#ED1C24",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kieft",
+    "R. Koeman",
+    "Romário"
+   ]
+  },
+  {
+   "id": "ec-ben-198788",
+   "tierType": "O",
+   "club": "Benfica",
+   "country": "Portugal",
+   "season": "1987-88",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Eusébio",
+    "Coluna",
+    "Águas"
+   ]
+  },
+  {
+   "id": "ec-rma-198788",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1987-88",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-ste-198788",
+   "tierType": "O",
+   "club": "Steaua Bucharest",
+   "country": "Romania",
+   "season": "1987-88",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#0033A0",
+    "#E4002B"
+   ],
+   "crest": null,
+   "scorers": [
+    "Pițurcă",
+    "Lăcătuș",
+    "Hagi"
+   ]
+  },
+  {
+   "id": "ec-acm-198889",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "1988-89",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-ste-198889",
+   "tierType": "O",
+   "club": "Steaua Bucharest",
+   "country": "Romania",
+   "season": "1988-89",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#0033A0",
+    "#E4002B"
+   ],
+   "crest": null,
+   "scorers": [
+    "Pițurcă",
+    "Lăcătuș",
+    "Hagi"
+   ]
+  },
+  {
+   "id": "ec-rma-198889",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1988-89",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-gal-198889",
+   "tierType": "O",
+   "club": "Galatasaray",
+   "country": "Turkey",
+   "season": "1988-89",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#A90432",
+    "#FBE122"
+   ],
+   "crest": null,
+   "scorers": [
+    "Hagi",
+    "Hakan Şükür"
+   ]
+  },
+  {
+   "id": "ec-acm-198990",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "1989-90",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-ben-198990",
+   "tierType": "O",
+   "club": "Benfica",
+   "country": "Portugal",
+   "season": "1989-90",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Eusébio",
+    "Coluna",
+    "Águas"
+   ]
+  },
+  {
+   "id": "ec-bay-198990",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "1989-90",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-om-198990",
+   "tierType": "O",
+   "club": "Olympique Marseille",
+   "country": "France",
+   "season": "1989-90",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#2FAEE0",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Papin",
+    "Boli",
+    "Waddle"
+   ]
+  },
+  {
+   "id": "ec-rsb-199091",
+   "tierType": "O",
+   "club": "Red Star Belgrade",
+   "country": "Yugoslavia",
+   "season": "1990-91",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#E4002B",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Pančev",
+    "Savićević",
+    "Mihajlović"
+   ]
+  },
+  {
+   "id": "ec-om-199091",
+   "tierType": "O",
+   "club": "Olympique Marseille",
+   "country": "France",
+   "season": "1990-91",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#2FAEE0",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Papin",
+    "Boli",
+    "Waddle"
+   ]
+  },
+  {
+   "id": "ec-bay-199091",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "1990-91",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-spm-199091",
+   "tierType": "O",
+   "club": "Spartak Moscow",
+   "country": "Soviet Union",
+   "season": "1990-91",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#E4002B",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Rodionov",
+    "Cherenkov"
+   ]
+  },
+  {
+   "id": "ec-bar-199192",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "1991-92",
+   "comps": [
+    "EC"
+   ],
+   "rating": 88,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-sam-199192",
+   "tierType": "O",
+   "club": "Sampdoria",
+   "country": "Italy",
+   "season": "1991-92",
+   "comps": [
+    "EC"
+   ],
+   "rating": 86,
+   "kit": [
+    "#003C7D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Vialli",
+    "Mancini",
+    "Mihajlović"
+   ]
+  },
+  {
+   "id": "ec-spp-199192",
+   "tierType": "O",
+   "club": "Sparta Prague",
+   "country": "Czechoslovakia",
+   "season": "1991-92",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#7A0019",
+    "#FFD200"
+   ],
+   "crest": null,
+   "scorers": [
+    "Siegl",
+    "Skuhravý"
+   ],
+   "note": "reached final group stage"
+  },
+  {
+   "id": "ec-rsb-199192",
+   "tierType": "O",
+   "club": "Red Star Belgrade",
+   "country": "Yugoslavia",
+   "season": "1991-92",
+   "comps": [
+    "EC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#E4002B",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Pančev",
+    "Savićević",
+    "Mihajlović"
+   ],
+   "note": "reached final group stage"
+  },
+  {
+   "id": "ec-om-199293",
+   "tierType": "O",
+   "club": "Olympique Marseille",
+   "country": "France",
+   "season": "1992-93",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 88,
+   "kit": [
+    "#2FAEE0",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Papin",
+    "Boli",
+    "Waddle"
+   ]
+  },
+  {
+   "id": "ec-acm-199293",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "1992-93",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 86,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-rfc-199293",
+   "tierType": "O",
+   "club": "Glasgow Rangers",
+   "country": "Scotland",
+   "season": "1992-93",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#1B458F",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Millar",
+    "Brand",
+    "McCoist"
+   ],
+   "note": "reached final group stage"
+  },
+  {
+   "id": "ec-ifk-199293",
+   "tierType": "O",
+   "club": "IFK Gothenburg",
+   "country": "Sweden",
+   "season": "1992-93",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#0057B7",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Nilsson",
+    "Pettersson"
+   ],
+   "note": "reached final group stage"
+  },
+  {
+   "id": "ec-acm-199394",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "1993-94",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 88,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-bar-199394",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "1993-94",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 86,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-mon-199394",
+   "tierType": "O",
+   "club": "AS Monaco",
+   "country": "France",
+   "season": "1993-94",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mbappé",
+    "Falcao",
+    "Tévez"
+   ]
+  },
+  {
+   "id": "ec-por-199394",
+   "tierType": "O",
+   "club": "FC Porto",
+   "country": "Portugal",
+   "season": "1993-94",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#003DA5",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Madjer",
+    "Futre",
+    "Deco"
+   ]
+  },
+  {
+   "id": "ec-aja-199495",
+   "tierType": "O",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "season": "1994-95",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 88,
+   "kit": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Cruyff",
+    "Rep",
+    "Kluivert"
+   ]
+  },
+  {
+   "id": "ec-acm-199495",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "1994-95",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 86,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-bay-199495",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "1994-95",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-psg-199495",
+   "tierType": "O",
+   "club": "Paris Saint-Germain",
+   "country": "France",
+   "season": "1994-95",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#004170",
+    "#E30613"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mbappé",
+    "Weah",
+    "Raí"
+   ]
+  },
+  {
+   "id": "ec-juv-199596",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "1995-96",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 88,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Platini",
+    "Del Piero",
+    "Baggio"
+   ]
+  },
+  {
+   "id": "ec-aja-199596",
+   "tierType": "O",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "season": "1995-96",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 86,
+   "kit": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Cruyff",
+    "Rep",
+    "Kluivert"
+   ]
+  },
+  {
+   "id": "ec-nan-199596",
+   "tierType": "O",
+   "club": "FC Nantes",
+   "country": "France",
+   "season": "1995-96",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFD200",
+    "#009639"
+   ],
+   "crest": null,
+   "scorers": [
+    "Loko",
+    "Pedros",
+    "Ouédec"
+   ]
+  },
+  {
+   "id": "ec-pao-199596",
+   "tierType": "O",
+   "club": "Panathinaikos",
+   "country": "Greece",
+   "season": "1995-96",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#018749",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Antoniadis",
+    "Domazos"
+   ]
+  },
+  {
+   "id": "ec-bvb-199697",
+   "tierType": "O",
+   "club": "Borussia Dortmund",
+   "country": "Germany",
+   "season": "1996-97",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 88,
+   "kit": [
+    "#FDE100",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Lewandowski",
+    "Riedle",
+    "Reus"
+   ]
+  },
+  {
+   "id": "ec-juv-199697",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "1996-97",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 86,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Platini",
+    "Del Piero",
+    "Baggio"
+   ]
+  },
+  {
+   "id": "ec-mun-199697",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "1996-97",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-aja-199697",
+   "tierType": "O",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "season": "1996-97",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Cruyff",
+    "Rep",
+    "Kluivert"
+   ]
+  },
+  {
+   "id": "ec-rma-199798",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1997-98",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 88,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-juv-199798",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "1997-98",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 86,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Platini",
+    "Del Piero",
+    "Baggio"
+   ]
+  },
+  {
+   "id": "ec-bvb-199798",
+   "tierType": "O",
+   "club": "Borussia Dortmund",
+   "country": "Germany",
+   "season": "1997-98",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FDE100",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Lewandowski",
+    "Riedle",
+    "Reus"
+   ]
+  },
+  {
+   "id": "ec-mon-199798",
+   "tierType": "O",
+   "club": "AS Monaco",
+   "country": "France",
+   "season": "1997-98",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mbappé",
+    "Falcao",
+    "Tévez"
+   ]
+  },
+  {
+   "id": "ec-mun-199899",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "1998-99",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 88,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-bay-199899",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "1998-99",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 86,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-juv-199899",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "1998-99",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Platini",
+    "Del Piero",
+    "Baggio"
+   ]
+  },
+  {
+   "id": "ec-dki-199899",
+   "tierType": "O",
+   "club": "Dinamo Kiev",
+   "country": "Soviet Union",
+   "season": "1998-99",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFFFFF",
+    "#0057B7"
+   ],
+   "crest": null,
+   "scorers": [
+    "Blokhin",
+    "Belanov"
+   ]
+  },
+  {
+   "id": "ec-rma-199900",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1999-00",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 88,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-val-199900",
+   "tierType": "O",
+   "club": "Valencia",
+   "country": "Spain",
+   "season": "1999-00",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 86,
+   "kit": [
+    "#FFFFFF",
+    "#EE3524"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mendieta",
+    "Mista",
+    "Villa"
+   ]
+  },
+  {
+   "id": "ec-bay-199900",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "1999-00",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-bar-199900",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "1999-00",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 84,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-bay-200001",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "2000-01",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-val-200001",
+   "tierType": "O",
+   "club": "Valencia",
+   "country": "Spain",
+   "season": "2000-01",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#FFFFFF",
+    "#EE3524"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mendieta",
+    "Mista",
+    "Villa"
+   ]
+  },
+  {
+   "id": "ec-rma-200001",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2000-01",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-lee-200001",
+   "tierType": "O",
+   "club": "Leeds United",
+   "country": "England",
+   "season": "2000-01",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFFFFF",
+    "#1D428A"
+   ],
+   "crest": null,
+   "scorers": [
+    "Lorimer",
+    "Jones",
+    "Clarke"
+   ]
+  },
+  {
+   "id": "ec-rma-200102",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2001-02",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-b04-200102",
+   "tierType": "O",
+   "club": "Bayer Leverkusen",
+   "country": "Germany",
+   "season": "2001-02",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#E32219",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Ballack",
+    "Neuville",
+    "Kirsten"
+   ]
+  },
+  {
+   "id": "ec-bar-200102",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2001-02",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-mun-200102",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "2001-02",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-acm-200203",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "2002-03",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-juv-200203",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "2002-03",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Platini",
+    "Del Piero",
+    "Baggio"
+   ]
+  },
+  {
+   "id": "ec-int-200203",
+   "tierType": "O",
+   "club": "Inter",
+   "country": "Italy",
+   "season": "2002-03",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#1E71B8",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mazzola",
+    "Suárez",
+    "Milito"
+   ]
+  },
+  {
+   "id": "ec-rma-200203",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2002-03",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-por-200304",
+   "tierType": "O",
+   "club": "FC Porto",
+   "country": "Portugal",
+   "season": "2003-04",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#003DA5",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Madjer",
+    "Futre",
+    "Deco"
+   ]
+  },
+  {
+   "id": "ec-mon-200304",
+   "tierType": "O",
+   "club": "AS Monaco",
+   "country": "France",
+   "season": "2003-04",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mbappé",
+    "Falcao",
+    "Tévez"
+   ]
+  },
+  {
+   "id": "ec-dep-200304",
+   "tierType": "O",
+   "club": "Deportivo La Coruna",
+   "country": "Spain",
+   "season": "2003-04",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#0057B7",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Tristán",
+    "Valerón",
+    "Makaay"
+   ]
+  },
+  {
+   "id": "ec-che-200304",
+   "tierType": "O",
+   "club": "Chelsea",
+   "country": "England",
+   "season": "2003-04",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#034694",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Drogba",
+    "Lampard",
+    "Hasselbaink"
+   ]
+  },
+  {
+   "id": "ec-liv-200405",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "2004-05",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-acm-200405",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "2004-05",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-che-200405",
+   "tierType": "O",
+   "club": "Chelsea",
+   "country": "England",
+   "season": "2004-05",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#034694",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Drogba",
+    "Lampard",
+    "Hasselbaink"
+   ]
+  },
+  {
+   "id": "ec-psv-200405",
+   "tierType": "O",
+   "club": "PSV Eindhoven",
+   "country": "Netherlands",
+   "season": "2004-05",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#ED1C24",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kieft",
+    "R. Koeman",
+    "Romário"
+   ]
+  },
+  {
+   "id": "ec-bar-200506",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2005-06",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-ars-200506",
+   "tierType": "O",
+   "club": "Arsenal",
+   "country": "England",
+   "season": "2005-06",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#EF0107",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Henry",
+    "Bergkamp",
+    "Wright"
+   ]
+  },
+  {
+   "id": "ec-acm-200506",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "2005-06",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-vil-200506",
+   "tierType": "O",
+   "club": "Villarreal",
+   "country": "Spain",
+   "season": "2005-06",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFE667",
+    "#005187"
+   ],
+   "crest": null,
+   "scorers": [
+    "Riquelme",
+    "Forlán",
+    "Senna"
+   ]
+  },
+  {
+   "id": "ec-acm-200607",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "2006-07",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-liv-200607",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "2006-07",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-mun-200607",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "2006-07",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-che-200607",
+   "tierType": "O",
+   "club": "Chelsea",
+   "country": "England",
+   "season": "2006-07",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#034694",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Drogba",
+    "Lampard",
+    "Hasselbaink"
+   ]
+  },
+  {
+   "id": "ec-mun-200708",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "2007-08",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-che-200708",
+   "tierType": "O",
+   "club": "Chelsea",
+   "country": "England",
+   "season": "2007-08",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#034694",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Drogba",
+    "Lampard",
+    "Hasselbaink"
+   ]
+  },
+  {
+   "id": "ec-bar-200708",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2007-08",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-liv-200708",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "2007-08",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-bar-200809",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2008-09",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-mun-200809",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "2008-09",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-che-200809",
+   "tierType": "O",
+   "club": "Chelsea",
+   "country": "England",
+   "season": "2008-09",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#034694",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Drogba",
+    "Lampard",
+    "Hasselbaink"
+   ]
+  },
+  {
+   "id": "ec-ars-200809",
+   "tierType": "O",
+   "club": "Arsenal",
+   "country": "England",
+   "season": "2008-09",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#EF0107",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Henry",
+    "Bergkamp",
+    "Wright"
+   ]
+  },
+  {
+   "id": "ec-int-200910",
+   "tierType": "O",
+   "club": "Inter",
+   "country": "Italy",
+   "season": "2009-10",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#1E71B8",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mazzola",
+    "Suárez",
+    "Milito"
+   ]
+  },
+  {
+   "id": "ec-bay-200910",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "2009-10",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-bar-200910",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2009-10",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-lyo-200910",
+   "tierType": "O",
+   "club": "Lyon",
+   "country": "France",
+   "season": "2009-10",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFFFFF",
+    "#DA001A"
+   ],
+   "crest": null,
+   "scorers": [
+    "Juninho",
+    "Benzema",
+    "Lacazette"
+   ]
+  },
+  {
+   "id": "ec-bar-201011",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2010-11",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-mun-201011",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "2010-11",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Charlton",
+    "Best",
+    "Law"
+   ]
+  },
+  {
+   "id": "ec-rma-201011",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2010-11",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-s04-201011",
+   "tierType": "O",
+   "club": "Schalke 04",
+   "country": "Germany",
+   "season": "2010-11",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#004D9D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Raúl",
+    "Kuranyi",
+    "Farfán"
+   ]
+  },
+  {
+   "id": "ec-che-201112",
+   "tierType": "O",
+   "club": "Chelsea",
+   "country": "England",
+   "season": "2011-12",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#034694",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Drogba",
+    "Lampard",
+    "Hasselbaink"
+   ]
+  },
+  {
+   "id": "ec-bay-201112",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "2011-12",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-bar-201112",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2011-12",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-rma-201112",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2011-12",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-bay-201213",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "2012-13",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-bvb-201213",
+   "tierType": "O",
+   "club": "Borussia Dortmund",
+   "country": "Germany",
+   "season": "2012-13",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#FDE100",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Lewandowski",
+    "Riedle",
+    "Reus"
+   ]
+  },
+  {
+   "id": "ec-bar-201213",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2012-13",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-rma-201213",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2012-13",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-rma-201314",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2013-14",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-atm-201314",
+   "tierType": "O",
+   "club": "Atletico Madrid",
+   "country": "Spain",
+   "season": "2013-14",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#CB3524",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Luis Aragonés",
+    "Griezmann",
+    "Torres"
+   ]
+  },
+  {
+   "id": "ec-bay-201314",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "2013-14",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-che-201314",
+   "tierType": "O",
+   "club": "Chelsea",
+   "country": "England",
+   "season": "2013-14",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#034694",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Drogba",
+    "Lampard",
+    "Hasselbaink"
+   ]
+  },
+  {
+   "id": "ec-bar-201415",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2014-15",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-juv-201415",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "2014-15",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Platini",
+    "Del Piero",
+    "Baggio"
+   ]
+  },
+  {
+   "id": "ec-bay-201415",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "2014-15",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-rma-201415",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2014-15",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-rma-201516",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2015-16",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-atm-201516",
+   "tierType": "O",
+   "club": "Atletico Madrid",
+   "country": "Spain",
+   "season": "2015-16",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#CB3524",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Luis Aragonés",
+    "Griezmann",
+    "Torres"
+   ]
+  },
+  {
+   "id": "ec-mci-201516",
+   "tierType": "O",
+   "club": "Manchester City",
+   "country": "England",
+   "season": "2015-16",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#6CABDD",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Agüero",
+    "Haaland",
+    "De Bruyne"
+   ]
+  },
+  {
+   "id": "ec-bay-201516",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "2015-16",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-rma-201617",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2016-17",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-juv-201617",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "2016-17",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Platini",
+    "Del Piero",
+    "Baggio"
+   ]
+  },
+  {
+   "id": "ec-atm-201617",
+   "tierType": "O",
+   "club": "Atletico Madrid",
+   "country": "Spain",
+   "season": "2016-17",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#CB3524",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Luis Aragonés",
+    "Griezmann",
+    "Torres"
+   ]
+  },
+  {
+   "id": "ec-mon-201617",
+   "tierType": "O",
+   "club": "AS Monaco",
+   "country": "France",
+   "season": "2016-17",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mbappé",
+    "Falcao",
+    "Tévez"
+   ]
+  },
+  {
+   "id": "ec-rma-201718",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2017-18",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-liv-201718",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "2017-18",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-bay-201718",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "2017-18",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-rom-201718",
+   "tierType": "O",
+   "club": "AS Roma",
+   "country": "Italy",
+   "season": "2017-18",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#8E1F2F",
+    "#F0BC42"
+   ],
+   "crest": null,
+   "scorers": [
+    "Pruzzo",
+    "Conti",
+    "Totti"
+   ]
+  },
+  {
+   "id": "ec-liv-201819",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "2018-19",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-tot-201819",
+   "tierType": "O",
+   "club": "Tottenham Hotspur",
+   "country": "England",
+   "season": "2018-19",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#FFFFFF",
+    "#132257"
+   ],
+   "crest": null,
+   "scorers": [
+    "Greaves",
+    "Blanchflower",
+    "Kane"
+   ]
+  },
+  {
+   "id": "ec-bar-201819",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2018-19",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-aja-201819",
+   "tierType": "O",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "season": "2018-19",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Cruyff",
+    "Rep",
+    "Kluivert"
+   ]
+  },
+  {
+   "id": "ec-bay-201920",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "2019-20",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-psg-201920",
+   "tierType": "O",
+   "club": "Paris Saint-Germain",
+   "country": "France",
+   "season": "2019-20",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#004170",
+    "#E30613"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mbappé",
+    "Weah",
+    "Raí"
+   ]
+  },
+  {
+   "id": "ec-lyo-201920",
+   "tierType": "O",
+   "club": "Lyon",
+   "country": "France",
+   "season": "2019-20",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFFFFF",
+    "#DA001A"
+   ],
+   "crest": null,
+   "scorers": [
+    "Juninho",
+    "Benzema",
+    "Lacazette"
+   ]
+  },
+  {
+   "id": "ec-rbl-201920",
+   "tierType": "O",
+   "club": "RB Leipzig",
+   "country": "Germany",
+   "season": "2019-20",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#DD0741",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Werner",
+    "Poulsen",
+    "Nkunku"
+   ]
+  },
+  {
+   "id": "ec-che-202021",
+   "tierType": "O",
+   "club": "Chelsea",
+   "country": "England",
+   "season": "2020-21",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#034694",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Drogba",
+    "Lampard",
+    "Hasselbaink"
+   ]
+  },
+  {
+   "id": "ec-mci-202021",
+   "tierType": "O",
+   "club": "Manchester City",
+   "country": "England",
+   "season": "2020-21",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#6CABDD",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Agüero",
+    "Haaland",
+    "De Bruyne"
+   ]
+  },
+  {
+   "id": "ec-rma-202021",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2020-21",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-psg-202021",
+   "tierType": "O",
+   "club": "Paris Saint-Germain",
+   "country": "France",
+   "season": "2020-21",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#004170",
+    "#E30613"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mbappé",
+    "Weah",
+    "Raí"
+   ]
+  },
+  {
+   "id": "ec-rma-202122",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2021-22",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-liv-202122",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "2021-22",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dalglish",
+    "Rush",
+    "Gerrard"
+   ]
+  },
+  {
+   "id": "ec-mci-202122",
+   "tierType": "O",
+   "club": "Manchester City",
+   "country": "England",
+   "season": "2021-22",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#6CABDD",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Agüero",
+    "Haaland",
+    "De Bruyne"
+   ]
+  },
+  {
+   "id": "ec-vil-202122",
+   "tierType": "O",
+   "club": "Villarreal",
+   "country": "Spain",
+   "season": "2021-22",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFE667",
+    "#005187"
+   ],
+   "crest": null,
+   "scorers": [
+    "Riquelme",
+    "Forlán",
+    "Senna"
+   ]
+  },
+  {
+   "id": "ec-mci-202223",
+   "tierType": "O",
+   "club": "Manchester City",
+   "country": "England",
+   "season": "2022-23",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#6CABDD",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Agüero",
+    "Haaland",
+    "De Bruyne"
+   ]
+  },
+  {
+   "id": "ec-int-202223",
+   "tierType": "O",
+   "club": "Inter",
+   "country": "Italy",
+   "season": "2022-23",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#1E71B8",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mazzola",
+    "Suárez",
+    "Milito"
+   ]
+  },
+  {
+   "id": "ec-rma-202223",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2022-23",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-acm-202223",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "2022-23",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "van Basten",
+    "Gullit",
+    "Shevchenko"
+   ]
+  },
+  {
+   "id": "ec-rma-202324",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "2023-24",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Di Stéfano",
+    "Puskás",
+    "Gento"
+   ]
+  },
+  {
+   "id": "ec-bvb-202324",
+   "tierType": "O",
+   "club": "Borussia Dortmund",
+   "country": "Germany",
+   "season": "2023-24",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#FDE100",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Lewandowski",
+    "Riedle",
+    "Reus"
+   ]
+  },
+  {
+   "id": "ec-bay-202324",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "2023-24",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-psg-202324",
+   "tierType": "O",
+   "club": "Paris Saint-Germain",
+   "country": "France",
+   "season": "2023-24",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#004170",
+    "#E30613"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mbappé",
+    "Weah",
+    "Raí"
+   ]
+  },
+  {
+   "id": "ec-psg-202425",
+   "tierType": "O",
+   "club": "Paris Saint-Germain",
+   "country": "France",
+   "season": "2024-25",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#004170",
+    "#E30613"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mbappé",
+    "Weah",
+    "Raí"
+   ]
+  },
+  {
+   "id": "ec-int-202425",
+   "tierType": "O",
+   "club": "Inter",
+   "country": "Italy",
+   "season": "2024-25",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#1E71B8",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mazzola",
+    "Suárez",
+    "Milito"
+   ]
+  },
+  {
+   "id": "ec-ars-202425",
+   "tierType": "O",
+   "club": "Arsenal",
+   "country": "England",
+   "season": "2024-25",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#EF0107",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Henry",
+    "Bergkamp",
+    "Wright"
+   ]
+  },
+  {
+   "id": "ec-bar-202425",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "2024-25",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kubala",
+    "Cruyff",
+    "Messi"
+   ]
+  },
+  {
+   "id": "ec-psg-202526",
+   "tierType": "O",
+   "club": "Paris Saint-Germain",
+   "country": "France",
+   "season": "2025-26",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 89,
+   "kit": [
+    "#004170",
+    "#E30613"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mbappé",
+    "Weah",
+    "Raí"
+   ]
+  },
+  {
+   "id": "ec-ars-202526",
+   "tierType": "O",
+   "club": "Arsenal",
+   "country": "England",
+   "season": "2025-26",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 87,
+   "kit": [
+    "#EF0107",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Henry",
+    "Bergkamp",
+    "Wright"
+   ]
+  },
+  {
+   "id": "ec-bay-202526",
+   "tierType": "O",
+   "club": "Bayern Munich",
+   "country": "Germany",
+   "season": "2025-26",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Müller",
+    "Hoeneß",
+    "Lewandowski"
+   ]
+  },
+  {
+   "id": "ec-atm-202526",
+   "tierType": "O",
+   "club": "Atletico Madrid",
+   "country": "Spain",
+   "season": "2025-26",
+   "comps": [
+    "UCL"
+   ],
+   "rating": 85,
+   "kit": [
+    "#CB3524",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Luis Aragonés",
+    "Griezmann",
+    "Torres"
+   ]
+  }
+ ]
+}

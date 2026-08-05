@@ -1,6 +1,7 @@
 {
   "name": "roll-xi",
   "private": true,
+  "version": "0.3.0",
   "type": "module",
   "scripts": {
     "dev": "vite",

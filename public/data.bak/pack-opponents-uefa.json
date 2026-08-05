@@ -2464,6 +2464,44 @@
    ]
   },
   {
+   "id": "uel-asroma-202223",
+   "tierType": "O",
+   "club": "AS Roma",
+   "country": "Italy",
+   "season": "2022-23",
+   "comps": [
+    "UEL"
+   ],
+   "rating": 81,
+   "kit": [
+    "#8E1F2F",
+    "#F0BC42"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dybala"
+   ]
+  },
+  {
+   "id": "uel-atalan-202324",
+   "tierType": "O",
+   "club": "Atalanta",
+   "country": "Italy",
+   "season": "2023-24",
+   "comps": [
+    "UEL"
+   ],
+   "rating": 83,
+   "kit": [
+    "#1E71B8",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Lookman"
+   ]
+  },
+  {
    "id": "uel-bayerl-202324",
    "tierType": "O",
    "club": "Bayer Leverkusen",

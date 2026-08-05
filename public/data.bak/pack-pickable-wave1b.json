@@ -1,0 +1,4081 @@
+{
+ "meta": {
+  "name": "Wave 1b — EC/UCL semi-finalists 2010-11 to 2019-20 (pickable)",
+  "wave": "1b",
+  "note": "Promotes 19 2010s UCL semi-finalist club-seasons to full pickable squads. Monaco 2016-17 already in seed pack. Spines cross-checked; decoys auto-selected from era/league reserves.",
+  "verified": true
+ },
+ "squads": [
+  {
+   "id": "esp-rma-1011",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "2010-11",
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2010-11",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Iker Casillas",
+     "p": "GK",
+     "r": 88,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Jerzy Dudek",
+     "p": "GK",
+     "r": 74,
+     "nat": "Poland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Sergio Ramos",
+     "p": "DF",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Álvaro Arbeloa",
+     "p": "DF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "RB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Pepe",
+     "p": "DF",
+     "r": 84,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Raúl Albiol",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ricardo Carvalho",
+     "p": "DF",
+     "r": 82,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Marcelo",
+     "p": "DF",
+     "r": 83,
+     "nat": "Brazil",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Fábio Coentrão",
+     "p": "DF",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Xabi Alonso",
+     "p": "MF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Sami Khedira",
+     "p": "MF",
+     "r": 82,
+     "nat": "Germany",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Lassana Diarra",
+     "p": "MF",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Mesut Özil",
+     "p": "MF",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Kaká",
+     "p": "MF",
+     "r": 84,
+     "nat": "Brazil",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Ángel Di María",
+     "p": "MF",
+     "r": 83,
+     "nat": "Argentina",
+     "dp": [
+      "RM",
+      "RW"
+     ]
+    },
+    {
+     "n": "Cristiano Ronaldo",
+     "p": "FW",
+     "r": 93,
+     "nat": "Portugal",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Karim Benzema",
+     "p": "FW",
+     "r": 84,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Gonzalo Higuaín",
+     "p": "FW",
+     "r": 84,
+     "nat": "Argentina",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Emmanuel Adebayor",
+     "p": "FW",
+     "r": 80,
+     "nat": "Togo",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Sergio Canales",
+     "MF"
+    ],
+    [
+     "Esteban Granero",
+     "MF"
+    ],
+    [
+     "Pedro León",
+     "MF"
+    ],
+    [
+     "Jesé",
+     "FW"
+    ],
+    [
+     "Denis Cheryshev",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2010-11"
+    }
+   ]
+  },
+  {
+   "id": "ger-s04-1011",
+   "club": "Schalke 04",
+   "country": "Germany",
+   "league": "GER",
+   "season": "2010-11",
+   "kit": [
+    "#004D9D",
+    "#FFFFFF"
+   ],
+   "tier": 3,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2010-11",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Manuel Neuer",
+     "p": "GK",
+     "r": 85,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mathias Schober",
+     "p": "GK",
+     "r": 72,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Atsuto Uchida",
+     "p": "DF",
+     "r": 77,
+     "nat": "Japan",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Benedikt Höwedes",
+     "p": "DF",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Christoph Metzelder",
+     "p": "DF",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Marcelo Bordon",
+     "p": "DF",
+     "r": 77,
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Sergio Escudero",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Hans Sarpei",
+     "p": "DF",
+     "r": 74,
+     "nat": "Ghana",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Jermaine Jones",
+     "p": "MF",
+     "r": 78,
+     "nat": "United States",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "José Manuel Jurado",
+     "p": "MF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Joël Matip",
+     "p": "MF",
+     "r": 75,
+     "nat": "Cameroon",
+     "dp": [
+      "DM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Christian Pander",
+     "p": "MF",
+     "r": 74,
+     "nat": "Germany",
+     "dp": [
+      "LM"
+     ]
+    },
+    {
+     "n": "Jefferson Farfán",
+     "p": "FW",
+     "r": 80,
+     "nat": "Peru",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Raúl",
+     "p": "FW",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "CF",
+      "SS"
+     ]
+    },
+    {
+     "n": "Klaas-Jan Huntelaar",
+     "p": "FW",
+     "r": 81,
+     "nat": "Netherlands",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Edu",
+     "p": "FW",
+     "r": 73,
+     "nat": "Brazil",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Ali Karimi",
+     "p": "MF",
+     "r": 74,
+     "nat": "Iran",
+     "dp": [
+      "AM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Lewis Holtby",
+     "MF"
+    ],
+    [
+     "Kevin Kurányi",
+     "FW"
+    ],
+    [
+     "Julian Draxler",
+     "MF"
+    ],
+    [
+     "Max Meyer",
+     "MF"
+    ],
+    [
+     "Leon Goretzka",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2010-11"
+    }
+   ]
+  },
+  {
+   "id": "esp-bar-1112",
+   "club": "Barcelona",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "2011-12",
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2011-12",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Víctor Valdés",
+     "p": "GK",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "José Manuel Pinto",
+     "p": "GK",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Dani Alves",
+     "p": "DF",
+     "r": 86,
+     "nat": "Brazil",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Gerard Piqué",
+     "p": "DF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Carles Puyol",
+     "p": "DF",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Javier Mascherano",
+     "p": "DF",
+     "r": 83,
+     "nat": "Argentina",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Éric Abidal",
+     "p": "DF",
+     "r": 81,
+     "nat": "France",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Adriano",
+     "p": "DF",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "LB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Sergio Busquets",
+     "p": "MF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Xavi",
+     "p": "MF",
+     "r": 89,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Andrés Iniesta",
+     "p": "MF",
+     "r": 88,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Cesc Fàbregas",
+     "p": "MF",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Thiago Alcântara",
+     "p": "MF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Seydou Keita",
+     "p": "MF",
+     "r": 79,
+     "nat": "Mali",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Lionel Messi",
+     "p": "FW",
+     "r": 95,
+     "nat": "Argentina",
+     "dp": [
+      "CF",
+      "RW"
+     ]
+    },
+    {
+     "n": "Alexis Sánchez",
+     "p": "FW",
+     "r": 81,
+     "nat": "Chile",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Pedro",
+     "p": "FW",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "RW",
+      "LW"
+     ]
+    },
+    {
+     "n": "David Villa",
+     "p": "FW",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "CF",
+      "LW"
+     ]
+    },
+    {
+     "n": "Cristian Tello",
+     "p": "FW",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Sergio Canales",
+     "MF"
+    ],
+    [
+     "Esteban Granero",
+     "MF"
+    ],
+    [
+     "Pedro León",
+     "MF"
+    ],
+    [
+     "Jesé",
+     "FW"
+    ],
+    [
+     "Denis Cheryshev",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2011-12"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-1112",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "2011-12",
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2011-12",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Iker Casillas",
+     "p": "GK",
+     "r": 88,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Antonio Adán",
+     "p": "GK",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Sergio Ramos",
+     "p": "DF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Álvaro Arbeloa",
+     "p": "DF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Pepe",
+     "p": "DF",
+     "r": 84,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Raphaël Varane",
+     "p": "DF",
+     "r": 76,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ricardo Carvalho",
+     "p": "DF",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Marcelo",
+     "p": "DF",
+     "r": 84,
+     "nat": "Brazil",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Fábio Coentrão",
+     "p": "DF",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Xabi Alonso",
+     "p": "MF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Sami Khedira",
+     "p": "MF",
+     "r": 82,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Lassana Diarra",
+     "p": "MF",
+     "r": 78,
+     "nat": "France",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Mesut Özil",
+     "p": "MF",
+     "r": 85,
+     "nat": "Germany",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Kaká",
+     "p": "MF",
+     "r": 82,
+     "nat": "Brazil",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Ángel Di María",
+     "p": "MF",
+     "r": 84,
+     "nat": "Argentina",
+     "dp": [
+      "RM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Cristiano Ronaldo",
+     "p": "FW",
+     "r": 94,
+     "nat": "Portugal",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Karim Benzema",
+     "p": "FW",
+     "r": 85,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Gonzalo Higuaín",
+     "p": "FW",
+     "r": 84,
+     "nat": "Argentina",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "José Callejón",
+     "p": "FW",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "RW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Sergio Canales",
+     "MF"
+    ],
+    [
+     "Esteban Granero",
+     "MF"
+    ],
+    [
+     "Pedro León",
+     "MF"
+    ],
+    [
+     "Jesé",
+     "FW"
+    ],
+    [
+     "Denis Cheryshev",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2011-12"
+    }
+   ]
+  },
+  {
+   "id": "esp-bar-1213",
+   "club": "Barcelona",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "2012-13",
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2012-13",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Víctor Valdés",
+     "p": "GK",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "José Manuel Pinto",
+     "p": "GK",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Dani Alves",
+     "p": "DF",
+     "r": 85,
+     "nat": "Brazil",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Gerard Piqué",
+     "p": "DF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Carles Puyol",
+     "p": "DF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Javier Mascherano",
+     "p": "DF",
+     "r": 83,
+     "nat": "Argentina",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Jordi Alba",
+     "p": "DF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Adriano",
+     "p": "DF",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "LB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Marc Bartra",
+     "p": "DF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Sergio Busquets",
+     "p": "MF",
+     "r": 87,
+     "nat": "Spain",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Xavi",
+     "p": "MF",
+     "r": 88,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Andrés Iniesta",
+     "p": "MF",
+     "r": 88,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Cesc Fàbregas",
+     "p": "MF",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Thiago Alcântara",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Sergio Roberto",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Lionel Messi",
+     "p": "FW",
+     "r": 95,
+     "nat": "Argentina",
+     "dp": [
+      "CF",
+      "RW"
+     ]
+    },
+    {
+     "n": "Pedro",
+     "p": "FW",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "RW",
+      "LW"
+     ]
+    },
+    {
+     "n": "David Villa",
+     "p": "FW",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Alexis Sánchez",
+     "p": "FW",
+     "r": 81,
+     "nat": "Chile",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Cristian Tello",
+     "p": "FW",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Sergio Canales",
+     "MF"
+    ],
+    [
+     "Esteban Granero",
+     "MF"
+    ],
+    [
+     "Pedro León",
+     "MF"
+    ],
+    [
+     "Jesé",
+     "FW"
+    ],
+    [
+     "Denis Cheryshev",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2012-13"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-1213",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "2012-13",
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2012-13",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Iker Casillas",
+     "p": "GK",
+     "r": 87,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Diego López",
+     "p": "GK",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Sergio Ramos",
+     "p": "DF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Álvaro Arbeloa",
+     "p": "DF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Pepe",
+     "p": "DF",
+     "r": 83,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Raphaël Varane",
+     "p": "DF",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Marcelo",
+     "p": "DF",
+     "r": 84,
+     "nat": "Brazil",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Fábio Coentrão",
+     "p": "DF",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Michael Essien",
+     "p": "MF",
+     "r": 79,
+     "nat": "Ghana",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Xabi Alonso",
+     "p": "MF",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Sami Khedira",
+     "p": "MF",
+     "r": 83,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Luka Modrić",
+     "p": "MF",
+     "r": 84,
+     "nat": "Croatia",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Mesut Özil",
+     "p": "MF",
+     "r": 85,
+     "nat": "Germany",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Ángel Di María",
+     "p": "MF",
+     "r": 84,
+     "nat": "Argentina",
+     "dp": [
+      "RM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Kaká",
+     "p": "MF",
+     "r": 80,
+     "nat": "Brazil",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Cristiano Ronaldo",
+     "p": "FW",
+     "r": 94,
+     "nat": "Portugal",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Karim Benzema",
+     "p": "FW",
+     "r": 85,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Gonzalo Higuaín",
+     "p": "FW",
+     "r": 83,
+     "nat": "Argentina",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "José Callejón",
+     "p": "FW",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "RW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Sergio Canales",
+     "MF"
+    ],
+    [
+     "Esteban Granero",
+     "MF"
+    ],
+    [
+     "Pedro León",
+     "MF"
+    ],
+    [
+     "Jesé",
+     "FW"
+    ],
+    [
+     "Denis Cheryshev",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2012-13"
+    }
+   ]
+  },
+  {
+   "id": "ger-bay-1314",
+   "club": "Bayern München",
+   "country": "Germany",
+   "league": "GER",
+   "season": "2013-14",
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2013-14",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Manuel Neuer",
+     "p": "GK",
+     "r": 89,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Tom Starke",
+     "p": "GK",
+     "r": 72,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Philipp Lahm",
+     "p": "DF",
+     "r": 86,
+     "nat": "Germany",
+     "dp": [
+      "RB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Rafinha",
+     "p": "DF",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Jérôme Boateng",
+     "p": "DF",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Dante",
+     "p": "DF",
+     "r": 82,
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Javi Martínez",
+     "p": "DF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "David Alaba",
+     "p": "DF",
+     "r": 84,
+     "nat": "Austria",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Bastian Schweinsteiger",
+     "p": "MF",
+     "r": 86,
+     "nat": "Germany",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Toni Kroos",
+     "p": "MF",
+     "r": 85,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Thiago Alcântara",
+     "p": "MF",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Mario Götze",
+     "p": "MF",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Thomas Müller",
+     "p": "FW",
+     "r": 85,
+     "nat": "Germany",
+     "dp": [
+      "RW",
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Arjen Robben",
+     "p": "FW",
+     "r": 88,
+     "nat": "Netherlands",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Franck Ribéry",
+     "p": "FW",
+     "r": 88,
+     "nat": "France",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Mario Mandžukić",
+     "p": "FW",
+     "r": 83,
+     "nat": "Croatia",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Claudio Pizarro",
+     "p": "FW",
+     "r": 78,
+     "nat": "Peru",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Lewis Holtby",
+     "MF"
+    ],
+    [
+     "Kevin Kurányi",
+     "FW"
+    ],
+    [
+     "Julian Draxler",
+     "MF"
+    ],
+    [
+     "Max Meyer",
+     "MF"
+    ],
+    [
+     "Leon Goretzka",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2013-14"
+    }
+   ]
+  },
+  {
+   "id": "eng-che-1314",
+   "club": "Chelsea",
+   "country": "England",
+   "league": "ENG",
+   "season": "2013-14",
+   "kit": [
+    "#034694",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2013-14",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Petr Čech",
+     "p": "GK",
+     "r": 85,
+     "nat": "Czech Republic",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Mark Schwarzer",
+     "p": "GK",
+     "r": 74,
+     "nat": "Australia",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Branislav Ivanović",
+     "p": "DF",
+     "r": 83,
+     "nat": "Serbia",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "César Azpilicueta",
+     "p": "DF",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "RB",
+      "LB"
+     ]
+    },
+    {
+     "n": "John Terry",
+     "p": "DF",
+     "r": 83,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Gary Cahill",
+     "p": "DF",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "David Luiz",
+     "p": "DF",
+     "r": 82,
+     "nat": "Brazil",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Ashley Cole",
+     "p": "DF",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Nemanja Matić",
+     "p": "MF",
+     "r": 83,
+     "nat": "Serbia",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Ramires",
+     "p": "MF",
+     "r": 81,
+     "nat": "Brazil",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Frank Lampard",
+     "p": "MF",
+     "r": 83,
+     "nat": "England",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "John Obi Mikel",
+     "p": "MF",
+     "r": 78,
+     "nat": "Nigeria",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Oscar",
+     "p": "MF",
+     "r": 82,
+     "nat": "Brazil",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Eden Hazard",
+     "p": "FW",
+     "r": 86,
+     "nat": "Belgium",
+     "dp": [
+      "LW",
+      "AM"
+     ]
+    },
+    {
+     "n": "Willian",
+     "p": "FW",
+     "r": 81,
+     "nat": "Brazil",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "André Schürrle",
+     "p": "FW",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "LW",
+      "RW"
+     ]
+    },
+    {
+     "n": "Fernando Torres",
+     "p": "FW",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Samuel Eto'o",
+     "p": "FW",
+     "r": 80,
+     "nat": "Cameroon",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Demba Ba",
+     "p": "FW",
+     "r": 78,
+     "nat": "Senegal",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Juan Mata",
+     "MF"
+    ],
+    [
+     "Marko Marin",
+     "MF"
+    ],
+    [
+     "Marco van Ginkel",
+     "MF"
+    ],
+    [
+     "Mohamed Salah",
+     "FW"
+    ],
+    [
+     "Samir Nasri",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2013-14"
+    }
+   ]
+  },
+  {
+   "id": "ger-bay-1415",
+   "club": "Bayern München",
+   "country": "Germany",
+   "league": "GER",
+   "season": "2014-15",
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2014-15",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Manuel Neuer",
+     "p": "GK",
+     "r": 90,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Tom Starke",
+     "p": "GK",
+     "r": 72,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Philipp Lahm",
+     "p": "DF",
+     "r": 85,
+     "nat": "Germany",
+     "dp": [
+      "RB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Rafinha",
+     "p": "DF",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Jérôme Boateng",
+     "p": "DF",
+     "r": 85,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Dante",
+     "p": "DF",
+     "r": 81,
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Medhi Benatia",
+     "p": "DF",
+     "r": 82,
+     "nat": "Morocco",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "David Alaba",
+     "p": "DF",
+     "r": 85,
+     "nat": "Austria",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Juan Bernat",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Xabi Alonso",
+     "p": "MF",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Bastian Schweinsteiger",
+     "p": "MF",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Thiago Alcântara",
+     "p": "MF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Sebastian Rode",
+     "p": "MF",
+     "r": 76,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Thomas Müller",
+     "p": "FW",
+     "r": 86,
+     "nat": "Germany",
+     "dp": [
+      "RW",
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Arjen Robben",
+     "p": "FW",
+     "r": 88,
+     "nat": "Netherlands",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Franck Ribéry",
+     "p": "FW",
+     "r": 87,
+     "nat": "France",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Robert Lewandowski",
+     "p": "FW",
+     "r": 88,
+     "nat": "Poland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Mario Götze",
+     "p": "FW",
+     "r": 83,
+     "nat": "Germany",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Lewis Holtby",
+     "MF"
+    ],
+    [
+     "Kevin Kurányi",
+     "FW"
+    ],
+    [
+     "Julian Draxler",
+     "MF"
+    ],
+    [
+     "Max Meyer",
+     "MF"
+    ],
+    [
+     "Leon Goretzka",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2014-15"
+    }
+   ]
+  },
+  {
+   "id": "esp-rma-1415",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "2014-15",
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2014-15",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Iker Casillas",
+     "p": "GK",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Keylor Navas",
+     "p": "GK",
+     "r": 81,
+     "nat": "Costa Rica",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Dani Carvajal",
+     "p": "DF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Álvaro Arbeloa",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Sergio Ramos",
+     "p": "DF",
+     "r": 87,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Pepe",
+     "p": "DF",
+     "r": 83,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Raphaël Varane",
+     "p": "DF",
+     "r": 83,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Marcelo",
+     "p": "DF",
+     "r": 85,
+     "nat": "Brazil",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Fábio Coentrão",
+     "p": "DF",
+     "r": 79,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Toni Kroos",
+     "p": "MF",
+     "r": 87,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Luka Modrić",
+     "p": "MF",
+     "r": 86,
+     "nat": "Croatia",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Sami Khedira",
+     "p": "MF",
+     "r": 81,
+     "nat": "Germany",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Asier Illarramendi",
+     "p": "MF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Isco",
+     "p": "MF",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "James Rodríguez",
+     "p": "MF",
+     "r": 84,
+     "nat": "Colombia",
+     "dp": [
+      "AM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Cristiano Ronaldo",
+     "p": "FW",
+     "r": 93,
+     "nat": "Portugal",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Gareth Bale",
+     "p": "FW",
+     "r": 88,
+     "nat": "Wales",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Karim Benzema",
+     "p": "FW",
+     "r": 86,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Javier Hernández",
+     "p": "FW",
+     "r": 78,
+     "nat": "Mexico",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Sergio Canales",
+     "MF"
+    ],
+    [
+     "Esteban Granero",
+     "MF"
+    ],
+    [
+     "Pedro León",
+     "MF"
+    ],
+    [
+     "Jesé",
+     "FW"
+    ],
+    [
+     "Denis Cheryshev",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2014-15"
+    }
+   ]
+  },
+  {
+   "id": "eng-mci-1516",
+   "club": "Manchester City",
+   "country": "England",
+   "league": "ENG",
+   "season": "2015-16",
+   "kit": [
+    "#6CABDD",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2015-16",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Joe Hart",
+     "p": "GK",
+     "r": 83,
+     "nat": "England",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Willy Caballero",
+     "p": "GK",
+     "r": 75,
+     "nat": "Argentina",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Bacary Sagna",
+     "p": "DF",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Pablo Zabaleta",
+     "p": "DF",
+     "r": 81,
+     "nat": "Argentina",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Vincent Kompany",
+     "p": "DF",
+     "r": 85,
+     "nat": "Belgium",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Nicolás Otamendi",
+     "p": "DF",
+     "r": 81,
+     "nat": "Argentina",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Eliaquim Mangala",
+     "p": "DF",
+     "r": 78,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Aleksandar Kolarov",
+     "p": "DF",
+     "r": 80,
+     "nat": "Serbia",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Gaël Clichy",
+     "p": "DF",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Fernandinho",
+     "p": "MF",
+     "r": 84,
+     "nat": "Brazil",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Fernando",
+     "p": "MF",
+     "r": 79,
+     "nat": "Brazil",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Yaya Touré",
+     "p": "MF",
+     "r": 84,
+     "nat": "Ivory Coast",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "David Silva",
+     "p": "MF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Kevin De Bruyne",
+     "p": "MF",
+     "r": 85,
+     "nat": "Belgium",
+     "dp": [
+      "AM",
+      "RW"
+     ]
+    },
+    {
+     "n": "Jesús Navas",
+     "p": "FW",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Raheem Sterling",
+     "p": "FW",
+     "r": 81,
+     "nat": "England",
+     "dp": [
+      "LW",
+      "RW"
+     ]
+    },
+    {
+     "n": "Sergio Agüero",
+     "p": "FW",
+     "r": 89,
+     "nat": "Argentina",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Wilfried Bony",
+     "p": "FW",
+     "r": 79,
+     "nat": "Ivory Coast",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Kelechi Iheanacho",
+     "p": "FW",
+     "r": 75,
+     "nat": "Nigeria",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Juan Mata",
+     "MF"
+    ],
+    [
+     "Marko Marin",
+     "MF"
+    ],
+    [
+     "Marco van Ginkel",
+     "MF"
+    ],
+    [
+     "Mohamed Salah",
+     "FW"
+    ],
+    [
+     "Samir Nasri",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2015-16"
+    }
+   ]
+  },
+  {
+   "id": "ger-bay-1516",
+   "club": "Bayern München",
+   "country": "Germany",
+   "league": "GER",
+   "season": "2015-16",
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2015-16",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Manuel Neuer",
+     "p": "GK",
+     "r": 90,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Sven Ulreich",
+     "p": "GK",
+     "r": 74,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Philipp Lahm",
+     "p": "DF",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "RB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Rafinha",
+     "p": "DF",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Jérôme Boateng",
+     "p": "DF",
+     "r": 86,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Javi Martínez",
+     "p": "DF",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Medhi Benatia",
+     "p": "DF",
+     "r": 81,
+     "nat": "Morocco",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "David Alaba",
+     "p": "DF",
+     "r": 85,
+     "nat": "Austria",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Juan Bernat",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Xabi Alonso",
+     "p": "MF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Arturo Vidal",
+     "p": "MF",
+     "r": 85,
+     "nat": "Chile",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Thiago Alcântara",
+     "p": "MF",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Joshua Kimmich",
+     "p": "MF",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "DM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Thomas Müller",
+     "p": "FW",
+     "r": 86,
+     "nat": "Germany",
+     "dp": [
+      "RW",
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Arjen Robben",
+     "p": "FW",
+     "r": 86,
+     "nat": "Netherlands",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Franck Ribéry",
+     "p": "FW",
+     "r": 85,
+     "nat": "France",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Robert Lewandowski",
+     "p": "FW",
+     "r": 90,
+     "nat": "Poland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Kingsley Coman",
+     "p": "FW",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "LW",
+      "RW"
+     ]
+    },
+    {
+     "n": "Douglas Costa",
+     "p": "FW",
+     "r": 82,
+     "nat": "Brazil",
+     "dp": [
+      "RW",
+      "LW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Lewis Holtby",
+     "MF"
+    ],
+    [
+     "Kevin Kurányi",
+     "FW"
+    ],
+    [
+     "Julian Draxler",
+     "MF"
+    ],
+    [
+     "Max Meyer",
+     "MF"
+    ],
+    [
+     "Leon Goretzka",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2015-16"
+    }
+   ]
+  },
+  {
+   "id": "esp-atm-1617",
+   "club": "Atlético Madrid",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "2016-17",
+   "kit": [
+    "#CB3524",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2016-17",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Jan Oblak",
+     "p": "GK",
+     "r": 86,
+     "nat": "Slovenia",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Miguel Ángel Moyà",
+     "p": "GK",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Juanfran",
+     "p": "DF",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Šime Vrsaljko",
+     "p": "DF",
+     "r": 79,
+     "nat": "Croatia",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Diego Godín",
+     "p": "DF",
+     "r": 86,
+     "nat": "Uruguay",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "José María Giménez",
+     "p": "DF",
+     "r": 81,
+     "nat": "Uruguay",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Stefan Savić",
+     "p": "DF",
+     "r": 80,
+     "nat": "Montenegro",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Lucas Hernández",
+     "p": "DF",
+     "r": 78,
+     "nat": "France",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Filipe Luís",
+     "p": "DF",
+     "r": 82,
+     "nat": "Brazil",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Gabi",
+     "p": "MF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Koke",
+     "p": "MF",
+     "r": 84,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Saúl Ñíguez",
+     "p": "MF",
+     "r": 83,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Thomas Partey",
+     "p": "MF",
+     "r": 78,
+     "nat": "Ghana",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Yannick Carrasco",
+     "p": "FW",
+     "r": 82,
+     "nat": "Belgium",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Ángel Correa",
+     "p": "FW",
+     "r": 79,
+     "nat": "Argentina",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Antoine Griezmann",
+     "p": "FW",
+     "r": 88,
+     "nat": "France",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Kevin Gameiro",
+     "p": "FW",
+     "r": 80,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Fernando Torres",
+     "p": "FW",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Sergio Canales",
+     "MF"
+    ],
+    [
+     "Esteban Granero",
+     "MF"
+    ],
+    [
+     "Pedro León",
+     "MF"
+    ],
+    [
+     "Jesé",
+     "FW"
+    ],
+    [
+     "Denis Cheryshev",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2016-17"
+    }
+   ]
+  },
+  {
+   "id": "ger-bay-1718",
+   "club": "Bayern München",
+   "country": "Germany",
+   "league": "GER",
+   "season": "2017-18",
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2017-18",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Sven Ulreich",
+     "p": "GK",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Tom Starke",
+     "p": "GK",
+     "r": 71,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Joshua Kimmich",
+     "p": "DF",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Rafinha",
+     "p": "DF",
+     "r": 77,
+     "nat": "Brazil",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Jérôme Boateng",
+     "p": "DF",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Mats Hummels",
+     "p": "DF",
+     "r": 86,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Niklas Süle",
+     "p": "DF",
+     "r": 81,
+     "nat": "Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "David Alaba",
+     "p": "DF",
+     "r": 85,
+     "nat": "Austria",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Juan Bernat",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Javi Martínez",
+     "p": "MF",
+     "r": 82,
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CB"
+     ]
+    },
+    {
+     "n": "Thiago Alcântara",
+     "p": "MF",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Corentin Tolisso",
+     "p": "MF",
+     "r": 81,
+     "nat": "France",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Sebastian Rudy",
+     "p": "MF",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "James Rodríguez",
+     "p": "MF",
+     "r": 84,
+     "nat": "Colombia",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Thomas Müller",
+     "p": "FW",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "RW",
+      "AM",
+      "CF"
+     ]
+    },
+    {
+     "n": "Arjen Robben",
+     "p": "FW",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Franck Ribéry",
+     "p": "FW",
+     "r": 83,
+     "nat": "France",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Robert Lewandowski",
+     "p": "FW",
+     "r": 90,
+     "nat": "Poland",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Kingsley Coman",
+     "p": "FW",
+     "r": 81,
+     "nat": "France",
+     "dp": [
+      "LW",
+      "RW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Lewis Holtby",
+     "MF"
+    ],
+    [
+     "Kevin Kurányi",
+     "FW"
+    ],
+    [
+     "Julian Draxler",
+     "MF"
+    ],
+    [
+     "Max Meyer",
+     "MF"
+    ],
+    [
+     "Leon Goretzka",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2017-18"
+    }
+   ]
+  },
+  {
+   "id": "ita-rom-1718",
+   "club": "AS Roma",
+   "country": "Italy",
+   "league": "ITA",
+   "season": "2017-18",
+   "kit": [
+    "#8E1F2F",
+    "#F0BC42"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2017-18",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Alisson",
+     "p": "GK",
+     "r": 85,
+     "nat": "Brazil",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Łukasz Skorupski",
+     "p": "GK",
+     "r": 75,
+     "nat": "Poland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Alessandro Florenzi",
+     "p": "DF",
+     "r": 80,
+     "nat": "Italy",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Bruno Peres",
+     "p": "DF",
+     "r": 76,
+     "nat": "Brazil",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Federico Fazio",
+     "p": "DF",
+     "r": 80,
+     "nat": "Argentina",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Kostas Manolas",
+     "p": "DF",
+     "r": 83,
+     "nat": "Greece",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Juan Jesus",
+     "p": "DF",
+     "r": 77,
+     "nat": "Brazil",
+     "dp": [
+      "CB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Aleksandar Kolarov",
+     "p": "DF",
+     "r": 81,
+     "nat": "Serbia",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Daniele De Rossi",
+     "p": "MF",
+     "r": 82,
+     "nat": "Italy",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Radja Nainggolan",
+     "p": "MF",
+     "r": 84,
+     "nat": "Belgium",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Kevin Strootman",
+     "p": "MF",
+     "r": 81,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Lorenzo Pellegrini",
+     "p": "MF",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Diego Perotti",
+     "p": "FW",
+     "r": 79,
+     "nat": "Argentina",
+     "dp": [
+      "LW"
+     ]
+    },
+    {
+     "n": "Cengiz Ünder",
+     "p": "FW",
+     "r": 78,
+     "nat": "Turkey",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Stephan El Shaarawy",
+     "p": "FW",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Edin Džeko",
+     "p": "FW",
+     "r": 83,
+     "nat": "Bosnia and Herzegovina",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Patrik Schick",
+     "p": "FW",
+     "r": 77,
+     "nat": "Czech Republic",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Maxime Gonalons",
+     "MF"
+    ],
+    [
+     "Gerson",
+     "MF"
+    ],
+    [
+     "Grégoire Defrel",
+     "FW"
+    ],
+    [
+     "Rick Karsdorp",
+     "DF"
+    ],
+    [
+     "Gregoire Defrel",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2017-18"
+    }
+   ]
+  },
+  {
+   "id": "esp-bar-1819",
+   "club": "Barcelona",
+   "country": "Spain",
+   "league": "ESP",
+   "season": "2018-19",
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "tier": 1,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2018-19",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Marc-André ter Stegen",
+     "p": "GK",
+     "r": 87,
+     "nat": "Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Jasper Cillessen",
+     "p": "GK",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Nélson Semedo",
+     "p": "DF",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Sergi Roberto",
+     "p": "DF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "RB",
+      "CM"
+     ]
+    },
+    {
+     "n": "Gerard Piqué",
+     "p": "DF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Clément Lenglet",
+     "p": "DF",
+     "r": 81,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Samuel Umtiti",
+     "p": "DF",
+     "r": 82,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Jordi Alba",
+     "p": "DF",
+     "r": 85,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Sergio Busquets",
+     "p": "MF",
+     "r": 86,
+     "nat": "Spain",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Ivan Rakitić",
+     "p": "MF",
+     "r": 85,
+     "nat": "Croatia",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Arthur",
+     "p": "MF",
+     "r": 80,
+     "nat": "Brazil",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Arturo Vidal",
+     "p": "MF",
+     "r": 82,
+     "nat": "Chile",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Philippe Coutinho",
+     "p": "MF",
+     "r": 83,
+     "nat": "Brazil",
+     "dp": [
+      "AM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Lionel Messi",
+     "p": "FW",
+     "r": 94,
+     "nat": "Argentina",
+     "dp": [
+      "RW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Luis Suárez",
+     "p": "FW",
+     "r": 88,
+     "nat": "Uruguay",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Ousmane Dembélé",
+     "p": "FW",
+     "r": 83,
+     "nat": "France",
+     "dp": [
+      "RW",
+      "LW"
+     ]
+    },
+    {
+     "n": "Malcom",
+     "p": "FW",
+     "r": 77,
+     "nat": "Brazil",
+     "dp": [
+      "RW"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Sergio Canales",
+     "MF"
+    ],
+    [
+     "Esteban Granero",
+     "MF"
+    ],
+    [
+     "Pedro León",
+     "MF"
+    ],
+    [
+     "Jesé",
+     "FW"
+    ],
+    [
+     "Denis Cheryshev",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2018-19"
+    }
+   ]
+  },
+  {
+   "id": "ned-aja-1819",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "league": "NED",
+   "season": "2018-19",
+   "kit": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2018-19",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "André Onana",
+     "p": "GK",
+     "r": 81,
+     "nat": "Cameroon",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Kostas Lamprou",
+     "p": "GK",
+     "r": 70,
+     "nat": "Greece",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Noussair Mazraoui",
+     "p": "DF",
+     "r": 78,
+     "nat": "Morocco",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Joël Veltman",
+     "p": "DF",
+     "r": 78,
+     "nat": "Netherlands",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Matthijs de Ligt",
+     "p": "DF",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Daley Blind",
+     "p": "DF",
+     "r": 81,
+     "nat": "Netherlands",
+     "dp": [
+      "CB",
+      "LB"
+     ]
+    },
+    {
+     "n": "Nicolás Tagliafico",
+     "p": "DF",
+     "r": 80,
+     "nat": "Argentina",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Frenkie de Jong",
+     "p": "MF",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Lasse Schöne",
+     "p": "MF",
+     "r": 78,
+     "nat": "Denmark",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Donny van de Beek",
+     "p": "MF",
+     "r": 81,
+     "nat": "Netherlands",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Carel Eiting",
+     "p": "MF",
+     "r": 74,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Hakim Ziyech",
+     "p": "FW",
+     "r": 84,
+     "nat": "Morocco",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    },
+    {
+     "n": "David Neres",
+     "p": "FW",
+     "r": 80,
+     "nat": "Brazil",
+     "dp": [
+      "LW",
+      "RW"
+     ]
+    },
+    {
+     "n": "Dušan Tadić",
+     "p": "FW",
+     "r": 83,
+     "nat": "Serbia",
+     "dp": [
+      "CF",
+      "LW"
+     ]
+    },
+    {
+     "n": "Kasper Dolberg",
+     "p": "FW",
+     "r": 78,
+     "nat": "Denmark",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Klaas-Jan Huntelaar",
+     "p": "FW",
+     "r": 76,
+     "nat": "Netherlands",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Daley Sinkgraven",
+     "DF"
+    ],
+    [
+     "Rasmus Kristensen",
+     "DF"
+    ],
+    [
+     "Zakaria Labyad",
+     "MF"
+    ],
+    [
+     "Maximilian Wöber",
+     "DF"
+    ],
+    [
+     "Václav Černý",
+     "FW"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2018-19"
+    }
+   ]
+  },
+  {
+   "id": "fra-lyo-1920",
+   "club": "Lyon",
+   "country": "France",
+   "league": "FRA",
+   "season": "2019-20",
+   "kit": [
+    "#FFFFFF",
+    "#DA001A"
+   ],
+   "tier": 3,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2019-20",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Anthony Lopes",
+     "p": "GK",
+     "r": 82,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Ciprian Tătărușanu",
+     "p": "GK",
+     "r": 74,
+     "nat": "Romania",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Léo Dubois",
+     "p": "DF",
+     "r": 78,
+     "nat": "France",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Kenny Tete",
+     "p": "DF",
+     "r": 76,
+     "nat": "Netherlands",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Marcelo",
+     "p": "DF",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Joachim Andersen",
+     "p": "DF",
+     "r": 79,
+     "nat": "Denmark",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Jason Denayer",
+     "p": "DF",
+     "r": 78,
+     "nat": "Belgium",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Maxwel Cornet",
+     "p": "DF",
+     "r": 78,
+     "nat": "Ivory Coast",
+     "dp": [
+      "LB",
+      "LW"
+     ]
+    },
+    {
+     "n": "Bruno Guimarães",
+     "p": "MF",
+     "r": 80,
+     "nat": "Brazil",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Houssem Aouar",
+     "p": "MF",
+     "r": 82,
+     "nat": "France",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Maxence Caqueret",
+     "p": "MF",
+     "r": 75,
+     "nat": "France",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Lucas Tousart",
+     "p": "MF",
+     "r": 78,
+     "nat": "France",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Memphis Depay",
+     "p": "FW",
+     "r": 84,
+     "nat": "Netherlands",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Moussa Dembélé",
+     "p": "FW",
+     "r": 81,
+     "nat": "France",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Karl Toko Ekambi",
+     "p": "FW",
+     "r": 78,
+     "nat": "Cameroon",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "Rayan Cherki",
+     "p": "FW",
+     "r": 74,
+     "nat": "France",
+     "dp": [
+      "RW",
+      "AM"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Bertrand Traoré",
+     "FW"
+    ],
+    [
+     "Thiago Mendes",
+     "MF"
+    ],
+    [
+     "Jeff Reine-Adélaïde",
+     "MF"
+    ],
+    [
+     "Martin Terrier",
+     "FW"
+    ],
+    [
+     "Fernando Marçal",
+     "DF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2019-20"
+    }
+   ]
+  },
+  {
+   "id": "ger-rbl-1920",
+   "club": "RB Leipzig",
+   "country": "Germany",
+   "league": "GER",
+   "season": "2019-20",
+   "kit": [
+    "#DD0741",
+    "#FFFFFF"
+   ],
+   "tier": 2,
+   "conf": "B",
+   "honour": "UCL semi-finalist 2019-20",
+   "tierType": "P",
+   "crest": null,
+   "players": [
+    {
+     "n": "Péter Gulácsi",
+     "p": "GK",
+     "r": 82,
+     "nat": "Hungary",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Yvon Mvogo",
+     "p": "GK",
+     "r": 74,
+     "nat": "Switzerland",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Nordi Mukiele",
+     "p": "DF",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Lukas Klostermann",
+     "p": "DF",
+     "r": 80,
+     "nat": "Germany",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Dayot Upamecano",
+     "p": "DF",
+     "r": 82,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Ibrahima Konaté",
+     "p": "DF",
+     "r": 79,
+     "nat": "France",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Marcel Halstenberg",
+     "p": "DF",
+     "r": 78,
+     "nat": "Germany",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Angeliño",
+     "p": "DF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Konrad Laimer",
+     "p": "MF",
+     "r": 79,
+     "nat": "Austria",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Marcel Sabitzer",
+     "p": "MF",
+     "r": 82,
+     "nat": "Austria",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Kevin Kampl",
+     "p": "MF",
+     "r": 78,
+     "nat": "Slovenia",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Christopher Nkunku",
+     "p": "MF",
+     "r": 81,
+     "nat": "France",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Dani Olmo",
+     "p": "MF",
+     "r": 80,
+     "nat": "Spain",
+     "dp": [
+      "AM"
+     ]
+    },
+    {
+     "n": "Emil Forsberg",
+     "p": "MF",
+     "r": 80,
+     "nat": "Sweden",
+     "dp": [
+      "AM",
+      "LM"
+     ]
+    },
+    {
+     "n": "Timo Werner",
+     "p": "FW",
+     "r": 84,
+     "nat": "Germany",
+     "dp": [
+      "CF",
+      "LW"
+     ]
+    },
+    {
+     "n": "Yussuf Poulsen",
+     "p": "FW",
+     "r": 79,
+     "nat": "Denmark",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Patrik Schick",
+     "p": "FW",
+     "r": 78,
+     "nat": "Czech Republic",
+     "dp": [
+      "CF"
+     ]
+    }
+   ],
+   "decoys": [
+    [
+     "Lewis Holtby",
+     "MF"
+    ],
+    [
+     "Kevin Kurányi",
+     "FW"
+    ],
+    [
+     "Julian Draxler",
+     "MF"
+    ],
+    [
+     "Max Meyer",
+     "MF"
+    ],
+    [
+     "Leon Goretzka",
+     "MF"
+    ]
+   ],
+   "euro": [
+    {
+     "comp": "UCL",
+     "season": "2019-20"
+    }
+   ]
+  }
+ ]
+}

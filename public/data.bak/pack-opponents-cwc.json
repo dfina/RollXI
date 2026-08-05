@@ -1,0 +1,1493 @@
+{
+ "meta": {
+  "name": "European Cup Winners' Cup — finalists index (tier-O)",
+  "competition": "CWC",
+  "scope": "Winner and runner-up of every edition 1960-61 to 1998-99",
+  "source": "aworldofsoccer.com year-by-year + Wikipedia finals, cross-checked",
+  "verified": true
+ },
+ "squads": [
+  {
+   "id": "cwc-fioren-196061",
+   "tierType": "O",
+   "club": "Fiorentina",
+   "country": "Italy",
+   "season": "1960-61",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#5B2C8E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Hamrin"
+   ]
+  },
+  {
+   "id": "cwc-ranger-196061",
+   "tierType": "O",
+   "club": "Rangers",
+   "country": "Scotland",
+   "season": "1960-61",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 80,
+   "kit": [
+    "#1B458F",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Scott"
+   ]
+  },
+  {
+   "id": "cwc-atleti-196162",
+   "tierType": "O",
+   "club": "Atlético Madrid",
+   "country": "Spain",
+   "season": "1961-62",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#CB3524",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mendonça"
+   ]
+  },
+  {
+   "id": "cwc-fioren-196162",
+   "tierType": "O",
+   "club": "Fiorentina",
+   "country": "Italy",
+   "season": "1961-62",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 80,
+   "kit": [
+    "#5B2C8E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Hamrin"
+   ]
+  },
+  {
+   "id": "cwc-totten-196263",
+   "tierType": "O",
+   "club": "Tottenham Hotspur",
+   "country": "England",
+   "season": "1962-63",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#FFFFFF",
+    "#001C58"
+   ],
+   "crest": null,
+   "scorers": [
+    "Greaves"
+   ]
+  },
+  {
+   "id": "cwc-atleti-196263",
+   "tierType": "O",
+   "club": "Atlético Madrid",
+   "country": "Spain",
+   "season": "1962-63",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 80,
+   "kit": [
+    "#CB3524",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Collar"
+   ]
+  },
+  {
+   "id": "cwc-sporti-196364",
+   "tierType": "O",
+   "club": "Sporting CP",
+   "country": "Portugal",
+   "season": "1963-64",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#008057",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mascarenhas"
+   ]
+  },
+  {
+   "id": "cwc-mtkbud-196364",
+   "tierType": "O",
+   "club": "MTK Budapest",
+   "country": "Hungary",
+   "season": "1963-64",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 80,
+   "kit": [
+    "#0067B1",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Sándor"
+   ]
+  },
+  {
+   "id": "cwc-westha-196465",
+   "tierType": "O",
+   "club": "West Ham United",
+   "country": "England",
+   "season": "1964-65",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#7A263A",
+    "#1BB1E7"
+   ],
+   "crest": null,
+   "scorers": [
+    "Sealey"
+   ]
+  },
+  {
+   "id": "cwc-1860mu-196465",
+   "tierType": "O",
+   "club": "1860 Munich",
+   "country": "Germany",
+   "season": "1964-65",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 80,
+   "kit": [
+    "#0046AA",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Brunnenmeier"
+   ]
+  },
+  {
+   "id": "cwc-boruss-196566",
+   "tierType": "O",
+   "club": "Borussia Dortmund",
+   "country": "Germany",
+   "season": "1965-66",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#FDE100",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Held"
+   ]
+  },
+  {
+   "id": "cwc-liverp-196566",
+   "tierType": "O",
+   "club": "Liverpool",
+   "country": "England",
+   "season": "1965-66",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 80,
+   "kit": [
+    "#C8102E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Hunt"
+   ]
+  },
+  {
+   "id": "cwc-bayern-196667",
+   "tierType": "O",
+   "club": "Bayern München",
+   "country": "Germany",
+   "season": "1966-67",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Roth"
+   ]
+  },
+  {
+   "id": "cwc-ranger-196667",
+   "tierType": "O",
+   "club": "Rangers",
+   "country": "Scotland",
+   "season": "1966-67",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 80,
+   "kit": [
+    "#1B458F",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Johnston"
+   ]
+  },
+  {
+   "id": "cwc-acmila-196768",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "1967-68",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Hamrin"
+   ]
+  },
+  {
+   "id": "cwc-hambur-196768",
+   "tierType": "O",
+   "club": "Hamburg",
+   "country": "Germany",
+   "season": "1967-68",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 80,
+   "kit": [
+    "#FFFFFF",
+    "#0046AA"
+   ],
+   "crest": null,
+   "scorers": [
+    "Seeler"
+   ]
+  },
+  {
+   "id": "cwc-slovan-196869",
+   "tierType": "O",
+   "club": "Slovan Bratislava",
+   "country": "Slovakia",
+   "season": "1968-69",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#0033A0",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Cvetler"
+   ]
+  },
+  {
+   "id": "cwc-barcel-196869",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "1968-69",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 80,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Zaldúa"
+   ]
+  },
+  {
+   "id": "cwc-manche-196970",
+   "tierType": "O",
+   "club": "Manchester City",
+   "country": "England",
+   "season": "1969-70",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#6CABDD",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Young"
+   ]
+  },
+  {
+   "id": "cwc-gornik-196970",
+   "tierType": "O",
+   "club": "Górnik Zabrze",
+   "country": "Poland",
+   "season": "1969-70",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 80,
+   "kit": [
+    "#E30613",
+    "#003DA5"
+   ],
+   "crest": null,
+   "scorers": [
+    "Oślizło"
+   ]
+  },
+  {
+   "id": "cwc-chelse-197071",
+   "tierType": "O",
+   "club": "Chelsea",
+   "country": "England",
+   "season": "1970-71",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#034694",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Osgood"
+   ]
+  },
+  {
+   "id": "cwc-realma-197071",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1970-71",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 81,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Zoco"
+   ]
+  },
+  {
+   "id": "cwc-ranger-197172",
+   "tierType": "O",
+   "club": "Rangers",
+   "country": "Scotland",
+   "season": "1971-72",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#1B458F",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Stein"
+   ]
+  },
+  {
+   "id": "cwc-dynamo-197172",
+   "tierType": "O",
+   "club": "Dynamo Moscow",
+   "country": "Soviet Union",
+   "season": "1971-72",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 81,
+   "kit": [
+    "#005CA9",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Eshtrekov"
+   ]
+  },
+  {
+   "id": "cwc-acmila-197273",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "1972-73",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Chiarugi"
+   ]
+  },
+  {
+   "id": "cwc-leedsu-197273",
+   "tierType": "O",
+   "club": "Leeds United",
+   "country": "England",
+   "season": "1972-73",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 81,
+   "kit": [
+    "#FFFFFF",
+    "#1D428A"
+   ],
+   "crest": null,
+   "scorers": [
+    "Hunter"
+   ]
+  },
+  {
+   "id": "cwc-fcmagd-197374",
+   "tierType": "O",
+   "club": "FC Magdeburg",
+   "country": "Germany",
+   "season": "1973-74",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#0033A0",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Lanzi"
+   ]
+  },
+  {
+   "id": "cwc-acmila-197374",
+   "tierType": "O",
+   "club": "AC Milan",
+   "country": "Italy",
+   "season": "1973-74",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 81,
+   "kit": [
+    "#D50000",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Chiarugi"
+   ]
+  },
+  {
+   "id": "cwc-dynamo-197475",
+   "tierType": "O",
+   "club": "Dynamo Kyiv",
+   "country": "Soviet Union",
+   "season": "1974-75",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#FFFFFF",
+    "#0057B7"
+   ],
+   "crest": null,
+   "scorers": [
+    "Onyshchenko"
+   ]
+  },
+  {
+   "id": "cwc-ferenc-197475",
+   "tierType": "O",
+   "club": "Ferencváros",
+   "country": "Hungary",
+   "season": "1974-75",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 81,
+   "kit": [
+    "#008751",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Mucha"
+   ]
+  },
+  {
+   "id": "cwc-anderl-197576",
+   "tierType": "O",
+   "club": "Anderlecht",
+   "country": "Belgium",
+   "season": "1975-76",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#5A2A82",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Rensenbrink"
+   ]
+  },
+  {
+   "id": "cwc-westha-197576",
+   "tierType": "O",
+   "club": "West Ham United",
+   "country": "England",
+   "season": "1975-76",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 81,
+   "kit": [
+    "#7A263A",
+    "#1BB1E7"
+   ],
+   "crest": null,
+   "scorers": [
+    "Holland"
+   ]
+  },
+  {
+   "id": "cwc-hambur-197677",
+   "tierType": "O",
+   "club": "Hamburg",
+   "country": "Germany",
+   "season": "1976-77",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#FFFFFF",
+    "#0046AA"
+   ],
+   "crest": null,
+   "scorers": [
+    "Volkert"
+   ]
+  },
+  {
+   "id": "cwc-anderl-197677",
+   "tierType": "O",
+   "club": "Anderlecht",
+   "country": "Belgium",
+   "season": "1976-77",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 81,
+   "kit": [
+    "#5A2A82",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Rensenbrink"
+   ]
+  },
+  {
+   "id": "cwc-anderl-197778",
+   "tierType": "O",
+   "club": "Anderlecht",
+   "country": "Belgium",
+   "season": "1977-78",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#5A2A82",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Rensenbrink"
+   ]
+  },
+  {
+   "id": "cwc-austri-197778",
+   "tierType": "O",
+   "club": "Austria Wien",
+   "country": "Austria",
+   "season": "1977-78",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 81,
+   "kit": [
+    "#5C2D91",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Gasselich"
+   ]
+  },
+  {
+   "id": "cwc-barcel-197879",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "1978-79",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Krankl"
+   ]
+  },
+  {
+   "id": "cwc-fortun-197879",
+   "tierType": "O",
+   "club": "Fortuna Düsseldorf",
+   "country": "Germany",
+   "season": "1978-79",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 81,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Seel"
+   ]
+  },
+  {
+   "id": "cwc-valenc-197980",
+   "tierType": "O",
+   "club": "Valencia",
+   "country": "Spain",
+   "season": "1979-80",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 83,
+   "kit": [
+    "#FFFFFF",
+    "#F18E00"
+   ],
+   "crest": null,
+   "scorers": [
+    "Kempes"
+   ]
+  },
+  {
+   "id": "cwc-arsena-197980",
+   "tierType": "O",
+   "club": "Arsenal",
+   "country": "England",
+   "season": "1979-80",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 81,
+   "kit": [
+    "#EF0107",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Brady"
+   ]
+  },
+  {
+   "id": "cwc-dinamo-198081",
+   "tierType": "O",
+   "club": "Dinamo Tbilisi",
+   "country": "Soviet Union",
+   "season": "1980-81",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#005CA9",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Gutsaev"
+   ]
+  },
+  {
+   "id": "cwc-carlze-198081",
+   "tierType": "O",
+   "club": "Carl Zeiss Jena",
+   "country": "Germany",
+   "season": "1980-81",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#003DA5",
+    "#FFE100"
+   ],
+   "crest": null,
+   "scorers": [
+    "Hoppe"
+   ]
+  },
+  {
+   "id": "cwc-barcel-198182",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "1981-82",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Simonsen"
+   ]
+  },
+  {
+   "id": "cwc-standa-198182",
+   "tierType": "O",
+   "club": "Standard Liège",
+   "country": "Belgium",
+   "season": "1981-82",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Vandersmissen"
+   ]
+  },
+  {
+   "id": "cwc-aberde-198283",
+   "tierType": "O",
+   "club": "Aberdeen",
+   "country": "Scotland",
+   "season": "1982-83",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#E20E0E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Black"
+   ]
+  },
+  {
+   "id": "cwc-realma-198283",
+   "tierType": "O",
+   "club": "Real Madrid",
+   "country": "Spain",
+   "season": "1982-83",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#FFFFFF",
+    "#C9A227"
+   ],
+   "crest": null,
+   "scorers": [
+    "Juanito"
+   ]
+  },
+  {
+   "id": "cwc-juvent-198384",
+   "tierType": "O",
+   "club": "Juventus",
+   "country": "Italy",
+   "season": "1983-84",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#000000",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Vignola"
+   ]
+  },
+  {
+   "id": "cwc-porto-198384",
+   "tierType": "O",
+   "club": "Porto",
+   "country": "Portugal",
+   "season": "1983-84",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#003DA5",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Sousa"
+   ]
+  },
+  {
+   "id": "cwc-everto-198485",
+   "tierType": "O",
+   "club": "Everton",
+   "country": "England",
+   "season": "1984-85",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#003399",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Gray"
+   ]
+  },
+  {
+   "id": "cwc-rapidv-198485",
+   "tierType": "O",
+   "club": "Rapid Vienna",
+   "country": "Austria",
+   "season": "1984-85",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#009639",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Krankl"
+   ]
+  },
+  {
+   "id": "cwc-dynamo-198586",
+   "tierType": "O",
+   "club": "Dynamo Kyiv",
+   "country": "Soviet Union",
+   "season": "1985-86",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFFFFF",
+    "#0057B7"
+   ],
+   "crest": null,
+   "scorers": [
+    "Zavarov"
+   ]
+  },
+  {
+   "id": "cwc-atleti-198586",
+   "tierType": "O",
+   "club": "Atlético Madrid",
+   "country": "Spain",
+   "season": "1985-86",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#CB3524",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Quique"
+   ]
+  },
+  {
+   "id": "cwc-ajax-198687",
+   "tierType": "O",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "season": "1986-87",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Van Basten"
+   ]
+  },
+  {
+   "id": "cwc-lokomo-198687",
+   "tierType": "O",
+   "club": "Lokomotive Leipzig",
+   "country": "Germany",
+   "season": "1986-87",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#003DA5",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Marschall"
+   ]
+  },
+  {
+   "id": "cwc-kvmech-198788",
+   "tierType": "O",
+   "club": "KV Mechelen",
+   "country": "Belgium",
+   "season": "1987-88",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFD200",
+    "#E30613"
+   ],
+   "crest": null,
+   "scorers": [
+    "Den Boer"
+   ]
+  },
+  {
+   "id": "cwc-ajax-198788",
+   "tierType": "O",
+   "club": "Ajax",
+   "country": "Netherlands",
+   "season": "1987-88",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Bosman"
+   ]
+  },
+  {
+   "id": "cwc-barcel-198889",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "1988-89",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Salinas"
+   ]
+  },
+  {
+   "id": "cwc-sampdo-198889",
+   "tierType": "O",
+   "club": "Sampdoria",
+   "country": "Italy",
+   "season": "1988-89",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#1B5FAA",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Vialli"
+   ]
+  },
+  {
+   "id": "cwc-sampdo-198990",
+   "tierType": "O",
+   "club": "Sampdoria",
+   "country": "Italy",
+   "season": "1989-90",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#1B5FAA",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Vialli"
+   ]
+  },
+  {
+   "id": "cwc-anderl-198990",
+   "tierType": "O",
+   "club": "Anderlecht",
+   "country": "Belgium",
+   "season": "1989-90",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#5A2A82",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Van der Linden"
+   ]
+  },
+  {
+   "id": "cwc-manche-199091",
+   "tierType": "O",
+   "club": "Manchester United",
+   "country": "England",
+   "season": "1990-91",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#DA291C",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Hughes"
+   ]
+  },
+  {
+   "id": "cwc-barcel-199091",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "1990-91",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Koeman"
+   ]
+  },
+  {
+   "id": "cwc-werder-199192",
+   "tierType": "O",
+   "club": "Werder Bremen",
+   "country": "Germany",
+   "season": "1991-92",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#1D9053",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Allofs"
+   ]
+  },
+  {
+   "id": "cwc-monaco-199192",
+   "tierType": "O",
+   "club": "Monaco",
+   "country": "France",
+   "season": "1991-92",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Clément"
+   ]
+  },
+  {
+   "id": "cwc-parma-199293",
+   "tierType": "O",
+   "club": "Parma",
+   "country": "Italy",
+   "season": "1992-93",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFD200",
+    "#0046AA"
+   ],
+   "crest": null,
+   "scorers": [
+    "Melli"
+   ]
+  },
+  {
+   "id": "cwc-antwer-199293",
+   "tierType": "O",
+   "club": "Antwerp",
+   "country": "Belgium",
+   "season": "1992-93",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#E30613",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Severeyns"
+   ]
+  },
+  {
+   "id": "cwc-arsena-199394",
+   "tierType": "O",
+   "club": "Arsenal",
+   "country": "England",
+   "season": "1993-94",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#EF0107",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Smith"
+   ]
+  },
+  {
+   "id": "cwc-parma-199394",
+   "tierType": "O",
+   "club": "Parma",
+   "country": "Italy",
+   "season": "1993-94",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#FFD200",
+    "#0046AA"
+   ],
+   "crest": null,
+   "scorers": [
+    "Brolin"
+   ]
+  },
+  {
+   "id": "cwc-realza-199495",
+   "tierType": "O",
+   "club": "Real Zaragoza",
+   "country": "Spain",
+   "season": "1994-95",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#FFFFFF",
+    "#0046AA"
+   ],
+   "crest": null,
+   "scorers": [
+    "Nayim"
+   ]
+  },
+  {
+   "id": "cwc-arsena-199495",
+   "tierType": "O",
+   "club": "Arsenal",
+   "country": "England",
+   "season": "1994-95",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#EF0107",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Hartson"
+   ]
+  },
+  {
+   "id": "cwc-pariss-199596",
+   "tierType": "O",
+   "club": "Paris Saint-Germain",
+   "country": "France",
+   "season": "1995-96",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#004170",
+    "#E30613"
+   ],
+   "crest": null,
+   "scorers": [
+    "N'Gotty"
+   ]
+  },
+  {
+   "id": "cwc-rapidv-199596",
+   "tierType": "O",
+   "club": "Rapid Vienna",
+   "country": "Austria",
+   "season": "1995-96",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#009639",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Stöger"
+   ]
+  },
+  {
+   "id": "cwc-barcel-199697",
+   "tierType": "O",
+   "club": "Barcelona",
+   "country": "Spain",
+   "season": "1996-97",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#A50044",
+    "#004D98"
+   ],
+   "crest": null,
+   "scorers": [
+    "Ronaldo"
+   ]
+  },
+  {
+   "id": "cwc-pariss-199697",
+   "tierType": "O",
+   "club": "Paris Saint-Germain",
+   "country": "France",
+   "season": "1996-97",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#004170",
+    "#E30613"
+   ],
+   "crest": null,
+   "scorers": [
+    "Leonardo"
+   ]
+  },
+  {
+   "id": "cwc-chelse-199798",
+   "tierType": "O",
+   "club": "Chelsea",
+   "country": "England",
+   "season": "1997-98",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#034694",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Zola"
+   ]
+  },
+  {
+   "id": "cwc-vfbstu-199798",
+   "tierType": "O",
+   "club": "VfB Stuttgart",
+   "country": "Germany",
+   "season": "1997-98",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#FFFFFF",
+    "#E30613"
+   ],
+   "crest": null,
+   "scorers": [
+    "Bobic"
+   ]
+  },
+  {
+   "id": "cwc-lazio-199899",
+   "tierType": "O",
+   "club": "Lazio",
+   "country": "Italy",
+   "season": "1998-99",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 84,
+   "kit": [
+    "#87CEEB",
+    "#FFFFFF"
+   ],
+   "crest": null,
+   "scorers": [
+    "Vieri"
+   ]
+  },
+  {
+   "id": "cwc-mallor-199899",
+   "tierType": "O",
+   "club": "Mallorca",
+   "country": "Spain",
+   "season": "1998-99",
+   "comps": [
+    "CWC"
+   ],
+   "rating": 82,
+   "kit": [
+    "#E30613",
+    "#000000"
+   ],
+   "crest": null,
+   "scorers": [
+    "Dani"
+   ]
+  }
+ ]
+}
