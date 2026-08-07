@@ -1,17 +1,13 @@
-# Roll XI — Coverage and Data Audit
-
+Roll XI — Coverage and Data Audit
 This is the persistent evidence and migration log for coverage work. New editions
 and rebuilds should append sections here rather than creating additional audit
 files. `docs/CONTENT-TARGET.md` remains the normative specification; this file
 records how particular data was researched, corrected and released.
-
-## 2026-08-07 — Exception-driven coverage-production tooling
-
+2026-08-07 — Exception-driven coverage-production tooling
 A reusable production helper was added at `scripts/prepare-coverage.mjs` before
 starting the next European coverage edition. The purpose is to preserve the
 2025-26 Conference League evidence standard while removing repetitive manual
 roster assembly.
-
 The helper consumes a `rollxi-coverage-matrix-v1` source matrix, ranks
 competition-proper participation by minutes/appearances/starts, enforces a
 goalkeeper, uses verified registered fallbacks only where necessary, reuses
@@ -21,36 +17,29 @@ positions stay current-season evidence-led; where only a broad role is known,
 the generic role code is retained rather than copied from another season. Human selection overrides are
 explicit (`selection: "include"` / `"exclude"`) and never rewrite source
 appearance statistics.
-
 Production writes are deliberately gated. `coverage:apply` requires
 `status: "final"`, authoritative participant/results sources, club-level
 appearance and identity sources, 16 eligible players, a goalkeeper, final
 ratings/positions/nationalities, and no unreviewed Priority A issue. Working
 drafts/reports live in gitignored `coverage-work/`; the persistent evidence
 record remains this file. The helper's self-test is part of `npm run validate`.
-
 Implementation release gate: `npm run validate` passes with zero data errors
 and all scorer, formation/dead-roll and coverage-production regression checks
 green. Coverage state itself is unchanged; Conference League 2024-25 remains
 the next measured gap.
-
-## 2026-08-07 — Canonical decade-shard migration
-
+2026-08-07 — Canonical decade-shard migration
 The former production-wave/competition pack layout was consolidated into stable
 decade shards. No club-season row was dropped or duplicated during the storage
 migration.
-
 Release state after migration:
-
-- 1,114 club-season rows across 8 shards;
-- 805 full rosters and 309 stubs;
-- 12,816 player-season records;
-- every row stored exactly once in the shard matching its season start year;
-- `tierType` removed from all 1,114 rows and from runtime logic;
-- `index.json` changed from a production-pack manifest to a decade-shard manifest;
-- validation now rejects wrong-shard placement, duplicate club-seasons and any
-  reintroduced `tierType`.
-
+1,114 club-season rows across 8 shards;
+805 full rosters and 309 stubs;
+12,816 player-season records;
+every row stored exactly once in the shard matching its season start year;
+`tierType` removed from all 1,114 rows and from runtime logic;
+`index.json` changed from a production-pack manifest to a decade-shard manifest;
+validation now rejects wrong-shard placement, duplicate club-seasons and any
+reintroduced `tierType`.
 The final 26 legacy rows that previously relied on `tierType: "O"` were migrated
 to explicit `achievements[]` without inventing finalist honours. Manchester City
 2018-19 and Arsenal, Deportivo La Coruña, Galatasaray and Manchester United
@@ -59,30 +48,24 @@ placeholder rows are recorded as group-stage participants. Because none of these
 26 rows has `W`, `RU` or `SF`, they no longer enter Campaign opposition through a
 legacy fallback. This reduces the opponent pool to the historically intended
 `W`/`RU`/`SF` set while retaining the rows for coverage accounting.
-
 The eight canonical files created were `clubs-1950s.json` through
 `clubs-2020s.json`. Future Serie A work may add `clubs-1920s.json`,
 `clubs-1930s.json` and `clubs-1940s.json` when first needed.
-
 Migration release gate:
-
-- old/new ID sets: 1,114/1,114 and identical;
-- no row-content changes beyond removal of `tierType` and the intended 26
-  explicit achievement migrations;
-- zero duplicate club-seasons;
-- `npm run validate`: zero errors and zero warnings;
-- scorer regression: 191 overlapping pickable opponents use their full rosters;
-- Campaign opponent pool after removing the inaccurate legacy fallback: 474;
-- `coverage:next`: Conference League 2024-25, `clubs-2020s.json`;
-- production build could not be executed in this environment because Vite is
-  not installed (`vite: not found`).
-
-### Pre-migration production metadata snapshot
-
+old/new ID sets: 1,114/1,114 and identical;
+no row-content changes beyond removal of `tierType` and the intended 26
+explicit achievement migrations;
+zero duplicate club-seasons;
+`npm run validate`: zero errors and zero warnings;
+scorer regression: 191 overlapping pickable opponents use their full rosters;
+Campaign opponent pool after removing the inaccurate legacy fallback: 474;
+`coverage:next`: Conference League 2024-25, `clubs-2020s.json`;
+production build could not be executed in this environment because Vite is
+not installed (`vite: not found`).
+Pre-migration production metadata snapshot
 The old files are intentionally deleted after consolidation. Their top-level
 metadata is preserved below so source/provenance notes remain recoverable from
 the repository without restoring dozens of production files.
-
 ```json
 [
   {
@@ -524,32 +507,24 @@ the repository without restoring dozens of production files.
   }
 ]
 ```
-
-## Legacy 11-player roster audit — 2026-08-07
-
-### Purpose
-
+Legacy 11-player roster audit — 2026-08-07
+Purpose
 This audit resolves the 21 playable historical rosters that still sat at the
 11-player compatibility minimum. The release house standard is 16 players.
-
 The affected records were not bulk-filled from generic season lists. Each
 club-season was checked against European Cup competition-squad evidence and,
 where available, appearance or match-sheet evidence. Existing rows were also
 checked for obvious identity, nationality and positional conflicts discovered
 while researching the missing depth.
-
-### Evidence standard
-
+Evidence standard
 Primary evidence used in this pass:
-
-1. **DFB Datencenter** European Cup team-season squad pages and match sheets.
-2. **RSSSF, European Champions' Club Cup/UEFA Champions League Winning Squads**
-   for appearance counts on winning teams.
-3. **WorldFootball** historical European Cup appearances, squad lists and match
-   line-ups where the relevant edition is available.
-4. **Official club archives** for targeted cross-checks, notably Real Madrid,
-   AC Milan, Inter, Malmö FF and Barcelona material.
-
+DFB Datencenter European Cup team-season squad pages and match sheets.
+RSSSF, European Champions' Club Cup/UEFA Champions League Winning Squads
+for appearance counts on winning teams.
+WorldFootball historical European Cup appearances, squad lists and match
+line-ups where the relevant edition is available.
+Official club archives for targeted cross-checks, notably Real Madrid,
+AC Milan, Inter, Malmö FF and Barcelona material.
 Selection rule: prefer players with documented appearances in that European Cup
 campaign. If fewer than 16 appearance participants could be established from
 available records, fill the remaining places only with players independently
@@ -557,137 +532,176 @@ verified as members of that competition/season squad. Ratings were calibrated
 against existing adjacent-season instances in the Roll XI dataset where
 possible, then against role/prominence so that adding reserves did not inflate
 Campaign difficulty.
-
 This is a depth rebuild, not a claim that every historical competition had a
 formal 16-player registration limit. Sixteen is Roll XI's gameplay standard.
-
-### Source-evidence matrix and changes
-
-| Club-season | Evidence used | Depth change | Other corrections made |
-|---|---|---:|---|
-| Real Madrid 1955-56 | RSSSF appearance table + DFB competition squad + Real Madrid archive spot-check | 11 → 16 | Added Navarro, Becerril, Olsen, Molowny, Castaño |
-| Real Madrid 1956-57 | RSSSF appearance table + DFB competition squad | 11 → 16 | `Joaquín Torres` corrected to **Manuel Torres Pastor**; added Berasaluce, Atienza, Becerril, Santisteban, Joseíto |
-| Real Madrid 1957-58 | RSSSF appearance table + DFB competition squad | 11 → 16 | Added Rogelio Domínguez, Marquitos, Miguel Muñoz, Marsal, Mateos |
-| AC Milan 1957-58 | European Cup match line-ups + AC Milan official season roster | 11 → 16 | Added Buffon, Zagatti, Zannier, Mariani, Galli; Narciso Soldan nationality corrected to **Italy** |
-| Reims 1958-59 | DFB 16-player competition squad + WorldFootball match line-ups | 11 → 16 | `Piotr Rodzik` → **Bruno Rodzik**; `Michel Bliard` → **René Bliard**; added Jacquet, Dubaële, Siatka, Baratto, Bérard |
-| Real Madrid 1959-60 | RSSSF appearance table + Real Madrid final archive + competition records | 11 → 16 | `Manuel Vidal` → **José María Vidal**; Rogelio Domínguez nationality corrected to **Argentina**; added Miché, Ruiz Cervilla, Mateos, Santisteban, Chus Herrera |
-| Eintracht Frankfurt 1959-60 | WorldFootball appearance table + DFB competition squad | 11 → 16 | `Friedrich Lutz` → **Friedel Lutz**; `Hans Eigenbrodt` → **Hans-Walter Eigenbrodt**; added Kirchhof, Schymik, Bechtold, Bäumler, Herbert. Fourteen of the final 16 have documented European Cup appearances; Kirchhof and Herbert are verified competition-squad reserves. |
-| Barcelona 1960-61 | DFB competition squad + WorldFootball squad/match line-ups | 11 → 16 | Split erroneous `Segarra Gensana` into **Enric Gensana** plus **Joan Segarra**; `Joaquim Garay` → **Jesús Garay**; `Joan Vergés` → **Martí Vergés**; removed unsupported Teódulo García; added Gràcia, Segarra, Olivella, Ribelles, Tejada, Villaverde |
-| Benfica 1961-62 | RSSSF appearance table + DFB competition squad | 11 → 16 | Added Humberto Fernandes, José Neto, Serra, Santana, José Torres |
-| Real Madrid 1961-62 | DFB competition squad + WorldFootball match evidence | 11 → 16 | Added Vicente Train, Isidro Sánchez, Zárraga, Ruiz Cervilla, Canário |
-| AC Milan 1962-63 | RSSSF appearance table + AC Milan official roster | 11 → 16 | `Angelo Mora` → **Bruno Mora**; Víctor Benítez nationality corrected to **Peru**; added Liberalato, Pelagalli, Radice, Barison, José Germano |
-| Benfica 1962-63 | WorldFootball appearance table + competition squad records | 11 → 16 | Added Santana, Ângelo, Augusto Silva, Germano, Jacinto Santos |
-| Inter 1963-64 | RSSSF appearance table + Inter official 1963-64 squad | 11 → 16 | Added Szymaniak, Ciccolo, Di Giacomo, Bugatti, Codognato |
-| Real Madrid 1963-64 | DFB competition squad + match records | 11 → 16 | Unsupported `Vicente Cobo` corrected to **Vicente Train**; added Betancort, Miera, Casado, Félix Ruiz, Evaristo |
-| Benfica 1964-65 | DFB competition squad + match records | 11 → 16 | Added Nascimento, Jacinto Santos, Humberto Fernandes, Santana, Ângelo |
-| Real Madrid 1965-66 | RSSSF appearance table + DFB competition squad | 11 → 16 | Added Betancort, Miera, Santamaría, Félix Ruiz, Puskás |
-| Partizan Belgrade 1965-66 | DFB competition squad + DFB European Cup match sheets | 11 → 16 | Removed unsupported Dragoslav Šekularac; corrected **Radoslav Bečejac**, **Mane Bajić**, **Vladimir Kovačević**, **Josip Pirmajer** and Rašović's primary role; added Ćurković, Paunović, Damjanović, Mihajlović, Miladinović, Vislavski |
-| Benfica 1967-68 | DFB competition squad + match records | 11 → 16 | `Adolfo` expanded to **Adolfo Calisto**; added Nascimento, Humberto Coelho, Cavém, Raúl Machado, Santana |
-| AC Milan 1968-69 | RSSSF appearance table + competition records | 11 → 16 | Added William Vecchi, Luigi Maldera, Nello Santin, Romano Fogli, Giorgio Rognoni |
-| Ajax 1968-69 | DFB competition squad + DFB match sheets | 11 → 16 | `Anton Pronk` → **Tonny Pronk**, primary role corrected to DF; added Stuy, Krol, Suurendonk, Bennie Muller, Haan |
-| Malmö FF 1978-79 | Malmö FF official campaign retrospective + DFB competition squad | 11 → 16 | `Thomas Cervin` → **Tore Cervin**; Kent Jönsson corrected to DF; Jan-Olov Kindvall corrected to MF; added Roy Andersson, Kristensson, Bo Larsson, Malmberg, Arvidsson |
-
-### Ratings audit
-
-The rebuilt Wave Ff pack averages **77.63** across its player ratings; Wave Fe
-averages **78.88**. Both remain aligned with the documented target of a pack mean
+Source-evidence matrix and changes
+Club-season	Evidence used	Depth change	Other corrections made
+Real Madrid 1955-56	RSSSF appearance table + DFB competition squad + Real Madrid archive spot-check	11 → 16	Added Navarro, Becerril, Olsen, Molowny, Castaño
+Real Madrid 1956-57	RSSSF appearance table + DFB competition squad	11 → 16	`Joaquín Torres` corrected to Manuel Torres Pastor; added Berasaluce, Atienza, Becerril, Santisteban, Joseíto
+Real Madrid 1957-58	RSSSF appearance table + DFB competition squad	11 → 16	Added Rogelio Domínguez, Marquitos, Miguel Muñoz, Marsal, Mateos
+AC Milan 1957-58	European Cup match line-ups + AC Milan official season roster	11 → 16	Added Buffon, Zagatti, Zannier, Mariani, Galli; Narciso Soldan nationality corrected to Italy
+Reims 1958-59	DFB 16-player competition squad + WorldFootball match line-ups	11 → 16	`Piotr Rodzik` → Bruno Rodzik; `Michel Bliard` → René Bliard; added Jacquet, Dubaële, Siatka, Baratto, Bérard
+Real Madrid 1959-60	RSSSF appearance table + Real Madrid final archive + competition records	11 → 16	`Manuel Vidal` → José María Vidal; Rogelio Domínguez nationality corrected to Argentina; added Miché, Ruiz Cervilla, Mateos, Santisteban, Chus Herrera
+Eintracht Frankfurt 1959-60	WorldFootball appearance table + DFB competition squad	11 → 16	`Friedrich Lutz` → Friedel Lutz; `Hans Eigenbrodt` → Hans-Walter Eigenbrodt; added Kirchhof, Schymik, Bechtold, Bäumler, Herbert. Fourteen of the final 16 have documented European Cup appearances; Kirchhof and Herbert are verified competition-squad reserves.
+Barcelona 1960-61	DFB competition squad + WorldFootball squad/match line-ups	11 → 16	Split erroneous `Segarra Gensana` into Enric Gensana plus Joan Segarra; `Joaquim Garay` → Jesús Garay; `Joan Vergés` → Martí Vergés; removed unsupported Teódulo García; added Gràcia, Segarra, Olivella, Ribelles, Tejada, Villaverde
+Benfica 1961-62	RSSSF appearance table + DFB competition squad	11 → 16	Added Humberto Fernandes, José Neto, Serra, Santana, José Torres
+Real Madrid 1961-62	DFB competition squad + WorldFootball match evidence	11 → 16	Added Vicente Train, Isidro Sánchez, Zárraga, Ruiz Cervilla, Canário
+AC Milan 1962-63	RSSSF appearance table + AC Milan official roster	11 → 16	`Angelo Mora` → Bruno Mora; Víctor Benítez nationality corrected to Peru; added Liberalato, Pelagalli, Radice, Barison, José Germano
+Benfica 1962-63	WorldFootball appearance table + competition squad records	11 → 16	Added Santana, Ângelo, Augusto Silva, Germano, Jacinto Santos
+Inter 1963-64	RSSSF appearance table + Inter official 1963-64 squad	11 → 16	Added Szymaniak, Ciccolo, Di Giacomo, Bugatti, Codognato
+Real Madrid 1963-64	DFB competition squad + match records	11 → 16	Unsupported `Vicente Cobo` corrected to Vicente Train; added Betancort, Miera, Casado, Félix Ruiz, Evaristo
+Benfica 1964-65	DFB competition squad + match records	11 → 16	Added Nascimento, Jacinto Santos, Humberto Fernandes, Santana, Ângelo
+Real Madrid 1965-66	RSSSF appearance table + DFB competition squad	11 → 16	Added Betancort, Miera, Santamaría, Félix Ruiz, Puskás
+Partizan Belgrade 1965-66	DFB competition squad + DFB European Cup match sheets	11 → 16	Removed unsupported Dragoslav Šekularac; corrected Radoslav Bečejac, Mane Bajić, Vladimir Kovačević, Josip Pirmajer and Rašović's primary role; added Ćurković, Paunović, Damjanović, Mihajlović, Miladinović, Vislavski
+Benfica 1967-68	DFB competition squad + match records	11 → 16	`Adolfo` expanded to Adolfo Calisto; added Nascimento, Humberto Coelho, Cavém, Raúl Machado, Santana
+AC Milan 1968-69	RSSSF appearance table + competition records	11 → 16	Added William Vecchi, Luigi Maldera, Nello Santin, Romano Fogli, Giorgio Rognoni
+Ajax 1968-69	DFB competition squad + DFB match sheets	11 → 16	`Anton Pronk` → Tonny Pronk, primary role corrected to DF; added Stuy, Krol, Suurendonk, Bennie Muller, Haan
+Malmö FF 1978-79	Malmö FF official campaign retrospective + DFB competition squad	11 → 16	`Thomas Cervin` → Tore Cervin; Kent Jönsson corrected to DF; Jan-Olov Kindvall corrected to MF; added Roy Andersson, Kristensson, Bo Larsson, Malmberg, Arvidsson
+Ratings audit
+The rebuilt Wave Ff pack averages 77.63 across its player ratings; Wave Fe
+averages 78.88. Both remain aligned with the documented target of a pack mean
 near 78. New reserve/depth players were generally rated below established
 starters rather than using reputation at career peak.
-
-### Validation result
-
+Validation result
 After the rebuild:
-
-- all 21 affected rosters contain exactly 16 players;
-- every affected roster still contains at least one goalkeeper;
-- no duplicate player names were introduced within a roster;
-- `npm run validate` reports **0 errors and 0 warnings**;
-- no unresolved Priority A identity conflict found during this audit remains in
-  the affected 21 rows.
-
+all 21 affected rosters contain exactly 16 players;
+every affected roster still contains at least one goalkeeper;
+no duplicate player names were introduced within a roster;
+`npm run validate` reports 0 errors and 0 warnings;
+no unresolved Priority A identity conflict found during this audit remains in
+the affected 21 rows.
 The validator's warning for future 11-player rosters remains intentionally in
 place. The compatibility minimum is still 11, but new/rebuilt release content
 should target 16 whenever source coverage supports it.
-
-## Roll XI — Conference League 2025-26 coverage audit
-
+Roll XI — Conference League 2025-26 coverage audit
 Date: 2026-08-07
-
-### Scope and evidence standard
-
-This audit covers the complete 36-club **league phase** of the 2025-26 UEFA Conference League. Qualifying is excluded by the Roll XI main-draw definition.
-
-- UEFA participant source: https://www.uefa.com/uefaconferenceleague/news/029c-1e9829b53e51-119e69b956ee-1000--2025-26-conference-league-meet-the-league-phase-teams/
-- UEFA draw cross-check: https://www.uefa.com/uefaconferenceleague/news/029c-1e92246e7a6f-e273155cc9d3-1000--2025-26-conference-league-league-phase-draw-contenders-learn/
-- UEFA final results/stage source: https://www.uefa.com/uefaconferenceleague/news/029c-1e9ad66c8169-aaecb38941a7-1000--2025-26-conference-league-all-the-results/
-- Roster selection source family: ESPN 2025-26 UEFA Conference League team squad/stat pages, using competition-proper appearances rather than qualifying where available.
-- Player identity/position cross-check family: UEFA team/player pages and season-squad records. Where the cross-check only establishes a broad role, Roll XI stores `DF`, `MF` or `FW` rather than inventing a narrower detailed position.
-
+Scope and evidence standard
+This audit covers the complete 36-club league phase of the 2025-26 UEFA Conference League. Qualifying is excluded by the Roll XI main-draw definition.
+UEFA participant source: https://www.uefa.com/uefaconferenceleague/news/029c-1e9829b53e51-119e69b956ee-1000--2025-26-conference-league-meet-the-league-phase-teams/
+UEFA draw cross-check: https://www.uefa.com/uefaconferenceleague/news/029c-1e92246e7a6f-e273155cc9d3-1000--2025-26-conference-league-league-phase-draw-contenders-learn/
+UEFA final results/stage source: https://www.uefa.com/uefaconferenceleague/news/029c-1e9ad66c8169-aaecb38941a7-1000--2025-26-conference-league-all-the-results/
+Roster selection source family: ESPN 2025-26 UEFA Conference League team squad/stat pages, using competition-proper appearances rather than qualifying where available.
+Player identity/position cross-check family: UEFA team/player pages and season-squad records. Where the cross-check only establishes a broad role, Roll XI stores `DF`, `MF` or `FW` rather than inventing a narrower detailed position.
 The two pre-existing 2025-26 opponent stubs, Crystal Palace and Rayo Vallecano, are upgraded to full rosters under their existing IDs. No duplicate club-season rows are created.
-
-### Source-evidence matrix
-
-| Club | Participant | Competition-proper roster/appearance evidence | Identity/role cross-check | Deepest stage | Priority A |
-|---|---|---|---|---|---|
-| Noah | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Rapid Vienna | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Zrinjski Mostar | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Rijeka | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
-| AEK Larnaca | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
-| Omonia | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Sigma Olomouc | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
-| Sparta Prague | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
-| Crystal Palace | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | W | None unresolved |
-| KuPS | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Strasbourg | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | SF | None unresolved |
-| Mainz | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | QF | None unresolved |
-| Lincoln Red Imps | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| AEK Athens | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | QF | None unresolved |
-| Breiðablik | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Fiorentina | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | QF | None unresolved |
-| Drita | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Hamrun Spartans | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| AZ Alkmaar | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | QF | None unresolved |
-| Shkëndija | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Jagiellonia Białystok | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Lech Poznań | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
-| Legia Warsaw | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Raków Częstochowa | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
-| Shamrock Rovers | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Shelbourne | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Universitatea Craiova | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Aberdeen | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Slovan Bratislava | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Celje | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
-| Rayo Vallecano | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | RU | None unresolved |
-| Häcken | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Lausanne-Sport | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Samsunspor | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
-| Dynamo Kyiv | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
-| Shakhtar Donetsk | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | SF | None unresolved |
-
-### Priority A finalisation corrections
-
+Source-evidence matrix
+Club	Participant	Competition-proper roster/appearance evidence	Identity/role cross-check	Deepest stage	Priority A
+Noah	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Rapid Vienna	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Zrinjski Mostar	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Rijeka	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	R16	None unresolved
+AEK Larnaca	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	R16	None unresolved
+Omonia	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Sigma Olomouc	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	R16	None unresolved
+Sparta Prague	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	R16	None unresolved
+Crystal Palace	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	W	None unresolved
+KuPS	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Strasbourg	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	SF	None unresolved
+Mainz	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	QF	None unresolved
+Lincoln Red Imps	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+AEK Athens	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	QF	None unresolved
+Breiðablik	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Fiorentina	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	QF	None unresolved
+Drita	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Hamrun Spartans	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+AZ Alkmaar	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	QF	None unresolved
+Shkëndija	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Jagiellonia Białystok	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Lech Poznań	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	R16	None unresolved
+Legia Warsaw	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Raków Częstochowa	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	R16	None unresolved
+Shamrock Rovers	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Shelbourne	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Universitatea Craiova	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Aberdeen	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Slovan Bratislava	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Celje	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	R16	None unresolved
+Rayo Vallecano	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	RU	None unresolved
+Häcken	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Lausanne-Sport	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Samsunspor	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	R16	None unresolved
+Dynamo Kyiv	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	MAIN	None unresolved
+Shakhtar Donetsk	UEFA league-phase list	ESPN UECL squad/appearance page	UEFA / season squad cross-check	SF	None unresolved
+Priority A finalisation corrections
 The final human-review pass corrected several issues before release:
-
-- Crystal Palace was re-ranked against final competition-proper appearances: Will Hughes, Eddie Nketiah and Evann Guessand replace lower-participation Chadi Riad, Jørgen Strand Larsen and Christantus Uche in the 16-player game roster.
-- Rayo Vallecano uses Florian Lejeune, who made nine Conference League appearances, rather than lower-participation Luiz Felipe.
-- Häcken identity errors were corrected: `Sigurd Rosted Lode` → Marius Lode, `Kristoffer Lundqvist` → Adam Lundkvist and `Vegard Wembangomo` → Brice Wembangomo. Isak Brusberg replaces Mikkel Bruun Madsen, and Adrian Svanbäck's nationality is Finland.
-- Hamrun Spartans broad roles were corrected for Ognjen Bjeličić, Marcelina Emerson and Joseph Mbong.
-- Lincoln Red Imps broad roles were corrected for Víctor Villacañas and Toni.
-
+Crystal Palace was re-ranked against final competition-proper appearances: Will Hughes, Eddie Nketiah and Evann Guessand replace lower-participation Chadi Riad, Jørgen Strand Larsen and Christantus Uche in the 16-player game roster.
+Rayo Vallecano uses Florian Lejeune, who made nine Conference League appearances, rather than lower-participation Luiz Felipe.
+Häcken identity errors were corrected: `Sigurd Rosted Lode` → Marius Lode, `Kristoffer Lundqvist` → Adam Lundkvist and `Vegard Wembangomo` → Brice Wembangomo. Isak Brusberg replaces Mikkel Bruun Madsen, and Adrian Svanbäck's nationality is Finland.
+Hamrun Spartans broad roles were corrected for Ognjen Bjeličić, Marcelina Emerson and Joseph Mbong.
+Lincoln Red Imps broad roles were corrected for Víctor Villacañas and Toni.
 These corrections were made before the release validation gate.
-
-### Roster construction
-
+Roster construction
 Each club has 16 players and at least one goalkeeper. The selection prioritises players who appeared most often in the Conference League proper. When a club did not have 16 clearly documented competition-proper participants in the accessible appearance table, the remaining place(s) were filled from the verified registered/season squad and treated as depth players.
-
 Ratings are a gameplay calibration, not a claim of an external numerical rating. Team baselines reflect 2025-26 competitive level and European progress, while player-level variation is deliberately narrow. The pack is checked against the project-wide 62-97 range and the target mean near 78.
-
-### Detailed-position policy
-
+Detailed-position policy
 The evidence sources used for this cycle often expose only broad goalkeeper/defender/midfielder/forward roles. Rather than infer unverified sub-roles, the pack uses the canonical generic detailed codes `DF`, `MF` and `FW` where necessary. Those codes are already first-class Roll XI position values and deliberately provide broad tactical compatibility. More specific `dp` values can be added later only when sourced player-by-player.
-
-### Release gate
-
+Release gate
 Release requires: 36/36 club-season rows, 16 players per roster, zero duplicate club-season rows, no residual Palace/Rayo stubs, valid crest override keys, validation with zero errors, and coverage reporting 2025-26 as complete.
+Roll XI — Conference League 2024-25 coverage audit
+Date: 2026-08-07
+Scope and evidence standard
+This audit covers the complete 36-club league phase of the 2024-25 UEFA Conference League. Qualifying rounds are excluded under the Roll XI main-draw definition.
+UEFA participant source: https://www.uefa.com/uefaconferenceleague/news/0290-1bbb03b65c4f-be92e06ecf39-1000--2024-25-conference-league-who-has-qualified-for-the-league-/
+Stage/result cross-check: UEFA 2024-25 competition records plus WorldFootball league-phase and knockout records.
+Roster selection source family: competition-specific FBref, WorldFootball and ESPN appearance/stat pages, supplemented by verified UEFA/Sky/season match line-ups where complete appearance tables were not exposed.
+Player identity/role cross-check family: UEFA/team season-squad records and existing Roll XI identities where the player match is unambiguous.
+Competition-proper evidence only is used for the 2024-25 pack. Qualifying appearances are not used to promote a player into the 16-player game roster.
+The pre-existing Chelsea and Real Betis opponent stubs are upgraded under their existing IDs. Fiorentina's pre-existing 15-player roster is deliberately replaced after a competition-proper participation review. No duplicate club-season rows are created.
+Source-evidence matrix
+Club	Roster evidence	Deepest stage	Finalisation note
+APOEL	FBref/competition appearance table + season cross-check	MAIN	16-player roster
+Omonia	FBref/competition appearance table + season cross-check	MAIN	16-player roster
+Pafos	FBref/competition appearance table + season cross-check	R16	16-player roster
+LASK	FBref/competition appearance table + season cross-check	MAIN	16-player roster
+Rapid Vienna	competition appearance records + season cross-check	QF	16-player roster
+Cercle Brugge	FBref/competition appearance table + season cross-check	R16	16-player roster
+Gent	ESPN/competition appearances + verified match line-up	MAIN	16-player roster
+Jagiellonia Białystok	WorldFootball/competition appearances + match line-up	QF	16-player roster
+Legia Warsaw	ESPN/competition appearances + season cross-check	QF	16-player roster
+Celje	ESPN/competition appearances + season cross-check	QF	16-player roster
+Olimpija Ljubljana	WorldFootball/competition appearances	MAIN	16-player roster
+Lugano	FBref/competition record + verified match line-ups	R16	16-player roster
+St Gallen	verified competition match line-ups + season cross-check	MAIN	16-player roster
+Noah	FBref/competition record + season cross-check	MAIN	16-player roster
+Dinamo Minsk	FBref/competition record + verified match line-ups	MAIN	16-player roster
+Borac Banja Luka	FBref/competition appearances + verified match line-ups	R16	Same-name identity exception reviewed
+Mladá Boleslav	UEFA/competition history + verified match line-ups	MAIN	16-player roster
+Copenhagen	WorldFootball/competition appearances	R16	16-player roster
+Chelsea	WorldFootball/competition appearances + FBref cross-check	W	Existing stub upgraded
+HJK Helsinki	verified competition match line-ups + season cross-check	MAIN	16-player roster
+Heidenheim	FBref/competition appearances + verified match line-up	MAIN	16-player roster
+Panathinaikos	FBref/competition appearances + verified match line-ups	R16	16-player roster
+Víkingur Reykjavík	verified competition match line-ups + season cross-check	MAIN	16-player roster
+Fiorentina	competition-proper appearance review + FBref/ESPN cross-check	SF	Existing 15-player roster replaced
+Astana	FBref/competition record + verified Chelsea match line-up	MAIN	16-player roster
+Petrocub	verified competition match line-ups + season cross-check	MAIN	16-player roster
+Larne	FBref/competition record + verified Gent match line-up	MAIN	16-player roster
+Molde	FBref/competition appearances + verified match line-ups	R16	16-player roster
+Vitória Guimarães	verified competition match line-ups + season cross-check	R16	16-player roster
+Shamrock Rovers	competition appearance records + season cross-check	MAIN	16-player roster
+Hearts	verified competition match line-ups + season cross-check	MAIN	16-player roster
+TSC Bačka Topola	WorldFootball/competition appearances + verified match line-up	MAIN	16-player roster
+Real Betis	WorldFootball/competition appearances + match line-up cross-check	RU	Existing stub upgraded
+Djurgården	FBref/competition appearances + verified knockout line-ups	SF	16-player roster
+İstanbul Başakşehir	FBref/competition appearances + season cross-check	MAIN	16-player roster
+The New Saints	UEFA/verified competition line-ups + season cross-check	MAIN	16-player roster
+Where a source exposed complete minutes/appearance totals, those totals drove the cut-off. Where only verified competition line-ups and participant records were accessible, the 16-player set was finalised manually from documented competition-proper participants before passing through the coverage helper. This avoids treating qualifying appearances or unverified registered depth as equivalent evidence.
+Priority A finalisation review
+Two Priority A cases were reviewed before applying the edition:
+Fiorentina roster replacement: the existing 2024-25 row contained 15 players and did not reflect the final competition-proper participation cut. It is replaced with a 16-player roster including Pietro Terracciano, Matías Moreno, Amir Richardson, Danilo Cataldi and Nicolò Fagioli, while lower-participation or non-selected players from the earlier row are removed.
+Stefan Savić identity collision: Borac Banja Luka's Stefan Savić is the Austrian midfielder born in 1994, not the Montenegrin centre-back of the same name already present in older Fiorentina/Atlético Madrid records. The Austrian nationality and MF role are intentionally retained.
+The audit also exposed a pre-existing nationality error in the 2025-26 Raków Częstochowa row: Lamine Diaby-Fadiga was stored as Côte d'Ivoire. The value is corrected to Guinea, consistent with his documented Guinean nationality/sporting association.
+Ratings and role policy
+The 2024-25 edition contains 576 players across 36 rosters. The edition-wide rating mean is 78.50, with a range of 74-87, inside the project's normal release band. Ratings remain gameplay calibration rather than externally sourced numerical ratings.
+Broad roles are used conservatively. Where the source set does not justify a narrower detailed role, `dp` uses the corresponding generic `GK`, `DF`, `MF` or `FW` value. Same-name collisions with unrelated historical players are not allowed to overwrite current-season source evidence.
+Crest finalisation
+The 25 newly introduced club display names that lacked a `CREST_PAGE_OVERRIDES` entry now have explicit Wikipedia page-title mappings in `src/lib/crestResolver.js`. This removes the live-search fallback warnings introduced by the expansion.
+Release gate
+Final state after applying the matrix:
+36/36 2024-25 main-draw participants have full 16-player rosters;
+Chelsea and Real Betis are no longer stubs;
+Fiorentina contains exactly 16 players;
+no duplicate club-season rows were introduced;
+no selected roster lacks a goalkeeper;
+`npm run validate` reports 0 errors and 0 warnings;
+`npm run coverage` reports Conference League at 75/168 known rosters (45%), with 2/5 editions proven complete;
+the next measured Conference League gap is 2023-24.
