@@ -41,7 +41,7 @@ every row stored exactly once in the shard matching its season start year;
 validation now rejects wrong-shard placement, duplicate club-seasons and any
 reintroduced `tierType`.
 The final 26 legacy rows that previously relied on `tierType: "O"` were migrated
-to explicit `achievements[]` without inventing finalist honours. Manchester City
+to explicit `achievements\\\[]` without inventing finalist honours. Manchester City
 2018-19 and Arsenal, Deportivo La Coruña, Galatasaray and Manchester United
 2000-01 are recorded as UCL quarter-finalists. The other 21 UCL 2000-01
 placeholder rows are recorded as group-stage participants. Because none of these
@@ -67,21 +67,21 @@ The old files are intentionally deleted after consolidation. Their top-level
 metadata is preserved below so source/provenance notes remain recoverable from
 the repository without restoring dozens of production files.
 ```json
-[
+\\\[
   {
     "file": "pack-opponents-confl-itc.json",
     "rows": 72,
     "meta": {
       "name": "Conference League + UEFA Intertoto Cup — finalists index (tier-O)",
-      "competitions": [
+      "competitions": \\\[
         "CONFL",
         "ITC"
       ],
       "scope": "Conference League: winner + runner-up all 5 editions 2021-22 to 2025-26. Intertoto: winner + runner-up of each final 1995-2005 (2-3 finals per year); outright winner only for 2006-2008 (format changed to 11 parallel finals, no traditional runner-up designation).",
       "source": "Wikipedia finals, UEFA.com, aworldofsoccer.com, RSSSF, cross-checked",
       "verified": true,
-      "note": "2025-26 Conference League final (Crystal Palace 1-0 Rayo Vallecano) independently confirmed 2026-08-07 via live Wikipedia fetch, superseding the earlier \"user context, not independently verified\" status.",
-      "achievementsAdded": "2026-08-07: per-row achievements[] (stage W/RU) added for all 74 rows — Conference League from Wikipedia, Intertoto Cup winners-per-year from RSSSF (rsssf.org/tablesi/intertoto.html); non-winning Intertoto entries assigned RU by elimination within each year, since the pack itself only ever holds winner+runner-up pairs for 1995-2005. 2006-2008 Intertoto entries correctly carry no RU (11 parallel winners, no runner-up concept, per the pack's existing scope note). See docs/CONTENT-TARGET.md section 3D."
+      "note": "2025-26 Conference League final (Crystal Palace 1-0 Rayo Vallecano) independently confirmed 2026-08-07 via live Wikipedia fetch, superseding the earlier \\\\"user context, not independently verified\\\\" status.",
+      "achievementsAdded": "2026-08-07: per-row achievements\\\[] (stage W/RU) added for all 74 rows — Conference League from Wikipedia, Intertoto Cup winners-per-year from RSSSF (rsssf.org/tablesi/intertoto.html); non-winning Intertoto entries assigned RU by elimination within each year, since the pack itself only ever holds winner+runner-up pairs for 1995-2005. 2006-2008 Intertoto entries correctly carry no RU (11 parallel winners, no runner-up concept, per the pack's existing scope note). See docs/CONTENT-TARGET.md section 3D."
     }
   },
   {
@@ -93,18 +93,18 @@ the repository without restoring dozens of production files.
       "scope": "Winner and runner-up of every edition 1960-61 to 1998-99",
       "source": "aworldofsoccer.com year-by-year + Wikipedia finals, cross-checked",
       "verified": true,
-      "achievementsAdded": "2026-08-07: per-row achievements[] (stage W/RU) added for all 78 rows, derived from RSSSF (rsssf.org/ec/ec2stats.html) full finals table, cross-checked against the same source's own winners-by-club and runners-up-by-club tallies. See docs/CONTENT-TARGET.md section 3D."
+      "achievementsAdded": "2026-08-07: per-row achievements\\\[] (stage W/RU) added for all 78 rows, derived from RSSSF (rsssf.org/ec/ec2stats.html) full finals table, cross-checked against the same source's own winners-by-club and runners-up-by-club tallies. See docs/CONTENT-TARGET.md section 3D."
     }
   },
   {
     "file": "pack-opponents-ec-ucl.json",
     "rows": 0,
     "meta": {
-      "name": "European Cup / Champions League — finalists & semi-finalists",
+      "name": "European Cup / Champions League — finalists \\\& semi-finalists",
       "source": "myfootballfacts.com (finals + semi-finals), cross-checked vs Wikipedia",
       "verified": true,
       "scope": "Winner, runner-up and both semi-finalists of every edition 1955-56 to 2025-26",
-      "comps": [
+      "comps": \\\[
         "EC",
         "UCL"
       ],
@@ -133,7 +133,7 @@ the repository without restoring dozens of production files.
     "rows": 133,
     "meta": {
       "name": "Inter-Cities Fairs Cup / UEFA Cup / Europa League — finalists index (tier-O)",
-      "competitions": [
+      "competitions": \\\[
         "FAIRS",
         "UEFA",
         "UEL"
@@ -141,8 +141,8 @@ the repository without restoring dozens of production files.
       "scope": "Winner and runner-up of every edition: Fairs Cup 1955-1971, UEFA Cup 1971-2009, Europa League 2009-2025 (2025-26 in progress, excluded)",
       "source": "rsssf.org + aworldofsoccer.com + Wikipedia finals, cross-checked",
       "verified": true,
-      "note": "2025-26 Europa League final (Aston Villa 3-0 Freiburg, Istanbul) independently confirmed 2026-08-07 via live Wikipedia/RSSSF fetch, superseding the earlier \"user-supplied, not independently verified\" status.",
-      "achievementsAdded": "2026-08-07: per-row achievements[] (stage W/RU) added for all 133 rows — Fairs Cup and UEFA Cup/Europa League finals both sourced from RSSSF (rsssf.org/ec/ec3stats.html), cross-checked against that source's own club/country win tallies. One transcription error caught and corrected during cross-checking: the 1962-63 and 1963-64 Fairs Cup finalists (Dinamo Zagreb vs Real Zaragoza) had been transposed between seasons in the first pass. See docs/CONTENT-TARGET.md section 3D."
+      "note": "2025-26 Europa League final (Aston Villa 3-0 Freiburg, Istanbul) independently confirmed 2026-08-07 via live Wikipedia/RSSSF fetch, superseding the earlier \\\\"user-supplied, not independently verified\\\\" status.",
+      "achievementsAdded": "2026-08-07: per-row achievements\\\[] (stage W/RU) added for all 133 rows — Fairs Cup and UEFA Cup/Europa League finals both sourced from RSSSF (rsssf.org/ec/ec3stats.html), cross-checked against that source's own club/country win tallies. One transcription error caught and corrected during cross-checking: the 1962-63 and 1963-64 Fairs Cup finalists (Dinamo Zagreb vs Real Zaragoza) had been transposed between seasons in the first pass. See docs/CONTENT-TARGET.md section 3D."
     }
   },
   {
@@ -290,11 +290,11 @@ the repository without restoring dozens of production files.
     "rows": 20,
     "meta": {
       "pack": "C5: Serie A 2020-21",
-      "sourceNotes": [
+      "sourceNotes": \\\[
         "Built as C-series five-season rolling batch; participant skeleton checked against Transfermarkt/WorldFootball and player pools checked against FBref/WorldFootball/Transfermarkt where available.",
         "Ratings are game calibration judgements derived from role, team finish and statistical prominence."
       ],
-      "skippedAlreadyPickable": []
+      "skippedAlreadyPickable": \\\[]
     }
   },
   {
@@ -302,11 +302,11 @@ the repository without restoring dozens of production files.
     "rows": 20,
     "meta": {
       "pack": "C6: Serie A 2019-20",
-      "sourceNotes": [
+      "sourceNotes": \\\[
         "Built as C-series five-season rolling batch; participant skeleton checked against Transfermarkt/WorldFootball and player pools checked against FBref/WorldFootball/Transfermarkt where available.",
         "Ratings are game calibration judgements derived from role, team finish and statistical prominence."
       ],
-      "skippedAlreadyPickable": []
+      "skippedAlreadyPickable": \\\[]
     }
   },
   {
@@ -314,11 +314,11 @@ the repository without restoring dozens of production files.
     "rows": 20,
     "meta": {
       "pack": "C7: Serie A 2018-19",
-      "sourceNotes": [
+      "sourceNotes": \\\[
         "Built as C-series five-season rolling batch; participant skeleton checked against Transfermarkt/WorldFootball and player pools checked against FBref/WorldFootball/Transfermarkt where available.",
         "Ratings are game calibration judgements derived from role, team finish and statistical prominence."
       ],
-      "skippedAlreadyPickable": []
+      "skippedAlreadyPickable": \\\[]
     }
   },
   {
@@ -326,11 +326,11 @@ the repository without restoring dozens of production files.
     "rows": 19,
     "meta": {
       "pack": "C8: Serie A 2017-18",
-      "sourceNotes": [
+      "sourceNotes": \\\[
         "Built as C-series five-season rolling batch; participant skeleton checked against Transfermarkt/WorldFootball and player pools checked against FBref/WorldFootball/Transfermarkt where available.",
         "Ratings are game calibration judgements derived from role, team finish and statistical prominence."
       ],
-      "skippedAlreadyPickable": [
+      "skippedAlreadyPickable": \\\[
         "AS Roma"
       ]
     }
@@ -340,11 +340,11 @@ the repository without restoring dozens of production files.
     "rows": 19,
     "meta": {
       "pack": "C9: Serie A 2016-17",
-      "sourceNotes": [
+      "sourceNotes": \\\[
         "Built as C-series five-season rolling batch; participant skeleton checked against Transfermarkt/WorldFootball and player pools checked against FBref/WorldFootball/Transfermarkt where available.",
         "Ratings are game calibration judgements derived from role, team finish and statistical prominence."
       ],
-      "skippedAlreadyPickable": [
+      "skippedAlreadyPickable": \\\[
         "Juventus"
       ]
     }
@@ -444,7 +444,7 @@ the repository without restoring dozens of production files.
     "meta": {
       "name": "Wave Fa — EC/UCL finalists (winners + runners-up) 2015-16 to 2025-26 (pickable)",
       "wave": "Fa",
-      "note": "Corrective promotion: makes the two finalists of each recent UCL edition draftable (Wave 1 had promoted only losing semi-finalists). 2024-25 & 2025-26 PSG/Arsenal user-supplied beyond Jan 2026 cutoff.",
+      "note": "Corrective promotion: makes the two finalists of each recent UCL edition draftable (Wave 1 had promoted only losing semi-finalists). 2024-25 \\\& 2025-26 PSG/Arsenal user-supplied beyond Jan 2026 cutoff.",
       "verified": true
     }
   },
@@ -694,7 +694,7 @@ Ratings and role policy
 The 2024-25 edition contains 576 players across 36 rosters. The edition-wide rating mean is 78.50, with a range of 74-87, inside the project's normal release band. Ratings remain gameplay calibration rather than externally sourced numerical ratings.
 Broad roles are used conservatively. Where the source set does not justify a narrower detailed role, `dp` uses the corresponding generic `GK`, `DF`, `MF` or `FW` value. Same-name collisions with unrelated historical players are not allowed to overwrite current-season source evidence.
 Crest finalisation
-The 25 newly introduced club display names that lacked a `CREST_PAGE_OVERRIDES` entry now have explicit Wikipedia page-title mappings in `src/lib/crestResolver.js`. This removes the live-search fallback warnings introduced by the expansion.
+The 25 newly introduced club display names that lacked a `CREST\\\_PAGE\\\_OVERRIDES` entry now have explicit Wikipedia page-title mappings in `src/lib/crestResolver.js`. This removes the live-search fallback warnings introduced by the expansion.
 Release gate
 Final state after applying the matrix:
 36/36 2024-25 main-draw participants have full 16-player rosters;
@@ -705,3 +705,66 @@ no selected roster lacks a goalkeeper;
 `npm run validate` reports 0 errors and 0 warnings;
 `npm run coverage` reports Conference League at 75/168 known rosters (45%), with 2/5 editions proven complete;
 the next measured Conference League gap is 2023-24.
+Roll XI — Conference League 2023-24 coverage audit
+Date: 2026-08-07
+Scope and evidence standard
+This cycle completes the 32-club group stage of the 2023-24 UEFA Europa Conference League. Qualifying-round clubs are excluded under the Roll XI main-draw definition. Olympiacos remains the separate existing winner stub because it entered this competition from the Europa League knockout transfer rather than through the 32-team Conference League group stage.
+UEFA participant source: https://www.uefa.com/uefaconferenceleague/news/0285-18f613079b0e-26338542db59-1000--europa-conference-league-squads/
+UEFA stage/result source: https://www.uefa.com/uefaconferenceleague/news/0285-18e1b615fd5b-6fe5294e3ddd-1000--europa-conference-league-all-the-results/
+Roster selection source family: competition-specific FBref and la Repubblica player tables where available, supplemented by UEFA competition match records and verified season/match line-ups for clubs with weaker public statistical coverage.
+Player identity/role cross-check family: UEFA and club squad records plus existing Roll XI identities where the player match is unambiguous. Same-name collisions are deliberately excluded from automatic identity reuse.
+Source-evidence matrix
+Club	Roster evidence	Deepest stage	Finalisation note
+Lille	FBref/competition appearance table + UEFA records	QF	16-player roster
+Slovan Bratislava	competition appearance table + UEFA records	GROUP	16-player roster
+Olimpija Ljubljana	competition appearance records + verified match line-ups	GROUP	16-player roster
+KÍ Klaksvík	competition appearance records + verified match line-ups	GROUP	16-player roster
+Gent	competition appearance records + verified match line-ups	GROUP	16-player roster
+Maccabi Tel Aviv	competition appearance records + UEFA match records	R16	16-player roster
+Zorya Luhansk	FBref/competition appearance table + verified match line-up	GROUP	16-player roster
+Breiðablik	verified competition match line-ups + season cross-check	GROUP	16-player roster
+Dinamo Zagreb	competition appearance records + UEFA records	R16	16-player roster
+Viktoria Plzeň	FBref/competition appearance table + UEFA records	QF	16-player roster
+Astana	competition appearance/minutes table + UEFA records	GROUP	16-player roster
+Ballkani	FBref/competition records + season squad cross-check	GROUP	Walid Hamidi retained over non-2023-24 Lucas Cardoso
+Club Brugge	competition appearance records + verified knockout line-ups	SF	16-player roster
+Bodø/Glimt	FBref competition minutes/appearances + UEFA records	GROUP	Appearance-led cut rebuilt; non-participant Andreas Helmersen removed
+Beşiktaş	competition appearance records + UEFA records	GROUP	16-player roster
+Lugano	competition appearance table + UEFA records	GROUP	16-player roster
+AZ Alkmaar	competition appearance records + UEFA records	GROUP	16-player roster
+Aston Villa	competition appearance table + knockout records	SF	16-player roster
+Legia Warsaw	competition appearance records + UEFA records	GROUP	Canonical Roll XI club spelling reused
+Zrinjski Mostar	competition appearance records + verified match line-ups	GROUP	16-player roster
+Ferencváros	FBref competition minutes/appearances + identity cross-check	GROUP	Ibrahim Cissé and Marquinhos same-name collisions isolated
+Fiorentina	competition-proper appearance review + UEFA knockout records	RU	Existing 14-player roster replaced with 16-player roster
+Genk	competition appearance table + UEFA records	GROUP	16-player roster
+Čukarički	competition appearance records + verified match line-ups	GROUP	16-player roster
+Eintracht Frankfurt	competition appearance table + UEFA records	GROUP	16-player roster
+PAOK	competition appearance records + UEFA knockout records	QF	16-player roster
+HJK Helsinki	FBref competition records + verified match line-ups	GROUP	Both competition-proper goalkeepers retained
+Aberdeen	competition appearance records + UEFA match records	GROUP	16-player roster
+Fenerbahçe	competition appearance records + UEFA knockout records	QF	16-player roster
+Ludogorets	competition appearance records + UEFA records	GROUP	16-player roster
+Spartak Trnava	competition appearance records + UEFA records	GROUP	16-player roster
+Nordsjælland	FBref/competition appearance table + verified match line-ups	GROUP	16-player roster
+Stage policy
+Fiorentina is encoded RU; Aston Villa and Club Brugge SF; Lille, Viktoria Plzeň, PAOK and Fenerbahçe QF; Dinamo Zagreb and Maccabi Tel Aviv R16; the other 23 group-stage clubs GROUP. Clubs eliminated in the knockout round play-offs remain GROUP because the current data model has no separate play-off stage code. Olympiacos retains the existing W stub outside the 32 group-stage roster target.
+Priority A and identity finalisation
+Four Priority A exceptions were explicitly reviewed before application. Fiorentina's existing 14-player row is intentionally replaced by the competition-proper 16-player cut. Antonín Barák and Edin Džeko retain current canonical source nationality labels despite legacy label variants elsewhere in the database. Ferencváros defender Ibrahim Cissé is the French-born 1996 player and must not inherit the Côte d'Ivoire identity of the unrelated KuPS player with the same name. Ferencváros winger Marquinhos is likewise kept as the current-season Brazilian forward rather than inheriting the Paris Saint-Germain defender identity attached to the same mononym.
+The Bodø/Glimt cut was rebuilt from 2023-24 Conference League minutes and appearances. Andreas Helmersen, who was not a Bodø/Glimt player in this campaign, was removed; higher-participation competition contributors including Amahl Pellegrino, Faris Moumbagna, Kjetil Haug and Håkon Evjen were restored. Ballkani's Lucas Cardoso entry was replaced by documented 2023-24 participant Walid Hamidi. HJK's final cut includes both Jesse Öst and Niki Mäenpää, reflecting the split goalkeeper minutes in the group stage.
+Ratings and roster policy
+The edition contains 512 player slots across 32 complete rosters. Every roster has exactly 16 players and at least one goalkeeper. The edition-wide gameplay rating mean is 78.54, with a range of 71-86. Ratings are Roll XI gameplay calibration and are not presented as externally sourced numerical ratings.
+Competition-proper participation drives the selection. Existing Roll XI identities are reused for nationality, role and rating continuity only where the player match is sufficiently unambiguous; current-season evidence wins where a same-name collision is detected.
+Crest and naming finalisation
+New explicit crest page-title mappings were added for Ballkani, Bodø/Glimt, Čukarički, Genk, KÍ Klaksvík, Ludogorets, Maccabi Tel Aviv, Nordsjælland, PAOK, Viktoria Plzeň and Zorya Luhansk. Legia is stored as `Legia Warsaw`, matching the existing Roll XI canonical display name. These changes remove all crest fallback and same-club spelling warnings introduced by the expansion.
+Release gate
+Final repository state after applying the matrix:
+32/32 2023-24 group-stage participants have full 16-player rosters;
+Fiorentina now contains exactly 16 players;
+Olympiacos remains the existing Conference League winner stub and is not counted among the 32 group-stage roster targets;
+no duplicate club-season rows were introduced;
+no selected roster lacks a goalkeeper;
+`npm run validate` reports 0 errors and 0 warnings;
+`npm run coverage` reports Conference League at 106/168 known rosters (63%), with 3/5 editions proven complete;
+`npm run coverage:next` advances the measured Conference League gap to 2022-23;
+`npm run build` could not be executed in this sandbox because the uploaded repository has no `node\\\_modules` and dependency restoration is blocked by the package registry returning HTTP 404 for `yallist@3.1.1`. The source-level validation gate therefore passes, while the production bundler should be re-run in GitHub/locally after dependency installation.
