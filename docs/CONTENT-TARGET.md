@@ -492,6 +492,15 @@ names" below).
 e.g. `ita-roma-2000-01`. IDs are globally unique across all packs and all
 tiers. One club-season, one ID, forever.
 
+**Detailed positions and draft proxies.** `dp` must be a non-empty array of
+detailed position codes. Keep it historically faithful: gameplay flexibility
+belongs in `src/lib/positions.js`, not in invented extra `dp` values. The
+approved conservative compatibility policy is: CM -> CM/DM/AM; DM -> DM/CM;
+and, only in 3-5-2 or 3-4-3, LB -> LM and RB -> RM because those wide midfield
+slots act as wing-back/wide roles. Do not infer DM -> CB, LB/RB -> CB, AM <->
+LW/RW or CF/ST -> winger unless the player's recorded `dp` explicitly supports
+it. `npm run validate` includes a regression check for these rules.
+
 **Club names.** Use one canonical display name per club across all packs and
 all eras. New near-matches remain a WARNING because a heuristic cannot know
 whether two similar names are the same institution. Once a human decision is

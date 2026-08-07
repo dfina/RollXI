@@ -22,6 +22,7 @@
 
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
+import { DETAILED_POSITION_CODES } from "../src/lib/positions.js";
 
 const DATA = path.resolve("public/data");
 const args = new Set(process.argv.slice(2));
@@ -176,6 +177,17 @@ async function main() {
         }
         if (!players.some((p) => p.p === "GK")) {
           err(`${row.id || row.club + " " + row.season} in ${file} has no goalkeeper`);
+        }
+        for (const p of players) {
+          if (!Array.isArray(p.dp) || p.dp.length === 0) {
+            err(`${row.id} in ${file}: ${p.n || "unnamed player"} has malformed dp ${JSON.stringify(p.dp)} — detailed positions must be a non-empty array`);
+            continue;
+          }
+          for (const code of p.dp) {
+            if (!DETAILED_POSITION_CODES.has(String(code || "").toUpperCase())) {
+              err(`${row.id} in ${file}: ${p.n || "unnamed player"} uses unknown detailed position code ${JSON.stringify(code)}`);
+            }
+          }
         }
         if (players.length > 0 && (players.length < 12 || players.length > 20)) {
           warn(`${row.id} in ${file} has ${players.length} players — house standard is 16, outside 12-20 is worth a second look`);

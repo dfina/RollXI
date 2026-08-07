@@ -35,6 +35,13 @@ Scoring probability is weighted by detailed position and then player rating,
 so forwards account for most goals, midfielders remain common scorers, and
 defenders/goalkeepers are progressively rarer without being impossible.
 
+Campaign drafting keeps historical detailed positions intact but applies a
+small gameplay compatibility layer so formations are not interpreted too
+literally. CM can fill CM, DM or AM; DM can fill DM or CM. In 3-5-2 and 3-4-3
+only, conventional LB/RB players may also fill the LM/RM wide roles. More
+aggressive proxies such as DM -> CB, full-back -> CB or AM <-> winger are not
+inferred unless the player's own `dp` data explicitly records those roles.
+
 Add a pack by dropping the file in `public/data/` and listing it in
 `index.json`. Crest/photo fields take URLs; the kit monogram renders as fallback
 whenever they are null or fail to load.

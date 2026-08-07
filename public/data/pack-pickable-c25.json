@@ -1265,21 +1265,21 @@
      "p": "DF",
      "r": 77,
      "nat": "Italy",
-     "dp": "RB/RWB"
+     "dp": ["RB", "RWB"]
     },
     {
      "n": "Cristian Zenoni",
      "p": "DF",
      "r": 78,
      "nat": "Italy",
-     "dp": "RB/RM"
+     "dp": ["RB", "RM"]
     },
     {
      "n": "Massimo Donati",
      "p": "MF",
      "r": 76,
      "nat": "Italy",
-     "dp": "CM"
+     "dp": ["CM"]
     }
    ],
    "role": "roster",
@@ -1416,28 +1416,28 @@
      "p": "DF",
      "r": 77,
      "nat": "Italy",
-     "dp": "CB"
+     "dp": ["CB"]
     },
     {
      "n": "Daniele Bonera",
      "p": "DF",
      "r": 76,
      "nat": "Italy",
-     "dp": "CB/RB"
+     "dp": ["CB", "RB"]
     },
     {
      "n": "Filippo Galli",
      "p": "DF",
      "r": 75,
      "nat": "Italy",
-     "dp": "CB"
+     "dp": ["CB"]
     },
     {
      "n": "Pier Paolo Bisoli",
      "p": "MF",
      "r": 76,
      "nat": "Italy",
-     "dp": "CM/DM"
+     "dp": ["CM", "DM"]
     }
    ],
    "role": "roster",
@@ -1785,7 +1785,7 @@
      "p": "FW",
      "r": 75,
      "nat": "Italy",
-     "dp": "CF"
+     "dp": ["CF"]
     }
    ],
    "role": "roster",
@@ -1951,7 +1951,7 @@
      "p": "DF",
      "r": 77,
      "nat": "Italy",
-     "dp": "LB/LM"
+     "dp": ["LB", "LM"]
     }
    ],
    "euro": [
@@ -2119,14 +2119,14 @@
      "p": "DF",
      "r": 77,
      "nat": "Brazil",
-     "dp": "RB/RM"
+     "dp": ["RB", "RM"]
     },
     {
      "n": "Massimo Margiotta",
      "p": "FW",
      "r": 76,
      "nat": "Italy",
-     "dp": "CF"
+     "dp": ["CF"]
     }
    ],
    "euro": [
@@ -2300,7 +2300,7 @@
      "p": "MF",
      "r": 76,
      "nat": "Italy",
-     "dp": "CM/RM"
+     "dp": ["CM", "RM"]
     }
    ],
    "role": "roster",
@@ -2631,7 +2631,7 @@
      "p": "FW",
      "r": 77,
      "nat": "Italy",
-     "dp": "CF"
+     "dp": ["CF"]
     }
    ],
    "role": "roster",
@@ -2776,21 +2776,21 @@
      "p": "MF",
      "r": 76,
      "nat": "Italy",
-     "dp": "DM/CM"
+     "dp": ["DM", "CM"]
     },
     {
      "n": "Fabio Vicari",
      "p": "MF",
      "r": 75,
      "nat": "Italy",
-     "dp": "RM/CM"
+     "dp": ["RM", "CM"]
     },
     {
      "n": "Davide Dionigi",
      "p": "FW",
      "r": 76,
      "nat": "Italy",
-     "dp": "CF"
+     "dp": ["CF"]
     }
    ],
    "role": "roster",

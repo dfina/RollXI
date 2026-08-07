@@ -5,6 +5,7 @@ import { load, save, wipeAll } from "../lib/storage.js";
 import { Crest } from "../components/KitMark.jsx";
 import { teamStrength } from "../lib/match.js";
 import { shareText, campaignShare } from "../lib/share.js";
+import { playerTacticLabels, playerOpenSlots, squadHasSignablePlayer } from "../lib/positions.js";
 import {
   FORMATIONS, FORMATION_NAMES, emptyXI, rollSequence,
   buildLeague, simulateOtherResults, standings, playMyFixture, applyResult
@@ -81,7 +82,7 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
   }, [camp]);
 
   const usedKeys = useMemo(() => new Set(camp.xi.filter((s) => s.name).map((s) => s.pickKey)), [camp]);
-  const signableCurrentSquad = useMemo(() => squadHasSignablePlayer(squad, camp.xi, usedKeys), [squad, camp.xi, usedKeys]);
+  const signableCurrentSquad = useMemo(() => squadHasSignablePlayer(squad, camp.xi, usedKeys, camp.formation), [squad, camp.xi, usedKeys, camp.formation]);
 
   useEffect(() => {
     if (done || !squad || camp.rerolls > 0 || signableCurrentSquad) return;
@@ -92,7 +93,7 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
       nextPtr += 1;
       extraRolls += 1;
       const nextSquad = data.squadById[camp.seq[nextPtr]];
-      if (squadHasSignablePlayer(nextSquad, camp.xi, usedKeys)) {
+      if (squadHasSignablePlayer(nextSquad, camp.xi, usedKeys, camp.formation)) {
         foundFit = true;
         break;
       }
@@ -108,7 +109,7 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
   }, [done, squad, signableCurrentSquad, camp, data.squadById, onUpdate, usedKeys]);
 
   function signPlayer(p) {
-    const openSlots = playerOpenSlots(p, camp.xi);
+    const openSlots = playerOpenSlots(p, camp.xi, camp.formation);
     if (openSlots.length === 0) return;
     if (openSlots.length === 1) {
       // only one compatible slot — assign directly
@@ -195,8 +196,8 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
           </p>
           <div style={{ display: "flex", flexDirection: "column", gap: 5, maxHeight: 240, overflowY: "auto" }}>
             {squad.players.slice().sort((a, b) => b.r - a.r).map((p) => {
-              const compatibleOpenSlots = playerOpenSlots(p, camp.xi);
-              const tacticLabels = playerTacticLabels(p, camp.xi, true);
+              const compatibleOpenSlots = playerOpenSlots(p, camp.xi, camp.formation);
+              const tacticLabels = playerTacticLabels(p, camp.xi, camp.formation, true);
               const lineOpen = compatibleOpenSlots.length > 0;
               const taken = usedKeys.has(squad.id + "|" + p.n);
               const dis = !lineOpen || taken;
@@ -408,50 +409,6 @@ function TeamTickerName({ team, align = "left" }) {
       {align === "right" && mark}
     </span>
   );
-}
-
-const DETAIL_TO_TACTIC = {
-  GK: ["GK"],
-  RB: ["RB"], RWB: ["RB", "RM"],
-  LB: ["LB"], LWB: ["LB", "LM"],
-  CB: ["CB"], SW: ["CB"], DF: ["RB", "CB", "LB"],
-  DM: ["DM", "CM"], CM: ["CM"], AM: ["AM", "CM"], MF: ["DM", "CM", "AM", "LM", "RM", "LW", "RW"],
-  RM: ["RM", "RW"], LM: ["LM", "LW"],
-  RW: ["RW", "RM"], LW: ["LW", "LM"],
-  SS: ["AM", "ST"], CF: ["ST"], ST: ["ST"], FW: ["ST", "LW", "RW"]
-};
-
-function playerPossibleTacticLabels(player) {
-  const raw = (player.dp && player.dp.length ? player.dp : [player.p]).map((x) => String(x || "").toUpperCase());
-  const labels = [];
-  raw.forEach((code) => {
-    (DETAIL_TO_TACTIC[code] || DETAIL_TO_TACTIC[player.p] || []).forEach((label) => {
-      if (!labels.includes(label)) labels.push(label);
-    });
-  });
-  return labels;
-}
-
-function playerTacticLabels(player, xi, openOnly = false) {
-  const possible = new Set(playerPossibleTacticLabels(player));
-  const labels = [];
-  xi.forEach((slot) => {
-    if (openOnly && slot.name) return;
-    if (possible.has(slot.label) && !labels.includes(slot.label)) labels.push(slot.label);
-  });
-  return labels;
-}
-
-function playerOpenSlots(player, xi) {
-  const possible = new Set(playerPossibleTacticLabels(player));
-  return xi
-    .map((slot, i) => ({ ...slot, i }))
-    .filter((slot) => !slot.name && possible.has(slot.label));
-}
-
-function squadHasSignablePlayer(squad, xi, usedKeys) {
-  if (!squad || !squad.players || !squad.players.length) return false;
-  return squad.players.some((p) => !usedKeys.has(squad.id + "|" + p.n) && playerOpenSlots(p, xi).length > 0);
 }
 
 function Table({ table, currentOpponentId }) {
