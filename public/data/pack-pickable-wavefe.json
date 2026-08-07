@@ -16,9 +16,6 @@
     "#FFFFFF",
     "#D2122E"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1970-71",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -163,32 +160,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Rinus Israel",
-     "DF"
-    ],
-    [
-     "Henk Groot",
-     "FW"
-    ],
-    [
-     "Rep",
-     "FW"
-    ],
-    [
-     "Robbie Rensenbrink",
-     "FW"
-    ],
-    [
-     "Johan de Boer",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1970-71"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1970-71",
+     "stage": "W"
     }
    ]
   },
@@ -202,9 +185,6 @@
     "#006633",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "European Cup runner-up 1970-71",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -318,32 +298,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Eusébio",
-     "FW"
-    ],
-    [
-     "Georgi Asparuhov",
-     "FW"
-    ],
-    [
-     "Anatoliy Byshovets",
-     "FW"
-    ],
-    [
-     "Dragan Džajić",
-     "MF"
-    ],
-    [
-     "Gerd Müller",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1970-71"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1970-71",
+     "stage": "RU"
     }
    ]
   },
@@ -357,9 +323,6 @@
     "#FFFFFF",
     "#D2122E"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1971-72",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -484,32 +447,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Rinus Israel",
-     "DF"
-    ],
-    [
-     "Velibor Vasović",
-     "DF"
-    ],
-    [
-     "Dick van Dijk",
-     "FW"
-    ],
-    [
-     "Johan Boskamp",
-     "MF"
-    ],
-    [
-     "Henk Groot",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1971-72"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1971-72",
+     "stage": "W"
     }
    ]
   },
@@ -523,9 +472,6 @@
     "#0066CC",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1971-72",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -643,32 +589,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gigi Riva",
-     "FW"
-    ],
-    [
-     "Gianni Rivera",
-     "AM"
-    ],
-    [
-     "Romeo Benetti",
-     "MF"
-    ],
-    [
-     "Pietro Anastasi",
-     "FW"
-    ],
-    [
-     "Dino Zoff",
-     "GK"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1971-72"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1971-72",
+     "stage": "RU"
     }
    ]
   },
@@ -682,9 +614,6 @@
     "#FFFFFF",
     "#D2122E"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1972-73",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -800,32 +729,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Henk Groot",
-     "FW"
-    ],
-    [
-     "Johan Boskamp",
-     "MF"
-    ],
-    [
-     "Velibor Vasović",
-     "DF"
-    ],
-    [
-     "Dick van Dijk",
-     "FW"
-    ],
-    [
-     "Rinus Israel",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1972-73"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1972-73",
+     "stage": "W"
     }
    ]
   },
@@ -839,9 +754,6 @@
     "#FFFFFF",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1972-73",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -967,32 +879,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gigi Riva",
-     "FW"
-    ],
-    [
-     "Sandro Mazzola",
-     "MF"
-    ],
-    [
-     "Gianni Rivera",
-     "AM"
-    ],
-    [
-     "Roberto Boninsegna",
-     "FW"
-    ],
-    [
-     "Helmut Haller",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1972-73"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1972-73",
+     "stage": "RU"
     }
    ]
   },
@@ -1006,9 +904,6 @@
     "#CC0000",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1973-74",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1142,32 +1037,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Hugo Sánchez",
-     "FW"
-    ],
-    [
-     "Fernando Torres",
-     "FW"
-    ],
-    [
-     "Diego Forlán",
-     "FW"
-    ],
-    [
-     "Radamel Falcao",
-     "FW"
-    ],
-    [
-     "Antoine Griezmann",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1973-74"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1973-74",
+     "stage": "RU"
     }
    ]
   },
@@ -1181,9 +1062,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1974-75",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1307,32 +1185,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Paul Breitner",
-     "DF"
-    ],
-    [
-     "Karl Del'Haye",
-     "MF"
-    ],
-    [
-     "Lothar Matthäus",
-     "MF"
-    ],
-    [
-     "Klaus Augenthaler",
-     "DF"
-    ],
-    [
-     "Dieter Hoeneß",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1974-75"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1974-75",
+     "stage": "W"
     }
    ]
   },
@@ -1346,9 +1210,6 @@
     "#FFFFFF",
     "#0000CC"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1974-75",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1473,32 +1334,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Kevin Keegan",
-     "FW"
-    ],
-    [
-     "Mick Jones",
-     "FW"
-    ],
-    [
-     "Jack Charlton",
-     "DF"
-    ],
-    [
-     "Gary Sprake",
-     "GK"
-    ],
-    [
-     "Mick Bates",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1974-75"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1974-75",
+     "stage": "RU"
     }
    ]
   },
@@ -1512,9 +1359,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1975-76",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1640,32 +1484,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Paul Breitner",
-     "DF"
-    ],
-    [
-     "Dieter Hoeneß",
-     "FW"
-    ],
-    [
-     "Karl Del'Haye",
-     "MF"
-    ],
-    [
-     "Klaus Augenthaler",
-     "DF"
-    ],
-    [
-     "Jean-Marie Pfaff",
-     "GK"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1975-76"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1975-76",
+     "stage": "W"
     }
    ]
   },
@@ -1679,9 +1509,6 @@
     "#C8102E",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1976-77",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1814,32 +1641,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Bob Latchford",
-     "FW"
-    ],
-    [
-     "Mick Channon",
-     "FW"
-    ],
-    [
-     "Steve Coppell",
-     "MF"
-    ],
-    [
-     "Trevor Francis",
-     "FW"
-    ],
-    [
-     "Gordon Hill",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1976-77"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1976-77",
+     "stage": "W"
     }
    ]
   },
@@ -1853,9 +1666,6 @@
     "#FFFFFF",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1976-77",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1988,32 +1798,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gerd Müller",
-     "FW"
-    ],
-    [
-     "Karl-Heinz Rummenigge",
-     "FW"
-    ],
-    [
-     "Lothar Matthäus",
-     "MF"
-    ],
-    [
-     "Klaus Allofs",
-     "FW"
-    ],
-    [
-     "Pierre Littbarski",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1976-77"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1976-77",
+     "stage": "RU"
     }
    ]
   },
@@ -2027,9 +1823,6 @@
     "#C8102E",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1977-78",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2144,32 +1937,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Kevin Keegan",
-     "FW"
-    ],
-    [
-     "John Barnes",
-     "MF"
-    ],
-    [
-     "Terry Francis",
-     "FW"
-    ],
-    [
-     "Bryan Robson",
-     "MF"
-    ],
-    [
-     "Bob Latchford",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1977-78"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1977-78",
+     "stage": "W"
     }
    ]
   },
@@ -2183,9 +1962,6 @@
     "#0033A0",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "European Cup runner-up 1977-78",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2308,32 +2084,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Paul Van Himst",
-     "FW"
-    ],
-    [
-     "Jan Ceulemans",
-     "MF"
-    ],
-    [
-     "Enzo Scifo",
-     "MF"
-    ],
-    [
-     "Marc Degryse",
-     "FW"
-    ],
-    [
-     "Luc Nilis",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1977-78"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1977-78",
+     "stage": "RU"
     }
    ]
   },
@@ -2347,9 +2109,6 @@
     "#DD0000",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1978-79",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2481,32 +2240,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Martin O'Neill",
-     "MF"
-    ],
-    [
-     "Colin Barrett",
-     "DF"
-    ],
-    [
-     "Peter Withe",
-     "FW"
-    ],
-    [
-     "Asa Hartford",
-     "MF"
-    ],
-    [
-     "Stan Bowles",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1978-79"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1978-79",
+     "stage": "W"
     }
    ]
   },
@@ -2520,9 +2265,6 @@
     "#4B9CD3",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "European Cup runner-up 1978-79",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2630,32 +2372,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Thomas Ravelli",
-     "GK"
-    ],
-    [
-     "Glenn Hysén",
-     "DF"
-    ],
-    [
-     "Martin Dahlin",
-     "FW"
-    ],
-    [
-     "Kennet Andersson",
-     "FW"
-    ],
-    [
-     "Zlatan Ibrahimović",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1978-79"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1978-79",
+     "stage": "RU"
     }
    ]
   },
@@ -2669,9 +2397,6 @@
     "#DD0000",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1979-80",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2803,32 +2528,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Peter Withe",
-     "FW"
-    ],
-    [
-     "Tony Woodcock",
-     "FW"
-    ],
-    [
-     "Archie Gemmill",
-     "MF"
-    ],
-    [
-     "Trevor Francis",
-     "FW"
-    ],
-    [
-     "Asa Hartford",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1979-80"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1979-80",
+     "stage": "W"
     }
    ]
   },
@@ -2842,9 +2553,6 @@
     "#FFFFFF",
     "#E2001A"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1979-80",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2970,32 +2678,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Uwe Seeler",
-     "FW"
-    ],
-    [
-     "Lars Bastrup",
-     "FW"
-    ],
-    [
-     "Thomas von Heesen",
-     "MF"
-    ],
-    [
-     "Bernd Wehmeyer",
-     "DF"
-    ],
-    [
-     "Søren Lerby",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1979-80"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1979-80",
+     "stage": "RU"
     }
    ]
   }

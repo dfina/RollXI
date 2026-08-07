@@ -16,9 +16,6 @@
     "#E4002B",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1990-91",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -184,32 +181,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Zvonimir Boban",
-     "MF"
-    ],
-    [
-     "Davor Šuker",
-     "FW"
-    ],
-    [
-     "Predrag Mijatović",
-     "FW"
-    ],
-    [
-     "Alen Bokšić",
-     "FW"
-    ],
-    [
-     "Srečko Katanec",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1990-91"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1990-91",
+     "stage": "W"
     }
    ]
   },
@@ -223,9 +206,6 @@
     "#004D98",
     "#A50044"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1991-92",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -390,32 +370,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Emilio Butragueño",
-     "FW"
-    ],
-    [
-     "Fernando Hierro",
-     "DF"
-    ],
-    [
-     "Míchel",
-     "MF"
-    ],
-    [
-     "Gheorghe Hagi",
-     "MF"
-    ],
-    [
-     "Bernd Schuster",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1991-92"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1991-92",
+     "stage": "W"
     }
    ]
   },
@@ -429,9 +395,6 @@
     "#1A2D6B",
     "#E30613"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1991-92",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -587,32 +550,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Roberto Baggio",
-     "FW"
-    ],
-    [
-     "Franco Baresi",
-     "DF"
-    ],
-    [
-     "Gianfranco Zola",
-     "FW"
-    ],
-    [
-     "Beppe Signori",
-     "FW"
-    ],
-    [
-     "Demetrio Albertini",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1991-92"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1991-92",
+     "stage": "RU"
     }
    ]
   },
@@ -626,9 +575,6 @@
     "#FFFFFF",
     "#2FAEE0"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 1992-93",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -792,32 +738,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jean-Pierre Papin",
-     "FW"
-    ],
-    [
-     "Eric Cantona",
-     "FW"
-    ],
-    [
-     "Chris Waddle",
-     "MF"
-    ],
-    [
-     "Zinedine Zidane",
-     "MF"
-    ],
-    [
-     "David Ginola",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1992-93"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1992-93",
+     "stage": "MAIN"
     }
    ]
   },
@@ -831,9 +763,6 @@
     "#FB090B",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 1992-93",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1008,32 +937,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Roberto Baggio",
-     "FW"
-    ],
-    [
-     "Giuseppe Signori",
-     "FW"
-    ],
-    [
-     "Lothar Matthäus",
-     "MF"
-    ],
-    [
-     "Gianluca Vialli",
-     "FW"
-    ],
-    [
-     "Diego Maradona",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1992-93"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1992-93",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1047,9 +962,6 @@
     "#FB090B",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 1993-94",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1223,32 +1135,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Roberto Baggio",
-     "FW"
-    ],
-    [
-     "Gianfranco Zola",
-     "FW"
-    ],
-    [
-     "Giuseppe Signori",
-     "FW"
-    ],
-    [
-     "Marco van Basten",
-     "FW"
-    ],
-    [
-     "Ruud Gullit",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1993-94"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1993-94",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1262,9 +1160,6 @@
     "#004D98",
     "#A50044"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 1993-94",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1438,32 +1333,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gheorghe Hagi",
-     "MF"
-    ],
-    [
-     "Luís Figo",
-     "MF"
-    ],
-    [
-     "Gheorghe Popescu",
-     "DF"
-    ],
-    [
-     "Luis Enrique",
-     "MF"
-    ],
-    [
-     "Rivaldo",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1993-94"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1993-94",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1477,9 +1358,6 @@
     "#FFFFFF",
     "#D2122E"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 1994-95",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1652,32 +1530,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Dennis Bergkamp",
-     "FW"
-    ],
-    [
-     "Brian Roy",
-     "FW"
-    ],
-    [
-     "Wim Jonk",
-     "MF"
-    ],
-    [
-     "Aron Winter",
-     "MF"
-    ],
-    [
-     "Bryan Roy",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1994-95"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1994-95",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1691,9 +1555,6 @@
     "#FB090B",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 1994-95",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1869,32 +1730,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Roberto Baggio",
-     "FW"
-    ],
-    [
-     "George Weah",
-     "FW"
-    ],
-    [
-     "Gabriel Batistuta",
-     "FW"
-    ],
-    [
-     "Gianfranco Zola",
-     "FW"
-    ],
-    [
-     "Christian Vieri",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1994-95"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1994-95",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1908,9 +1755,6 @@
     "#FFFFFF",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 1995-96",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2084,32 +1928,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Roberto Baggio",
-     "FW"
-    ],
-    [
-     "Zinedine Zidane",
-     "MF"
-    ],
-    [
-     "Filippo Inzaghi",
-     "FW"
-    ],
-    [
-     "Edgar Davids",
-     "MF"
-    ],
-    [
-     "Gianluca Zambrotta",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1995-96"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1995-96",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2123,9 +1953,6 @@
     "#FFFFFF",
     "#D2122E"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 1995-96",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2297,32 +2124,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Dennis Bergkamp",
-     "FW"
-    ],
-    [
-     "Clarence Seedorf",
-     "MF"
-    ],
-    [
-     "Aron Winter",
-     "MF"
-    ],
-    [
-     "Wim Jonk",
-     "MF"
-    ],
-    [
-     "Stefan Pettersson",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1995-96"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1995-96",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2336,9 +2149,6 @@
     "#FDE100",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 1996-97",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2511,32 +2321,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Lothar Matthäus",
-     "MF"
-    ],
-    [
-     "Jürgen Klinsmann",
-     "FW"
-    ],
-    [
-     "Oliver Bierhoff",
-     "FW"
-    ],
-    [
-     "Mehmet Scholl",
-     "MF"
-    ],
-    [
-     "Mario Basler",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1996-97"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1996-97",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2550,9 +2346,6 @@
     "#FFFFFF",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 1996-97",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2724,32 +2517,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gianluca Vialli",
-     "FW"
-    ],
-    [
-     "Fabrizio Ravanelli",
-     "FW"
-    ],
-    [
-     "Gabriel Batistuta",
-     "FW"
-    ],
-    [
-     "Roberto Baggio",
-     "FW"
-    ],
-    [
-     "Filippo Inzaghi",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1996-97"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1996-97",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2763,9 +2542,6 @@
     "#FFFFFF",
     "#FEBE10"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 1997-98",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2938,32 +2714,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Ronaldo",
-     "FW"
-    ],
-    [
-     "Luís Figo",
-     "MF"
-    ],
-    [
-     "Rivaldo",
-     "FW"
-    ],
-    [
-     "Luis Enrique",
-     "MF"
-    ],
-    [
-     "Iván Zamorano",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1997-98"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1997-98",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2977,9 +2739,6 @@
     "#FFFFFF",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 1997-98",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3152,32 +2911,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Christian Vieri",
-     "FW"
-    ],
-    [
-     "Alen Bokšić",
-     "FW"
-    ],
-    [
-     "Gianluca Vialli",
-     "FW"
-    ],
-    [
-     "Roberto Baggio",
-     "FW"
-    ],
-    [
-     "Fabrizio Ravanelli",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1997-98"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1997-98",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3191,9 +2936,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 1998-99",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3365,32 +3107,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jürgen Klinsmann",
-     "FW"
-    ],
-    [
-     "Christian Ziege",
-     "DF"
-    ],
-    [
-     "Michael Ballack",
-     "MF"
-    ],
-    [
-     "Roy Makaay",
-     "FW"
-    ],
-    [
-     "Claudio Pizarro",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1998-99"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1998-99",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3404,9 +3132,6 @@
     "#FFFFFF",
     "#FEBE10"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 1999-00",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3579,32 +3304,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Luís Figo",
-     "MF"
-    ],
-    [
-     "Zinedine Zidane",
-     "MF"
-    ],
-    [
-     "Ronaldo",
-     "FW"
-    ],
-    [
-     "Predrag Mijatović",
-     "FW"
-    ],
-    [
-     "Davor Šuker",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1999-00"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1999-00",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3618,9 +3329,6 @@
     "#FFFFFF",
     "#EE3124"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 1999-00",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3784,32 +3492,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Pablo Aimar",
-     "MF"
-    ],
-    [
-     "Rubén Baraja",
-     "MF"
-    ],
-    [
-     "Roberto Ayala",
-     "DF"
-    ],
-    [
-     "John Carew",
-     "FW"
-    ],
-    [
-     "Vicente Rodríguez",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1999-00"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1999-00",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3823,9 +3517,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2000-01",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3995,32 +3686,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Michael Ballack",
-     "MF"
-    ],
-    [
-     "Roy Makaay",
-     "FW"
-    ],
-    [
-     "Claudio Pizarro",
-     "FW"
-    ],
-    [
-     "Zé Roberto",
-     "MF"
-    ],
-    [
-     "Sebastian Deisler",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "2000-01"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "2000-01",
+     "stage": "MAIN"
     }
    ]
   },
@@ -4034,9 +3711,6 @@
     "#FFFFFF",
     "#EE3124"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2000-01",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4206,32 +3880,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Claudio López",
-     "FW"
-    ],
-    [
-     "Mista",
-     "FW"
-    ],
-    [
-     "Adrian Mutu",
-     "FW"
-    ],
-    [
-     "Marco Di Vaio",
-     "FW"
-    ],
-    [
-     "Ricardo Oliveira",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "2000-01"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "2000-01",
+     "stage": "MAIN"
     }
    ]
   },
@@ -4245,9 +3905,6 @@
     "#FFFFFF",
     "#FEBE10"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2001-02",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4420,32 +4077,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Ronaldo",
-     "FW"
-    ],
-    [
-     "David Beckham",
-     "MF"
-    ],
-    [
-     "Pavel Nedvěd",
-     "MF"
-    ],
-    [
-     "Hristo Stoichkov",
-     "FW"
-    ],
-    [
-     "Iván Zamorano",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "2001-02"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "2001-02",
+     "stage": "MAIN"
     }
    ]
   },
@@ -4459,9 +4102,6 @@
     "#E32219",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2001-02",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4634,32 +4274,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Miroslav Klose",
-     "FW"
-    ],
-    [
-     "Sebastian Kehl",
-     "MF"
-    ],
-    [
-     "Stefan Kießling",
-     "FW"
-    ],
-    [
-     "Arturo Vidal",
-     "MF"
-    ],
-    [
-     "Hakan Çalhanoğlu",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "2001-02"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "2001-02",
+     "stage": "MAIN"
     }
    ]
   },
@@ -4673,9 +4299,6 @@
     "#FB090B",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2002-03",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4848,32 +4471,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Kaká",
-     "MF"
-    ],
-    [
-     "Ronaldinho",
-     "FW"
-    ],
-    [
-     "Hernán Crespo",
-     "FW"
-    ],
-    [
-     "Cafu",
-     "DF"
-    ],
-    [
-     "Christian Vieri",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "2002-03"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "2002-03",
+     "stage": "MAIN"
     }
    ]
   },
@@ -4887,9 +4496,6 @@
     "#FFFFFF",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2002-03",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -5062,32 +4668,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Zinedine Zidane",
-     "MF"
-    ],
-    [
-     "Christian Vieri",
-     "FW"
-    ],
-    [
-     "Filippo Inzaghi",
-     "FW"
-    ],
-    [
-     "Roberto Baggio",
-     "FW"
-    ],
-    [
-     "Gabriel Batistuta",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "2002-03"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "2002-03",
+     "stage": "MAIN"
     }
    ]
   },
@@ -5101,9 +4693,6 @@
     "#0033A0",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2003-04",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -5273,32 +4862,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Hélder Postiga",
-     "FW"
-    ],
-    [
-     "Hulk",
-     "FW"
-    ],
-    [
-     "Radamel Falcao",
-     "FW"
-    ],
-    [
-     "Lucho González",
-     "MF"
-    ],
-    [
-     "Ricardo Quaresma",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "2003-04"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "2003-04",
+     "stage": "MAIN"
     }
    ]
   },
@@ -5312,9 +4887,6 @@
     "#CE1126",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2003-04",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -5473,32 +5045,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Djibril Cissé",
-     "FW"
-    ],
-    [
-     "Thierry Henry",
-     "FW"
-    ],
-    [
-     "Marcelo Gallardo",
-     "MF"
-    ],
-    [
-     "Sonny Anderson",
-     "FW"
-    ],
-    [
-     "Nicolas Anelka",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "2003-04"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "2003-04",
+     "stage": "MAIN"
     }
    ]
   }

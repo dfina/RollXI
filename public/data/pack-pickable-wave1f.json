@@ -16,9 +16,6 @@
     "#CB3524",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "C",
-   "honour": "EC semi-finalist 1970-71",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -170,32 +167,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Pirri",
-     "MF"
-    ],
-    [
-     "Amancio Amaro",
-     "FW"
-    ],
-    [
-     "Carles Rexach",
-     "FW"
-    ],
-    [
-     "Quini",
-     "FW"
-    ],
-    [
-     "Marcial Pina",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1970-71"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1970-71",
+     "stage": "MAIN"
     }
    ]
   },
@@ -209,9 +192,6 @@
     "#E4002B",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1970-71",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -361,32 +341,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Roberto Bettega",
-     "FW"
-    ],
-    [
-     "Franco Causio",
-     "MF"
-    ],
-    [
-     "Gaetano Scirea",
-     "DF"
-    ],
-    [
-     "Marco Tardelli",
-     "MF"
-    ],
-    [
-     "Romeo Benetti",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1970-71"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1970-71",
+     "stage": "MAIN"
     }
    ]
   },
@@ -400,9 +366,6 @@
     "#E30613",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1971-72",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -556,32 +519,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Vítor Baptista",
-     "FW"
-    ],
-    [
-     "Artur Jorge",
-     "FW"
-    ],
-    [
-     "Octávio Machado",
-     "MF"
-    ],
-    [
-     "Vítor Baía",
-     "GK"
-    ],
-    [
-     "Chalana",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1971-72"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1971-72",
+     "stage": "MAIN"
     }
    ]
   },
@@ -595,9 +544,6 @@
     "#018749",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1971-72",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -751,32 +697,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Dixie Deans",
-     "FW"
-    ],
-    [
-     "Pat Stanton",
-     "DF"
-    ],
-    [
-     "Sandy Jardine",
-     "DF"
-    ],
-    [
-     "Willie Johnston",
-     "FW"
-    ],
-    [
-     "Joe Harper",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1971-72"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1971-72",
+     "stage": "MAIN"
     }
    ]
   },
@@ -790,9 +722,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1972-73",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -944,32 +873,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "José Eulogio Gárate",
-     "FW"
-    ],
-    [
-     "Luis Aragonés",
-     "MF"
-    ],
-    [
-     "Carles Rexach",
-     "FW"
-    ],
-    [
-     "Quini",
-     "FW"
-    ],
-    [
-     "Marcial Pina",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1972-73"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1972-73",
+     "stage": "MAIN"
     }
    ]
   },
@@ -983,9 +898,6 @@
     "#FFFFFF",
     "#000000"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1972-73",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1140,32 +1052,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Francis Lee",
-     "FW"
-    ],
-    [
-     "Colin Bell",
-     "MF"
-    ],
-    [
-     "Mike Summerbee",
-     "FW"
-    ],
-    [
-     "Emlyn Hughes",
-     "DF"
-    ],
-    [
-     "Kevin Keegan",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1972-73"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1972-73",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1179,9 +1077,6 @@
     "#522D6D",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1973-74",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1332,32 +1227,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Flórián Albert",
-     "FW"
-    ],
-    [
-     "Lajos Kű",
-     "FW"
-    ],
-    [
-     "József Tóth",
-     "MF"
-    ],
-    [
-     "Tibor Nyilasi",
-     "MF"
-    ],
-    [
-     "László Bálint",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1973-74"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1973-74",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1371,9 +1252,6 @@
     "#018749",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1973-74",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1526,32 +1404,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "David Hay",
-     "MF"
-    ],
-    [
-     "Lou Macari",
-     "FW"
-    ],
-    [
-     "Pat Stanton",
-     "DF"
-    ],
-    [
-     "Sandy Jardine",
-     "DF"
-    ],
-    [
-     "Willie Johnston",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1973-74"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1973-74",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1565,9 +1429,6 @@
     "#009639",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1974-75",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1722,32 +1583,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Dominique Rocheteau",
-     "FW"
-    ],
-    [
-     "Marius Trésor",
-     "DF"
-    ],
-    [
-     "Jean-Marc Guillou",
-     "MF"
-    ],
-    [
-     "Charles Orlanducci",
-     "DF"
-    ],
-    [
-     "Henri Michel",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1974-75"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1974-75",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1761,9 +1608,6 @@
     "#A50044",
     "#004D98"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "EC semi-finalist 1974-75",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1916,32 +1760,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Pirri",
-     "MF"
-    ],
-    [
-     "Amancio Amaro",
-     "FW"
-    ],
-    [
-     "José Eulogio Gárate",
-     "FW"
-    ],
-    [
-     "Luis Aragonés",
-     "MF"
-    ],
-    [
-     "Carles Rexach",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1974-75"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1974-75",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1955,9 +1785,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1975-76",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2111,32 +1938,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "José Eulogio Gárate",
-     "FW"
-    ],
-    [
-     "Luis Aragonés",
-     "MF"
-    ],
-    [
-     "Carles Rexach",
-     "FW"
-    ],
-    [
-     "Quini",
-     "FW"
-    ],
-    [
-     "Marcial Pina",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1975-76"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1975-76",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2150,9 +1963,6 @@
     "#ED1C24",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1975-76",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2303,32 +2113,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Johan Cruyff",
-     "FW"
-    ],
-    [
-     "Johan Neeskens",
-     "MF"
-    ],
-    [
-     "Ruud Krol",
-     "DF"
-    ],
-    [
-     "Rob Rensenbrink",
-     "FW"
-    ],
-    [
-     "Wim Jansen",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1975-76"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1975-76",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2342,9 +2138,6 @@
     "#FFFFFF",
     "#0a4ea2"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1976-77",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2495,32 +2288,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Köbi Kuhn",
-     "MF"
-    ],
-    [
-     "Umberto Barberis",
-     "MF"
-    ],
-    [
-     "Lucio Bizzini",
-     "DF"
-    ],
-    [
-     "Claudio Sulser",
-     "FW"
-    ],
-    [
-     "Hanspeter Latour",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1976-77"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1976-77",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2534,9 +2313,6 @@
     "#FFFFFF",
     "#0057B7"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1976-77",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2689,32 +2465,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "David Kipiani",
-     "MF"
-    ],
-    [
-     "Vladimir Fedotov",
-     "FW"
-    ],
-    [
-     "Volodymyr Bezsonov",
-     "DF"
-    ],
-    [
-     "Anatoliy Byshovets",
-     "FW"
-    ],
-    [
-     "Yevhen Lovchev",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1976-77"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1976-77",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2728,9 +2490,6 @@
     "#000000",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "EC semi-finalist 1977-78",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2884,32 +2643,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gerd Müller",
-     "FW"
-    ],
-    [
-     "Paul Breitner",
-     "MF"
-    ],
-    [
-     "Uli Hoeneß",
-     "FW"
-    ],
-    [
-     "Wolfgang Overath",
-     "MF"
-    ],
-    [
-     "Günter Netzer",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1977-78"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1977-78",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2923,9 +2668,6 @@
     "#000000",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "EC semi-finalist 1977-78",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3079,32 +2821,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sandro Salvadore",
-     "DF"
-    ],
-    [
-     "Fabio Capello",
-     "MF"
-    ],
-    [
-     "Pietro Anastasi",
-     "FW"
-    ],
-    [
-     "José Altafini",
-     "FW"
-    ],
-    [
-     "Giacinto Facchetti",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1977-78"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1977-78",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3118,9 +2846,6 @@
     "#FFFFFF",
     "#E4002B"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1978-79",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3274,32 +2999,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gerd Müller",
-     "FW"
-    ],
-    [
-     "Paul Breitner",
-     "MF"
-    ],
-    [
-     "Uli Hoeneß",
-     "FW"
-    ],
-    [
-     "Wolfgang Overath",
-     "MF"
-    ],
-    [
-     "Günter Netzer",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1978-79"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1978-79",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3313,9 +3024,6 @@
     "#5C2D91",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1978-79",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3470,32 +3178,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Hans Krankl",
-     "FW"
-    ],
-    [
-     "Bruno Pezzey",
-     "DF"
-    ],
-    [
-     "Kurt Jara",
-     "MF"
-    ],
-    [
-     "Hans Pirkner",
-     "FW"
-    ],
-    [
-     "Eduard Krieger",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1978-79"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1978-79",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3509,9 +3203,6 @@
     "#D2122E",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1979-80",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3664,32 +3355,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Johan Cruyff",
-     "FW"
-    ],
-    [
-     "Johan Neeskens",
-     "MF"
-    ],
-    [
-     "Willy van der Kuijlen",
-     "FW"
-    ],
-    [
-     "Rob Rensenbrink",
-     "FW"
-    ],
-    [
-     "Wim Jansen",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1979-80"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1979-80",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3703,9 +3380,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "EC semi-finalist 1979-80",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3860,32 +3534,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Amancio Amaro",
-     "FW"
-    ],
-    [
-     "José Eulogio Gárate",
-     "FW"
-    ],
-    [
-     "Luis Aragonés",
-     "MF"
-    ],
-    [
-     "Carles Rexach",
-     "FW"
-    ],
-    [
-     "Quini",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1979-80"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1979-80",
+     "stage": "MAIN"
     }
    ]
   }

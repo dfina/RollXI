@@ -16,9 +16,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2010-11",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -200,32 +197,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sergio Canales",
-     "MF"
-    ],
-    [
-     "Esteban Granero",
-     "MF"
-    ],
-    [
-     "Pedro León",
-     "MF"
-    ],
-    [
-     "Jesé",
-     "FW"
-    ],
-    [
-     "Denis Cheryshev",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2010-11"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2010-11",
+     "stage": "SF"
     }
    ]
   },
@@ -239,9 +222,6 @@
     "#004D9D",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2010-11",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -403,32 +383,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Lewis Holtby",
-     "MF"
-    ],
-    [
-     "Kevin Kurányi",
-     "FW"
-    ],
-    [
-     "Julian Draxler",
-     "MF"
-    ],
-    [
-     "Max Meyer",
-     "MF"
-    ],
-    [
-     "Leon Goretzka",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2010-11"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2010-11",
+     "stage": "SF"
     }
    ]
   },
@@ -442,9 +408,6 @@
     "#A50044",
     "#004D98"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2011-12",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -629,32 +592,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sergio Canales",
-     "MF"
-    ],
-    [
-     "Esteban Granero",
-     "MF"
-    ],
-    [
-     "Pedro León",
-     "MF"
-    ],
-    [
-     "Jesé",
-     "FW"
-    ],
-    [
-     "Denis Cheryshev",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2011-12"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2011-12",
+     "stage": "SF"
     }
    ]
   },
@@ -668,9 +617,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2011-12",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -850,32 +796,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sergio Canales",
-     "MF"
-    ],
-    [
-     "Esteban Granero",
-     "MF"
-    ],
-    [
-     "Pedro León",
-     "MF"
-    ],
-    [
-     "Jesé",
-     "FW"
-    ],
-    [
-     "Denis Cheryshev",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2011-12"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2011-12",
+     "stage": "SF"
     }
    ]
   },
@@ -889,9 +821,6 @@
     "#A50044",
     "#004D98"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2012-13",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1083,32 +1012,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sergio Canales",
-     "MF"
-    ],
-    [
-     "Esteban Granero",
-     "MF"
-    ],
-    [
-     "Pedro León",
-     "MF"
-    ],
-    [
-     "Jesé",
-     "FW"
-    ],
-    [
-     "Denis Cheryshev",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2012-13"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2012-13",
+     "stage": "SF"
     }
    ]
   },
@@ -1122,9 +1037,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2012-13",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1304,32 +1216,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sergio Canales",
-     "MF"
-    ],
-    [
-     "Esteban Granero",
-     "MF"
-    ],
-    [
-     "Pedro León",
-     "MF"
-    ],
-    [
-     "Jesé",
-     "FW"
-    ],
-    [
-     "Denis Cheryshev",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2012-13"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2012-13",
+     "stage": "SF"
     }
    ]
   },
@@ -1343,9 +1241,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2013-14",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1508,32 +1403,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Lewis Holtby",
-     "MF"
-    ],
-    [
-     "Kevin Kurányi",
-     "FW"
-    ],
-    [
-     "Julian Draxler",
-     "MF"
-    ],
-    [
-     "Max Meyer",
-     "MF"
-    ],
-    [
-     "Leon Goretzka",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2013-14"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2013-14",
+     "stage": "SF"
     }
    ]
   },
@@ -1547,9 +1428,6 @@
     "#034694",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2013-14",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1730,32 +1608,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Juan Mata",
-     "MF"
-    ],
-    [
-     "Marko Marin",
-     "MF"
-    ],
-    [
-     "Marco van Ginkel",
-     "MF"
-    ],
-    [
-     "Mohamed Salah",
-     "FW"
-    ],
-    [
-     "Samir Nasri",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2013-14"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2013-14",
+     "stage": "SF"
     }
    ]
   },
@@ -1769,9 +1633,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2014-15",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1944,32 +1805,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Lewis Holtby",
-     "MF"
-    ],
-    [
-     "Kevin Kurányi",
-     "FW"
-    ],
-    [
-     "Julian Draxler",
-     "MF"
-    ],
-    [
-     "Max Meyer",
-     "MF"
-    ],
-    [
-     "Leon Goretzka",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2014-15"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2014-15",
+     "stage": "SF"
     }
    ]
   },
@@ -1983,9 +1830,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2014-15",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2163,32 +2007,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sergio Canales",
-     "MF"
-    ],
-    [
-     "Esteban Granero",
-     "MF"
-    ],
-    [
-     "Pedro León",
-     "MF"
-    ],
-    [
-     "Jesé",
-     "FW"
-    ],
-    [
-     "Denis Cheryshev",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2014-15"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2014-15",
+     "stage": "SF"
     }
    ]
   },
@@ -2202,9 +2032,6 @@
     "#6CABDD",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2015-16",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2383,32 +2210,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Juan Mata",
-     "MF"
-    ],
-    [
-     "Marko Marin",
-     "MF"
-    ],
-    [
-     "Marco van Ginkel",
-     "MF"
-    ],
-    [
-     "Mohamed Salah",
-     "FW"
-    ],
-    [
-     "Samir Nasri",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2015-16"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2015-16",
+     "stage": "SF"
     }
    ]
   },
@@ -2422,9 +2235,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2015-16",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2608,32 +2418,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Lewis Holtby",
-     "MF"
-    ],
-    [
-     "Kevin Kurányi",
-     "FW"
-    ],
-    [
-     "Julian Draxler",
-     "MF"
-    ],
-    [
-     "Max Meyer",
-     "MF"
-    ],
-    [
-     "Leon Goretzka",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2015-16"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2015-16",
+     "stage": "SF"
     }
    ]
   },
@@ -2647,9 +2443,6 @@
     "#CB3524",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2016-17",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2821,32 +2614,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sergio Canales",
-     "MF"
-    ],
-    [
-     "Esteban Granero",
-     "MF"
-    ],
-    [
-     "Pedro León",
-     "MF"
-    ],
-    [
-     "Jesé",
-     "FW"
-    ],
-    [
-     "Denis Cheryshev",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2016-17"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2016-17",
+     "stage": "SF"
     }
    ]
   },
@@ -2860,9 +2639,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2017-18",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3042,32 +2818,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Lewis Holtby",
-     "MF"
-    ],
-    [
-     "Kevin Kurányi",
-     "FW"
-    ],
-    [
-     "Julian Draxler",
-     "MF"
-    ],
-    [
-     "Max Meyer",
-     "MF"
-    ],
-    [
-     "Leon Goretzka",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2017-18"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2017-18",
+     "stage": "SF"
     }
    ]
   },
@@ -3081,9 +2843,6 @@
     "#8E1F2F",
     "#F0BC42"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2017-18",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3245,32 +3004,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Maxime Gonalons",
-     "MF"
-    ],
-    [
-     "Gerson",
-     "MF"
-    ],
-    [
-     "Grégoire Defrel",
-     "FW"
-    ],
-    [
-     "Rick Karsdorp",
-     "DF"
-    ],
-    [
-     "Gregoire Defrel",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2017-18"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2017-18",
+     "stage": "SF"
     }
    ]
   },
@@ -3284,9 +3029,6 @@
     "#A50044",
     "#004D98"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2018-19",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3448,32 +3190,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sergio Canales",
-     "MF"
-    ],
-    [
-     "Esteban Granero",
-     "MF"
-    ],
-    [
-     "Pedro León",
-     "MF"
-    ],
-    [
-     "Jesé",
-     "FW"
-    ],
-    [
-     "Denis Cheryshev",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2018-19"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2018-19",
+     "stage": "SF"
     }
    ]
   },
@@ -3487,9 +3215,6 @@
     "#D2122E",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2018-19",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3646,32 +3371,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Daley Sinkgraven",
-     "DF"
-    ],
-    [
-     "Rasmus Kristensen",
-     "DF"
-    ],
-    [
-     "Zakaria Labyad",
-     "MF"
-    ],
-    [
-     "Maximilian Wöber",
-     "DF"
-    ],
-    [
-     "Václav Černý",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2018-19"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2018-19",
+     "stage": "SF"
     }
    ]
   },
@@ -3685,9 +3396,6 @@
     "#FFFFFF",
     "#DA001A"
    ],
-   "tier": 3,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2019-20",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3842,32 +3550,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Bertrand Traoré",
-     "FW"
-    ],
-    [
-     "Thiago Mendes",
-     "MF"
-    ],
-    [
-     "Jeff Reine-Adélaïde",
-     "MF"
-    ],
-    [
-     "Martin Terrier",
-     "FW"
-    ],
-    [
-     "Fernando Marçal",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2019-20"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2019-20",
+     "stage": "SF"
     }
    ]
   },
@@ -3881,9 +3575,6 @@
     "#DD0741",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2019-20",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4048,32 +3739,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Lewis Holtby",
-     "MF"
-    ],
-    [
-     "Kevin Kurányi",
-     "FW"
-    ],
-    [
-     "Julian Draxler",
-     "MF"
-    ],
-    [
-     "Max Meyer",
-     "MF"
-    ],
-    [
-     "Leon Goretzka",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2019-20"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2019-20",
+     "stage": "SF"
     }
    ]
   }

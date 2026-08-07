@@ -16,9 +16,6 @@
     "#EF0107",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2025-26",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -201,32 +198,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jude Bellingham",
-     "MF"
-    ],
-    [
-     "Phil Foden",
-     "FW"
-    ],
-    [
-     "Cole Palmer",
-     "FW"
-    ],
-    [
-     "Marcus Rashford",
-     "FW"
-    ],
-    [
-     "Jack Grealish",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2025-26"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2025-26",
+     "stage": "RU"
     }
    ]
   },
@@ -240,9 +223,6 @@
     "#004170",
     "#E30613"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2024-25",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -416,32 +396,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Kylian Mbappé",
-     "FW"
-    ],
-    [
-     "Aurélien Tchouaméni",
-     "MF"
-    ],
-    [
-     "Eduardo Camavinga",
-     "MF"
-    ],
-    [
-     "Randal Kolo Muani",
-     "FW"
-    ],
-    [
-     "Marcus Thuram",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2024-25"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2024-25",
+     "stage": "W"
     }
    ]
   },
@@ -455,9 +421,6 @@
     "#1E71B8",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2024-25",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -630,32 +593,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sandro Tonali",
-     "MF"
-    ],
-    [
-     "Federico Chiesa",
-     "FW"
-    ],
-    [
-     "Giacomo Raspadori",
-     "FW"
-    ],
-    [
-     "Mateo Retegui",
-     "FW"
-    ],
-    [
-     "Gianluca Scamacca",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2024-25"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2024-25",
+     "stage": "RU"
     }
    ]
   },
@@ -669,9 +618,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2023-24",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -836,32 +782,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Lamine Yamal",
-     "FW"
-    ],
-    [
-     "Pedri",
-     "MF"
-    ],
-    [
-     "Gavi",
-     "MF"
-    ],
-    [
-     "Nico Williams",
-     "FW"
-    ],
-    [
-     "Mikel Oyarzabal",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2023-24"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2023-24",
+     "stage": "W"
     }
    ]
   },
@@ -875,9 +807,6 @@
     "#FDE100",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2023-24",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1042,32 +971,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Florian Wirtz",
-     "MF"
-    ],
-    [
-     "Jamal Musiala",
-     "MF"
-    ],
-    [
-     "Kai Havertz",
-     "FW"
-    ],
-    [
-     "Leroy Sané",
-     "FW"
-    ],
-    [
-     "Serge Gnabry",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2023-24"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2023-24",
+     "stage": "RU"
     }
    ]
   },
@@ -1081,9 +996,6 @@
     "#6CABDD",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2022-23",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1249,32 +1161,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jude Bellingham",
-     "MF"
-    ],
-    [
-     "Bukayo Saka",
-     "FW"
-    ],
-    [
-     "Cole Palmer",
-     "FW"
-    ],
-    [
-     "Marcus Rashford",
-     "FW"
-    ],
-    [
-     "Mason Mount",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2022-23"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2022-23",
+     "stage": "W"
     }
    ]
   },
@@ -1288,9 +1186,6 @@
     "#1E71B8",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2022-23",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1455,32 +1350,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sandro Tonali",
-     "MF"
-    ],
-    [
-     "Federico Chiesa",
-     "FW"
-    ],
-    [
-     "Giacomo Raspadori",
-     "FW"
-    ],
-    [
-     "Mateo Retegui",
-     "FW"
-    ],
-    [
-     "Davide Frattesi",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2022-23"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2022-23",
+     "stage": "RU"
     }
    ]
   },
@@ -1494,9 +1375,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2021-22",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1660,32 +1538,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Lamine Yamal",
-     "FW"
-    ],
-    [
-     "Pedri",
-     "MF"
-    ],
-    [
-     "Gavi",
-     "MF"
-    ],
-    [
-     "Nico Williams",
-     "FW"
-    ],
-    [
-     "Mikel Oyarzabal",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2021-22"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2021-22",
+     "stage": "W"
     }
    ]
   },
@@ -1699,9 +1563,6 @@
     "#C8102E",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2021-22",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1862,32 +1723,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jude Bellingham",
-     "MF"
-    ],
-    [
-     "Phil Foden",
-     "FW"
-    ],
-    [
-     "Bukayo Saka",
-     "FW"
-    ],
-    [
-     "Cole Palmer",
-     "FW"
-    ],
-    [
-     "Marcus Rashford",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2021-22"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2021-22",
+     "stage": "RU"
     }
    ]
   },
@@ -1901,9 +1748,6 @@
     "#034694",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2020-21",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2070,32 +1914,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jude Bellingham",
-     "MF"
-    ],
-    [
-     "Phil Foden",
-     "FW"
-    ],
-    [
-     "Bukayo Saka",
-     "FW"
-    ],
-    [
-     "Cole Palmer",
-     "FW"
-    ],
-    [
-     "Marcus Rashford",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2020-21"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2020-21",
+     "stage": "W"
     }
    ]
   },
@@ -2109,9 +1939,6 @@
     "#6CABDD",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2020-21",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2276,32 +2103,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jude Bellingham",
-     "MF"
-    ],
-    [
-     "Bukayo Saka",
-     "FW"
-    ],
-    [
-     "Cole Palmer",
-     "FW"
-    ],
-    [
-     "Marcus Rashford",
-     "FW"
-    ],
-    [
-     "Jack Grealish",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2020-21"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2020-21",
+     "stage": "RU"
     }
    ]
   },
@@ -2315,9 +2128,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2019-20",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2483,32 +2293,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Florian Wirtz",
-     "MF"
-    ],
-    [
-     "Jamal Musiala",
-     "MF"
-    ],
-    [
-     "Kai Havertz",
-     "FW"
-    ],
-    [
-     "Leroy Sané",
-     "FW"
-    ],
-    [
-     "Niclas Füllkrug",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2019-20"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2019-20",
+     "stage": "W"
     }
    ]
   },
@@ -2522,9 +2318,6 @@
     "#004170",
     "#E30613"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2019-20",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2689,32 +2482,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Aurélien Tchouaméni",
-     "MF"
-    ],
-    [
-     "Eduardo Camavinga",
-     "MF"
-    ],
-    [
-     "Bradley Barcola",
-     "FW"
-    ],
-    [
-     "Randal Kolo Muani",
-     "FW"
-    ],
-    [
-     "Marcus Thuram",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2019-20"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2019-20",
+     "stage": "RU"
     }
    ]
   },
@@ -2728,9 +2507,6 @@
     "#C8102E",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2018-19",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2899,32 +2675,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jude Bellingham",
-     "MF"
-    ],
-    [
-     "Phil Foden",
-     "FW"
-    ],
-    [
-     "Bukayo Saka",
-     "FW"
-    ],
-    [
-     "Cole Palmer",
-     "FW"
-    ],
-    [
-     "Marcus Rashford",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2018-19"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2018-19",
+     "stage": "W"
     }
    ]
   },
@@ -2938,9 +2700,6 @@
     "#FFFFFF",
     "#001C58"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2018-19",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3104,32 +2863,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jude Bellingham",
-     "MF"
-    ],
-    [
-     "Phil Foden",
-     "FW"
-    ],
-    [
-     "Bukayo Saka",
-     "FW"
-    ],
-    [
-     "Cole Palmer",
-     "FW"
-    ],
-    [
-     "Marcus Rashford",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2018-19"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2018-19",
+     "stage": "RU"
     }
    ]
   },
@@ -3143,9 +2888,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2017-18",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3308,32 +3050,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Lamine Yamal",
-     "FW"
-    ],
-    [
-     "Pedri",
-     "MF"
-    ],
-    [
-     "Gavi",
-     "MF"
-    ],
-    [
-     "Nico Williams",
-     "FW"
-    ],
-    [
-     "Mikel Oyarzabal",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2017-18"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2017-18",
+     "stage": "W"
     }
    ]
   },
@@ -3347,9 +3075,6 @@
     "#C8102E",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2017-18",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3511,32 +3236,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jude Bellingham",
-     "MF"
-    ],
-    [
-     "Phil Foden",
-     "FW"
-    ],
-    [
-     "Bukayo Saka",
-     "FW"
-    ],
-    [
-     "Cole Palmer",
-     "FW"
-    ],
-    [
-     "Marcus Rashford",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2017-18"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2017-18",
+     "stage": "RU"
     }
    ]
   },
@@ -3550,9 +3261,6 @@
     "#000000",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2016-17",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3714,32 +3422,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sandro Tonali",
-     "MF"
-    ],
-    [
-     "Nicolò Barella",
-     "MF"
-    ],
-    [
-     "Federico Chiesa",
-     "FW"
-    ],
-    [
-     "Giacomo Raspadori",
-     "FW"
-    ],
-    [
-     "Mateo Retegui",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2016-17"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2016-17",
+     "stage": "RU"
     }
    ]
   },
@@ -3753,9 +3447,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2015-16",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3927,32 +3618,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Lamine Yamal",
-     "FW"
-    ],
-    [
-     "Pedri",
-     "MF"
-    ],
-    [
-     "Gavi",
-     "MF"
-    ],
-    [
-     "Nico Williams",
-     "FW"
-    ],
-    [
-     "Mikel Oyarzabal",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2015-16"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2015-16",
+     "stage": "W"
     }
    ]
   },
@@ -3966,9 +3643,6 @@
     "#CB3524",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League runner-up 2015-16",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4132,32 +3806,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Lamine Yamal",
-     "FW"
-    ],
-    [
-     "Pedri",
-     "MF"
-    ],
-    [
-     "Gavi",
-     "MF"
-    ],
-    [
-     "Nico Williams",
-     "FW"
-    ],
-    [
-     "Mikel Oyarzabal",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2015-16"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2015-16",
+     "stage": "RU"
     }
    ]
   }

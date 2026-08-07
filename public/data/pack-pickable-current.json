@@ -15,9 +15,6 @@
     "#004170",
     "#E30613"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "Champions League winner 2025-26",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -210,32 +207,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Kylian Mbappé",
-     "FW"
-    ],
-    [
-     "Randal Kolo Muani",
-     "FW"
-    ],
-    [
-     "Marco Asensio",
-     "FW"
-    ],
-    [
-     "Presnel Kimpembe",
-     "DF"
-    ],
-    [
-     "Carlos Soler",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2025-26"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2025-26",
+     "stage": "W"
     }
    ]
   }

@@ -16,9 +16,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2000-01",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -183,32 +180,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Albert Luque",
-     "FW"
-    ],
-    [
-     "Joaquín",
-     "FW"
-    ],
-    [
-     "José Antonio Reyes",
-     "FW"
-    ],
-    [
-     "Vicente",
-     "FW"
-    ],
-    [
-     "Rubén Baraja",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2000-01"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2000-01",
+     "stage": "SF"
     }
    ]
   },
@@ -222,9 +205,6 @@
     "#FFFFFF",
     "#1D428A"
    ],
-   "tier": 3,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2000-01",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -385,32 +365,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Emile Heskey",
-     "FW"
-    ],
-    [
-     "Michael Owen",
-     "FW"
-    ],
-    [
-     "Steven Gerrard",
-     "MF"
-    ],
-    [
-     "Frank Lampard",
-     "MF"
-    ],
-    [
-     "Sol Campbell",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2000-01"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2000-01",
+     "stage": "SF"
     }
    ]
   },
@@ -424,9 +390,6 @@
     "#A50044",
     "#004D98"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2001-02",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -591,32 +554,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Albert Luque",
-     "FW"
-    ],
-    [
-     "Joaquín",
-     "FW"
-    ],
-    [
-     "José Antonio Reyes",
-     "FW"
-    ],
-    [
-     "Vicente",
-     "FW"
-    ],
-    [
-     "Rubén Baraja",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2001-02"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2001-02",
+     "stage": "SF"
     }
    ]
   },
@@ -630,9 +579,6 @@
     "#DA291C",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2001-02",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -796,32 +742,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Emile Heskey",
-     "FW"
-    ],
-    [
-     "Michael Owen",
-     "FW"
-    ],
-    [
-     "Steven Gerrard",
-     "MF"
-    ],
-    [
-     "Frank Lampard",
-     "MF"
-    ],
-    [
-     "Sol Campbell",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2001-02"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2001-02",
+     "stage": "SF"
     }
    ]
   },
@@ -835,9 +767,6 @@
     "#1E71B8",
     "#000000"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2002-03",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -990,32 +919,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Francesco Totti",
-     "FW"
-    ],
-    [
-     "Alessandro Del Piero",
-     "FW"
-    ],
-    [
-     "Filippo Inzaghi",
-     "FW"
-    ],
-    [
-     "Gennaro Gattuso",
-     "MF"
-    ],
-    [
-     "Mauro Camoranesi",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2002-03"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2002-03",
+     "stage": "SF"
     }
    ]
   },
@@ -1029,9 +944,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2002-03",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1195,32 +1107,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Albert Luque",
-     "FW"
-    ],
-    [
-     "Joaquín",
-     "FW"
-    ],
-    [
-     "José Antonio Reyes",
-     "FW"
-    ],
-    [
-     "Vicente",
-     "FW"
-    ],
-    [
-     "Rubén Baraja",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2002-03"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2002-03",
+     "stage": "SF"
     }
    ]
   },
@@ -1234,9 +1132,6 @@
     "#0057B7",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2003-04",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1396,32 +1291,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Joaquín",
-     "FW"
-    ],
-    [
-     "José Antonio Reyes",
-     "FW"
-    ],
-    [
-     "Vicente",
-     "FW"
-    ],
-    [
-     "Rubén Baraja",
-     "MF"
-    ],
-    [
-     "David Albelda",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2003-04"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2003-04",
+     "stage": "SF"
     }
    ]
   },
@@ -1435,9 +1316,6 @@
     "#034694",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2003-04",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1599,32 +1477,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Emile Heskey",
-     "FW"
-    ],
-    [
-     "Michael Owen",
-     "FW"
-    ],
-    [
-     "Steven Gerrard",
-     "MF"
-    ],
-    [
-     "Sol Campbell",
-     "DF"
-    ],
-    [
-     "Ashley Cole",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2003-04"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2003-04",
+     "stage": "SF"
     }
    ]
   },
@@ -1638,9 +1502,6 @@
     "#034694",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2004-05",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1801,32 +1662,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Emile Heskey",
-     "FW"
-    ],
-    [
-     "Michael Owen",
-     "FW"
-    ],
-    [
-     "Steven Gerrard",
-     "MF"
-    ],
-    [
-     "Sol Campbell",
-     "DF"
-    ],
-    [
-     "Ashley Cole",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2004-05"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2004-05",
+     "stage": "SF"
     }
    ]
   },
@@ -1840,9 +1687,6 @@
     "#ED1C24",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2004-05",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2007,32 +1851,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Klaas-Jan Huntelaar",
-     "FW"
-    ],
-    [
-     "Ryan Babel",
-     "FW"
-    ],
-    [
-     "Rafael van der Vaart",
-     "MF"
-    ],
-    [
-     "Wesley Sneijder",
-     "MF"
-    ],
-    [
-     "Edwin van der Sar",
-     "GK"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2004-05"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2004-05",
+     "stage": "SF"
     }
    ]
   },
@@ -2046,9 +1876,6 @@
     "#D50000",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2005-06",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2211,32 +2038,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Francesco Totti",
-     "FW"
-    ],
-    [
-     "Alessandro Del Piero",
-     "FW"
-    ],
-    [
-     "Christian Vieri",
-     "FW"
-    ],
-    [
-     "Mauro Camoranesi",
-     "MF"
-    ],
-    [
-     "Gianluca Zambrotta",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2005-06"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2005-06",
+     "stage": "SF"
     }
    ]
   },
@@ -2250,9 +2063,6 @@
     "#FFE667",
     "#005187"
    ],
-   "tier": 3,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2005-06",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2403,32 +2213,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Albert Luque",
-     "FW"
-    ],
-    [
-     "Joaquín",
-     "FW"
-    ],
-    [
-     "José Antonio Reyes",
-     "FW"
-    ],
-    [
-     "Vicente",
-     "FW"
-    ],
-    [
-     "Rubén Baraja",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2005-06"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2005-06",
+     "stage": "SF"
     }
    ]
   },
@@ -2442,9 +2238,6 @@
     "#DA291C",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2006-07",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2607,32 +2400,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Emile Heskey",
-     "FW"
-    ],
-    [
-     "Michael Owen",
-     "FW"
-    ],
-    [
-     "Steven Gerrard",
-     "MF"
-    ],
-    [
-     "Frank Lampard",
-     "MF"
-    ],
-    [
-     "Sol Campbell",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2006-07"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2006-07",
+     "stage": "SF"
     }
    ]
   },
@@ -2646,9 +2425,6 @@
     "#034694",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2006-07",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2811,32 +2587,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Emile Heskey",
-     "FW"
-    ],
-    [
-     "Michael Owen",
-     "FW"
-    ],
-    [
-     "Steven Gerrard",
-     "MF"
-    ],
-    [
-     "Sol Campbell",
-     "DF"
-    ],
-    [
-     "Jermain Defoe",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2006-07"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2006-07",
+     "stage": "SF"
     }
    ]
   },
@@ -2850,9 +2612,6 @@
     "#A50044",
     "#004D98"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2007-08",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3016,32 +2775,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Albert Luque",
-     "FW"
-    ],
-    [
-     "Joaquín",
-     "FW"
-    ],
-    [
-     "José Antonio Reyes",
-     "FW"
-    ],
-    [
-     "Vicente",
-     "FW"
-    ],
-    [
-     "Rubén Baraja",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2007-08"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2007-08",
+     "stage": "SF"
     }
    ]
   },
@@ -3055,9 +2800,6 @@
     "#C8102E",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2007-08",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3219,32 +2961,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Emile Heskey",
-     "FW"
-    ],
-    [
-     "Michael Owen",
-     "FW"
-    ],
-    [
-     "Frank Lampard",
-     "MF"
-    ],
-    [
-     "Sol Campbell",
-     "DF"
-    ],
-    [
-     "Ashley Cole",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2007-08"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2007-08",
+     "stage": "SF"
     }
    ]
   },
@@ -3258,9 +2986,6 @@
     "#034694",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2008-09",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3422,32 +3147,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Emile Heskey",
-     "FW"
-    ],
-    [
-     "Michael Owen",
-     "FW"
-    ],
-    [
-     "Steven Gerrard",
-     "MF"
-    ],
-    [
-     "Sol Campbell",
-     "DF"
-    ],
-    [
-     "Jermain Defoe",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2008-09"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2008-09",
+     "stage": "SF"
     }
    ]
   },
@@ -3461,9 +3172,6 @@
     "#EF0107",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2008-09",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3626,32 +3334,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Emile Heskey",
-     "FW"
-    ],
-    [
-     "Michael Owen",
-     "FW"
-    ],
-    [
-     "Steven Gerrard",
-     "MF"
-    ],
-    [
-     "Frank Lampard",
-     "MF"
-    ],
-    [
-     "Sol Campbell",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2008-09"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2008-09",
+     "stage": "SF"
     }
    ]
   },
@@ -3665,9 +3359,6 @@
     "#A50044",
     "#004D98"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2009-10",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3839,32 +3530,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Albert Luque",
-     "FW"
-    ],
-    [
-     "Joaquín",
-     "FW"
-    ],
-    [
-     "José Antonio Reyes",
-     "FW"
-    ],
-    [
-     "Vicente",
-     "FW"
-    ],
-    [
-     "Rubén Baraja",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2009-10"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2009-10",
+     "stage": "SF"
     }
    ]
   },
@@ -3878,9 +3555,6 @@
     "#FFFFFF",
     "#DA001A"
    ],
-   "tier": 3,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2009-10",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4034,32 +3708,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Florent Malouda",
-     "FW"
-    ],
-    [
-     "Juninho Pernambucano",
-     "MF"
-    ],
-    [
-     "Mahamadou Diarra",
-     "MF"
-    ],
-    [
-     "Grégory Coupet",
-     "GK"
-    ],
-    [
-     "Eric Abidal",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2009-10"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2009-10",
+     "stage": "SF"
     }
    ]
   }

@@ -195,23 +195,23 @@
     },
     {
       "file": "pack-pickable-c20.json",
-      "label": "C-series Serie A 2005-06"
+      "name": "C-series Serie A 2005-06"
     },
     {
       "file": "pack-pickable-c21.json",
-      "label": "C-series Serie A 2004-05"
+      "name": "C-series Serie A 2004-05"
     },
     {
       "file": "pack-pickable-c22.json",
-      "label": "C-series Serie A 2003-04"
+      "name": "C-series Serie A 2003-04"
     },
     {
       "file": "pack-pickable-c23.json",
-      "label": "C-series Serie A 2002-03"
+      "name": "C-series Serie A 2002-03"
     },
     {
       "file": "pack-pickable-c24.json",
-      "label": "C-series Serie A 2001-02"
+      "name": "C-series Serie A 2001-02"
     },
     {
       "file": "pack-pickable-c25.json",
@@ -222,6 +222,11 @@
       "file": "pack-opponents-ucl-main-200001.json",
       "name": "Tier-O UCL main draw 2000-01 gap fill",
       "v": "0.35"
+    },
+    {
+      "file": "pack-opponents-provisional.json",
+      "name": "Residual unique opponents (post-B-series)",
+      "v": "0.17"
     }
   ]
 }

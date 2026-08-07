@@ -10,9 +10,6 @@
     "#DA291C",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -210,28 +207,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Eric Cantona",
-     "FW"
-    ],
-    [
-     "Ruud van Nistelrooy",
-     "FW"
-    ],
-    [
-     "Mark Bosnich",
-     "GK"
-    ],
-    [
-     "Laurent Blanc",
-     "DF"
-    ],
-    [
-     "Juan Sebastián Verón",
-     "MF"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "eng-ars-0304",
@@ -243,9 +220,6 @@
     "#EF0107",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -440,28 +414,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "David Seaman",
-     "GK"
-    ],
-    [
-     "Robin van Persie",
-     "FW"
-    ],
-    [
-     "Marc Overmars",
-     "MF"
-    ],
-    [
-     "Emmanuel Petit",
-     "MF"
-    ],
-    [
-     "Ian Wright",
-     "FW"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "eng-liv-1920",
@@ -473,9 +427,6 @@
     "#C8102E",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -670,28 +621,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Thiago Alcântara",
-     "MF"
-    ],
-    [
-     "Diogo Jota",
-     "FW"
-    ],
-    [
-     "Daniel Sturridge",
-     "FW"
-    ],
-    [
-     "Simon Mignolet",
-     "GK"
-    ],
-    [
-     "Philippe Coutinho",
-     "MF"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "ita-int-6465",
@@ -703,9 +634,6 @@
     "#1E71B8",
     "#000000"
    ],
-   "tier": 2,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -852,28 +780,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gianni Rivera",
-     "MF"
-    ],
-    [
-     "José Altafini",
-     "FW"
-    ],
-    [
-     "Roberto Boninsegna",
-     "FW"
-    ],
-    [
-     "Dino Zoff",
-     "GK"
-    ],
-    [
-     "Gigi Riva",
-     "FW"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "ita-nap-8687",
@@ -885,9 +793,6 @@
     "#199FD6",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1024,28 +929,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Careca",
-     "FW"
-    ],
-    [
-     "Alemão",
-     "MF"
-    ],
-    [
-     "Gianfranco Zola",
-     "FW"
-    ],
-    [
-     "Roberto Baggio",
-     "FW"
-    ],
-    [
-     "Walter Zenga",
-     "GK"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "ita-mil-8788",
@@ -1057,9 +942,6 @@
     "#D50000",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1195,28 +1077,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Frank Rijkaard",
-     "MF"
-    ],
-    [
-     "Demetrio Albertini",
-     "MF"
-    ],
-    [
-     "Sebastiano Rossi",
-     "GK"
-    ],
-    [
-     "Giuseppe Bergomi",
-     "DF"
-    ],
-    [
-     "Marco Simone",
-     "FW"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "ita-int-0910",
@@ -1228,9 +1090,6 @@
     "#1E71B8",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1415,28 +1274,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Zlatan Ibrahimović",
-     "FW"
-    ],
-    [
-     "Adriano",
-     "FW"
-    ],
-    [
-     "Luís Figo",
-     "MF"
-    ],
-    [
-     "Hernán Crespo",
-     "FW"
-    ],
-    [
-     "Andrea Ranocchia",
-     "DF"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "esp-rma-6061",
@@ -1448,9 +1287,6 @@
     "#F5F5F5",
     "#C9A227"
    ],
-   "tier": 3,
-   "conf": "B",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1579,28 +1415,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Raymond Kopa",
-     "MF"
-    ],
-    [
-     "Amancio",
-     "FW"
-    ],
-    [
-     "José Araquistáin",
-     "GK"
-    ],
-    [
-     "Ladislao Kubala",
-     "FW"
-    ],
-    [
-     "Luis Suárez",
-     "MF"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "esp-bar-0809",
@@ -1612,9 +1428,6 @@
     "#A50044",
     "#004D98"
    ],
-   "tier": 1,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1789,28 +1602,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Ronaldinho",
-     "FW"
-    ],
-    [
-     "Deco",
-     "MF"
-    ],
-    [
-     "David Villa",
-     "FW"
-    ],
-    [
-     "Cesc Fàbregas",
-     "MF"
-    ],
-    [
-     "Maxwell",
-     "DF"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "esp-rma-1617",
@@ -1822,9 +1615,6 @@
     "#F5F5F5",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2017,28 +1807,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Iker Casillas",
-     "GK"
-    ],
-    [
-     "Mesut Özil",
-     "MF"
-    ],
-    [
-     "Ángel Di María",
-     "MF"
-    ],
-    [
-     "Eden Hazard",
-     "FW"
-    ],
-    [
-     "Thibaut Courtois",
-     "GK"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "ger-bay-7374",
@@ -2050,9 +1820,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2173,28 +1940,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Karl-Heinz Rummenigge",
-     "FW"
-    ],
-    [
-     "Günter Netzer",
-     "MF"
-    ],
-    [
-     "Berti Vogts",
-     "DF"
-    ],
-    [
-     "Wolfgang Overath",
-     "MF"
-    ],
-    [
-     "Jupp Heynckes",
-     "FW"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "ger-bvb-1011",
@@ -2206,9 +1953,6 @@
     "#FDE100",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2374,28 +2118,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "İlkay Gündoğan",
-     "MF"
-    ],
-    [
-     "Marco Reus",
-     "FW"
-    ],
-    [
-     "Pierre-Emerick Aubameyang",
-     "FW"
-    ],
-    [
-     "Tomáš Rosický",
-     "MF"
-    ],
-    [
-     "Christoph Metzelder",
-     "DF"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "ger-bay-1213",
@@ -2407,9 +2131,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2604,28 +2325,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Mario Götze",
-     "MF"
-    ],
-    [
-     "Robert Lewandowski",
-     "FW"
-    ],
-    [
-     "Miroslav Klose",
-     "FW"
-    ],
-    [
-     "Luca Toni",
-     "FW"
-    ],
-    [
-     "Mehdi Benatia",
-     "DF"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "fra-ase-7576",
@@ -2637,9 +2338,6 @@
     "#0B7A3B",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2779,28 +2477,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Michel Platini",
-     "MF"
-    ],
-    [
-     "Johnny Rep",
-     "FW"
-    ],
-    [
-     "Marius Trésor",
-     "DF"
-    ],
-    [
-     "Bernard Lacombe",
-     "FW"
-    ],
-    [
-     "Henri Michel",
-     "MF"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "fra-mar-9091",
@@ -2812,9 +2490,6 @@
     "#5CB6E7",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2952,28 +2627,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Enzo Francescoli",
-     "MF"
-    ],
-    [
-     "Fabien Barthez",
-     "GK"
-    ],
-    [
-     "Rudi Völler",
-     "FW"
-    ],
-    [
-     "Marcel Desailly",
-     "DF"
-    ],
-    [
-     "Didier Deschamps",
-     "MF"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   },
   {
    "id": "fra-mon-1617",
@@ -2985,9 +2640,6 @@
     "#E63E2F",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "A",
-   "honour": "champions",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3136,28 +2788,8 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Anthony Martial",
-     "FW"
-    ],
-    [
-     "Yannick Carrasco",
-     "MF"
-    ],
-    [
-     "James Rodríguez",
-     "MF"
-    ],
-    [
-     "Youri Tielemans",
-     "MF"
-    ],
-    [
-     "Wissam Ben Yedder",
-     "FW"
-    ]
-   ]
+   "role": "roster",
+   "achievements": []
   }
  ]
 }

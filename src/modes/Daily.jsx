@@ -53,7 +53,7 @@ function fullPositionList(player) {
   return labels.join(" / ");
 }
 
-export default function Daily({ data, onAlbum }) {
+export default function Daily({ data }) {
   const dateKey = todayKey();
   const dayNum = dayNumber(dateKey);
   const questions = useMemo(() => dailySet(dateKey, data.players, N), [dateKey, data]);
@@ -88,10 +88,6 @@ export default function Daily({ data, onAlbum }) {
     if (state.answers[idx] !== undefined || done) return;
     const next = { answers: { ...state.answers, [idx]: name } };
     save("daily:" + dateKey, next);
-    if (name === q.name) {
-      const alb = load("album", []);
-      if (!alb.includes(q.key)) { alb.push(q.key); save("album", alb); }
-    }
     if (Object.keys(next.answers).length >= N) {
       const hist = load("daily:hist", {});
       hist[dateKey] = questions.filter((qq, i) => next.answers[i] === qq.name).length;
@@ -114,7 +110,7 @@ export default function Daily({ data, onAlbum }) {
         <div className="card" style={{ padding: 16, textAlign: "center" }}>
           <div className="tele amber" style={{ fontSize: 44, fontWeight: 700 }}>{score}/{N}</div>
           <p className="chalk" style={{ fontWeight: 700, margin: "6px 0 0", fontSize: 14 }}>
-            {score === N ? "Full set. A collector's day." : score >= 4 ? "Strong haul of stickers." : score >= 2 ? "A few for the album." : "The album stays hungry. Tomorrow."}
+            {score === N ? "Full house." : score >= 4 ? "Strong day." : score >= 2 ? "A few right." : "Tough one. Tomorrow."}
           </p>
         </div>
         {earned.length > 0 && (
@@ -127,9 +123,6 @@ export default function Daily({ data, onAlbum }) {
         )}
         <button className="btn" style={{ width: "100%", padding: 14, fontSize: 15, marginTop: 12, display: "flex", justifyContent: "center", alignItems: "center", gap: 8 }} onClick={doShare}>
           <Share2 size={16} /> {shareMsg || "Share result"}
-        </button>
-        <button className="ghost" style={{ width: "100%", padding: 13, fontSize: 14, marginTop: 8 }} onClick={onAlbum}>
-          Open the album
         </button>
         <p className="dim" style={{ fontSize: 12, textAlign: "center", marginTop: 12 }}>
           Six new stickers at midnight.

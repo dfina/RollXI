@@ -16,9 +16,6 @@
     "#C8102E",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1980-81",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -180,32 +177,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Bruce Grobbelaar",
-     "GK"
-    ],
-    [
-     "Mark Lawrenson",
-     "DF"
-    ],
-    [
-     "Ronnie Whelan",
-     "MF"
-    ],
-    [
-     "Craig Johnston",
-     "MF"
-    ],
-    [
-     "Bryan Robson",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1980-81"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1980-81",
+     "stage": "W"
     }
    ]
   },
@@ -219,9 +202,6 @@
     "#FFFFFF",
     "#FEBE10"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1980-81",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -383,32 +363,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Pirri",
-     "MF"
-    ],
-    [
-     "Jorge Valdano",
-     "FW"
-    ],
-    [
-     "Emilio Butragueño",
-     "FW"
-    ],
-    [
-     "Hugo Sánchez",
-     "FW"
-    ],
-    [
-     "Míchel",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1980-81"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1980-81",
+     "stage": "RU"
     }
    ]
   },
@@ -422,9 +388,6 @@
     "#670E36",
     "#95BFE5"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1981-82",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -573,32 +536,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Bryan Robson",
-     "MF"
-    ],
-    [
-     "Trevor Francis",
-     "FW"
-    ],
-    [
-     "Glenn Hoddle",
-     "MF"
-    ],
-    [
-     "Kevin Keegan",
-     "FW"
-    ],
-    [
-     "Steve Archibald",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1981-82"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1981-82",
+     "stage": "W"
     }
    ]
   },
@@ -612,9 +561,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1981-82",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -757,32 +703,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jean-Marie Pfaff",
-     "GK"
-    ],
-    [
-     "Lothar Matthäus",
-     "MF"
-    ],
-    [
-     "Sepp Maier",
-     "GK"
-    ],
-    [
-     "Roland Wohlfarth",
-     "FW"
-    ],
-    [
-     "Søren Lerby",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1981-82"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1981-82",
+     "stage": "RU"
     }
    ]
   },
@@ -796,9 +728,6 @@
     "#FFFFFF",
     "#E2001A"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1982-83",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -932,32 +861,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Kevin Keegan",
-     "FW"
-    ],
-    [
-     "Rudi Völler",
-     "FW"
-    ],
-    [
-     "Pierre Littbarski",
-     "MF"
-    ],
-    [
-     "Klaus Allofs",
-     "FW"
-    ],
-    [
-     "Karl-Heinz Rummenigge",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1982-83"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1982-83",
+     "stage": "W"
     }
    ]
   },
@@ -971,9 +886,6 @@
     "#FFFFFF",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1982-83",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1124,32 +1036,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Liam Brady",
-     "MF"
-    ],
-    [
-     "Diego Maradona",
-     "FW"
-    ],
-    [
-     "Zico",
-     "MF"
-    ],
-    [
-     "Falcão",
-     "MF"
-    ],
-    [
-     "Bruno Conti",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1982-83"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1982-83",
+     "stage": "RU"
     }
    ]
   },
@@ -1163,9 +1061,6 @@
     "#C8102E",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1983-84",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1325,32 +1220,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "John Barnes",
-     "MF"
-    ],
-    [
-     "Peter Beardsley",
-     "FW"
-    ],
-    [
-     "Bryan Robson",
-     "MF"
-    ],
-    [
-     "Glenn Hoddle",
-     "MF"
-    ],
-    [
-     "Gary Lineker",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1983-84"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1983-84",
+     "stage": "W"
     }
    ]
   },
@@ -1364,9 +1245,6 @@
     "#8E1F2F",
     "#F0BC42"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1983-84",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1497,32 +1375,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Diego Maradona",
-     "FW"
-    ],
-    [
-     "Michel Platini",
-     "MF"
-    ],
-    [
-     "Zico",
-     "MF"
-    ],
-    [
-     "Liam Brady",
-     "MF"
-    ],
-    [
-     "Karl-Heinz Rummenigge",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1983-84"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1983-84",
+     "stage": "RU"
     }
    ]
   },
@@ -1536,9 +1400,6 @@
     "#FFFFFF",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1984-85",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1689,32 +1550,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Dino Zoff",
-     "GK"
-    ],
-    [
-     "Diego Maradona",
-     "FW"
-    ],
-    [
-     "Liam Brady",
-     "MF"
-    ],
-    [
-     "Bruno Conti",
-     "MF"
-    ],
-    [
-     "Karl-Heinz Rummenigge",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1984-85"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1984-85",
+     "stage": "W"
     }
    ]
   },
@@ -1728,9 +1575,6 @@
     "#C8102E",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1984-85",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1890,32 +1734,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "John Barnes",
-     "MF"
-    ],
-    [
-     "Peter Beardsley",
-     "FW"
-    ],
-    [
-     "Gary Lineker",
-     "FW"
-    ],
-    [
-     "Bryan Robson",
-     "MF"
-    ],
-    [
-     "Chris Waddle",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1984-85"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1984-85",
+     "stage": "RU"
     }
    ]
   },
@@ -1929,9 +1759,6 @@
     "#E30613",
     "#0033A0"
    ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "European Cup winner 1985-86",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2083,32 +1910,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gheorghe Hagi",
-     "MF"
-    ],
-    [
-     "Dan Petrescu",
-     "DF"
-    ],
-    [
-     "Ilie Dumitrescu",
-     "FW"
-    ],
-    [
-     "Gheorghe Popescu",
-     "DF"
-    ],
-    [
-     "Florin Răducioiu",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1985-86"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1985-86",
+     "stage": "W"
     }
    ]
   },
@@ -2122,9 +1935,6 @@
     "#004D98",
     "#A50044"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1985-86",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2266,32 +2076,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Diego Maradona",
-     "FW"
-    ],
-    [
-     "Gary Lineker",
-     "FW"
-    ],
-    [
-     "Mark Hughes",
-     "FW"
-    ],
-    [
-     "Hristo Stoichkov",
-     "FW"
-    ],
-    [
-     "Ronald Koeman",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1985-86"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1985-86",
+     "stage": "RU"
     }
    ]
   },
@@ -2305,9 +2101,6 @@
     "#0033A0",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1986-87",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2457,32 +2250,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Mário Jardel",
-     "FW"
-    ],
-    [
-     "Hulk",
-     "FW"
-    ],
-    [
-     "Radamel Falcao",
-     "FW"
-    ],
-    [
-     "Deco",
-     "MF"
-    ],
-    [
-     "Ricardo Quaresma",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1986-87"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1986-87",
+     "stage": "W"
     }
    ]
   },
@@ -2496,9 +2275,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1986-87",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2642,32 +2418,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Karl-Heinz Rummenigge",
-     "FW"
-    ],
-    [
-     "Jürgen Klinsmann",
-     "FW"
-    ],
-    [
-     "Stefan Effenberg",
-     "MF"
-    ],
-    [
-     "Rudi Völler",
-     "FW"
-    ],
-    [
-     "Paul Breitner",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1986-87"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1986-87",
+     "stage": "RU"
     }
    ]
   },
@@ -2681,9 +2443,6 @@
     "#ED1C24",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1987-88",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2825,32 +2584,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Romário",
-     "FW"
-    ],
-    [
-     "Ruud Gullit",
-     "MF"
-    ],
-    [
-     "Phillip Cocu",
-     "MF"
-    ],
-    [
-     "Jaap Stam",
-     "DF"
-    ],
-    [
-     "Luc Nilis",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1987-88"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1987-88",
+     "stage": "W"
     }
    ]
   },
@@ -2864,9 +2609,6 @@
     "#E30613",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "European Cup runner-up 1987-88",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3007,32 +2749,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Eusébio",
-     "FW"
-    ],
-    [
-     "Rui Costa",
-     "MF"
-    ],
-    [
-     "João Pinto",
-     "FW"
-    ],
-    [
-     "Nené",
-     "FW"
-    ],
-    [
-     "Fernando Chalana",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1987-88"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1987-88",
+     "stage": "RU"
     }
    ]
   },
@@ -3046,9 +2774,6 @@
     "#FB090B",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1988-89",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3209,32 +2934,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Dejan Savićević",
-     "MF"
-    ],
-    [
-     "Zvonimir Boban",
-     "MF"
-    ],
-    [
-     "Jean-Pierre Papin",
-     "FW"
-    ],
-    [
-     "Roberto Baggio",
-     "FW"
-    ],
-    [
-     "Gianluca Vialli",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1988-89"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1988-89",
+     "stage": "W"
     }
    ]
   },
@@ -3248,9 +2959,6 @@
     "#E30613",
     "#0033A0"
    ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "European Cup runner-up 1988-89",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3382,32 +3090,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Miodrag Belodedici",
-     "DF"
-    ],
-    [
-     "Ilie Dumitrescu",
-     "FW"
-    ],
-    [
-     "Helmuth Duckadam",
-     "GK"
-    ],
-    [
-     "Florin Răducioiu",
-     "FW"
-    ],
-    [
-     "Gheorghe Popescu",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1988-89"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1988-89",
+     "stage": "RU"
     }
    ]
   },
@@ -3421,9 +3115,6 @@
     "#FB090B",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1989-90",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3584,32 +3275,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Dejan Savićević",
-     "MF"
-    ],
-    [
-     "Jean-Pierre Papin",
-     "FW"
-    ],
-    [
-     "Zvonimir Boban",
-     "MF"
-    ],
-    [
-     "Marcel Desailly",
-     "DF"
-    ],
-    [
-     "Diego Maradona",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1989-90"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1989-90",
+     "stage": "W"
     }
    ]
   },
@@ -3623,9 +3300,6 @@
     "#E30613",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "European Cup runner-up 1989-90",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3775,32 +3449,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Eusébio",
-     "FW"
-    ],
-    [
-     "Rui Costa",
-     "MF"
-    ],
-    [
-     "João Pinto",
-     "FW"
-    ],
-    [
-     "Nené",
-     "FW"
-    ],
-    [
-     "Fernando Chalana",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1989-90"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1989-90",
+     "stage": "RU"
     }
    ]
   }

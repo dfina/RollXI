@@ -16,9 +16,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2020-21",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -209,32 +206,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gareth Bale",
-     "FW"
-    ],
-    [
-     "Luka Jović",
-     "FW"
-    ],
-    [
-     "Álvaro Odriozola",
-     "DF"
-    ],
-    [
-     "Mariano Díaz",
-     "FW"
-    ],
-    [
-     "Brahim Díaz",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2020-21"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2020-21",
+     "stage": "SF"
     }
    ]
   },
@@ -248,9 +231,6 @@
     "#004170",
     "#E30613"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2020-21",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -442,32 +422,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Julian Draxler",
-     "MF"
-    ],
-    [
-     "Danilo Pereira",
-     "MF"
-    ],
-    [
-     "Thilo Kehrer",
-     "DF"
-    ],
-    [
-     "Eric Maxim Choupo-Moting",
-     "FW"
-    ],
-    [
-     "Timothée Pembélé",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2020-21"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2020-21",
+     "stage": "SF"
     }
    ]
   },
@@ -481,9 +447,6 @@
     "#6CABDD",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL runner-up 2021-22",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -667,32 +630,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Cole Palmer",
-     "FW"
-    ],
-    [
-     "Scott Carson",
-     "GK"
-    ],
-    [
-     "Kalvin Phillips",
-     "MF"
-    ],
-    [
-     "Sergio Agüero",
-     "FW"
-    ],
-    [
-     "Benjamin Mendy",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2021-22"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2021-22",
+     "stage": "RU"
     }
    ]
   },
@@ -706,9 +655,6 @@
     "#FFE667",
     "#005187"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2021-22",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -889,32 +835,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Santi Cazorla",
-     "MF"
-    ],
-    [
-     "Carlos Bacca",
-     "FW"
-    ],
-    [
-     "Vicente Iborra",
-     "MF"
-    ],
-    [
-     "Mario Gaspar",
-     "DF"
-    ],
-    [
-     "Moi Gómez",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2021-22"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2021-22",
+     "stage": "SF"
     }
    ]
   },
@@ -928,9 +860,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2022-23",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1112,32 +1041,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Eden Hazard",
-     "FW"
-    ],
-    [
-     "Mariano Díaz",
-     "FW"
-    ],
-    [
-     "Álvaro Odriozola",
-     "DF"
-    ],
-    [
-     "Reinier",
-     "MF"
-    ],
-    [
-     "Borja Mayoral",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2022-23"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2022-23",
+     "stage": "SF"
     }
    ]
   },
@@ -1151,9 +1066,6 @@
     "#D50000",
     "#000000"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2022-23",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1343,32 +1255,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Zlatan Ibrahimović",
-     "FW"
-    ],
-    [
-     "Yacine Adli",
-     "MF"
-    ],
-    [
-     "Aster Vranckx",
-     "MF"
-    ],
-    [
-     "Sergiño Dest",
-     "DF"
-    ],
-    [
-     "Fodé Ballo-Touré",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2022-23"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2022-23",
+     "stage": "SF"
     }
    ]
   },
@@ -1382,9 +1280,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2023-24",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1566,32 +1461,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Mathys Tel",
-     "FW"
-    ],
-    [
-     "Bouna Sarr",
-     "DF"
-    ],
-    [
-     "Sacha Boey",
-     "DF"
-    ],
-    [
-     "Bryan Zaragoza",
-     "FW"
-    ],
-    [
-     "Daniel Peretz",
-     "GK"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2023-24"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2023-24",
+     "stage": "SF"
     }
    ]
   },
@@ -1605,9 +1486,6 @@
     "#004170",
     "#E30613"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2023-24",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1797,32 +1675,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Carlos Soler",
-     "MF"
-    ],
-    [
-     "Danilo Pereira",
-     "MF"
-    ],
-    [
-     "Layvin Kurzawa",
-     "DF"
-    ],
-    [
-     "Cher Ndour",
-     "MF"
-    ],
-    [
-     "Hugo Ekitiké",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2023-24"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2023-24",
+     "stage": "SF"
     }
    ]
   },
@@ -1836,9 +1700,6 @@
     "#EF0107",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2024-25",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2031,32 +1892,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Oleksandr Zinchenko",
-     "DF"
-    ],
-    [
-     "Kieran Tierney",
-     "DF"
-    ],
-    [
-     "Reiss Nelson",
-     "FW"
-    ],
-    [
-     "Fábio Vieira",
-     "MF"
-    ],
-    [
-     "Takehiro Tomiyasu",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2024-25"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2024-25",
+     "stage": "SF"
     }
    ]
   },
@@ -2070,9 +1917,6 @@
     "#A50044",
     "#004D98"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2024-25",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2254,32 +2098,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Ansu Fati",
-     "FW"
-    ],
-    [
-     "Marc-André ter Stegen",
-     "GK"
-    ],
-    [
-     "Pau Víctor",
-     "FW"
-    ],
-    [
-     "Eric García",
-     "DF"
-    ],
-    [
-     "Pablo Torre",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2024-25"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2024-25",
+     "stage": "SF"
     }
    ]
   },
@@ -2293,9 +2123,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2025-26",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2475,32 +2302,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Mathys Tel",
-     "FW"
-    ],
-    [
-     "Eric Dier",
-     "DF"
-    ],
-    [
-     "Raphaël Guerreiro",
-     "DF"
-    ],
-    [
-     "Tom Bischof",
-     "MF"
-    ],
-    [
-     "Nicolas Jackson",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2025-26"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2025-26",
+     "stage": "SF"
     }
    ]
   },
@@ -2514,9 +2327,6 @@
     "#CB3524",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 2025-26",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2696,32 +2506,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Ángel Correa",
-     "FW"
-    ],
-    [
-     "Saúl Ñíguez",
-     "MF"
-    ],
-    [
-     "Axel Witsel",
-     "DF"
-    ],
-    [
-     "Samuel Lino",
-     "FW"
-    ],
-    [
-     "César Azpilicueta",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "2025-26"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "2025-26",
+     "stage": "SF"
     }
    ]
   }

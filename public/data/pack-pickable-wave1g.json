@@ -16,9 +16,6 @@
     "#D50000",
     "#000000"
    ],
-   "tier": 2,
-   "conf": "C",
-   "honour": "EC semi-finalist 1955-56",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -171,32 +168,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Giampiero Boniperti",
-     "FW"
-    ],
-    [
-     "Omar Sívori",
-     "FW"
-    ],
-    [
-     "John Charles",
-     "FW"
-    ],
-    [
-     "Gino Pivatelli",
-     "FW"
-    ],
-    [
-     "Benito Lorenzi",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1955-56"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1955-56",
+     "stage": "MAIN"
     }
    ]
   },
@@ -210,9 +193,6 @@
     "#00843D",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1955-56",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -362,32 +342,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Denis Law",
-     "FW"
-    ],
-    [
-     "Jim Baxter",
-     "MF"
-    ],
-    [
-     "Billy McNeill",
-     "DF"
-    ],
-    [
-     "Bobby Collins",
-     "MF"
-    ],
-    [
-     "Dave Mackay",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1955-56"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1955-56",
+     "stage": "MAIN"
     }
    ]
   },
@@ -401,9 +367,6 @@
     "#DA291C",
     "#000000"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1956-57",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -558,32 +521,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jimmy Greaves",
-     "FW"
-    ],
-    [
-     "Johnny Haynes",
-     "MF"
-    ],
-    [
-     "Tom Finney",
-     "FW"
-    ],
-    [
-     "Stanley Matthews",
-     "FW"
-    ],
-    [
-     "Nat Lofthouse",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1956-57"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1956-57",
+     "stage": "MAIN"
     }
    ]
   },
@@ -597,9 +546,6 @@
     "#E4002B",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1956-57",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -751,32 +697,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Dragan Džajić",
-     "FW"
-    ],
-    [
-     "Milan Galić",
-     "FW"
-    ],
-    [
-     "Sekularac",
-     "FW"
-    ],
-    [
-     "Branko Zebec",
-     "FW"
-    ],
-    [
-     "Bernard Vukas",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1956-57"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1956-57",
+     "stage": "MAIN"
     }
    ]
   },
@@ -790,9 +722,6 @@
     "#E30613",
     "#003DA5"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1957-58",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -942,32 +871,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Flórián Albert",
-     "FW"
-    ],
-    [
-     "Lajos Tichy",
-     "FW"
-    ],
-    [
-     "Máté Fenyvesi",
-     "FW"
-    ],
-    [
-     "Gyula Grosics",
-     "GK"
-    ],
-    [
-     "József Bozsik",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1957-58"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1957-58",
+     "stage": "MAIN"
     }
    ]
   },
@@ -981,9 +896,6 @@
     "#DA291C",
     "#000000"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1957-58",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1137,32 +1049,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jimmy Greaves",
-     "FW"
-    ],
-    [
-     "Johnny Haynes",
-     "MF"
-    ],
-    [
-     "Tom Finney",
-     "FW"
-    ],
-    [
-     "Stanley Matthews",
-     "FW"
-    ],
-    [
-     "Nat Lofthouse",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1957-58"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1957-58",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1176,9 +1074,6 @@
     "#CB3524",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1958-59",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1327,32 +1222,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Alfredo Di Stéfano",
-     "FW"
-    ],
-    [
-     "Ferenc Puskás",
-     "FW"
-    ],
-    [
-     "Francisco Gento",
-     "FW"
-    ],
-    [
-     "José Santamaría",
-     "DF"
-    ],
-    [
-     "Luis del Sol",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1958-59"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1958-59",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1366,9 +1247,6 @@
     "#FFD200",
     "#000000"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1958-59",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1517,32 +1395,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Josef Hügi",
-     "FW"
-    ],
-    [
-     "Roger Vonlanthen",
-     "FW"
-    ],
-    [
-     "Charles Antenen",
-     "FW"
-    ],
-    [
-     "Robert Ballaman",
-     "FW"
-    ],
-    [
-     "Heinz Bäni",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1958-59"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1958-59",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1556,9 +1420,6 @@
     "#A50044",
     "#004D98"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1959-60",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1709,32 +1570,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Alfredo Di Stéfano",
-     "FW"
-    ],
-    [
-     "Ferenc Puskás",
-     "FW"
-    ],
-    [
-     "Francisco Gento",
-     "FW"
-    ],
-    [
-     "José Santamaría",
-     "DF"
-    ],
-    [
-     "Luis del Sol",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1959-60"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1959-60",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1748,9 +1595,6 @@
     "#1B458F",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1959-60",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1900,32 +1744,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Denis Law",
-     "FW"
-    ],
-    [
-     "Jim Baxter",
-     "MF"
-    ],
-    [
-     "Billy McNeill",
-     "DF"
-    ],
-    [
-     "Bobby Collins",
-     "MF"
-    ],
-    [
-     "Dave Mackay",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1959-60"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1959-60",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1939,9 +1769,6 @@
     "#009639",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1960-61",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2091,32 +1918,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Ernst Ocwirk",
-     "MF"
-    ],
-    [
-     "Walter Schleger",
-     "FW"
-    ],
-    [
-     "Theodor Wagner",
-     "FW"
-    ],
-    [
-     "Erich Probst",
-     "FW"
-    ],
-    [
-     "Kurt Schmied",
-     "GK"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1960-61"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1960-61",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2130,9 +1943,6 @@
     "#FFFFFF",
     "#0046AA"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1960-61",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2281,32 +2091,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Fritz Walter",
-     "MF"
-    ],
-    [
-     "Helmut Rahn",
-     "FW"
-    ],
-    [
-     "Hans Schäfer",
-     "FW"
-    ],
-    [
-     "Max Morlock",
-     "MF"
-    ],
-    [
-     "Horst Eckel",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1960-61"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1960-61",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2320,9 +2116,6 @@
     "#FFFFFF",
     "#001C58"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1961-62",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2475,32 +2268,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jimmy Greaves",
-     "FW"
-    ],
-    [
-     "Johnny Haynes",
-     "MF"
-    ],
-    [
-     "Tom Finney",
-     "FW"
-    ],
-    [
-     "Stanley Matthews",
-     "FW"
-    ],
-    [
-     "Nat Lofthouse",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1961-62"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1961-62",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2514,9 +2293,6 @@
     "#E30613",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1961-62",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2667,32 +2443,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Paul Van Himst",
-     "FW"
-    ],
-    [
-     "Rik Coppens",
-     "FW"
-    ],
-    [
-     "Jef Mermans",
-     "FW"
-    ],
-    [
-     "Léopold Anoul",
-     "FW"
-    ],
-    [
-     "Henri Coppens",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1961-62"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1961-62",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2706,9 +2468,6 @@
     "#000080",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1962-63",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2858,32 +2617,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Denis Law",
-     "FW"
-    ],
-    [
-     "Jim Baxter",
-     "MF"
-    ],
-    [
-     "Billy McNeill",
-     "DF"
-    ],
-    [
-     "Bobby Collins",
-     "MF"
-    ],
-    [
-     "Dave Mackay",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1962-63"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1962-63",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2897,9 +2642,6 @@
     "#E30613",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1962-63",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3048,32 +2790,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Faas Wilkes",
-     "FW"
-    ],
-    [
-     "Abe Lenstra",
-     "FW"
-    ],
-    [
-     "Tonny van der Linden",
-     "FW"
-    ],
-    [
-     "Cor van der Hart",
-     "DF"
-    ],
-    [
-     "Piet Ouderland",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1962-63"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1962-63",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3087,9 +2815,6 @@
     "#FDE100",
     "#000000"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1963-64",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3240,32 +2965,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Fritz Walter",
-     "MF"
-    ],
-    [
-     "Helmut Rahn",
-     "FW"
-    ],
-    [
-     "Hans Schäfer",
-     "FW"
-    ],
-    [
-     "Max Morlock",
-     "MF"
-    ],
-    [
-     "Horst Eckel",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1963-64"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1963-64",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3279,9 +2990,6 @@
     "#FFFFFF",
     "#0a4ea2"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1963-64",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3431,32 +3139,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Josef Hügi",
-     "FW"
-    ],
-    [
-     "Roger Vonlanthen",
-     "FW"
-    ],
-    [
-     "Charles Antenen",
-     "FW"
-    ],
-    [
-     "Robert Ballaman",
-     "FW"
-    ],
-    [
-     "Norbert Eschmann",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1963-64"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1963-64",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3470,9 +3164,6 @@
     "#C8102E",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1964-65",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3625,32 +3316,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jimmy Greaves",
-     "FW"
-    ],
-    [
-     "Johnny Haynes",
-     "MF"
-    ],
-    [
-     "Tom Finney",
-     "FW"
-    ],
-    [
-     "Stanley Matthews",
-     "FW"
-    ],
-    [
-     "Nat Lofthouse",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1964-65"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1964-65",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3664,9 +3341,6 @@
     "#009639",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1964-65",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3816,32 +3490,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Flórián Albert",
-     "FW"
-    ],
-    [
-     "Lajos Tichy",
-     "FW"
-    ],
-    [
-     "Gyula Grosics",
-     "GK"
-    ],
-    [
-     "József Bozsik",
-     "MF"
-    ],
-    [
-     "Nándor Hidegkuti",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1964-65"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1964-65",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3855,9 +3515,6 @@
     "#1E71B8",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "EC semi-finalist 1965-66",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4010,32 +3667,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Giampiero Boniperti",
-     "FW"
-    ],
-    [
-     "Omar Sívori",
-     "FW"
-    ],
-    [
-     "John Charles",
-     "FW"
-    ],
-    [
-     "Gino Pivatelli",
-     "FW"
-    ],
-    [
-     "Benito Lorenzi",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1965-66"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1965-66",
+     "stage": "MAIN"
     }
    ]
   },
@@ -4049,9 +3692,6 @@
     "#DA291C",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "EC semi-finalist 1965-66",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4206,32 +3846,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jimmy Greaves",
-     "FW"
-    ],
-    [
-     "Johnny Haynes",
-     "MF"
-    ],
-    [
-     "Tom Finney",
-     "FW"
-    ],
-    [
-     "Stanley Matthews",
-     "FW"
-    ],
-    [
-     "Nat Lofthouse",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1965-66"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1965-66",
+     "stage": "MAIN"
     }
    ]
   },
@@ -4245,9 +3871,6 @@
     "#FFD200",
     "#E30613"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1966-67",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4398,32 +4021,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Andrej Kvašňák",
-     "MF"
-    ],
-    [
-     "Josef Kadraba",
-     "FW"
-    ],
-    [
-     "Viliam Schrojf",
-     "GK"
-    ],
-    [
-     "Ján Popluhár",
-     "DF"
-    ],
-    [
-     "Tomáš Pospíchal",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1966-67"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1966-67",
+     "stage": "MAIN"
     }
    ]
   },
@@ -4437,9 +4046,6 @@
     "#E4002B",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1966-67",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4589,32 +4195,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Hristo Bonev",
-     "MF"
-    ],
-    [
-     "Stoyan Kitov",
-     "DF"
-    ],
-    [
-     "Aleksandar Kostov",
-     "FW"
-    ],
-    [
-     "Dinko Dermendzhiev",
-     "FW"
-    ],
-    [
-     "Todor Diev",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1966-67"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1966-67",
+     "stage": "MAIN"
     }
    ]
   },
@@ -4628,9 +4220,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1967-68",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4785,32 +4374,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Alfredo Di Stéfano",
-     "FW"
-    ],
-    [
-     "Ferenc Puskás",
-     "FW"
-    ],
-    [
-     "Francisco Gento",
-     "FW"
-    ],
-    [
-     "José Santamaría",
-     "DF"
-    ],
-    [
-     "Luis del Sol",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1967-68"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1967-68",
+     "stage": "MAIN"
     }
    ]
   },
@@ -4824,9 +4399,6 @@
     "#000000",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1967-68",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4977,32 +4549,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Giampiero Boniperti",
-     "FW"
-    ],
-    [
-     "Omar Sívori",
-     "FW"
-    ],
-    [
-     "John Charles",
-     "FW"
-    ],
-    [
-     "Gino Pivatelli",
-     "FW"
-    ],
-    [
-     "Benito Lorenzi",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1967-68"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1967-68",
+     "stage": "MAIN"
     }
    ]
   },
@@ -5016,9 +4574,6 @@
     "#DA291C",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "EC semi-finalist 1968-69",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -5170,32 +4725,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jimmy Greaves",
-     "FW"
-    ],
-    [
-     "Johnny Haynes",
-     "MF"
-    ],
-    [
-     "Tom Finney",
-     "FW"
-    ],
-    [
-     "Stanley Matthews",
-     "FW"
-    ],
-    [
-     "Nat Lofthouse",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1968-69"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1968-69",
+     "stage": "MAIN"
     }
    ]
   },
@@ -5209,9 +4750,6 @@
     "#E30613",
     "#000000"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1968-69",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -5362,32 +4900,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Josef Masopust",
-     "MF"
-    ],
-    [
-     "Andrej Kvašňák",
-     "MF"
-    ],
-    [
-     "Josef Kadraba",
-     "FW"
-    ],
-    [
-     "Viliam Schrojf",
-     "GK"
-    ],
-    [
-     "Ján Popluhár",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1968-69"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1968-69",
+     "stage": "MAIN"
     }
    ]
   },
@@ -5401,9 +4925,6 @@
     "#FFFFFF",
     "#005C2E"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1969-70",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -5554,32 +5075,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Włodzimierz Lubański",
-     "FW"
-    ],
-    [
-     "Ernest Pohl",
-     "FW"
-    ],
-    [
-     "Zygmunt Anczok",
-     "DF"
-    ],
-    [
-     "Jan Tomaszewski",
-     "GK"
-    ],
-    [
-     "Jerzy Gorgoń",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1969-70"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1969-70",
+     "stage": "MAIN"
     }
    ]
   },
@@ -5593,9 +5100,6 @@
     "#FFFFFF",
     "#1D428A"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1969-70",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -5746,32 +5250,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jimmy Greaves",
-     "FW"
-    ],
-    [
-     "Johnny Haynes",
-     "MF"
-    ],
-    [
-     "Tom Finney",
-     "FW"
-    ],
-    [
-     "Stanley Matthews",
-     "FW"
-    ],
-    [
-     "Nat Lofthouse",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1969-70"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1969-70",
+     "stage": "MAIN"
     }
    ]
   }

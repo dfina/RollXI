@@ -16,9 +16,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1980-81",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -171,32 +168,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Pierre Littbarski",
-     "FW"
-    ],
-    [
-     "Felix Magath",
-     "MF"
-    ],
-    [
-     "Lothar Matthäus",
-     "MF"
-    ],
-    [
-     "Andreas Brehme",
-     "DF"
-    ],
-    [
-     "Rudi Völler",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1980-81"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1980-81",
+     "stage": "MAIN"
     }
    ]
   },
@@ -210,9 +193,6 @@
     "#1E71B8",
     "#000000"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1980-81",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -364,32 +344,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Bruno Conti",
-     "FW"
-    ],
-    [
-     "Giuseppe Giannini",
-     "MF"
-    ],
-    [
-     "Daniele Massaro",
-     "FW"
-    ],
-    [
-     "Roberto Pruzzo",
-     "FW"
-    ],
-    [
-     "Antonio Cabrini",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1980-81"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1980-81",
+     "stage": "MAIN"
     }
    ]
   },
@@ -403,9 +369,6 @@
     "#5A2A82",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1981-82",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -558,32 +521,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jan Ceulemans",
-     "FW"
-    ],
-    [
-     "Eddy Voordeckers",
-     "FW"
-    ],
-    [
-     "Franky Van der Elst",
-     "MF"
-    ],
-    [
-     "Lei Clijsters",
-     "DF"
-    ],
-    [
-     "Nico Claesen",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1981-82"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1981-82",
+     "stage": "MAIN"
     }
    ]
   },
@@ -597,9 +546,6 @@
     "#E4002B",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1981-82",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -748,32 +694,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Hristo Stoichkov",
-     "FW"
-    ],
-    [
-     "Nasko Sirakov",
-     "FW"
-    ],
-    [
-     "Ayan Sadakov",
-     "MF"
-    ],
-    [
-     "Plamen Getov",
-     "FW"
-    ],
-    [
-     "Borislav Mikhaylov",
-     "GK"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1981-82"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1981-82",
+     "stage": "MAIN"
     }
    ]
   },
@@ -787,9 +719,6 @@
     "#0067B1",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1982-83",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -941,32 +870,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Juan Señor",
-     "MF"
-    ],
-    [
-     "Ricardo Gallego",
-     "MF"
-    ],
-    [
-     "Francisco Carrasco",
-     "FW"
-    ],
-    [
-     "Marcos Alonso",
-     "FW"
-    ],
-    [
-     "Julio Salinas",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1982-83"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1982-83",
+     "stage": "MAIN"
     }
    ]
   },
@@ -980,9 +895,6 @@
     "#E30613",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1982-83",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1133,32 +1045,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Andrzej Buncol",
-     "MF"
-    ],
-    [
-     "Dariusz Dziekanowski",
-     "FW"
-    ],
-    [
-     "Jan Karaś",
-     "DF"
-    ],
-    [
-     "Ryszard Tarasiewicz",
-     "MF"
-    ],
-    [
-     "Marek Leśniak",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1982-83"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1982-83",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1172,9 +1070,6 @@
     "#E4002B",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1983-84",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1325,32 +1220,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gheorghe Hagi",
-     "MF"
-    ],
-    [
-     "Marius Lăcătuș",
-     "FW"
-    ],
-    [
-     "Michael Klein",
-     "DF"
-    ],
-    [
-     "Mircea Rednic",
-     "DF"
-    ],
-    [
-     "Costică Ștefănescu",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1983-84"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1983-84",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1364,9 +1245,6 @@
     "#FF6600",
     "#000000"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1983-84",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1519,32 +1397,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Charlie Nicholas",
-     "FW"
-    ],
-    [
-     "Davie Cooper",
-     "MF"
-    ],
-    [
-     "Paul McStay",
-     "MF"
-    ],
-    [
-     "Mo Johnston",
-     "FW"
-    ],
-    [
-     "Frank McAvennie",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1983-84"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1983-84",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1558,9 +1422,6 @@
     "#000080",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1984-85",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1714,32 +1575,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Michel Platini",
-     "MF"
-    ],
-    [
-     "Luis Fernández",
-     "MF"
-    ],
-    [
-     "Dominique Rocheteau",
-     "FW"
-    ],
-    [
-     "Bruno Bellone",
-     "FW"
-    ],
-    [
-     "Maxime Bossis",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1984-85"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1984-85",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1753,9 +1600,6 @@
     "#018749",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1984-85",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1905,32 +1749,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Nikos Anastopoulos",
-     "FW"
-    ],
-    [
-     "Thomas Mavros",
-     "FW"
-    ],
-    [
-     "Lakis Papaioannou",
-     "MF"
-    ],
-    [
-     "Vasilis Hatzipanagis",
-     "MF"
-    ],
-    [
-     "Tasos Mitropoulos",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1984-85"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1984-85",
+     "stage": "MAIN"
     }
    ]
   },
@@ -1944,9 +1774,6 @@
     "#5A2A82",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1985-86",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2101,32 +1928,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jan Ceulemans",
-     "FW"
-    ],
-    [
-     "Eddy Voordeckers",
-     "FW"
-    ],
-    [
-     "Franky Van der Elst",
-     "MF"
-    ],
-    [
-     "Lei Clijsters",
-     "DF"
-    ],
-    [
-     "Nico Claesen",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1985-86"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1985-86",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2140,9 +1953,6 @@
     "#0057B7",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1985-86",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2294,32 +2104,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Mats Magnusson",
-     "FW"
-    ],
-    [
-     "Robert Prytz",
-     "MF"
-    ],
-    [
-     "Lennart Larsson",
-     "MF"
-    ],
-    [
-     "Tomas Ravelli",
-     "GK"
-    ],
-    [
-     "Jonas Thern",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1985-86"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1985-86",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2333,9 +2129,6 @@
     "#FFFFFF",
     "#0057B7"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1986-87",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2490,32 +2283,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Oleh Protasov",
-     "FW"
-    ],
-    [
-     "Gennadiy Lytovchenko",
-     "MF"
-    ],
-    [
-     "Rinat Dasayev",
-     "GK"
-    ],
-    [
-     "Sergei Aleinikov",
-     "MF"
-    ],
-    [
-     "Vagiz Khidiyatullin",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1986-87"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1986-87",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2529,9 +2308,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "EC semi-finalist 1986-87",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2687,32 +2463,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Juan Señor",
-     "MF"
-    ],
-    [
-     "Francisco Carrasco",
-     "FW"
-    ],
-    [
-     "Marcos Alonso",
-     "FW"
-    ],
-    [
-     "Julio Salinas",
-     "FW"
-    ],
-    [
-     "Andoni Goikoetxea",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1986-87"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1986-87",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2726,9 +2488,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "EC semi-finalist 1987-88",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2882,32 +2641,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Juan Señor",
-     "MF"
-    ],
-    [
-     "Francisco Carrasco",
-     "FW"
-    ],
-    [
-     "Marcos Alonso",
-     "FW"
-    ],
-    [
-     "Julio Salinas",
-     "FW"
-    ],
-    [
-     "Andoni Goikoetxea",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1987-88"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1987-88",
+     "stage": "MAIN"
     }
    ]
   },
@@ -2921,9 +2666,6 @@
     "#0033A0",
     "#E4002B"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1987-88",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3078,32 +2820,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gheorghe Hagi",
-     "MF"
-    ],
-    [
-     "Rodion Cămătaru",
-     "FW"
-    ],
-    [
-     "Michael Klein",
-     "DF"
-    ],
-    [
-     "Mircea Rednic",
-     "DF"
-    ],
-    [
-     "Costică Ștefănescu",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1987-88"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1987-88",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3117,9 +2845,6 @@
     "#FFFFFF",
     "#C9A227"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "EC semi-finalist 1988-89",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3274,32 +2999,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Juan Señor",
-     "MF"
-    ],
-    [
-     "Francisco Carrasco",
-     "FW"
-    ],
-    [
-     "Marcos Alonso",
-     "FW"
-    ],
-    [
-     "Julio Salinas",
-     "FW"
-    ],
-    [
-     "Andoni Goikoetxea",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1988-89"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1988-89",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3313,9 +3024,6 @@
     "#A90432",
     "#FBE122"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "EC semi-finalist 1988-89",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3466,32 +3174,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Rıdvan Dilmen",
-     "FW"
-    ],
-    [
-     "Oğuz Çetin",
-     "MF"
-    ],
-    [
-     "Feyyaz Uçar",
-     "FW"
-    ],
-    [
-     "Mustafa Denizli",
-     "FW"
-    ],
-    [
-     "Ünal Karaman",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1988-89"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1988-89",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3505,9 +3199,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1989-90",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3660,32 +3351,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Pierre Littbarski",
-     "FW"
-    ],
-    [
-     "Felix Magath",
-     "MF"
-    ],
-    [
-     "Lothar Matthäus",
-     "MF"
-    ],
-    [
-     "Andreas Brehme",
-     "DF"
-    ],
-    [
-     "Rudi Völler",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1989-90"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1989-90",
+     "stage": "MAIN"
     }
    ]
   },
@@ -3699,9 +3376,6 @@
     "#2FAEE0",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "EC semi-finalist 1989-90",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3856,32 +3530,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Michel Platini",
-     "MF"
-    ],
-    [
-     "Luis Fernández",
-     "MF"
-    ],
-    [
-     "Dominique Rocheteau",
-     "FW"
-    ],
-    [
-     "Bruno Bellone",
-     "FW"
-    ],
-    [
-     "Maxime Bossis",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1989-90"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1989-90",
+     "stage": "MAIN"
     }
    ]
   }

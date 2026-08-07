@@ -1,17 +1,15 @@
 import React, { useEffect, useState } from "react";
-import { Home, Dice5, BookOpen, Trophy, Link2 } from "lucide-react";
+import { Home, Dice5, Trophy, Link2 } from "lucide-react";
 import { loadData } from "./lib/data.js";
 import { load, storageAvailable } from "./lib/storage.js";
 import { todayKey, dayNumber } from "./lib/date.js";
 import Daily from "./modes/Daily.jsx";
-import Album from "./modes/Album.jsx";
 import Campaign from "./modes/Campaign.jsx";
 import Chains from "./modes/Chains.jsx";
 
 const TABS = [
   ["home", "Home", Home],
   ["daily", "Daily", Dice5],
-  ["album", "Album", BookOpen],
   ["campaign", "Campaign", Trophy],
   ["chains", "Chains", Link2]
 ];
@@ -27,7 +25,6 @@ export default function App() {
 
   const dateKey = todayKey();
   const dailyDone = !!data && Object.keys(load("daily:" + dateKey, { answers: {} }).answers).length >= 6;
-  const albumGot = data ? load("album", []).length : 0;
 
   function HomeView() {
     return (
@@ -38,7 +35,7 @@ export default function App() {
             Collect.<br />Draft.<br />Conquer Europe.
           </h1>
           <p className="dim" style={{ fontSize: 13, margin: 0, maxWidth: 360 }}>
-            Daily stickers for the album, a Champions League campaign with your hand-built XI,
+            Daily player trivia, a Champions League campaign with your hand-built XI,
             and chains through six decades of squads.
           </p>
           <hr className="rule" />
@@ -48,11 +45,6 @@ export default function App() {
           onClick={() => setView("daily")}>
           <span>Daily #{dayNumber(dateKey)}</span>
           <span className="tele" style={{ fontSize: 13, opacity: 0.92 }}>{dailyDone ? "Done · see results →" : "6 stickers up →"}</span>
-        </button>
-        <button className="ghost" style={{ width: "100%", padding: "14px", fontSize: 14, marginTop: 10, display: "flex", justifyContent: "space-between", alignItems: "center" }}
-          onClick={() => setView("album")}>
-          <span>Sticker album</span>
-          <span className="tele dim" style={{ fontSize: 12 }}>{albumGot}/{data ? data.players.length : 0} →</span>
         </button>
         <button className="ghost" style={{ width: "100%", padding: "14px", fontSize: 14, marginTop: 10, display: "flex", justifyContent: "space-between", alignItems: "center" }}
           onClick={() => setView("campaign")}>
@@ -86,8 +78,7 @@ export default function App() {
       {!data && !err && <p className="tele dim" style={{ textAlign: "center", marginTop: 40, fontSize: 13 }}>Loading the squads…</p>}
       {data && (
         view === "home" ? <HomeView /> :
-        view === "daily" ? <Daily data={data} onAlbum={() => setView("album")} /> :
-        view === "album" ? <Album data={data} /> :
+        view === "daily" ? <Daily data={data} /> :
         view === "campaign" ? <Campaign data={data} /> : <Chains data={data} />
       )}
 

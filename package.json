@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "validate": "node scripts/validate.mjs",
+    "coverage": "node scripts/coverage.mjs",
+    "coverage:next": "node scripts/coverage.mjs --next"
   },
   "dependencies": {
     "lucide-react": "^0.452.0",

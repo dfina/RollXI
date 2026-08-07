@@ -25,6 +25,13 @@ export function normaliseClubName(value) {
   translated, historically variant, or otherwise likely to resolve to a
   non-football/disambiguation page. The runtime resolver still falls back to a
   Wikipedia search for clubs not listed here.
+
+  UNVERIFIED (2026-08-07): "besiktas", "helsingborg", "rosenborg", "sturm graz"
+  and "vicenza" were added from general knowledge, not checked against a live
+  Wikipedia fetch (this environment has no web access to wikipedia.org).
+  Spot-check these five page titles before relying on them; if wrong, the
+  runtime fallback search will likely still find the right page, so this is
+  a missed-crest risk, not a broken-crest risk.
 */
 export const CREST_PAGE_OVERRIDES = {
   "1fc koln": "1. FC Köln",
@@ -51,6 +58,7 @@ export const CREST_PAGE_OVERRIDES = {
   "bayern munich": "FC Bayern Munich",
   "bayern munchen": "FC Bayern Munich",
   "benfica": "S.L. Benfica",
+  "besiktas": "Beşiktaş J.K.",
   "birmingham city": "Birmingham City F.C.",
   "borussia dortmund": "Borussia Dortmund",
   "borussia monchengladbach": "Borussia Mönchengladbach",
@@ -98,6 +106,7 @@ export const CREST_PAGE_OVERRIDES = {
   "hamburg": "Hamburger SV",
   "hamburger sv": "Hamburger SV",
   "hibernian": "Hibernian F.C.",
+  "helsingborg": "Helsingborgs IF",
   "ifk gothenburg": "IFK Göteborg",
   "inter": "Inter Milan",
   "ipswich town": "Ipswich Town F.C.",
@@ -141,6 +150,7 @@ export const CREST_PAGE_OVERRIDES = {
   "real madrid": "Real Madrid CF",
   "real sociedad": "Real Sociedad",
   "real zaragoza": "Real Zaragoza",
+  "rosenborg": "Rosenborg BK",
   "red star belgrade": "Red Star Belgrade",
   "reims": "Stade de Reims",
   "rotor volgograd": "FC Rotor Volgograd",
@@ -154,6 +164,7 @@ export const CREST_PAGE_OVERRIDES = {
   "slovan bratislava": "ŠK Slovan Bratislava",
   "slovan liberec": "FC Slovan Liberec",
   "sparta prague": "AC Sparta Prague",
+  "sturm graz": "SK Sturm Graz",
   "spartak moscow": "FC Spartak Moscow",
   "spartak trnava": "FC Spartak Trnava",
   "sporting cp": "Sporting CP",
@@ -239,6 +250,7 @@ export const CREST_PAGE_OVERRIDES = {
   "udinese": "Udinese Calcio",
   "valencia": "Valencia CF",
   "venezia": "Venezia FC",
+  "vicenza": "L.R. Vicenza",
   "verona": "Hellas Verona FC",
   "villarreal": "Villarreal CF",
   "vojvodina": "FK Vojvodina",

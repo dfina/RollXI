@@ -1,18 +1,65 @@
-import { hashStr, mulberry32, seededShuffle } from "./rng.js";
+import { hashStr, mulberry32, seededShuffle, avg } from "./rng.js";
 import { decadeOf } from "./date.js";
 
+/* Stages that make a club-season opponent-eligible under the new schema.
+   See docs/CONTENT-TARGET.md section 3 for why this replaced the old
+   mutually-exclusive tierType "P"/"O" split: winners, runners-up and
+   semi-finalists are a strict SUBSET of playable teams under the content
+   target, so a club-season increasingly needs to be BOTH draftable and
+   faceable — something tierType could never represent. */
+const OPPONENT_STAGES = ["W", "RU", "SF"];
+
+/* Build a lightweight opponent-shape row from a full roster. Used when a
+   pickable squad's achievements also make it opponent-eligible (e.g. a
+   drafted club that reached a UCL final). Synthesises the single `rating`
+   number legacy stub rows always carried, as the average of every listed
+   player's rating — the same averaging teamStrength() already uses for a
+   full XI, just over the whole squad rather than 11 starters. Scorers are
+   intentionally omitted (rosters don't curate a scorer list the way O-tier
+   packs do); match.js already treats a missing scorers array as safe. */
+function toStub(row) {
+  return {
+    id: row.id, club: row.club, season: row.season, country: row.country || null,
+    rating: Math.round(avg(row.players.map((p) => p.r))),
+    kit: row.kit, crest: row.crest || null,
+    scorers: [],
+    comps: (row.achievements || []).map((a) => a.comp)
+  };
+}
+
+function isOpponentEligible(row) {
+  if (Array.isArray(row.achievements)) {
+    return row.achievements.some((a) => OPPONENT_STAGES.includes(a.stage));
+  }
+  // legacy fallback for any row not yet migrated to achievements[] —
+  // as of 2026-08-07 this covers every O-tier (opponent-only) row; see
+  // docs/CONTENT-TARGET.md 3B for why those weren't auto-migrated
+  return row.tierType === "O";
+}
+function roleOf(row) {
+  return row.role || (row.players && row.players.length ? "roster" : "stub");
+}
+
 /* Loads the pack manifest and merges all packs into one dataset.
-   P-tier squads contribute players; O-tier rows are opposition-only. */
+   Rosters (role: "roster") contribute players and are draftable. Any
+   club-season whose achievements include a final or semi-final ALSO
+   contributes an opponent row, whether or not it's also a roster — see
+   isOpponentEligible() above. Rows not yet migrated to the new schema fall
+   back to the old tierType-based split so nothing regresses mid-migration. */
 export async function loadData() {
   const idx = await fetch("data/index.json").then((r) => r.json());
   const packs = await Promise.all(
     idx.packs.map((p) => fetch("data/" + p.file).then((r) => r.json()))
   );
-  const squads = [];   // P-tier
-  const oppRows = [];  // O-tier
+  const squads = [];   // draftable
+  const oppRows = [];  // opponent-eligible (may overlap with squads now)
   for (const pack of packs) {
     for (const row of pack.squads || []) {
-      if (row.tierType === "O") oppRows.push(row); else squads.push(row);
+      const role = roleOf(row);
+      if (role === "roster") squads.push(row);
+      if (isOpponentEligible(row)) {
+        oppRows.push(role === "roster" ? toStub(row) : row);
+      }
     }
   }
   const squadById = {};

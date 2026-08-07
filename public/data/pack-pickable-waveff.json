@@ -16,9 +16,6 @@
     "#FFFFFF",
     "#FEBE10"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1955-56",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -124,32 +121,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Puskás",
-     "FW"
-    ],
-    [
-     "Raymond Kopa",
-     "MF"
-    ],
-    [
-     "Luis Del Sol",
-     "MF"
-    ],
-    [
-     "Didi",
-     "MF"
-    ],
-    [
-     "Amancio",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1955-56"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1955-56",
+     "stage": "W"
     }
    ]
   },
@@ -163,9 +146,6 @@
     "#CC0000",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "European Cup runner-up 1955-56",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -280,32 +260,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Just Fontaine",
-     "FW"
-    ],
-    [
-     "Roger Piantoni",
-     "FW"
-    ],
-    [
-     "Thadée Cisowski",
-     "FW"
-    ],
-    [
-     "Jean Vincent",
-     "FW"
-    ],
-    [
-     "Maryan Wisniewski",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1955-56"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1955-56",
+     "stage": "RU"
     }
    ]
   },
@@ -319,9 +285,6 @@
     "#FFFFFF",
     "#FEBE10"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1956-57",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -427,32 +390,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Puskás",
-     "FW"
-    ],
-    [
-     "Luis Del Sol",
-     "MF"
-    ],
-    [
-     "Amancio",
-     "FW"
-    ],
-    [
-     "Didi",
-     "MF"
-    ],
-    [
-     "Joseíto",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1956-57"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1956-57",
+     "stage": "W"
     }
    ]
   },
@@ -466,9 +415,6 @@
     "#4B0082",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "European Cup runner-up 1956-57",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -584,32 +530,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gianni Rivera",
-     "AM"
-    ],
-    [
-     "Sandro Salvadore",
-     "DF"
-    ],
-    [
-     "Giuseppe Chiappella",
-     "MF"
-    ],
-    [
-     "Giorgio Ferrini",
-     "MF"
-    ],
-    [
-     "Narciso Lorenzi",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1956-57"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1956-57",
+     "stage": "RU"
     }
    ]
   },
@@ -623,9 +555,6 @@
     "#FFFFFF",
     "#FEBE10"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1957-58",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -732,32 +661,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Puskás",
-     "FW"
-    ],
-    [
-     "Enrique Mateos",
-     "MF"
-    ],
-    [
-     "Marquitos",
-     "DF"
-    ],
-    [
-     "Amancio",
-     "FW"
-    ],
-    [
-     "Luis Del Sol",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1957-58"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1957-58",
+     "stage": "W"
     }
    ]
   },
@@ -771,9 +686,6 @@
     "#FB090B",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1957-58",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -882,32 +794,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Gunnar Nordahl",
-     "FW"
-    ],
-    [
-     "Gunnar Gren",
-     "MF"
-    ],
-    [
-     "Carlo Galli",
-     "FW"
-    ],
-    [
-     "Gastone Bean",
-     "MF"
-    ],
-    [
-     "José Altafini",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1957-58"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1957-58",
+     "stage": "RU"
     }
    ]
   },
@@ -921,9 +819,6 @@
     "#FFFFFF",
     "#FEBE10"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1958-59",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1041,32 +936,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Juan Alonso",
-     "GK"
-    ],
-    [
-     "Amancio",
-     "FW"
-    ],
-    [
-     "Luis Del Sol",
-     "MF"
-    ],
-    [
-     "Joseíto",
-     "MF"
-    ],
-    [
-     "Didi",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1958-59"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1958-59",
+     "stage": "W"
     }
    ]
   },
@@ -1080,9 +961,6 @@
     "#CC0000",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "European Cup runner-up 1958-59",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1188,32 +1066,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Raymond Kopa",
-     "MF"
-    ],
-    [
-     "Maryan Wisniewski",
-     "MF"
-    ],
-    [
-     "Thadée Cisowski",
-     "FW"
-    ],
-    [
-     "Jean Templin",
-     "FW"
-    ],
-    [
-     "Michel Hidalgo",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1958-59"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1958-59",
+     "stage": "RU"
     }
    ]
   },
@@ -1227,9 +1091,6 @@
     "#FFFFFF",
     "#FEBE10"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1959-60",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1338,32 +1199,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Raymond Kopa",
-     "MF"
-    ],
-    [
-     "Héctor Rial",
-     "FW"
-    ],
-    [
-     "Enrique Mateos",
-     "MF"
-    ],
-    [
-     "Marquitos",
-     "DF"
-    ],
-    [
-     "Amancio",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1959-60"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1959-60",
+     "stage": "W"
     }
    ]
   },
@@ -1377,9 +1224,6 @@
     "#E1000F",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1959-60",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1483,32 +1327,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Jürgen Grabowski",
-     "MF"
-    ],
-    [
-     "Bernd Hölzenbein",
-     "FW"
-    ],
-    [
-     "Karl-Heinz Körbel",
-     "DF"
-    ],
-    [
-     "Jürgen Rode",
-     "MF"
-    ],
-    [
-     "Anthony Yeboah",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1959-60"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1959-60",
+     "stage": "RU"
     }
    ]
   },
@@ -1522,9 +1352,6 @@
     "#E30613",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1960-61",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1641,32 +1468,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Fernando Peyroteo",
-     "FW"
-    ],
-    [
-     "Matateu",
-     "FW"
-    ],
-    [
-     "Jaime Graça",
-     "MF"
-    ],
-    [
-     "Raul",
-     "FW"
-    ],
-    [
-     "Fernando Chalana",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1960-61"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1960-61",
+     "stage": "W"
     }
    ]
   },
@@ -1680,9 +1493,6 @@
     "#004D98",
     "#A50044"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1960-61",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1790,32 +1600,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Johan Cruyff",
-     "FW"
-    ],
-    [
-     "Rivaldo",
-     "FW"
-    ],
-    [
-     "Ronaldinho",
-     "MF"
-    ],
-    [
-     "Diego Maradona",
-     "FW"
-    ],
-    [
-     "Romário",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1960-61"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1960-61",
+     "stage": "RU"
     }
    ]
   },
@@ -1829,9 +1625,6 @@
     "#E30613",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1961-62",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1939,32 +1732,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Fernando Peyroteo",
-     "FW"
-    ],
-    [
-     "Matateu",
-     "FW"
-    ],
-    [
-     "Jaime Graça",
-     "MF"
-    ],
-    [
-     "Fernando Chalana",
-     "MF"
-    ],
-    [
-     "Nené",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1961-62"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1961-62",
+     "stage": "W"
     }
    ]
   },
@@ -1978,9 +1757,6 @@
     "#FFFFFF",
     "#FEBE10"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1961-62",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2088,32 +1864,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Marquitos",
-     "DF"
-    ],
-    [
-     "Canário",
-     "MF"
-    ],
-    [
-     "Amancio",
-     "FW"
-    ],
-    [
-     "Raymond Kopa",
-     "MF"
-    ],
-    [
-     "Héctor Rial",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1961-62"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1961-62",
+     "stage": "RU"
     }
    ]
   },
@@ -2127,9 +1889,6 @@
     "#FB090B",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1962-63",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2236,32 +1995,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Nils Liedholm",
-     "MF"
-    ],
-    [
-     "Juan Schiaffino",
-     "MF"
-    ],
-    [
-     "Ernesto Grillo",
-     "FW"
-    ],
-    [
-     "Carlo Galli",
-     "FW"
-    ],
-    [
-     "Gunnar Nordahl",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1962-63"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1962-63",
+     "stage": "W"
     }
    ]
   },
@@ -2275,9 +2020,6 @@
     "#E30613",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1962-63",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2384,32 +2126,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Fernando Peyroteo",
-     "FW"
-    ],
-    [
-     "Matateu",
-     "FW"
-    ],
-    [
-     "Jaime Graça",
-     "MF"
-    ],
-    [
-     "Fernando Chalana",
-     "MF"
-    ],
-    [
-     "Nené",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1962-63"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1962-63",
+     "stage": "RU"
     }
    ]
   },
@@ -2423,9 +2151,6 @@
     "#0066CC",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1963-64",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2532,32 +2257,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Roberto Boninsegna",
-     "FW"
-    ],
-    [
-     "Gianfranco Bedin",
-     "MF"
-    ],
-    [
-     "Mauro Bellugi",
-     "DF"
-    ],
-    [
-     "Mario Frustalupi",
-     "MF"
-    ],
-    [
-     "Alessandro Altobelli",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1963-64"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1963-64",
+     "stage": "W"
     }
    ]
   },
@@ -2571,9 +2282,6 @@
     "#FFFFFF",
     "#FEBE10"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1963-64",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2680,32 +2388,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Raymond Kopa",
-     "MF"
-    ],
-    [
-     "Luis Del Sol",
-     "MF"
-    ],
-    [
-     "Marquitos",
-     "DF"
-    ],
-    [
-     "Héctor Rial",
-     "FW"
-    ],
-    [
-     "Enrique Mateos",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1963-64"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1963-64",
+     "stage": "RU"
     }
    ]
   },
@@ -2719,9 +2413,6 @@
     "#E30613",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1964-65",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2829,32 +2520,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Fernando Peyroteo",
-     "FW"
-    ],
-    [
-     "Matateu",
-     "FW"
-    ],
-    [
-     "Jaime Graça",
-     "MF"
-    ],
-    [
-     "Fernando Chalana",
-     "MF"
-    ],
-    [
-     "Nené",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1964-65"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1964-65",
+     "stage": "RU"
     }
    ]
   },
@@ -2868,9 +2545,6 @@
     "#FFFFFF",
     "#FEBE10"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1965-66",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2977,32 +2651,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Di Stéfano",
-     "FW"
-    ],
-    [
-     "Puskás",
-     "FW"
-    ],
-    [
-     "Canário",
-     "MF"
-    ],
-    [
-     "Del Sol",
-     "MF"
-    ],
-    [
-     "Eusébio",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1965-66"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1965-66",
+     "stage": "W"
     }
    ]
   },
@@ -3016,9 +2676,6 @@
     "#000000",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "C",
-   "honour": "European Cup runner-up 1965-66",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3126,32 +2783,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Dragan Džajić",
-     "MF"
-    ],
-    [
-     "Vladimir Beara",
-     "GK"
-    ],
-    [
-     "Stjepan Bobek",
-     "FW"
-    ],
-    [
-     "Dragoslav Šekularac",
-     "MF"
-    ],
-    [
-     "Josip Skoblar",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1965-66"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1965-66",
+     "stage": "RU"
     }
    ]
   },
@@ -3165,9 +2808,6 @@
     "#16A34A",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1966-67",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3283,32 +2923,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Denis Law",
-     "FW"
-    ],
-    [
-     "Kenny Dalglish",
-     "FW"
-    ],
-    [
-     "Graeme Souness",
-     "MF"
-    ],
-    [
-     "Joe McBride",
-     "FW"
-    ],
-    [
-     "Bobby Collins",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1966-67"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1966-67",
+     "stage": "W"
     }
    ]
   },
@@ -3322,9 +2948,6 @@
     "#0066CC",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1966-67",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3439,32 +3062,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Roberto Boninsegna",
-     "FW"
-    ],
-    [
-     "Luis Suárez",
-     "MF"
-    ],
-    [
-     "Gianfranco Bedin",
-     "MF"
-    ],
-    [
-     "Alessandro Altobelli",
-     "FW"
-    ],
-    [
-     "Karl-Heinz Schnellinger",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1966-67"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1966-67",
+     "stage": "RU"
     }
    ]
   },
@@ -3478,9 +3087,6 @@
     "#DA291C",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1967-68",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3596,32 +3202,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Dave Mackay",
-     "MF"
-    ],
-    [
-     "Alan Mullery",
-     "MF"
-    ],
-    [
-     "Colin Bell",
-     "MF"
-    ],
-    [
-     "Peter Osgood",
-     "FW"
-    ],
-    [
-     "Alan Ball",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1967-68"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1967-68",
+     "stage": "W"
     }
    ]
   },
@@ -3635,9 +3227,6 @@
     "#E30613",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1967-68",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3745,32 +3334,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Fernando Peyroteo",
-     "FW"
-    ],
-    [
-     "Matateu",
-     "FW"
-    ],
-    [
-     "Nené",
-     "FW"
-    ],
-    [
-     "Fernando Chalana",
-     "MF"
-    ],
-    [
-     "Rui Costa",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1967-68"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1967-68",
+     "stage": "RU"
     }
    ]
   },
@@ -3784,9 +3359,6 @@
     "#FB090B",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1968-69",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3892,32 +3464,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "José Altafini",
-     "FW"
-    ],
-    [
-     "Nils Liedholm",
-     "MF"
-    ],
-    [
-     "Sandro Malatrasi",
-     "DF"
-    ],
-    [
-     "Marco van Basten",
-     "FW"
-    ],
-    [
-     "Ruud Gullit",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1968-69"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1968-69",
+     "stage": "W"
     }
    ]
   },
@@ -3931,9 +3489,6 @@
     "#FFFFFF",
     "#D2122E"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1968-69",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4039,32 +3594,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Johan Neeskens",
-     "MF"
-    ],
-    [
-     "Ruud Krol",
-     "DF"
-    ],
-    [
-     "Arie Haan",
-     "MF"
-    ],
-    [
-     "Johnny Rep",
-     "FW"
-    ],
-    [
-     "Gerrie Mühren",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1968-69"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1968-69",
+     "stage": "RU"
     }
    ]
   },
@@ -4078,9 +3619,6 @@
     "#C8102E",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup winner 1969-70",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4205,32 +3743,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Johan Cruyff",
-     "FW"
-    ],
-    [
-     "Ruud Gullit",
-     "MF"
-    ],
-    [
-     "Johan Neeskens",
-     "MF"
-    ],
-    [
-     "Mario Jardel",
-     "FW"
-    ],
-    [
-     "Robin van Persie",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1969-70"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1969-70",
+     "stage": "W"
     }
    ]
   },
@@ -4244,9 +3768,6 @@
     "#16A34A",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "European Cup runner-up 1969-70",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -4362,32 +3883,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Denis Law",
-     "FW"
-    ],
-    [
-     "Kenny Dalglish",
-     "FW"
-    ],
-    [
-     "Graeme Souness",
-     "MF"
-    ],
-    [
-     "John Clark",
-     "MF"
-    ],
-    [
-     "Ronnie Simpson",
-     "GK"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1969-70"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1969-70",
+     "stage": "RU"
     }
    ]
   }

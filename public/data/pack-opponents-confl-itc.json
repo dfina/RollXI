@@ -8,7 +8,8 @@
   "scope": "Conference League: winner + runner-up all 5 editions 2021-22 to 2025-26. Intertoto: winner + runner-up of each final 1995-2005 (2-3 finals per year); outright winner only for 2006-2008 (format changed to 11 parallel finals, no traditional runner-up designation).",
   "source": "Wikipedia finals, UEFA.com, aworldofsoccer.com, RSSSF, cross-checked",
   "verified": true,
-  "note": "2025-26 CONFL final (Crystal Palace beat Rayo Vallecano) beyond Jan 2026 cutoff; data taken from user context (current date June 2026)."
+  "note": "2025-26 Conference League final (Crystal Palace 1-0 Rayo Vallecano) independently confirmed 2026-08-07 via live Wikipedia fetch, superseding the earlier \"user context, not independently verified\" status.",
+  "achievementsAdded": "2026-08-07: per-row achievements[] (stage W/RU) added for all 74 rows — Conference League from Wikipedia, Intertoto Cup winners-per-year from RSSSF (rsssf.org/tablesi/intertoto.html); non-winning Intertoto entries assigned RU by elimination within each year, since the pack itself only ever holds winner+runner-up pairs for 1995-2005. 2006-2008 Intertoto entries correctly carry no RU (11 parallel winners, no runner-up concept, per the pack's existing scope note). See docs/CONTENT-TARGET.md section 3D."
  },
  "squads": [
   {
@@ -28,6 +29,14 @@
    "crest": null,
    "scorers": [
     "Dessers"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CONFL",
+     "season": "2021-22",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -47,6 +56,14 @@
    "crest": null,
    "scorers": [
     "Bowen"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CONFL",
+     "season": "2022-23",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -66,6 +83,14 @@
    "crest": null,
    "scorers": [
     "El Arabi"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CONFL",
+     "season": "2023-24",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -86,6 +111,14 @@
    "scorers": [
     "Palmer",
     "Jackson"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CONFL",
+     "season": "2024-25",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -106,6 +139,14 @@
    "scorers": [
     "Isco",
     "Ezzalzouli"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CONFL",
+     "season": "2024-25",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -125,6 +166,14 @@
    "crest": null,
    "scorers": [
     "Sarr"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CONFL",
+     "season": "2025-26",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -144,6 +193,14 @@
    "crest": null,
    "scorers": [
     "Unai López"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CONFL",
+     "season": "2025-26",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -163,6 +220,14 @@
    "crest": null,
    "scorers": [
     "Zidane"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1995",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -182,6 +247,14 @@
    "crest": null,
    "scorers": [
     "Chapuisat"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1995",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -201,6 +274,14 @@
    "crest": null,
    "scorers": [
     "Sauzée"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1995",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -220,6 +301,14 @@
    "crest": null,
    "scorers": [
     "Brunmayr"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1995",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -239,6 +328,14 @@
    "crest": null,
    "scorers": [
     "Chapuisat"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1996",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -258,6 +355,14 @@
    "crest": null,
    "scorers": [
     "Leroy"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1996",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -277,6 +382,14 @@
    "crest": null,
    "scorers": [
     "Vahirua"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1996",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -296,6 +409,14 @@
    "crest": null,
    "scorers": [
     "Esipov"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1996",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -315,6 +436,14 @@
    "crest": null,
    "scorers": [
     "Thorstvedt"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1996",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -332,7 +461,15 @@
     "#FFFFFF"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1996",
+     "stage": "RU"
+    }
+   ]
   },
   {
    "id": "itc-aux-1997",
@@ -351,6 +488,14 @@
    "crest": null,
    "scorers": [
     "Martins"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1997",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -370,6 +515,14 @@
    "crest": null,
    "scorers": [
     "Preetz"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1997",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -389,6 +542,14 @@
    "crest": null,
    "scorers": [
     "Luccin"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1997",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -408,6 +569,14 @@
    "crest": null,
    "scorers": [
     "Sjöberg"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1997",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -427,6 +596,14 @@
    "crest": null,
    "scorers": [
     "Laigle"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1997",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -446,6 +623,14 @@
    "crest": null,
    "scorers": [
     "Cantona"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1997",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -465,6 +650,14 @@
    "crest": null,
    "scorers": [
     "Mendieta"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1998",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -484,6 +677,14 @@
    "crest": null,
    "scorers": [
     "Linzmaier"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1998",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -503,6 +704,14 @@
    "crest": null,
    "scorers": [
     "Bode"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1998",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -522,6 +731,14 @@
    "crest": null,
    "scorers": [
     "Jarić"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1998",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -541,6 +758,14 @@
    "crest": null,
    "scorers": [
     "Kolyvanov"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1998",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -560,6 +785,14 @@
    "crest": null,
    "scorers": [
     "Zając"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1998",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -579,6 +812,14 @@
    "crest": null,
    "scorers": [
     "Kéomany"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1999",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -598,6 +839,14 @@
    "crest": null,
    "scorers": [
     "Keegan"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1999",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -617,6 +866,14 @@
    "crest": null,
    "scorers": [
     "Inzaghi"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1999",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -636,6 +893,14 @@
    "crest": null,
    "scorers": [
     "Goudet"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1999",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -655,6 +920,14 @@
    "crest": null,
    "scorers": [
     "Di Canio"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1999",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -674,6 +947,14 @@
    "crest": null,
    "scorers": [
     "Pjanić"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "1999",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -693,6 +974,14 @@
    "crest": null,
    "scorers": [
     "Poggi"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2000",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -710,7 +999,15 @@
     "#FFFFFF"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2000",
+     "stage": "RU"
+    }
+   ]
   },
   {
    "id": "itc-cel-2000",
@@ -729,6 +1026,14 @@
    "crest": null,
    "scorers": [
     "Mostovoi"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2000",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -748,6 +1053,14 @@
    "crest": null,
    "scorers": [
     "Arshavin"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2000",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -767,6 +1080,14 @@
    "crest": null,
    "scorers": [
     "Balakov"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2000",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -786,6 +1107,14 @@
    "crest": null,
    "scorers": [
     "Laslandes"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2000",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -805,6 +1134,14 @@
    "crest": null,
    "scorers": [
     "Dublin"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2001",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -824,6 +1161,14 @@
    "crest": null,
    "scorers": [
     "Gimenez"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2001",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -843,6 +1188,14 @@
    "crest": null,
    "scorers": [
     "Anelka"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2001",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -862,6 +1215,14 @@
    "crest": null,
    "scorers": [
     "Baggio"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2001",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -881,6 +1242,14 @@
    "crest": null,
    "scorers": [
     "Gameiro"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2001",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -900,6 +1269,14 @@
    "crest": null,
    "scorers": [
     "Shearer"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2001",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -919,6 +1296,14 @@
    "crest": null,
    "scorers": [
     "Dely Valdés"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2002",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -938,6 +1323,14 @@
    "crest": null,
    "scorers": [
     "Riquelme"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2002",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -957,6 +1350,14 @@
    "crest": null,
    "scorers": [
     "Saha"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2002",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -974,7 +1375,15 @@
     "#000000"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2002",
+     "stage": "RU"
+    }
+   ]
   },
   {
    "id": "itc-vfb-2002",
@@ -993,6 +1402,14 @@
    "crest": null,
    "scorers": [
     "Soldo"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2002",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1010,7 +1427,15 @@
     "#FFFFFF"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2002",
+     "stage": "RU"
+    }
+   ]
   },
   {
    "id": "itc-s04-2003",
@@ -1029,6 +1454,14 @@
    "crest": null,
    "scorers": [
     "Ailton"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2003",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1046,7 +1479,15 @@
     "#FFFFFF"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2003",
+     "stage": "RU"
+    }
+   ]
   },
   {
    "id": "itc-vil-2003",
@@ -1065,6 +1506,14 @@
    "crest": null,
    "scorers": [
     "Riquelme"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2003",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1084,6 +1533,14 @@
    "crest": null,
    "scorers": [
     "Bruggink"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2003",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1103,6 +1560,14 @@
    "crest": null,
    "scorers": [
     "Venturin"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2003",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1122,6 +1587,14 @@
    "crest": null,
    "scorers": [
     "Klimowicz"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2003",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1141,6 +1614,14 @@
    "crest": null,
    "scorers": [
     "Moussilou"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2004",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1158,7 +1639,15 @@
     "#000000"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2004",
+     "stage": "RU"
+    }
+   ]
   },
   {
    "id": "itc-s04-2004",
@@ -1177,6 +1666,14 @@
    "crest": null,
    "scorers": [
     "Asamoah"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2004",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1194,7 +1691,15 @@
     "#FFFFFF"
    ],
    "crest": null,
-   "scorers": []
+   "scorers": [],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2004",
+     "stage": "RU"
+    }
+   ]
   },
   {
    "id": "itc-vil-2004",
@@ -1213,6 +1718,14 @@
    "crest": null,
    "scorers": [
     "Forlán"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2004",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1232,6 +1745,14 @@
    "crest": null,
    "scorers": [
     "Ibagaza"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2004",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1251,6 +1772,14 @@
    "crest": null,
    "scorers": [
     "Cousin"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2005",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1270,6 +1799,14 @@
    "crest": null,
    "scorers": [
     "Munteanu"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2005",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1289,6 +1826,14 @@
    "crest": null,
    "scorers": [
     "Ribéry"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2005",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1308,6 +1853,14 @@
    "crest": null,
    "scorers": [
     "Luque"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2005",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1327,6 +1880,14 @@
    "crest": null,
    "scorers": [
     "van Nistelrooy"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2005",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1346,6 +1907,14 @@
    "crest": null,
    "scorers": [
     "Villa"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2005",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1365,6 +1934,14 @@
    "crest": null,
    "scorers": [
     "Owen"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2006",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1384,6 +1961,14 @@
    "crest": null,
    "scorers": [
     "Trochowski"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2007",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1403,6 +1988,14 @@
    "crest": null,
    "scorers": [
     "Lima"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "ITC",
+     "season": "2008",
+     "stage": "W"
+    }
    ]
   }
  ]

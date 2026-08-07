@@ -4,7 +4,8 @@
   "competition": "CWC",
   "scope": "Winner and runner-up of every edition 1960-61 to 1998-99",
   "source": "aworldofsoccer.com year-by-year + Wikipedia finals, cross-checked",
-  "verified": true
+  "verified": true,
+  "achievementsAdded": "2026-08-07: per-row achievements[] (stage W/RU) added for all 78 rows, derived from RSSSF (rsssf.org/ec/ec2stats.html) full finals table, cross-checked against the same source's own winners-by-club and runners-up-by-club tallies. See docs/CONTENT-TARGET.md section 3D."
  },
  "squads": [
   {
@@ -24,6 +25,14 @@
    "crest": null,
    "scorers": [
     "Hamrin"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1960-61",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -43,6 +52,14 @@
    "crest": null,
    "scorers": [
     "Scott"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1960-61",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -62,6 +79,14 @@
    "crest": null,
    "scorers": [
     "Mendonça"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1961-62",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -81,6 +106,14 @@
    "crest": null,
    "scorers": [
     "Hamrin"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1961-62",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -100,6 +133,14 @@
    "crest": null,
    "scorers": [
     "Greaves"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1962-63",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -119,6 +160,14 @@
    "crest": null,
    "scorers": [
     "Collar"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1962-63",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -138,6 +187,14 @@
    "crest": null,
    "scorers": [
     "Mascarenhas"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1963-64",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -157,6 +214,14 @@
    "crest": null,
    "scorers": [
     "Sándor"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1963-64",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -176,6 +241,14 @@
    "crest": null,
    "scorers": [
     "Sealey"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1964-65",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -195,6 +268,14 @@
    "crest": null,
    "scorers": [
     "Brunnenmeier"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1964-65",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -214,6 +295,14 @@
    "crest": null,
    "scorers": [
     "Held"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1965-66",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -233,6 +322,14 @@
    "crest": null,
    "scorers": [
     "Hunt"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1965-66",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -252,6 +349,14 @@
    "crest": null,
    "scorers": [
     "Roth"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1966-67",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -271,6 +376,14 @@
    "crest": null,
    "scorers": [
     "Johnston"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1966-67",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -290,6 +403,14 @@
    "crest": null,
    "scorers": [
     "Hamrin"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1967-68",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -309,6 +430,14 @@
    "crest": null,
    "scorers": [
     "Seeler"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1967-68",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -328,6 +457,14 @@
    "crest": null,
    "scorers": [
     "Cvetler"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1968-69",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -347,6 +484,14 @@
    "crest": null,
    "scorers": [
     "Zaldúa"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1968-69",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -366,6 +511,14 @@
    "crest": null,
    "scorers": [
     "Young"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1969-70",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -385,6 +538,14 @@
    "crest": null,
    "scorers": [
     "Oślizło"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1969-70",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -404,6 +565,14 @@
    "crest": null,
    "scorers": [
     "Osgood"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1970-71",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -423,6 +592,14 @@
    "crest": null,
    "scorers": [
     "Zoco"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1970-71",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -442,6 +619,14 @@
    "crest": null,
    "scorers": [
     "Stein"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1971-72",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -461,6 +646,14 @@
    "crest": null,
    "scorers": [
     "Eshtrekov"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1971-72",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -480,6 +673,14 @@
    "crest": null,
    "scorers": [
     "Chiarugi"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1972-73",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -499,6 +700,14 @@
    "crest": null,
    "scorers": [
     "Hunter"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1972-73",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -518,6 +727,14 @@
    "crest": null,
    "scorers": [
     "Lanzi"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1973-74",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -537,6 +754,14 @@
    "crest": null,
    "scorers": [
     "Chiarugi"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1973-74",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -556,6 +781,14 @@
    "crest": null,
    "scorers": [
     "Onyshchenko"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1974-75",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -575,6 +808,14 @@
    "crest": null,
    "scorers": [
     "Mucha"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1974-75",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -594,6 +835,14 @@
    "crest": null,
    "scorers": [
     "Rensenbrink"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1975-76",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -613,6 +862,14 @@
    "crest": null,
    "scorers": [
     "Holland"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1975-76",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -632,6 +889,14 @@
    "crest": null,
    "scorers": [
     "Volkert"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1976-77",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -651,6 +916,14 @@
    "crest": null,
    "scorers": [
     "Rensenbrink"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1976-77",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -670,6 +943,14 @@
    "crest": null,
    "scorers": [
     "Rensenbrink"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1977-78",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -689,6 +970,14 @@
    "crest": null,
    "scorers": [
     "Gasselich"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1977-78",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -708,6 +997,14 @@
    "crest": null,
    "scorers": [
     "Krankl"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1978-79",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -727,6 +1024,14 @@
    "crest": null,
    "scorers": [
     "Seel"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1978-79",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -746,6 +1051,14 @@
    "crest": null,
    "scorers": [
     "Kempes"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1979-80",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -765,6 +1078,14 @@
    "crest": null,
    "scorers": [
     "Brady"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1979-80",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -784,6 +1105,14 @@
    "crest": null,
    "scorers": [
     "Gutsaev"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1980-81",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -803,6 +1132,14 @@
    "crest": null,
    "scorers": [
     "Hoppe"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1980-81",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -822,6 +1159,14 @@
    "crest": null,
    "scorers": [
     "Simonsen"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1981-82",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -841,6 +1186,14 @@
    "crest": null,
    "scorers": [
     "Vandersmissen"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1981-82",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -860,6 +1213,14 @@
    "crest": null,
    "scorers": [
     "Black"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1982-83",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -879,6 +1240,14 @@
    "crest": null,
    "scorers": [
     "Juanito"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1982-83",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -898,6 +1267,14 @@
    "crest": null,
    "scorers": [
     "Vignola"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1983-84",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -917,6 +1294,14 @@
    "crest": null,
    "scorers": [
     "Sousa"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1983-84",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -936,6 +1321,14 @@
    "crest": null,
    "scorers": [
     "Gray"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1984-85",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -955,6 +1348,14 @@
    "crest": null,
    "scorers": [
     "Krankl"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1984-85",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -974,6 +1375,14 @@
    "crest": null,
    "scorers": [
     "Zavarov"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1985-86",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -993,6 +1402,14 @@
    "crest": null,
    "scorers": [
     "Quique"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1985-86",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1012,6 +1429,14 @@
    "crest": null,
    "scorers": [
     "Van Basten"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1986-87",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1031,6 +1456,14 @@
    "crest": null,
    "scorers": [
     "Marschall"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1986-87",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1050,6 +1483,14 @@
    "crest": null,
    "scorers": [
     "Den Boer"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1987-88",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1069,6 +1510,14 @@
    "crest": null,
    "scorers": [
     "Bosman"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1987-88",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1088,6 +1537,14 @@
    "crest": null,
    "scorers": [
     "Salinas"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1988-89",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1107,6 +1564,14 @@
    "crest": null,
    "scorers": [
     "Vialli"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1988-89",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1126,6 +1591,14 @@
    "crest": null,
    "scorers": [
     "Vialli"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1989-90",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1145,6 +1618,14 @@
    "crest": null,
    "scorers": [
     "Van der Linden"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1989-90",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1164,6 +1645,14 @@
    "crest": null,
    "scorers": [
     "Hughes"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1990-91",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1183,6 +1672,14 @@
    "crest": null,
    "scorers": [
     "Koeman"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1990-91",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1202,6 +1699,14 @@
    "crest": null,
    "scorers": [
     "Allofs"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1991-92",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1221,6 +1726,14 @@
    "crest": null,
    "scorers": [
     "Clément"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1991-92",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1240,6 +1753,14 @@
    "crest": null,
    "scorers": [
     "Melli"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1992-93",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1259,6 +1780,14 @@
    "crest": null,
    "scorers": [
     "Severeyns"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1992-93",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1278,6 +1807,14 @@
    "crest": null,
    "scorers": [
     "Smith"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1993-94",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1297,6 +1834,14 @@
    "crest": null,
    "scorers": [
     "Brolin"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1993-94",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1316,6 +1861,14 @@
    "crest": null,
    "scorers": [
     "Nayim"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1994-95",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1335,6 +1888,14 @@
    "crest": null,
    "scorers": [
     "Hartson"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1994-95",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1354,6 +1915,14 @@
    "crest": null,
    "scorers": [
     "N'Gotty"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1995-96",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1373,6 +1942,14 @@
    "crest": null,
    "scorers": [
     "Stöger"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1995-96",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1392,6 +1969,14 @@
    "crest": null,
    "scorers": [
     "Ronaldo"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1996-97",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1411,6 +1996,14 @@
    "crest": null,
    "scorers": [
     "Leonardo"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1996-97",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1430,6 +2023,14 @@
    "crest": null,
    "scorers": [
     "Zola"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1997-98",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1449,6 +2050,14 @@
    "crest": null,
    "scorers": [
     "Bobic"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1997-98",
+     "stage": "RU"
+    }
    ]
   },
   {
@@ -1468,6 +2077,14 @@
    "crest": null,
    "scorers": [
     "Vieri"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1998-99",
+     "stage": "W"
+    }
    ]
   },
   {
@@ -1487,6 +2104,14 @@
    "crest": null,
    "scorers": [
     "Dani"
+   ],
+   "role": "stub",
+   "achievements": [
+    {
+     "comp": "CWC",
+     "season": "1998-99",
+     "stage": "RU"
+    }
    ]
   }
  ]

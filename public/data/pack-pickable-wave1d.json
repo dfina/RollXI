@@ -16,9 +16,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 1990-91",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -171,32 +168,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Mario Basler",
-     "FW"
-    ],
-    [
-     "Thomas Häßler",
-     "MF"
-    ],
-    [
-     "Jürgen Klinsmann",
-     "FW"
-    ],
-    [
-     "Andreas Brehme",
-     "DF"
-    ],
-    [
-     "Ulf Kirsten",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1990-91"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1990-91",
+     "stage": "SF"
     }
    ]
   },
@@ -210,9 +193,6 @@
     "#E4002B",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "UCL semi-finalist 1990-91",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -365,32 +345,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Igor Dobrovolski",
-     "MF"
-    ],
-    [
-     "Sergei Yuran",
-     "FW"
-    ],
-    [
-     "Andrei Kanchelskis",
-     "MF"
-    ],
-    [
-     "Dmitri Kharine",
-     "GK"
-    ],
-    [
-     "Viktor Onopko",
-     "DF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1990-91"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1990-91",
+     "stage": "SF"
     }
    ]
   },
@@ -404,9 +370,6 @@
     "#7A0019",
     "#FFD200"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "UCL final group stage 1991-92",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -559,32 +522,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Pavel Nedvěd",
-     "MF"
-    ],
-    [
-     "Patrik Berger",
-     "MF"
-    ],
-    [
-     "Karel Poborský",
-     "MF"
-    ],
-    [
-     "Radek Bejbl",
-     "MF"
-    ],
-    [
-     "Vladimír Šmicer",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1991-92"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1991-92",
+     "stage": "SF"
     }
    ]
   },
@@ -598,9 +547,6 @@
     "#E4002B",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "C",
-   "honour": "UCL final group stage 1991-92",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -754,32 +700,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Predrag Mijatović",
-     "FW"
-    ],
-    [
-     "Dejan Stanković",
-     "MF"
-    ],
-    [
-     "Savo Milošević",
-     "FW"
-    ],
-    [
-     "Dragan Stojković",
-     "MF"
-    ],
-    [
-     "Slaviša Jokanović",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "EC",
      "season": "1991-92"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "EC",
+     "season": "1991-92",
+     "stage": "SF"
     }
    ]
   },
@@ -793,9 +725,6 @@
     "#1B458F",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL final group stage 1992-93",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -946,32 +875,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Brian Laudrup",
-     "FW"
-    ],
-    [
-     "Paul Gascoigne",
-     "MF"
-    ],
-    [
-     "Gordon Durie",
-     "FW"
-    ],
-    [
-     "Alan McLaren",
-     "DF"
-    ],
-    [
-     "Derek McInnes",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1992-93"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1992-93",
+     "stage": "SF"
     }
    ]
   },
@@ -985,9 +900,6 @@
     "#0057B7",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "UCL final group stage 1992-93",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1142,32 +1054,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Tomas Brolin",
-     "FW"
-    ],
-    [
-     "Kennet Andersson",
-     "FW"
-    ],
-    [
-     "Martin Dahlin",
-     "FW"
-    ],
-    [
-     "Henrik Larsson",
-     "FW"
-    ],
-    [
-     "Stefan Schwarz",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1992-93"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1992-93",
+     "stage": "SF"
     }
    ]
   },
@@ -1181,9 +1079,6 @@
     "#E30613",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 1993-94",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1338,32 +1233,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Florian Maurice",
-     "FW"
-    ],
-    [
-     "Vincent Guérin",
-     "MF"
-    ],
-    [
-     "Bruno Ngotty",
-     "DF"
-    ],
-    [
-     "Bernard Diomède",
-     "FW"
-    ],
-    [
-     "Christophe Cocard",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1993-94"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1993-94",
+     "stage": "SF"
     }
    ]
   },
@@ -1377,9 +1258,6 @@
     "#003DA5",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 1993-94",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1531,32 +1409,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Rui Costa",
-     "MF"
-    ],
-    [
-     "João Vieira Pinto",
-     "FW"
-    ],
-    [
-     "Sérgio Conceição",
-     "MF"
-    ],
-    [
-     "Hélder Cristóvão",
-     "DF"
-    ],
-    [
-     "Capucho",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1993-94"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1993-94",
+     "stage": "SF"
     }
    ]
   },
@@ -1570,9 +1434,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 1994-95",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1727,32 +1588,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Mario Basler",
-     "FW"
-    ],
-    [
-     "Thomas Häßler",
-     "MF"
-    ],
-    [
-     "Jürgen Klinsmann",
-     "FW"
-    ],
-    [
-     "Andreas Brehme",
-     "DF"
-    ],
-    [
-     "Ulf Kirsten",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1994-95"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1994-95",
+     "stage": "SF"
     }
    ]
   },
@@ -1766,9 +1613,6 @@
     "#004170",
     "#E30613"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 1994-95",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -1921,32 +1765,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sonny Anderson",
-     "FW"
-    ],
-    [
-     "Florian Maurice",
-     "FW"
-    ],
-    [
-     "Bruno Ngotty",
-     "DF"
-    ],
-    [
-     "Bernard Diomède",
-     "FW"
-    ],
-    [
-     "Christophe Cocard",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1994-95"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1994-95",
+     "stage": "SF"
     }
    ]
   },
@@ -1960,9 +1790,6 @@
     "#FFD200",
     "#009639"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "UCL semi-finalist 1995-96",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2117,32 +1944,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sonny Anderson",
-     "FW"
-    ],
-    [
-     "Florian Maurice",
-     "FW"
-    ],
-    [
-     "Vincent Guérin",
-     "MF"
-    ],
-    [
-     "Bruno Ngotty",
-     "DF"
-    ],
-    [
-     "Bernard Diomède",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1995-96"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1995-96",
+     "stage": "SF"
     }
    ]
   },
@@ -2156,9 +1969,6 @@
     "#018749",
     "#FFFFFF"
    ],
-   "tier": 3,
-   "conf": "C",
-   "honour": "UCL semi-finalist 1995-96",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2309,32 +2119,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Vassilios Tsiartas",
-     "MF"
-    ],
-    [
-     "Demis Nikolaidis",
-     "FW"
-    ],
-    [
-     "Theodoros Zagorakis",
-     "MF"
-    ],
-    [
-     "Nikos Machlas",
-     "FW"
-    ],
-    [
-     "Angelos Basinas",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1995-96"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1995-96",
+     "stage": "SF"
     }
    ]
   },
@@ -2348,9 +2144,6 @@
     "#DA291C",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 1996-97",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2512,32 +2305,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Teddy Sheringham",
-     "FW"
-    ],
-    [
-     "Dwight Yorke",
-     "FW"
-    ],
-    [
-     "David Batty",
-     "MF"
-    ],
-    [
-     "Steve Bruce",
-     "DF"
-    ],
-    [
-     "Paul Ince",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1996-97"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1996-97",
+     "stage": "SF"
     }
    ]
   },
@@ -2551,9 +2330,6 @@
     "#D2122E",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 1996-97",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2709,32 +2485,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Marc Overmars",
-     "FW"
-    ],
-    [
-     "Dennis Bergkamp",
-     "FW"
-    ],
-    [
-     "Clarence Seedorf",
-     "MF"
-    ],
-    [
-     "Phillip Cocu",
-     "MF"
-    ],
-    [
-     "Aron Winter",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1996-97"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1996-97",
+     "stage": "SF"
     }
    ]
   },
@@ -2748,9 +2510,6 @@
     "#FDE100",
     "#000000"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 1997-98",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -2905,32 +2664,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Mario Basler",
-     "FW"
-    ],
-    [
-     "Thomas Häßler",
-     "MF"
-    ],
-    [
-     "Jürgen Klinsmann",
-     "FW"
-    ],
-    [
-     "Andreas Brehme",
-     "DF"
-    ],
-    [
-     "Ulf Kirsten",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1997-98"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1997-98",
+     "stage": "SF"
     }
    ]
   },
@@ -2944,9 +2689,6 @@
     "#E30613",
     "#FFFFFF"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 1997-98",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3100,32 +2842,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Sonny Anderson",
-     "FW"
-    ],
-    [
-     "Florian Maurice",
-     "FW"
-    ],
-    [
-     "Vincent Guérin",
-     "MF"
-    ],
-    [
-     "Bruno Ngotty",
-     "DF"
-    ],
-    [
-     "Bernard Diomède",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1997-98"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1997-98",
+     "stage": "SF"
     }
    ]
   },
@@ -3139,9 +2867,6 @@
     "#000000",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 1998-99",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3296,32 +3021,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Roberto Baggio",
-     "FW"
-    ],
-    [
-     "Gianluca Vialli",
-     "FW"
-    ],
-    [
-     "Fabrizio Ravanelli",
-     "FW"
-    ],
-    [
-     "Sergio Porrini",
-     "DF"
-    ],
-    [
-     "Alessio Tacchinardi",
-     "MF"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1998-99"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1998-99",
+     "stage": "SF"
     }
    ]
   },
@@ -3335,9 +3046,6 @@
     "#FFFFFF",
     "#0057B7"
    ],
-   "tier": 2,
-   "conf": "B",
-   "honour": "UCL semi-finalist 1998-99",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3492,32 +3200,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Georgi Demetradze",
-     "FW"
-    ],
-    [
-     "Maksym Shatskikh",
-     "FW"
-    ],
-    [
-     "Oleksandr Khatskevych",
-     "MF"
-    ],
-    [
-     "Yuriy Kalitvintsev",
-     "MF"
-    ],
-    [
-     "Andriy Voronin",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1998-99"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1998-99",
+     "stage": "SF"
     }
    ]
   },
@@ -3531,9 +3225,6 @@
     "#DC052D",
     "#FFFFFF"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 1999-00",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3686,32 +3377,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Mario Basler",
-     "FW"
-    ],
-    [
-     "Thomas Häßler",
-     "MF"
-    ],
-    [
-     "Jürgen Klinsmann",
-     "FW"
-    ],
-    [
-     "Andreas Brehme",
-     "DF"
-    ],
-    [
-     "Ulf Kirsten",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1999-00"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1999-00",
+     "stage": "SF"
     }
    ]
   },
@@ -3725,9 +3402,6 @@
     "#A50044",
     "#004D98"
    ],
-   "tier": 1,
-   "conf": "B",
-   "honour": "UCL semi-finalist 1999-00",
    "tierType": "P",
    "crest": null,
    "players": [
@@ -3881,32 +3555,18 @@
      ]
     }
    ],
-   "decoys": [
-    [
-     "Luís Enrique",
-     "MF"
-    ],
-    [
-     "Iván de la Peña",
-     "MF"
-    ],
-    [
-     "Albert Celades",
-     "MF"
-    ],
-    [
-     "Roger García",
-     "MF"
-    ],
-    [
-     "Óscar García",
-     "FW"
-    ]
-   ],
    "euro": [
     {
      "comp": "UCL",
      "season": "1999-00"
+    }
+   ],
+   "role": "roster",
+   "achievements": [
+    {
+     "comp": "UCL",
+     "season": "1999-00",
+     "stage": "SF"
     }
    ]
   }
