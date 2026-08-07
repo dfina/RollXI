@@ -1,5 +1,5 @@
 import { mulberry32, hashStr, seededShuffle } from "./rng.js";
-import { playMatch, oppStrength, extraTime, penalties, goalTimeline, scorerPoolFromXI, penaltyTakersFromXI } from "./match.js";
+import { playMatch, oppStrength, extraTime, penalties, goalTimeline, scorerPoolFromXI, scorerPoolFromOpponent, penaltyTakersFromXI } from "./match.js";
 
 /* ---- build the knockout bracket from the final league standings ----
    Modern UCL: 1-8 seeded into R16; 9-24 contest a play-off whose 8 winners
@@ -59,7 +59,7 @@ export function drawRound(ko, round, advancers) {
 
 /* ---- resolve one leg of a two-legged tie ----
    Returns {hg, ag, timeline} for that leg; caller stores leg1/leg2 and aggregate. */
-export function playLeg(you, tieObj, legNo) {
+export function playLeg(you, tieObj, legNo, squadById = null) {
   // leg1: away team hosts; leg2: home team (higher seed) hosts
   const hostRef = legNo === 1 ? tieObj.away : tieObj.home;
   const visitRef = legNo === 1 ? tieObj.home : tieObj.away;
@@ -67,7 +67,7 @@ export function playLeg(you, tieObj, legNo) {
   const visitStr = strengthOf(you, visitRef);
   const seed = tieObj.id + "-leg" + legNo;
   const r = playMatch(hostStr, visitStr, seed);
-  const tl = buildTimeline(you, hostRef, visitRef, r.hg, r.ag, seed);
+  const tl = buildTimeline(you, hostRef, visitRef, r.hg, r.ag, seed, squadById);
   return { hostId: hostRef.id, visitId: visitRef.id, hg: r.hg, ag: r.ag, timeline: tl };
 }
 
@@ -82,11 +82,11 @@ export function aggregate(tieObj) {
 }
 
 /* extra time + penalties played at the higher seed's ground (after leg2). */
-export function resolveLevel(you, tieObj) {
+export function resolveLevel(you, tieObj, squadById = null) {
   const homeStr = strengthOf(you, tieObj.home);
   const awayStr = strengthOf(you, tieObj.away);
   const etGoals = extraTime(homeStr, awayStr, tieObj.id + "-et");
-  const etTl = buildTimeline(you, tieObj.home, tieObj.away, etGoals.hg, etGoals.ag, tieObj.id + "-et")
+  const etTl = buildTimeline(you, tieObj.home, tieObj.away, etGoals.hg, etGoals.ag, tieObj.id + "-et", squadById)
     .map((e) => ({ ...e, minute: 90 + Math.max(1, Math.ceil(e.minute * 30 / 92)) }));
   const et = { hg: etGoals.hg, ag: etGoals.ag, timeline: etTl };
   const agg = aggregate(tieObj);
@@ -101,15 +101,15 @@ export function resolveLevel(you, tieObj) {
 }
 
 /* single-leg final at a neutral venue. */
-export function playFinal(you, a, b) {
+export function playFinal(you, a, b, squadById = null) {
   const seed = "final-" + a.id + "-" + b.id;
   const sa = strengthOf(you, a), sb = strengthOf(you, b);
   let r = playMatch(sa, sb, seed);
   let et = null, pens = null, winnerId;
-  let tl = buildTimeline(you, a, b, r.hg, r.ag, seed);
+  let tl = buildTimeline(you, a, b, r.hg, r.ag, seed, squadById);
   if (r.hg === r.ag) {
     const etGoals = extraTime(sa, sb, seed + "-et");
-    const etTl = buildTimeline(you, a, b, etGoals.hg, etGoals.ag, seed + "-et")
+    const etTl = buildTimeline(you, a, b, etGoals.hg, etGoals.ag, seed + "-et", squadById)
       .map((e) => ({ ...e, minute: 90 + Math.max(1, Math.ceil(e.minute * 30 / 92)) }));
     et = { hg: etGoals.hg, ag: etGoals.ag, timeline: etTl };
     if (r.hg + et.hg !== r.ag + et.ag) {
@@ -130,9 +130,9 @@ function strengthOf(you, ref) {
   if (ref.isYou) return you.strength;
   return oppStrength(ref.rating);
 }
-function buildTimeline(you, hostRef, visitRef, hg, ag, seed) {
-  const hostScorers = hostRef.isYou ? scorerPoolFromXI(you.xi) : (hostRef.scorers || []).map((n) => ({ name: n, weight: 1 }));
-  const visitScorers = visitRef.isYou ? scorerPoolFromXI(you.xi) : (visitRef.scorers || []).map((n) => ({ name: n, weight: 1 }));
+function buildTimeline(you, hostRef, visitRef, hg, ag, seed, squadById = null) {
+  const hostScorers = hostRef.isYou ? scorerPoolFromXI(you.xi) : scorerPoolFromOpponent(hostRef, squadById);
+  const visitScorers = visitRef.isYou ? scorerPoolFromXI(you.xi) : scorerPoolFromOpponent(visitRef, squadById);
   return goalTimeline(hg, ag, hostScorers, visitScorers, seed)
     .map((e) => ({ ...e, mine: (e.side === "home" ? hostRef.isYou : visitRef.isYou) }));
 }

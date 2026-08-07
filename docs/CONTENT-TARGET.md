@@ -101,7 +101,7 @@ finished dataset they usually will be.
   ],
 
   "rating": 92,                        // stubs need this; rosters derive it
-  "scorers": ["Zidane", "Raúl"],       // opponent goal timeline
+  "scorers": ["Zidane", "Raúl"],       // stub-only opponent fallback
   "players": [ /* ... */ ]             // present only when role === "roster"
 }
 ```
@@ -264,7 +264,16 @@ waited.
   not yet migrated), rather than the old either/or split. A roster whose
   achievements include a final or semi-final now also yields a lightweight
   opponent stub at load time (`toStub()`), with its single `rating` number
-  synthesised as the average of every listed player's rating.
+  synthesised as the average of every listed player's rating. As of
+  2026-08-07, that derived opponent row also carries a scorer pool generated
+  from the **entire playable roster**. Scorer selection is weighted primarily
+  by detailed position (centre-forwards highest, then wide/second forwards,
+  attacking and central midfielders, defenders, then goalkeepers) and
+  secondarily by player rating. Every roster member keeps a non-zero scoring
+  chance. At match time the game re-derives this pool from `squadById` whenever
+  an opponent is also pickable, so older saved Campaigns cannot fall back to an
+  empty or abbreviated scorer list for those teams. Stub-only opponents retain
+  their curated `scorers[]` fallback.
 - **Result, verified by simulating `loadData()` against the live pack data**:
   the opponent pool grew from 311 rows to 498. 187 of those are club-seasons
   that are now BOTH draftable and faceable — Real Madrid's 2020-21 UCL

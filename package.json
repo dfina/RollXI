@@ -6,7 +6,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "validate": "node scripts/validate.mjs",
+    "validate": "node scripts/validate.mjs && node scripts/check-scorers.mjs",
     "coverage": "node scripts/coverage.mjs",
     "coverage:next": "node scripts/coverage.mjs --next"
   },

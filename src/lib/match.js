@@ -65,10 +65,60 @@ function pickScorer(pool, rng) {
   return pool[pool.length - 1].name;
 }
 
-/* Scorer weights for the player's XI: forwards most likely, then mids, rarely defs. */
+/* Scorer weighting shared by the player's XI and full historical rosters.
+   Detailed positions take precedence over broad groups so centre-forwards are
+   more likely to score than wingers, attacking mids more than holding mids,
+   and defenders only occasionally. Every listed player keeps a non-zero chance. */
+const SCORER_WEIGHT_BY_POS = {
+  ST: 12, CF: 12, SS: 10.5,
+  LW: 8.5, RW: 8.5, FW: 8.5, F: 8.5, W: 8.5,
+  AM: 6, RM: 4.5, LM: 4.5,
+  CM: 3.5, MF: 3.5, M: 3.5,
+  DM: 2.2,
+  LWB: 1.7, RWB: 1.7,
+  LB: 1.2, RB: 1.2,
+  CB: 0.9, SW: 0.9, DF: 0.9, D: 0.9, B: 0.9,
+  GK: 0.03
+};
+const SCORER_WEIGHT_BY_GROUP = { FW: 8.5, MF: 3.5, DF: 0.9, GK: 0.03 };
+
+function scorerWeight(group, detailedPositions, rating) {
+  const dps = Array.isArray(detailedPositions) ? detailedPositions : [];
+  const posWeight = dps.reduce((best, pos) => Math.max(best, SCORER_WEIGHT_BY_POS[pos] || 0), 0)
+    || SCORER_WEIGHT_BY_GROUP[group] || 1;
+  const r = Number.isFinite(rating) ? rating : 75;
+  // Rating is a secondary modifier: position should dominate, while elite
+  // attackers still score a little more often than lower-rated squad players.
+  return posWeight * (0.55 + clamp(r, 45, 100) / 100);
+}
+
+/* Scorer weights for the player's XI. */
 export function scorerPoolFromXI(slots) {
-  const w = { FW: 10, MF: 4, DF: 1, GK: 0.05 };
-  return slots.filter((s) => s.name).map((s) => ({ name: s.name, weight: (w[s.grp] || 1) * (0.6 + s.rating / 100) }));
+  return slots
+    .filter((s) => s && s.name)
+    .map((s) => ({ name: s.name, weight: scorerWeight(s.grp, s.dp, s.rating) }));
+}
+
+/* Full-roster scorer pool for a pickable historical club-season.
+   Player rows use {n,p,dp,r}; every roster member is retained. */
+export function scorerPoolFromRoster(players) {
+  return (players || [])
+    .filter((p) => p && p.n)
+    .map((p) => ({ name: p.n, weight: scorerWeight(p.p, p.dp, p.r) }));
+}
+
+/* Opponent scorer source. If the opponent is also a pickable squad, always
+   derive scorers from that full roster, even for a saved campaign whose
+   opponent row predates this behaviour. Otherwise preserve the curated legacy
+   scorer list used by stub-only opponents. */
+export function scorerPoolFromOpponent(ref, squadById = null) {
+  const roster = ref && squadById ? squadById[ref.id] : null;
+  if (roster && Array.isArray(roster.players) && roster.players.length) {
+    return scorerPoolFromRoster(roster.players);
+  }
+  return (ref && Array.isArray(ref.scorers) ? ref.scorers : [])
+    .map((s) => typeof s === "string" ? { name: s, weight: 1 } : s)
+    .filter((s) => s && s.name && Number.isFinite(s.weight) && s.weight > 0);
 }
 
 /* ---- extra time + penalties (used by A3 knockouts; defined here now) ---- */

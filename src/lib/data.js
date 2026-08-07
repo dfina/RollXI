@@ -1,4 +1,5 @@
 import { hashStr, mulberry32, seededShuffle, avg } from "./rng.js";
+import { scorerPoolFromRoster } from "./match.js";
 import { decadeOf } from "./date.js";
 
 /* Stages that make a club-season opponent-eligible under the new schema.
@@ -14,15 +15,15 @@ const OPPONENT_STAGES = ["W", "RU", "SF"];
    drafted club that reached a UCL final). Synthesises the single `rating`
    number legacy stub rows always carried, as the average of every listed
    player's rating — the same averaging teamStrength() already uses for a
-   full XI, just over the whole squad rather than 11 starters. Scorers are
-   intentionally omitted (rosters don't curate a scorer list the way O-tier
-   packs do); match.js already treats a missing scorers array as safe. */
+   full XI, just over the whole squad rather than 11 starters. Because this
+   club-season is also pickable, its opponent row also carries a compact
+   position- and rating-weighted scorer pool derived from the FULL roster. */
 function toStub(row) {
   return {
     id: row.id, club: row.club, season: row.season, country: row.country || null,
     rating: Math.round(avg(row.players.map((p) => p.r))),
     kit: row.kit, crest: row.crest || null,
-    scorers: [],
+    scorers: scorerPoolFromRoster(row.players),
     comps: (row.achievements || []).map((a) => a.comp)
   };
 }

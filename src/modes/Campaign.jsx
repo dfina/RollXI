@@ -28,7 +28,7 @@ export default function Campaign({ data }) {
   if (camp.phase === "build") return <BuildScreen data={data} camp={camp} onUpdate={persist} onReset={reset} />;
   if (camp.phase === "league") return <LeagueScreen data={data} camp={camp} onUpdate={persist} onReset={reset} />;
   if (camp.phase === "leagueDone") return <LeagueDoneScreen camp={camp} onUpdate={persist} onReset={reset} />;
-  if (camp.phase === "knockout") return <KnockoutScreen camp={camp} onUpdate={persist} onReset={reset} />;
+  if (camp.phase === "knockout") return <KnockoutScreen data={data} camp={camp} onUpdate={persist} onReset={reset} />;
   return <ChampionScreen camp={camp} onReset={reset} />;
 }
 
@@ -285,7 +285,7 @@ function LeagueScreen({ data, camp, onUpdate, onReset }) {
   const leagueDone = camp.matchday > 8;
 
   function playNext() {
-    const res = playMyFixture(league, camp.you, fixture);
+    const res = playMyFixture(league, camp.you, fixture, data.squadById);
     setTicker(res);
   }
 
@@ -588,7 +588,7 @@ function LeagueDoneScreen({ camp, onUpdate, onReset }) {
 }
 
 /* ---------------- knockout hub: play ties leg by leg ---------------- */
-function KnockoutScreen({ camp, onUpdate, onReset }) {
+function KnockoutScreen({ data, camp, onUpdate, onReset }) {
   const [ticker, setTicker] = useState(null);  // { tie, legNo, res }
   const [shootout, setShootout] = useState(null); // { tie, resolution }
   const [etScreen, setEtScreen] = useState(null); // { tieId, rl } when ET settles a tie
@@ -602,7 +602,7 @@ function KnockoutScreen({ camp, onUpdate, onReset }) {
   const allDone = ties.every((t) => t.done);
 
   function playLegOf(tieObj, legNo) {
-    const res = playLeg(you, tieObj, legNo);
+    const res = playLeg(you, tieObj, legNo, data.squadById);
     setTicker({ tieId: tieObj.id, legNo, res });
   }
 
@@ -622,7 +622,7 @@ function KnockoutScreen({ camp, onUpdate, onReset }) {
     // both legs played; compute aggregate, maybe ET/pens
     const agg = aggregate(tieObj);
     if (agg.level) {
-      const rl = resolveLevel(you, tieObj);
+      const rl = resolveLevel(you, tieObj, data.squadById);
       if (rl.pens) { setShootout({ tieId: tieObj.id, rl }); return; }
       // ET settled it — show animated ET before finalising
       setEtScreen({ tieId: tieObj.id, rl });
@@ -659,7 +659,7 @@ function KnockoutScreen({ camp, onUpdate, onReset }) {
 
   // ----- FINAL stage handled inline -----
   if (stage === "F") {
-    return <FinalScreen camp={camp} you={you} onUpdate={onUpdate} onReset={onReset} />;
+    return <FinalScreen camp={camp} you={you} squadById={data.squadById} onUpdate={onUpdate} onReset={onReset} />;
   }
 
   if (ticker) {
@@ -703,7 +703,7 @@ function KnockoutScreen({ camp, onUpdate, onReset }) {
       {myTie && <SpotlightTie tieObj={myTie} you={you} onPlayLeg={playLegOf} onResolve={resolveTie} />}
 
       {/* The rest of the bracket: sim instantly */}
-      <OtherTies ties={ties.filter((t) => !(t.home.isYou || t.away.isYou))} you={you} onUpdate={(updated) => {
+      <OtherTies ties={ties.filter((t) => !(t.home.isYou || t.away.isYou))} you={you} squadById={data.squadById} onUpdate={(updated) => {
         const merged = ties.map((t) => updated.find((u) => u.id === t.id) || t);
         onUpdate({ ...camp, koTies: merged });
       }} />
@@ -745,15 +745,15 @@ function SpotlightTie({ tieObj, you, onPlayLeg, onResolve }) {
   );
 }
 
-function OtherTies({ ties, you, onUpdate }) {
+function OtherTies({ ties, you, squadById, onUpdate }) {
   function simAll() {
     const done = ties.map((t) => {
       const nt = JSON.parse(JSON.stringify(t));
-      nt.leg1 = playLeg(you, nt, 1);
-      nt.leg2 = playLeg(you, nt, 2);
+      nt.leg1 = playLeg(you, nt, 1, squadById);
+      nt.leg2 = playLeg(you, nt, 2, squadById);
       const agg = aggregate(nt);
       if (agg.level) {
-        const rl = resolveLevel(you, nt);
+        const rl = resolveLevel(you, nt, squadById);
         nt.winnerId = rl.winnerId; nt.et = rl.et; nt.pens = rl.pens;
       } else {
         nt.winnerId = agg.homeGoals > agg.awayGoals ? nt.home.id : nt.away.id;
@@ -785,12 +785,12 @@ function OtherTies({ ties, you, onUpdate }) {
   );
 }
 
-function FinalScreen({ camp, you, onUpdate, onReset }) {
+function FinalScreen({ camp, you, squadById, onUpdate, onReset }) {
   const [finalFlow, setFinalFlow] = useState(null); // { phase:"rt"|"et"|"pens", res }
   const [a, b] = camp.finalists;
 
   function play() {
-    const res = playFinal(you, a, b);
+    const res = playFinal(you, a, b, squadById);
     setFinalFlow({ phase: "rt", res });
   }
   function finishFinal(res) {

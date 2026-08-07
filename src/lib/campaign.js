@@ -1,5 +1,5 @@
 import { mulberry32, hashStr, seededShuffle } from "./rng.js";
-import { playMatch, teamStrength, oppStrength, goalTimeline, scorerPoolFromXI } from "./match.js";
+import { playMatch, teamStrength, oppStrength, goalTimeline, scorerPoolFromXI, scorerPoolFromOpponent } from "./match.js";
 
 export const FORMATIONS = {
   // xy: [x%, y%] — x=0 is left side of pitch, x=100 is right.
@@ -77,7 +77,7 @@ export function standings(teams) {
 }
 
 /* play YOUR fixture for a matchday, returning result + timeline */
-export function playMyFixture(league, you, fixture) {
+export function playMyFixture(league, you, fixture, squadById = null) {
   const opp = league.teams.find((t) => t.id === fixture.oppId);
   const meStr = you.strength;
   const oppStr = oppStrength(opp.rating);
@@ -88,7 +88,7 @@ export function playMyFixture(league, you, fixture) {
   const myG = fixture.home ? r.hg : r.ag;
   const opG = fixture.home ? r.ag : r.hg;
   const myScorers = scorerPoolFromXI(you.xi);
-  const opScorers = (opp.scorers || []).map((n) => ({ name: n, weight: 1 }));
+  const opScorers = scorerPoolFromOpponent(opp, squadById);
   const tl = goalTimeline(
     r.hg, r.ag,
     fixture.home ? myScorers : opScorers,

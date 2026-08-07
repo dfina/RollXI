@@ -29,6 +29,12 @@ The current schema separates two properties that used to be conflated:
 The old `tierType: "P"/"O"` field remains only for compatibility with legacy
 rows and must not be used as the design model for new content.
 
+When a Campaign opponent is also a pickable roster, match scorers are drawn
+from that complete roster rather than from a short opponent-only name list.
+Scoring probability is weighted by detailed position and then player rating,
+so forwards account for most goals, midfielders remain common scorers, and
+defenders/goalkeepers are progressively rarer without being impossible.
+
 Add a pack by dropping the file in `public/data/` and listing it in
 `index.json`. Crest/photo fields take URLs; the kit monogram renders as fallback
 whenever they are null or fail to load.
