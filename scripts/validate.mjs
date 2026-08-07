@@ -1,23 +1,14 @@
 #!/usr/bin/env node
 /*
-  Roll XI data validator.
+  Roll XI canonical data validator.
 
-  Checks every pack in public/data/ for the failure modes that have actually
-  bitten this project: duplicate IDs, P/O collisions, malformed squads,
-  deprecated competition codes, index.json / disk drift, and clubs missing
-  from the crest override map. Everything here was found by hand at least
-  once before this script existed — see docs/CONTENT-TARGET.md section 3A
-  and the point-4 findings it links to for the history.
+  The production dataset is stored in stable decade shards (clubs-1950s.json,
+  clubs-1960s.json, ...). Each club-season must exist exactly once, in the
+  shard matching the season start year. Runtime semantics come from `role` and
+  `achievements[]`; the old mutually-exclusive `tierType` field is forbidden.
 
   Run:  node scripts/validate.mjs
-        node scripts/validate.mjs --json     machine-readable output
-
-  Exit code is 0 if there are no ERROR-level findings, 1 otherwise.
-  WARN-level findings do not fail the run — they need a human judgement call
-  (see "club name variants" below) — but are always printed.
-
-  Wire this into CI (see .github/workflows/validate.yml) so a bad pack never
-  reaches main. It is also npm-scripted as `npm run validate`.
+        node scripts/validate.mjs --json
 */
 
 import { readFile, readdir } from "node:fs/promises";
@@ -28,12 +19,10 @@ const DATA = path.resolve("public/data");
 const args = new Set(process.argv.slice(2));
 
 const CANONICAL_COMPS = new Set(["EC", "UCL", "CWC", "FAIRS", "UEFA", "UEL", "CONFL", "ITC"]);
+const CANONICAL_STAGES = new Set(["W", "RU", "SF", "QF", "R16", "GROUP", "MAIN"]);
 const DEPRECATED_ALIAS = { UECL: "CONFL", INT: "ITC" };
 const DEAD_FIELDS = ["decoys", "tier", "conf", "honour"];
 
-// Human-reviewed club-name decisions. These aliases are no longer editorially
-// open: if one reappears, fail validation and point to the canonical display
-// name rather than reopening the same judgement call.
 const CLUB_NAME_ALIASES = new Map([
   ["Olympique Marseille", "Marseille"],
   ["Monaco", "AS Monaco"],
@@ -52,28 +41,38 @@ const CLUB_NAME_ALIASES = new Map([
   ["Bayern Munich", "Bayern München"],
 ]);
 
-// Near-name pairs that have been checked and are genuinely different clubs.
-// Keep them here so the heuristic does not ask for the same human judgement
-// on every run.
 const KNOWN_DISTINCT_CLUB_PAIRS = new Set([
   ["dundee", "dundee united"].sort().join("|"),
 ]);
 
 const errors = [];
 const warnings = [];
-const err = (msg, ctx) => errors.push({ msg, ...ctx });
-const warn = (msg, ctx) => warnings.push({ msg, ...ctx });
+const err = (msg, ctx = {}) => errors.push({ msg, ...ctx });
+const warn = (msg, ctx = {}) => warnings.push({ msg, ...ctx });
 
-/* ---------- load ---------- */
+const startYear = (season) => parseInt(String(season || "").slice(0, 4), 10);
+const decadeForSeason = (season) => Math.floor(startYear(season) / 10) * 10;
+const expectedShardFile = (season) => `clubs-${decadeForSeason(season)}s.json`;
 
-async function loadPacks() {
-  const indexRaw = await readFile(path.join(DATA, "index.json"), "utf8");
+async function loadShards() {
   let index;
-  try { index = JSON.parse(indexRaw); }
-  catch (e) { err(`index.json is not valid JSON: ${e.message}`); return { index: null, packs: [] }; }
+  try {
+    index = JSON.parse(await readFile(path.join(DATA, "index.json"), "utf8"));
+  } catch (e) {
+    err(`index.json is not valid JSON: ${e.message}`);
+    return { index: null, shards: [] };
+  }
 
-  const onDisk = (await readdir(DATA)).filter((f) => f.startsWith("pack-") && f.endsWith(".json"));
-  const listed = index.packs.map((p) => p.file);
+  if (index.schema !== "club-season-v2") {
+    err(`index.json schema must be "club-season-v2" (got ${JSON.stringify(index.schema)})`);
+  }
+  if (!Array.isArray(index.shards) || index.shards.length === 0) {
+    err(`index.json must contain a non-empty "shards" array`);
+    return { index, shards: [] };
+  }
+
+  const onDisk = (await readdir(DATA)).filter((f) => /^clubs-\d{4}s\.json$/.test(f));
+  const listed = index.shards.map((s) => s.file);
 
   for (const f of listed) {
     if (!onDisk.includes(f)) err(`index.json lists "${f}" but it does not exist on disk`);
@@ -81,23 +80,35 @@ async function loadPacks() {
   for (const f of onDisk) {
     if (!listed.includes(f)) err(`"${f}" is on disk but not listed in index.json — it will never load`);
   }
-  for (const p of index.packs) {
-    if (!p.name) err(`index.json entry for "${p.file}" has no "name" field (loadData() reads "name", not "label" or anything else)`);
-  }
 
-  const packs = [];
-  for (const f of listed) {
-    if (!onDisk.includes(f)) continue;
-    try {
-      packs.push({ file: f, data: JSON.parse(await readFile(path.join(DATA, f), "utf8")) });
-    } catch (e) {
-      err(`"${f}" is not valid JSON: ${e.message}`);
+  const seenManifestFiles = new Set();
+  for (const shard of index.shards) {
+    if (!shard.file) err(`index.json shard entry is missing "file"`);
+    if (!shard.name) err(`index.json entry for "${shard.file || "?"}" has no "name"`);
+    if (seenManifestFiles.has(shard.file)) err(`index.json lists shard "${shard.file}" more than once`);
+    seenManifestFiles.add(shard.file);
+    const m = /^clubs-(\d{4})s\.json$/.exec(shard.file || "");
+    if (!m) err(`index.json shard filename "${shard.file}" does not follow clubs-YYYYs.json`);
+    if (m) {
+      const decade = Number(m[1]);
+      if (shard.from !== decade || shard.to !== decade + 9) {
+        err(`${shard.file} manifest range must be ${decade}-${decade + 9}`);
+      }
     }
   }
-  return { index, packs };
-}
 
-/* ---------- crest override map ---------- */
+  const shards = [];
+  for (const file of listed) {
+    if (!onDisk.includes(file)) continue;
+    try {
+      const data = JSON.parse(await readFile(path.join(DATA, file), "utf8"));
+      shards.push({ file, data });
+    } catch (e) {
+      err(`"${file}" is not valid JSON: ${e.message}`);
+    }
+  }
+  return { index, shards };
+}
 
 function stripAccents(v) {
   return String(v || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "");
@@ -109,135 +120,132 @@ function normaliseClub(v) {
 async function loadCrestOverrideKeys() {
   const src = await readFile(path.resolve("src/lib/crestResolver.js"), "utf8");
   const block = src.split("CREST_PAGE_OVERRIDES = {")[1]?.split("\n};")[0] || "";
-  const keys = new Set([...block.matchAll(/"([^"]+)"\s*:/g)].map((m) => m[1]));
-  return keys;
+  return new Set([...block.matchAll(/"([^"]+)"\s*:/g)].map((m) => m[1]));
 }
 
-/* ---------- checks ---------- */
+function validateCompetitionCode(code, context) {
+  if (DEPRECATED_ALIAS[code]) {
+    err(`${context} uses deprecated competition code "${code}" — should be "${DEPRECATED_ALIAS[code]}"`);
+  } else if (code && !CANONICAL_COMPS.has(code)) {
+    err(`${context} uses unknown competition code "${code}"`);
+  }
+}
 
 async function main() {
-  const { packs } = await loadPacks();
+  const { shards } = await loadShards();
   const crestKeys = await loadCrestOverrideKeys();
 
-  const idOwner = new Map();          // id -> file
-  const pRows = [];                   // {id, club, season, file, row}
-  const oRows = [];
-  const clubNamesByNorm = new Map();  // normalised -> Set(literal names)
+  const idOwner = new Map();
+  const clubSeasonOwner = new Map();
+  const clubNamesByNorm = new Map();
+  let rowsChecked = 0;
 
-  for (const { file, data } of packs) {
-    for (const row of data.squads || []) {
-      // duplicate IDs, globally, across all packs
-      if (row.id) {
-        if (idOwner.has(row.id)) {
-          err(`duplicate id "${row.id}" in ${file} (first seen in ${idOwner.get(row.id)})`);
-        } else {
-          idOwner.set(row.id, file);
-        }
-      } else {
-        err(`squad with no "id" in ${file} (club: ${row.club || "?"}, season: ${row.season || "?"})`);
+  for (const { file, data } of shards) {
+    const fileDecade = Number(/^clubs-(\d{4})s\.json$/.exec(file)?.[1]);
+    if (data?.meta?.schema !== "club-season-v2") {
+      err(`${file} meta.schema must be "club-season-v2"`);
+    }
+    if (!Array.isArray(data.squads)) {
+      err(`${file} must contain a "squads" array`);
+      continue;
+    }
+
+    for (const row of data.squads) {
+      rowsChecked++;
+      const ctx = `${row.id || row.club || "unnamed row"} in ${file}`;
+
+      if (row.tierType !== undefined) {
+        err(`${ctx} still carries legacy "tierType" — role + achievements[] are the canonical schema`);
       }
 
-      const isO = row.tierType === "O";
-      (isO ? oRows : pRows).push({ id: row.id, club: row.club, season: row.season, file, row });
+      if (!row.id) {
+        err(`squad with no "id" in ${file} (club: ${row.club || "?"}, season: ${row.season || "?"})`);
+      } else if (idOwner.has(row.id)) {
+        err(`duplicate id "${row.id}" in ${file} (first seen in ${idOwner.get(row.id)})`);
+      } else {
+        idOwner.set(row.id, file);
+      }
 
-      // club name policy + tracking for the near-duplicate check
+      const clubSeasonKey = `${row.club || "?"}|${row.season || "?"}`;
+      if (clubSeasonOwner.has(clubSeasonKey)) {
+        err(`duplicate club-season "${clubSeasonKey}" in ${file} (first seen in ${clubSeasonOwner.get(clubSeasonKey)})`);
+      } else {
+        clubSeasonOwner.set(clubSeasonKey, file);
+      }
+
+      const y = startYear(row.season);
+      if (!Number.isFinite(y)) {
+        err(`${ctx} has invalid season ${JSON.stringify(row.season)}`);
+      } else {
+        const expected = expectedShardFile(row.season);
+        if (expected !== file || decadeForSeason(row.season) !== fileDecade) {
+          err(`${ctx} belongs in ${expected}, not ${file}`);
+        }
+      }
+
       if (row.club) {
         const canonical = CLUB_NAME_ALIASES.get(row.club);
-        if (canonical) {
-          err(`non-canonical club display name "${row.club}" in ${row.id || file} — use "${canonical}"`);
-        }
+        if (canonical) err(`non-canonical club display name "${row.club}" in ${row.id || file} — use "${canonical}"`);
         const n = normaliseClub(row.club);
         if (!clubNamesByNorm.has(n)) clubNamesByNorm.set(n, new Set());
         clubNamesByNorm.get(n).add(row.club);
       }
 
-      // role/achievements shape (the schema introduced 2026-08-07 — see
-      // docs/CONTENT-TARGET.md section 3). role must always be present now;
-      // achievements is optional (absence means "not yet migrated", which
-      // falls back to tierType at runtime — see src/lib/data.js) but if
-      // present every entry must use canonical comp codes and stage values.
-      const CANONICAL_STAGES = new Set(["W", "RU", "SF", "QF", "R16", "GROUP", "MAIN"]);
       if (row.role !== "roster" && row.role !== "stub") {
-        err(`${row.id} in ${file} has no valid "role" (must be "roster" or "stub", got ${JSON.stringify(row.role)})`);
-      } else if (isO && row.role !== "stub") {
-        err(`${row.id} in ${file} is tierType "O" but role is "${row.role}" — an opponent-only row can't be role "roster"`);
-      } else if (!isO && row.role !== "roster") {
-        err(`${row.id} in ${file} has players but role is "${row.role}" — a row with a roster must be role "roster"`);
+        err(`${ctx} has invalid "role" ${JSON.stringify(row.role)} — must be "roster" or "stub"`);
       }
-      for (const a of row.achievements || []) {
-        if (!CANONICAL_COMPS.has(a.comp)) err(`${row.id} in ${file} has an achievement with unknown comp "${a.comp}"`);
-        if (!CANONICAL_STAGES.has(a.stage)) err(`${row.id} in ${file} has an achievement with unknown stage "${a.stage}"`);
+      if (!Array.isArray(row.achievements)) {
+        err(`${ctx} has no achievements[] array — use [] when there is no European achievement/coverage fact`);
+      } else {
+        for (const a of row.achievements) {
+          validateCompetitionCode(a.comp, `${ctx} achievement`);
+          if (!CANONICAL_STAGES.has(a.stage)) err(`${ctx} has achievement with unknown stage "${a.stage}"`);
+          if ((a.season || row.season) !== row.season) {
+            err(`${ctx} has achievement season ${JSON.stringify(a.season)} that does not match the club-season`);
+          }
+        }
       }
 
-      // roster shape (P-tier only)
-      if (!isO) {
+      if (row.role === "roster") {
         const players = row.players || [];
-        if (players.length < 11) {
-          err(`${row.id || row.club + " " + row.season} in ${file} has only ${players.length} players (minimum 11)`);
-        }
-        if (!players.some((p) => p.p === "GK")) {
-          err(`${row.id || row.club + " " + row.season} in ${file} has no goalkeeper`);
+        if (!Array.isArray(row.players)) err(`${ctx} is role "roster" but has no players[] array`);
+        if (players.length < 11) err(`${ctx} has only ${players.length} players (minimum 11)`);
+        if (!players.some((p) => p.p === "GK")) err(`${ctx} has no goalkeeper`);
+        if (players.length > 0 && (players.length < 12 || players.length > 20)) {
+          warn(`${ctx} has ${players.length} players — house standard is 16, outside 12-20 is worth a second look`);
         }
         for (const p of players) {
           if (!Array.isArray(p.dp) || p.dp.length === 0) {
-            err(`${row.id} in ${file}: ${p.n || "unnamed player"} has malformed dp ${JSON.stringify(p.dp)} — detailed positions must be a non-empty array`);
+            err(`${ctx}: ${p.n || "unnamed player"} has malformed dp ${JSON.stringify(p.dp)} — detailed positions must be a non-empty array`);
             continue;
           }
           for (const code of p.dp) {
             if (!DETAILED_POSITION_CODES.has(String(code || "").toUpperCase())) {
-              err(`${row.id} in ${file}: ${p.n || "unnamed player"} uses unknown detailed position code ${JSON.stringify(code)}`);
+              err(`${ctx}: ${p.n || "unnamed player"} uses unknown detailed position code ${JSON.stringify(code)}`);
             }
           }
         }
-        if (players.length > 0 && (players.length < 12 || players.length > 20)) {
-          warn(`${row.id} in ${file} has ${players.length} players — house standard is 16, outside 12-20 is worth a second look`);
-        }
+      } else if (row.role === "stub") {
+        if (Array.isArray(row.players) && row.players.length) err(`${ctx} is role "stub" but contains players[]`);
+        if (!Number.isFinite(row.rating)) err(`${ctx} is role "stub" but has no numeric rating`);
       }
 
-      // competition codes
-      const codes = [
-        ...(row.euro || []).map((e) => e.comp),
-        ...(row.comps || [])
-      ];
-      for (const c of codes) {
-        if (DEPRECATED_ALIAS[c]) {
-          err(`${row.id} in ${file} uses deprecated competition code "${c}" — should be "${DEPRECATED_ALIAS[c]}"`);
-        } else if (c && !CANONICAL_COMPS.has(c)) {
-          err(`${row.id} in ${file} uses unknown competition code "${c}"`);
-        }
-      }
+      for (const e of row.euro || []) validateCompetitionCode(e.comp, `${ctx} euro[]`);
+      for (const c of row.comps || []) validateCompetitionCode(c, `${ctx} comps[]`);
 
-      // dead fields resurfacing
       for (const f of DEAD_FIELDS) {
-        if (f in row) warn(`${row.id} in ${file} carries dead field "${f}" (not read anywhere in src/ as of the 2026-08-07 audit) — confirm it's still meant to be dead before adding more`);
+        if (f in row) warn(`${ctx} carries dead field "${f}" (not read anywhere in src/)`);
       }
 
-      // crest override coverage
       if (row.club) {
         const n = normaliseClub(row.club);
         if (!crestKeys.has(n)) {
-          warn(`"${row.club}" (in ${row.id || file}) has no entry in CREST_PAGE_OVERRIDES — falls back to live Wikipedia search, which is fine but unverified`);
+          warn(`"${row.club}" (in ${row.id || file}) has no entry in CREST_PAGE_OVERRIDES — falls back to live Wikipedia search`);
         }
       }
     }
   }
 
-  // P/O collision — a club-season must not be both pickable and opponent-only
-  const pKey = new Set(pRows.map((r) => r.club + "|" + r.season));
-  for (const r of oRows) {
-    if (pKey.has(r.club + "|" + r.season)) {
-      err(`"${r.club}" ${r.season} exists as BOTH a pickable (P) squad and an opponent-only (O) row — draws could pick you as your own opponent`);
-    }
-  }
-
-  // near-duplicate club names — same club, different literal spelling.
-  // WARN, not ERROR: genuinely new near-matches still need human judgement.
-  // Previously resolved aliases are enforced above, and known-distinct pairs
-  // such as Dundee / Dundee United are explicitly exempted here.
-  // Two independent signals, either is enough to flag: whole-word containment
-  // ("Porto" inside "FC Porto") and edit-distance similarity (catches accent/
-  // spelling drift like "Bayern Munich" vs "Bayern München" that containment
-  // alone misses).
   function levenshtein(a, b) {
     const dp = Array.from({ length: a.length + 1 }, (_, i) => [i, ...Array(b.length).fill(0)]);
     for (let j = 0; j <= b.length; j++) dp[0][j] = j;
@@ -266,18 +274,17 @@ async function main() {
       const bothLongEnough = a.length >= 5 && b.length >= 5;
       if (containsWhole(a, b) || (bothLongEnough && similarity(a, b) > 0.82)) {
         const names = [...clubNamesByNorm.get(a), ...clubNamesByNorm.get(b)];
-        warn(`possible same-club spelling variants: ${names.map((n) => `"${n}"`).join(" / ")} — confirm same club before merging, some near-matches are genuinely different clubs`);
+        warn(`possible same-club spelling variants: ${names.map((n) => `"${n}"`).join(" / ")} — confirm same club before merging`);
         reported.add(a); reported.add(b);
       }
     }
   }
 
   if (args.has("--json")) {
-    console.log(JSON.stringify({ errors, warnings }, null, 2));
+    console.log(JSON.stringify({ errors, warnings, shardsChecked: shards.length, rowsChecked }, null, 2));
   } else {
     console.log("\nROLL XI — DATA VALIDATION\n" + "=".repeat(64));
-    console.log(`${packs.length} packs checked\n`);
-
+    console.log(`${shards.length} decade shards, ${rowsChecked} club-seasons checked\n`);
     if (errors.length) {
       console.log(`ERRORS (${errors.length}) — must fix:\n`);
       errors.forEach((e) => console.log("  ✗ " + e.msg));
@@ -285,14 +292,12 @@ async function main() {
     } else {
       console.log("No errors.\n");
     }
-
     if (warnings.length) {
       console.log(`WARNINGS (${warnings.length}) — review, doesn't block:\n`);
       warnings.forEach((w) => console.log("  ! " + w.msg));
       console.log();
     }
   }
-
   process.exit(errors.length ? 1 : 0);
 }
 

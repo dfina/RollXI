@@ -2,8 +2,8 @@
 /*
   Roll XI coverage report.
 
-  Reads public/data/coverage-target.json (the goal) and every pack listed in
-  public/data/index.json (the reality), then reports both breadth and, where the
+  Reads public/data/coverage-target.json (the goal) and every decade shard
+  listed in public/data/index.json (the reality), then reports both breadth and, where the
   target declares expected roster counts, real depth/completeness.
 
   Run:  node scripts/coverage.mjs
@@ -25,6 +25,7 @@ const args = new Set(process.argv.slice(2));
 
 // "1998-99" -> 1998 ; "1995" -> 1995 ; "1955-58" -> 1955
 const startYear = (s) => parseInt(String(s).slice(0, 4), 10);
+const shardForSeason = (s) => `clubs-${Math.floor(startYear(s) / 10) * 10}s.json`;
 
 // Build the list of season strings between two bounds, in the same style as the
 // bounds themselves. Single-year style ("1995") is used for the Intertoto Cup.
@@ -51,12 +52,12 @@ function expectedRostersFor(scope, season) {
 
 /* ---------- load ---------- */
 
-async function loadPacks() {
+async function loadShards() {
   const index = JSON.parse(await readFile(path.join(DATA, "index.json"), "utf8"));
-  const listed = new Set(index.packs.map((p) => p.file));
+  const listed = new Set(index.shards.map((s) => s.file));
 
   const onDisk = (await readdir(DATA)).filter(
-    (f) => f.startsWith("pack-") && f.endsWith(".json")
+    (f) => /^clubs-\d{4}s\.json$/.test(f)
   );
   const unlisted = onDisk.filter((f) => !listed.has(f));
   const missing = [...listed].filter((f) => !onDisk.includes(f));
@@ -64,44 +65,31 @@ async function loadPacks() {
   const rows = [];
   for (const file of listed) {
     if (!onDisk.includes(file)) continue;
-    const pack = JSON.parse(await readFile(path.join(DATA, file), "utf8"));
-    for (const s of pack.squads || []) rows.push({ ...s, _file: file });
+    const shard = JSON.parse(await readFile(path.join(DATA, file), "utf8"));
+    for (const s of shard.squads || []) rows.push({ ...s, _file: file });
   }
   return { rows, unlisted, missing };
 }
 
-/* ---------- normalise a squad row into (comp, season, role) facts ----------
-   Works with BOTH the current schema (role + achievements[]) and legacy fields
-   still retained during migration. */
+/* ---------- normalise a club-season into (comp, season, role) facts ---------- */
 
 const ALIAS = { UECL: "CONFL", INT: "ITC" };
 const canon = (c) => ALIAS[c] || c;
 
 function factsFor(row) {
-  const hasPlayers = Array.isArray(row.players) && row.players.length > 0;
-  const role = row.role || (hasPlayers ? "roster" : "stub");
-
-  const entries = [];
-  if (Array.isArray(row.achievements)) {
-    for (const a of row.achievements) {
-      entries.push({ comp: canon(a.comp), season: a.season || row.season, stage: a.stage || "MAIN" });
-    }
-  } else {
-    for (const e of row.euro || []) {
-      entries.push({ comp: canon(e.comp), season: e.season || row.season, stage: e.stage || "MAIN" });
-    }
-    for (const c of row.comps || []) {
-      entries.push({ comp: canon(c), season: row.season, stage: "MAIN" });
-    }
-  }
-  return { role, league: row.league || null, season: row.season, entries };
+  const entries = (row.achievements || []).map((a) => ({
+    comp: canon(a.comp),
+    season: a.season || row.season,
+    stage: a.stage || "MAIN"
+  }));
+  return { role: row.role, league: row.league || null, season: row.season, entries };
 }
 
 /* ---------- report ---------- */
 
 async function main() {
   const target = JSON.parse(await readFile(path.join(DATA, "coverage-target.json"), "utf8"));
-  const { rows, unlisted, missing } = await loadPacks();
+  const { rows, unlisted, missing } = await loadShards();
 
   // actual[compOrLeague][season] = { roster: n, stub: n }
   const actual = {};
@@ -187,7 +175,7 @@ async function main() {
   }
 
   if (args.has("--json")) {
-    console.log(JSON.stringify({ report, unlistedPacks: unlisted, missingPacks: missing }, null, 2));
+    console.log(JSON.stringify({ report, unlistedShards: unlisted, missingShards: missing }, null, 2));
     return;
   }
 
@@ -197,14 +185,14 @@ async function main() {
       console.log("No provable remaining gap. Any scope with unknown depth still needs expected roster counts before it can be declared complete.");
     } else {
       const suffix = next.nextReason === "known-incomplete" ? " (known incomplete)" : " (untouched; depth target unknown)";
-      console.log(`${next.label} — ${next.nextSeason}${suffix}`);
+      console.log(`${next.label} — ${next.nextSeason}${suffix} — edit ${shardForSeason(next.nextSeason)}`);
     }
     return;
   }
 
   console.log("\nROLL XI — CONTENT COVERAGE\n" + "=".repeat(64));
   console.log(`target v${target.version} (updated ${target.updated})`);
-  console.log(`${rows.length} club-season rows across ${new Set(rows.map((r) => r._file)).size} non-empty packs\n`);
+  console.log(`${rows.length} club-season rows across ${new Set(rows.map((r) => r._file)).size} non-empty decade shards\n`);
 
   for (const r of report) {
     console.log(`${r.label}`);
@@ -229,7 +217,7 @@ async function main() {
     }
     if (r.nextSeason) {
       const why = r.nextReason === "known-incomplete" ? "known incomplete" : "untouched; depth target unknown";
-      console.log(`  next gap: ${r.nextSeason} (${why})`);
+      console.log(`  next gap: ${r.nextSeason} (${why}); shard ${shardForSeason(r.nextSeason)}`);
     }
     console.log();
   }
@@ -237,6 +225,7 @@ async function main() {
   if (next) {
     console.log("-".repeat(64));
     console.log(`NEXT EDITION TO WORK ON:  ${next.label} ${next.nextSeason}`);
+    console.log(`TARGET SHARD:             ${shardForSeason(next.nextSeason)}`);
     if (next.nextReason === "known-incomplete") {
       console.log("This is a measured depth gap, not merely an untouched season.");
     } else {
@@ -248,8 +237,8 @@ async function main() {
     console.log("Scopes with unknown depth still require expected roster counts before the target can be declared complete.");
   }
 
-  if (unlisted.length) console.log(`\nWARNING: on disk but not in index.json: ${unlisted.join(", ")}`);
-  if (missing.length) console.log(`\nWARNING: in index.json but not on disk: ${missing.join(", ")}`);
+  if (unlisted.length) console.log(`\nWARNING: shard on disk but not in index.json: ${unlisted.join(", ")}`);
+  if (missing.length) console.log(`\nWARNING: shard in index.json but not on disk: ${missing.join(", ")}`);
   console.log();
 }
 

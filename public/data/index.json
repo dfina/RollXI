@@ -1,0 +1,53 @@
+{
+  "schema": "club-season-v2",
+  "shards": [
+    {
+      "file": "clubs-1950s.json",
+      "name": "1950s club-seasons",
+      "from": 1950,
+      "to": 1959
+    },
+    {
+      "file": "clubs-1960s.json",
+      "name": "1960s club-seasons",
+      "from": 1960,
+      "to": 1969
+    },
+    {
+      "file": "clubs-1970s.json",
+      "name": "1970s club-seasons",
+      "from": 1970,
+      "to": 1979
+    },
+    {
+      "file": "clubs-1980s.json",
+      "name": "1980s club-seasons",
+      "from": 1980,
+      "to": 1989
+    },
+    {
+      "file": "clubs-1990s.json",
+      "name": "1990s club-seasons",
+      "from": 1990,
+      "to": 1999
+    },
+    {
+      "file": "clubs-2000s.json",
+      "name": "2000s club-seasons",
+      "from": 2000,
+      "to": 2009
+    },
+    {
+      "file": "clubs-2010s.json",
+      "name": "2010s club-seasons",
+      "from": 2010,
+      "to": 2019
+    },
+    {
+      "file": "clubs-2020s.json",
+      "name": "2020s club-seasons",
+      "from": 2020,
+      "to": 2029
+    }
+  ]
+}
