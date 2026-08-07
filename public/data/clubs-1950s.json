@@ -1,0 +1,3508 @@
+{
+  "meta": {
+    "name": "Canonical club-seasons — 1950s",
+    "schema": "club-season-v2",
+    "seasonStartYearFrom": 1950,
+    "seasonStartYearTo": 1959,
+    "note": "Canonical decade shard. Club-season records are stored exactly once, by season start year. Historical build provenance and evidence notes are consolidated in docs/COVERAGE-AUDIT.md."
+  },
+  "squads": [
+    {
+      "id": "esp-bar-5960",
+      "club": "Barcelona",
+      "country": "Spain",
+      "league": "ESP",
+      "season": "1959-60",
+      "kit": [
+        "#A50044",
+        "#004D98"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Antoni Ramallets",
+          "p": "GK",
+          "r": 82,
+          "nat": "Spain",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Estanislau Basora",
+          "p": "FW",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Martín Verges",
+          "p": "MF",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Sigfrid Gracia",
+          "p": "DF",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Joan Segarra",
+          "p": "DF",
+          "r": 81,
+          "nat": "Spain",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Jesús Garay",
+          "p": "DF",
+          "r": 80,
+          "nat": "Spain",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ferran Olivella",
+          "p": "DF",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "CB",
+            "LB"
+          ]
+        },
+        {
+          "n": "Luis Suárez",
+          "p": "MF",
+          "r": 86,
+          "nat": "Spain",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Sándor Kocsis",
+          "p": "FW",
+          "r": 85,
+          "nat": "Hungary",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Evaristo",
+          "p": "FW",
+          "r": 82,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Zoltán Czibor",
+          "p": "FW",
+          "r": 83,
+          "nat": "Hungary",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Eulogio Martínez",
+          "p": "FW",
+          "r": 81,
+          "nat": "Spain",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Justo Tejada",
+          "p": "FW",
+          "r": 79,
+          "nat": "Spain",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Enric Gensana",
+          "p": "DF",
+          "r": 76,
+          "nat": "Spain",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Joaquim Brugué",
+          "p": "FW",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Lluís Coll",
+          "p": "MF",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1959-60"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1959-60",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "ger-sge-195960",
+      "club": "Eintracht Frankfurt",
+      "country": "Germany",
+      "league": "GER",
+      "season": "1959-60",
+      "kit": [
+        "#E1000F",
+        "#000000"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Egon Loy",
+          "p": "GK",
+          "r": 78,
+          "nat": "West Germany",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Friedel Lutz",
+          "p": "DF",
+          "r": 73,
+          "nat": "West Germany",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Hans Weilbächer",
+          "p": "MF",
+          "r": 76,
+          "nat": "West Germany",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Hermann Höfer",
+          "p": "DF",
+          "r": 73,
+          "nat": "West Germany",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Hans-Walter Eigenbrodt",
+          "p": "DF",
+          "r": 74,
+          "nat": "West Germany",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Dieter Stinka",
+          "p": "MF",
+          "r": 73,
+          "nat": "West Germany",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Richard Kress",
+          "p": "FW",
+          "r": 76,
+          "nat": "West Germany",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Dieter Lindner",
+          "p": "MF",
+          "r": 74,
+          "nat": "West Germany",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Erwin Stein",
+          "p": "FW",
+          "r": 78,
+          "nat": "West Germany",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Alfred Pfaff",
+          "p": "MF",
+          "r": 79,
+          "nat": "West Germany",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Erich Meier",
+          "p": "FW",
+          "r": 74,
+          "nat": "West Germany",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Hans-Günter Kirchhof",
+          "p": "GK",
+          "r": 71,
+          "nat": "West Germany",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Eberhard Schymik",
+          "p": "DF",
+          "r": 75,
+          "nat": "West Germany",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Adolf Bechtold",
+          "p": "DF",
+          "r": 74,
+          "nat": "West Germany",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Erich Bäumler",
+          "p": "FW",
+          "r": 74,
+          "nat": "West Germany",
+          "dp": [
+            "FW",
+            "RW"
+          ]
+        },
+        {
+          "n": "Willi Herbert",
+          "p": "DF",
+          "r": 72,
+          "nat": "West Germany",
+          "dp": [
+            "CB",
+            "RB"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1959-60"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1959-60",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "sco-ran-5960",
+      "club": "Rangers",
+      "country": "Scotland",
+      "league": "SCO",
+      "season": "1959-60",
+      "kit": [
+        "#1B458F",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "George Niven",
+          "p": "GK",
+          "r": 77,
+          "nat": "Scotland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Billy Ritchie",
+          "p": "GK",
+          "r": 71,
+          "nat": "Scotland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Eric Caldow",
+          "p": "DF",
+          "r": 79,
+          "nat": "Scotland",
+          "dp": [
+            "LB",
+            "RB"
+          ]
+        },
+        {
+          "n": "Bobby Shearer",
+          "p": "DF",
+          "r": 77,
+          "nat": "Scotland",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Bill Paterson",
+          "p": "DF",
+          "r": 76,
+          "nat": "Scotland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Harold Davis",
+          "p": "MF",
+          "r": 77,
+          "nat": "Scotland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ian McColl",
+          "p": "MF",
+          "r": 78,
+          "nat": "Scotland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Alex Scott",
+          "p": "FW",
+          "r": 80,
+          "nat": "Scotland",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Ralph Brand",
+          "p": "FW",
+          "r": 80,
+          "nat": "Scotland",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Jimmy Millar",
+          "p": "FW",
+          "r": 80,
+          "nat": "Scotland",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Davie Wilson",
+          "p": "FW",
+          "r": 79,
+          "nat": "Scotland",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Billy Stevenson",
+          "p": "MF",
+          "r": 76,
+          "nat": "Scotland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Sammy Baird",
+          "p": "MF",
+          "r": 76,
+          "nat": "Scotland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Max Murray",
+          "p": "FW",
+          "r": 76,
+          "nat": "Scotland",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Don Kichenbrand",
+          "p": "FW",
+          "r": 75,
+          "nat": "South Africa",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "John Little",
+          "p": "DF",
+          "r": 74,
+          "nat": "Scotland",
+          "dp": [
+            "LB"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1959-60"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1959-60",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "esp-rma-195960",
+      "club": "Real Madrid",
+      "country": "Spain",
+      "league": "ESP",
+      "season": "1959-60",
+      "kit": [
+        "#FFFFFF",
+        "#FEBE10"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Rogelio Domínguez",
+          "p": "GK",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Marquitos",
+          "p": "DF",
+          "r": 76,
+          "nat": "Spain",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "José Santamaría",
+          "p": "DF",
+          "r": 83,
+          "nat": "Uruguay",
+          "dp": [
+            "CB",
+            "SW"
+          ]
+        },
+        {
+          "n": "Pachín",
+          "p": "DF",
+          "r": 73,
+          "nat": "Spain",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "José Zárraga",
+          "p": "MF",
+          "r": 76,
+          "nat": "Spain",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "José María Vidal",
+          "p": "MF",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Canário",
+          "p": "MF",
+          "r": 79,
+          "nat": "Brazil",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Luis Del Sol",
+          "p": "MF",
+          "r": 81,
+          "nat": "Spain",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Alfredo Di Stéfano",
+          "p": "FW",
+          "r": 93,
+          "nat": "Argentina",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "Ferenc Puskás",
+          "p": "FW",
+          "r": 92,
+          "nat": "Hungary",
+          "dp": [
+            "CF",
+            "FW"
+          ]
+        },
+        {
+          "n": "Francisco Gento",
+          "p": "FW",
+          "r": 88,
+          "nat": "Spain",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Miché",
+          "p": "DF",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Antonio Ruiz Cervilla",
+          "p": "MF",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Enrique Mateos",
+          "p": "MF",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "AM",
+            "MF"
+          ]
+        },
+        {
+          "n": "Juan Santisteban",
+          "p": "MF",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Chus Herrera",
+          "p": "FW",
+          "r": 76,
+          "nat": "Spain",
+          "dp": [
+            "RW",
+            "CF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1959-60"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1959-60",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "esp-atm-5859",
+      "club": "Atlético Madrid",
+      "country": "Spain",
+      "league": "ESP",
+      "season": "1958-59",
+      "kit": [
+        "#CB3524",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Edgardo Madinabeytia",
+          "p": "GK",
+          "r": 79,
+          "nat": "Argentina",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Pazos",
+          "p": "GK",
+          "r": 72,
+          "nat": "Spain",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Feliciano Rivilla",
+          "p": "DF",
+          "r": 80,
+          "nat": "Spain",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Miguel Calleja",
+          "p": "DF",
+          "r": 76,
+          "nat": "Spain",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Isacio Calleja",
+          "p": "DF",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "José Glaría",
+          "p": "MF",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Rafael Verde",
+          "p": "DF",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Enrique Collar",
+          "p": "FW",
+          "r": 81,
+          "nat": "Spain",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Vavá",
+          "p": "FW",
+          "r": 83,
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Joaquín Peiró",
+          "p": "FW",
+          "r": 82,
+          "nat": "Spain",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Enrique Agustín Vidal",
+          "p": "FW",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Miguel Mendonça",
+          "p": "MF",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Chuzo",
+          "p": "FW",
+          "r": 76,
+          "nat": "Spain",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "José Luis Mújica",
+          "p": "MF",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Domingo Riera",
+          "p": "FW",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Antonio Callejo",
+          "p": "DF",
+          "r": 73,
+          "nat": "Spain",
+          "dp": [
+            "RB"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1958-59"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1958-59",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "sui-ybb-5859",
+      "club": "BSC Young Boys",
+      "country": "Switzerland",
+      "league": "SUI",
+      "season": "1958-59",
+      "kit": [
+        "#FFD200",
+        "#000000"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Walter Eich",
+          "p": "GK",
+          "r": 77,
+          "nat": "Switzerland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Marcel Ansermet",
+          "p": "GK",
+          "r": 70,
+          "nat": "Switzerland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Hans Schneiter",
+          "p": "DF",
+          "r": 76,
+          "nat": "Switzerland",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "André Zahnd",
+          "p": "DF",
+          "r": 75,
+          "nat": "Switzerland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Willy Steffen",
+          "p": "DF",
+          "r": 77,
+          "nat": "Switzerland",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Walter Schnyder",
+          "p": "MF",
+          "r": 76,
+          "nat": "Switzerland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Coni Wechselberger",
+          "p": "MF",
+          "r": 76,
+          "nat": "Switzerland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ernst Wechselberger",
+          "p": "FW",
+          "r": 78,
+          "nat": "Switzerland",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Eugen Meier",
+          "p": "FW",
+          "r": 79,
+          "nat": "Switzerland",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Walter Bigler",
+          "p": "FW",
+          "r": 76,
+          "nat": "Switzerland",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Gilbert Rey",
+          "p": "FW",
+          "r": 75,
+          "nat": "Switzerland",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Fritz Steffen",
+          "p": "DF",
+          "r": 74,
+          "nat": "Switzerland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Heinz Schneiter",
+          "p": "DF",
+          "r": 76,
+          "nat": "Switzerland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Roland Citherlet",
+          "p": "MF",
+          "r": 73,
+          "nat": "Switzerland",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Othmar Allemann",
+          "p": "FW",
+          "r": 75,
+          "nat": "Switzerland",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Hans Häuptli",
+          "p": "FW",
+          "r": 73,
+          "nat": "Switzerland",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1958-59"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1958-59",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "esp-rma-195859",
+      "club": "Real Madrid",
+      "country": "Spain",
+      "league": "ESP",
+      "season": "1958-59",
+      "kit": [
+        "#FFFFFF",
+        "#FEBE10"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Rogelio Domínguez",
+          "p": "GK",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Marquitos",
+          "p": "DF",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "José Santamaría",
+          "p": "DF",
+          "r": 83,
+          "nat": "Uruguay",
+          "dp": [
+            "CB",
+            "SW"
+          ]
+        },
+        {
+          "n": "José Zárraga",
+          "p": "MF",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Juan Santisteban",
+          "p": "MF",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Antonio Ruiz",
+          "p": "DF",
+          "r": 73,
+          "nat": "Spain",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Raymond Kopa",
+          "p": "MF",
+          "r": 87,
+          "nat": "France",
+          "dp": [
+            "AM",
+            "RW"
+          ]
+        },
+        {
+          "n": "Enrique Mateos",
+          "p": "MF",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Alfredo Di Stéfano",
+          "p": "FW",
+          "r": 93,
+          "nat": "Argentina",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "Héctor Rial",
+          "p": "FW",
+          "r": 79,
+          "nat": "Argentina",
+          "dp": [
+            "SS"
+          ]
+        },
+        {
+          "n": "Francisco Gento",
+          "p": "FW",
+          "r": 88,
+          "nat": "Spain",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Ferenc Puskás",
+          "p": "FW",
+          "r": 91,
+          "nat": "Hungary",
+          "dp": [
+            "CF",
+            "FW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1958-59"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1958-59",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "fra-rei-195859",
+      "club": "Reims",
+      "country": "France",
+      "league": "FRA",
+      "season": "1958-59",
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Dominique Colonna",
+          "p": "GK",
+          "r": 77,
+          "nat": "France",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Bruno Rodzik",
+          "p": "DF",
+          "r": 73,
+          "nat": "France",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Robert Jonquet",
+          "p": "DF",
+          "r": 79,
+          "nat": "France",
+          "dp": [
+            "CB",
+            "SW"
+          ]
+        },
+        {
+          "n": "Raoul Giraudo",
+          "p": "DF",
+          "r": 73,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Armand Penverne",
+          "p": "MF",
+          "r": 74,
+          "nat": "France",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Michel Leblond",
+          "p": "MF",
+          "r": 73,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Robert Lamartine",
+          "p": "MF",
+          "r": 72,
+          "nat": "France",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "René Bliard",
+          "p": "FW",
+          "r": 74,
+          "nat": "France",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Just Fontaine",
+          "p": "FW",
+          "r": 86,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Roger Piantoni",
+          "p": "FW",
+          "r": 80,
+          "nat": "France",
+          "dp": [
+            "LW",
+            "AM"
+          ]
+        },
+        {
+          "n": "Jean Vincent",
+          "p": "FW",
+          "r": 76,
+          "nat": "France",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "René Jacquet",
+          "p": "GK",
+          "r": 72,
+          "nat": "France",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Claude Dubaële",
+          "p": "MF",
+          "r": 72,
+          "nat": "France",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Robert Siatka",
+          "p": "MF",
+          "r": 75,
+          "nat": "France",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Raymond Baratto",
+          "p": "FW",
+          "r": 72,
+          "nat": "France",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Robert Bérard",
+          "p": "FW",
+          "r": 71,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1958-59"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1958-59",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "fairs-barcel-195860",
+      "club": "Barcelona",
+      "country": "Spain",
+      "season": "1958-60",
+      "comps": [
+        "FAIRS"
+      ],
+      "rating": 80,
+      "kit": [
+        "#A50044",
+        "#004D98"
+      ],
+      "crest": null,
+      "scorers": [
+        "Martínez"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "FAIRS",
+          "season": "1958-60",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "fairs-birmin-195860",
+      "club": "Birmingham City",
+      "country": "England",
+      "season": "1958-60",
+      "comps": [
+        "FAIRS"
+      ],
+      "rating": 78,
+      "kit": [
+        "#0000FF",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Hooper"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "FAIRS",
+          "season": "1958-60",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "ita-acm-195758",
+      "club": "AC Milan",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1957-58",
+      "kit": [
+        "#FB090B",
+        "#000000"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Narciso Soldan",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Alfio Fontana",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Cesare Maldini",
+          "p": "DF",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Eros Beraldo",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Mario Bergamaschi",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Luigi Radice",
+          "p": "MF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Nils Liedholm",
+          "p": "MF",
+          "r": 85,
+          "nat": "Sweden",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Juan Alberto Schiaffino",
+          "p": "MF",
+          "r": 87,
+          "nat": "Uruguay",
+          "dp": [
+            "AM",
+            "SS"
+          ]
+        },
+        {
+          "n": "Giancarlo Danova",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Ernesto Grillo",
+          "p": "FW",
+          "r": 82,
+          "nat": "Argentina",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "Ernesto Cucchiaroni",
+          "p": "FW",
+          "r": 79,
+          "nat": "Argentina",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Lorenzo Buffon",
+          "p": "GK",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Francesco Zagatti",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Luigi Zannier",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Amos Mariani",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Carlo Galli",
+          "p": "FW",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1957-58"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1957-58",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "eng-mun-5758",
+      "club": "Manchester United",
+      "country": "England",
+      "league": "ENG",
+      "season": "1957-58",
+      "kit": [
+        "#DA291C",
+        "#000000"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Harry Gregg",
+          "p": "GK",
+          "r": 81,
+          "nat": "Northern Ireland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Ray Wood",
+          "p": "GK",
+          "r": 78,
+          "nat": "England",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Bill Foulkes",
+          "p": "DF",
+          "r": 80,
+          "nat": "England",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Roger Byrne",
+          "p": "DF",
+          "r": 83,
+          "nat": "England",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Mark Jones",
+          "p": "DF",
+          "r": 79,
+          "nat": "England",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Jackie Blanchflower",
+          "p": "DF",
+          "r": 79,
+          "nat": "Northern Ireland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Eddie Colman",
+          "p": "MF",
+          "r": 80,
+          "nat": "England",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Duncan Edwards",
+          "p": "MF",
+          "r": 89,
+          "nat": "England",
+          "dp": [
+            "CM",
+            "CB"
+          ]
+        },
+        {
+          "n": "Bobby Charlton",
+          "p": "FW",
+          "r": 85,
+          "nat": "England",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "Tommy Taylor",
+          "p": "FW",
+          "r": 85,
+          "nat": "England",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Liam Whelan",
+          "p": "FW",
+          "r": 81,
+          "nat": "Ireland",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "David Pegg",
+          "p": "FW",
+          "r": 80,
+          "nat": "England",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Johnny Berry",
+          "p": "FW",
+          "r": 80,
+          "nat": "England",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Dennis Viollet",
+          "p": "FW",
+          "r": 83,
+          "nat": "England",
+          "dp": [
+            "CF",
+            "SS"
+          ]
+        },
+        {
+          "n": "Kenny Morgans",
+          "p": "FW",
+          "r": 76,
+          "nat": "Wales",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Geoff Bent",
+          "p": "DF",
+          "r": 75,
+          "nat": "England",
+          "dp": [
+            "LB"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1957-58"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1957-58",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "esp-rma-195758",
+      "club": "Real Madrid",
+      "country": "Spain",
+      "league": "ESP",
+      "season": "1957-58",
+      "kit": [
+        "#FFFFFF",
+        "#FEBE10"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Juan Alonso",
+          "p": "GK",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Ángel Atienza",
+          "p": "DF",
+          "r": 73,
+          "nat": "Spain",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "José Santamaría",
+          "p": "DF",
+          "r": 83,
+          "nat": "Uruguay",
+          "dp": [
+            "CB",
+            "SW"
+          ]
+        },
+        {
+          "n": "Rafael Lesmes",
+          "p": "DF",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Juan Santisteban",
+          "p": "MF",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "José Zárraga",
+          "p": "MF",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Raymond Kopa",
+          "p": "MF",
+          "r": 87,
+          "nat": "France",
+          "dp": [
+            "AM",
+            "RW"
+          ]
+        },
+        {
+          "n": "Joseíto",
+          "p": "MF",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Alfredo Di Stéfano",
+          "p": "FW",
+          "r": 93,
+          "nat": "Argentina",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "Héctor Rial",
+          "p": "FW",
+          "r": 79,
+          "nat": "Argentina",
+          "dp": [
+            "SS"
+          ]
+        },
+        {
+          "n": "Francisco Gento",
+          "p": "FW",
+          "r": 88,
+          "nat": "Spain",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Rogelio Domínguez",
+          "p": "GK",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Marquitos",
+          "p": "DF",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Miguel Muñoz",
+          "p": "MF",
+          "r": 79,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ramón Marsal",
+          "p": "MF",
+          "r": 73,
+          "nat": "Spain",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Enrique Mateos",
+          "p": "MF",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "AM",
+            "MF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1957-58"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1957-58",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "hun-vas-5758",
+      "club": "Vasas SC",
+      "country": "Hungary",
+      "league": "HUN",
+      "season": "1957-58",
+      "kit": [
+        "#E30613",
+        "#003DA5"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Lajos Csordás",
+          "p": "GK",
+          "r": 77,
+          "nat": "Hungary",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Ferenc Révész",
+          "p": "GK",
+          "r": 70,
+          "nat": "Hungary",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Sándor Mátrai",
+          "p": "DF",
+          "r": 80,
+          "nat": "Hungary",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gyula Sárosi",
+          "p": "DF",
+          "r": 76,
+          "nat": "Hungary",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "János Bundzsák",
+          "p": "MF",
+          "r": 79,
+          "nat": "Hungary",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Lajos Kárpáti",
+          "p": "DF",
+          "r": 77,
+          "nat": "Hungary",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Rudolf Illovszky",
+          "p": "FW",
+          "r": 79,
+          "nat": "Hungary",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Károly Sándor",
+          "p": "FW",
+          "r": 82,
+          "nat": "Hungary",
+          "dp": [
+            "RW",
+            "CF"
+          ]
+        },
+        {
+          "n": "Lajos Csutorás",
+          "p": "MF",
+          "r": 76,
+          "nat": "Hungary",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "József Bencsics",
+          "p": "DF",
+          "r": 75,
+          "nat": "Hungary",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Géza Berecz",
+          "p": "MF",
+          "r": 75,
+          "nat": "Hungary",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Béla Szilágyi",
+          "p": "FW",
+          "r": 77,
+          "nat": "Hungary",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "István Pál",
+          "p": "FW",
+          "r": 75,
+          "nat": "Hungary",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Antal Kotász",
+          "p": "DF",
+          "r": 74,
+          "nat": "Hungary",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Mihály Tóth",
+          "p": "FW",
+          "r": 76,
+          "nat": "Hungary",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Gyula Teleki",
+          "p": "MF",
+          "r": 73,
+          "nat": "Hungary",
+          "dp": [
+            "RM"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1957-58"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1957-58",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "ita-fio-195657",
+      "club": "Fiorentina",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1956-57",
+      "kit": [
+        "#4B0082",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Giuliano Sarti",
+          "p": "GK",
+          "r": 82,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Aldo Magnini",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Mauro Orzan",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Sergio Cervato",
+          "p": "DF",
+          "r": 79,
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "SW"
+          ]
+        },
+        {
+          "n": "Gino Scaramucci",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Giuseppe Segato",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Arnaldo Sentimenti IV",
+          "p": "GK",
+          "r": 70,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Julinho",
+          "p": "MF",
+          "r": 83,
+          "nat": "Brazil",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Luigi Bizzarri",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Renzo Gratton",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Virgilio Virgili",
+          "p": "FW",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Miguel Montuori",
+          "p": "FW",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "SS",
+            "CF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1956-57"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1956-57",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "eng-mun-5657",
+      "club": "Manchester United",
+      "country": "England",
+      "league": "ENG",
+      "season": "1956-57",
+      "kit": [
+        "#DA291C",
+        "#000000"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Ray Wood",
+          "p": "GK",
+          "r": 79,
+          "nat": "England",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "David Gaskell",
+          "p": "GK",
+          "r": 71,
+          "nat": "England",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Bill Foulkes",
+          "p": "DF",
+          "r": 80,
+          "nat": "England",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Roger Byrne",
+          "p": "DF",
+          "r": 82,
+          "nat": "England",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Mark Jones",
+          "p": "DF",
+          "r": 79,
+          "nat": "England",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Jackie Blanchflower",
+          "p": "DF",
+          "r": 79,
+          "nat": "Northern Ireland",
+          "dp": [
+            "CB",
+            "CM"
+          ]
+        },
+        {
+          "n": "Eddie Colman",
+          "p": "MF",
+          "r": 80,
+          "nat": "England",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Duncan Edwards",
+          "p": "MF",
+          "r": 88,
+          "nat": "England",
+          "dp": [
+            "CM",
+            "CB"
+          ]
+        },
+        {
+          "n": "Bobby Charlton",
+          "p": "FW",
+          "r": 84,
+          "nat": "England",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "Tommy Taylor",
+          "p": "FW",
+          "r": 85,
+          "nat": "England",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Liam Whelan",
+          "p": "FW",
+          "r": 82,
+          "nat": "Ireland",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "David Pegg",
+          "p": "FW",
+          "r": 80,
+          "nat": "England",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Johnny Berry",
+          "p": "FW",
+          "r": 80,
+          "nat": "England",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Dennis Viollet",
+          "p": "FW",
+          "r": 83,
+          "nat": "England",
+          "dp": [
+            "CF",
+            "SS"
+          ]
+        },
+        {
+          "n": "Geoff Bent",
+          "p": "DF",
+          "r": 75,
+          "nat": "England",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Wilf McGuinness",
+          "p": "MF",
+          "r": 76,
+          "nat": "England",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1956-57"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1956-57",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "esp-rma-195657",
+      "club": "Real Madrid",
+      "country": "Spain",
+      "league": "ESP",
+      "season": "1956-57",
+      "kit": [
+        "#FFFFFF",
+        "#FEBE10"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Juan Alonso",
+          "p": "GK",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Manuel Torres Pastor",
+          "p": "DF",
+          "r": 73,
+          "nat": "Spain",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Marquitos",
+          "p": "DF",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Rafael Lesmes",
+          "p": "DF",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Miguel Muñoz",
+          "p": "MF",
+          "r": 80,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "José Zárraga",
+          "p": "MF",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Raymond Kopa",
+          "p": "MF",
+          "r": 87,
+          "nat": "France",
+          "dp": [
+            "AM",
+            "RW"
+          ]
+        },
+        {
+          "n": "Enrique Mateos",
+          "p": "MF",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Alfredo Di Stéfano",
+          "p": "FW",
+          "r": 93,
+          "nat": "Argentina",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "Héctor Rial",
+          "p": "FW",
+          "r": 80,
+          "nat": "Argentina",
+          "dp": [
+            "SS"
+          ]
+        },
+        {
+          "n": "Francisco Gento",
+          "p": "FW",
+          "r": 88,
+          "nat": "Spain",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Javier Berasaluce",
+          "p": "GK",
+          "r": 72,
+          "nat": "Spain",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Ángel Atienza",
+          "p": "DF",
+          "r": 73,
+          "nat": "Spain",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "José Becerril",
+          "p": "DF",
+          "r": 72,
+          "nat": "Spain",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Juan Santisteban",
+          "p": "MF",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Joseíto",
+          "p": "FW",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "RW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1956-57"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1956-57",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "srb-rsb-5657",
+      "club": "Red Star Belgrade",
+      "country": "Yugoslavia",
+      "league": "YUG",
+      "season": "1956-57",
+      "kit": [
+        "#E4002B",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Vladimir Beara",
+          "p": "GK",
+          "r": 83,
+          "nat": "Yugoslavia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Srđan Mrkušić",
+          "p": "GK",
+          "r": 72,
+          "nat": "Yugoslavia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Vladimir Durković",
+          "p": "DF",
+          "r": 78,
+          "nat": "Yugoslavia",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Branko Stanković",
+          "p": "DF",
+          "r": 80,
+          "nat": "Yugoslavia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ivan Santek",
+          "p": "DF",
+          "r": 75,
+          "nat": "Yugoslavia",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Vujadin Boškov",
+          "p": "MF",
+          "r": 82,
+          "nat": "Yugoslavia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Dragoslav Šekularac",
+          "p": "FW",
+          "r": 83,
+          "nat": "Yugoslavia",
+          "dp": [
+            "SS",
+            "AM"
+          ]
+        },
+        {
+          "n": "Bora Kostić",
+          "p": "FW",
+          "r": 83,
+          "nat": "Yugoslavia",
+          "dp": [
+            "LW",
+            "CF"
+          ]
+        },
+        {
+          "n": "Todor Veselinović",
+          "p": "FW",
+          "r": 80,
+          "nat": "Yugoslavia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Muhamed Mujić",
+          "p": "FW",
+          "r": 78,
+          "nat": "Yugoslavia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Kosta Tomašević",
+          "p": "FW",
+          "r": 76,
+          "nat": "Yugoslavia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Lazar Tasić",
+          "p": "MF",
+          "r": 75,
+          "nat": "Yugoslavia",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Vladica Popović",
+          "p": "FW",
+          "r": 78,
+          "nat": "Yugoslavia",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "Siniša Zlatković",
+          "p": "DF",
+          "r": 74,
+          "nat": "Yugoslavia",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Toza Veselinović",
+          "p": "MF",
+          "r": 74,
+          "nat": "Yugoslavia",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Vladimir Petrović",
+          "p": "DF",
+          "r": 73,
+          "nat": "Yugoslavia",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1956-57"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1956-57",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "ita-acm-5556",
+      "club": "AC Milan",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1955-56",
+      "kit": [
+        "#D50000",
+        "#000000"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Lorenzo Buffon",
+          "p": "GK",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Narciso Soldan",
+          "p": "GK",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Cesare Maldini",
+          "p": "DF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Francesco Zagatti",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Mario Bergamaschi",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Eros Beraldo",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Juan Alberto Schiaffino",
+          "p": "FW",
+          "r": 86,
+          "nat": "Uruguay",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "Nils Liedholm",
+          "p": "MF",
+          "r": 84,
+          "nat": "Sweden",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Gunnar Nordahl",
+          "p": "FW",
+          "r": 86,
+          "nat": "Sweden",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Amleto Frignani",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "RW",
+            "CF"
+          ]
+        },
+        {
+          "n": "Bruno Mora",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Arturo Silvestri",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Renzo Burini",
+          "p": "FW",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Roberto Tosi",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Osvaldo Bagnoli",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Luigi Radice",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1955-56"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1955-56",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "sco-hib-5556",
+      "club": "Hibernian",
+      "country": "Scotland",
+      "league": "SCO",
+      "season": "1955-56",
+      "kit": [
+        "#00843D",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Tommy Younger",
+          "p": "GK",
+          "r": 79,
+          "nat": "Scotland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Jackie Wren",
+          "p": "GK",
+          "r": 70,
+          "nat": "Scotland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Jock Govan",
+          "p": "DF",
+          "r": 76,
+          "nat": "Scotland",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Joe McClelland",
+          "p": "DF",
+          "r": 75,
+          "nat": "Scotland",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "John Paterson",
+          "p": "DF",
+          "r": 76,
+          "nat": "Scotland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Eddie Turnbull",
+          "p": "MF",
+          "r": 80,
+          "nat": "Scotland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Jimmy Thomson",
+          "p": "DF",
+          "r": 74,
+          "nat": "Scotland",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Gordon Smith",
+          "p": "FW",
+          "r": 82,
+          "nat": "Scotland",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Bobby Johnstone",
+          "p": "FW",
+          "r": 80,
+          "nat": "Scotland",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "Lawrie Reilly",
+          "p": "FW",
+          "r": 82,
+          "nat": "Scotland",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Eddie Combe",
+          "p": "MF",
+          "r": 74,
+          "nat": "Scotland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Willie Ormond",
+          "p": "FW",
+          "r": 79,
+          "nat": "Scotland",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Tommy Preston",
+          "p": "MF",
+          "r": 74,
+          "nat": "Scotland",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Pat Ward",
+          "p": "DF",
+          "r": 73,
+          "nat": "Scotland",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Jimmy Mulkerrin",
+          "p": "FW",
+          "r": 72,
+          "nat": "Scotland",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "John Grant",
+          "p": "DF",
+          "r": 74,
+          "nat": "Scotland",
+          "dp": [
+            "RB"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1955-56"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1955-56",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "esp-rma-195556",
+      "club": "Real Madrid",
+      "country": "Spain",
+      "league": "ESP",
+      "season": "1955-56",
+      "kit": [
+        "#FFFFFF",
+        "#FEBE10"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Juan Alonso",
+          "p": "GK",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Ángel Atienza",
+          "p": "DF",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Marquitos",
+          "p": "DF",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Rafael Lesmes",
+          "p": "DF",
+          "r": 75,
+          "nat": "Spain",
+          "dp": [
+            "LB"
+          ]
+        },
+        {
+          "n": "Miguel Muñoz",
+          "p": "MF",
+          "r": 80,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "José Zárraga",
+          "p": "MF",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Ramón Marsal",
+          "p": "MF",
+          "r": 72,
+          "nat": "Spain",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Joseíto",
+          "p": "FW",
+          "r": 74,
+          "nat": "Spain",
+          "dp": [
+            "RW"
+          ]
+        },
+        {
+          "n": "Alfredo Di Stéfano",
+          "p": "FW",
+          "r": 93,
+          "nat": "Argentina",
+          "dp": [
+            "CF",
+            "AM"
+          ]
+        },
+        {
+          "n": "Héctor Rial",
+          "p": "FW",
+          "r": 80,
+          "nat": "Argentina",
+          "dp": [
+            "SS",
+            "CF"
+          ]
+        },
+        {
+          "n": "Francisco Gento",
+          "p": "FW",
+          "r": 88,
+          "nat": "Spain",
+          "dp": [
+            "LW"
+          ]
+        },
+        {
+          "n": "Joaquín Navarro",
+          "p": "DF",
+          "r": 76,
+          "nat": "Spain",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "José Becerril",
+          "p": "DF",
+          "r": 73,
+          "nat": "Spain",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Roque Olsen",
+          "p": "FW",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Luis Molowny",
+          "p": "FW",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "AM",
+            "LW"
+          ]
+        },
+        {
+          "n": "Heliodoro Castaño",
+          "p": "FW",
+          "r": 72,
+          "nat": "Spain",
+          "dp": [
+            "RW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1955-56"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1955-56",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "fra-rei-195556",
+      "club": "Reims",
+      "country": "France",
+      "league": "FRA",
+      "season": "1955-56",
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "René-Jean Jacquet",
+          "p": "GK",
+          "r": 73,
+          "nat": "France",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Raoul Giraudo",
+          "p": "DF",
+          "r": 73,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Robert Jonquet",
+          "p": "DF",
+          "r": 80,
+          "nat": "France",
+          "dp": [
+            "CB",
+            "SW"
+          ]
+        },
+        {
+          "n": "Simon Zimny",
+          "p": "DF",
+          "r": 72,
+          "nat": "France",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Armand Penverne",
+          "p": "MF",
+          "r": 74,
+          "nat": "France",
+          "dp": [
+            "DM"
+          ]
+        },
+        {
+          "n": "Léon Siatka",
+          "p": "MF",
+          "r": 72,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Michel Leblond",
+          "p": "MF",
+          "r": 74,
+          "nat": "France",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Michel Hidalgo",
+          "p": "MF",
+          "r": 76,
+          "nat": "France",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Bronisław Głowacki",
+          "p": "MF",
+          "r": 74,
+          "nat": "France",
+          "dp": [
+            "RM"
+          ]
+        },
+        {
+          "n": "Raymond Kopa",
+          "p": "FW",
+          "r": 87,
+          "nat": "France",
+          "dp": [
+            "AM",
+            "SS"
+          ]
+        },
+        {
+          "n": "Michel Bliard",
+          "p": "FW",
+          "r": 74,
+          "nat": "France",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Jean Templin",
+          "p": "FW",
+          "r": 74,
+          "nat": "France",
+          "dp": [
+            "LW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "EC",
+          "season": "1955-56"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1955-56",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "fairs-barcel-195558",
+      "club": "Barcelona",
+      "country": "Spain",
+      "season": "1955-58",
+      "comps": [
+        "FAIRS"
+      ],
+      "rating": 80,
+      "kit": [
+        "#A50044",
+        "#004D98"
+      ],
+      "crest": null,
+      "scorers": [
+        "Suárez"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "FAIRS",
+          "season": "1955-58",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "fairs-london-195558",
+      "club": "London XI",
+      "country": "England",
+      "season": "1955-58",
+      "comps": [
+        "FAIRS"
+      ],
+      "rating": 78,
+      "kit": [
+        "#FFFFFF",
+        "#001C58"
+      ],
+      "crest": null,
+      "scorers": [
+        "Greaves"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "FAIRS",
+          "season": "1955-58",
+          "stage": "RU"
+        }
+      ]
+    }
+  ]
+}

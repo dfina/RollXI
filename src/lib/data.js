@@ -2,72 +2,50 @@ import { hashStr, mulberry32, seededShuffle, avg } from "./rng.js";
 import { scorerPoolFromRoster } from "./match.js";
 import { decadeOf } from "./date.js";
 
-/* Stages that make a club-season opponent-eligible under the new schema.
-   See docs/CONTENT-TARGET.md section 3 for why this replaced the old
-   mutually-exclusive tierType "P"/"O" split: winners, runners-up and
-   semi-finalists are a strict SUBSET of playable teams under the content
-   target, so a club-season increasingly needs to be BOTH draftable and
-   faceable — something tierType could never represent. */
+/* Stages that make a club-season opponent-eligible. Depth and opponent
+   eligibility are independent: a full roster can also be faced in Campaign
+   when it reached a European final or semi-final. */
 const OPPONENT_STAGES = ["W", "RU", "SF"];
 
-/* Build a lightweight opponent-shape row from a full roster. Used when a
-   pickable squad's achievements also make it opponent-eligible (e.g. a
-   drafted club that reached a UCL final). Synthesises the single `rating`
-   number legacy stub rows always carried, as the average of every listed
-   player's rating — the same averaging teamStrength() already uses for a
-   full XI, just over the whole squad rather than 11 starters. Because this
-   club-season is also pickable, its opponent row also carries a compact
-   position- and rating-weighted scorer pool derived from the FULL roster. */
+/* Build a lightweight opponent-shape row from a full roster. The opponent
+   scorer pool is always derived from the FULL playable roster so overlapping
+   pickable/opponent club-seasons never fall back to an abbreviated list. */
 function toStub(row) {
   return {
     id: row.id, club: row.club, season: row.season, country: row.country || null,
     rating: Math.round(avg(row.players.map((p) => p.r))),
     kit: row.kit, crest: row.crest || null,
     scorers: scorerPoolFromRoster(row.players),
-    comps: (row.achievements || []).map((a) => a.comp)
+    comps: [...new Set((row.achievements || []).map((a) => a.comp))]
   };
 }
 
 function isOpponentEligible(row) {
-  if (Array.isArray(row.achievements)) {
-    return row.achievements.some((a) => OPPONENT_STAGES.includes(a.stage));
-  }
-  // Legacy fallback for rows not yet migrated to achievements[]. As of
-  // 2026-08-07 this is deliberately limited to 26 main-draw opponent rows in
-  // pack-opponents-ucl-main-200001.json and pack-opponents-provisional.json;
-  // see docs/CONTENT-TARGET.md sections 3C-3D.
-  return row.tierType === "O";
-}
-function roleOf(row) {
-  return row.role || (row.players && row.players.length ? "roster" : "stub");
+  return (row.achievements || []).some((a) => OPPONENT_STAGES.includes(a.stage));
 }
 
-/* Loads the pack manifest and merges all packs into one dataset.
-   Rosters (role: "roster") contribute players and are draftable. Any
-   club-season whose achievements include a final or semi-final ALSO
-   contributes an opponent row, whether or not it's also a roster — see
-   isOpponentEligible() above. Rows not yet migrated to the new schema fall
-   back to the old tierType-based split so nothing regresses mid-migration. */
+/* Loads the stable decade-shard manifest and merges all club-seasons into one
+   dataset. File boundaries are storage concerns only: each club-season exists
+   exactly once, in the shard matching the season start year. */
 export async function loadData() {
   const idx = await fetch("data/index.json").then((r) => r.json());
-  const packs = await Promise.all(
-    idx.packs.map((p) => fetch("data/" + p.file).then((r) => r.json()))
+  const shards = await Promise.all(
+    idx.shards.map((shard) => fetch("data/" + shard.file).then((r) => r.json()))
   );
   const squads = [];   // draftable
-  const oppRows = [];  // opponent-eligible (may overlap with squads now)
-  for (const pack of packs) {
-    for (const row of pack.squads || []) {
-      const role = roleOf(row);
-      if (role === "roster") squads.push(row);
+  const oppRows = [];  // opponent-eligible (may overlap with squads)
+  for (const shard of shards) {
+    for (const row of shard.squads || []) {
+      if (row.role === "roster") squads.push(row);
       if (isOpponentEligible(row)) {
-        oppRows.push(role === "roster" ? toStub(row) : row);
+        oppRows.push(row.role === "roster" ? toStub(row) : row);
       }
     }
   }
   const squadById = {};
   squads.forEach((s) => { squadById[s.id] = s; });
 
-  /* flat player-season list for Daily trivia and Chains */
+  /* Flat player-season list for Daily trivia and Chains. */
   const players = [];
   squads.forEach((s) => {
     s.players.forEach((p) => {
@@ -82,7 +60,7 @@ export async function loadData() {
       });
     });
   });
-  return { squads, oppRows, squadById, players, packNames: idx.packs.map((p) => p.name) };
+  return { squads, oppRows, squadById, players, shardNames: idx.shards.map((s) => s.name) };
 }
 
 export function rarityOf(rating) {

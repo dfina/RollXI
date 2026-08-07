@@ -1,0 +1,664 @@
+# Roll XI — Coverage and Data Audit
+
+This is the persistent evidence and migration log for coverage work. New editions
+and rebuilds should append sections here rather than creating additional audit
+files. `docs/CONTENT-TARGET.md` remains the normative specification; this file
+records how particular data was researched, corrected and released.
+
+## 2026-08-07 — Canonical decade-shard migration
+
+The former production-wave/competition pack layout was consolidated into stable
+decade shards. No club-season row was dropped or duplicated during the storage
+migration.
+
+Release state after migration:
+
+- 1,114 club-season rows across 8 shards;
+- 805 full rosters and 309 stubs;
+- 12,816 player-season records;
+- every row stored exactly once in the shard matching its season start year;
+- `tierType` removed from all 1,114 rows and from runtime logic;
+- `index.json` changed from a production-pack manifest to a decade-shard manifest;
+- validation now rejects wrong-shard placement, duplicate club-seasons and any
+  reintroduced `tierType`.
+
+The final 26 legacy rows that previously relied on `tierType: "O"` were migrated
+to explicit `achievements[]` without inventing finalist honours. Manchester City
+2018-19 and Arsenal, Deportivo La Coruña, Galatasaray and Manchester United
+2000-01 are recorded as UCL quarter-finalists. The other 21 UCL 2000-01
+placeholder rows are recorded as group-stage participants. Because none of these
+26 rows has `W`, `RU` or `SF`, they no longer enter Campaign opposition through a
+legacy fallback. This reduces the opponent pool to the historically intended
+`W`/`RU`/`SF` set while retaining the rows for coverage accounting.
+
+The eight canonical files created were `clubs-1950s.json` through
+`clubs-2020s.json`. Future Serie A work may add `clubs-1920s.json`,
+`clubs-1930s.json` and `clubs-1940s.json` when first needed.
+
+Migration release gate:
+
+- old/new ID sets: 1,114/1,114 and identical;
+- no row-content changes beyond removal of `tierType` and the intended 26
+  explicit achievement migrations;
+- zero duplicate club-seasons;
+- `npm run validate`: zero errors and zero warnings;
+- scorer regression: 191 overlapping pickable opponents use their full rosters;
+- Campaign opponent pool after removing the inaccurate legacy fallback: 474;
+- `coverage:next`: Conference League 2024-25, `clubs-2020s.json`;
+- production build could not be executed in this environment because Vite is
+  not installed (`vite: not found`).
+
+### Pre-migration production metadata snapshot
+
+The old files are intentionally deleted after consolidation. Their top-level
+metadata is preserved below so source/provenance notes remain recoverable from
+the repository without restoring dozens of production files.
+
+```json
+[
+  {
+    "file": "pack-opponents-confl-itc.json",
+    "rows": 72,
+    "meta": {
+      "name": "Conference League + UEFA Intertoto Cup — finalists index (tier-O)",
+      "competitions": [
+        "CONFL",
+        "ITC"
+      ],
+      "scope": "Conference League: winner + runner-up all 5 editions 2021-22 to 2025-26. Intertoto: winner + runner-up of each final 1995-2005 (2-3 finals per year); outright winner only for 2006-2008 (format changed to 11 parallel finals, no traditional runner-up designation).",
+      "source": "Wikipedia finals, UEFA.com, aworldofsoccer.com, RSSSF, cross-checked",
+      "verified": true,
+      "note": "2025-26 Conference League final (Crystal Palace 1-0 Rayo Vallecano) independently confirmed 2026-08-07 via live Wikipedia fetch, superseding the earlier \"user context, not independently verified\" status.",
+      "achievementsAdded": "2026-08-07: per-row achievements[] (stage W/RU) added for all 74 rows — Conference League from Wikipedia, Intertoto Cup winners-per-year from RSSSF (rsssf.org/tablesi/intertoto.html); non-winning Intertoto entries assigned RU by elimination within each year, since the pack itself only ever holds winner+runner-up pairs for 1995-2005. 2006-2008 Intertoto entries correctly carry no RU (11 parallel winners, no runner-up concept, per the pack's existing scope note). See docs/CONTENT-TARGET.md section 3D."
+    }
+  },
+  {
+    "file": "pack-opponents-cwc.json",
+    "rows": 78,
+    "meta": {
+      "name": "European Cup Winners' Cup — finalists index (tier-O)",
+      "competition": "CWC",
+      "scope": "Winner and runner-up of every edition 1960-61 to 1998-99",
+      "source": "aworldofsoccer.com year-by-year + Wikipedia finals, cross-checked",
+      "verified": true,
+      "achievementsAdded": "2026-08-07: per-row achievements[] (stage W/RU) added for all 78 rows, derived from RSSSF (rsssf.org/ec/ec2stats.html) full finals table, cross-checked against the same source's own winners-by-club and runners-up-by-club tallies. See docs/CONTENT-TARGET.md section 3D."
+    }
+  },
+  {
+    "file": "pack-opponents-ec-ucl.json",
+    "rows": 0,
+    "meta": {
+      "name": "European Cup / Champions League — finalists & semi-finalists",
+      "source": "myfootballfacts.com (finals + semi-finals), cross-checked vs Wikipedia",
+      "verified": true,
+      "scope": "Winner, runner-up and both semi-finalists of every edition 1955-56 to 2025-26",
+      "comps": [
+        "EC",
+        "UCL"
+      ],
+      "note": "Tier-O staging index. Promoted finalists/SFs removed as they became pickable (global O/P de-dup sweep, 14 Jun 2026). Trends toward empty as promotion completes."
+    }
+  },
+  {
+    "file": "pack-opponents-provisional.json",
+    "rows": 1,
+    "meta": {
+      "name": "Residual unique opponents (post-B-series)",
+      "note": "Former campaign-testing placeholder. The B-series verified indexes have landed, so all covered/promoted rows were removed (14 Jun 2026). Only club-seasons unique to this pack and absent from the verified indexes remain.",
+      "provisional": false
+    }
+  },
+  {
+    "file": "pack-opponents-ucl-main-200001.json",
+    "rows": 25,
+    "meta": {
+      "scope": "UEFA Champions League 2000-01 main draw / group-stage participants not already represented as P/O",
+      "source": "UEFA official season clubs page"
+    }
+  },
+  {
+    "file": "pack-opponents-uefa.json",
+    "rows": 133,
+    "meta": {
+      "name": "Inter-Cities Fairs Cup / UEFA Cup / Europa League — finalists index (tier-O)",
+      "competitions": [
+        "FAIRS",
+        "UEFA",
+        "UEL"
+      ],
+      "scope": "Winner and runner-up of every edition: Fairs Cup 1955-1971, UEFA Cup 1971-2009, Europa League 2009-2025 (2025-26 in progress, excluded)",
+      "source": "rsssf.org + aworldofsoccer.com + Wikipedia finals, cross-checked",
+      "verified": true,
+      "note": "2025-26 Europa League final (Aston Villa 3-0 Freiburg, Istanbul) independently confirmed 2026-08-07 via live Wikipedia/RSSSF fetch, superseding the earlier \"user-supplied, not independently verified\" status.",
+      "achievementsAdded": "2026-08-07: per-row achievements[] (stage W/RU) added for all 133 rows — Fairs Cup and UEFA Cup/Europa League finals both sourced from RSSSF (rsssf.org/ec/ec3stats.html), cross-checked against that source's own club/country win tallies. One transcription error caught and corrected during cross-checking: the 1962-63 and 1963-64 Fairs Cup finalists (Dinamo Zagreb vs Real Zaragoza) had been transposed between seasons in the first pass. See docs/CONTENT-TARGET.md section 3D."
+    }
+  },
+  {
+    "file": "pack-pickable-c1.json",
+    "rows": 19,
+    "meta": {
+      "name": "C1 — Serie A 2024-25 (all 20 clubs)",
+      "wave": "C1",
+      "note": "Complete. All 20 Serie A 2024-25 clubs pickable — 19 rosters built this wave (Inter 2024-25 was already in Wave Fa). Napoli champion (4th title); relegated: Empoli, Venezia, Monza. UCL qualifiers: Napoli/Inter/Milan/Atalanta/Juventus. Sources: official club sites, AC Milan lineup archives, Wikipedia season articles, ESPN match sheets for confirmed XIs. All squads web-verified. Nationality corrections applied post-build for Retegui→Atalanta, Di Gregorio→Juventus, Buongiorno→Napoli, Vojvoda→Como, Luperto/Marin→Cagliari.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-c10.json",
+    "rows": 20,
+    "meta": {
+      "id": "pack-pickable-c10",
+      "name": "C10: Serie A 2015-16 (all non-duplicated clubs)",
+      "source": "C-series five-season batch; public roster/stat spot checks; human validation gate for Priority A issues"
+    }
+  },
+  {
+    "file": "pack-pickable-c11.json",
+    "rows": 19,
+    "meta": {
+      "id": "pack-pickable-c11",
+      "name": "C11: Serie A 2014-15 (all non-duplicated clubs)",
+      "source": "C-series five-season batch; public roster/stat spot checks; human validation gate for Priority A issues"
+    }
+  },
+  {
+    "file": "pack-pickable-c12.json",
+    "rows": 20,
+    "meta": {
+      "id": "pack-pickable-c12",
+      "name": "C12: Serie A 2013-14 (all non-duplicated clubs)",
+      "source": "C-series five-season batch; public roster/stat spot checks; human validation gate for Priority A issues"
+    }
+  },
+  {
+    "file": "pack-pickable-c13.json",
+    "rows": 20,
+    "meta": {
+      "id": "pack-pickable-c13",
+      "name": "C13: Serie A 2012-13 (all non-duplicated clubs)",
+      "source": "C-series five-season batch; public roster/stat spot checks; human validation gate for Priority A issues"
+    }
+  },
+  {
+    "file": "pack-pickable-c14.json",
+    "rows": 20,
+    "meta": {
+      "id": "pack-pickable-c14",
+      "name": "C14: Serie A 2011-12 (all non-duplicated clubs)",
+      "source": "C-series five-season batch; public roster/stat spot checks; human validation gate for Priority A issues"
+    }
+  },
+  {
+    "file": "pack-pickable-c15.json",
+    "rows": 20,
+    "meta": null
+  },
+  {
+    "file": "pack-pickable-c16.json",
+    "rows": 19,
+    "meta": null
+  },
+  {
+    "file": "pack-pickable-c17.json",
+    "rows": 20,
+    "meta": null
+  },
+  {
+    "file": "pack-pickable-c18.json",
+    "rows": 20,
+    "meta": null
+  },
+  {
+    "file": "pack-pickable-c19.json",
+    "rows": 19,
+    "meta": null
+  },
+  {
+    "file": "pack-pickable-c2.json",
+    "rows": 20,
+    "meta": {
+      "name": "C2 — Serie A 2023-24 (all 20 clubs)",
+      "wave": "C2",
+      "note": "Complete. All 20 Serie A 2023-24 clubs pickable (all 20 built this wave — no prior 2023-24 Italian squads in the system). Inter champions (94 pts, 20th Scudetto); relegated: Sassuolo, Frosinone, Salernitana. Post-build corrections: Frattesi removed from Sassuolo (moved to Inter summer 2023); Colombo/Marin/Walukiewicz cross-squad duplication resolved; Tameze at Torino not Hellas Verona; Arnautovic at Inter not Bologna; Atalanta 2023-24 O/P overlap vs UEFA pack removed. Updated appender now cleans O/P overlaps from ALL opponent packs. O/P overlap = 0, P/P dups = 0.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-c20.json",
+    "rows": 19,
+    "meta": null
+  },
+  {
+    "file": "pack-pickable-c21.json",
+    "rows": 19,
+    "meta": null
+  },
+  {
+    "file": "pack-pickable-c22.json",
+    "rows": 18,
+    "meta": null
+  },
+  {
+    "file": "pack-pickable-c23.json",
+    "rows": 15,
+    "meta": null
+  },
+  {
+    "file": "pack-pickable-c24.json",
+    "rows": 18,
+    "meta": null
+  },
+  {
+    "file": "pack-pickable-c25.json",
+    "rows": 18,
+    "meta": null
+  },
+  {
+    "file": "pack-pickable-c3.json",
+    "rows": 18,
+    "meta": {
+      "name": "C3 — Serie A 2022-23 (all 20 clubs)",
+      "wave": "C3",
+      "note": "Complete. All 20 Serie A 2022-23 clubs pickable (18 built this wave — Inter and AC Milan 2022-23 already in Wave Fa/1a from UCL semi-final appearances). Napoli scudetto season under Spalletti, 90 pts, their 3rd title. Relegated: Spezia, Cremonese, Sampdoria. Post-build corrections: De Ketelaere at Milan not Cremonese; Simeone/Barak/Provedel/Ricci/Caputo all moved clubs summer 2022 — correct placements applied. Castrovilli at Fiorentina not Verona. Updated appender cleared Fiorentina (UECL) and Roma (UEL) from tier-O. O/P overlap = 0, P/P dups = 0.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-c4.json",
+    "rows": 20,
+    "meta": {
+      "name": "C4 — Serie A 2021-22 (all 20 clubs)",
+      "wave": "C4",
+      "note": "Complete. All 20 Serie A 2021-22 clubs pickable (all 20 built this wave). AC Milan champions (19th Scudetto, first in 11 years, Pioli). Relegated: Venezia, Cagliari, Genoa. Post-build corrections: Vlahović removed from Fiorentina (moved to Juve Jan 2022); Locatelli removed from Sassuolo (moved to Juve summer 2021); Zaccagni removed from Hellas Verona (moved to Lazio Jan 2022); Boulaye Dia removed from Salernitana (already in Villarreal wave1a). O/P overlap = 0, P/P dups = 0.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-c5.json",
+    "rows": 20,
+    "meta": {
+      "pack": "C5: Serie A 2020-21",
+      "sourceNotes": [
+        "Built as C-series five-season rolling batch; participant skeleton checked against Transfermarkt/WorldFootball and player pools checked against FBref/WorldFootball/Transfermarkt where available.",
+        "Ratings are game calibration judgements derived from role, team finish and statistical prominence."
+      ],
+      "skippedAlreadyPickable": []
+    }
+  },
+  {
+    "file": "pack-pickable-c6.json",
+    "rows": 20,
+    "meta": {
+      "pack": "C6: Serie A 2019-20",
+      "sourceNotes": [
+        "Built as C-series five-season rolling batch; participant skeleton checked against Transfermarkt/WorldFootball and player pools checked against FBref/WorldFootball/Transfermarkt where available.",
+        "Ratings are game calibration judgements derived from role, team finish and statistical prominence."
+      ],
+      "skippedAlreadyPickable": []
+    }
+  },
+  {
+    "file": "pack-pickable-c7.json",
+    "rows": 20,
+    "meta": {
+      "pack": "C7: Serie A 2018-19",
+      "sourceNotes": [
+        "Built as C-series five-season rolling batch; participant skeleton checked against Transfermarkt/WorldFootball and player pools checked against FBref/WorldFootball/Transfermarkt where available.",
+        "Ratings are game calibration judgements derived from role, team finish and statistical prominence."
+      ],
+      "skippedAlreadyPickable": []
+    }
+  },
+  {
+    "file": "pack-pickable-c8.json",
+    "rows": 19,
+    "meta": {
+      "pack": "C8: Serie A 2017-18",
+      "sourceNotes": [
+        "Built as C-series five-season rolling batch; participant skeleton checked against Transfermarkt/WorldFootball and player pools checked against FBref/WorldFootball/Transfermarkt where available.",
+        "Ratings are game calibration judgements derived from role, team finish and statistical prominence."
+      ],
+      "skippedAlreadyPickable": [
+        "AS Roma"
+      ]
+    }
+  },
+  {
+    "file": "pack-pickable-c9.json",
+    "rows": 19,
+    "meta": {
+      "pack": "C9: Serie A 2016-17",
+      "sourceNotes": [
+        "Built as C-series five-season rolling batch; participant skeleton checked against Transfermarkt/WorldFootball and player pools checked against FBref/WorldFootball/Transfermarkt where available.",
+        "Ratings are game calibration judgements derived from role, team finish and statistical prominence."
+      ],
+      "skippedAlreadyPickable": [
+        "Juventus"
+      ]
+    }
+  },
+  {
+    "file": "pack-pickable-confl-2526.json",
+    "rows": 36,
+    "meta": {
+      "name": "Conference League 2025-26 — complete league phase",
+      "source": "UEFA official league-phase participant list and final results; ESPN 2025-26 UEFA Conference League competition-specific squad/appearance pages; UEFA/team season-squad cross-checks. See docs/CONFL-AUDIT-2025-26.md.",
+      "verified": true,
+      "note": "36/36 league-phase clubs. Sixteen-player rosters prioritise competition-proper appearances. Generic DF/MF/FW detailed-position codes are used where accessible sources do not establish a narrower sub-role; no narrow role is invented."
+    }
+  },
+  {
+    "file": "pack-pickable-current.json",
+    "rows": 1,
+    "meta": {
+      "name": "Reigning European champions (pickable)",
+      "note": "User-supplied 2025-26 results, beyond assistant Jan 2026 knowledge cutoff and not independently verified. PSG roster from knowledge as of early 2026.",
+      "userSupplied": true
+    }
+  },
+  {
+    "file": "pack-pickable-wave1a.json",
+    "rows": 12,
+    "meta": {
+      "name": "Wave 1a — EC/UCL semi-finalists 2020-21 to 2025-26 (pickable)",
+      "wave": "1a",
+      "note": "Promotes 12 modern UCL semi-finalist club-seasons from tier-O to full pickable squads. Spines cross-checked vs Wikipedia/UEFA; built mostly from knowledge.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-wave1b.json",
+    "rows": 19,
+    "meta": {
+      "name": "Wave 1b — EC/UCL semi-finalists 2010-11 to 2019-20 (pickable)",
+      "wave": "1b",
+      "note": "Promotes 19 2010s UCL semi-finalist club-seasons to full pickable squads. Monaco 2016-17 already in seed pack. Spines cross-checked; decoys auto-selected from era/league reserves.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-wave1c.json",
+    "rows": 20,
+    "meta": {
+      "name": "Wave 1c — EC/UCL semi-finalists 2000-01 to 2009-10 (pickable)",
+      "wave": "1c",
+      "note": "Promotes 20 2000s UCL semi-finalist club-seasons to full pickable squads. Spines cross-checked; decoys auto-selected from era/league reserves.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-wave1d.json",
+    "rows": 20,
+    "meta": {
+      "name": "Wave 1d — EC/UCL semi-finalists 1990-91 to 1999-00 (pickable)",
+      "wave": "1d",
+      "note": "Promotes 20 1990s EC/UCL semi-finalist club-seasons to full pickable squads. Western sides conf B; Eastern-European/smaller-nation sides conf C (spine accurate, fringe approximate). Decoys auto-selected from era/league reserves.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-wave1e.json",
+    "rows": 20,
+    "meta": {
+      "name": "Wave 1e — European Cup semi-finalists 1980-81 to 1989-90 (pickable)",
+      "wave": "1e",
+      "note": "Promotes 20 1980s European Cup semi-finalist club-seasons to full pickable squads. Famous sides conf B; smaller-nation sides conf C (spine accurate, fringe approximate). Decoys auto-selected from era/league reserves.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-wave1f.json",
+    "rows": 20,
+    "meta": {
+      "name": "Wave 1f — European Cup semi-finalists 1970-71 to 1979-80 (pickable)",
+      "wave": "1f",
+      "note": "Promotes 20 1970s European Cup semi-finalist club-seasons to full pickable squads. Famous sides conf B; smaller-nation sides conf C (spine accurate, fringe approximate). Saint-Étienne 1974-75 spine web-verified; 1975-76 already in seed pack. Decoys auto-selected from era/league reserves.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-wave1g.json",
+    "rows": 30,
+    "meta": {
+      "name": "Wave 1g — European Cup semi-finalists 1955-56 to 1969-70 (pickable)",
+      "wave": "1g",
+      "note": "Promotes 30 1950s-60s European Cup semi-finalist club-seasons to full pickable squads, completing the entire EC era. Documented giants conf B; deep-tail sides conf C (spine accurate, fringe approximate). Busby Babes spine web-verified. Decoys auto-selected from era/league reserves.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-wavefa.json",
+    "rows": 20,
+    "meta": {
+      "name": "Wave Fa — EC/UCL finalists (winners + runners-up) 2015-16 to 2025-26 (pickable)",
+      "wave": "Fa",
+      "note": "Corrective promotion: makes the two finalists of each recent UCL edition draftable (Wave 1 had promoted only losing semi-finalists). 2024-25 & 2025-26 PSG/Arsenal user-supplied beyond Jan 2026 cutoff.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-wavefb.json",
+    "rows": 19,
+    "meta": {
+      "name": "Wave Fb — EC/UCL finalists (winners + runners-up) 2004-05 to 2014-15 (pickable)",
+      "wave": "Fb",
+      "note": "Corrective promotion continued (2000s/early-2010s finalists). Some winners already pickable via seed (Barca 08-09, Bayern 12-13, Inter 09-10).",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-wavefc.json",
+    "rows": 26,
+    "meta": {
+      "name": "Wave Fc — EC/UCL finalists (winners + runners-up) 1990-91 to 2003-04 (pickable)",
+      "wave": "Fc",
+      "note": "Complete. All 13 editions 1991-92 to 2003-04 have both finalists pickable, each web-verified per edition (BDFutbol / Wikipedia / UEFA / club sources). 1990-91 winner Red Star Belgrade built as template; 1990-91 runner-up Marseille and 1998-99 winner Manchester United are pickable via the seed pack. Every promoted club-season was removed from the EC/UCL tier-O index in the same pass; global O/P de-dup re-run with zero overlap.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-wavefd.json",
+    "rows": 20,
+    "meta": {
+      "name": "Wave Fd — EC/UCL finalists (winners + runners-up) 1980-81 to 1989-90 (pickable)",
+      "wave": "Fd",
+      "note": "Complete. All 10 editions 1980-81 to 1989-90 have both finalists pickable, each web-verified per edition (final match sheets, BDFutbol / Wikipedia / UEFA / club sources). Every promoted club-season removed from the EC/UCL tier-O index in the same pass; global O/P de-dup re-run with zero overlap. Eastern European sides (Steaua, Benfica) carry conf C where squad depth beyond the final XI is less documented.",
+      "verified": true
+    }
+  },
+  {
+    "file": "pack-pickable-wavefe.json",
+    "rows": 18,
+    "meta": {
+      "name": "Wave Fe — EC/UCL finalists (winners + runners-up) 1970-71 to 1979-80",
+      "wave": "Fe",
+      "note": "Complete. All 10 editions 1970-71 to 1979-80 have both finalists pickable (18 rosters built this wave; Bayern Munich 1973-74 and Saint-Étienne 1975-76 were already pickable). Each web-verified per edition via final match sheets. Every promoted club-season removed from EC/UCL tier-O in the same pass; O/P overlap = 0. 2026-08-07: Malmö FF 1978-79 expanded from 11 to 16 players; Tore Cervin and two positional classifications corrected. See docs/ROSTER-AUDIT-2026-08-07.md.",
+      "verified": true,
+      "source": "2026-08-07 Malmö FF 1978-79 depth rebuild: Malmö FF official European Cup retrospective and DFB Datencenter competition squad, cross-checked against the existing finalist match-sheet research."
+    }
+  },
+  {
+    "file": "pack-pickable-waveff.json",
+    "rows": 29,
+    "meta": {
+      "name": "Wave Ff — EC finalists 1955-56 to 1969-70",
+      "wave": "Ff",
+      "note": "Complete. All 15 editions 1955-56 to 1969-70 have both finalists pickable (29 rosters built this wave; Inter 1964-65 was already pickable). Web-verified per edition via final match sheets (Real Madrid official site, Transfermarkt, The Celtic Wiki, Inter.it, AC Milan official, Wikipedia). Every promoted club-season removed from EC/UCL tier-O in the same pass. EC/UCL tier-O index is now at ZERO — all finalist club-seasons across the full competition history are pickable. O/P overlap = 0, P/P dups = 0. 2026-08-07: all 20 previously 11-player rosters rebuilt to 16 players; clear source conflicts in player identity, nationality and positional classification corrected. See docs/ROSTER-AUDIT-2026-08-07.md.",
+      "verified": true,
+      "source": "2026-08-07 depth rebuild: RSSSF European Champions' Cup winning-squad appearance records; DFB Datencenter European Cup competition squads and match sheets; WorldFootball appearance records; official club archives (AC Milan, Inter, Malmö FF and Barcelona/Real Madrid material) for cross-checks."
+    }
+  },
+  {
+    "file": "pack-seed.json",
+    "rows": 16,
+    "meta": null
+  }
+]
+```
+
+## Legacy 11-player roster audit — 2026-08-07
+
+### Purpose
+
+This audit resolves the 21 playable historical rosters that still sat at the
+11-player compatibility minimum. The release house standard is 16 players.
+
+The affected records were not bulk-filled from generic season lists. Each
+club-season was checked against European Cup competition-squad evidence and,
+where available, appearance or match-sheet evidence. Existing rows were also
+checked for obvious identity, nationality and positional conflicts discovered
+while researching the missing depth.
+
+### Evidence standard
+
+Primary evidence used in this pass:
+
+1. **DFB Datencenter** European Cup team-season squad pages and match sheets.
+2. **RSSSF, European Champions' Club Cup/UEFA Champions League Winning Squads**
+   for appearance counts on winning teams.
+3. **WorldFootball** historical European Cup appearances, squad lists and match
+   line-ups where the relevant edition is available.
+4. **Official club archives** for targeted cross-checks, notably Real Madrid,
+   AC Milan, Inter, Malmö FF and Barcelona material.
+
+Selection rule: prefer players with documented appearances in that European Cup
+campaign. If fewer than 16 appearance participants could be established from
+available records, fill the remaining places only with players independently
+verified as members of that competition/season squad. Ratings were calibrated
+against existing adjacent-season instances in the Roll XI dataset where
+possible, then against role/prominence so that adding reserves did not inflate
+Campaign difficulty.
+
+This is a depth rebuild, not a claim that every historical competition had a
+formal 16-player registration limit. Sixteen is Roll XI's gameplay standard.
+
+### Source-evidence matrix and changes
+
+| Club-season | Evidence used | Depth change | Other corrections made |
+|---|---|---:|---|
+| Real Madrid 1955-56 | RSSSF appearance table + DFB competition squad + Real Madrid archive spot-check | 11 → 16 | Added Navarro, Becerril, Olsen, Molowny, Castaño |
+| Real Madrid 1956-57 | RSSSF appearance table + DFB competition squad | 11 → 16 | `Joaquín Torres` corrected to **Manuel Torres Pastor**; added Berasaluce, Atienza, Becerril, Santisteban, Joseíto |
+| Real Madrid 1957-58 | RSSSF appearance table + DFB competition squad | 11 → 16 | Added Rogelio Domínguez, Marquitos, Miguel Muñoz, Marsal, Mateos |
+| AC Milan 1957-58 | European Cup match line-ups + AC Milan official season roster | 11 → 16 | Added Buffon, Zagatti, Zannier, Mariani, Galli; Narciso Soldan nationality corrected to **Italy** |
+| Reims 1958-59 | DFB 16-player competition squad + WorldFootball match line-ups | 11 → 16 | `Piotr Rodzik` → **Bruno Rodzik**; `Michel Bliard` → **René Bliard**; added Jacquet, Dubaële, Siatka, Baratto, Bérard |
+| Real Madrid 1959-60 | RSSSF appearance table + Real Madrid final archive + competition records | 11 → 16 | `Manuel Vidal` → **José María Vidal**; Rogelio Domínguez nationality corrected to **Argentina**; added Miché, Ruiz Cervilla, Mateos, Santisteban, Chus Herrera |
+| Eintracht Frankfurt 1959-60 | WorldFootball appearance table + DFB competition squad | 11 → 16 | `Friedrich Lutz` → **Friedel Lutz**; `Hans Eigenbrodt` → **Hans-Walter Eigenbrodt**; added Kirchhof, Schymik, Bechtold, Bäumler, Herbert. Fourteen of the final 16 have documented European Cup appearances; Kirchhof and Herbert are verified competition-squad reserves. |
+| Barcelona 1960-61 | DFB competition squad + WorldFootball squad/match line-ups | 11 → 16 | Split erroneous `Segarra Gensana` into **Enric Gensana** plus **Joan Segarra**; `Joaquim Garay` → **Jesús Garay**; `Joan Vergés` → **Martí Vergés**; removed unsupported Teódulo García; added Gràcia, Segarra, Olivella, Ribelles, Tejada, Villaverde |
+| Benfica 1961-62 | RSSSF appearance table + DFB competition squad | 11 → 16 | Added Humberto Fernandes, José Neto, Serra, Santana, José Torres |
+| Real Madrid 1961-62 | DFB competition squad + WorldFootball match evidence | 11 → 16 | Added Vicente Train, Isidro Sánchez, Zárraga, Ruiz Cervilla, Canário |
+| AC Milan 1962-63 | RSSSF appearance table + AC Milan official roster | 11 → 16 | `Angelo Mora` → **Bruno Mora**; Víctor Benítez nationality corrected to **Peru**; added Liberalato, Pelagalli, Radice, Barison, José Germano |
+| Benfica 1962-63 | WorldFootball appearance table + competition squad records | 11 → 16 | Added Santana, Ângelo, Augusto Silva, Germano, Jacinto Santos |
+| Inter 1963-64 | RSSSF appearance table + Inter official 1963-64 squad | 11 → 16 | Added Szymaniak, Ciccolo, Di Giacomo, Bugatti, Codognato |
+| Real Madrid 1963-64 | DFB competition squad + match records | 11 → 16 | Unsupported `Vicente Cobo` corrected to **Vicente Train**; added Betancort, Miera, Casado, Félix Ruiz, Evaristo |
+| Benfica 1964-65 | DFB competition squad + match records | 11 → 16 | Added Nascimento, Jacinto Santos, Humberto Fernandes, Santana, Ângelo |
+| Real Madrid 1965-66 | RSSSF appearance table + DFB competition squad | 11 → 16 | Added Betancort, Miera, Santamaría, Félix Ruiz, Puskás |
+| Partizan Belgrade 1965-66 | DFB competition squad + DFB European Cup match sheets | 11 → 16 | Removed unsupported Dragoslav Šekularac; corrected **Radoslav Bečejac**, **Mane Bajić**, **Vladimir Kovačević**, **Josip Pirmajer** and Rašović's primary role; added Ćurković, Paunović, Damjanović, Mihajlović, Miladinović, Vislavski |
+| Benfica 1967-68 | DFB competition squad + match records | 11 → 16 | `Adolfo` expanded to **Adolfo Calisto**; added Nascimento, Humberto Coelho, Cavém, Raúl Machado, Santana |
+| AC Milan 1968-69 | RSSSF appearance table + competition records | 11 → 16 | Added William Vecchi, Luigi Maldera, Nello Santin, Romano Fogli, Giorgio Rognoni |
+| Ajax 1968-69 | DFB competition squad + DFB match sheets | 11 → 16 | `Anton Pronk` → **Tonny Pronk**, primary role corrected to DF; added Stuy, Krol, Suurendonk, Bennie Muller, Haan |
+| Malmö FF 1978-79 | Malmö FF official campaign retrospective + DFB competition squad | 11 → 16 | `Thomas Cervin` → **Tore Cervin**; Kent Jönsson corrected to DF; Jan-Olov Kindvall corrected to MF; added Roy Andersson, Kristensson, Bo Larsson, Malmberg, Arvidsson |
+
+### Ratings audit
+
+The rebuilt Wave Ff pack averages **77.63** across its player ratings; Wave Fe
+averages **78.88**. Both remain aligned with the documented target of a pack mean
+near 78. New reserve/depth players were generally rated below established
+starters rather than using reputation at career peak.
+
+### Validation result
+
+After the rebuild:
+
+- all 21 affected rosters contain exactly 16 players;
+- every affected roster still contains at least one goalkeeper;
+- no duplicate player names were introduced within a roster;
+- `npm run validate` reports **0 errors and 0 warnings**;
+- no unresolved Priority A identity conflict found during this audit remains in
+  the affected 21 rows.
+
+The validator's warning for future 11-player rosters remains intentionally in
+place. The compatibility minimum is still 11, but new/rebuilt release content
+should target 16 whenever source coverage supports it.
+
+## Roll XI — Conference League 2025-26 coverage audit
+
+Date: 2026-08-07
+
+### Scope and evidence standard
+
+This audit covers the complete 36-club **league phase** of the 2025-26 UEFA Conference League. Qualifying is excluded by the Roll XI main-draw definition.
+
+- UEFA participant source: https://www.uefa.com/uefaconferenceleague/news/029c-1e9829b53e51-119e69b956ee-1000--2025-26-conference-league-meet-the-league-phase-teams/
+- UEFA draw cross-check: https://www.uefa.com/uefaconferenceleague/news/029c-1e92246e7a6f-e273155cc9d3-1000--2025-26-conference-league-league-phase-draw-contenders-learn/
+- UEFA final results/stage source: https://www.uefa.com/uefaconferenceleague/news/029c-1e9ad66c8169-aaecb38941a7-1000--2025-26-conference-league-all-the-results/
+- Roster selection source family: ESPN 2025-26 UEFA Conference League team squad/stat pages, using competition-proper appearances rather than qualifying where available.
+- Player identity/position cross-check family: UEFA team/player pages and season-squad records. Where the cross-check only establishes a broad role, Roll XI stores `DF`, `MF` or `FW` rather than inventing a narrower detailed position.
+
+The two pre-existing 2025-26 opponent stubs, Crystal Palace and Rayo Vallecano, are upgraded to full rosters under their existing IDs. No duplicate club-season rows are created.
+
+### Source-evidence matrix
+
+| Club | Participant | Competition-proper roster/appearance evidence | Identity/role cross-check | Deepest stage | Priority A |
+|---|---|---|---|---|---|
+| Noah | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Rapid Vienna | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Zrinjski Mostar | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Rijeka | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
+| AEK Larnaca | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
+| Omonia | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Sigma Olomouc | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
+| Sparta Prague | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
+| Crystal Palace | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | W | None unresolved |
+| KuPS | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Strasbourg | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | SF | None unresolved |
+| Mainz | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | QF | None unresolved |
+| Lincoln Red Imps | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| AEK Athens | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | QF | None unresolved |
+| Breiðablik | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Fiorentina | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | QF | None unresolved |
+| Drita | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Hamrun Spartans | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| AZ Alkmaar | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | QF | None unresolved |
+| Shkëndija | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Jagiellonia Białystok | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Lech Poznań | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
+| Legia Warsaw | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Raków Częstochowa | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
+| Shamrock Rovers | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Shelbourne | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Universitatea Craiova | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Aberdeen | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Slovan Bratislava | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Celje | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
+| Rayo Vallecano | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | RU | None unresolved |
+| Häcken | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Lausanne-Sport | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Samsunspor | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | R16 | None unresolved |
+| Dynamo Kyiv | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | MAIN | None unresolved |
+| Shakhtar Donetsk | UEFA league-phase list | ESPN UECL squad/appearance page | UEFA / season squad cross-check | SF | None unresolved |
+
+### Priority A finalisation corrections
+
+The final human-review pass corrected several issues before release:
+
+- Crystal Palace was re-ranked against final competition-proper appearances: Will Hughes, Eddie Nketiah and Evann Guessand replace lower-participation Chadi Riad, Jørgen Strand Larsen and Christantus Uche in the 16-player game roster.
+- Rayo Vallecano uses Florian Lejeune, who made nine Conference League appearances, rather than lower-participation Luiz Felipe.
+- Häcken identity errors were corrected: `Sigurd Rosted Lode` → Marius Lode, `Kristoffer Lundqvist` → Adam Lundkvist and `Vegard Wembangomo` → Brice Wembangomo. Isak Brusberg replaces Mikkel Bruun Madsen, and Adrian Svanbäck's nationality is Finland.
+- Hamrun Spartans broad roles were corrected for Ognjen Bjeličić, Marcelina Emerson and Joseph Mbong.
+- Lincoln Red Imps broad roles were corrected for Víctor Villacañas and Toni.
+
+These corrections were made before the release validation gate.
+
+### Roster construction
+
+Each club has 16 players and at least one goalkeeper. The selection prioritises players who appeared most often in the Conference League proper. When a club did not have 16 clearly documented competition-proper participants in the accessible appearance table, the remaining place(s) were filled from the verified registered/season squad and treated as depth players.
+
+Ratings are a gameplay calibration, not a claim of an external numerical rating. Team baselines reflect 2025-26 competitive level and European progress, while player-level variation is deliberately narrow. The pack is checked against the project-wide 62-97 range and the target mean near 78.
+
+### Detailed-position policy
+
+The evidence sources used for this cycle often expose only broad goalkeeper/defender/midfielder/forward roles. Rather than infer unverified sub-roles, the pack uses the canonical generic detailed codes `DF`, `MF` and `FW` where necessary. Those codes are already first-class Roll XI position values and deliberately provide broad tactical compatibility. More specific `dp` values can be added later only when sourced player-by-player.
+
+### Release gate
+
+Release requires: 36/36 club-season rows, 16 players per roster, zero duplicate club-season rows, no residual Palace/Rayo stubs, valid crest override keys, validation with zero errors, and coverage reporting 2025-26 as complete.

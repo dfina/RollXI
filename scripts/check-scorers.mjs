@@ -55,7 +55,7 @@ const stubOnly = data.oppRows.find((opp) => !data.squadById[opp.id] && Array.isA
 if (stubOnly) {
   const fallback = scorerPoolFromOpponent(stubOnly, data.squadById);
   if (!fallback.length || fallback.some((p) => p.weight !== 1)) {
-    fail(`${stubOnly.id}: legacy stub scorer fallback changed unexpectedly`);
+    fail(`${stubOnly.id}: stub scorer fallback changed unexpectedly`);
   }
 }
 

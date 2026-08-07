@@ -1,6 +1,6 @@
 {
-  "$comment": "Roll XI content target. This file is the SINGLE SOURCE OF TRUTH for what the finished dataset should contain. It declares scope as rules. scripts/coverage.mjs derives breadth from the actual packs and can prove depth/completeness only for editions where expectedRostersPerEdition is populated. Do not hand-edit progress into this file: progress is derived. Only edit this file to change the goal or to add researched expected counts.",
-  "version": "1.3",
+  "$comment": "Roll XI content target. This file is the SINGLE SOURCE OF TRUTH for what the finished dataset should contain. It declares scope as rules. scripts/coverage.mjs derives progress from the canonical decade shards and can prove depth/completeness only for editions where expectedRostersPerEdition is populated. Do not hand-edit progress into this file: progress is derived. Only edit this file to change the goal or to add researched expected counts.",
+  "version": "1.4",
   "updated": "2026-08-07",
   "stageCodes": {
     "W": "Winner",
@@ -13,8 +13,8 @@
   },
   "roles": {
     "roster": "Club-season has a full player list. Draftable in Campaign and available to Daily and Chains.",
-    "stub": "Club-season has rating + kit + scorer names only. Usable as Campaign opposition. No players, so it does not appear in Daily or Chains.",
-    "$note": "Depth and opponent eligibility are independent. A roster can also be Campaign opposition when achievements[] contains W/RU/SF. See docs/CONTENT-TARGET.md section 3."
+    "stub": "Club-season has no player list and is not draftable. It may carry rating/kit/scorer summary data and European coverage facts. It is Campaign opposition only when achievements[] contains W/RU/SF; GROUP/QF/MAIN stubs are coverage-only placeholders until upgraded to full rosters.",
+    "$note": "Depth and opponent eligibility are independent. A roster or stub can be Campaign opposition when achievements[] contains W/RU/SF. The legacy tierType field was removed on 2026-08-07; role + achievements[] are now the only runtime schema."
   },
   "scopes": [
     {
@@ -281,33 +281,38 @@
       "INT": "ITC"
     }
   },
-  "packGranularity": {
+  "dataSharding": {
     "decided": "2026-08-07",
-    "europeanTargetRowsPerPack": [
-      80,
-      120
+    "schema": "club-season-v2",
+    "rule": "Store each club-season exactly once in a stable decade shard selected by the season start year (for example 2024-25 -> clubs-2020s.json). File boundaries are storage concerns only and never encode pickability, competition, production wave or opponent status.",
+    "currentShards": [
+      "clubs-1950s.json",
+      "clubs-1960s.json",
+      "clubs-1970s.json",
+      "clubs-1980s.json",
+      "clubs-1990s.json",
+      "clubs-2000s.json",
+      "clubs-2010s.json",
+      "clubs-2020s.json"
     ],
-    "serieA": {
-      "oneJsonPackPerSeason": true,
-      "typicalRowsPerPack": [
-        18,
-        20
-      ],
-      "maxSeasonsPerProductionCycle": 5,
-      "typicalRowsPerProductionCycle": [
-        90,
-        100
-      ]
+    "futureShards": [
+      "clubs-1920s.json",
+      "clubs-1930s.json",
+      "clubs-1940s.json"
+    ],
+    "productionCycle": {
+      "serieA": {
+        "maxSeasonsPerCycle": 5,
+        "note": "A production cycle may cover at most five Serie A seasons. Finalise and validate the whole cycle before release; the first pass is draft production, not release."
+      },
+      "european": "Keep each European edition atomic during research and finalisation, but merge the finished club-season rows into the relevant decade shard(s) rather than creating edition-specific production files."
     },
-    "rationale": "Pack size and production-cycle size are different things. Existing Serie A C-series files contain roughly 18-20 club-season rows each, one season per JSON pack; a five-season production cycle therefore contains roughly 90-100 rows across five packs. For European competitions, edition size varies much more, so use roughly 80-120 club-season rows as a packaging target while keeping each edition atomic. The earlier C15-C19 production attempt proved that larger production cycles can introduce accuracy risk; that attempt is superseded by the rebuilt/source-checked files currently listed in index.json. Five seasons is therefore a maximum Serie A production cycle, not evidence that a five-season batch is automatically release-quality.",
     "rules": [
-      "Never mix competitions or leagues in one JSON pack.",
-      "For European competitions, keep an edition atomic: never split one edition main draw across two packs.",
-      "For low-density European competitions, batch multiple whole editions into one JSON pack until roughly 80-120 club-season rows are reached.",
-      "For high-density European competitions, one edition may meet or exceed the target on its own; do not force extra editions into a file merely to hit a nominal row target.",
-      "For Serie A, keep one JSON pack per season, normally around 18-20 club-season rows.",
-      "Build Serie A in production cycles of at most five seasons. Finalise and validate all packs in the cycle before release; the first pass is draft production, not release.",
-      "Before writing Serie A JSON, build a source-evidence matrix for every club-season; validate squads against appearances/games played; escalate unresolved Priority A cases before packaging; then run cross-batch ratings and duplicate audits."
+      "Never create a new production pack for routine coverage expansion; edit the relevant decade shard instead.",
+      "Do not duplicate a club-season across shards. Upgrade an existing stub to a roster in place when coverage expands.",
+      "Use season start year to choose the shard, including irregular multi-year labels such as 1955-58 -> clubs-1950s.json.",
+      "Keep source-evidence and release notes in docs/COVERAGE-AUDIT.md rather than creating one audit file per edition.",
+      "Run npm run validate after every shard edit; validation rejects rows stored in the wrong decade, duplicate club-seasons and legacy tierType."
     ]
   }
 }
