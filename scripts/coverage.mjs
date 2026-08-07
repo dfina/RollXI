@@ -231,7 +231,7 @@ async function main() {
     } else {
       console.log("This is a breadth gap only; establish expected roster counts before calling the edition complete.");
     }
-    console.log("See docs/CONTENT-TARGET.md section 7 for the build recipe.");
+    console.log("See docs/CONTENT-TARGET.md section 8 for the coverage-production workflow.");
   } else {
     console.log("No provable remaining gap from the counts currently declared.");
     console.log("Scopes with unknown depth still require expected roster counts before the target can be declared complete.");

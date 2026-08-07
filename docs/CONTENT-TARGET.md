@@ -224,26 +224,158 @@ error-prone. The first pass is draft production, not release.
 - If an existing row is a stub, upgrade it in place instead of creating a
   duplicate roster.
 
-## 8. Build recipe for one edition or season
+## 8. Coverage-production workflow
 
-1. Run `npm run validate`.
-2. Run `npm run coverage:next`.
-3. Confirm the participant count from authoritative sources. If the edition's
-   `expectedRostersPerEdition` is unknown, research and add that count to
-   `coverage-target.json` before treating completion as measurable.
-4. Build a source-evidence matrix in `docs/COVERAGE-AUDIT.md`.
-5. Select the 16-player game roster from competition/season participation
-   evidence, not reputation or a generic current squad list.
-6. Cross-check names, nationalities and positions. Resolve Priority A issues
-   before release.
-7. Assign gameplay ratings conservatively and audit the mean/range.
-8. Merge the row into the correct `clubs-YYYYs.json` shard. Upgrade existing
-   stubs in place.
-9. Run `npm run validate` and `npm run coverage`.
-10. Run the production build. If the environment prevents dependency
-    installation, record that as an infrastructure limitation rather than a
-    successful build.
-11. Append the release-gate result to `docs/COVERAGE-AUDIT.md`.
+Coverage expansion uses an **exception-driven production pipeline**. The goal is
+to automate repetitive candidate assembly while preserving human judgement on
+identity, selection, position and source conflicts.
+
+### 8.1 Prepared source matrix
+
+Before writing a decade shard, create a machine-readable JSON matrix outside the
+production data directory. The canonical schema is `rollxi-coverage-matrix-v1`.
+A European edition should contain the full main-draw field and record the
+authoritative participant/results sources once, plus appearance and identity
+sources for each club.
+
+Minimal shape:
+
+```json
+{
+  "schema": "rollxi-coverage-matrix-v1",
+  "status": "draft",
+  "edition": {
+    "scopeId": "euro-confl",
+    "competition": "CONFL",
+    "season": "2024-25"
+  },
+  "sources": {
+    "participants": "authoritative participant source",
+    "results": "authoritative results/stage source"
+  },
+  "clubs": [
+    {
+      "club": "Example FC",
+      "country": "Exampleland",
+      "league": "EXA",
+      "stage": "MAIN",
+      "kit": ["#111111", "#ffffff"],
+      "sources": {
+        "appearances": "competition-specific appearances source",
+        "identity": "identity/nationality/position cross-check source"
+      },
+      "players": [
+        {
+          "n": "Example Player",
+          "nat": "Exampleland",
+          "p": "MF",
+          "dp": ["CM"],
+          "r": 78,
+          "competition": { "minutes": 720, "apps": 9, "starts": 8 },
+          "registered": true
+        }
+      ]
+    }
+  ]
+}
+```
+
+`expectedParticipants` can be supplied explicitly in `edition` only where the
+relevant target is not yet researched. If `coverage-target.json` already has a
+count for that edition, that count is authoritative and a conflicting matrix
+value is a release blocker.
+
+`competition` statistics refer to the competition proper, excluding qualifying
+where qualifying is out of scope. `season` statistics may be supplied for
+verified registered players who did not appear in the competition proper and
+are needed as controlled fallbacks when fewer than 16 participants are
+documented.
+
+### 8.2 Candidate generation
+
+Run:
+
+```text
+npm run coverage:prepare -- --input /path/to/source-matrix.json
+```
+
+The helper in `scripts/prepare-coverage.mjs`:
+
+1. ranks competition participants by minutes, then appearances and starts;
+2. selects a 16-player candidate roster and guarantees a goalkeeper where the
+   evidence pool contains one;
+3. uses verified registered/season-squad fallbacks only when fewer than 16
+   competition participants are available;
+4. matches player names against the existing Roll XI database and reuses
+   unanimous nationality/broad-position identity metadata when the matrix omits
+   it; if only a broad current-season position is established, it keeps the
+   generic `DF`/`MF`/`FW` detailed code rather than borrowing a narrower role
+   from another season;
+5. flags conflicts instead of silently overriding sourced values;
+6. detects an existing club-season and classifies the action as add, stub
+   upgrade or roster replacement;
+7. calculates the projected edition coverage delta; and
+8. writes a draft JSON plus a human-readable exception report to the
+   gitignored `coverage-work/` directory.
+
+The 16-player cut is a candidate, not an automatic historical verdict. A close
+16th/17th participation cut-off is surfaced for review. Human judgement can
+override the mechanical cut cleanly with `selection: "include"` or
+`selection: "exclude"` on individual source-matrix players; the underlying
+appearance statistics must not be altered merely to force a preferred roster.
+
+### 8.3 Exception-driven human review
+
+Research effort should concentrate on reported exceptions rather than repeating
+full manual checks for every straightforward roster.
+
+Release blockers include missing participants, fewer than 16 eligible players,
+no goalkeeper, duplicate identities, missing final ratings/positions/nationality,
+missing source references and ID collisions.
+
+Priority A exceptions include cases such as fewer than 16 competition-proper
+participants, replacement of an existing full roster, and nationality/identity
+ambiguities. Ordinary season-to-season positional drift is surfaced as Priority
+B rather than blocking production automatically. A Priority A exception may be acknowledged only after
+human review by adding its exact code to `reviewedExceptions` on that club (or
+at matrix level for edition-wide issues). The report retains the exception as
+`A-REVIEWED` so the decision remains visible.
+
+Priority B findings, such as a close participation cut-off or an unusual rating
+mean, are review prompts rather than automatic release blockers.
+
+### 8.4 Final application
+
+After the candidate roster has been reviewed, positions/nationalities are
+resolved and ratings are final, set `status` to `"final"` and run:
+
+```text
+npm run coverage:apply -- --input /path/to/source-matrix.json
+```
+
+`--apply` refuses to edit production data if any release blocker or unreviewed
+Priority A exception remains. When clear, it upgrades existing stubs in place
+and merges the final rows into the correct decade shard. It never creates a
+season-specific production pack.
+
+The generated report also contains a compact audit block to append or adapt in
+`docs/COVERAGE-AUDIT.md`. The source matrix and generated draft/report are
+working files and should not be committed; `coverage-work/` is gitignored.
+
+### 8.5 Release gate
+
+After applying an edition/season:
+
+1. run `npm run validate`;
+2. run `npm run coverage` and confirm the edition reaches its researched target;
+3. inspect duplicate/identity and rating exceptions from the production report;
+4. run the production build;
+5. append the source-evidence decisions and release result to
+   `docs/COVERAGE-AUDIT.md`.
+
+For Serie A, the same helper may be used season by season inside the existing
+five-season maximum production cycle. The five-season cap and cross-cycle audit
+remain in force.
 
 ## 9. Gameplay/data invariants tied to coverage
 

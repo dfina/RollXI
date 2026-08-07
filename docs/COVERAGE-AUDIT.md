@@ -5,6 +5,35 @@ and rebuilds should append sections here rather than creating additional audit
 files. `docs/CONTENT-TARGET.md` remains the normative specification; this file
 records how particular data was researched, corrected and released.
 
+## 2026-08-07 — Exception-driven coverage-production tooling
+
+A reusable production helper was added at `scripts/prepare-coverage.mjs` before
+starting the next European coverage edition. The purpose is to preserve the
+2025-26 Conference League evidence standard while removing repetitive manual
+roster assembly.
+
+The helper consumes a `rollxi-coverage-matrix-v1` source matrix, ranks
+competition-proper participation by minutes/appearances/starts, enforces a
+goalkeeper, uses verified registered fallbacks only where necessary, reuses
+unambiguous nationality/broad-position identity metadata, reconciles stubs,
+calculates projected coverage and emits Priority A/B exceptions. Detailed
+positions stay current-season evidence-led; where only a broad role is known,
+the generic role code is retained rather than copied from another season. Human selection overrides are
+explicit (`selection: "include"` / `"exclude"`) and never rewrite source
+appearance statistics.
+
+Production writes are deliberately gated. `coverage:apply` requires
+`status: "final"`, authoritative participant/results sources, club-level
+appearance and identity sources, 16 eligible players, a goalkeeper, final
+ratings/positions/nationalities, and no unreviewed Priority A issue. Working
+drafts/reports live in gitignored `coverage-work/`; the persistent evidence
+record remains this file. The helper's self-test is part of `npm run validate`.
+
+Implementation release gate: `npm run validate` passes with zero data errors
+and all scorer, formation/dead-roll and coverage-production regression checks
+green. Coverage state itself is unchanged; Conference League 2024-25 remains
+the next measured gap.
+
 ## 2026-08-07 — Canonical decade-shard migration
 
 The former production-wave/competition pack layout was consolidated into stable

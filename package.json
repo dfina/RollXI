@@ -6,9 +6,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "validate": "node scripts/validate.mjs && node scripts/check-scorers.mjs && node scripts/check-position-compat.mjs",
+    "validate": "node scripts/validate.mjs && node scripts/check-scorers.mjs && node scripts/check-position-compat.mjs && node scripts/prepare-coverage.mjs --self-test",
     "coverage": "node scripts/coverage.mjs",
-    "coverage:next": "node scripts/coverage.mjs --next"
+    "coverage:next": "node scripts/coverage.mjs --next",
+    "coverage:prepare": "node scripts/prepare-coverage.mjs",
+    "coverage:apply": "node scripts/prepare-coverage.mjs --apply"
   },
   "dependencies": {
     "lucide-react": "^0.452.0",

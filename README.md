@@ -70,6 +70,23 @@ Source evidence and release notes belong in the single persistent
 `docs/COVERAGE-AUDIT.md` file. `docs/CONTENT-TARGET.md` defines the finished
 scope and build rules.
 
+Coverage production is exception-driven. A researched source matrix can be
+turned into a 16-player candidate edition with:
+
+    npm run coverage:prepare -- --input /path/to/source-matrix.json
+
+The helper ranks competition-proper participation, reuses unambiguous existing
+nationality/broad-position identity metadata, reconciles stubs, calculates the coverage delta and
+produces a Priority A/B exception report in the gitignored `coverage-work/`
+directory. After human review, set the matrix to `status: "final"` and run:
+
+    npm run coverage:apply -- --input /path/to/source-matrix.json
+
+Application is blocked if required sources/metadata, a 16-player eligible pool,
+a goalkeeper, final ratings or any unreviewed Priority A issue is missing. This
+automates repetitive assembly without allowing the production shard to bypass
+historical review.
+
 Crest/photo fields take URLs; the kit monogram renders as fallback whenever
 those fields are null or fail to load.
 
