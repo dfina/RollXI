@@ -36,7 +36,7 @@ const BASE = "https://claude.ai"; /* placeholder; replaced by the live URL when 
 /* ---- result formatters (spoiler-free where it matters) ---- */
 export function dailyTriviaShare(dayNum, score, total) {
   const blocks = "🟩".repeat(score) + "⬜".repeat(Math.max(0, total - score));
-  return "Roll XI · Daily Trivia #" + dayNum + "\n" + blocks + "  " + score + "/" + total + "\nGuess the players, fill the album.";
+  return "Roll XI · Daily Trivia #" + dayNum + "\n" + blocks + "  " + score + "/" + total + "\nGuess the players, build your score.";
 }
 
 export function chainShare(dayNum, steps, optimal, usedHint) {

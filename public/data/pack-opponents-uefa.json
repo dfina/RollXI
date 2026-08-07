@@ -286,7 +286,7 @@
   {
    "id": "fairs-zarago-196364",
    "tierType": "O",
-   "club": "Zaragoza",
+   "club": "Real Zaragoza",
    "country": "Spain",
    "season": "1963-64",
    "comps": [
@@ -421,7 +421,7 @@
   {
    "id": "fairs-zarago-196566",
    "tierType": "O",
-   "club": "Zaragoza",
+   "club": "Real Zaragoza",
    "country": "Spain",
    "season": "1965-66",
    "comps": [
@@ -1285,7 +1285,7 @@
   {
    "id": "uefa-hambur-198182",
    "tierType": "O",
-   "club": "Hamburg",
+   "club": "Hamburger SV",
    "country": "Germany",
    "season": "1981-82",
    "comps": [
@@ -1501,7 +1501,7 @@
   {
    "id": "uefa-koln-198586",
    "tierType": "O",
-   "club": "Koln",
+   "club": "1. FC Köln",
    "country": "Germany",
    "season": "1985-86",
    "comps": [
@@ -1663,7 +1663,7 @@
   {
    "id": "uefa-stuttg-198889",
    "tierType": "O",
-   "club": "Stuttgart",
+   "club": "VfB Stuttgart",
    "country": "Germany",
    "season": "1988-89",
    "comps": [
@@ -2392,7 +2392,7 @@
   {
    "id": "uefa-porto-200203",
    "tierType": "O",
-   "club": "Porto",
+   "club": "FC Porto",
    "country": "Portugal",
    "season": "2002-03",
    "comps": [
@@ -2824,7 +2824,7 @@
   {
    "id": "uel-porto-201011",
    "tierType": "O",
-   "club": "Porto",
+   "club": "FC Porto",
    "country": "Portugal",
    "season": "2010-11",
    "comps": [

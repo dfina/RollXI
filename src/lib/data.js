@@ -31,9 +31,10 @@ function isOpponentEligible(row) {
   if (Array.isArray(row.achievements)) {
     return row.achievements.some((a) => OPPONENT_STAGES.includes(a.stage));
   }
-  // legacy fallback for any row not yet migrated to achievements[] —
-  // as of 2026-08-07 this covers every O-tier (opponent-only) row; see
-  // docs/CONTENT-TARGET.md 3B for why those weren't auto-migrated
+  // Legacy fallback for rows not yet migrated to achievements[]. As of
+  // 2026-08-07 this is deliberately limited to 26 main-draw opponent rows in
+  // pack-opponents-ucl-main-200001.json and pack-opponents-provisional.json;
+  // see docs/CONTENT-TARGET.md sections 3C-3D.
   return row.tierType === "O";
 }
 function roleOf(row) {
@@ -65,7 +66,7 @@ export async function loadData() {
   const squadById = {};
   squads.forEach((s) => { squadById[s.id] = s; });
 
-  /* flat player-season list for trivia, album and chains */
+  /* flat player-season list for Daily trivia and Chains */
   const players = [];
   squads.forEach((s) => {
     s.players.forEach((p) => {

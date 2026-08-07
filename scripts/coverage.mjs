@@ -3,14 +3,16 @@
   Roll XI coverage report.
 
   Reads public/data/coverage-target.json (the goal) and every pack listed in
-  public/data/index.json (the reality), then prints what is left to build.
+  public/data/index.json (the reality), then reports both breadth and, where the
+  target declares expected roster counts, real depth/completeness.
 
   Run:  node scripts/coverage.mjs
         node scripts/coverage.mjs --json     machine-readable output
-        node scripts/coverage.mjs --next     just the single next recommended pack
+        node scripts/coverage.mjs --next     next recommended edition to work on
 
-  This script is the reason the roadmap cannot go stale. Never hand-maintain a
-  list of "what's done" in prose: run this instead.
+  Important: an edition being "touched" only means at least one row exists.
+  Treat an edition as complete only where expectedRostersPerEdition is defined
+  and the required number of roster rows is present.
 */
 
 import { readFile, readdir } from "node:fs/promises";
@@ -36,6 +38,17 @@ function expandSeasons(from, to, exclude = []) {
   return out;
 }
 
+function expectedRostersFor(scope, season) {
+  const spec = scope.expectedRostersPerEdition ?? null;
+  if (spec == null) return null;
+  if (typeof spec === "number") return spec;
+  if (typeof spec === "object" && !Array.isArray(spec)) {
+    const value = spec[season];
+    return Number.isFinite(value) ? value : null;
+  }
+  return null;
+}
+
 /* ---------- load ---------- */
 
 async function loadPacks() {
@@ -58,9 +71,8 @@ async function loadPacks() {
 }
 
 /* ---------- normalise a squad row into (comp, season, role) facts ----------
-   Works with BOTH the current schema (tierType P/O + euro[] + comps[]) and the
-   target schema (role + achievements[]), so the report keeps working through
-   the migration. */
+   Works with BOTH the current schema (role + achievements[]) and legacy fields
+   still retained during migration. */
 
 const ALIAS = { UECL: "CONFL", INT: "ITC" };
 const canon = (c) => ALIAS[c] || c;
@@ -115,26 +127,62 @@ async function main() {
         ? ["league:" + scope.league]
         : (scope.comps || []).map((c) => "comp:" + canon(c));
 
-    const started = [];
-    const empty = [];
-    for (const season of seasons) {
+    const editions = seasons.map((season) => {
       const rosters = keys.reduce((n, k) => n + (actual[k]?.[season]?.roster || 0), 0);
       const stubs = keys.reduce((n, k) => n + (actual[k]?.[season]?.stub || 0), 0);
-      if (rosters + stubs === 0) empty.push(season);
-      else started.push({ season, rosters, stubs });
-    }
+      const expectedRosters = expectedRostersFor(scope, season);
+      const touched = rosters + stubs > 0;
+      const completenessKnown = expectedRosters != null;
+      const complete = completenessKnown ? rosters >= expectedRosters : null;
+      return {
+        season,
+        rosters,
+        stubs,
+        expectedRosters,
+        touched,
+        completenessKnown,
+        complete,
+        missingRosters: completenessKnown ? Math.max(0, expectedRosters - rosters) : null
+      };
+    });
+
+    const known = editions.filter((e) => e.completenessKnown);
+    const unknown = editions.filter((e) => !e.completenessKnown);
+    const incompleteKnown = known.filter((e) => !e.complete);
+    const completeKnown = known.filter((e) => e.complete);
+    const untouched = editions.filter((e) => !e.touched);
+    const touched = editions.filter((e) => e.touched);
+
+    const expectedRostersKnown = known.reduce((n, e) => n + e.expectedRosters, 0);
+    const rostersBuiltKnown = known.reduce((n, e) => n + Math.min(e.rosters, e.expectedRosters), 0);
+    const missingRostersKnown = known.reduce((n, e) => n + e.missingRosters, 0);
+
+    // Prefer a known-incomplete edition because it represents a provable gap.
+    // Work newest-to-oldest within a scope, matching the project's production
+    // order. If depth is unknown, fall back to the newest untouched edition.
+    const nextKnownIncomplete = incompleteKnown[incompleteKnown.length - 1] || null;
+    const nextUntouched = untouched[untouched.length - 1] || null;
+    const nextEdition = nextKnownIncomplete || nextUntouched;
+
     report.push({
       id: scope.id,
       label: scope.label,
       priority: scope.priority,
-      editionsInScope: seasons.length,
-      editionsStarted: started.length,
-      editionsUntouched: empty.length,
-      rostersBuilt: started.reduce((n, s) => n + s.rosters, 0),
-      stubsBuilt: started.reduce((n, s) => n + s.stubs, 0),
-      nextUntouchedSeason: empty[empty.length - 1] || null,
-      untouchedSeasons: empty,
-      completenessKnown: scope.expectedPerEdition != null
+      editionsInScope: editions.length,
+      editionsTouched: touched.length,
+      editionsUntouched: untouched.length,
+      editionsCompletenessKnown: known.length,
+      editionsCompletenessUnknown: unknown.length,
+      editionsCompleteKnown: completeKnown.length,
+      editionsIncompleteKnown: incompleteKnown.length,
+      rostersBuilt: editions.reduce((n, e) => n + e.rosters, 0),
+      stubsBuilt: editions.reduce((n, e) => n + e.stubs, 0),
+      expectedRostersKnown,
+      rostersBuiltKnown,
+      missingRostersKnown,
+      nextSeason: nextEdition?.season || null,
+      nextReason: nextKnownIncomplete ? "known-incomplete" : nextUntouched ? "untouched" : null,
+      editions
     });
   }
 
@@ -143,36 +191,61 @@ async function main() {
     return;
   }
 
-  const next = report.find((r) => r.editionsUntouched > 0);
+  const next = report.find((r) => r.nextSeason);
   if (args.has("--next")) {
-    console.log(next ? `${next.label} — ${next.nextUntouchedSeason}` : "Target complete.");
+    if (!next) {
+      console.log("No provable remaining gap. Any scope with unknown depth still needs expected roster counts before it can be declared complete.");
+    } else {
+      const suffix = next.nextReason === "known-incomplete" ? " (known incomplete)" : " (untouched; depth target unknown)";
+      console.log(`${next.label} — ${next.nextSeason}${suffix}`);
+    }
     return;
   }
 
   console.log("\nROLL XI — CONTENT COVERAGE\n" + "=".repeat(64));
   console.log(`target v${target.version} (updated ${target.updated})`);
-  console.log(`${rows.length} club-season rows across ${new Set(rows.map((r) => r._file)).size} packs\n`);
+  console.log(`${rows.length} club-season rows across ${new Set(rows.map((r) => r._file)).size} non-empty packs\n`);
 
   for (const r of report) {
-    const pct = Math.round((100 * r.editionsStarted) / r.editionsInScope);
-    const bar = "#".repeat(Math.round(pct / 5)).padEnd(20, ".");
     console.log(`${r.label}`);
-    console.log(`  [${bar}] ${pct}%  ${r.editionsStarted}/${r.editionsInScope} editions touched`);
-    console.log(`  ${r.rostersBuilt} rosters, ${r.stubsBuilt} stubs`);
-    if (!r.completenessKnown) {
-      console.log(`  !! DEPTH UNVERIFIED - "touched" only means >=1 row exists for that edition.`);
-      console.log(`     Set expectedPerEdition in coverage-target.json to track real completeness.`);
+
+    if (r.editionsCompletenessKnown > 0) {
+      const pct = r.expectedRostersKnown
+        ? Math.round((100 * r.rostersBuiltKnown) / r.expectedRostersKnown)
+        : 0;
+      const bar = "#".repeat(Math.round(pct / 5)).padEnd(20, ".");
+      console.log(`  [${bar}] ${pct}% of known roster target  ${r.rostersBuiltKnown}/${r.expectedRostersKnown}`);
+      console.log(`  ${r.editionsCompleteKnown}/${r.editionsCompletenessKnown} editions proven complete; ${r.missingRostersKnown} roster rows missing`);
+    } else {
+      const touchedPct = Math.round((100 * r.editionsTouched) / r.editionsInScope);
+      const bar = "#".repeat(Math.round(touchedPct / 5)).padEnd(20, ".");
+      console.log(`  [${bar}] ${touchedPct}% breadth only  ${r.editionsTouched}/${r.editionsInScope} editions touched`);
     }
-    if (r.nextUntouchedSeason) console.log(`  next gap: ${r.nextUntouchedSeason}`);
+
+    console.log(`  ${r.rostersBuilt} rosters, ${r.stubsBuilt} stubs`);
+    if (r.editionsCompletenessUnknown > 0) {
+      console.log(`  !! DEPTH UNKNOWN for ${r.editionsCompletenessUnknown}/${r.editionsInScope} editions.`);
+      console.log(`     "Touched" is not completion. Populate expectedRostersPerEdition before declaring them done.`);
+    }
+    if (r.nextSeason) {
+      const why = r.nextReason === "known-incomplete" ? "known incomplete" : "untouched; depth target unknown";
+      console.log(`  next gap: ${r.nextSeason} (${why})`);
+    }
     console.log();
   }
 
   if (next) {
     console.log("-".repeat(64));
-    console.log(`NEXT PACK TO BUILD:  ${next.label} ${next.nextUntouchedSeason}`);
+    console.log(`NEXT EDITION TO WORK ON:  ${next.label} ${next.nextSeason}`);
+    if (next.nextReason === "known-incomplete") {
+      console.log("This is a measured depth gap, not merely an untouched season.");
+    } else {
+      console.log("This is a breadth gap only; establish expected roster counts before calling the edition complete.");
+    }
     console.log("See docs/CONTENT-TARGET.md section 7 for the build recipe.");
   } else {
-    console.log("Target complete.");
+    console.log("No provable remaining gap from the counts currently declared.");
+    console.log("Scopes with unknown depth still require expected roster counts before the target can be declared complete.");
   }
 
   if (unlisted.length) console.log(`\nWARNING: on disk but not in index.json: ${unlisted.join(", ")}`);

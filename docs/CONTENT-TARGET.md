@@ -17,16 +17,20 @@ Do these four things, in order, at the start of any session about content:
 1. `npm run validate` — must pass with zero errors before touching content.
    Warnings are fine to proceed past (see section 3B), but fix any error
    first; building new packs on top of a broken invariant compounds it.
-2. `node scripts/coverage.mjs` — prints coverage per scope and names the next
-   pack to build.
+2. `node scripts/coverage.mjs` — reports breadth for every scope and real
+   depth/completeness only where `expectedRostersPerEdition` has been researched
+   in `coverage-target.json`. `--next` prefers a measured incomplete edition;
+   otherwise it can only point to an untouched breadth gap.
 3. Check the **Decisions log** in section 6. All six original decisions are
    resolved as of 2026-08-07. If a new question comes up that isn't covered
    there, resolve it with the project owner and add a row before building.
 4. Follow the build recipe in section 7.
 
 Do not infer progress from pack filenames, `index.json` labels, or pack `meta`
-notes. Those describe what was built at the time and drift. The script is the
-only trustworthy statement of position.
+notes. Those describe what was built at the time and drift. `coverage.mjs` is
+authoritative for the rows that actually exist, but an edition is only proven
+complete when the report says its depth is known. A touched season with unknown
+depth must never be treated as finished.
 
 ---
 
@@ -48,34 +52,25 @@ only trustworthy statement of position.
 
 ## 3. The architecture change this forces
 
-**Status: implemented 2026-08-07.** This section originally described a
-problem to fix before building bulk content; it's now a description of what
-was actually built. Left in present tense below because the reasoning still
-matters for anyone extending it — see section 3B for the migration record and
-what's still deferred.
+**Status: implemented 2026-08-07.** This section records the reasoning for
+the schema change and the compatibility layer that still exists for 26 legacy
+opponent rows.
 
-This is the most important section. **The target as stated is incompatible with
-how the data model works today, and building toward it without changing the
-model first will waste a large amount of work.**
-
-Today the dataset has two mutually exclusive tiers:
+Before the migration, the dataset used two mutually exclusive tiers:
 
 - `tierType: "P"` — full roster, draftable.
 - `tierType: "O"` — stub (rating, kit, scorer names), opposition only.
 
-The invariant is that no club-season is ever in both. It's enforced by hand,
-via what the pack notes call a "global O/P de-dup sweep", and by draining the
-EC/UCL opponent index as club-seasons get promoted to pickable. That index is
-now empty, and its own note says it "trends toward empty as promotion
-completes". I verified the invariant holds: 769 P rows, 311 O rows, zero
-overlap.
+That old invariant could not satisfy the finished content target. Winners,
+runners-up and semi-finalists are a subset of main-draw participants, so the
+same club-season often needs to be both draftable and Campaign opposition. If
+promotion to playable had continued to remove the opponent row, Campaign's
+opponent pool would have shrunk as coverage improved.
 
-**The target breaks that invariant completely.** Winners, runners-up and
-semi-finalists are a strict subset of main-draw participants. So every single
-club-season in the opponent target is *also* in the playable target. Under the
-current model, promoting a team to playable removes it as an opponent, which
-means the finished dataset would have **zero opponents left**. Campaign would
-have nothing to draw from.
+The implemented model therefore separates squad depth from achievement. The
+legacy `tierType` field remains only as a compatibility fallback for 26 rows in
+`pack-opponents-ucl-main-200001.json` and
+`pack-opponents-provisional.json`; it is not the schema for new content.
 
 ### The fix
 
@@ -124,8 +119,8 @@ const opponentEligible = (r) =>
   process across nearly every pack note, and it's the single most likely place
   for silent data loss.
 - A club-season is authored once, not twice in two formats.
-- Campaign opposition stops shrinking as you add rosters. Today, every roster
-  you add *removes* an opponent.
+- Campaign opposition no longer shrinks as rosters are added. Under the old
+  tier model, promoting a club-season to playable removed it from opposition.
 - Stage granularity opens up gameplay you can't currently express: seeding the
   Campaign draw by how far a side actually went, era-locked or
   competition-locked runs, "face the four semi-finalists of 1987-88".
@@ -198,135 +193,6 @@ Chains still use them.
 
 ---
 
-## 4. Scale, and why it changes the delivery plan
-
-Current density is about 3.1 KB per roster and 0.6 KB per stub.
-
-Rough order-of-magnitude estimate of the target — **these are estimates, not
-researched counts, and the first job of any new scope is to replace them with
-real numbers**. Revised down from the first pass now that "main draw" is
-decided (section 6, #1): group/league-phase participants only, qualifying and
-preliminary rounds excluded. This cuts hardest into the modern competitions,
-which run large qualifying pyramids ahead of a fixed-size group or league
-phase — Europa League and Conference League in particular admit well over 100
-clubs into qualifying for roughly 32-36 group/league-phase places. The
-pre-1992 knockout competitions (EC, CWC, Fairs, pre-2004 UEFA Cup) are barely
-affected, since their "main draw" is just Round 1 proper and only a handful of
-lower-ranked federations played an extra preliminary round ahead of it.
-
-| Scope | Est. club-seasons | Direction of the revision |
-|---|---|---|
-| EC / UCL main draw 1955-2026 | ~1,600 | Down — 1992-2026 group/league phase is a fixed 32-36 clubs/edition, well below the wider entry list |
-| UEFA Cup main draw 1971-2009 | ~2,200 | Slightly down — knockout for most of its life; only 2004-09 group stage and later-era qualifying rounds are trimmed |
-| Cup Winners' Cup main draw 1960-1999 | ~1,150 | Slightly down — straight knockout throughout, minor preliminary-round trims only |
-| Serie A full history | ~1,700 | Unchanged — not a European scope |
-| Europa League main draw 2009-2026 | ~450 | Down sharply — large qualifying pyramid ahead of the group/league phase |
-| Intertoto main draw 1995-2008 | ~750 | Roughly unchanged 1995-2005 (no separate qualifying tier); shrinks for 2006-08 under the mini-tournament format |
-| Fairs Cup main draw 1955-1971 | ~480 | Barely affected — small, irregular early fields |
-| Conference League main draw 2021-2026 | ~110 | Down sharply — same qualifying-pyramid effect as Europa League |
-| **Total, before de-duplicating clubs appearing in two competitions in one season** | **~8,400** | Down from the original ~9,600 estimate |
-
-This is still a placeholder. Confirm real counts scope-by-scope as each one is
-researched; do not build packs against this table.
-
-Call it **~9,000 unique club-seasons and ~145,000 player records, around 28 MB
-of JSON**. That is a 12x increase on today's 769 rosters and 2.5 MB.
-
-Two parts of the app do not survive that and must be dealt with before the
-dataset grows past roughly 2,000 rosters:
-
-**Loading.** `loadData()` fetches every pack in parallel and merges the lot
-before any mode can render. At 28 MB that's an unusable cold start on mobile.
-Needs: a core pack loaded eagerly, everything else lazy-loaded per mode, and an
-index that carries enough summary metadata (club, season, comps, rating) to
-drive menus without parsing rosters.
-
-**Pool weighting.** `rollSequence` shuffles the entire roster pool uniformly.
-The composition of the dataset therefore dictates the feel of the game. Serie A
-is 68% of rosters today; at target it would be ~19%, but the same problem just
-moves to whichever scope you build first. Weight the draft by league and era so
-content decisions stop leaking into gameplay.
-
----
-
-## 5. Conventions for new packs
-
-Every new pack must follow these or `npm run validate` will reject it. Run
-`npm run validate` before committing any new pack — it's also wired into CI
-(`.github/workflows/validate.yml`) on every push and pull request, and into
-the deploy workflow, so a bad pack can't reach production either way. It
-checks duplicate IDs, P/O collisions, roster shape, competition codes,
-`index.json` drift, and crest override coverage; see `scripts/validate.mjs`
-for the full list, including the checks it does NOT auto-fix (see "Club
-names" below).
-
-**Identity.** `id` is `{country3}-{clubslug}-{season}`, lowercase, no accents,
-e.g. `ita-roma-2000-01`. IDs are globally unique across all packs and all
-tiers. One club-season, one ID, forever.
-
-**Club names.** Use one canonical display name per club across all packs and
-all eras — e.g. `AS Roma`, not `Roma` in one pack and `AS Roma` in another
-(fixed 2026-08-07; see section 3B). Any new club name must be added to
-`CREST_PAGE_OVERRIDES` in `src/lib/crestResolver.js` in the same commit, or
-the crest silently falls back to a monogram. The validator flags likely
-spelling variants of the same club as a WARNING, not an error — it can't tell
-`Dundee` / `Dundee United` (different clubs) from `FC Porto` / `Porto` (same
-club, different spelling), so a human has to make that call each time it
-fires. As of 2026-08-07 there are 11 known unresolved variant pairs still in
-the data (see section 3B) — none of them break anything today because the
-crest override map defensively lists both spellings for most of them, but
-resolve them opportunistically when you touch a pack that contains one.
-
-**Competition codes.** Canonical set: `EC`, `UCL`, `CWC`, `FAIRS`, `UEFA`,
-`UEL`, `CONFL`, `ITC`. `UECL` and `INT` are deprecated aliases — fixed
-2026-08-07 across all pack data (see section 3B); `badges.js` and
-`scripts/coverage.mjs` also carry a defensive alias resolver so a stray old
-code degrades gracefully instead of silently failing a badge lookup, but new
-packs should never write the deprecated forms in the first place.
-
-**Role and achievements — use these, not `tierType`.** As of 2026-08-07 every
-row carries `role: "roster" | "stub"`; every new pack must set it explicitly
-rather than relying on the `tierType`-based fallback in `data.js`, which
-exists for legacy rows only. If the row has a real historical stage — it won,
-lost a final, or lost a semi-final — record it in `achievements: [{comp,
-season, stage}]` with `stage` one of `W`, `RU`, `SF`, `QF`, `R16`, `GROUP`,
-`MAIN`. Use `MAIN` for a row whose only known continental record is
-participation with no further progress, not as a placeholder for "don't know
-yet" — if the true stage is genuinely unknown, leave `achievements` off the
-row entirely rather than guessing, the same way O-tier rows were deliberately
-left unmigrated in section 3C rather than assigned a fabricated stage.
-`achievements` entries determine Campaign opponent eligibility (`W`/`RU`/`SF`
-qualify, see `isOpponentEligible()` in `src/lib/data.js`), so getting this
-right isn't just bookkeeping — it decides whether the row shows up as
-opposition at all.
-
-**Rosters.** 16 players is the house standard. Minimum 11, and at least one
-goalkeeper. Ratings are 62-97 with a mean near 78; keep new packs inside that
-band or the Campaign difficulty curve shifts under you. 21 existing rosters
-in the earliest wave (`pack-pickable-waveff.json`, 1955-56 to 1969-70) sit at
-exactly 11 players — the validator warns on these rather than erroring,
-because that may simply be the limit of what's documented for that era; it's
-a prompt to double check the source, not necessarily a defect.
-
-**Provenance.** Every pack carries `meta.source` naming where the data came
-from, and `meta.verified: true` only if it was cross-checked against a second
-independent source. Where data is unverified or beyond a knowledge cutoff, say
-so explicitly in `meta.note`. Existing packs do this well; keep it up. The
-same standard applies to crest overrides: five entries added 2026-08-07
-(`besiktas`, `helsingborg`, `rosenborg`, `sturm graz`, `vicenza`) are flagged
-`UNVERIFIED` in a comment in `crestResolver.js` because this environment has
-no live web access to confirm the Wikipedia page titles — spot-check them
-before depending on them.
-
-**Dead fields.** `decoys`, `tier`, `conf` and `honour` were written into packs
-but read by nothing in `src/`. Removed from all packs 2026-08-07 (3,076 field
-occurrences stripped — see section 3B). Do not reintroduce them by copying an
-old pack as a template; if a genuine need for decoy answers or honours
-resurfaces, design the field properly and wire it into the code in the same
-change, don't let it drift again.
-
----
-
 ## 3B. Data audit and fixes — 2026-08-07
 
 This session fixed the two issues raised as "nothing checks the data" and
@@ -360,21 +226,14 @@ This session fixed the two issues raised as "nothing checks the data" and
   growing the override map. Five were genuinely absent from both data and
   map (`besiktas`, `helsingborg`, `rosenborg`, `sturm graz`, `vicenza`) —
   added, flagged unverified per above.
-- **Broader finding not fully fixed**: the same club-name-mismatch check
-  surfaced 12 total variant clusters, not just the 4 originally flagged —
-  `Bordeaux`/`Girondins Bordeaux`, `Deportivo`/`Deportivo La Coruna`/
-  `Deportivo La Coruña`, `FC Porto`/`Porto`, `Rangers`/`Glasgow Rangers`,
-  `Hamburg`/`Hamburger SV`/`SV Hamburg`, `Hellas Verona`/`Verona`,
-  `1.FC Koln`/`Koln`, `Marseille`/`Olympique Marseille`, `Monaco`/`AS Monaco`,
-  `Real Zaragoza`/`Zaragoza`, `Stuttgart`/`VfB Stuttgart`, and the automated
-  check's threshold also just misses `Bayern Munich`/`Bayern München` (edit-
-  distance similarity 0.71, just under the 0.82 flag threshold — noted here
-  since the tool won't catch it). None of these are live bugs today — the
-  crest override map already lists both spellings for most of them — so
-  they were left as data for a human to canonicalise deliberately (picking
-  the "right" display spelling for a club is an editorial call, not a
-  mechanical one) rather than silently mass-renamed. The validator will keep
-  flagging them on every run until resolved.
+- **Club-name variants resolved 2026-08-07**: the 12 human-review warnings
+  were adjudicated and the data canonicalised. Eleven clusters were the same
+  club under different display names; `Dundee` and `Dundee United` are genuinely
+  different clubs and are now an explicit known-distinct exemption. The
+  threshold-missed `Bayern Munich`/`Bayern München` drift was normalised in the
+  same pass. `scripts/validate.mjs` now hardens those decisions: known legacy
+  aliases are errors if reintroduced, while genuinely new near-matches remain
+  warnings for human review. See section 5 for the canonical-name table.
 
 ---
 
@@ -560,6 +419,154 @@ gap section 3C left, closed.
 
 ---
 
+## 4. Scale, and why it changes the delivery plan
+
+Current density is about 3.1 KB per roster and 0.6 KB per stub.
+
+Rough order-of-magnitude estimate of the target — **these are estimates, not
+researched counts, and the first job of any new scope is to replace them with
+real numbers**. Revised down from the first pass now that "main draw" is
+decided (section 6, #1): the first post-qualifying competition stage. That is
+the group/league phase where one exists, and Round 1 proper in straight-knockout
+eras; qualifying and preliminary rounds are excluded. This cuts hardest into
+the modern competitions, which run large qualifying pyramids ahead of a
+fixed-size group or league phase. The pre-1992 knockout competitions are less
+affected because only preliminary-round entrants are trimmed from Round 1.
+
+| Scope | Est. club-seasons | Direction of the revision |
+|---|---|---|
+| EC / UCL main draw 1955-2026 | ~1,600 | Down — 1992-2026 group/league phase is a fixed 32-36 clubs/edition, well below the wider entry list |
+| UEFA Cup main draw 1971-2009 | ~2,200 | Slightly down — knockout for most of its life; only 2004-09 group stage and later-era qualifying rounds are trimmed |
+| Cup Winners' Cup main draw 1960-1999 | ~1,150 | Slightly down — straight knockout throughout, minor preliminary-round trims only |
+| Serie A full history | ~1,700 | Unchanged — not a European scope |
+| Europa League main draw 2009-2026 | ~450 | Down sharply — large qualifying pyramid ahead of the group/league phase |
+| Intertoto main draw 1995-2008 | ~750 | Roughly unchanged 1995-2005 (no separate qualifying tier); shrinks for 2006-08 under the mini-tournament format |
+| Fairs Cup main draw 1955-1971 | ~480 | Barely affected — small, irregular early fields |
+| Conference League main draw 2021-2026 | **168** | Exact: 32 group-stage teams in each of 2021-22 to 2023-24; 36 league-phase teams in 2024-25 and 2025-26 |
+| **Total, before de-duplicating clubs appearing in two competitions in one season** | **~8,450** | Still approximate outside Conference League |
+
+This is still a placeholder. Confirm real counts scope-by-scope as each one is
+researched; do not build packs against this table.
+
+Call it **~9,000 unique club-seasons and ~145,000 player records, around 28 MB
+of JSON**. That is a 12x increase on today's 769 rosters and 2.5 MB.
+
+Two parts of the app do not survive that and must be dealt with before the
+dataset grows past roughly 2,000 rosters:
+
+**Loading.** `loadData()` fetches every pack in parallel and merges the lot
+before any mode can render. At 28 MB that's an unusable cold start on mobile.
+Needs: a core pack loaded eagerly, everything else lazy-loaded per mode, and an
+index that carries enough summary metadata (club, season, comps, rating) to
+drive menus without parsing rosters.
+
+**Pool weighting.** `rollSequence` shuffles the entire roster pool uniformly.
+The composition of the dataset therefore dictates the feel of the game. Serie A
+is 68% of rosters today; at target it would be ~19%, but the same problem just
+moves to whichever scope you build first. Weight the draft by league and era so
+content decisions stop leaking into gameplay.
+
+---
+
+## 5. Conventions for new packs
+
+Every new pack must follow these or `npm run validate` will reject it. Run
+`npm run validate` before committing any new pack — it's also wired into CI
+(`.github/workflows/validate.yml`) on every push and pull request, and into
+the deploy workflow, so a bad pack can't reach production either way. It
+checks duplicate IDs, P/O collisions, roster shape, competition codes,
+`index.json` drift, and crest override coverage; see `scripts/validate.mjs`
+for the full list, including the checks it does NOT auto-fix (see "Club
+names" below).
+
+**Identity.** `id` is `{country3}-{clubslug}-{season}`, lowercase, no accents,
+e.g. `ita-roma-2000-01`. IDs are globally unique across all packs and all
+tiers. One club-season, one ID, forever.
+
+**Club names.** Use one canonical display name per club across all packs and
+all eras. New near-matches remain a WARNING because a heuristic cannot know
+whether two similar names are the same institution. Once a human decision is
+made, record it in `scripts/validate.mjs`: rejected aliases become validation
+errors, while genuinely distinct near-matches go into the explicit exemption
+set. This prevents the same editorial question resurfacing on every run.
+
+The 12 warnings reviewed on 2026-08-07 are now resolved:
+
+| Warning cluster | Decision |
+|---|---|
+| `Marseille` / `Olympique Marseille` | Same club → canonical `Marseille` |
+| `Monaco` / `AS Monaco` | Same club → canonical `AS Monaco` |
+| `Deportivo La Coruna` / `Deportivo La Coruña` / `Deportivo` | Same club → canonical `Deportivo La Coruña` |
+| `Glasgow Rangers` / `Rangers` | Same club → canonical `Rangers` |
+| `FC Porto` / `Porto` | Same club → canonical `FC Porto` |
+| `Dundee United` / `Dundee` | **Different clubs** → keep both; validator exemption added |
+| `Girondins Bordeaux` / `Bordeaux` | Same club → canonical `Bordeaux` |
+| `1.FC Koln` / `Koln` | Same club → canonical `1. FC Köln` |
+| `SV Hamburg` / `Hamburg` | Same club → canonical `Hamburger SV` |
+| `Real Zaragoza` / `Zaragoza` | Same club → canonical `Real Zaragoza` |
+| `VfB Stuttgart` / `Stuttgart` | Same club → canonical `VfB Stuttgart` |
+| `Hellas Verona` / `Verona` | Same club → canonical `Hellas Verona` |
+
+The previously documented but threshold-missed `Bayern Munich` / `Bayern
+München` drift was resolved in the same pass to canonical `Bayern München`.
+The crest override map deliberately keeps legacy aliases as defensive lookup
+keys, but pack data must use the canonical display names above.
+
+Any new canonical club name must also resolve in `CREST_PAGE_OVERRIDES` in
+`src/lib/crestResolver.js` in the same change, or the crest will fall back to a
+live search/monogram path.
+
+**Competition codes.** Canonical set: `EC`, `UCL`, `CWC`, `FAIRS`, `UEFA`,
+`UEL`, `CONFL`, `ITC`. `UECL` and `INT` are deprecated aliases — fixed
+2026-08-07 across all pack data (see section 3B); `badges.js` and
+`scripts/coverage.mjs` also carry a defensive alias resolver so a stray old
+code degrades gracefully instead of silently failing a badge lookup, but new
+packs should never write the deprecated forms in the first place.
+
+**Role and achievements — use these, not `tierType`.** As of 2026-08-07 every
+row carries `role: "roster" | "stub"`; every new pack must set it explicitly
+rather than relying on the `tierType`-based fallback in `data.js`, which
+exists for legacy rows only. If the row has a real historical stage — it won,
+lost a final, or lost a semi-final — record it in `achievements: [{comp,
+season, stage}]` with `stage` one of `W`, `RU`, `SF`, `QF`, `R16`, `GROUP`,
+`MAIN`. Use `MAIN` for a row whose only known continental record is
+participation with no further progress, not as a placeholder for "don't know
+yet" — if the true stage is genuinely unknown, leave `achievements` off the
+row entirely rather than guessing, the same way O-tier rows were deliberately
+left unmigrated in section 3C rather than assigned a fabricated stage.
+`achievements` entries determine Campaign opponent eligibility (`W`/`RU`/`SF`
+qualify, see `isOpponentEligible()` in `src/lib/data.js`), so getting this
+right isn't just bookkeeping — it decides whether the row shows up as
+opposition at all.
+
+**Rosters.** 16 players is the house standard. Minimum 11, and at least one
+goalkeeper. Ratings are 62-97 with a mean near 78; keep new packs inside that
+band or the Campaign difficulty curve shifts under you. 21 existing rosters sit at exactly 11 players: 20 in
+`pack-pickable-waveff.json` (1955-56 to 1969-70) and Malmö FF 1978-79 in
+`pack-pickable-wavefe.json`. The validator warns on these rather than erroring,
+because that may simply be the limit of what's documented for that era; it's
+a prompt to double check the source, not necessarily a defect.
+
+**Provenance.** Every **new or rebuilt** pack must carry `meta.source` naming
+where the data came from, and `meta.verified: true` only if it was cross-checked
+against a second independent source. Where data is unverified, say so explicitly
+in `meta.note`. Some legacy packs, including several C-series files and the seed
+pack, still lack a top-level `meta` object; do not copy that omission into new
+work. The same standard applies to crest overrides: five entries added 2026-08-07
+(`besiktas`, `helsingborg`, `rosenborg`, `sturm graz`, `vicenza`) are flagged
+`UNVERIFIED` in a comment in `crestResolver.js` because this environment has
+no live web access to confirm the Wikipedia page titles — spot-check them
+before depending on them.
+
+**Dead fields.** `decoys`, `tier`, `conf` and `honour` were written into packs
+but read by nothing in `src/`. Removed from all packs 2026-08-07 (3,076 field
+occurrences stripped — see section 3B). Do not reintroduce them by copying an
+old pack as a template; if a genuine need for decoy answers or honours
+resurfaces, design the field properly and wire it into the code in the same
+change, don't let it drift again.
+
+---
+
 ## 6. Decisions log
 
 All open decisions from the first draft are now resolved. Recorded here for
@@ -567,63 +574,85 @@ provenance; the operative values live in `coverage-target.json`.
 
 | # | Decision | Affects | Resolution |
 |---|---|---|---|
-| 1 | Does "main draw" mean group/league phase only, or all entrants including qualifying rounds? | Every European scope | **Decided 2026-08-07**: group/league-phase only, qualifying and preliminary rounds excluded, in every era. Full per-competition breakdown — including what "main draw" means for competitions that ran as a straight knockout with no group stage — is in `coverage-target.json` → `mainDrawDefinition`. |
+| 1 | Does "main draw" mean group/league phase only, or all entrants including qualifying rounds? | Every European scope | **Decided 2026-08-07**: the first competition stage after qualifying/preliminary rounds. Use the group/league phase where one exists; use Round 1 proper in straight-knockout eras. Qualifying and preliminary rounds are excluded. Full per-competition breakdown is in `coverage-target.json` → `mainDrawDefinition`. |
 | 2 | Does "entire history of Serie A" start at 1929-30 (first single national round-robin) or 1898? | Serie A scope | **Decided 2026-08-07**: 1929-30. `coverage-target.json` → `scopes[domestic-ita].seasonFrom`. |
 | 3 | Are the wartime seasons in scope — Campionato Alta Italia 1944, Divisione Nazionale 1945-46? | Serie A scope, 3 seasons | **Decided 2026-08-07**: excluded permanently. `coverage-target.json` → `scopes[domestic-ita].excludeSeasons`. |
 | 4 | Is the pre-1995 International Football Cup in scope, or only the UEFA-run Intertoto from 1995? | Intertoto scope | **Decided 2026-08-07**: pre-1995 excluded permanently, scope begins 1995. `coverage-target.json` → `scopes[euro-itc].seasonFrom`. |
-| 5 | What unit should a pack be built at? | Build process, not scope | **Decided 2026-08-07**: target 80-120 club-seasons per pack, not a fixed number of editions. See `coverage-target.json` → `packGranularity` and section 7A below. |
+| 5 | What unit should a pack be built at? | Build process, not scope | **Decided 2026-08-07, clarified after C-series review**: European packs target roughly 80-120 club-seasons while keeping editions atomic. Serie A remains one JSON pack per season (~18-20 rows) and is produced in cycles of **at most five seasons**, with finalisation and validation inside the same cycle. See `coverage-target.json` → `packGranularity` and section 6A below. |
 | 6 | Album mode — keep, and if so, count player-seasons or unique players? | Album mode | **Decided 2026-08-07**: Album mode is removed from the game entirely (not deferred — code already deleted, see section 3A). This decision is moot as a content question. |
 
 ---
 
 ### 6A. Decision 5 in full — pack granularity
 
-"Serie A by decade" and "one pack per edition" are both the wrong unit to
-standardise on, because participant count per edition varies enormously by
-competition: a UEFA Cup Round 1 can carry 60-80 club-seasons, an early Fairs
-Cup or Conference League edition carries a dozen. Fixing the unit at either
-extreme produces wildly uneven file sizes.
+There are two separate units that must not be conflated: **JSON pack size** and
+**production-cycle size**.
 
-The two data points this project actually has — the Serie A C-series
-(one pack per season, ~90-100 rows) and the C10-C14 five-season batch
-experiment — both landed in the 80-120 row range without any documented
-accuracy problem. That's the target, expressed as **rows per pack, not
-editions per pack**:
+For Serie A, one season is one JSON pack, normally about 18-20 club-season rows.
+A five-season production cycle therefore contains roughly 90-100 rows **across
+five separate pack files**. The earlier wording that described a single
+C-series pack as ~90-100 rows was wrong.
 
-- One pack = one competition (or one league) and one contiguous span of
-  seasons. Never mix competitions or leagues in a pack.
-- Low-density competitions (Fairs Cup, Conference League, Intertoto, early
-  EC/CWC): batch multiple whole editions per pack until the target is reached.
-- High-density competitions (UEFA Cup Round 1, modern UCL/UEL/CONFL
-  group/league phase): a single edition may already meet or exceed the
-  target — don't force multiple editions into one file past ~150-200 rows.
-- Never split one edition's main draw across two packs. The edition is the
-  atomic unit, not the pack.
-- Serie A keeps its proven per-season build size (~18-20 rows) rather than
-  literal one-pack-per-decade, which would produce 180-200-row files for
-  post-war decades. "By decade" survives as a navigational grouping in
-  `index.json` — ship it as 3-4 packs per decade, each covering ~5 seasons,
-  matching the existing C10-C14 precedent — not as a single oversized file.
+The project also learned that throughput is not a quality metric. An earlier
+C15-C19 production attempt was error-prone and is superseded. The files now
+listed in `index.json` as rebuilt/source-checked are the only C15-C19 versions
+to use, subject to the same release checks as every other pack. Future Serie A
+production is capped at five seasons per cycle; first-pass production is draft,
+not release.
+
+For European competitions, participant count per edition varies too much for a
+fixed seasons-per-pack rule. Use roughly 80-120 club-season rows as a packaging
+target, but keep each edition atomic:
+
+- Never mix competitions or leagues in one JSON pack.
+- Do not split one European edition's main draw across two packs.
+- Low-density competitions can combine multiple whole editions to approach the
+  target range.
+- A high-density edition can stand alone even if it exceeds the range; do not
+  add another edition merely to hit a nominal size.
+- Serie A stays one JSON pack per season and a maximum of five seasons per
+  production cycle.
+
+Every Serie A production cycle requires a source-evidence matrix before JSON is
+written, squad validation against appearances/games played, escalation of all
+unresolved Priority A cases before packaging, and a cross-batch ratings and
+duplicate audit before release.
 
 ---
 
 ## 7. Build recipe for one pack
 
-1. `node scripts/coverage.mjs --next` gives the target scope and edition.
-2. Research the participant list for that edition from two independent sources.
-   Record both in `meta.source`.
-3. Check each club-season against existing IDs before building. If the record
-   already exists as a stub, **upgrade it in place** by adding `players` and
-   changing `role` to `roster`. Do not create a second record. Do not delete
-   the old one.
-4. Build rosters at 16 players, following section 5.
-5. Add achievements with the correct `stage`. Every participant gets at least
-   `MAIN`. Winners, runners-up and semi-finalists get `W`, `RU`, `SF`, which is
-   what makes them opponent-eligible.
-6. Add the pack to `index.json` with `file`, `name` and `v`. **Use `name`, not
-   `label`** — six existing entries use `label` and come back undefined.
-7. Add any new club names to `CREST_PAGE_OVERRIDES`.
-8. Re-run `node scripts/coverage.mjs` and confirm the numbers moved as expected.
+1. Run `npm run validate`. Zero errors is a precondition for new content.
+2. Run `node scripts/coverage.mjs --next`. If it says **known incomplete**, the
+   target has a researched expected roster count and the gap is measurable. If
+   it says **untouched; depth target unknown**, research and record the expected
+   main-draw roster count before treating the edition as a completeness target.
+3. Research the participant list from at least two independent sources. Record
+   the sources in `meta.source`, and add/update `expectedRostersPerEdition` in
+   `coverage-target.json` when the edition count has been established.
+4. Build a source-evidence matrix before writing roster JSON: one row per
+   club-season, with participant evidence, squad/appearance source coverage and
+   any Priority A uncertainties called out explicitly.
+5. Check every club-season against existing IDs. If a record already exists as
+   a stub, upgrade that canonical record in place to `role: "roster"`; do not
+   create a second club-season row.
+6. Build rosters to the 16-player house standard where sources support it.
+   Validate selections against appearances/games played rather than relying on a
+   remembered or nominal squad list. Unresolved Priority A cases block release.
+7. Add `achievements[]` with the correct competition and stage. Main-draw
+   participation must be represented honestly; `W`/`RU`/`SF` determines
+   Campaign opponent eligibility.
+8. Add the pack to `index.json` with `file`, `name` and, where used, `v`.
+   `name` is mandatory and the validator enforces it.
+9. Ensure every canonical club display name resolves in
+   `CREST_PAGE_OVERRIDES`; do not reintroduce an alias already rejected by the
+   club-name policy in section 5.
+10. Re-run `npm run validate`, `node scripts/coverage.mjs`, and the build. For a
+    multi-pack production cycle, run the finalisation pass across the whole
+    cycle, including cross-pack duplicate and rating audits, before packaging.
+
+For Serie A specifically: one JSON pack per season, at most five seasons in one
+production cycle. Do not treat first-pass generation as release-quality output.
 
 ---
 
@@ -634,13 +663,17 @@ history stays legible rather than deleted, per the same convention used
 throughout this file.
 
 1. ~~Schema migration to `role` + `achievements`~~ — **done 2026-08-07**, see
-   section 3C for the full record, including what's deliberately still
-   deferred (O-tier achievement stages).
+   sections 3C-3D. Only 26 legacy opponent rows remain on the `tierType`
+   compatibility fallback, deliberately, because they are main-draw stubs rather
+   than W/RU/SF achievement rows.
 2. ~~Validation script in CI~~ — **done 2026-08-07**, see section 3B and
    `scripts/validate.mjs`.
-3. **Conference League pilot** — smallest scope at 5 editions. Use it to prove
-   the new schema, the build recipe and the coverage script end to end before
-   committing to a scope with thousands of rows. This is the next item.
+3. **Conference League pilot** — smallest scope at 5 editions and now the first
+   scope with researched depth targets in `coverage-target.json`: 168 required
+   main-draw rosters in total. Use it to prove the schema, evidence matrix,
+   validation gates and measured coverage end to end. `coverage --next` now
+   points here as a known incomplete scope rather than skipping it merely because
+   every season had at least one finalist row. This is the next item.
 4. **Loader rework** (section 4), before passing ~2,000 rosters.
 5. **Then bulk content**, in the priority order set in `coverage-target.json`:
    Conference League, EC/UCL, Serie A, Europa League, Cup Winners' Cup, UEFA

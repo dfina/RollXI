@@ -30,6 +30,34 @@ const CANONICAL_COMPS = new Set(["EC", "UCL", "CWC", "FAIRS", "UEFA", "UEL", "CO
 const DEPRECATED_ALIAS = { UECL: "CONFL", INT: "ITC" };
 const DEAD_FIELDS = ["decoys", "tier", "conf", "honour"];
 
+// Human-reviewed club-name decisions. These aliases are no longer editorially
+// open: if one reappears, fail validation and point to the canonical display
+// name rather than reopening the same judgement call.
+const CLUB_NAME_ALIASES = new Map([
+  ["Olympique Marseille", "Marseille"],
+  ["Monaco", "AS Monaco"],
+  ["Deportivo La Coruna", "Deportivo La Coruña"],
+  ["Deportivo", "Deportivo La Coruña"],
+  ["Glasgow Rangers", "Rangers"],
+  ["Porto", "FC Porto"],
+  ["Girondins Bordeaux", "Bordeaux"],
+  ["1.FC Koln", "1. FC Köln"],
+  ["Koln", "1. FC Köln"],
+  ["SV Hamburg", "Hamburger SV"],
+  ["Hamburg", "Hamburger SV"],
+  ["Zaragoza", "Real Zaragoza"],
+  ["Stuttgart", "VfB Stuttgart"],
+  ["Verona", "Hellas Verona"],
+  ["Bayern Munich", "Bayern München"],
+]);
+
+// Near-name pairs that have been checked and are genuinely different clubs.
+// Keep them here so the heuristic does not ask for the same human judgement
+// on every run.
+const KNOWN_DISTINCT_CLUB_PAIRS = new Set([
+  ["dundee", "dundee united"].sort().join("|"),
+]);
+
 const errors = [];
 const warnings = [];
 const err = (msg, ctx) => errors.push({ msg, ...ctx });
@@ -111,8 +139,12 @@ async function main() {
       const isO = row.tierType === "O";
       (isO ? oRows : pRows).push({ id: row.id, club: row.club, season: row.season, file, row });
 
-      // club name tracking for the near-duplicate check
+      // club name policy + tracking for the near-duplicate check
       if (row.club) {
+        const canonical = CLUB_NAME_ALIASES.get(row.club);
+        if (canonical) {
+          err(`non-canonical club display name "${row.club}" in ${row.id || file} — use "${canonical}"`);
+        }
         const n = normaliseClub(row.club);
         if (!clubNamesByNorm.has(n)) clubNamesByNorm.set(n, new Set());
         clubNamesByNorm.get(n).add(row.club);
@@ -187,8 +219,9 @@ async function main() {
   }
 
   // near-duplicate club names — same club, different literal spelling.
-  // WARN, not ERROR: needs a human to pick the canonical spelling, and some
-  // near-matches (e.g. "Dundee" vs "Dundee United") are different clubs.
+  // WARN, not ERROR: genuinely new near-matches still need human judgement.
+  // Previously resolved aliases are enforced above, and known-distinct pairs
+  // such as Dundee / Dundee United are explicitly exempted here.
   // Two independent signals, either is enough to flag: whole-word containment
   // ("Porto" inside "FC Porto") and edit-distance similarity (catches accent/
   // spelling drift like "Bayern Munich" vs "Bayern München" that containment
@@ -216,6 +249,8 @@ async function main() {
     for (let j = i + 1; j < normList.length; j++) {
       const b = normList[j];
       if (reported.has(b) || a === b) continue;
+      const pairKey = [a, b].sort().join("|");
+      if (KNOWN_DISTINCT_CLUB_PAIRS.has(pairKey)) continue;
       const bothLongEnough = a.length >= 5 && b.length >= 5;
       if (containsWhole(a, b) || (bothLongEnough && similarity(a, b) > 0.82)) {
         const names = [...clubNamesByNorm.get(a), ...clubNamesByNorm.get(b)];

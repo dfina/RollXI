@@ -34,7 +34,8 @@ export function normaliseClubName(value) {
   a missed-crest risk, not a broken-crest risk.
 */
 export const CREST_PAGE_OVERRIDES = {
-  "1fc koln": "1. FC Köln",
+  "1 fc koln": "1. FC Köln",
+  "1fc koln": "1. FC Köln", // legacy display spelling
   "1860 munich": "TSV 1860 Munich",
   "ac milan": "AC Milan",
   "as monaco": "AS Monaco FC",
