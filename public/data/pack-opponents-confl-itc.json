@@ -1,2002 +1,1948 @@
 {
- "meta": {
-  "name": "Conference League + UEFA Intertoto Cup — finalists index (tier-O)",
-  "competitions": [
-   "CONFL",
-   "ITC"
-  ],
-  "scope": "Conference League: winner + runner-up all 5 editions 2021-22 to 2025-26. Intertoto: winner + runner-up of each final 1995-2005 (2-3 finals per year); outright winner only for 2006-2008 (format changed to 11 parallel finals, no traditional runner-up designation).",
-  "source": "Wikipedia finals, UEFA.com, aworldofsoccer.com, RSSSF, cross-checked",
-  "verified": true,
-  "note": "2025-26 Conference League final (Crystal Palace 1-0 Rayo Vallecano) independently confirmed 2026-08-07 via live Wikipedia fetch, superseding the earlier \"user context, not independently verified\" status.",
-  "achievementsAdded": "2026-08-07: per-row achievements[] (stage W/RU) added for all 74 rows — Conference League from Wikipedia, Intertoto Cup winners-per-year from RSSSF (rsssf.org/tablesi/intertoto.html); non-winning Intertoto entries assigned RU by elimination within each year, since the pack itself only ever holds winner+runner-up pairs for 1995-2005. 2006-2008 Intertoto entries correctly carry no RU (11 parallel winners, no runner-up concept, per the pack's existing scope note). See docs/CONTENT-TARGET.md section 3D."
- },
- "squads": [
-  {
-   "id": "confl-fey-2122",
-   "tierType": "O",
-   "club": "Feyenoord",
-   "country": "Netherlands",
-   "season": "2021-22",
-   "comps": [
-    "CONFL"
-   ],
-   "rating": 76,
-   "kit": [
-    "#C8102E",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Dessers"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "CONFL",
-     "season": "2021-22",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "confl-whu-2223",
-   "tierType": "O",
-   "club": "West Ham United",
-   "country": "England",
-   "season": "2022-23",
-   "comps": [
-    "CONFL"
-   ],
-   "rating": 77,
-   "kit": [
-    "#7A263A",
-    "#1BB1E7"
-   ],
-   "crest": null,
-   "scorers": [
-    "Bowen"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "CONFL",
-     "season": "2022-23",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "confl-oly-2324",
-   "tierType": "O",
-   "club": "Olympiacos",
-   "country": "Greece",
-   "season": "2023-24",
-   "comps": [
-    "CONFL"
-   ],
-   "rating": 72,
-   "kit": [
-    "#CC0000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "El Arabi"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "CONFL",
-     "season": "2023-24",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "confl-che-2425",
-   "tierType": "O",
-   "club": "Chelsea",
-   "country": "England",
-   "season": "2024-25",
-   "comps": [
-    "CONFL"
-   ],
-   "rating": 80,
-   "kit": [
-    "#034694",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Palmer",
-    "Jackson"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "CONFL",
-     "season": "2024-25",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "confl-bet-2425",
-   "tierType": "O",
-   "club": "Real Betis",
-   "country": "Spain",
-   "season": "2024-25",
-   "comps": [
-    "CONFL"
-   ],
-   "rating": 76,
-   "kit": [
-    "#00954B",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Isco",
-    "Ezzalzouli"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "CONFL",
-     "season": "2024-25",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "confl-cry-2526",
-   "tierType": "O",
-   "club": "Crystal Palace",
-   "country": "England",
-   "season": "2025-26",
-   "comps": [
-    "CONFL"
-   ],
-   "rating": 73,
-   "kit": [
-    "#1B458F",
-    "#C8102E"
-   ],
-   "crest": null,
-   "scorers": [
-    "Sarr"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "CONFL",
-     "season": "2025-26",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "confl-ray-2526",
-   "tierType": "O",
-   "club": "Rayo Vallecano",
-   "country": "Spain",
-   "season": "2025-26",
-   "comps": [
-    "CONFL"
-   ],
-   "rating": 68,
-   "kit": [
-    "#CC0000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Unai López"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "CONFL",
-     "season": "2025-26",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-bor-1995",
-   "tierType": "O",
-   "club": "Bordeaux",
-   "country": "France",
-   "season": "1995",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 76,
-   "kit": [
-    "#003F72",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Zidane"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1995",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-ksc-1995a",
-   "tierType": "O",
-   "club": "Karlsruher SC",
-   "country": "Germany",
-   "season": "1995",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 71,
-   "kit": [
-    "#003B99",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Chapuisat"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1995",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-str-1995",
-   "tierType": "O",
-   "club": "Strasbourg",
-   "country": "France",
-   "season": "1995",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 73,
-   "kit": [
-    "#1B5FAA",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Sauzée"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1995",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-tir-1995",
-   "tierType": "O",
-   "club": "Tirol Innsbruck",
-   "country": "Austria",
-   "season": "1995",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 66,
-   "kit": [
-    "#CC0000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Brunmayr"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1995",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-ksc-1996",
-   "tierType": "O",
-   "club": "Karlsruher SC",
-   "country": "Germany",
-   "season": "1996",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 72,
-   "kit": [
-    "#003B99",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Chapuisat"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1996",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-std-1996",
-   "tierType": "O",
-   "club": "Standard Liège",
-   "country": "Belgium",
-   "season": "1996",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 72,
-   "kit": [
-    "#CC0000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Leroy"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1996",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-gui-1996",
-   "tierType": "O",
-   "club": "Guingamp",
-   "country": "France",
-   "season": "1996",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 68,
-   "kit": [
-    "#1A1A6E",
-    "#CC0000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Vahirua"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1996",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-rot-1996",
-   "tierType": "O",
-   "club": "Rotor Volgograd",
-   "country": "Russia",
-   "season": "1996",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 68,
-   "kit": [
-    "#0033A0",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Esipov"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1996",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-sil-1996",
-   "tierType": "O",
-   "club": "Silkeborg",
-   "country": "Denmark",
-   "season": "1996",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 67,
-   "kit": [
-    "#CC0000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Thorstvedt"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1996",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-seg-1996",
-   "tierType": "O",
-   "club": "Segesta Sisak",
-   "country": "Croatia",
-   "season": "1996",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 60,
-   "kit": [
-    "#003DA5",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1996",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-aux-1997",
-   "tierType": "O",
-   "club": "Auxerre",
-   "country": "France",
-   "season": "1997",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 75,
-   "kit": [
-    "#009B48",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Martins"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1997",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-dus-1997",
-   "tierType": "O",
-   "club": "MSV Duisburg",
-   "country": "Germany",
-   "season": "1997",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 70,
-   "kit": [
-    "#003C97",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Preetz"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1997",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-bas-1997",
-   "tierType": "O",
-   "club": "Bastia",
-   "country": "France",
-   "season": "1997",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 70,
-   "kit": [
-    "#002060",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Luccin"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1997",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-hal-1997",
-   "tierType": "O",
-   "club": "Halmstads BK",
-   "country": "Sweden",
-   "season": "1997",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 65,
-   "kit": [
-    "#CC0000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Sjöberg"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1997",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-lyo-1997",
-   "tierType": "O",
-   "club": "Lyon",
-   "country": "France",
-   "season": "1997",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 73,
-   "kit": [
-    "#012160",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Laigle"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1997",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-mtp-1997",
-   "tierType": "O",
-   "club": "Montpellier",
-   "country": "France",
-   "season": "1997",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 70,
-   "kit": [
-    "#EA6300",
-    "#001B5E"
-   ],
-   "crest": null,
-   "scorers": [
-    "Cantona"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1997",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-val-1998",
-   "tierType": "O",
-   "club": "Valencia",
-   "country": "Spain",
-   "season": "1998",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 78,
-   "kit": [
-    "#FC5E00",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Mendieta"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1998",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-aus-1998",
-   "tierType": "O",
-   "club": "Austria Salzburg",
-   "country": "Austria",
-   "season": "1998",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 67,
-   "kit": [
-    "#CC0000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Linzmaier"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1998",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-wer-1998",
-   "tierType": "O",
-   "club": "Werder Bremen",
-   "country": "Germany",
-   "season": "1998",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 75,
-   "kit": [
-    "#00A651",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Bode"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1998",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-voj-1998",
-   "tierType": "O",
-   "club": "Vojvodina",
-   "country": "Yugoslavia",
-   "season": "1998",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 65,
-   "kit": [
-    "#CC0000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Jarić"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1998",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-bol-1998",
-   "tierType": "O",
-   "club": "Bologna",
-   "country": "Italy",
-   "season": "1998",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 73,
-   "kit": [
-    "#BA251E",
-    "#000033"
-   ],
-   "crest": null,
-   "scorers": [
-    "Kolyvanov"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1998",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-ruc-1998",
-   "tierType": "O",
-   "club": "Ruch Chorzów",
-   "country": "Poland",
-   "season": "1998",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 64,
-   "kit": [
-    "#004F9F",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Zając"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1998",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-mtp-1999",
-   "tierType": "O",
-   "club": "Montpellier",
-   "country": "France",
-   "season": "1999",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 70,
-   "kit": [
-    "#EA6300",
-    "#001B5E"
-   ],
-   "crest": null,
-   "scorers": [
-    "Kéomany"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1999",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-ham-1999",
-   "tierType": "O",
-   "club": "Hamburger SV",
-   "country": "Germany",
-   "season": "1999",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 73,
-   "kit": [
-    "#FFFFFF",
-    "#E2001A"
-   ],
-   "crest": null,
-   "scorers": [
-    "Keegan"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1999",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-juv-1999",
-   "tierType": "O",
-   "club": "Juventus",
-   "country": "Italy",
-   "season": "1999",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 82,
-   "kit": [
-    "#FFFFFF",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Inzaghi"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1999",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-ren-1999",
-   "tierType": "O",
-   "club": "Rennes",
-   "country": "France",
-   "season": "1999",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 68,
-   "kit": [
-    "#CC0000",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Goudet"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1999",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-whu-1999",
-   "tierType": "O",
-   "club": "West Ham United",
-   "country": "England",
-   "season": "1999",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 74,
-   "kit": [
-    "#7A263A",
-    "#1BB1E7"
-   ],
-   "crest": null,
-   "scorers": [
-    "Di Canio"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1999",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-mtz-1999",
-   "tierType": "O",
-   "club": "Metz",
-   "country": "France",
-   "season": "1999",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 68,
-   "kit": [
-    "#861F41",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Pjanić"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "1999",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-udi-2000",
-   "tierType": "O",
-   "club": "Udinese",
-   "country": "Italy",
-   "season": "2000",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 72,
-   "kit": [
-    "#FFFFFF",
-    "#1D1D1B"
-   ],
-   "crest": null,
-   "scorers": [
-    "Poggi"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2000",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-sig-2000",
-   "tierType": "O",
-   "club": "Sigma Olomouc",
-   "country": "Czech Republic",
-   "season": "2000",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 64,
-   "kit": [
-    "#003366",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2000",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-cel-2000",
-   "tierType": "O",
-   "club": "Celta Vigo",
-   "country": "Spain",
-   "season": "2000",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 76,
-   "kit": [
-    "#5A8EC7",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Mostovoi"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2000",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-zen-2000",
-   "tierType": "O",
-   "club": "Zenit",
-   "country": "Russia",
-   "season": "2000",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 68,
-   "kit": [
-    "#00548F",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Arshavin"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2000",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-vfb-2000",
-   "tierType": "O",
-   "club": "VfB Stuttgart",
-   "country": "Germany",
-   "season": "2000",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 73,
-   "kit": [
-    "#E20020",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Balakov"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2000",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-aux-2000",
-   "tierType": "O",
-   "club": "Auxerre",
-   "country": "France",
-   "season": "2000",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 74,
-   "kit": [
-    "#009B48",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Laslandes"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2000",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-avl-2001",
-   "tierType": "O",
-   "club": "Aston Villa",
-   "country": "England",
-   "season": "2001",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 73,
-   "kit": [
-    "#670E36",
-    "#95BFE5"
-   ],
-   "crest": null,
-   "scorers": [
-    "Dublin"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2001",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-bas-2001",
-   "tierType": "O",
-   "club": "Basel",
-   "country": "Switzerland",
-   "season": "2001",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 70,
-   "kit": [
-    "#C8102E",
-    "#003DA5"
-   ],
-   "crest": null,
-   "scorers": [
-    "Gimenez"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2001",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-psg-2001",
-   "tierType": "O",
-   "club": "Paris Saint-Germain",
-   "country": "France",
-   "season": "2001",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 76,
-   "kit": [
-    "#003F73",
-    "#C00F0B"
-   ],
-   "crest": null,
-   "scorers": [
-    "Anelka"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2001",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-bre-2001",
-   "tierType": "O",
-   "club": "Brescia",
-   "country": "Italy",
-   "season": "2001",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 70,
-   "kit": [
-    "#003DA5",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Baggio"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2001",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-tro-2001",
-   "tierType": "O",
-   "club": "Troyes",
-   "country": "France",
-   "season": "2001",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 67,
-   "kit": [
-    "#005BAC",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Gameiro"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2001",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-new-2001",
-   "tierType": "O",
-   "club": "Newcastle United",
-   "country": "England",
-   "season": "2001",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 76,
-   "kit": [
-    "#241F20",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Shearer"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2001",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-mal-2002",
-   "tierType": "O",
-   "club": "Málaga",
-   "country": "Spain",
-   "season": "2002",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 73,
-   "kit": [
-    "#1D4BA2",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Dely Valdés"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2002",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-vil-2002",
-   "tierType": "O",
-   "club": "Villarreal",
-   "country": "Spain",
-   "season": "2002",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 72,
-   "kit": [
-    "#F5CE00",
-    "#005293"
-   ],
-   "crest": null,
-   "scorers": [
-    "Riquelme"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2002",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-ful-2002",
-   "tierType": "O",
-   "club": "Fulham",
-   "country": "England",
-   "season": "2002",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 73,
-   "kit": [
-    "#FFFFFF",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Saha"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2002",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-hak-2002",
-   "tierType": "O",
-   "club": "Haka",
-   "country": "Finland",
-   "season": "2002",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 59,
-   "kit": [
-    "#F58220",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2002",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-vfb-2002",
-   "tierType": "O",
-   "club": "VfB Stuttgart",
-   "country": "Germany",
-   "season": "2002",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 74,
-   "kit": [
-    "#E20020",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Soldo"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2002",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-lok-2002",
-   "tierType": "O",
-   "club": "Lokeren",
-   "country": "Belgium",
-   "season": "2002",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 64,
-   "kit": [
-    "#E30613",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2002",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-s04-2003",
-   "tierType": "O",
-   "club": "Schalke 04",
-   "country": "Germany",
-   "season": "2003",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 76,
-   "kit": [
-    "#004FA3",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Ailton"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2003",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-pas-2003",
-   "tierType": "O",
-   "club": "Pasching",
-   "country": "Austria",
-   "season": "2003",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 59,
-   "kit": [
-    "#1A1A6E",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2003",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-vil-2003",
-   "tierType": "O",
-   "club": "Villarreal",
-   "country": "Spain",
-   "season": "2003",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 74,
-   "kit": [
-    "#F5CE00",
-    "#005293"
-   ],
-   "crest": null,
-   "scorers": [
-    "Riquelme"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2003",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-hee-2003",
-   "tierType": "O",
-   "club": "SC Heerenveen",
-   "country": "Netherlands",
-   "season": "2003",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 66,
-   "kit": [
-    "#0033A0",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Bruggink"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2003",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-per-2003",
-   "tierType": "O",
-   "club": "Perugia",
-   "country": "Italy",
-   "season": "2003",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 69,
-   "kit": [
-    "#CC0000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Venturin"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2003",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-wob-2003",
-   "tierType": "O",
-   "club": "VfL Wolfsburg",
-   "country": "Germany",
-   "season": "2003",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 69,
-   "kit": [
-    "#65B32E",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Klimowicz"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2003",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-lil-2004",
-   "tierType": "O",
-   "club": "Lille",
-   "country": "France",
-   "season": "2004",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 75,
-   "kit": [
-    "#CC0000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Moussilou"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2004",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-lei-2004",
-   "tierType": "O",
-   "club": "União de Leiria",
-   "country": "Portugal",
-   "season": "2004",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 61,
-   "kit": [
-    "#FFD700",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2004",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-s04-2004",
-   "tierType": "O",
-   "club": "Schalke 04",
-   "country": "Germany",
-   "season": "2004",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 76,
-   "kit": [
-    "#004FA3",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Asamoah"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2004",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-lib-2004",
-   "tierType": "O",
-   "club": "Slovan Liberec",
-   "country": "Czech Republic",
-   "season": "2004",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 64,
-   "kit": [
-    "#0033A0",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2004",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-vil-2004",
-   "tierType": "O",
-   "club": "Villarreal",
-   "country": "Spain",
-   "season": "2004",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 76,
-   "kit": [
-    "#F5CE00",
-    "#005293"
-   ],
-   "crest": null,
-   "scorers": [
-    "Forlán"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2004",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-atm-2004",
-   "tierType": "O",
-   "club": "Atletico Madrid",
-   "country": "Spain",
-   "season": "2004",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 73,
-   "kit": [
-    "#CC0000",
-    "#003DA5"
-   ],
-   "crest": null,
-   "scorers": [
-    "Ibagaza"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2004",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-len-2005",
-   "tierType": "O",
-   "club": "Lens",
-   "country": "France",
-   "season": "2005",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 72,
-   "kit": [
-    "#CC0000",
-    "#F5A623"
-   ],
-   "crest": null,
-   "scorers": [
-    "Cousin"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2005",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-clf-2005",
-   "tierType": "O",
-   "club": "CFR Cluj",
-   "country": "Romania",
-   "season": "2005",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 65,
-   "kit": [
-    "#CC0000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Munteanu"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2005",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-mar-2005",
-   "tierType": "O",
-   "club": "Marseille",
-   "country": "France",
-   "season": "2005",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 75,
-   "kit": [
-    "#6EC6E6",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Ribéry"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2005",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-dep-2005",
-   "tierType": "O",
-   "club": "Deportivo La Coruña",
-   "country": "Spain",
-   "season": "2005",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 72,
-   "kit": [
-    "#99CCFF",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Luque"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2005",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-ham-2005",
-   "tierType": "O",
-   "club": "Hamburger SV",
-   "country": "Germany",
-   "season": "2005",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 75,
-   "kit": [
-    "#005BAC",
-    "#E2001A"
-   ],
-   "crest": null,
-   "scorers": [
-    "van Nistelrooy"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2005",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-val-2005",
-   "tierType": "O",
-   "club": "Valencia",
-   "country": "Spain",
-   "season": "2005",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 80,
-   "kit": [
-    "#FC5E00",
-    "#000000"
-   ],
-   "crest": null,
-   "scorers": [
-    "Villa"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2005",
-     "stage": "RU"
-    }
-   ]
-  },
-  {
-   "id": "itc-new-2006",
-   "tierType": "O",
-   "club": "Newcastle United",
-   "country": "England",
-   "season": "2006",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 74,
-   "kit": [
-    "#241F20",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Owen"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2006",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-ham-2007",
-   "tierType": "O",
-   "club": "Hamburger SV",
-   "country": "Germany",
-   "season": "2007",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 74,
-   "kit": [
-    "#005BAC",
-    "#E2001A"
-   ],
-   "crest": null,
-   "scorers": [
-    "Trochowski"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2007",
-     "stage": "W"
-    }
-   ]
-  },
-  {
-   "id": "itc-bra-2008",
-   "tierType": "O",
-   "club": "Braga",
-   "country": "Portugal",
-   "season": "2008",
-   "comps": [
-    "ITC"
-   ],
-   "rating": 68,
-   "kit": [
-    "#CC0000",
-    "#FFFFFF"
-   ],
-   "crest": null,
-   "scorers": [
-    "Lima"
-   ],
-   "role": "stub",
-   "achievements": [
-    {
-     "comp": "ITC",
-     "season": "2008",
-     "stage": "W"
-    }
-   ]
-  }
- ]
+  "meta": {
+    "name": "Conference League + UEFA Intertoto Cup — finalists index (tier-O)",
+    "competitions": [
+      "CONFL",
+      "ITC"
+    ],
+    "scope": "Conference League: winner + runner-up all 5 editions 2021-22 to 2025-26. Intertoto: winner + runner-up of each final 1995-2005 (2-3 finals per year); outright winner only for 2006-2008 (format changed to 11 parallel finals, no traditional runner-up designation).",
+    "source": "Wikipedia finals, UEFA.com, aworldofsoccer.com, RSSSF, cross-checked",
+    "verified": true,
+    "note": "2025-26 Conference League final (Crystal Palace 1-0 Rayo Vallecano) independently confirmed 2026-08-07 via live Wikipedia fetch, superseding the earlier \"user context, not independently verified\" status.",
+    "achievementsAdded": "2026-08-07: per-row achievements[] (stage W/RU) added for all 74 rows — Conference League from Wikipedia, Intertoto Cup winners-per-year from RSSSF (rsssf.org/tablesi/intertoto.html); non-winning Intertoto entries assigned RU by elimination within each year, since the pack itself only ever holds winner+runner-up pairs for 1995-2005. 2006-2008 Intertoto entries correctly carry no RU (11 parallel winners, no runner-up concept, per the pack's existing scope note). See docs/CONTENT-TARGET.md section 3D."
+  },
+  "squads": [
+    {
+      "id": "confl-fey-2122",
+      "tierType": "O",
+      "club": "Feyenoord",
+      "country": "Netherlands",
+      "season": "2021-22",
+      "comps": [
+        "CONFL"
+      ],
+      "rating": 76,
+      "kit": [
+        "#C8102E",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Dessers"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2021-22",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "confl-whu-2223",
+      "tierType": "O",
+      "club": "West Ham United",
+      "country": "England",
+      "season": "2022-23",
+      "comps": [
+        "CONFL"
+      ],
+      "rating": 77,
+      "kit": [
+        "#7A263A",
+        "#1BB1E7"
+      ],
+      "crest": null,
+      "scorers": [
+        "Bowen"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2022-23",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "confl-oly-2324",
+      "tierType": "O",
+      "club": "Olympiacos",
+      "country": "Greece",
+      "season": "2023-24",
+      "comps": [
+        "CONFL"
+      ],
+      "rating": 72,
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "El Arabi"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2023-24",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "confl-che-2425",
+      "tierType": "O",
+      "club": "Chelsea",
+      "country": "England",
+      "season": "2024-25",
+      "comps": [
+        "CONFL"
+      ],
+      "rating": 80,
+      "kit": [
+        "#034694",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Palmer",
+        "Jackson"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "confl-bet-2425",
+      "tierType": "O",
+      "club": "Real Betis",
+      "country": "Spain",
+      "season": "2024-25",
+      "comps": [
+        "CONFL"
+      ],
+      "rating": 76,
+      "kit": [
+        "#00954B",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Isco",
+        "Ezzalzouli"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-bor-1995",
+      "tierType": "O",
+      "club": "Bordeaux",
+      "country": "France",
+      "season": "1995",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 76,
+      "kit": [
+        "#003F72",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Zidane"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1995",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-ksc-1995a",
+      "tierType": "O",
+      "club": "Karlsruher SC",
+      "country": "Germany",
+      "season": "1995",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 71,
+      "kit": [
+        "#003B99",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Chapuisat"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1995",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-str-1995",
+      "tierType": "O",
+      "club": "Strasbourg",
+      "country": "France",
+      "season": "1995",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 73,
+      "kit": [
+        "#1B5FAA",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Sauzée"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1995",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-tir-1995",
+      "tierType": "O",
+      "club": "Tirol Innsbruck",
+      "country": "Austria",
+      "season": "1995",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 66,
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Brunmayr"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1995",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-ksc-1996",
+      "tierType": "O",
+      "club": "Karlsruher SC",
+      "country": "Germany",
+      "season": "1996",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 72,
+      "kit": [
+        "#003B99",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Chapuisat"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1996",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-std-1996",
+      "tierType": "O",
+      "club": "Standard Liège",
+      "country": "Belgium",
+      "season": "1996",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 72,
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Leroy"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1996",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-gui-1996",
+      "tierType": "O",
+      "club": "Guingamp",
+      "country": "France",
+      "season": "1996",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 68,
+      "kit": [
+        "#1A1A6E",
+        "#CC0000"
+      ],
+      "crest": null,
+      "scorers": [
+        "Vahirua"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1996",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-rot-1996",
+      "tierType": "O",
+      "club": "Rotor Volgograd",
+      "country": "Russia",
+      "season": "1996",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 68,
+      "kit": [
+        "#0033A0",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Esipov"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1996",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-sil-1996",
+      "tierType": "O",
+      "club": "Silkeborg",
+      "country": "Denmark",
+      "season": "1996",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 67,
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Thorstvedt"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1996",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-seg-1996",
+      "tierType": "O",
+      "club": "Segesta Sisak",
+      "country": "Croatia",
+      "season": "1996",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 60,
+      "kit": [
+        "#003DA5",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1996",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-aux-1997",
+      "tierType": "O",
+      "club": "Auxerre",
+      "country": "France",
+      "season": "1997",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 75,
+      "kit": [
+        "#009B48",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Martins"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1997",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-dus-1997",
+      "tierType": "O",
+      "club": "MSV Duisburg",
+      "country": "Germany",
+      "season": "1997",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 70,
+      "kit": [
+        "#003C97",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Preetz"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1997",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-bas-1997",
+      "tierType": "O",
+      "club": "Bastia",
+      "country": "France",
+      "season": "1997",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 70,
+      "kit": [
+        "#002060",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Luccin"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1997",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-hal-1997",
+      "tierType": "O",
+      "club": "Halmstads BK",
+      "country": "Sweden",
+      "season": "1997",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 65,
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Sjöberg"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1997",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-lyo-1997",
+      "tierType": "O",
+      "club": "Lyon",
+      "country": "France",
+      "season": "1997",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 73,
+      "kit": [
+        "#012160",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Laigle"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1997",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-mtp-1997",
+      "tierType": "O",
+      "club": "Montpellier",
+      "country": "France",
+      "season": "1997",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 70,
+      "kit": [
+        "#EA6300",
+        "#001B5E"
+      ],
+      "crest": null,
+      "scorers": [
+        "Cantona"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1997",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-val-1998",
+      "tierType": "O",
+      "club": "Valencia",
+      "country": "Spain",
+      "season": "1998",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 78,
+      "kit": [
+        "#FC5E00",
+        "#000000"
+      ],
+      "crest": null,
+      "scorers": [
+        "Mendieta"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1998",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-aus-1998",
+      "tierType": "O",
+      "club": "Austria Salzburg",
+      "country": "Austria",
+      "season": "1998",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 67,
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Linzmaier"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1998",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-wer-1998",
+      "tierType": "O",
+      "club": "Werder Bremen",
+      "country": "Germany",
+      "season": "1998",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 75,
+      "kit": [
+        "#00A651",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Bode"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1998",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-voj-1998",
+      "tierType": "O",
+      "club": "Vojvodina",
+      "country": "Yugoslavia",
+      "season": "1998",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 65,
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Jarić"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1998",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-bol-1998",
+      "tierType": "O",
+      "club": "Bologna",
+      "country": "Italy",
+      "season": "1998",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 73,
+      "kit": [
+        "#BA251E",
+        "#000033"
+      ],
+      "crest": null,
+      "scorers": [
+        "Kolyvanov"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1998",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-ruc-1998",
+      "tierType": "O",
+      "club": "Ruch Chorzów",
+      "country": "Poland",
+      "season": "1998",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 64,
+      "kit": [
+        "#004F9F",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Zając"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1998",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-mtp-1999",
+      "tierType": "O",
+      "club": "Montpellier",
+      "country": "France",
+      "season": "1999",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 70,
+      "kit": [
+        "#EA6300",
+        "#001B5E"
+      ],
+      "crest": null,
+      "scorers": [
+        "Kéomany"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1999",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-ham-1999",
+      "tierType": "O",
+      "club": "Hamburger SV",
+      "country": "Germany",
+      "season": "1999",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 73,
+      "kit": [
+        "#FFFFFF",
+        "#E2001A"
+      ],
+      "crest": null,
+      "scorers": [
+        "Keegan"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1999",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-juv-1999",
+      "tierType": "O",
+      "club": "Juventus",
+      "country": "Italy",
+      "season": "1999",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 82,
+      "kit": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "crest": null,
+      "scorers": [
+        "Inzaghi"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1999",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-ren-1999",
+      "tierType": "O",
+      "club": "Rennes",
+      "country": "France",
+      "season": "1999",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 68,
+      "kit": [
+        "#CC0000",
+        "#000000"
+      ],
+      "crest": null,
+      "scorers": [
+        "Goudet"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1999",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-whu-1999",
+      "tierType": "O",
+      "club": "West Ham United",
+      "country": "England",
+      "season": "1999",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 74,
+      "kit": [
+        "#7A263A",
+        "#1BB1E7"
+      ],
+      "crest": null,
+      "scorers": [
+        "Di Canio"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1999",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-mtz-1999",
+      "tierType": "O",
+      "club": "Metz",
+      "country": "France",
+      "season": "1999",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 68,
+      "kit": [
+        "#861F41",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Pjanić"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "1999",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-udi-2000",
+      "tierType": "O",
+      "club": "Udinese",
+      "country": "Italy",
+      "season": "2000",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 72,
+      "kit": [
+        "#FFFFFF",
+        "#1D1D1B"
+      ],
+      "crest": null,
+      "scorers": [
+        "Poggi"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2000",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-sig-2000",
+      "tierType": "O",
+      "club": "Sigma Olomouc",
+      "country": "Czech Republic",
+      "season": "2000",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 64,
+      "kit": [
+        "#003366",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2000",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-cel-2000",
+      "tierType": "O",
+      "club": "Celta Vigo",
+      "country": "Spain",
+      "season": "2000",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 76,
+      "kit": [
+        "#5A8EC7",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Mostovoi"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2000",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-zen-2000",
+      "tierType": "O",
+      "club": "Zenit",
+      "country": "Russia",
+      "season": "2000",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 68,
+      "kit": [
+        "#00548F",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Arshavin"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2000",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-vfb-2000",
+      "tierType": "O",
+      "club": "VfB Stuttgart",
+      "country": "Germany",
+      "season": "2000",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 73,
+      "kit": [
+        "#E20020",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Balakov"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2000",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-aux-2000",
+      "tierType": "O",
+      "club": "Auxerre",
+      "country": "France",
+      "season": "2000",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 74,
+      "kit": [
+        "#009B48",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Laslandes"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2000",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-avl-2001",
+      "tierType": "O",
+      "club": "Aston Villa",
+      "country": "England",
+      "season": "2001",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 73,
+      "kit": [
+        "#670E36",
+        "#95BFE5"
+      ],
+      "crest": null,
+      "scorers": [
+        "Dublin"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2001",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-bas-2001",
+      "tierType": "O",
+      "club": "Basel",
+      "country": "Switzerland",
+      "season": "2001",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 70,
+      "kit": [
+        "#C8102E",
+        "#003DA5"
+      ],
+      "crest": null,
+      "scorers": [
+        "Gimenez"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2001",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-psg-2001",
+      "tierType": "O",
+      "club": "Paris Saint-Germain",
+      "country": "France",
+      "season": "2001",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 76,
+      "kit": [
+        "#003F73",
+        "#C00F0B"
+      ],
+      "crest": null,
+      "scorers": [
+        "Anelka"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2001",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-bre-2001",
+      "tierType": "O",
+      "club": "Brescia",
+      "country": "Italy",
+      "season": "2001",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 70,
+      "kit": [
+        "#003DA5",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Baggio"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2001",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-tro-2001",
+      "tierType": "O",
+      "club": "Troyes",
+      "country": "France",
+      "season": "2001",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 67,
+      "kit": [
+        "#005BAC",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Gameiro"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2001",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-new-2001",
+      "tierType": "O",
+      "club": "Newcastle United",
+      "country": "England",
+      "season": "2001",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 76,
+      "kit": [
+        "#241F20",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Shearer"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2001",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-mal-2002",
+      "tierType": "O",
+      "club": "Málaga",
+      "country": "Spain",
+      "season": "2002",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 73,
+      "kit": [
+        "#1D4BA2",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Dely Valdés"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2002",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-vil-2002",
+      "tierType": "O",
+      "club": "Villarreal",
+      "country": "Spain",
+      "season": "2002",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 72,
+      "kit": [
+        "#F5CE00",
+        "#005293"
+      ],
+      "crest": null,
+      "scorers": [
+        "Riquelme"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2002",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-ful-2002",
+      "tierType": "O",
+      "club": "Fulham",
+      "country": "England",
+      "season": "2002",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 73,
+      "kit": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "crest": null,
+      "scorers": [
+        "Saha"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2002",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-hak-2002",
+      "tierType": "O",
+      "club": "Haka",
+      "country": "Finland",
+      "season": "2002",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 59,
+      "kit": [
+        "#F58220",
+        "#000000"
+      ],
+      "crest": null,
+      "scorers": [],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2002",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-vfb-2002",
+      "tierType": "O",
+      "club": "VfB Stuttgart",
+      "country": "Germany",
+      "season": "2002",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 74,
+      "kit": [
+        "#E20020",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Soldo"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2002",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-lok-2002",
+      "tierType": "O",
+      "club": "Lokeren",
+      "country": "Belgium",
+      "season": "2002",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 64,
+      "kit": [
+        "#E30613",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2002",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-s04-2003",
+      "tierType": "O",
+      "club": "Schalke 04",
+      "country": "Germany",
+      "season": "2003",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 76,
+      "kit": [
+        "#004FA3",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Ailton"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2003",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-pas-2003",
+      "tierType": "O",
+      "club": "Pasching",
+      "country": "Austria",
+      "season": "2003",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 59,
+      "kit": [
+        "#1A1A6E",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2003",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-vil-2003",
+      "tierType": "O",
+      "club": "Villarreal",
+      "country": "Spain",
+      "season": "2003",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 74,
+      "kit": [
+        "#F5CE00",
+        "#005293"
+      ],
+      "crest": null,
+      "scorers": [
+        "Riquelme"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2003",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-hee-2003",
+      "tierType": "O",
+      "club": "SC Heerenveen",
+      "country": "Netherlands",
+      "season": "2003",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 66,
+      "kit": [
+        "#0033A0",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Bruggink"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2003",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-per-2003",
+      "tierType": "O",
+      "club": "Perugia",
+      "country": "Italy",
+      "season": "2003",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 69,
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Venturin"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2003",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-wob-2003",
+      "tierType": "O",
+      "club": "VfL Wolfsburg",
+      "country": "Germany",
+      "season": "2003",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 69,
+      "kit": [
+        "#65B32E",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Klimowicz"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2003",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-lil-2004",
+      "tierType": "O",
+      "club": "Lille",
+      "country": "France",
+      "season": "2004",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 75,
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Moussilou"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2004",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-lei-2004",
+      "tierType": "O",
+      "club": "União de Leiria",
+      "country": "Portugal",
+      "season": "2004",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 61,
+      "kit": [
+        "#FFD700",
+        "#000000"
+      ],
+      "crest": null,
+      "scorers": [],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2004",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-s04-2004",
+      "tierType": "O",
+      "club": "Schalke 04",
+      "country": "Germany",
+      "season": "2004",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 76,
+      "kit": [
+        "#004FA3",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Asamoah"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2004",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-lib-2004",
+      "tierType": "O",
+      "club": "Slovan Liberec",
+      "country": "Czech Republic",
+      "season": "2004",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 64,
+      "kit": [
+        "#0033A0",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2004",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-vil-2004",
+      "tierType": "O",
+      "club": "Villarreal",
+      "country": "Spain",
+      "season": "2004",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 76,
+      "kit": [
+        "#F5CE00",
+        "#005293"
+      ],
+      "crest": null,
+      "scorers": [
+        "Forlán"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2004",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-atm-2004",
+      "tierType": "O",
+      "club": "Atletico Madrid",
+      "country": "Spain",
+      "season": "2004",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 73,
+      "kit": [
+        "#CC0000",
+        "#003DA5"
+      ],
+      "crest": null,
+      "scorers": [
+        "Ibagaza"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2004",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-len-2005",
+      "tierType": "O",
+      "club": "Lens",
+      "country": "France",
+      "season": "2005",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 72,
+      "kit": [
+        "#CC0000",
+        "#F5A623"
+      ],
+      "crest": null,
+      "scorers": [
+        "Cousin"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2005",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-clf-2005",
+      "tierType": "O",
+      "club": "CFR Cluj",
+      "country": "Romania",
+      "season": "2005",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 65,
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Munteanu"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2005",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-mar-2005",
+      "tierType": "O",
+      "club": "Marseille",
+      "country": "France",
+      "season": "2005",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 75,
+      "kit": [
+        "#6EC6E6",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Ribéry"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2005",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-dep-2005",
+      "tierType": "O",
+      "club": "Deportivo La Coruña",
+      "country": "Spain",
+      "season": "2005",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 72,
+      "kit": [
+        "#99CCFF",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Luque"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2005",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-ham-2005",
+      "tierType": "O",
+      "club": "Hamburger SV",
+      "country": "Germany",
+      "season": "2005",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 75,
+      "kit": [
+        "#005BAC",
+        "#E2001A"
+      ],
+      "crest": null,
+      "scorers": [
+        "van Nistelrooy"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2005",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-val-2005",
+      "tierType": "O",
+      "club": "Valencia",
+      "country": "Spain",
+      "season": "2005",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 80,
+      "kit": [
+        "#FC5E00",
+        "#000000"
+      ],
+      "crest": null,
+      "scorers": [
+        "Villa"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2005",
+          "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "itc-new-2006",
+      "tierType": "O",
+      "club": "Newcastle United",
+      "country": "England",
+      "season": "2006",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 74,
+      "kit": [
+        "#241F20",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Owen"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2006",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-ham-2007",
+      "tierType": "O",
+      "club": "Hamburger SV",
+      "country": "Germany",
+      "season": "2007",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 74,
+      "kit": [
+        "#005BAC",
+        "#E2001A"
+      ],
+      "crest": null,
+      "scorers": [
+        "Trochowski"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2007",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "itc-bra-2008",
+      "tierType": "O",
+      "club": "Braga",
+      "country": "Portugal",
+      "season": "2008",
+      "comps": [
+        "ITC"
+      ],
+      "rating": 68,
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "scorers": [
+        "Lima"
+      ],
+      "role": "stub",
+      "achievements": [
+        {
+          "comp": "ITC",
+          "season": "2008",
+          "stage": "W"
+        }
+      ]
+    }
+  ]
 }

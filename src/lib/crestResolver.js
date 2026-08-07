@@ -256,6 +256,33 @@ export const CREST_PAGE_OVERRIDES = {
   "villarreal": "Villarreal CF",
   "vojvodina": "FK Vojvodina",
 
+  // Conference League 2025-26 main-draw additions.
+  "aek athens": "AEK Athens F.C.",
+  "aek larnaca": "AEK Larnaca FC",
+  "breidablik": "Breiðablik men's football",
+  "breiðablik": "Breiðablik men's football",
+  "celje": "NK Celje",
+  "drita": "FC Drita",
+  "hacken": "BK Häcken",
+  "hamrun spartans": "Hamrun Spartans F.C.",
+  "jagiellonia bialystok": "Jagiellonia Białystok",
+  "jagiellonia białystok": "Jagiellonia Białystok",
+  "kups": "Kuopion Palloseura",
+  "lausanne-sport": "FC Lausanne-Sport",
+  "lech poznan": "Lech Poznań",
+  "lincoln red imps": "Lincoln Red Imps F.C.",
+  "mainz": "1. FSV Mainz 05",
+  "noah": "FC Noah",
+  "omonia": "AC Omonia",
+  "rakow czestochowa": "Raków Częstochowa",
+  "rijeka": "HNK Rijeka",
+  "samsunspor": "Samsunspor",
+  "shamrock rovers": "Shamrock Rovers F.C.",
+  "shelbourne": "Shelbourne F.C.",
+  "shkendija": "KF Shkëndija",
+  "universitatea craiova": "CS Universitatea Craiova",
+  "zrinjski mostar": "HŠK Zrinjski Mostar",
+
 };
 
 function loadPersistent() {

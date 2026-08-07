@@ -690,12 +690,11 @@ throughout this file.
    than W/RU/SF achievement rows.
 2. ~~Validation script in CI~~ — **done 2026-08-07**, see section 3B and
    `scripts/validate.mjs`.
-3. **Conference League pilot** — smallest scope at 5 editions and now the first
-   scope with researched depth targets in `coverage-target.json`: 168 required
-   main-draw rosters in total. Use it to prove the schema, evidence matrix,
-   validation gates and measured coverage end to end. `coverage --next` now
-   points here as a known incomplete scope rather than skipping it merely because
-   every season had at least one finalist row. This is the next item.
+3. **Conference League pilot** — in progress. The 2025-26 edition was completed
+   on 2026-08-07 as one atomic 36-club league-phase pack, upgrading the existing
+   Crystal Palace and Rayo Vallecano stubs in place. See
+   `docs/CONFL-AUDIT-2025-26.md`. Coverage should now move to the next incomplete
+   Conference League edition rather than treating the scope as complete.
 4. **Loader rework** (section 4), before passing ~2,000 rosters.
 5. **Then bulk content**, in the priority order set in `coverage-target.json`:
    Conference League, EC/UCL, Serie A, Europa League, Cup Winners' Cup, UEFA
