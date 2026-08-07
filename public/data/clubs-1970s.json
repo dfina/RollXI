@@ -3796,7 +3796,13 @@
         }
       ],
       "role": "roster",
-      "achievements": []
+      "achievements": [
+        {
+          "comp": "EC",
+          "season": "1975-76",
+          "stage": "RU"
+        }
+      ]
     },
     {
       "id": "cwc-westha-197576",
