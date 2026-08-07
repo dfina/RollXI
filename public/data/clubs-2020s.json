@@ -2392,178 +2392,6 @@
       ]
     },
     {
-      "id": "confl-ham-2526",
-      "club": "Hamrun Spartans",
-      "country": "Malta",
-      "league": "MLT",
-      "season": "2025-26",
-      "kit": [
-        "#D71920",
-        "#111111"
-      ],
-      "crest": null,
-      "players": [
-        {
-          "n": "Henry Bonello",
-          "p": "GK",
-          "r": 75,
-          "nat": "Malta",
-          "dp": [
-            "GK"
-          ]
-        },
-        {
-          "n": "Ognjen Bjeličić",
-          "p": "MF",
-          "r": 73,
-          "nat": "Serbia",
-          "dp": [
-            "MF"
-          ]
-        },
-        {
-          "n": "Rafael Compri",
-          "p": "DF",
-          "r": 74,
-          "nat": "Brazil",
-          "dp": [
-            "DF"
-          ]
-        },
-        {
-          "n": "Ryan Camenzuli",
-          "p": "DF",
-          "r": 74,
-          "nat": "Malta",
-          "dp": [
-            "DF"
-          ]
-        },
-        {
-          "n": "Marcelina Emerson",
-          "p": "MF",
-          "r": 74,
-          "nat": "Brazil",
-          "dp": [
-            "MF"
-          ]
-        },
-        {
-          "n": "Vincenzo Polito",
-          "p": "DF",
-          "r": 74,
-          "nat": "Italy",
-          "dp": [
-            "DF"
-          ]
-        },
-        {
-          "n": "Jovan Cadjenović",
-          "p": "MF",
-          "r": 74,
-          "nat": "Montenegro",
-          "dp": [
-            "MF"
-          ]
-        },
-        {
-          "n": "Joseph Mbong",
-          "p": "FW",
-          "r": 75,
-          "nat": "Malta",
-          "dp": [
-            "FW"
-          ]
-        },
-        {
-          "n": "Éder",
-          "p": "MF",
-          "r": 73,
-          "nat": "Brazil",
-          "dp": [
-            "MF"
-          ]
-        },
-        {
-          "n": "Ante Ćorić",
-          "p": "MF",
-          "r": 74,
-          "nat": "Croatia",
-          "dp": [
-            "MF"
-          ]
-        },
-        {
-          "n": "Mouad El Fanis",
-          "p": "MF",
-          "r": 74,
-          "nat": "Belgium",
-          "dp": [
-            "MF"
-          ]
-        },
-        {
-          "n": "Matías Ariel García",
-          "p": "MF",
-          "r": 74,
-          "nat": "Malta",
-          "dp": [
-            "MF"
-          ]
-        },
-        {
-          "n": "Saliou Thioune",
-          "p": "FW",
-          "r": 75,
-          "nat": "Senegal",
-          "dp": [
-            "FW"
-          ]
-        },
-        {
-          "n": "Semir Smajlagić",
-          "p": "FW",
-          "r": 74,
-          "nat": "Bosnia and Herzegovina",
-          "dp": [
-            "FW"
-          ]
-        },
-        {
-          "n": "N'Dri Koffi",
-          "p": "FW",
-          "r": 74,
-          "nat": "Côte d'Ivoire",
-          "dp": [
-            "FW"
-          ]
-        },
-        {
-          "n": "Stijn Meijer",
-          "p": "FW",
-          "r": 74,
-          "nat": "Netherlands",
-          "dp": [
-            "FW"
-          ]
-        }
-      ],
-      "euro": [
-        {
-          "comp": "CONFL",
-          "season": "2025-26"
-        }
-      ],
-      "role": "roster",
-      "achievements": [
-        {
-          "comp": "CONFL",
-          "season": "2025-26",
-          "stage": "MAIN"
-        }
-      ]
-    },
-    {
       "id": "confl-hac-2526",
       "club": "Häcken",
       "country": "Sweden",
@@ -2715,6 +2543,178 @@
           "p": "FW",
           "r": 77,
           "nat": "Tunisia",
+          "dp": [
+            "FW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2025-26"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2025-26",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-ham-2526",
+      "club": "Hamrun Spartans",
+      "country": "Malta",
+      "league": "MLT",
+      "season": "2025-26",
+      "kit": [
+        "#D71920",
+        "#111111"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Henry Bonello",
+          "p": "GK",
+          "r": 75,
+          "nat": "Malta",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Ognjen Bjeličić",
+          "p": "MF",
+          "r": 73,
+          "nat": "Serbia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Rafael Compri",
+          "p": "DF",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Ryan Camenzuli",
+          "p": "DF",
+          "r": 74,
+          "nat": "Malta",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Marcelina Emerson",
+          "p": "MF",
+          "r": 74,
+          "nat": "Brazil",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Vincenzo Polito",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Jovan Cadjenović",
+          "p": "MF",
+          "r": 74,
+          "nat": "Montenegro",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Joseph Mbong",
+          "p": "FW",
+          "r": 75,
+          "nat": "Malta",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Éder",
+          "p": "MF",
+          "r": 73,
+          "nat": "Brazil",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ante Ćorić",
+          "p": "MF",
+          "r": 74,
+          "nat": "Croatia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Mouad El Fanis",
+          "p": "MF",
+          "r": 74,
+          "nat": "Belgium",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Matías Ariel García",
+          "p": "MF",
+          "r": 74,
+          "nat": "Malta",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Saliou Thioune",
+          "p": "FW",
+          "r": 75,
+          "nat": "Senegal",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Semir Smajlagić",
+          "p": "FW",
+          "r": 74,
+          "nat": "Bosnia and Herzegovina",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "N'Dri Koffi",
+          "p": "FW",
+          "r": 74,
+          "nat": "Côte d'Ivoire",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Stijn Meijer",
+          "p": "FW",
+          "r": 74,
+          "nat": "Netherlands",
           "dp": [
             "FW"
           ]
@@ -4632,7 +4632,7 @@
           "n": "Lamine Diaby-Fadiga",
           "p": "FW",
           "r": 81,
-          "nat": "Côte d'Ivoire",
+          "nat": "Guinea",
           "dp": [
             "FW"
           ]
@@ -7284,6 +7284,178 @@
       ]
     },
     {
+      "id": "confl-apoel-2425",
+      "club": "APOEL",
+      "country": "Cyprus",
+      "league": "CYP",
+      "season": "2024-25",
+      "kit": [
+        "#F2C500",
+        "#0057B8"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Algassime Bah",
+          "p": "FW",
+          "r": 79,
+          "nat": "Guinea",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Anastasios Donis",
+          "p": "FW",
+          "r": 79,
+          "nat": "Greece",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "David Abagna",
+          "p": "MF",
+          "r": 77,
+          "nat": "Ghana",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Giannis Satsias",
+          "p": "MF",
+          "r": 76,
+          "nat": "Cyprus",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Issam Chebake",
+          "p": "DF",
+          "r": 78,
+          "nat": "Morocco",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Konstantinos Laifis",
+          "p": "DF",
+          "r": 78,
+          "nat": "Cyprus",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Lasha Dvali",
+          "p": "DF",
+          "r": 77,
+          "nat": "Georgia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Marquinhos",
+          "p": "FW",
+          "r": 80,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Mateo Sušić",
+          "p": "DF",
+          "r": 78,
+          "nat": "Bosnia and Herzegovina",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Max Meyer",
+          "p": "MF",
+          "r": 76,
+          "nat": "Germany",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Radosav Petrović",
+          "p": "MF",
+          "r": 77,
+          "nat": "Serbia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Sergio Tejera",
+          "p": "MF",
+          "r": 76,
+          "nat": "Spain",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Stefan Dražić",
+          "p": "FW",
+          "r": 77,
+          "nat": "Serbia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Vid Belec",
+          "p": "GK",
+          "r": 74,
+          "nat": "Slovenia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Xavi Quintillà",
+          "p": "DF",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Youssef El-Arabi",
+          "p": "FW",
+          "r": 77,
+          "nat": "Morocco",
+          "dp": [
+            "FW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
       "id": "eng-ars-2425",
       "club": "Arsenal",
       "country": "England",
@@ -7684,6 +7856,178 @@
       "achievements": [
         {
           "comp": "UEL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-astana-2425",
+      "club": "Astana",
+      "country": "Kazakhstan",
+      "league": "KAZ",
+      "season": "2024-25",
+      "kit": [
+        "#F2C500",
+        "#0057B8"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Aleksa Amanović",
+          "p": "DF",
+          "r": 75,
+          "nat": "North Macedonia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Aleksandr Marochkin",
+          "p": "DF",
+          "r": 76,
+          "nat": "Kazakhstan",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Barnes Osei",
+          "p": "FW",
+          "r": 77,
+          "nat": "Ghana",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Branimir Kalaica",
+          "p": "DF",
+          "r": 77,
+          "nat": "Croatia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Elkhan Astanov",
+          "p": "MF",
+          "r": 75,
+          "nat": "Kazakhstan",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Geoffrey Charles Chinedu",
+          "p": "FW",
+          "r": 78,
+          "nat": "Nigeria",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Islambek Kuat",
+          "p": "MF",
+          "r": 76,
+          "nat": "Kazakhstan",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Karlo Bartolec",
+          "p": "DF",
+          "r": 77,
+          "nat": "Croatia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Kipras Kažukolovas",
+          "p": "DF",
+          "r": 75,
+          "nat": "Lithuania",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Marin Tomasov",
+          "p": "FW",
+          "r": 76,
+          "nat": "Croatia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Max Ebong",
+          "p": "MF",
+          "r": 77,
+          "nat": "Belarus",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Mukhamedjan Seysen",
+          "p": "GK",
+          "r": 75,
+          "nat": "Kazakhstan",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Nazmi Gripshi",
+          "p": "MF",
+          "r": 75,
+          "nat": "Albania",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ousmane Camara",
+          "p": "FW",
+          "r": 77,
+          "nat": "Guinea",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Ramazan Karimov",
+          "p": "FW",
+          "r": 78,
+          "nat": "Kazakhstan",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Yan Vorogovskiy",
+          "p": "DF",
+          "r": 76,
+          "nat": "Kazakhstan",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
           "season": "2024-25",
           "stage": "MAIN"
         }
@@ -8252,6 +8596,178 @@
       ]
     },
     {
+      "id": "confl-borac-banja-luka-2425",
+      "club": "Borac Banja Luka",
+      "country": "Bosnia and Herzegovina",
+      "league": "BIH",
+      "season": "2024-25",
+      "kit": [
+        "#C8102E",
+        "#0057B8"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Bart Meijers",
+          "p": "DF",
+          "r": 78,
+          "nat": "Netherlands",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "David Čavić",
+          "p": "FW",
+          "r": 80,
+          "nat": "Bosnia and Herzegovina",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "David Vuković",
+          "p": "FW",
+          "r": 79,
+          "nat": "Bosnia and Herzegovina",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Dino Skorup",
+          "p": "MF",
+          "r": 79,
+          "nat": "Croatia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Đorđe Despotović",
+          "p": "FW",
+          "r": 81,
+          "nat": "Serbia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Enver Kulašin",
+          "p": "FW",
+          "r": 79,
+          "nat": "Bosnia and Herzegovina",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Filip Manojlović",
+          "p": "GK",
+          "r": 78,
+          "nat": "Serbia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Jurich Carolina",
+          "p": "DF",
+          "r": 80,
+          "nat": "Curaçao",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Marko Vukčević",
+          "p": "DF",
+          "r": 79,
+          "nat": "Montenegro",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Nikola Srećković",
+          "p": "FW",
+          "r": 81,
+          "nat": "Serbia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Sandi Ogrinec",
+          "p": "MF",
+          "r": 78,
+          "nat": "Slovenia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Sebastián Herrera",
+          "p": "DF",
+          "r": 79,
+          "nat": "North Macedonia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Srđan Grahovac",
+          "p": "MF",
+          "r": 78,
+          "nat": "Bosnia and Herzegovina",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Stefan Savić",
+          "p": "MF",
+          "r": 80,
+          "nat": "Austria",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Stojan Vranješ",
+          "p": "MF",
+          "r": 79,
+          "nat": "Bosnia and Herzegovina",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Zoran Kvržić",
+          "p": "DF",
+          "r": 80,
+          "nat": "Bosnia and Herzegovina",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "R16"
+        }
+      ]
+    },
+    {
       "id": "ita-cag-2425",
       "club": "Cagliari",
       "country": "Italy",
@@ -8379,6 +8895,350 @@
       "achievements": []
     },
     {
+      "id": "confl-celje-2425",
+      "club": "Celje",
+      "country": "Slovenia",
+      "league": "SVN",
+      "season": "2024-25",
+      "kit": [
+        "#0057A8",
+        "#F2C500"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Aljoša Matko",
+          "p": "FW",
+          "r": 80,
+          "nat": "Slovenia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Armandas Kučys",
+          "p": "FW",
+          "r": 78,
+          "nat": "Lithuania",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Clément Lhernault",
+          "p": "MF",
+          "r": 81,
+          "nat": "France",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Damjan Vuklišević",
+          "p": "DF",
+          "r": 79,
+          "nat": "Slovenia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Edmilson",
+          "p": "FW",
+          "r": 80,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Juanjo Nieto",
+          "p": "DF",
+          "r": 81,
+          "nat": "Spain",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Klemen Nemanič",
+          "p": "DF",
+          "r": 81,
+          "nat": "Slovenia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Logan Delaurier-Chaubet",
+          "p": "FW",
+          "r": 82,
+          "nat": "France",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Łukasz Bejger",
+          "p": "DF",
+          "r": 80,
+          "nat": "Poland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Marco Dulca",
+          "p": "MF",
+          "r": 79,
+          "nat": "Romania",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Mario Kvesić",
+          "p": "MF",
+          "r": 80,
+          "nat": "Bosnia and Herzegovina",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Mark Zabukovnik",
+          "p": "MF",
+          "r": 80,
+          "nat": "Slovenia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ricardo Silva",
+          "p": "GK",
+          "r": 79,
+          "nat": "Portugal",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Svit Sešlar",
+          "p": "MF",
+          "r": 82,
+          "nat": "Slovenia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Tamar Svetlin",
+          "p": "MF",
+          "r": 81,
+          "nat": "Slovenia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Žan Karničnik",
+          "p": "DF",
+          "r": 80,
+          "nat": "Slovenia",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "QF"
+        }
+      ]
+    },
+    {
+      "id": "confl-cercle-brugge-2425",
+      "club": "Cercle Brugge",
+      "country": "Belgium",
+      "league": "BEL",
+      "season": "2024-25",
+      "kit": [
+        "#000000",
+        "#138A49"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Alan Minda",
+          "p": "FW",
+          "r": 80,
+          "nat": "Ecuador",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Christiaan Ravych",
+          "p": "DF",
+          "r": 80,
+          "nat": "Belgium",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Edgaras Utkus",
+          "p": "DF",
+          "r": 80,
+          "nat": "Lithuania",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Felipe Augusto",
+          "p": "FW",
+          "r": 81,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Flávio Nazinho",
+          "p": "DF",
+          "r": 79,
+          "nat": "Portugal",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Francis Abu",
+          "p": "MF",
+          "r": 78,
+          "nat": "Ghana",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Gary Magnée",
+          "p": "MF",
+          "r": 78,
+          "nat": "Belgium",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Hannes Van der Bruggen",
+          "p": "MF",
+          "r": 79,
+          "nat": "Belgium",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ibrahim Diakité",
+          "p": "DF",
+          "r": 79,
+          "nat": "Guinea",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Kazeem Olaigbe",
+          "p": "FW",
+          "r": 79,
+          "nat": "Belgium",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Kévin Denkey",
+          "p": "FW",
+          "r": 81,
+          "nat": "Togo",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Malamine Efekele",
+          "p": "FW",
+          "r": 80,
+          "nat": "France",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Maxime Delanghe",
+          "p": "GK",
+          "r": 78,
+          "nat": "Belgium",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Nils De Wilde",
+          "p": "MF",
+          "r": 80,
+          "nat": "Belgium",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Paris Brunner",
+          "p": "FW",
+          "r": 79,
+          "nat": "Germany",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Thibo Somers",
+          "p": "MF",
+          "r": 78,
+          "nat": "Belgium",
+          "dp": [
+            "MF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "R16"
+        }
+      ]
+    },
+    {
       "id": "confl-che-2425",
       "club": "Chelsea",
       "country": "England",
@@ -8386,22 +9246,170 @@
       "comps": [
         "CONFL"
       ],
-      "rating": 80,
       "kit": [
         "#034694",
         "#FFFFFF"
       ],
       "crest": null,
-      "scorers": [
-        "Palmer",
-        "Jackson"
-      ],
-      "role": "stub",
+      "role": "roster",
       "achievements": [
         {
           "comp": "CONFL",
           "season": "2024-25",
           "stage": "W"
+        }
+      ],
+      "league": "ENG",
+      "players": [
+        {
+          "n": "Axel Disasi",
+          "p": "DF",
+          "r": 82,
+          "nat": "France",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Benoît Badiashile",
+          "p": "DF",
+          "r": 82,
+          "nat": "France",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Christopher Nkunku",
+          "p": "FW",
+          "r": 85,
+          "nat": "France",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Cole Palmer",
+          "p": "MF",
+          "r": 87,
+          "nat": "England",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Enzo Fernández",
+          "p": "MF",
+          "r": 86,
+          "nat": "Argentina",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Filip Jørgensen",
+          "p": "GK",
+          "r": 82,
+          "nat": "Denmark",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Jadon Sancho",
+          "p": "FW",
+          "r": 83,
+          "nat": "England",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Josh Acheampong",
+          "p": "DF",
+          "r": 78,
+          "nat": "England",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Kiernan Dewsbury-Hall",
+          "p": "MF",
+          "r": 82,
+          "nat": "England",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Marc Cucurella",
+          "p": "DF",
+          "r": 85,
+          "nat": "Spain",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Mykhailo Mudryk",
+          "p": "FW",
+          "r": 82,
+          "nat": "Ukraine",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Pedro Neto",
+          "p": "FW",
+          "r": 84,
+          "nat": "Portugal",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Reece James",
+          "p": "DF",
+          "r": 85,
+          "nat": "England",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Renato Veiga",
+          "p": "DF",
+          "r": 80,
+          "nat": "Portugal",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Tosin Adarabioyo",
+          "p": "DF",
+          "r": 82,
+          "nat": "England",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Tyrique George",
+          "p": "FW",
+          "r": 78,
+          "nat": "England",
+          "dp": [
+            "FW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
         }
       ]
     },
@@ -8533,6 +9541,522 @@
       ],
       "role": "roster",
       "achievements": []
+    },
+    {
+      "id": "confl-copenhagen-2425",
+      "club": "Copenhagen",
+      "country": "Denmark",
+      "league": "DEN",
+      "season": "2024-25",
+      "kit": [
+        "#FFFFFF",
+        "#0057B8"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Amin Chiakha",
+          "p": "FW",
+          "r": 82,
+          "nat": "Algeria",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Elias Achouri",
+          "p": "FW",
+          "r": 80,
+          "nat": "Tunisia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Gabriel Pereira",
+          "p": "DF",
+          "r": 79,
+          "nat": "Brazil",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Giorgi Gocholeishvili",
+          "p": "DF",
+          "r": 80,
+          "nat": "Georgia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Kevin Diks",
+          "p": "DF",
+          "r": 81,
+          "nat": "Indonesia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Magnus Mattsson",
+          "p": "MF",
+          "r": 79,
+          "nat": "Denmark",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Marcos López",
+          "p": "DF",
+          "r": 79,
+          "nat": "Peru",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Mohamed Elyounoussi",
+          "p": "FW",
+          "r": 80,
+          "nat": "Norway",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Nathan Trott",
+          "p": "GK",
+          "r": 79,
+          "nat": "England",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Pantelis Hatzidiakos",
+          "p": "DF",
+          "r": 80,
+          "nat": "Greece",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Robert",
+          "p": "FW",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Rodrigo Huescas",
+          "p": "DF",
+          "r": 81,
+          "nat": "Mexico",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Thomas Delaney",
+          "p": "MF",
+          "r": 80,
+          "nat": "Denmark",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Victor Froholdt",
+          "p": "MF",
+          "r": 80,
+          "nat": "Denmark",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Viktor Claesson",
+          "p": "FW",
+          "r": 82,
+          "nat": "Sweden",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "William Clem",
+          "p": "MF",
+          "r": 81,
+          "nat": "Denmark",
+          "dp": [
+            "MF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "R16"
+        }
+      ]
+    },
+    {
+      "id": "confl-dinamo-minsk-2425",
+      "club": "Dinamo Minsk",
+      "country": "Belarus",
+      "league": "BLR",
+      "season": "2024-25",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Aleksandr Selyava",
+          "p": "MF",
+          "r": 76,
+          "nat": "Belarus",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Alyaksey Hawrylovich",
+          "p": "DF",
+          "r": 76,
+          "nat": "Belarus",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Dmitri Podstrelov",
+          "p": "FW",
+          "r": 77,
+          "nat": "Belarus",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Dzyanis Palyakow",
+          "p": "DF",
+          "r": 77,
+          "nat": "Belarus",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Fyodor Lapoukhov",
+          "p": "GK",
+          "r": 75,
+          "nat": "Belarus",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Gleb Zherdev",
+          "p": "MF",
+          "r": 77,
+          "nat": "Belarus",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ivan Bakhar",
+          "p": "FW",
+          "r": 76,
+          "nat": "Belarus",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Mikita Dziemčanka",
+          "p": "MF",
+          "r": 77,
+          "nat": "Belarus",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Pavel Sedko",
+          "p": "MF",
+          "r": 75,
+          "nat": "Belarus",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Raí",
+          "p": "DF",
+          "r": 79,
+          "nat": "Brazil",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Raymond Adeola",
+          "p": "MF",
+          "r": 76,
+          "nat": "Nigeria",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Sergei Politevich",
+          "p": "DF",
+          "r": 75,
+          "nat": "Belarus",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Stephen Alfred",
+          "p": "FW",
+          "r": 76,
+          "nat": "Nigeria",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Trofim Melnichenko",
+          "p": "FW",
+          "r": 78,
+          "nat": "Belarus",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Vadzim Pihas",
+          "p": "DF",
+          "r": 77,
+          "nat": "Belarus",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Vladislav Kalinin",
+          "p": "DF",
+          "r": 76,
+          "nat": "Belarus",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-djurgarden-2425",
+      "club": "Djurgården",
+      "country": "Sweden",
+      "league": "SWE",
+      "season": "2024-25",
+      "kit": [
+        "#0057B8",
+        "#C8102E"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Adam Ståhl",
+          "p": "DF",
+          "r": 81,
+          "nat": "Finland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "August Priske",
+          "p": "FW",
+          "r": 81,
+          "nat": "Denmark",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Daniel Stensson",
+          "p": "MF",
+          "r": 81,
+          "nat": "Sweden",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Hampus Finndell",
+          "p": "MF",
+          "r": 80,
+          "nat": "Sweden",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Isak Alemayehu",
+          "p": "MF",
+          "r": 79,
+          "nat": "Sweden",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Jacob Rinne",
+          "p": "GK",
+          "r": 79,
+          "nat": "Sweden",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Jacob Une Larsson",
+          "p": "DF",
+          "r": 80,
+          "nat": "Sweden",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Keita Kosugi",
+          "p": "DF",
+          "r": 79,
+          "nat": "Japan",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Marcus Danielson",
+          "p": "DF",
+          "r": 81,
+          "nat": "Sweden",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Miro Tenho",
+          "p": "DF",
+          "r": 79,
+          "nat": "Finland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Nino Žugelj",
+          "p": "FW",
+          "r": 80,
+          "nat": "Slovenia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Oskar Fallenius",
+          "p": "FW",
+          "r": 82,
+          "nat": "Sweden",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Santeri Haarala",
+          "p": "FW",
+          "r": 80,
+          "nat": "Finland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Tobias Gulliksen",
+          "p": "MF",
+          "r": 77,
+          "nat": "Norway",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Tokmac Nguen",
+          "p": "FW",
+          "r": 82,
+          "nat": "Norway",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Viktor Bergh",
+          "p": "DF",
+          "r": 80,
+          "nat": "Sweden",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "SF"
+        }
+      ]
     },
     {
       "id": "ita-emp-2425",
@@ -8673,146 +10197,147 @@
       "crest": null,
       "players": [
         {
-          "n": "David de Gea",
-          "p": "GK",
-          "r": 84,
-          "nat": "Spain",
+          "n": "Albert Guðmundsson",
+          "p": "FW",
+          "r": 83,
+          "nat": "Iceland",
           "dp": [
-            "GK"
+            "FW"
           ]
         },
         {
-          "n": "Pietro Terracciano",
-          "p": "GK",
-          "r": 76,
+          "n": "Amir Richardson",
+          "p": "MF",
+          "r": 78,
+          "nat": "Morocco",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Danilo Cataldi",
+          "p": "MF",
+          "r": 79,
           "nat": "Italy",
           "dp": [
-            "GK"
+            "MF"
           ]
         },
         {
           "n": "Dodô",
           "p": "DF",
-          "r": 80,
+          "r": 82,
           "nat": "Brazil",
           "dp": [
-            "RB"
-          ]
-        },
-        {
-          "n": "Pietro Comuzzo",
-          "p": "DF",
-          "r": 79,
-          "nat": "Italy",
-          "dp": [
-            "CB"
-          ]
-        },
-        {
-          "n": "Marin Pongracic",
-          "p": "DF",
-          "r": 78,
-          "nat": "Croatia",
-          "dp": [
-            "CB"
-          ]
-        },
-        {
-          "n": "Luca Ranieri",
-          "p": "DF",
-          "r": 74,
-          "nat": "Italy",
-          "dp": [
-            "CB",
-            "LB"
-          ]
-        },
-        {
-          "n": "Robin Gosens",
-          "p": "DF",
-          "r": 79,
-          "nat": "Germany",
-          "dp": [
-            "LB",
-            "LM"
+            "DF"
           ]
         },
         {
           "n": "Fabiano Parisi",
           "p": "DF",
-          "r": 74,
-          "nat": "Italy",
-          "dp": [
-            "LB"
-          ]
-        },
-        {
-          "n": "Rolando Mandragora",
-          "p": "MF",
-          "r": 79,
-          "nat": "Italy",
-          "dp": [
-            "CM",
-            "DM"
-          ]
-        },
-        {
-          "n": "Albert Gudmundsson",
-          "p": "MF",
-          "r": 82,
-          "nat": "Iceland",
-          "dp": [
-            "AM",
-            "RW"
-          ]
-        },
-        {
-          "n": "Andrea Colpani",
-          "p": "MF",
           "r": 78,
           "nat": "Italy",
           "dp": [
-            "AM",
-            "RW"
+            "DF"
           ]
         },
         {
-          "n": "Yacine Adli",
-          "p": "MF",
-          "r": 77,
-          "nat": "France",
+          "n": "Luca Ranieri",
+          "p": "DF",
+          "r": 81,
+          "nat": "Italy",
           "dp": [
-            "CM",
-            "AM"
+            "DF"
           ]
         },
         {
           "n": "Lucas Beltrán",
           "p": "FW",
-          "r": 76,
+          "r": 81,
           "nat": "Argentina",
           "dp": [
-            "CF",
-            "SS"
+            "FW"
+          ]
+        },
+        {
+          "n": "Marin Pongračić",
+          "p": "DF",
+          "r": 80,
+          "nat": "Croatia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Matías Moreno",
+          "p": "DF",
+          "r": 77,
+          "nat": "Argentina",
+          "dp": [
+            "DF"
           ]
         },
         {
           "n": "Moise Kean",
           "p": "FW",
-          "r": 84,
+          "r": 85,
           "nat": "Italy",
           "dp": [
-            "CF"
+            "FW"
           ]
         },
         {
-          "n": "Christian Kouamé",
-          "p": "FW",
-          "r": 74,
-          "nat": "Ivory Coast",
+          "n": "Nicolò Fagioli",
+          "p": "MF",
+          "r": 82,
+          "nat": "Italy",
           "dp": [
-            "FW",
-            "RW"
+            "MF"
+          ]
+        },
+        {
+          "n": "Pietro Comuzzo",
+          "p": "DF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Pietro Terracciano",
+          "p": "GK",
+          "r": 78,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Robin Gosens",
+          "p": "DF",
+          "r": 81,
+          "nat": "Germany",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Rolando Mandragora",
+          "p": "MF",
+          "r": 81,
+          "nat": "Italy",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Yacine Adli",
+          "p": "MF",
+          "r": 80,
+          "nat": "France",
+          "dp": [
+            "MF"
           ]
         }
       ],
@@ -8960,6 +10485,522 @@
       "achievements": []
     },
     {
+      "id": "confl-gent-2425",
+      "club": "Gent",
+      "country": "Belgium",
+      "league": "BEL",
+      "season": "2024-25",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Andri Guðjohnsen",
+          "p": "FW",
+          "r": 81,
+          "nat": "Iceland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Archie Brown",
+          "p": "DF",
+          "r": 80,
+          "nat": "England",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Atsuki Ito",
+          "p": "MF",
+          "r": 78,
+          "nat": "Japan",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Davy Roef",
+          "p": "GK",
+          "r": 78,
+          "nat": "Belgium",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Franck Surdez",
+          "p": "FW",
+          "r": 79,
+          "nat": "Switzerland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Jordan Torunarigha",
+          "p": "DF",
+          "r": 80,
+          "nat": "Nigeria",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Mathias Delorge",
+          "p": "MF",
+          "r": 80,
+          "nat": "Belgium",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Matisse Samoise",
+          "p": "MF",
+          "r": 78,
+          "nat": "Belgium",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Max Dean",
+          "p": "FW",
+          "r": 81,
+          "nat": "England",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Momodou Sonko",
+          "p": "FW",
+          "r": 80,
+          "nat": "Sweden",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Omri Gandelman",
+          "p": "MF",
+          "r": 78,
+          "nat": "Israel",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Stefan Mitrović",
+          "p": "DF",
+          "r": 79,
+          "nat": "Serbia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Sven Kums",
+          "p": "MF",
+          "r": 79,
+          "nat": "Belgium",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Tiago Araújo",
+          "p": "DF",
+          "r": 79,
+          "nat": "Portugal",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Tibe De Vlieger",
+          "p": "MF",
+          "r": 79,
+          "nat": "Belgium",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Tsuyoshi Watanabe",
+          "p": "DF",
+          "r": 78,
+          "nat": "Japan",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-hearts-2425",
+      "club": "Hearts",
+      "country": "Scotland",
+      "league": "SCO",
+      "season": "2024-25",
+      "kit": [
+        "#7A263A",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Adam Forrester",
+          "p": "DF",
+          "r": 79,
+          "nat": "Scotland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Alan Forrest",
+          "p": "FW",
+          "r": 78,
+          "nat": "Scotland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Barrie McKay",
+          "p": "FW",
+          "r": 78,
+          "nat": "Scotland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Blair Spittal",
+          "p": "MF",
+          "r": 77,
+          "nat": "Scotland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Cameron Devlin",
+          "p": "MF",
+          "r": 79,
+          "nat": "Australia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Craig Gordon",
+          "p": "GK",
+          "r": 77,
+          "nat": "Scotland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Daniel Oyegoke",
+          "p": "DF",
+          "r": 78,
+          "nat": "England",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Frankie Kent",
+          "p": "DF",
+          "r": 77,
+          "nat": "England",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "James Penrice",
+          "p": "DF",
+          "r": 81,
+          "nat": "Scotland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Jorge Grant",
+          "p": "MF",
+          "r": 78,
+          "nat": "England",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Kenneth Vargas",
+          "p": "FW",
+          "r": 79,
+          "nat": "Costa Rica",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Kye Rowles",
+          "p": "DF",
+          "r": 79,
+          "nat": "Australia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Lawrence Shankland",
+          "p": "FW",
+          "r": 80,
+          "nat": "Scotland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Malachi Boateng",
+          "p": "MF",
+          "r": 78,
+          "nat": "England",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Stephen Kingsley",
+          "p": "DF",
+          "r": 78,
+          "nat": "Scotland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Yan Dhanda",
+          "p": "MF",
+          "r": 79,
+          "nat": "England",
+          "dp": [
+            "MF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-heidenheim-2425",
+      "club": "Heidenheim",
+      "country": "Germany",
+      "league": "GER",
+      "season": "2024-25",
+      "kit": [
+        "#C8102E",
+        "#0057B8"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Adrian Beck",
+          "p": "MF",
+          "r": 80,
+          "nat": "Germany",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Benedikt Gimber",
+          "p": "DF",
+          "r": 80,
+          "nat": "Germany",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Jan Schöppner",
+          "p": "MF",
+          "r": 79,
+          "nat": "Germany",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Jonas Föhrenbach",
+          "p": "DF",
+          "r": 78,
+          "nat": "Germany",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Kevin Müller",
+          "p": "GK",
+          "r": 78,
+          "nat": "Germany",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Léo Scienza",
+          "p": "MF",
+          "r": 80,
+          "nat": "Brazil",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Luca Kerber",
+          "p": "MF",
+          "r": 78,
+          "nat": "Germany",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Mathias Honsak",
+          "p": "FW",
+          "r": 79,
+          "nat": "Austria",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Maximilian Breunig",
+          "p": "FW",
+          "r": 81,
+          "nat": "Germany",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Mikkel Kaufmann",
+          "p": "FW",
+          "r": 79,
+          "nat": "Denmark",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Norman Theuerkauf",
+          "p": "DF",
+          "r": 79,
+          "nat": "Germany",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Omar Traoré",
+          "p": "DF",
+          "r": 79,
+          "nat": "Germany",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Patrick Mainka",
+          "p": "DF",
+          "r": 80,
+          "nat": "Germany",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Paul Wanner",
+          "p": "MF",
+          "r": 79,
+          "nat": "Austria",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Sirlord Conteh",
+          "p": "FW",
+          "r": 80,
+          "nat": "Germany",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Tim Siersleben",
+          "p": "DF",
+          "r": 78,
+          "nat": "Germany",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
       "id": "ita-hvr-2425",
       "club": "Hellas Verona",
       "country": "Italy",
@@ -9085,6 +11126,178 @@
       ],
       "role": "roster",
       "achievements": []
+    },
+    {
+      "id": "confl-hjk-helsinki-2425",
+      "club": "HJK Helsinki",
+      "country": "Finland",
+      "league": "FIN",
+      "season": "2024-25",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Atomu Tanaka",
+          "p": "MF",
+          "r": 76,
+          "nat": "Japan",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Brooklyn Lyons-Foster",
+          "p": "DF",
+          "r": 77,
+          "nat": "England",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Daniel O'Shaughnessy",
+          "p": "DF",
+          "r": 75,
+          "nat": "Finland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Georgios Antzoulas",
+          "p": "DF",
+          "r": 76,
+          "nat": "Greece",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Georgios Kanellopoulos",
+          "p": "MF",
+          "r": 76,
+          "nat": "Greece",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Hassane Bandé",
+          "p": "FW",
+          "r": 76,
+          "nat": "Burkina Faso",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Joona Toivio",
+          "p": "DF",
+          "r": 75,
+          "nat": "Finland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Kai Meriluoto",
+          "p": "FW",
+          "r": 76,
+          "nat": "Finland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Lee Erwin",
+          "p": "FW",
+          "r": 78,
+          "nat": "Scotland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Liam Möller",
+          "p": "MF",
+          "r": 75,
+          "nat": "Finland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Lucas Lingman",
+          "p": "MF",
+          "r": 77,
+          "nat": "Finland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Miska Ylitolva",
+          "p": "DF",
+          "r": 76,
+          "nat": "Finland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Noah Pallas",
+          "p": "DF",
+          "r": 77,
+          "nat": "Finland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Oğulcan Kökçü",
+          "p": "MF",
+          "r": 77,
+          "nat": "Azerbaijan",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Santeri Hostikka",
+          "p": "FW",
+          "r": 77,
+          "nat": "Finland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Thijmen Nijhuis",
+          "p": "GK",
+          "r": 75,
+          "nat": "Netherlands",
+          "dp": [
+            "GK"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
     },
     {
       "id": "ita-int-2425",
@@ -9279,6 +11492,350 @@
           "comp": "UCL",
           "season": "2024-25",
           "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "confl-istanbul-basaksehir-2425",
+      "club": "İstanbul Başakşehir",
+      "country": "Türkiye",
+      "league": "TUR",
+      "season": "2024-25",
+      "kit": [
+        "#F58220",
+        "#0057B8"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Berkay Özcan",
+          "p": "MF",
+          "r": 79,
+          "nat": "Türkiye",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Davidson",
+          "p": "FW",
+          "r": 81,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Deniz Türüç",
+          "p": "FW",
+          "r": 80,
+          "nat": "Türkiye",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Dimitris Pelkas",
+          "p": "MF",
+          "r": 78,
+          "nat": "Greece",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Jerome Opoku",
+          "p": "DF",
+          "r": 80,
+          "nat": "Ghana",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "João Figueiredo",
+          "p": "FW",
+          "r": 79,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Krzysztof Piątek",
+          "p": "FW",
+          "r": 82,
+          "nat": "Poland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Léo Duarte",
+          "p": "DF",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Lucas Lima",
+          "p": "DF",
+          "r": 80,
+          "nat": "Brazil",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Muhammed Şengezer",
+          "p": "GK",
+          "r": 78,
+          "nat": "Türkiye",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Olivier Kemen",
+          "p": "MF",
+          "r": 80,
+          "nat": "Cameroon",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ömer Ali Şahiner",
+          "p": "DF",
+          "r": 79,
+          "nat": "Türkiye",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Onur Ergün",
+          "p": "MF",
+          "r": 78,
+          "nat": "Türkiye",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ousseynou Ba",
+          "p": "DF",
+          "r": 79,
+          "nat": "Senegal",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Patryk Szysz",
+          "p": "FW",
+          "r": 79,
+          "nat": "Poland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Serdar Gürler",
+          "p": "FW",
+          "r": 80,
+          "nat": "Türkiye",
+          "dp": [
+            "FW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-jagiellonia-bia-ysto-2425",
+      "club": "Jagiellonia Białystok",
+      "country": "Poland",
+      "league": "POL",
+      "season": "2024-25",
+      "kit": [
+        "#F2C500",
+        "#C8102E"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Adrián Diéguez",
+          "p": "DF",
+          "r": 80,
+          "nat": "Spain",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Afimico Pululu",
+          "p": "FW",
+          "r": 82,
+          "nat": "Angola",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Darko Churlinov",
+          "p": "FW",
+          "r": 82,
+          "nat": "North Macedonia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Dušan Stojinović",
+          "p": "DF",
+          "r": 79,
+          "nat": "Slovenia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Enzo Ebosse",
+          "p": "DF",
+          "r": 81,
+          "nat": "Cameroon",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Jarosław Kubicki",
+          "p": "MF",
+          "r": 80,
+          "nat": "Poland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Jesús Imaz",
+          "p": "FW",
+          "r": 82,
+          "nat": "Spain",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "João Moutinho",
+          "p": "DF",
+          "r": 82,
+          "nat": "Portugal",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Kristoffer Hansen",
+          "p": "FW",
+          "r": 80,
+          "nat": "Norway",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Lamine Diaby-Fadiga",
+          "p": "FW",
+          "r": 81,
+          "nat": "Guinea",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Mateusz Skrzypczak",
+          "p": "DF",
+          "r": 80,
+          "nat": "Poland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Michał Sáček",
+          "p": "DF",
+          "r": 79,
+          "nat": "Czechia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Miki Villar",
+          "p": "FW",
+          "r": 81,
+          "nat": "Spain",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Sławomir Abramowicz",
+          "p": "GK",
+          "r": 79,
+          "nat": "Poland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Taras Romanczuk",
+          "p": "MF",
+          "r": 81,
+          "nat": "Poland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Tomás Silva",
+          "p": "MF",
+          "r": 79,
+          "nat": "Portugal",
+          "dp": [
+            "MF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "QF"
         }
       ]
     },
@@ -9484,6 +12041,350 @@
       "achievements": [
         {
           "comp": "UCL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-larne-2425",
+      "club": "Larne",
+      "country": "Northern Ireland",
+      "league": "NIR",
+      "season": "2024-25",
+      "kit": [
+        "#C8102E",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Aaron Donnelly",
+          "p": "DF",
+          "r": 75,
+          "nat": "Northern Ireland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Andy Ryan",
+          "p": "FW",
+          "r": 75,
+          "nat": "Scotland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Benji Magee",
+          "p": "FW",
+          "r": 77,
+          "nat": "Northern Ireland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Chris Gallagher",
+          "p": "MF",
+          "r": 76,
+          "nat": "Northern Ireland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Cian Bolger",
+          "p": "DF",
+          "r": 74,
+          "nat": "Ireland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Dylan Sloan",
+          "p": "MF",
+          "r": 75,
+          "nat": "Northern Ireland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Jaziel McEneff",
+          "p": "MF",
+          "r": 76,
+          "nat": "Ireland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Joe Thomson",
+          "p": "MF",
+          "r": 74,
+          "nat": "Scotland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Levi Ives",
+          "p": "DF",
+          "r": 76,
+          "nat": "Northern Ireland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Mark Randall",
+          "p": "MF",
+          "r": 75,
+          "nat": "England",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Matthew Lusty",
+          "p": "FW",
+          "r": 76,
+          "nat": "Northern Ireland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Paul O'Neill",
+          "p": "FW",
+          "r": 75,
+          "nat": "Northern Ireland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Rohan Ferguson",
+          "p": "GK",
+          "r": 74,
+          "nat": "Scotland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Sean Graham",
+          "p": "DF",
+          "r": 75,
+          "nat": "Northern Ireland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Shaun Want",
+          "p": "DF",
+          "r": 74,
+          "nat": "Scotland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Tomas Cosgrove",
+          "p": "DF",
+          "r": 76,
+          "nat": "Northern Ireland",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-lask-2425",
+      "club": "LASK",
+      "country": "Austria",
+      "league": "AUT",
+      "season": "2024-25",
+      "kit": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Andrés Andrade",
+          "p": "DF",
+          "r": 77,
+          "nat": "Panama",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Branko Jovičić",
+          "p": "MF",
+          "r": 79,
+          "nat": "Serbia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Filip Stojković",
+          "p": "DF",
+          "r": 78,
+          "nat": "Montenegro",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Florian Flecker",
+          "p": "MF",
+          "r": 77,
+          "nat": "Austria",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "George Bello",
+          "p": "DF",
+          "r": 79,
+          "nat": "United States",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Hrvoje Smolčić",
+          "p": "DF",
+          "r": 79,
+          "nat": "Croatia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Jörg Siebenhandl",
+          "p": "GK",
+          "r": 77,
+          "nat": "Austria",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Maksym Talovierov",
+          "p": "DF",
+          "r": 78,
+          "nat": "Ukraine",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Marin Ljubičić",
+          "p": "FW",
+          "r": 79,
+          "nat": "Croatia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Maximilian Entrup",
+          "p": "FW",
+          "r": 80,
+          "nat": "Austria",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Melayro Bogarde",
+          "p": "MF",
+          "r": 77,
+          "nat": "Suriname",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Moses Usor",
+          "p": "FW",
+          "r": 80,
+          "nat": "Nigeria",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Philipp Ziereis",
+          "p": "DF",
+          "r": 77,
+          "nat": "Germany",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Robert Žulj",
+          "p": "MF",
+          "r": 77,
+          "nat": "Austria",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Sascha Horvath",
+          "p": "MF",
+          "r": 78,
+          "nat": "Austria",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Valon Berisha",
+          "p": "MF",
+          "r": 78,
+          "nat": "Kosovo",
+          "dp": [
+            "MF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
           "season": "2024-25",
           "stage": "MAIN"
         }
@@ -9804,6 +12705,350 @@
       "achievements": []
     },
     {
+      "id": "confl-legia-warsaw-2425",
+      "club": "Legia Warsaw",
+      "country": "Poland",
+      "league": "POL",
+      "season": "2024-25",
+      "kit": [
+        "#FFFFFF",
+        "#2B6E3F"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Bartosz Kapustka",
+          "p": "MF",
+          "r": 81,
+          "nat": "Poland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Claude Gonçalves",
+          "p": "MF",
+          "r": 80,
+          "nat": "Portugal",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Jan Ziółkowski",
+          "p": "DF",
+          "r": 80,
+          "nat": "Poland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Kacper Chodyna",
+          "p": "MF",
+          "r": 79,
+          "nat": "Poland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Kacper Tobiasz",
+          "p": "GK",
+          "r": 78,
+          "nat": "Poland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Luquinhas",
+          "p": "FW",
+          "r": 81,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Marc Gual",
+          "p": "FW",
+          "r": 82,
+          "nat": "Spain",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Maximillian Oyedele",
+          "p": "MF",
+          "r": 79,
+          "nat": "Poland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Patryk Kun",
+          "p": "MF",
+          "r": 81,
+          "nat": "Poland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Paweł Wszołek",
+          "p": "MF",
+          "r": 78,
+          "nat": "Poland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Radovan Pankov",
+          "p": "DF",
+          "r": 80,
+          "nat": "Serbia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Rafał Augustyniak",
+          "p": "DF",
+          "r": 78,
+          "nat": "Poland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Rúben Vinagre",
+          "p": "DF",
+          "r": 78,
+          "nat": "Portugal",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Ryoya Morishita",
+          "p": "MF",
+          "r": 80,
+          "nat": "Japan",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Steve Kapuadi",
+          "p": "DF",
+          "r": 78,
+          "nat": "DR Congo",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Tomáš Pekhart",
+          "p": "FW",
+          "r": 80,
+          "nat": "Czechia",
+          "dp": [
+            "FW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "QF"
+        }
+      ]
+    },
+    {
+      "id": "confl-lugano-2425",
+      "club": "Lugano",
+      "country": "Switzerland",
+      "league": "SUI",
+      "season": "2024-25",
+      "kit": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Albian Hajdari",
+          "p": "DF",
+          "r": 80,
+          "nat": "Kosovo",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Amir Saipi",
+          "p": "GK",
+          "r": 78,
+          "nat": "Kosovo",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Anto Grgić",
+          "p": "MF",
+          "r": 80,
+          "nat": "Switzerland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ayman El Wafi",
+          "p": "DF",
+          "r": 79,
+          "nat": "Morocco",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Daniel Dos Santos",
+          "p": "MF",
+          "r": 80,
+          "nat": "Switzerland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Hadj Mahmoud",
+          "p": "MF",
+          "r": 78,
+          "nat": "Tunisia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ignacio Aliseda",
+          "p": "FW",
+          "r": 79,
+          "nat": "Argentina",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Kacper Przybyłko",
+          "p": "FW",
+          "r": 81,
+          "nat": "Poland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Lukas Mai",
+          "p": "DF",
+          "r": 78,
+          "nat": "Germany",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Mattia Zanotti",
+          "p": "DF",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Milton Valenzuela",
+          "p": "DF",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Ousmane Doumbia",
+          "p": "MF",
+          "r": 79,
+          "nat": "Ivory Coast",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Renato Steffen",
+          "p": "FW",
+          "r": 79,
+          "nat": "Switzerland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Uran Bislimi",
+          "p": "MF",
+          "r": 79,
+          "nat": "Switzerland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Yanis Cimignani",
+          "p": "FW",
+          "r": 80,
+          "nat": "France",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Zachary Brault-Guillard",
+          "p": "DF",
+          "r": 79,
+          "nat": "Canada",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "R16"
+        }
+      ]
+    },
+    {
       "id": "uel-manche-202425",
       "club": "Manchester United",
       "country": "England",
@@ -9826,6 +13071,350 @@
           "comp": "UEL",
           "season": "2024-25",
           "stage": "RU"
+        }
+      ]
+    },
+    {
+      "id": "confl-mlada-boleslav-2425",
+      "club": "Mladá Boleslav",
+      "country": "Czechia",
+      "league": "CZE",
+      "season": "2024-25",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Benson Sakala",
+          "p": "MF",
+          "r": 79,
+          "nat": "Zambia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Daniel Mareček",
+          "p": "MF",
+          "r": 78,
+          "nat": "Czechia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Dominik Kostka",
+          "p": "DF",
+          "r": 77,
+          "nat": "Czechia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Jakub Fulnek",
+          "p": "DF",
+          "r": 79,
+          "nat": "Czechia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Marek Matějovský",
+          "p": "MF",
+          "r": 77,
+          "nat": "Czechia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Marek Suchý",
+          "p": "DF",
+          "r": 78,
+          "nat": "Czechia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Martin Králik",
+          "p": "DF",
+          "r": 79,
+          "nat": "Slovakia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Matěj Pulkrab",
+          "p": "FW",
+          "r": 80,
+          "nat": "Czechia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Matouš Trmal",
+          "p": "GK",
+          "r": 77,
+          "nat": "Czechia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Matyáš Vojta",
+          "p": "FW",
+          "r": 79,
+          "nat": "Czechia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Patrik Vydra",
+          "p": "MF",
+          "r": 81,
+          "nat": "Czechia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Solomon John",
+          "p": "FW",
+          "r": 78,
+          "nat": "Nigeria",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Tomáš Král",
+          "p": "DF",
+          "r": 77,
+          "nat": "Czechia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Tomáš Ladra",
+          "p": "FW",
+          "r": 80,
+          "nat": "Czechia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Vasil Kušej",
+          "p": "FW",
+          "r": 79,
+          "nat": "Czechia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Vojtěch Stránský",
+          "p": "MF",
+          "r": 77,
+          "nat": "Czechia",
+          "dp": [
+            "MF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-molde-2425",
+      "club": "Molde",
+      "country": "Norway",
+      "league": "NOR",
+      "season": "2024-25",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Albert Posiadała",
+          "p": "GK",
+          "r": 79,
+          "nat": "Poland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Anders Hagelskjær",
+          "p": "DF",
+          "r": 81,
+          "nat": "Denmark",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Emil Breivik",
+          "p": "MF",
+          "r": 80,
+          "nat": "Norway",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Frederik Ihler",
+          "p": "FW",
+          "r": 82,
+          "nat": "Denmark",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Halldor Stenevik",
+          "p": "DF",
+          "r": 79,
+          "nat": "Norway",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Isak Amundsen",
+          "p": "DF",
+          "r": 81,
+          "nat": "Norway",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Kristian Eriksen",
+          "p": "FW",
+          "r": 81,
+          "nat": "Norway",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Kristoffer Haugen",
+          "p": "DF",
+          "r": 80,
+          "nat": "Norway",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Mads Enggård",
+          "p": "MF",
+          "r": 79,
+          "nat": "Denmark",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Magnus Wolff Eikrem",
+          "p": "MF",
+          "r": 79,
+          "nat": "Norway",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Markus Kaasa",
+          "p": "MF",
+          "r": 81,
+          "nat": "Norway",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Martin Bjørnbak",
+          "p": "DF",
+          "r": 81,
+          "nat": "Norway",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Martin Linnes",
+          "p": "DF",
+          "r": 79,
+          "nat": "Norway",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Mathias Løvik",
+          "p": "DF",
+          "r": 79,
+          "nat": "Norway",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Mats Møller Dæhli",
+          "p": "MF",
+          "r": 80,
+          "nat": "Norway",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Valdemar Lund",
+          "p": "DF",
+          "r": 80,
+          "nat": "Denmark",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "R16"
         }
       ]
     },
@@ -10138,6 +13727,866 @@
       ],
       "role": "roster",
       "achievements": []
+    },
+    {
+      "id": "confl-noah-2425",
+      "club": "Noah",
+      "country": "Armenia",
+      "league": "ARM",
+      "season": "2024-25",
+      "kit": [
+        "#1B4F9C",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Artak Dashyan",
+          "p": "MF",
+          "r": 76,
+          "nat": "Armenia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Artem Avanesyan",
+          "p": "MF",
+          "r": 77,
+          "nat": "Armenia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Eraldo Çinari",
+          "p": "FW",
+          "r": 78,
+          "nat": "Albania",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Gonçalo Gregório",
+          "p": "FW",
+          "r": 77,
+          "nat": "Portugal",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Gonçalo Silva",
+          "p": "DF",
+          "r": 76,
+          "nat": "Portugal",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Guðmundur Þórarinsson",
+          "p": "MF",
+          "r": 75,
+          "nat": "Iceland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Gustavo Sangaré",
+          "p": "MF",
+          "r": 76,
+          "nat": "Burkina Faso",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Hélder Ferreira",
+          "p": "FW",
+          "r": 79,
+          "nat": "Portugal",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Hovhannes Hambardzumyan",
+          "p": "DF",
+          "r": 77,
+          "nat": "Armenia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Imran Oulad Omar",
+          "p": "MF",
+          "r": 78,
+          "nat": "Netherlands",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Martin Gamboš",
+          "p": "MF",
+          "r": 77,
+          "nat": "Slovakia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Matheus Aiás",
+          "p": "FW",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Ognjen Čančarević",
+          "p": "GK",
+          "r": 76,
+          "nat": "Armenia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Pablo Santos",
+          "p": "DF",
+          "r": 78,
+          "nat": "Brazil",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Sergey Muradyan",
+          "p": "DF",
+          "r": 75,
+          "nat": "Armenia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Virgile Pinson",
+          "p": "FW",
+          "r": 77,
+          "nat": "France",
+          "dp": [
+            "FW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-olimpija-ljubljana-2425",
+      "club": "Olimpija Ljubljana",
+      "country": "Slovenia",
+      "league": "SVN",
+      "season": "2024-25",
+      "kit": [
+        "#138A49",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Agustín Doffo",
+          "p": "MF",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ahmet Muhamedbegović",
+          "p": "DF",
+          "r": 78,
+          "nat": "Bosnia and Herzegovina",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Álex Blanco",
+          "p": "FW",
+          "r": 79,
+          "nat": "Spain",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "David Sualehe",
+          "p": "DF",
+          "r": 76,
+          "nat": "Portugal",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Dino Kojić",
+          "p": "MF",
+          "r": 78,
+          "nat": "Slovenia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Diogo Pinto",
+          "p": "MF",
+          "r": 79,
+          "nat": "Portugal",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ivan Durdov",
+          "p": "FW",
+          "r": 78,
+          "nat": "Croatia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Jorge Silva",
+          "p": "DF",
+          "r": 77,
+          "nat": "Portugal",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Justas Lasickas",
+          "p": "DF",
+          "r": 79,
+          "nat": "Lithuania",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Manuel Pedreño",
+          "p": "DF",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Marcel Ratnik",
+          "p": "DF",
+          "r": 79,
+          "nat": "Slovenia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Marko Brest",
+          "p": "FW",
+          "r": 78,
+          "nat": "Slovenia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Marko Ristić",
+          "p": "DF",
+          "r": 77,
+          "nat": "Serbia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Matevž Vidovšek",
+          "p": "GK",
+          "r": 77,
+          "nat": "Slovenia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Peter Agba",
+          "p": "MF",
+          "r": 77,
+          "nat": "Nigeria",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Raul Florucz",
+          "p": "FW",
+          "r": 80,
+          "nat": "Austria",
+          "dp": [
+            "FW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-omonia-2425",
+      "club": "Omonia",
+      "country": "Cyprus",
+      "league": "CYP",
+      "season": "2024-25",
+      "kit": [
+        "#138A49",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Alpha Dionkou",
+          "p": "DF",
+          "r": 79,
+          "nat": "Senegal",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Amine Khammas",
+          "p": "DF",
+          "r": 78,
+          "nat": "Morocco",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Andronikos Kakoulli",
+          "p": "FW",
+          "r": 78,
+          "nat": "Cyprus",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Fabiano",
+          "p": "GK",
+          "r": 75,
+          "nat": "Brazil",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Filip Helander",
+          "p": "DF",
+          "r": 74,
+          "nat": "Sweden",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Giannis Masouras",
+          "p": "DF",
+          "r": 78,
+          "nat": "Greece",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Ioannis Kousoulos",
+          "p": "MF",
+          "r": 79,
+          "nat": "Cyprus",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Loizos Loizou",
+          "p": "FW",
+          "r": 79,
+          "nat": "Cyprus",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Mariusz Stępiński",
+          "p": "FW",
+          "r": 74,
+          "nat": "Poland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Mateo Marić",
+          "p": "MF",
+          "r": 79,
+          "nat": "Bosnia and Herzegovina",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Nikolas Panagiotou",
+          "p": "DF",
+          "r": 78,
+          "nat": "Cyprus",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Novica Eraković",
+          "p": "MF",
+          "r": 78,
+          "nat": "Montenegro",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Saidou Alioum",
+          "p": "FW",
+          "r": 77,
+          "nat": "Cameroon",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Senou Coulibaly",
+          "p": "DF",
+          "r": 78,
+          "nat": "Mali",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Veljko Simić",
+          "p": "FW",
+          "r": 77,
+          "nat": "Serbia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Willy Semedo",
+          "p": "FW",
+          "r": 80,
+          "nat": "Cape Verde",
+          "dp": [
+            "FW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-pafos-2425",
+      "club": "Pafos",
+      "country": "Cyprus",
+      "league": "CYP",
+      "season": "2024-25",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Anderson Silva",
+          "p": "FW",
+          "r": 80,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Bruno",
+          "p": "DF",
+          "r": 79,
+          "nat": "Brazil",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "David Goldar",
+          "p": "DF",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Derrick Luckassen",
+          "p": "DF",
+          "r": 79,
+          "nat": "Ghana",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Domingos Quina",
+          "p": "MF",
+          "r": 79,
+          "nat": "Portugal",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ivica Ivušić",
+          "p": "GK",
+          "r": 78,
+          "nat": "Croatia",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Jairo",
+          "p": "FW",
+          "r": 79,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Jajá",
+          "p": "FW",
+          "r": 81,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "João Correia",
+          "p": "DF",
+          "r": 80,
+          "nat": "Cape Verde",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Jonathan Silva",
+          "p": "DF",
+          "r": 78,
+          "nat": "Argentina",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Ken Sema",
+          "p": "MF",
+          "r": 76,
+          "nat": "Sweden",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Kostas Pileas",
+          "p": "DF",
+          "r": 80,
+          "nat": "Cyprus",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Muamer Tanković",
+          "p": "MF",
+          "r": 80,
+          "nat": "Sweden",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Pêpê",
+          "p": "MF",
+          "r": 82,
+          "nat": "Portugal",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Toni Šunjić",
+          "p": "MF",
+          "r": 80,
+          "nat": "Bosnia and Herzegovina",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Vlad Dragomir",
+          "p": "MF",
+          "r": 78,
+          "nat": "Romania",
+          "dp": [
+            "MF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "R16"
+        }
+      ]
+    },
+    {
+      "id": "confl-panathinaikos-2425",
+      "club": "Panathinaikos",
+      "country": "Greece",
+      "league": "GRE",
+      "season": "2024-25",
+      "kit": [
+        "#138A49",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Adam Gnezda Čerin",
+          "p": "MF",
+          "r": 80,
+          "nat": "Slovenia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Alexander Jeremejeff",
+          "p": "FW",
+          "r": 82,
+          "nat": "Sweden",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Anastasios Bakasetas",
+          "p": "MF",
+          "r": 80,
+          "nat": "Greece",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Azzedine Ounahi",
+          "p": "MF",
+          "r": 81,
+          "nat": "Morocco",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Bartłomiej Drągowski",
+          "p": "GK",
+          "r": 77,
+          "nat": "Poland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Filip Đuričić",
+          "p": "FW",
+          "r": 78,
+          "nat": "Serbia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Filip Mladenović",
+          "p": "DF",
+          "r": 79,
+          "nat": "Serbia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Fotis Ioannidis",
+          "p": "FW",
+          "r": 81,
+          "nat": "Greece",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Georgios Vagiannidis",
+          "p": "DF",
+          "r": 81,
+          "nat": "Greece",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Giannis Kotsiras",
+          "p": "DF",
+          "r": 80,
+          "nat": "Greece",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Karol Świderski",
+          "p": "FW",
+          "r": 80,
+          "nat": "Poland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Manolis Siopis",
+          "p": "MF",
+          "r": 79,
+          "nat": "Greece",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Nemanja Maksimović",
+          "p": "MF",
+          "r": 80,
+          "nat": "Serbia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Sverrir Ingason",
+          "p": "DF",
+          "r": 81,
+          "nat": "Iceland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Tetê",
+          "p": "FW",
+          "r": 80,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Willian Arão",
+          "p": "MF",
+          "r": 79,
+          "nat": "Brazil",
+          "dp": [
+            "MF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "R16"
+        }
+      ]
     },
     {
       "id": "fra-psg-2425",
@@ -10464,6 +14913,350 @@
       "achievements": []
     },
     {
+      "id": "confl-petrocub-2425",
+      "club": "Petrocub",
+      "country": "Moldova",
+      "league": "MDA",
+      "season": "2024-25",
+      "kit": [
+        "#1D2D50",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Boubacar Diallo",
+          "p": "MF",
+          "r": 76,
+          "nat": "Guinea",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Donalio Douanla",
+          "p": "MF",
+          "r": 75,
+          "nat": "Cameroon",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Dorian Pușcaș",
+          "p": "MF",
+          "r": 76,
+          "nat": "Moldova",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Dumitru Demian",
+          "p": "MF",
+          "r": 75,
+          "nat": "Moldova",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ion Borș",
+          "p": "DF",
+          "r": 76,
+          "nat": "Moldova",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Ion Jardan",
+          "p": "DF",
+          "r": 76,
+          "nat": "Moldova",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Manuel Agyemang",
+          "p": "DF",
+          "r": 74,
+          "nat": "Ghana",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Marin Căruntu",
+          "p": "FW",
+          "r": 75,
+          "nat": "Moldova",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Maxim Potîrniche",
+          "p": "DF",
+          "r": 74,
+          "nat": "Moldova",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Mihai Lupan",
+          "p": "MF",
+          "r": 74,
+          "nat": "Moldova",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Sergiu Plătică",
+          "p": "DF",
+          "r": 75,
+          "nat": "Moldova",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Silviu Smalenea",
+          "p": "GK",
+          "r": 74,
+          "nat": "Moldova",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Teodor Lungu",
+          "p": "MF",
+          "r": 74,
+          "nat": "Moldova",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Victor Mudrac",
+          "p": "DF",
+          "r": 75,
+          "nat": "Moldova",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Vladimir Ambros",
+          "p": "FW",
+          "r": 76,
+          "nat": "Moldova",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Vsevolod Nihaev",
+          "p": "FW",
+          "r": 77,
+          "nat": "Moldova",
+          "dp": [
+            "FW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-rapid-vienna-2425",
+      "club": "Rapid Vienna",
+      "country": "Austria",
+      "league": "AUT",
+      "season": "2024-25",
+      "kit": [
+        "#00843D",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Bendegúz Bolla",
+          "p": "DF",
+          "r": 79,
+          "nat": "Hungary",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Benjamin Böckle",
+          "p": "DF",
+          "r": 80,
+          "nat": "Austria",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Dion Beljo",
+          "p": "FW",
+          "r": 80,
+          "nat": "Croatia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Ercan Kara",
+          "p": "FW",
+          "r": 80,
+          "nat": "Austria",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Isak Jansson",
+          "p": "FW",
+          "r": 81,
+          "nat": "Sweden",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Jonas Auer",
+          "p": "DF",
+          "r": 77,
+          "nat": "Austria",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Louis Schaub",
+          "p": "MF",
+          "r": 81,
+          "nat": "Austria",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Lukas Grgić",
+          "p": "MF",
+          "r": 77,
+          "nat": "Austria",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Mamadou Sangaré",
+          "p": "MF",
+          "r": 81,
+          "nat": "Mali",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Matthias Seidl",
+          "p": "MF",
+          "r": 79,
+          "nat": "Austria",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Moritz Oswald",
+          "p": "MF",
+          "r": 79,
+          "nat": "Austria",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Nenad Cvetković",
+          "p": "DF",
+          "r": 78,
+          "nat": "Serbia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Niklas Hedl",
+          "p": "GK",
+          "r": 77,
+          "nat": "Austria",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Nikolaus Wurmbrand",
+          "p": "FW",
+          "r": 78,
+          "nat": "Austria",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Philippe Raux-Yao",
+          "p": "DF",
+          "r": 81,
+          "nat": "France",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Tobias Børkeeiet",
+          "p": "MF",
+          "r": 81,
+          "nat": "Norway",
+          "dp": [
+            "MF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "QF"
+        }
+      ]
+    },
+    {
       "id": "confl-bet-2425",
       "club": "Real Betis",
       "country": "Spain",
@@ -10471,22 +15264,686 @@
       "comps": [
         "CONFL"
       ],
-      "rating": 76,
       "kit": [
         "#00954B",
         "#FFFFFF"
       ],
       "crest": null,
-      "scorers": [
-        "Isco",
-        "Ezzalzouli"
-      ],
-      "role": "stub",
+      "role": "roster",
       "achievements": [
         {
           "comp": "CONFL",
           "season": "2024-25",
           "stage": "RU"
+        }
+      ],
+      "league": "ESP",
+      "players": [
+        {
+          "n": "Abde Ezzalzouli",
+          "p": "FW",
+          "r": 82,
+          "nat": "Morocco",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Adrián",
+          "p": "GK",
+          "r": 78,
+          "nat": "Spain",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Aitor Ruibal",
+          "p": "FW",
+          "r": 80,
+          "nat": "Spain",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Antony",
+          "p": "FW",
+          "r": 85,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Cédric Bakambu",
+          "p": "FW",
+          "r": 81,
+          "nat": "DR Congo",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Chimy Ávila",
+          "p": "FW",
+          "r": 81,
+          "nat": "Argentina",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Diego Llorente",
+          "p": "DF",
+          "r": 82,
+          "nat": "Spain",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Fran Vieites",
+          "p": "GK",
+          "r": 79,
+          "nat": "Spain",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Isco",
+          "p": "MF",
+          "r": 86,
+          "nat": "Spain",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Johnny Cardoso",
+          "p": "MF",
+          "r": 82,
+          "nat": "United States",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Natan",
+          "p": "DF",
+          "r": 82,
+          "nat": "Brazil",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Pablo Fornals",
+          "p": "MF",
+          "r": 83,
+          "nat": "Spain",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ricardo Rodríguez",
+          "p": "DF",
+          "r": 82,
+          "nat": "Switzerland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Romain Perraud",
+          "p": "DF",
+          "r": 80,
+          "nat": "France",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Sergi Altimira",
+          "p": "MF",
+          "r": 81,
+          "nat": "Spain",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Youssouf Sabaly",
+          "p": "DF",
+          "r": 81,
+          "nat": "Senegal",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ]
+    },
+    {
+      "id": "confl-shamrock-rovers-2425",
+      "club": "Shamrock Rovers",
+      "country": "Ireland",
+      "league": "IRL",
+      "season": "2024-25",
+      "kit": [
+        "#138A49",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Aaron McEneff",
+          "p": "MF",
+          "r": 76,
+          "nat": "Northern Ireland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Daniel Cleary",
+          "p": "DF",
+          "r": 77,
+          "nat": "Ireland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Darragh Nugent",
+          "p": "MF",
+          "r": 76,
+          "nat": "Ireland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Dylan Watts",
+          "p": "MF",
+          "r": 77,
+          "nat": "Ireland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Gary O'Neill",
+          "p": "MF",
+          "r": 78,
+          "nat": "Ireland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Graham Burke",
+          "p": "FW",
+          "r": 78,
+          "nat": "Ireland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Jack Byrne",
+          "p": "MF",
+          "r": 77,
+          "nat": "Ireland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Johnny Kenny",
+          "p": "FW",
+          "r": 79,
+          "nat": "Ireland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Josh Honohan",
+          "p": "DF",
+          "r": 77,
+          "nat": "Ireland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Lee Grace",
+          "p": "DF",
+          "r": 75,
+          "nat": "Ireland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Leon Pöhls",
+          "p": "GK",
+          "r": 77,
+          "nat": "Germany",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Neil Farrugia",
+          "p": "MF",
+          "r": 78,
+          "nat": "Ireland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Roberto Lopes",
+          "p": "DF",
+          "r": 77,
+          "nat": "Cape Verde",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Rory Gaffney",
+          "p": "FW",
+          "r": 75,
+          "nat": "Ireland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Sean Kavanagh",
+          "p": "DF",
+          "r": 78,
+          "nat": "Ireland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Trevor Clarke",
+          "p": "DF",
+          "r": 77,
+          "nat": "Ireland",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-st-gallen-2425",
+      "club": "St Gallen",
+      "country": "Switzerland",
+      "league": "SUI",
+      "season": "2024-25",
+      "kit": [
+        "#138A49",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Abdoulaye Diaby",
+          "p": "DF",
+          "r": 77,
+          "nat": "Mali",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Albert Vallci",
+          "p": "DF",
+          "r": 78,
+          "nat": "Austria",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Bastien Toma",
+          "p": "MF",
+          "r": 79,
+          "nat": "Switzerland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Chadrac Akolo",
+          "p": "FW",
+          "r": 79,
+          "nat": "DR Congo",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Chima Okoroji",
+          "p": "DF",
+          "r": 79,
+          "nat": "Germany",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Christian Witzig",
+          "p": "MF",
+          "r": 78,
+          "nat": "Switzerland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Felix Mambimbi",
+          "p": "FW",
+          "r": 78,
+          "nat": "Switzerland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Hugo Vandermersch",
+          "p": "DF",
+          "r": 79,
+          "nat": "France",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Jordi Quintillà",
+          "p": "MF",
+          "r": 77,
+          "nat": "Spain",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Jozo Stanić",
+          "p": "DF",
+          "r": 78,
+          "nat": "Croatia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Kevin Csoboth",
+          "p": "FW",
+          "r": 80,
+          "nat": "Hungary",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Konrad Faber",
+          "p": "DF",
+          "r": 79,
+          "nat": "Germany",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Lawrence Ati-Zigi",
+          "p": "GK",
+          "r": 77,
+          "nat": "Ghana",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Lukas Görtler",
+          "p": "MF",
+          "r": 78,
+          "nat": "Germany",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Mihailo Stevanović",
+          "p": "MF",
+          "r": 77,
+          "nat": "Switzerland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Stephen Ambrosius",
+          "p": "DF",
+          "r": 77,
+          "nat": "Ghana",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-the-new-saints-2425",
+      "club": "The New Saints",
+      "country": "Wales",
+      "league": "WAL",
+      "season": "2024-25",
+      "kit": [
+        "#138A49",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Adam Wilson",
+          "p": "FW",
+          "r": 77,
+          "nat": "England",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Ashley Baker",
+          "p": "DF",
+          "r": 75,
+          "nat": "Wales",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Ben Clark",
+          "p": "MF",
+          "r": 75,
+          "nat": "Wales",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Brad Young",
+          "p": "FW",
+          "r": 76,
+          "nat": "England",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Connor Roberts",
+          "p": "GK",
+          "r": 74,
+          "nat": "Wales",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Daniel Redmond",
+          "p": "MF",
+          "r": 76,
+          "nat": "England",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Danny Davies",
+          "p": "DF",
+          "r": 76,
+          "nat": "Wales",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Declan McManus",
+          "p": "FW",
+          "r": 75,
+          "nat": "Scotland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Jack Bodenham",
+          "p": "DF",
+          "r": 75,
+          "nat": "Wales",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Jordan Williams",
+          "p": "FW",
+          "r": 77,
+          "nat": "England",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Josh Pask",
+          "p": "DF",
+          "r": 76,
+          "nat": "England",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Joshua Daniels",
+          "p": "DF",
+          "r": 74,
+          "nat": "Northern Ireland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Leo Smith",
+          "p": "MF",
+          "r": 75,
+          "nat": "Wales",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Rory Holden",
+          "p": "MF",
+          "r": 74,
+          "nat": "Northern Ireland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Ryan Astles",
+          "p": "DF",
+          "r": 74,
+          "nat": "England",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Sion Bradley",
+          "p": "FW",
+          "r": 75,
+          "nat": "Wales",
+          "dp": [
+            "FW"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
         }
       ]
     },
@@ -10661,6 +16118,178 @@
           "comp": "UEL",
           "season": "2024-25",
           "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "confl-tsc-backa-topola-2425",
+      "club": "TSC Bačka Topola",
+      "country": "Serbia",
+      "league": "SRB",
+      "season": "2024-25",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Aleksa Pejić",
+          "p": "MF",
+          "r": 77,
+          "nat": "Serbia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Aleksandar Ćirković",
+          "p": "FW",
+          "r": 77,
+          "nat": "Serbia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Dušan Stevanović",
+          "p": "DF",
+          "r": 76,
+          "nat": "Serbia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Ifet Đakovac",
+          "p": "MF",
+          "r": 75,
+          "nat": "Bosnia and Herzegovina",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Luka Capan",
+          "p": "DF",
+          "r": 76,
+          "nat": "Croatia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Marko Lazetić",
+          "p": "FW",
+          "r": 79,
+          "nat": "Serbia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Mateja Đorđević",
+          "p": "DF",
+          "r": 75,
+          "nat": "Serbia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Mihajlo Banjac",
+          "p": "MF",
+          "r": 76,
+          "nat": "Serbia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Milán Rádin",
+          "p": "MF",
+          "r": 76,
+          "nat": "Serbia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Miloš Degenek",
+          "p": "DF",
+          "r": 75,
+          "nat": "Australia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Miloš Pantović",
+          "p": "FW",
+          "r": 76,
+          "nat": "Serbia",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Nemanja Petrović",
+          "p": "DF",
+          "r": 77,
+          "nat": "Serbia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Petar Stanić",
+          "p": "MF",
+          "r": 77,
+          "nat": "Serbia",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Prestige Mboungou",
+          "p": "FW",
+          "r": 78,
+          "nat": "Republic of the Congo",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Stefan Jovanović",
+          "p": "DF",
+          "r": 77,
+          "nat": "Serbia",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Veljko Ilić",
+          "p": "GK",
+          "r": 75,
+          "nat": "Serbia",
+          "dp": [
+            "GK"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
         }
       ]
     },
@@ -10915,6 +16544,350 @@
       ],
       "role": "roster",
       "achievements": []
+    },
+    {
+      "id": "confl-vikingur-reykjavik-2425",
+      "club": "Víkingur Reykjavík",
+      "country": "Iceland",
+      "league": "ISL",
+      "season": "2024-25",
+      "kit": [
+        "#C8102E",
+        "#000000"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Ari Sigurpálsson",
+          "p": "FW",
+          "r": 78,
+          "nat": "Iceland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Aron Elís Þrándarson",
+          "p": "MF",
+          "r": 75,
+          "nat": "Iceland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Daníel Hafsteinsson",
+          "p": "MF",
+          "r": 76,
+          "nat": "Iceland",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Danijel Djuric",
+          "p": "FW",
+          "r": 78,
+          "nat": "Iceland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Davíð Örn Atlason",
+          "p": "DF",
+          "r": 76,
+          "nat": "Iceland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Erlingur Agnarsson",
+          "p": "FW",
+          "r": 76,
+          "nat": "Iceland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Gunnar Vatnhamar",
+          "p": "DF",
+          "r": 77,
+          "nat": "Faroe Islands",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Helgi Guðjónsson",
+          "p": "FW",
+          "r": 77,
+          "nat": "Iceland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Ingvar Jónsson",
+          "p": "GK",
+          "r": 75,
+          "nat": "Iceland",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Jón Guðni Fjóluson",
+          "p": "DF",
+          "r": 75,
+          "nat": "Iceland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Karl Gunnarsson",
+          "p": "DF",
+          "r": 76,
+          "nat": "Iceland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Oliver Ekroth",
+          "p": "DF",
+          "r": 77,
+          "nat": "Sweden",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Sveinn Þorkelsson",
+          "p": "DF",
+          "r": 75,
+          "nat": "Iceland",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Tarik Ibrahimagić",
+          "p": "MF",
+          "r": 77,
+          "nat": "Denmark",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Valdimar Ingimundarson",
+          "p": "FW",
+          "r": 76,
+          "nat": "Iceland",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Viktor Örlygur Andrason",
+          "p": "MF",
+          "r": 76,
+          "nat": "Iceland",
+          "dp": [
+            "MF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "MAIN"
+        }
+      ]
+    },
+    {
+      "id": "confl-vitoria-guimaraes-2425",
+      "club": "Vitória Guimarães",
+      "country": "Portugal",
+      "league": "POR",
+      "season": "2024-25",
+      "kit": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Alberto Costa",
+          "p": "DF",
+          "r": 80,
+          "nat": "Portugal",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Bruno Varela",
+          "p": "GK",
+          "r": 79,
+          "nat": "Cape Verde",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Gustavo Silva",
+          "p": "FW",
+          "r": 80,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Jesús Ramírez",
+          "p": "FW",
+          "r": 80,
+          "nat": "Venezuela",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "João Mendes",
+          "p": "MF",
+          "r": 79,
+          "nat": "Portugal",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Jorge Fernandes",
+          "p": "DF",
+          "r": 80,
+          "nat": "Portugal",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Kaio César",
+          "p": "FW",
+          "r": 81,
+          "nat": "Brazil",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Manu Silva",
+          "p": "MF",
+          "r": 80,
+          "nat": "Portugal",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Mikel Villanueva",
+          "p": "DF",
+          "r": 81,
+          "nat": "Venezuela",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Nélson Oliveira",
+          "p": "FW",
+          "r": 82,
+          "nat": "Portugal",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Nuno Santos",
+          "p": "MF",
+          "r": 79,
+          "nat": "Portugal",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Óscar Rivas",
+          "p": "DF",
+          "r": 79,
+          "nat": "Spain",
+          "dp": [
+            "DF"
+          ]
+        },
+        {
+          "n": "Samu",
+          "p": "MF",
+          "r": 80,
+          "nat": "Portugal",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Telmo Arcanjo",
+          "p": "FW",
+          "r": 82,
+          "nat": "Cape Verde",
+          "dp": [
+            "FW"
+          ]
+        },
+        {
+          "n": "Tiago Silva",
+          "p": "MF",
+          "r": 81,
+          "nat": "Portugal",
+          "dp": [
+            "MF"
+          ]
+        },
+        {
+          "n": "Tomás Ribeiro",
+          "p": "DF",
+          "r": 81,
+          "nat": "Portugal",
+          "dp": [
+            "DF"
+          ]
+        }
+      ],
+      "euro": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25"
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "CONFL",
+          "season": "2024-25",
+          "stage": "R16"
+        }
+      ]
     },
     {
       "id": "ita-mil-2324",
