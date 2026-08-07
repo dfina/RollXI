@@ -16,7 +16,7 @@ import {
 } from "../lib/knockout.js";
 
 const SAVE_KEY = "campaign:v1";
-const MATCH_TICK_MS = 190; // 90 simulated minutes ≈ 17 seconds
+const MATCH_TICK_MS = 170; // 90 simulated minutes ≈ 15 seconds
 const SHOOTOUT_TICK_MS = 650;
 
 
@@ -1007,3 +1007,4 @@ function ShootoutScreen({ tieObj, rl, onDone }) {
 }
 
 function ord(n) { return n % 10 === 1 && n !== 11 ? "st" : n % 10 === 2 && n !== 12 ? "nd" : n % 10 === 3 && n !== 13 ? "rd" : "th"; }
+
