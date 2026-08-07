@@ -52,9 +52,6 @@ export default function App() {
           <span className="tele dim" style={{ fontSize: 12 }}>Build your XI →</span>
         </button>
 
-        <p className="dim tele" style={{ fontSize: 11, marginTop: 18, textAlign: "center" }}>
-          {data ? data.squads.length : 0} pickable squads · {data ? data.players.length : 0} players · {data ? data.oppRows.length : 0} opponents
-        </p>
         {!storageAvailable() && (
           <p className="tele" style={{ fontSize: 11, marginTop: 6, textAlign: "center", color: "var(--flame)" }}>
             Storage unavailable: progress lasts this session only.

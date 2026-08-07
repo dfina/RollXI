@@ -5,7 +5,7 @@ import { load, save, wipeAll } from "../lib/storage.js";
 import { Crest } from "../components/KitMark.jsx";
 import { teamStrength } from "../lib/match.js";
 import { shareText, campaignShare } from "../lib/share.js";
-import { playerTacticLabels, playerOpenSlots, squadHasSignablePlayer } from "../lib/positions.js";
+import { playerTacticLabels, playerOpenSlots, squadHasSignablePlayer, nextSignableSquadIndex, rerollCostForSquad } from "../lib/positions.js";
 import {
   FORMATIONS, FORMATION_NAMES, emptyXI, rollSequence,
   buildLeague, simulateOtherResults, standings, playMyFixture, applyResult
@@ -16,8 +16,8 @@ import {
 } from "../lib/knockout.js";
 
 const SAVE_KEY = "campaign:v1";
-const MATCH_TICK_MS = 222; // 90 simulated minutes ≈ 20 seconds
-const SHOOTOUT_TICK_MS = 750;
+const MATCH_TICK_MS = 190; // 90 simulated minutes ≈ 17 seconds
+const SHOOTOUT_TICK_MS = 650;
 
 
 export default function Campaign({ data }) {
@@ -49,7 +49,7 @@ function SetupScreen({ data, onStart }) {
       <p className="tele amber" style={{ fontSize: 12, letterSpacing: 2, margin: 0, fontWeight: 800 }}>NEW CAMPAIGN</p>
       <h2 className="display chalk" style={{ fontSize: 26, margin: "6px 0 4px" }}>Pick your shape</h2>
       <p className="dim" style={{ fontSize: 13, margin: "0 0 4px" }}>
-        Then roll eleven squads and sign one player from each into your XI. Four re-rolls if a squad doesn't fit.
+        Then roll eleven squads and sign one player from each into your XI. You have four optional re-rolls; squads with no compatible player are rolled again for free.
       </p>
       <hr className="rule" />
       <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 8 }}>
@@ -85,23 +85,18 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
   const signableCurrentSquad = useMemo(() => squadHasSignablePlayer(squad, camp.xi, usedKeys, camp.formation), [squad, camp.xi, usedKeys, camp.formation]);
 
   useEffect(() => {
-    if (done || !squad || camp.rerolls > 0 || signableCurrentSquad) return;
-    let nextPtr = camp.ptr;
-    let extraRolls = 0;
-    let foundFit = false;
-    while (nextPtr + 1 < camp.seq.length) {
-      nextPtr += 1;
-      extraRolls += 1;
-      const nextSquad = data.squadById[camp.seq[nextPtr]];
-      if (squadHasSignablePlayer(nextSquad, camp.xi, usedKeys, camp.formation)) {
-        foundFit = true;
-        break;
-      }
-    }
-    if (foundFit && nextPtr !== camp.ptr) {
+    if (done || !squad || signableCurrentSquad) return;
+    const nextPtr = nextSignableSquadIndex(
+      camp.seq, camp.ptr, data.squadById, camp.xi, usedKeys, camp.formation
+    );
+    if (nextPtr > camp.ptr) {
+      const extraRolls = nextPtr - camp.ptr;
       onUpdate({
         ...camp,
         ptr: nextPtr,
+        // Dead rolls are always free. The four manual re-rolls are only spent
+        // when the current squad contains at least one valid signing option.
+        rerolls: camp.rerolls,
         autoRolls: (camp.autoRolls || 0) + extraRolls,
         lastAutoRolls: extraRolls
       });
@@ -129,8 +124,16 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
   }
 
   function reroll() {
-    if (camp.rerolls <= 0 || camp.ptr + 1 >= camp.seq.length) return;
-    onUpdate({ ...camp, ptr: camp.ptr + 1, rerolls: camp.rerolls - 1, lastAutoRolls: 0 });
+    if (camp.ptr + 1 >= camp.seq.length) return;
+    const rerollCost = rerollCostForSquad(squad, camp.xi, usedKeys, camp.formation);
+    if (rerollCost > 0 && camp.rerolls <= 0) return;
+    onUpdate({
+      ...camp,
+      ptr: camp.ptr + 1,
+      rerolls: camp.rerolls - rerollCost,
+      lastAutoRolls: rerollCost ? 0 : 1,
+      autoRolls: rerollCost ? (camp.autoRolls || 0) : (camp.autoRolls || 0) + 1
+    });
   }
 
   function kickOffLeague() {
@@ -182,8 +185,8 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
               </div>
             </div>
             <button className="ghost" style={{ padding: "7px 10px", fontSize: 12, display: "inline-flex", alignItems: "center", gap: 5 }}
-              onClick={reroll} disabled={camp.rerolls <= 0}>
-              <RotateCcw size={13} /> Re-roll ({camp.rerolls})
+              onClick={reroll} disabled={(signableCurrentSquad && camp.rerolls <= 0) || camp.ptr + 1 >= camp.seq.length}>
+              <RotateCcw size={13} /> {signableCurrentSquad ? `Re-roll (${camp.rerolls})` : "Extra roll"}
             </button>
           </div>
           {camp.lastAutoRolls > 0 && (
@@ -388,7 +391,7 @@ function TeamTickerName({ team, align = "left" }) {
     <div style={{ minWidth: 0, flex: "1 1 auto", textAlign: align === "right" ? "right" : "left" }}>
       <div className="display chalk" style={{
         fontSize: 12.5, lineHeight: 1.08, whiteSpace: "normal", overflow: "visible",
-        overflowWrap: "anywhere", wordBreak: "normal", hyphens: "auto"
+        overflowWrap: "break-word", wordBreak: "normal", hyphens: "none", maxWidth: "100%"
       }}>
         {isYou ? "Your XI" : team.club}
       </div>
@@ -473,9 +476,9 @@ function Ticker({ res, you, matchday, onDone }) {
     <div className="fade" style={{ paddingTop: 8 }}>
       <p className="tele dim" style={{ fontSize: 11, letterSpacing: 1.5, textAlign: "center", margin: 0 }}>MATCHDAY {matchday} · {res.home ? "HOME" : "AWAY"}</p>
       <div className="card" style={{ padding: 16, marginTop: 8, textAlign: "center" }}>
-        <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 14 }}>
+        <div style={{ display: "grid", gridTemplateColumns: "minmax(0,1fr) auto minmax(0,1fr)", alignItems: "center", gap: 10 }}>
           <TeamTickerName team={res.home ? { ...you, isYou: true, club: "Your XI" } : res.opp} align="right" />
-          <span className="tele amber" style={{ fontSize: 36, fontWeight: 800, minWidth: 86 }}>
+          <span className="tele amber" style={{ fontSize: 34, fontWeight: 800, minWidth: 78 }}>
             {res.home ? myG : opG}-{res.home ? opG : myG}
           </span>
           <TeamTickerName team={res.home ? res.opp : { ...you, isYou: true, club: "Your XI" }} align="left" />

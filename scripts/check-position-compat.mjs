@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { FORMATIONS, emptyXI } from "../src/lib/campaign.js";
-import { playerOpenSlots, playerPossibleTacticLabels } from "../src/lib/positions.js";
+import { playerOpenSlots, playerPossibleTacticLabels, nextSignableSquadIndex, squadHasSignablePlayer, rerollCostForSquad } from "../src/lib/positions.js";
 
 const failures = [];
 const check = (condition, message) => { if (!condition) failures.push(message); };
@@ -47,6 +47,28 @@ check(!labels(am, "4-2-3-1").includes("LW") && !labels(am, "4-2-3-1").includes("
 check(!labels(lw, "4-2-3-1").includes("AM"), "LW must not proxy to AM");
 check(!labels(cf, "4-3-3").includes("LW") && !labels(cf, "4-3-3").includes("RW"), "CF must not proxy to wide forward");
 
+
+// Dead-roll regression: an incompatible rolled squad must be skipped without
+// touching the manual re-roll allowance. The helper must also skip consecutive
+// dead squads and stop at the first squad with a valid signing.
+const xi4231 = emptyXI("4-2-3-1");
+// Fill every slot except the striker slot so only ST-compatible players can sign.
+for (let i = 0; i < xi4231.length; i += 1) {
+  if (xi4231[i].label !== "ST") xi4231[i] = { ...xi4231[i], name: `Filled ${i}`, pickKey: `filled|${i}` };
+}
+const dead1 = { id: "dead-1", players: [{ n: "Midfielder One", p: "MF", dp: ["CM"] }] };
+const dead2 = { id: "dead-2", players: [{ n: "Defender One", p: "DF", dp: ["CB"] }] };
+const fit = { id: "fit", players: [{ n: "Striker One", p: "FW", dp: ["ST"] }] };
+const squadById = { "dead-1": dead1, "dead-2": dead2, fit };
+const seq = ["dead-1", "dead-2", "fit"];
+const noUsed = new Set();
+check(!squadHasSignablePlayer(dead1, xi4231, noUsed, "4-2-3-1"), "dead-roll fixture must really be incompatible");
+check(squadHasSignablePlayer(fit, xi4231, noUsed, "4-2-3-1"), "dead-roll regression needs a later compatible squad");
+check(rerollCostForSquad(dead1, xi4231, noUsed, "4-2-3-1") === 0, "incompatible squad must consume zero manual re-rolls");
+check(rerollCostForSquad(fit, xi4231, noUsed, "4-2-3-1") === 1, "compatible squad must consume one manual re-roll when skipped");
+check(nextSignableSquadIndex(seq, 0, squadById, xi4231, noUsed, "4-2-3-1") === 2, "dead rolls must skip to the first later compatible squad");
+check(nextSignableSquadIndex(["dead-1", "dead-2"], 0, squadById, xi4231, noUsed, "4-2-3-1") === -1, "dead-roll search must return -1 when no later squad fits");
+
 // Every declared formation should still resolve to exactly 11 slots.
 for (const formation of Object.keys(FORMATIONS)) {
   check(emptyXI(formation).length === 11, `${formation} must contain 11 slots`);
@@ -62,4 +84,5 @@ console.log("POSITION COMPATIBILITY CHECK");
 console.log("  ✓ CM -> DM and CM -> AM proxies active");
 console.log("  ✓ LB/RB -> LM/RM limited to 3-5-2 and 3-4-3");
 console.log("  ✓ rejected blanket proxies remain disabled");
+console.log("  ✓ incompatible dead rolls skip forward without consuming manual re-rolls");
 console.log(`  ✓ Nakata-style CM in 4-2-3-1 has ${nakataSlots.length} compatible open slots (${nakataSlots.join(", ")})`);

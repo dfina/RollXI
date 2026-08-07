@@ -87,3 +87,22 @@ export function squadHasSignablePlayer(squad, xi, usedKeys, formation) {
     !usedKeys.has(squad.id + "|" + p.n) && playerOpenSlots(p, xi, formation).length > 0
   );
 }
+
+/* Manual re-rolls cost one only when the current squad offers a valid signing.
+   A dead roll costs zero and is eligible for an automatic free skip. */
+export function rerollCostForSquad(squad, xi, usedKeys, formation) {
+  return squadHasSignablePlayer(squad, xi, usedKeys, formation) ? 1 : 0;
+}
+
+/* Find the next rolled squad that can actually supply a player for the
+   remaining XI. This powers free "dead-roll" skips in Campaign: a squad with
+   no compatible signing must never consume one of the player's four optional
+   re-rolls. Returns -1 if no later squad can fit. */
+export function nextSignableSquadIndex(seq, startIndex, squadById, xi, usedKeys, formation) {
+  if (!Array.isArray(seq) || !squadById) return -1;
+  for (let i = startIndex + 1; i < seq.length; i += 1) {
+    const squad = squadById[seq[i]];
+    if (squadHasSignablePlayer(squad, xi, usedKeys, formation)) return i;
+  }
+  return -1;
+}

@@ -42,6 +42,11 @@ only, conventional LB/RB players may also fill the LM/RM wide roles. More
 aggressive proxies such as DM -> CB, full-back -> CB or AM <-> winger are not
 inferred unless the player's own `dp` data explicitly records those roles.
 
+A rolled squad that has no player compatible with any remaining empty XI slot
+is treated as a dead roll and skipped automatically for free. The four manual
+re-rolls are only consumed when the current squad does contain at least one
+valid signing option and the player chooses to pass on it.
+
 Add a pack by dropping the file in `public/data/` and listing it in
 `index.json`. Crest/photo fields take URLs; the kit monogram renders as fallback
 whenever they are null or fail to load.
