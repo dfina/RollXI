@@ -23,6 +23,7 @@ jobs:
         with:
           node-version: 20
       - run: npm install
+      - run: npm run validate
       - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -37,3 +38,4 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
