@@ -2,8 +2,9 @@
  "meta": {
   "name": "Wave Ff — EC finalists 1955-56 to 1969-70",
   "wave": "Ff",
-  "note": "Complete. All 15 editions 1955-56 to 1969-70 have both finalists pickable (29 rosters built this wave; Inter 1964-65 was already pickable). Web-verified per edition via final match sheets (Real Madrid official site, Transfermarkt, The Celtic Wiki, Inter.it, AC Milan official, Wikipedia). Every promoted club-season removed from EC/UCL tier-O in the same pass. EC/UCL tier-O index is now at ZERO — all finalist club-seasons across the full competition history are pickable. O/P overlap = 0, P/P dups = 0. Eastern European and lesser-documented clubs carry conf C.",
-  "verified": true
+  "note": "Complete. All 15 editions 1955-56 to 1969-70 have both finalists pickable (29 rosters built this wave; Inter 1964-65 was already pickable). Web-verified per edition via final match sheets (Real Madrid official site, Transfermarkt, The Celtic Wiki, Inter.it, AC Milan official, Wikipedia). Every promoted club-season removed from EC/UCL tier-O in the same pass. EC/UCL tier-O index is now at ZERO — all finalist club-seasons across the full competition history are pickable. O/P overlap = 0, P/P dups = 0. 2026-08-07: all 20 previously 11-player rosters rebuilt to 16 players; clear source conflicts in player identity, nationality and positional classification corrected. See docs/ROSTER-AUDIT-2026-08-07.md.",
+  "verified": true,
+  "source": "2026-08-07 depth rebuild: RSSSF European Champions' Cup winning-squad appearance records; DFB Datencenter European Cup competition squads and match sheets; WorldFootball appearance records; official club archives (AC Milan, Inter, Malmö FF and Barcelona/Real Madrid material) for cross-checks."
  },
  "squads": [
   {
@@ -118,6 +119,53 @@
      "nat": "Spain",
      "dp": [
       "LW"
+     ]
+    },
+    {
+     "n": "Joaquín Navarro",
+     "p": "DF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "José Becerril",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Roque Olsen",
+     "p": "FW",
+     "r": 76,
+     "nat": "Argentina",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Luis Molowny",
+     "p": "FW",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "LW"
+     ]
+    },
+    {
+     "n": "Heliodoro Castaño",
+     "p": "FW",
+     "r": 72,
+     "nat": "Spain",
+     "dp": [
+      "RW"
      ]
     }
    ],
@@ -298,7 +346,7 @@
      ]
     },
     {
-     "n": "Joaquín Torres",
+     "n": "Manuel Torres Pastor",
      "p": "DF",
      "r": 73,
      "nat": "Spain",
@@ -387,6 +435,51 @@
      "nat": "Spain",
      "dp": [
       "LW"
+     ]
+    },
+    {
+     "n": "Javier Berasaluce",
+     "p": "GK",
+     "r": 72,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Ángel Atienza",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "José Becerril",
+     "p": "DF",
+     "r": 72,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Juan Santisteban",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Joseíto",
+     "p": "FW",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "RW"
      ]
     }
    ],
@@ -659,6 +752,52 @@
      "dp": [
       "LW"
      ]
+    },
+    {
+     "n": "Rogelio Domínguez",
+     "p": "GK",
+     "r": 77,
+     "nat": "Argentina",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Marquitos",
+     "p": "DF",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Miguel Muñoz",
+     "p": "MF",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Ramón Marsal",
+     "p": "MF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Enrique Mateos",
+     "p": "MF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "MF"
+     ]
     }
    ],
    "euro": [
@@ -693,7 +832,7 @@
      "n": "Narciso Soldan",
      "p": "GK",
      "r": 78,
-     "nat": "Uruguay",
+     "nat": "Italy",
      "dp": [
       "GK"
      ]
@@ -791,6 +930,51 @@
      "nat": "Argentina",
      "dp": [
       "LW"
+     ]
+    },
+    {
+     "n": "Lorenzo Buffon",
+     "p": "GK",
+     "r": 81,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Francesco Zagatti",
+     "p": "DF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Luigi Zannier",
+     "p": "MF",
+     "r": 75,
+     "nat": "Italy",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Amos Mariani",
+     "p": "FW",
+     "r": 77,
+     "nat": "Italy",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Carlo Galli",
+     "p": "FW",
+     "r": 79,
+     "nat": "Italy",
+     "dp": [
+      "CF"
      ]
     }
    ],
@@ -974,7 +1158,7 @@
      ]
     },
     {
-     "n": "Piotr Rodzik",
+     "n": "Bruno Rodzik",
      "p": "DF",
      "r": 73,
      "nat": "France",
@@ -1029,7 +1213,7 @@
      ]
     },
     {
-     "n": "Michel Bliard",
+     "n": "René Bliard",
      "p": "FW",
      "r": 74,
      "nat": "France",
@@ -1063,6 +1247,52 @@
      "nat": "France",
      "dp": [
       "FW"
+     ]
+    },
+    {
+     "n": "René Jacquet",
+     "p": "GK",
+     "r": 72,
+     "nat": "France",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Claude Dubaële",
+     "p": "MF",
+     "r": 72,
+     "nat": "France",
+     "dp": [
+      "RM"
+     ]
+    },
+    {
+     "n": "Robert Siatka",
+     "p": "MF",
+     "r": 75,
+     "nat": "France",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Raymond Baratto",
+     "p": "FW",
+     "r": 72,
+     "nat": "France",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Robert Bérard",
+     "p": "FW",
+     "r": 71,
+     "nat": "France",
+     "dp": [
+      "CF"
      ]
     }
    ],
@@ -1098,7 +1328,7 @@
      "n": "Rogelio Domínguez",
      "p": "GK",
      "r": 77,
-     "nat": "Spain",
+     "nat": "Argentina",
      "dp": [
       "GK"
      ]
@@ -1142,7 +1372,7 @@
      ]
     },
     {
-     "n": "Manuel Vidal",
+     "n": "José María Vidal",
      "p": "MF",
      "r": 74,
      "nat": "Spain",
@@ -1197,6 +1427,54 @@
      "dp": [
       "LW"
      ]
+    },
+    {
+     "n": "Miché",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Antonio Ruiz Cervilla",
+     "p": "MF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Enrique Mateos",
+     "p": "MF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "AM",
+      "MF"
+     ]
+    },
+    {
+     "n": "Juan Santisteban",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Chus Herrera",
+     "p": "FW",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "RW",
+      "CF"
+     ]
     }
    ],
    "euro": [
@@ -1237,7 +1515,7 @@
      ]
     },
     {
-     "n": "Friedrich Lutz",
+     "n": "Friedel Lutz",
      "p": "DF",
      "r": 73,
      "nat": "West Germany",
@@ -1264,7 +1542,7 @@
      ]
     },
     {
-     "n": "Hans Eigenbrodt",
+     "n": "Hans-Walter Eigenbrodt",
      "p": "DF",
      "r": 74,
      "nat": "West Germany",
@@ -1324,6 +1602,53 @@
      "nat": "West Germany",
      "dp": [
       "LW"
+     ]
+    },
+    {
+     "n": "Hans-Günter Kirchhof",
+     "p": "GK",
+     "r": 71,
+     "nat": "West Germany",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Eberhard Schymik",
+     "p": "DF",
+     "r": 75,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Adolf Bechtold",
+     "p": "DF",
+     "r": 74,
+     "nat": "West Germany",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Erich Bäumler",
+     "p": "FW",
+     "r": 74,
+     "nat": "West Germany",
+     "dp": [
+      "FW",
+      "RW"
+     ]
+    },
+    {
+     "n": "Willi Herbert",
+     "p": "DF",
+     "r": 72,
+     "nat": "West Germany",
+     "dp": [
+      "CB",
+      "RB"
      ]
     }
    ],
@@ -1515,16 +1840,17 @@
      ]
     },
     {
-     "n": "Joaquim Garay",
-     "p": "DF",
+     "n": "Jesús Garay",
+     "p": "MF",
      "r": 78,
      "nat": "Spain",
      "dp": [
+      "DM",
       "CB"
      ]
     },
     {
-     "n": "Joan Vergés",
+     "n": "Martí Vergés",
      "p": "MF",
      "r": 76,
      "nat": "Spain",
@@ -1534,22 +1860,13 @@
      ]
     },
     {
-     "n": "Segarra Gensana",
+     "n": "Enric Gensana",
      "p": "DF",
-     "r": 74,
+     "r": 76,
      "nat": "Spain",
      "dp": [
-      "LB",
-      "CB"
-     ]
-    },
-    {
-     "n": "Teódulo García",
-     "p": "MF",
-     "r": 73,
-     "nat": "Spain",
-     "dp": [
-      "MF"
+      "CB",
+      "LB"
      ]
     },
     {
@@ -1597,6 +1914,64 @@
      "nat": "Hungary",
      "dp": [
       "LW"
+     ]
+    },
+    {
+     "n": "Sigfrid Gràcia",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Joan Segarra",
+     "p": "DF",
+     "r": 81,
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Ferran Olivella",
+     "p": "DF",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "DM"
+     ]
+    },
+    {
+     "n": "Ribelles",
+     "p": "MF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Justo Tejada",
+     "p": "FW",
+     "r": 78,
+     "nat": "Spain",
+     "dp": [
+      "RW"
+     ]
+    },
+    {
+     "n": "Ramón Villaverde",
+     "p": "FW",
+     "r": 77,
+     "nat": "Uruguay",
+     "dp": [
+      "LW",
+      "SS"
      ]
     }
    ],
@@ -1730,6 +2105,52 @@
      "dp": [
       "LW"
      ]
+    },
+    {
+     "n": "Humberto Fernandes",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "José Neto",
+     "p": "MF",
+     "r": 74,
+     "nat": "Portugal",
+     "dp": [
+      "DM"
+     ]
+    },
+    {
+     "n": "Serra",
+     "p": "MF",
+     "r": 72,
+     "nat": "Portugal",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Santana",
+     "p": "MF",
+     "r": 76,
+     "nat": "Portugal",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "José Torres",
+     "p": "FW",
+     "r": 79,
+     "nat": "Portugal",
+     "dp": [
+      "CF"
+     ]
     }
    ],
    "euro": [
@@ -1862,6 +2283,53 @@
      "dp": [
       "CF"
      ]
+    },
+    {
+     "n": "Vicente Train",
+     "p": "GK",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Isidro Sánchez",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "CB",
+      "RB"
+     ]
+    },
+    {
+     "n": "José Zárraga",
+     "p": "MF",
+     "r": 76,
+     "nat": "Spain",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Antonio Ruiz Cervilla",
+     "p": "MF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Canário",
+     "p": "FW",
+     "r": 77,
+     "nat": "Brazil",
+     "dp": [
+      "RW"
+     ]
     }
    ],
    "euro": [
@@ -1933,7 +2401,7 @@
      "n": "Víctor Benítez",
      "p": "DF",
      "r": 76,
-     "nat": "Venezuela",
+     "nat": "Peru",
      "dp": [
       "CB"
      ]
@@ -1985,13 +2453,61 @@
      ]
     },
     {
-     "n": "Angelo Mora",
+     "n": "Bruno Mora",
      "p": "FW",
      "r": 74,
      "nat": "Italy",
      "dp": [
       "LW",
       "FW"
+     ]
+    },
+    {
+     "n": "Mario Liberalato",
+     "p": "GK",
+     "r": 71,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Ambrogio Pelagalli",
+     "p": "DF",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "CB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Luigi Radice",
+     "p": "MF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "DM",
+      "CM"
+     ]
+    },
+    {
+     "n": "Paolo Barison",
+     "p": "FW",
+     "r": 77,
+     "nat": "Italy",
+     "dp": [
+      "LW",
+      "CF"
+     ]
+    },
+    {
+     "n": "José Germano",
+     "p": "FW",
+     "r": 72,
+     "nat": "Brazil",
+     "dp": [
+      "CF"
      ]
     }
    ],
@@ -2124,6 +2640,54 @@
      "dp": [
       "CF"
      ]
+    },
+    {
+     "n": "Santana",
+     "p": "MF",
+     "r": 76,
+     "nat": "Portugal",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Ângelo",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Augusto Silva",
+     "p": "DF",
+     "r": 72,
+     "nat": "Portugal",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Germano",
+     "p": "DF",
+     "r": 80,
+     "nat": "Portugal",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Jacinto Santos",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
     }
    ],
    "euro": [
@@ -2255,6 +2819,52 @@
      "dp": [
       "CF"
      ]
+    },
+    {
+     "n": "Horst Szymaniak",
+     "p": "MF",
+     "r": 79,
+     "nat": "West Germany",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Nicola Ciccolo",
+     "p": "FW",
+     "r": 72,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Beniamino Di Giacomo",
+     "p": "FW",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "CF"
+     ]
+    },
+    {
+     "n": "Ottavio Bugatti",
+     "p": "GK",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Sergio Codognato",
+     "p": "DF",
+     "r": 72,
+     "nat": "Italy",
+     "dp": [
+      "CB"
+     ]
     }
    ],
    "euro": [
@@ -2286,9 +2896,9 @@
    "crest": null,
    "players": [
     {
-     "n": "Vicente Cobo",
+     "n": "Vicente Train",
      "p": "GK",
-     "r": 74,
+     "r": 77,
      "nat": "Spain",
      "dp": [
       "GK"
@@ -2385,6 +2995,52 @@
      "nat": "Spain",
      "dp": [
       "LW"
+     ]
+    },
+    {
+     "n": "Antonio Betancort",
+     "p": "GK",
+     "r": 77,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Vicente Miera",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "Pedro Casado",
+     "p": "DF",
+     "r": 73,
+     "nat": "Spain",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Félix Ruiz",
+     "p": "MF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Evaristo",
+     "p": "FW",
+     "r": 78,
+     "nat": "Brazil",
+     "dp": [
+      "CF"
      ]
     }
    ],
@@ -2518,6 +3174,52 @@
      "dp": [
       "LW"
      ]
+    },
+    {
+     "n": "Nascimento",
+     "p": "GK",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Jacinto Santos",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Humberto Fernandes",
+     "p": "DF",
+     "r": 73,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Santana",
+     "p": "MF",
+     "r": 76,
+     "nat": "Portugal",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Ângelo",
+     "p": "DF",
+     "r": 72,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
     }
    ],
    "euro": [
@@ -2649,6 +3351,53 @@
      "dp": [
       "LW"
      ]
+    },
+    {
+     "n": "Antonio Betancort",
+     "p": "GK",
+     "r": 79,
+     "nat": "Spain",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Vicente Miera",
+     "p": "DF",
+     "r": 74,
+     "nat": "Spain",
+     "dp": [
+      "RB"
+     ]
+    },
+    {
+     "n": "José Santamaría",
+     "p": "DF",
+     "r": 80,
+     "nat": "Uruguay",
+     "dp": [
+      "CB",
+      "SW"
+     ]
+    },
+    {
+     "n": "Félix Ruiz",
+     "p": "MF",
+     "r": 75,
+     "nat": "Spain",
+     "dp": [
+      "CM",
+      "AM"
+     ]
+    },
+    {
+     "n": "Ferenc Puskás",
+     "p": "FW",
+     "r": 82,
+     "nat": "Hungary",
+     "dp": [
+      "CF"
+     ]
     }
    ],
    "euro": [
@@ -2699,21 +3448,12 @@
     },
     {
      "n": "Branko Rašović",
-     "p": "MF",
+     "p": "DF",
      "r": 74,
      "nat": "Yugoslavia",
      "dp": [
       "CB",
       "DM"
-     ]
-    },
-    {
-     "n": "Dragoslav Šekularac",
-     "p": "MF",
-     "r": 78,
-     "nat": "Yugoslavia",
-     "dp": [
-      "AM"
      ]
     },
     {
@@ -2727,16 +3467,17 @@
      ]
     },
     {
-     "n": "Miroslav Bečejac",
-     "p": "DF",
+     "n": "Radoslav Bečejac",
+     "p": "MF",
      "r": 73,
      "nat": "Yugoslavia",
      "dp": [
-      "CB"
+      "CM",
+      "DM"
      ]
     },
     {
-     "n": "Ilija Bajić",
+     "n": "Mane Bajić",
      "p": "MF",
      "r": 74,
      "nat": "Yugoslavia",
@@ -2746,13 +3487,13 @@
      ]
     },
     {
-     "n": "Radoslav Kovačević",
-     "p": "MF",
+     "n": "Vladimir Kovačević",
+     "p": "FW",
      "r": 76,
      "nat": "Yugoslavia",
      "dp": [
-      "CM",
-      "AM"
+      "CF",
+      "SS"
      ]
     },
     {
@@ -2774,12 +3515,68 @@
      ]
     },
     {
-     "n": "Janez Pirmajer",
+     "n": "Josip Pirmajer",
      "p": "FW",
      "r": 74,
      "nat": "Yugoslavia",
      "dp": [
       "LW"
+     ]
+    },
+    {
+     "n": "Ivan Ćurković",
+     "p": "GK",
+     "r": 75,
+     "nat": "Yugoslavia",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Blagoje Paunović",
+     "p": "DF",
+     "r": 74,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Milan Damjanović",
+     "p": "DF",
+     "r": 74,
+     "nat": "Yugoslavia",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Ljubomir Mihajlović",
+     "p": "MF",
+     "r": 74,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Zoran Miladinović",
+     "p": "MF",
+     "r": 73,
+     "nat": "Yugoslavia",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Joakim Vislavski",
+     "p": "FW",
+     "r": 73,
+     "nat": "Yugoslavia",
+     "dp": [
+      "LW",
+      "FW"
      ]
     }
    ],
@@ -3240,7 +4037,7 @@
      ]
     },
     {
-     "n": "Adolfo",
+     "n": "Adolfo Calisto",
      "p": "DF",
      "r": 73,
      "nat": "Portugal",
@@ -3331,6 +4128,53 @@
      "nat": "Portugal",
      "dp": [
       "CF"
+     ]
+    },
+    {
+     "n": "Nascimento",
+     "p": "GK",
+     "r": 74,
+     "nat": "Portugal",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Humberto Coelho",
+     "p": "DF",
+     "r": 76,
+     "nat": "Portugal",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Cavém",
+     "p": "MF",
+     "r": 74,
+     "nat": "Portugal",
+     "dp": [
+      "RM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Raúl Machado",
+     "p": "DF",
+     "r": 72,
+     "nat": "Portugal",
+     "dp": [
+      "LB"
+     ]
+    },
+    {
+     "n": "Santana",
+     "p": "MF",
+     "r": 75,
+     "nat": "Portugal",
+     "dp": [
+      "CM",
+      "AM"
      ]
     }
    ],
@@ -3462,6 +4306,55 @@
      "dp": [
       "CF"
      ]
+    },
+    {
+     "n": "William Vecchi",
+     "p": "GK",
+     "r": 72,
+     "nat": "Italy",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Luigi Maldera",
+     "p": "DF",
+     "r": 74,
+     "nat": "Italy",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Nello Santin",
+     "p": "DF",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "RB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Romano Fogli",
+     "p": "MF",
+     "r": 76,
+     "nat": "Italy",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Giorgio Rognoni",
+     "p": "FW",
+     "r": 73,
+     "nat": "Italy",
+     "dp": [
+      "LW",
+      "FW"
+     ]
     }
    ],
    "euro": [
@@ -3557,12 +4450,13 @@
      ]
     },
     {
-     "n": "Anton Pronk",
-     "p": "MF",
+     "n": "Tonny Pronk",
+     "p": "DF",
      "r": 72,
      "nat": "Netherlands",
      "dp": [
-      "CM"
+      "CB",
+      "DM"
      ]
     },
     {
@@ -3591,6 +4485,54 @@
      "nat": "Netherlands",
      "dp": [
       "LW"
+     ]
+    },
+    {
+     "n": "Heinz Stuy",
+     "p": "GK",
+     "r": 75,
+     "nat": "Netherlands",
+     "dp": [
+      "GK"
+     ]
+    },
+    {
+     "n": "Ruud Krol",
+     "p": "DF",
+     "r": 76,
+     "nat": "Netherlands",
+     "dp": [
+      "LB",
+      "CB"
+     ]
+    },
+    {
+     "n": "Ruud Suurendonk",
+     "p": "DF",
+     "r": 73,
+     "nat": "Netherlands",
+     "dp": [
+      "CB",
+      "RB"
+     ]
+    },
+    {
+     "n": "Bennie Muller",
+     "p": "MF",
+     "r": 76,
+     "nat": "Netherlands",
+     "dp": [
+      "CM",
+      "DM"
+     ]
+    },
+    {
+     "n": "Arie Haan",
+     "p": "MF",
+     "r": 74,
+     "nat": "Netherlands",
+     "dp": [
+      "CM"
      ]
     }
    ],

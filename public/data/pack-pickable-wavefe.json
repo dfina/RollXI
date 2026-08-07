@@ -2,8 +2,9 @@
  "meta": {
   "name": "Wave Fe — EC/UCL finalists (winners + runners-up) 1970-71 to 1979-80",
   "wave": "Fe",
-  "note": "Complete. All 10 editions 1970-71 to 1979-80 have both finalists pickable (18 rosters built this wave; Bayern Munich 1973-74 and Saint-Étienne 1975-76 were already pickable). Each web-verified per edition via final match sheets. Every promoted club-season removed from EC/UCL tier-O in the same pass; O/P overlap = 0. Panathinaikos, Club Brugge and Malmö FF carry conf C on squad depth.",
-  "verified": true
+  "note": "Complete. All 10 editions 1970-71 to 1979-80 have both finalists pickable (18 rosters built this wave; Bayern Munich 1973-74 and Saint-Étienne 1975-76 were already pickable). Each web-verified per edition via final match sheets. Every promoted club-season removed from EC/UCL tier-O in the same pass; O/P overlap = 0. 2026-08-07: Malmö FF 1978-79 expanded from 11 to 16 players; Tore Cervin and two positional classifications corrected. See docs/ROSTER-AUDIT-2026-08-07.md.",
+  "verified": true,
+  "source": "2026-08-07 Malmö FF 1978-79 depth rebuild: Malmö FF official European Cup retrospective and DFB Datencenter competition squad, cross-checked against the existing finalist match-sheet research."
  },
  "squads": [
   {
@@ -2317,11 +2318,11 @@
     },
     {
      "n": "Kent Jönsson",
-     "p": "MF",
+     "p": "DF",
      "r": 74,
      "nat": "Sweden",
      "dp": [
-      "CM"
+      "CB"
      ]
     },
     {
@@ -2345,7 +2346,7 @@
      ]
     },
     {
-     "n": "Thomas Cervin",
+     "n": "Tore Cervin",
      "p": "FW",
      "r": 74,
      "nat": "Sweden",
@@ -2355,11 +2356,12 @@
     },
     {
      "n": "Jan-Olov Kindvall",
-     "p": "FW",
+     "p": "MF",
      "r": 74,
      "nat": "Sweden",
      "dp": [
-      "FW"
+      "RM",
+      "CM"
      ]
     },
     {
@@ -2369,6 +2371,52 @@
      "nat": "Sweden",
      "dp": [
       "FW"
+     ]
+    },
+    {
+     "n": "Roy Andersson",
+     "p": "DF",
+     "r": 77,
+     "nat": "Sweden",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Krister Kristensson",
+     "p": "DF",
+     "r": 76,
+     "nat": "Sweden",
+     "dp": [
+      "CB"
+     ]
+    },
+    {
+     "n": "Bo Larsson",
+     "p": "FW",
+     "r": 82,
+     "nat": "Sweden",
+     "dp": [
+      "CF",
+      "AM"
+     ]
+    },
+    {
+     "n": "Claes Malmberg",
+     "p": "MF",
+     "r": 72,
+     "nat": "Sweden",
+     "dp": [
+      "CM"
+     ]
+    },
+    {
+     "n": "Mats Arvidsson",
+     "p": "MF",
+     "r": 72,
+     "nat": "Sweden",
+     "dp": [
+      "RM"
      ]
     }
    ],

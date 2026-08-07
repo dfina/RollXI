@@ -541,11 +541,15 @@ opposition at all.
 
 **Rosters.** 16 players is the house standard. Minimum 11, and at least one
 goalkeeper. Ratings are 62-97 with a mean near 78; keep new packs inside that
-band or the Campaign difficulty curve shifts under you. 21 existing rosters sit at exactly 11 players: 20 in
-`pack-pickable-waveff.json` (1955-56 to 1969-70) and Malmö FF 1978-79 in
-`pack-pickable-wavefe.json`. The validator warns on these rather than erroring,
-because that may simply be the limit of what's documented for that era; it's
-a prompt to double check the source, not necessarily a defect.
+band or the Campaign difficulty curve shifts under you. **Resolved 2026-08-07:**
+the 21 legacy rosters that previously contained only 11 players (20 in
+`pack-pickable-waveff.json` plus Malmö FF 1978-79 in
+`pack-pickable-wavefe.json`) were researched and rebuilt to 16 players. The
+validator therefore has no undersized-roster warnings at the current baseline.
+The rebuild also corrected source conflicts uncovered during the audit; see
+`docs/ROSTER-AUDIT-2026-08-07.md`. The validator should continue warning on any
+future 11-player roster, because the 11-player minimum is a compatibility floor,
+not the preferred release standard.
 
 **Provenance.** Every **new or rebuilt** pack must carry `meta.source` naming
 where the data came from, and `meta.verified: true` only if it was cross-checked
