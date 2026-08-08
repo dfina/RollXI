@@ -19,6 +19,27 @@ const SAVE_KEY = "campaign:v1";
 const MATCH_TICK_MS = 170; // 90 simulated minutes ≈ 15 seconds
 const SHOOTOUT_TICK_MS = 650;
 
+function addCampaignGoals(camp, segmentKey, timeline) {
+  const counted = new Set(camp.countedGoalSegments || []);
+  if (counted.has(segmentKey)) return camp;
+
+  const scorerStats = { ...(camp.scorerStats || {}) };
+  for (const event of timeline || []) {
+    if (!event.mine || !event.scorer) continue;
+    scorerStats[event.scorer] = (scorerStats[event.scorer] || 0) + 1;
+  }
+
+  counted.add(segmentKey);
+  return { ...camp, scorerStats, countedGoalSegments: [...counted] };
+}
+
+function topCampaignScorers(camp, limit = 5) {
+  return Object.entries(camp.scorerStats || {})
+    .map(([name, goals]) => ({ name, goals }))
+    .filter((row) => row.goals > 0)
+    .sort((a, b) => b.goals - a.goals || a.name.localeCompare(b.name))
+    .slice(0, limit);
+}
 
 export default function Campaign({ data }) {
   const [camp, setCamp] = useState(() => load(SAVE_KEY, null));
@@ -144,7 +165,7 @@ function BuildScreen({ data, camp, onUpdate, onReset }) {
       xi, strength
     };
     const league = buildLeague(camp.seed, you, data.oppRows);
-    onUpdate({ ...camp, phase: "league", you, league, matchday: 1, lastResult: null });
+    onUpdate({ ...camp, phase: "league", you, league, matchday: 1, lastResult: null, scorerStats: camp.scorerStats || {}, countedGoalSegments: camp.countedGoalSegments || [] });
   }
 
   return (
@@ -309,8 +330,9 @@ function LeagueScreen({ data, camp, onUpdate, onReset }) {
     const finalTable = standings(lg.teams);
     const pos = finalTable.findIndex((t) => t.isYou) + 1;
     setTicker(null);
+    const scoredCamp = addCampaignGoals(camp, `league-md${camp.matchday}`, res.timeline);
     onUpdate({
-      ...camp, league: lg, matchday: nextMd,
+      ...scoredCamp, league: lg, matchday: nextMd,
       phase: nowDone ? "leagueDone" : "league",
       finalPos: nowDone ? pos : undefined
     });
@@ -551,7 +573,7 @@ function LeagueDoneScreen({ camp, onUpdate, onReset }) {
 function KnockoutScreen({ data, camp, onUpdate, onReset }) {
   const [ticker, setTicker] = useState(null);  // { tie, legNo, res }
   const [shootout, setShootout] = useState(null); // { tie, resolution }
-  const [etScreen, setEtScreen] = useState(null); // { tieId, rl } when ET settles a tie
+  const [etScreen, setEtScreen] = useState(null); // { tieId, rl } for every aggregate draw before any shootout
   const ko = camp.ko;
   const you = camp.you;
   const stage = camp.koStage;
@@ -575,7 +597,8 @@ function KnockoutScreen({ data, camp, onUpdate, onReset }) {
       if (t.legNo === 1) nx.leg1 = t.res; else nx.leg2 = t.res;
       return nx;
     });
-    onUpdate({ ...camp, koTies: updTies });
+    const scoredCamp = addCampaignGoals(camp, `ko-${stage}-${t.tieId}-leg${t.legNo}`, t.res.timeline);
+    onUpdate({ ...scoredCamp, koTies: updTies });
   }
 
   function resolveTie(tieObj) {
@@ -583,8 +606,11 @@ function KnockoutScreen({ data, camp, onUpdate, onReset }) {
     const agg = aggregate(tieObj);
     if (agg.level) {
       const rl = resolveLevel(you, tieObj, data.squadById);
-      if (rl.pens) { setShootout({ tieId: tieObj.id, rl }); return; }
-      // ET settled it — show animated ET before finalising
+      const scoredCamp = addCampaignGoals(camp, `ko-${stage}-${tieObj.id}-et`, rl.et ? rl.et.timeline : []);
+      onUpdate(scoredCamp);
+      // An aggregate draw must always go through the extra-time screen first.
+      // Only move to penalties after the 30 minutes have been displayed and
+      // the aggregate is still level.
       setEtScreen({ tieId: tieObj.id, rl });
     } else {
       finalizeTie(tieObj, agg.homeGoals > agg.awayGoals ? tieObj.home.id : tieObj.away.id, null, null);
@@ -642,8 +668,12 @@ function KnockoutScreen({ data, camp, onUpdate, onReset }) {
       scoreOffset={{ left: agg.homeGoals, right: agg.awayGoals }}
       pens={null}
       onDone={() => {
-        finalizeTie(tieObj, rl.winnerId, rl.et, null);
         setEtScreen(null);
+        if (rl.pens) {
+          setShootout({ tieId: tieObj.id, rl });
+          return;
+        }
+        finalizeTie(tieObj, rl.winnerId, rl.et, null);
       }} />;
   }
   if (shootout) {
@@ -754,7 +784,9 @@ function FinalScreen({ camp, you, squadById, onUpdate, onReset }) {
     setFinalFlow({ phase: "rt", res });
   }
   function finishFinal(res) {
-    onUpdate({ ...camp, phase: "champion", finalResult: res, championId: res.winnerId });
+    let scoredCamp = addCampaignGoals(camp, "final-rt", res.timeline);
+    scoredCamp = addCampaignGoals(scoredCamp, "final-et", res.et ? res.et.timeline : []);
+    onUpdate({ ...scoredCamp, phase: "champion", finalResult: res, championId: res.winnerId });
   }
 
   if (finalFlow) {
@@ -832,6 +864,7 @@ function ChampionScreen({ camp, onReset }) {
   const youWon = champId === "__you";
   const fin = camp.finalResult;
   const champ = fin ? (fin.winnerId === fin.aId ? camp.finalists[0] : camp.finalists[1]) : null;
+  const topScorers = topCampaignScorers(camp);
   const [shareMsg, setShareMsg] = useState(null);
   async function doShareCampaign() {
     const champName = champ ? champ.club : null;
@@ -857,6 +890,20 @@ function ChampionScreen({ camp, onReset }) {
           {youWon ? "From eleven rolled squads to the top of Europe." : "Beaten on the biggest night. Go again?"}
         </p>
       </div>
+
+      <div className="card" style={{ padding: "12px 14px", marginTop: 12, borderTop: "3px solid var(--amber)" }}>
+        <p className="tele amber" style={{ fontSize: 10, letterSpacing: 1.6, margin: "0 0 8px", fontWeight: 800 }}>YOUR XI · TOP SCORERS</p>
+        {topScorers.length > 0 ? topScorers.map((row, i) => (
+          <div key={row.name} style={{ display: "grid", gridTemplateColumns: "24px minmax(0,1fr) auto", gap: 8, alignItems: "center", padding: "4px 0" }}>
+            <span className="tele dim" style={{ fontSize: 11, fontWeight: 800 }}>{i + 1}</span>
+            <span className="chalk" style={{ minWidth: 0, overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", fontSize: 13, fontWeight: 700 }}>{row.name}</span>
+            <span className="tele" style={{ fontSize: 12, fontWeight: 800 }}>{row.goals} {row.goals === 1 ? "goal" : "goals"}</span>
+          </div>
+        )) : (
+          <p className="tele dim" style={{ fontSize: 12, margin: 0 }}>No goals scored by Your XI.</p>
+        )}
+      </div>
+
       <button className="btn" style={{ width: "100%", padding: 13, fontSize: 14, marginTop: 12, display: "flex", justifyContent: "center", alignItems: "center", gap: 8 }} onClick={doShareCampaign}>
         <Share2 size={15} /> {shareMsg || "Share result"}
       </button>
