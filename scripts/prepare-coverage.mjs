@@ -34,6 +34,15 @@ const normaliseText = (v) => String(v ?? "").trim();
 const stripAccents = (v) => normaliseText(v).normalize("NFD").replace(/[\u0300-\u036f]/g, "");
 const normaliseName = (v) => stripAccents(v).toLowerCase().replace(/[.’'`-]/g, " ").replace(/\s+/g, " ").trim();
 const normaliseClub = normaliseName;
+const normaliseNationality = (v) => {
+  const k = normaliseName(v);
+  const aliases = new Map([
+    ["czech republic", "czechia"], ["republic of ireland", "ireland"],
+    ["turkiye", "turkey"], ["bosnia herzegovina", "bosnia and herzegovina"],
+    ["cabo verde", "cape verde"]
+  ]);
+  return aliases.get(k) || k;
+};
 const startYear = (season) => parseInt(String(season || "").slice(0, 4), 10);
 const shardForSeason = (season) => `clubs-${Math.floor(startYear(season) / 10) * 10}s.json`;
 const seasonToken = (season) => String(season).replace(/[^0-9]/g, "").slice(-4);
@@ -140,7 +149,7 @@ function enrichPlayer(raw, identityIndex, flags, clubName) {
   const p = structuredClone(raw);
   p.n = normaliseText(p.n || p.name);
   const matches = identityIndex.get(normaliseName(p.n)) || [];
-  const natConsensus = consensus(matches.map((x) => x.nat), (v) => normaliseText(v).toLowerCase());
+  const natConsensus = consensus(matches.map((x) => x.nat), normaliseNationality);
   const broadConsensus = consensus(matches.map((x) => x.p), (v) => String(v).toUpperCase());
   const dpConsensus = consensus(matches.map((x) => x.dp), (v) => JSON.stringify([...(v || [])].map(String).map((x) => x.toUpperCase()).sort()));
 
@@ -149,7 +158,7 @@ function enrichPlayer(raw, identityIndex, flags, clubName) {
 
   if (p.nat && natConsensus.value && !natConsensus.unanimous) {
     addFlag(flags, "A", "NATIONALITY_CONFLICT", `${p.n} has multiple nationalities in existing Roll XI records; source value is ${p.nat}.`, clubName, p.n, true);
-  } else if (p.nat && natConsensus.unanimous && normaliseText(p.nat).toLowerCase() !== normaliseText(natConsensus.value).toLowerCase()) {
+  } else if (p.nat && natConsensus.unanimous && normaliseNationality(p.nat) !== normaliseNationality(natConsensus.value)) {
     addFlag(flags, "A", "NATIONALITY_CONFLICT", `${p.n} nationality ${p.nat} conflicts with existing consensus ${natConsensus.value}.`, clubName, p.n, true);
   }
 

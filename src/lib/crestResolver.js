@@ -283,6 +283,21 @@ export const CREST_PAGE_OVERRIDES = {
   "universitatea craiova": "CS Universitatea Craiova",
   "zrinjski mostar": "HŠK Zrinjski Mostar",
 
+  // Conference League 2022-23 main-draw additions.
+  "apollon limassol": "Apollon Limassol FC",
+  "djurgardens if": "Djurgårdens IF Fotboll",
+  "dnipro-1": "SC Dnipro-1",
+  "fcsb": "FCSB",
+  "hapoel be'er sheva": "Hapoel Be'er Sheva F.C.",
+  "nice": "OGC Nice",
+  "pyunik": "FC Pyunik",
+  "rfs": "FK RFS",
+  "sivasspor": "Sivasspor",
+  "slavia prague": "SK Slavia Prague",
+  "slovacko": "1. FC Slovácko",
+  "vaduz": "FC Vaduz",
+  "zalgiris": "FK Žalgiris",
+
   // Conference League 2023-24 main-draw additions.
   "ballkani": "FC Ballkani",
   "bodo/glimt": "FK Bodø/Glimt",

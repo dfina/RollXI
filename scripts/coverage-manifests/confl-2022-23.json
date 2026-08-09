@@ -1,0 +1,423 @@
+{
+  "schema": "rollxi-coverage-collector-v1",
+  "status": "final",
+  "edition": {
+    "competition": "CONFL",
+    "season": "2022-23",
+    "expectedParticipants": 32
+  },
+  "provider": {
+    "name": "StatBunker",
+    "baseUrl": "https://statbunker.com",
+    "compId": 738,
+    "clubConcurrency": 4,
+    "identityConcurrency": 8,
+    "identityDatasetUrl": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/players.csv.gz"
+  },
+  "sources": {
+    "participants": "https://www.uefa.com/uefaconferenceleague/history/seasons/2023/clubs/",
+    "results": "https://www.uefa.com/uefaconferenceleague/history/seasons/2023/"
+  },
+  "reviewedExceptions": [],
+  "clubs": [
+    {
+      "club": "1. FC Köln",
+      "providerId": 92,
+      "country": "Germany",
+      "league": "GER",
+      "stage": "GROUP",
+      "kit": [
+        "#FFFFFF",
+        "#E4002B"
+      ],
+      "baselineRating": 78
+    },
+    {
+      "club": "Apollon Limassol",
+      "providerId": 963,
+      "country": "Cyprus",
+      "league": "CYP",
+      "stage": "GROUP",
+      "kit": [
+        "#0070C0",
+        "#FFFFFF"
+      ],
+      "baselineRating": 75
+    },
+    {
+      "club": "AZ Alkmaar",
+      "providerId": 321,
+      "country": "Netherlands",
+      "league": "NED",
+      "stage": "SF",
+      "kit": [
+        "#D71920",
+        "#FFFFFF"
+      ],
+      "baselineRating": 80
+    },
+    {
+      "club": "CFR Cluj",
+      "providerId": 1425,
+      "country": "Romania",
+      "league": "ROU",
+      "stage": "GROUP",
+      "kit": [
+        "#7A0019",
+        "#FFFFFF"
+      ],
+      "baselineRating": 77
+    },
+    {
+      "club": "Djurgårdens IF",
+      "providerId": 559,
+      "country": "Sweden",
+      "league": "SWE",
+      "stage": "R16",
+      "kit": [
+        "#6CA6CD",
+        "#1E3A8A"
+      ],
+      "baselineRating": 77
+    },
+    {
+      "club": "Dnipro-1",
+      "providerId": 971,
+      "country": "Ukraine",
+      "league": "UKR",
+      "stage": "GROUP",
+      "kit": [
+        "#0057B8",
+        "#FFD700"
+      ],
+      "baselineRating": 77
+    },
+    {
+      "club": "Basel",
+      "providerId": 245,
+      "country": "Switzerland",
+      "league": "SUI",
+      "stage": "SF",
+      "kit": [
+        "#E30613",
+        "#003DA5"
+      ],
+      "baselineRating": 80
+    },
+    {
+      "club": "Slovácko",
+      "providerId": 399,
+      "country": "Czechia",
+      "league": "CZE",
+      "stage": "GROUP",
+      "kit": [
+        "#FFFFFF",
+        "#0057B8"
+      ],
+      "baselineRating": 75
+    },
+    {
+      "club": "Vaduz",
+      "providerId": 1094,
+      "country": "Liechtenstein",
+      "league": "LIE",
+      "stage": "GROUP",
+      "kit": [
+        "#D71920",
+        "#FFFFFF"
+      ],
+      "baselineRating": 74
+    },
+    {
+      "club": "Fiorentina",
+      "providerId": 173,
+      "country": "Italy",
+      "league": "ITA",
+      "stage": "RU",
+      "kit": [
+        "#4B0082",
+        "#FFFFFF"
+      ],
+      "baselineRating": 81,
+      "reviewedExceptions": [
+        "EXISTING_ROSTER_REPLACEMENT"
+      ]
+    },
+    {
+      "club": "Austria Wien",
+      "providerId": 361,
+      "country": "Austria",
+      "league": "AUT",
+      "stage": "GROUP",
+      "kit": [
+        "#5C2D91",
+        "#FFFFFF"
+      ],
+      "baselineRating": 76
+    },
+    {
+      "club": "RFS",
+      "providerId": 1998,
+      "country": "Latvia",
+      "league": "LVA",
+      "stage": "GROUP",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "baselineRating": 74
+    },
+    {
+      "club": "Žalgiris",
+      "providerId": 1723,
+      "country": "Lithuania",
+      "league": "LTU",
+      "stage": "GROUP",
+      "kit": [
+        "#007A33",
+        "#FFFFFF"
+      ],
+      "baselineRating": 74
+    },
+    {
+      "club": "Hapoel Be'er Sheva",
+      "providerId": 1883,
+      "country": "Israel",
+      "league": "ISR",
+      "stage": "GROUP",
+      "kit": [
+        "#D71920",
+        "#FFFFFF"
+      ],
+      "baselineRating": 76
+    },
+    {
+      "club": "Hearts",
+      "providerId": 40,
+      "country": "Scotland",
+      "league": "SCO",
+      "stage": "GROUP",
+      "kit": [
+        "#7A263A",
+        "#FFFFFF"
+      ],
+      "baselineRating": 76
+    },
+    {
+      "club": "İstanbul Başakşehir",
+      "providerId": 1928,
+      "country": "Türkiye",
+      "league": "TUR",
+      "stage": "R16",
+      "kit": [
+        "#F58220",
+        "#0057B8"
+      ],
+      "baselineRating": 79
+    },
+    {
+      "club": "Gent",
+      "providerId": 247,
+      "country": "Belgium",
+      "league": "BEL",
+      "stage": "QF",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "baselineRating": 79
+    },
+    {
+      "club": "Ballkani",
+      "providerId": 2000,
+      "country": "Kosovo",
+      "league": "KOS",
+      "stage": "GROUP",
+      "kit": [
+        "#F58220",
+        "#000000"
+      ],
+      "baselineRating": 74
+    },
+    {
+      "club": "Lech Poznań",
+      "providerId": 1207,
+      "country": "Poland",
+      "league": "POL",
+      "stage": "QF",
+      "kit": [
+        "#0057A8",
+        "#FFFFFF"
+      ],
+      "baselineRating": 79
+    },
+    {
+      "club": "Molde",
+      "providerId": 531,
+      "country": "Norway",
+      "league": "NOR",
+      "stage": "GROUP",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "baselineRating": 77
+    },
+    {
+      "club": "Nice",
+      "providerId": 1092,
+      "country": "France",
+      "league": "FRA",
+      "stage": "QF",
+      "kit": [
+        "#D71920",
+        "#000000"
+      ],
+      "baselineRating": 81
+    },
+    {
+      "club": "Partizan Belgrade",
+      "providerId": 811,
+      "country": "Serbia",
+      "league": "SRB",
+      "stage": "GROUP",
+      "kit": [
+        "#000000",
+        "#FFFFFF"
+      ],
+      "baselineRating": 77
+    },
+    {
+      "club": "Pyunik",
+      "providerId": 1639,
+      "country": "Armenia",
+      "league": "ARM",
+      "stage": "GROUP",
+      "kit": [
+        "#D71920",
+        "#0057B8"
+      ],
+      "baselineRating": 74
+    },
+    {
+      "club": "Anderlecht",
+      "providerId": 127,
+      "country": "Belgium",
+      "league": "BEL",
+      "stage": "QF",
+      "kit": [
+        "#5C2D91",
+        "#FFFFFF"
+      ],
+      "baselineRating": 79
+    },
+    {
+      "club": "Shamrock Rovers",
+      "providerId": 1642,
+      "country": "Ireland",
+      "league": "IRL",
+      "stage": "GROUP",
+      "kit": [
+        "#138A49",
+        "#FFFFFF"
+      ],
+      "baselineRating": 75
+    },
+    {
+      "club": "Silkeborg",
+      "providerId": 570,
+      "country": "Denmark",
+      "league": "DEN",
+      "stage": "GROUP",
+      "kit": [
+        "#CC0000",
+        "#FFFFFF"
+      ],
+      "baselineRating": 76
+    },
+    {
+      "club": "Sivasspor",
+      "providerId": 1323,
+      "country": "Türkiye",
+      "league": "TUR",
+      "stage": "R16",
+      "kit": [
+        "#D71920",
+        "#FFFFFF"
+      ],
+      "baselineRating": 78
+    },
+    {
+      "club": "Slavia Prague",
+      "providerId": 157,
+      "country": "Czechia",
+      "league": "CZE",
+      "stage": "GROUP",
+      "kit": [
+        "#D71920",
+        "#FFFFFF"
+      ],
+      "baselineRating": 78
+    },
+    {
+      "club": "Slovan Bratislava",
+      "providerId": 884,
+      "country": "Slovakia",
+      "league": "SVK",
+      "stage": "R16",
+      "kit": [
+        "#6CC4E8",
+        "#FFFFFF"
+      ],
+      "baselineRating": 78
+    },
+    {
+      "club": "FCSB",
+      "providerId": 652,
+      "country": "Romania",
+      "league": "ROU",
+      "stage": "GROUP",
+      "kit": [
+        "#D71920",
+        "#0057B8"
+      ],
+      "baselineRating": 76
+    },
+    {
+      "club": "Villarreal",
+      "providerId": 152,
+      "country": "Spain",
+      "league": "ESP",
+      "stage": "R16",
+      "kit": [
+        "#FFE667",
+        "#005187"
+      ],
+      "baselineRating": 82
+    },
+    {
+      "club": "West Ham United",
+      "providerId": 21,
+      "country": "England",
+      "league": "ENG",
+      "stage": "W",
+      "kit": [
+        "#7A263A",
+        "#1BB1E7"
+      ],
+      "baselineRating": 82,
+      "reviewedExceptions": [
+        "NATIONALITY_CONFLICT"
+      ],
+      "playerOverrides": {
+        "Emerson": {
+          "nat": "Italy",
+          "p": "DF",
+          "dp": [
+            "LB"
+          ]
+        }
+      }
+    }
+  ]
+}
