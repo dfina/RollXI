@@ -4,7 +4,7 @@
 
   Fetches one season's competition appearance tables plus club squad pages,
   filters to an authoritative manifest of main-draw clubs, resolves broad
-  positions, reuses existing Roll XI identities/ratings, fetches nationality
+  positions, reuses existing Roll XI identities/relative rating signals, fetches nationality
   only for still-unresolved selected players, and writes a coverage matrix for
   prepare-coverage.mjs.
 
@@ -203,11 +203,15 @@ async function loadDatabase() {
 
 function identityIndex(rows) {
   const index = new Map();
-  for (const row of rows) for (const p of row.players || []) {
-    const k = normaliseName(p.n);
-    if (!k) continue;
-    if (!index.has(k)) index.set(k, []);
-    index.get(k).push({ ...p, club: row.club, season: row.season });
+  for (const row of rows) {
+    const ratings = (row.players || []).map((p) => Number(p.r)).filter(Number.isFinite);
+    const clubMean = ratings.length ? ratings.reduce((a, b) => a + b, 0) / ratings.length : null;
+    for (const p of row.players || []) {
+      const k = normaliseName(p.n);
+      if (!k) continue;
+      if (!index.has(k)) index.set(k, []);
+      index.get(k).push({ ...p, club: row.club, season: row.season, clubMean });
+    }
   }
   return index;
 }
@@ -225,22 +229,24 @@ function consensus(values, key = (v) => JSON.stringify(v)) {
   return sorted.length === 1 ? sorted[0].v : null;
 }
 
-function nearestRating(matches, season, player = {}) {
+function nearestRelativeSignal(matches, season, player = {}) {
   const year = startYear(season);
   const nat = normaliseNationality(player.nat);
   const pos = text(player.p).toUpperCase();
   const compatible = matches.filter((m) => {
-    if (!Number.isFinite(Number(m.r))) return false;
+    if (!Number.isFinite(Number(m.r)) || !Number.isFinite(Number(m.clubMean))) return false;
     if (nat && m.nat && normaliseNationality(m.nat) !== nat) return false;
     if (pos && m.p && text(m.p).toUpperCase() !== pos) return false;
     return true;
   });
   compatible.sort((a, b) => Math.abs(startYear(a.season) - year) - Math.abs(startYear(b.season) - year));
-  if (!compatible.length) return null;
+  if (!compatible.length) return 0;
   const nearest = compatible[0];
-  // Ratings age faster than identity metadata. Very old name matches are a
-  // weak gameplay anchor, so fall back to the club/edition baseline instead.
-  return Math.abs(startYear(nearest.season) - year) <= 2 ? Number(nearest.r) : null;
+  if (Math.abs(startYear(nearest.season) - year) > 2) return 0;
+  // Reuse only the player's RELATIVE standing inside a nearby squad. Absolute
+  // legacy ratings are deliberately not inherited because the old scale was
+  // compressed upwards, especially for weaker clubs.
+  return Math.max(-4, Math.min(4, Number(nearest.r) - Number(nearest.clubMean)));
 }
 
 function nearestClubRow(rows, club, season) {
@@ -257,12 +263,13 @@ function median(values) {
   return a.length % 2 ? a[i] : (a[i - 1] + a[i]) / 2;
 }
 
-function draftRating(player, rank, matches, clubBase, manifestBase) {
-  const reused = nearestRating(matches, player._season, player);
-  if (reused != null) return reused;
-  const base = Number.isFinite(clubBase) ? clubBase : Number(manifestBase || 76);
-  const delta = rank < 4 ? 2 : rank < 8 ? 1 : rank < 12 ? 0 : -1;
-  return Math.max(62, Math.min(97, Math.round(base + delta)));
+const RANK_OFFSETS_16 = [5, 4, 3, 2, 2, 1, 1, 0, 0, -1, -1, -2, -2, -3, -4, -5];
+
+function draftRating(player, rank, matches, teamRating) {
+  const base = Number.isFinite(Number(teamRating)) ? Number(teamRating) : 72;
+  const rankOffset = RANK_OFFSETS_16[Math.min(rank, RANK_OFFSETS_16.length - 1)] ?? -5;
+  const relativeSignal = nearestRelativeSignal(matches, player._season, player);
+  return Math.max(62, Math.min(97, Math.round(base + rankOffset + 0.75 * relativeSignal)));
 }
 
 function safeFile(v) {
@@ -389,13 +396,11 @@ async function collectClub(spec, manifest, rows, ids, externalIds, refresh) {
     p.nat = parsePlayerNationality(html) || p.nat;
   });
 
-  const near = nearestClubRow(rows, spec.club, manifest.edition.season);
-  const clubMedian = median((near?.players || []).map((p) => p.r));
   for (let i = 0; i < appearances.length; i++) {
     const p = appearances[i];
     const matches = ids.get(normaliseName(p.n)) || [];
     const ov = overrides[p.n] || {};
-    p.r = ov.r ?? draftRating(p, i, matches, clubMedian, spec.baselineRating);
+    p.r = ov.r ?? draftRating(p, i, matches, spec.teamRating);
   }
 
   return {
@@ -444,6 +449,10 @@ async function selfTest() {
   assert.equal(ext.get(normaliseName("Alpha One"))[0].p, "FW");
   assert.deepEqual(ext.get(normaliseName("Alpha One"))[0].dp, ["RW"]);
   assert.equal(ext.get(normaliseName("Keeper Two"))[0].p, "GK");
+  const weakRatings = Array.from({ length: 16 }, (_, i) => draftRating({ _season: "2022-23", p: "MF", nat: "Test" }, i, [], 68));
+  assert.equal(Math.min(...weakRatings) < 70, true);
+  assert.equal(Math.max(...weakRatings) - Math.min(...weakRatings) >= 10, true);
+  assert.equal(Math.round(weakRatings.reduce((a, b) => a + b, 0) / weakRatings.length), 68);
   console.log("Coverage collector self-test passed.");
 }
 

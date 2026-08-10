@@ -314,7 +314,12 @@ function prepareClub(clubInput, edition, db, identityIndex, globalFlags, status)
   const ratings = selected.map((p) => Number(p.r)).filter(Number.isFinite);
   if (ratings.length === 16) {
     const mean = ratings.reduce((a, b) => a + b, 0) / ratings.length;
-    if (mean < 74 || mean > 83) addFlag(clubFlags, "B", "RATING_MEAN_OUTLIER", `${club} candidate rating mean is ${mean.toFixed(2)}, outside the usual 74-83 release review band.`, club);
+    const min = Math.min(...ratings), max = Math.max(...ratings);
+    const variance = ratings.reduce((sum, r) => sum + (r - mean) ** 2, 0) / ratings.length;
+    const sd = Math.sqrt(variance);
+    if (max - min < 6 || sd < 2) addFlag(clubFlags, "B", "RATING_SPREAD_TOO_FLAT", `${club} candidate ratings are too compressed (mean ${mean.toFixed(2)}, range ${min}-${max}, SD ${sd.toFixed(2)}).`, club);
+    if (mean < 75 && min >= 70) addFlag(clubFlags, "B", "RATING_LOWER_TAIL_MISSING", `${club} is a below-75 squad but has no player below 70; review the absolute scale.`, club);
+    if (Number.isFinite(Number(clubInput.teamRating)) && Math.abs(mean - Number(clubInput.teamRating)) > 2) addFlag(clubFlags, "B", "RATING_TEAM_TARGET_DRIFT", `${club} candidate mean ${mean.toFixed(2)} is more than 2 points from team target ${Number(clubInput.teamRating)}.`, club);
   }
 
   for (const flag of clubFlags) {
@@ -400,13 +405,10 @@ function editionReleaseChecks(matrix, clubs, db, flags) {
 
 function editionRatingChecks(clubs, flags) {
   const ratings = clubs.flatMap((c) => c.row.players.map((p) => Number(p.r)).filter(Number.isFinite));
-  if (!ratings.length) return { count: 0, mean: null, min: null, max: null };
+  if (!ratings.length) return { count: 0, mean: null, min: null, max: null, sd: null, below70: 0 };
   const mean = ratings.reduce((a, b) => a + b, 0) / ratings.length;
-  const stats = { count: ratings.length, mean, min: Math.min(...ratings), max: Math.max(...ratings) };
-  if (ratings.length === clubs.length * 16 && (mean < 74 || mean > 83)) {
-    addFlag(flags, "B", "EDITION_RATING_MEAN_OUTLIER", `Edition candidate rating mean is ${mean.toFixed(2)}, outside the usual 74-83 release review band.`);
-  }
-  return stats;
+  const variance = ratings.reduce((sum, r) => sum + (r - mean) ** 2, 0) / ratings.length;
+  return { count: ratings.length, mean, min: Math.min(...ratings), max: Math.max(...ratings), sd: Math.sqrt(variance), below70: ratings.filter((r) => r < 70).length };
 }
 
 function coverageDelta(matrix, clubs, db) {
@@ -439,7 +441,7 @@ function markdownReport(result) {
   lines.push(`Current pickable rosters: ${summary.coverage.currentRosters}`);
   lines.push(`Projected pickable rosters after apply: ${summary.coverage.afterRosters}/${summary.coverage.expectedParticipants}`);
   lines.push(`New rows: ${summary.coverage.newRows}; stub upgrades: ${summary.coverage.stubUpgrades}; roster replacements: ${summary.coverage.rosterReplacements}`);
-  if (summary.rating.count) lines.push(`Candidate ratings: mean ${summary.rating.mean.toFixed(2)}, range ${summary.rating.min}-${summary.rating.max} (${summary.rating.count} players)`);
+  if (summary.rating.count) lines.push(`Candidate ratings: mean ${summary.rating.mean.toFixed(2)}, range ${summary.rating.min}-${summary.rating.max}, SD ${summary.rating.sd.toFixed(2)}, below 70: ${summary.rating.below70} (${summary.rating.count} players)`);
   lines.push("");
   lines.push(`Blocking flags: ${summary.blockers}; unreviewed Priority A: ${summary.unreviewedPriorityA}; reviewed Priority A: ${summary.reviewedPriorityA}; Priority B: ${summary.priorityB}`, "");
 

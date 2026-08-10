@@ -852,3 +852,15 @@ no selected roster lacks a goalkeeper;
 `npm run coverage:next` advances the measured Conference League gap to 2021-22;
 `npm run build` cannot run in this sandbox because the uploaded repository has no installed Vite binary (`vite: not found`). This is an environment/dependency state, not a source-validation failure.
 
+
+
+Roll XI — rating-model correction before Conference League 2021-22
+Date: 2026-08-09
+
+The previous expansion policy forced pack/cycle ratings towards a mean near 78 and the bulk collector used only a +2/+1/0/-1 participation-rank spread around a high club baseline. This produced systematic upward compression, especially for smaller Conference League clubs. Across the 2020s shard before this correction there were no player ratings below 70, and the 2022-23 Conference League edition averaged 77.66 with only one player at 71.
+
+Rating model v2 removes the edition-wide mean target. Club targets are now absolute strength judgements, not values chosen to keep a batch near 78. The 2022-23 manifest is migrated from legacy baselines to explicit `teamRating` targets ranging from 68 to 82. The collector uses a 10-point participation-depth spread across the selected 16 and may reuse only a nearby player's relative standing within his prior Roll XI squad, not the old absolute rating itself. This prevents the compressed legacy scale from propagating into new seasons.
+
+The release gate now flags 16-player squads whose rating range is under 6 or whose standard deviation is under 2. It also flags a below-75 squad with no player below 70 and flags a candidate mean more than two points from an explicit team target. There is no longer a 74-83 club or edition mean band.
+
+The already-built 2022-23 Conference League rosters were recalibrated with the same v2 principles using the captured competition-appearance ordering and the old ratings only as within-squad relative signals. The revised edition mean is 73.87, the range is 62-88, edition standard deviation is 5.31 and 115 of 512 player slots are below 70. This is a deliberate gameplay-scale revision; roster identities, positions, participation cuts, stages and achievements are unchanged.

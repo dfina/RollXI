@@ -12,7 +12,8 @@
     "compId": 738,
     "clubConcurrency": 4,
     "identityConcurrency": 8,
-    "identityDatasetUrl": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/players.csv.gz"
+    "identityDatasetUrl": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/players.csv.gz",
+    "ratingModel": "absolute-v2"
   },
   "sources": {
     "participants": "https://www.uefa.com/uefaconferenceleague/history/seasons/2023/clubs/",
@@ -30,7 +31,7 @@
         "#FFFFFF",
         "#E4002B"
       ],
-      "baselineRating": 78
+      "teamRating": 75
     },
     {
       "club": "Apollon Limassol",
@@ -42,7 +43,7 @@
         "#0070C0",
         "#FFFFFF"
       ],
-      "baselineRating": 75
+      "teamRating": 70
     },
     {
       "club": "AZ Alkmaar",
@@ -54,7 +55,7 @@
         "#D71920",
         "#FFFFFF"
       ],
-      "baselineRating": 80
+      "teamRating": 78
     },
     {
       "club": "CFR Cluj",
@@ -66,7 +67,7 @@
         "#7A0019",
         "#FFFFFF"
       ],
-      "baselineRating": 77
+      "teamRating": 73
     },
     {
       "club": "Djurgårdens IF",
@@ -78,7 +79,7 @@
         "#6CA6CD",
         "#1E3A8A"
       ],
-      "baselineRating": 77
+      "teamRating": 73
     },
     {
       "club": "Dnipro-1",
@@ -90,7 +91,7 @@
         "#0057B8",
         "#FFD700"
       ],
-      "baselineRating": 77
+      "teamRating": 73
     },
     {
       "club": "Basel",
@@ -102,7 +103,7 @@
         "#E30613",
         "#003DA5"
       ],
-      "baselineRating": 80
+      "teamRating": 78
     },
     {
       "club": "Slovácko",
@@ -114,7 +115,7 @@
         "#FFFFFF",
         "#0057B8"
       ],
-      "baselineRating": 75
+      "teamRating": 70
     },
     {
       "club": "Vaduz",
@@ -126,7 +127,7 @@
         "#D71920",
         "#FFFFFF"
       ],
-      "baselineRating": 74
+      "teamRating": 68
     },
     {
       "club": "Fiorentina",
@@ -138,10 +139,10 @@
         "#4B0082",
         "#FFFFFF"
       ],
-      "baselineRating": 81,
       "reviewedExceptions": [
         "EXISTING_ROSTER_REPLACEMENT"
-      ]
+      ],
+      "teamRating": 80
     },
     {
       "club": "Austria Wien",
@@ -153,7 +154,7 @@
         "#5C2D91",
         "#FFFFFF"
       ],
-      "baselineRating": 76
+      "teamRating": 72
     },
     {
       "club": "RFS",
@@ -165,7 +166,7 @@
         "#0057B8",
         "#FFFFFF"
       ],
-      "baselineRating": 74
+      "teamRating": 68
     },
     {
       "club": "Žalgiris",
@@ -177,7 +178,7 @@
         "#007A33",
         "#FFFFFF"
       ],
-      "baselineRating": 74
+      "teamRating": 68
     },
     {
       "club": "Hapoel Be'er Sheva",
@@ -189,7 +190,7 @@
         "#D71920",
         "#FFFFFF"
       ],
-      "baselineRating": 76
+      "teamRating": 72
     },
     {
       "club": "Hearts",
@@ -201,7 +202,7 @@
         "#7A263A",
         "#FFFFFF"
       ],
-      "baselineRating": 76
+      "teamRating": 72
     },
     {
       "club": "İstanbul Başakşehir",
@@ -213,7 +214,7 @@
         "#F58220",
         "#0057B8"
       ],
-      "baselineRating": 79
+      "teamRating": 77
     },
     {
       "club": "Gent",
@@ -225,7 +226,7 @@
         "#0057B8",
         "#FFFFFF"
       ],
-      "baselineRating": 79
+      "teamRating": 77
     },
     {
       "club": "Ballkani",
@@ -237,7 +238,7 @@
         "#F58220",
         "#000000"
       ],
-      "baselineRating": 74
+      "teamRating": 68
     },
     {
       "club": "Lech Poznań",
@@ -249,7 +250,7 @@
         "#0057A8",
         "#FFFFFF"
       ],
-      "baselineRating": 79
+      "teamRating": 77
     },
     {
       "club": "Molde",
@@ -261,7 +262,7 @@
         "#0057B8",
         "#FFFFFF"
       ],
-      "baselineRating": 77
+      "teamRating": 73
     },
     {
       "club": "Nice",
@@ -273,7 +274,7 @@
         "#D71920",
         "#000000"
       ],
-      "baselineRating": 81
+      "teamRating": 80
     },
     {
       "club": "Partizan Belgrade",
@@ -285,7 +286,7 @@
         "#000000",
         "#FFFFFF"
       ],
-      "baselineRating": 77
+      "teamRating": 73
     },
     {
       "club": "Pyunik",
@@ -297,7 +298,7 @@
         "#D71920",
         "#0057B8"
       ],
-      "baselineRating": 74
+      "teamRating": 68
     },
     {
       "club": "Anderlecht",
@@ -309,7 +310,7 @@
         "#5C2D91",
         "#FFFFFF"
       ],
-      "baselineRating": 79
+      "teamRating": 77
     },
     {
       "club": "Shamrock Rovers",
@@ -321,7 +322,7 @@
         "#138A49",
         "#FFFFFF"
       ],
-      "baselineRating": 75
+      "teamRating": 70
     },
     {
       "club": "Silkeborg",
@@ -333,7 +334,7 @@
         "#CC0000",
         "#FFFFFF"
       ],
-      "baselineRating": 76
+      "teamRating": 72
     },
     {
       "club": "Sivasspor",
@@ -345,7 +346,7 @@
         "#D71920",
         "#FFFFFF"
       ],
-      "baselineRating": 78
+      "teamRating": 75
     },
     {
       "club": "Slavia Prague",
@@ -357,7 +358,7 @@
         "#D71920",
         "#FFFFFF"
       ],
-      "baselineRating": 78
+      "teamRating": 75
     },
     {
       "club": "Slovan Bratislava",
@@ -369,7 +370,7 @@
         "#6CC4E8",
         "#FFFFFF"
       ],
-      "baselineRating": 78
+      "teamRating": 75
     },
     {
       "club": "FCSB",
@@ -381,7 +382,7 @@
         "#D71920",
         "#0057B8"
       ],
-      "baselineRating": 76
+      "teamRating": 72
     },
     {
       "club": "Villarreal",
@@ -393,7 +394,7 @@
         "#FFE667",
         "#005187"
       ],
-      "baselineRating": 82
+      "teamRating": 82
     },
     {
       "club": "West Ham United",
@@ -405,7 +406,6 @@
         "#7A263A",
         "#1BB1E7"
       ],
-      "baselineRating": 82,
       "reviewedExceptions": [
         "NATIONALITY_CONFLICT"
       ],
@@ -417,7 +417,8 @@
             "LB"
           ]
         }
-      }
+      },
+      "teamRating": 82
     }
   ]
 }

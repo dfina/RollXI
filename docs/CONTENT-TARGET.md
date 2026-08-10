@@ -169,8 +169,12 @@ The release house standard is **16 players** where source coverage supports it,
 with at least one goalkeeper. The validator keeps an 11-player hard minimum for
 historical compatibility but rebuilt/new release content should target 16.
 
-Ratings remain within 62-97 and should average near 78 at pack/cycle level.
-Ratings are gameplay calibration, not claims of an external numerical rating.
+Ratings remain within 62-97, but there is no pack/cycle target mean. Ratings are
+absolute gameplay calibration: weak/minnow squads may legitimately average in the
+high 60s or low 70s, while elite squads may average above 80. A normal 16-player
+roster should show meaningful internal separation; as a release heuristic, a range
+under 6 points or standard deviation under 2 triggers review. Ratings are gameplay
+calibration, not claims of an external numerical rating.
 
 Detailed positions should be as historically faithful as evidence supports.
 Do not broaden a player's stored `dp` merely to make a formation work. Gameplay
