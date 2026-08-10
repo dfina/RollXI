@@ -880,3 +880,72 @@ The repository validator now blocks any playable 12+ player roster with a rating
 Penalty shootout names
 Campaign penalty shootouts now use the full historical roster as the penalty-taker pool whenever the opponent is also a playable squad. The same role/rating ordering used for Your XI is applied to that opponent roster. Stub-only opponents retain the generic Scored/Missed fallback because inventing player names would be less accurate. The scorer integration test now forces a knockout shootout and verifies that every opponent kick is attributed to a name present in the playable roster.
 
+
+Roll XI — Conference League 2021-22 coverage audit
+Date: 2026-08-10
+
+Scope and competition authority
+This cycle completes the inaugural 2021-22 UEFA Europa Conference League group-stage field. UEFA's official 27 August 2021 group-stage draw is the participant authority and lists the eight groups of four (32 clubs). UEFA's official 2021-22 results/history pages are the stage authority; Roma are encoded W and Feyenoord RU. The Roll XI stage convention remains unchanged: original group-stage clubs eliminated in the February knockout play-off remain GROUP because the current stage schema has no separate play-off code; clubs reaching the round of 16 or later are encoded R16/QF/SF/RU/W.
+UEFA participant source: https://www.uefa.com/uefaconferenceleague/news/026c-131957a86ed7-df0ece5d5736-1000--europa-conference-league-group-stage-draw/
+UEFA results source: https://www.uefa.com/uefaconferenceleague/news/026c-131b2b24e6bd-68b0c5aba0dc-1000--all-the-2021-22-europa-conference-league-results/
+
+Roster acquisition and exception-driven finalisation
+The expansion uses the bulk-first workflow introduced for 2022-23, with archived ESPN competition squad/statistics tables as the compact player-participation/position/nationality feed and UEFA squad/match records for historical exceptions. Existing Roll XI identities are reused only as cross-checks, not as the authority when a same-name or historical-nationality conflict exists. This avoids the previous one-club-at-a-time model research loop.
+The main historical-archive correction was Bodø/Glimt. Later archive maintenance drops several players who left after the group stage. UEFA records Patrick Berg, Fredrik Bjørkan, Erik Botheim and Marius Lode among outgoing winter squad changes, so their autumn participation is retained. Fredrik Bjørkan is included in the 16-player cut; Victor Boniface, whose retained archive appearances were substitute-heavy, falls outside the final cut.
+
+Priority A review
+Five Priority A items were explicitly reviewed and no unreviewed Priority A item remains. AS Roma's pre-existing 14-player roster is deliberately replaced by the competition-participation cut. Four nationality conflicts are retained from current-season/historical evidence rather than overwritten by later or same-name Roll XI identities: Ricardo Gomes = Cape Verde (Partizan), Cyriel Dessers = Nigeria (Feyenoord), Kevin Diks = Netherlands for 2021-22 (Copenhagen), and Bernardo Lopes = Portugal for the autumn 2021 Conference League campaign (Lincoln Red Imps; his Gibraltar international debut came in March 2022). Aleksandar Cavric is stored as Serbia for 2021-22; the matrix no longer treats his later Slovak nationality as retrospective.
+
+Priority B audit signals
+The final preparation report retains 53 non-blocking Priority B audit signals: 21 detailed-position differences, 19 cross-season rating-identity outliers and 13 broad-position differences. These are intentionally preserved rather than auto-normalised where current-season evidence or the new absolute rating scale differs from another Roll XI season. They do not create missing fields, duplicate identities or release blockers.
+
+Rating release state
+The edition contains 512 player slots. Candidate ratings average 73.82, span 62-87, have an edition standard deviation of 5.02, and include 104 players below 70. All 32 rosters satisfy the global absolute-v3 range, dispersion, distinct-value, anti-clustering and lower-tail rules. The ratings are Roll XI gameplay calibration rather than third-party rating claims.
+
+Source-evidence/stage matrix
+Club	Deepest Roll XI stage	Finalisation note
+LASK	R16	16-player competition-participation roster
+Maccabi Tel Aviv	GROUP	16-player competition-participation roster
+Alashkert	GROUP	16-player competition-participation roster
+HJK Helsinki	GROUP	16-player competition-participation roster
+Gent	R16	16-player competition-participation roster
+Partizan Belgrade	R16	16-player competition-participation roster
+Flora Tallinn	GROUP	16-player competition-participation roster
+Anorthosis	GROUP	16-player competition-participation roster
+AS Roma	W	16-player competition-participation roster; existing roster replaced (reviewed)
+Zorya Luhansk	GROUP	16-player competition-participation roster
+CSKA Sofia	GROUP	16-player competition-participation roster
+Bodø/Glimt	QF	16-player competition-participation roster
+AZ Alkmaar	R16	16-player competition-participation roster
+CFR Cluj	GROUP	16-player competition-participation roster
+Jablonec	GROUP	16-player competition-participation roster
+Randers	GROUP	16-player competition-participation roster
+Slavia Prague	QF	16-player competition-participation roster
+Feyenoord	RU	16-player competition-participation roster; existing RU stub upgraded
+Union Berlin	GROUP	16-player competition-participation roster
+Maccabi Haifa	GROUP	16-player competition-participation roster
+Copenhagen	R16	16-player competition-participation roster
+PAOK	QF	16-player competition-participation roster
+Slovan Bratislava	GROUP	16-player competition-participation roster
+Lincoln Red Imps	GROUP	16-player competition-participation roster
+Tottenham Hotspur	GROUP	16-player competition-participation roster
+Rennes	R16	16-player competition-participation roster
+Vitesse	R16	16-player competition-participation roster
+Mura	GROUP	16-player competition-participation roster
+Basel	R16	16-player competition-participation roster
+Qarabag	GROUP	16-player competition-participation roster
+Kairat Almaty	GROUP	16-player competition-participation roster
+Omonia	GROUP	16-player competition-participation roster
+
+Crest and naming finalisation
+Explicit Wikipedia page-title mappings were added for Alashkert, Anorthosis, Flora Tallinn, Jablonec, Kairat Almaty, Maccabi Haifa, Mura, Qarabag, Randers, Union Berlin and Vitesse. The validator also records Rangers/Randers as a known distinct pair so their high string similarity does not produce a false same-club warning.
+
+Release gate
+Final repository state after applying the matrix:
+32/32 2021-22 group-stage participants have full 16-player rosters;
+30 new club-season rows are added, Feyenoord's runner-up stub is upgraded, and AS Roma's incomplete roster is replaced;
+no selected roster lacks a goalkeeper and no duplicate club-season row is introduced;
+`npm run validate` checks 1,238 club-seasons and reports 0 errors and 0 warnings; 933 playable rosters pass the absolute-v3 rating-distribution checks;
+`npm run coverage` reports Conference League at 168/168 known rosters (100%), with 5/5 editions proven complete and 0 roster rows missing;
+with the Conference League target complete, the next measured repository gap is Serie A 1999-00 (breadth target still to be established);
+`npm run build` cannot run in this sandbox because the uploaded repository has no installed Vite binary (`vite: not found`). This is an environment/dependency limitation rather than a source-validation failure.

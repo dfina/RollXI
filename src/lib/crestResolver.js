@@ -283,6 +283,19 @@ export const CREST_PAGE_OVERRIDES = {
   "universitatea craiova": "CS Universitatea Craiova",
   "zrinjski mostar": "HŠK Zrinjski Mostar",
 
+  // Conference League 2021-22 main-draw additions.
+  "alashkert": "FC Alashkert",
+  "anorthosis": "Anorthosis Famagusta FC",
+  "flora tallinn": "FC Flora",
+  "jablonec": "FK Jablonec",
+  "kairat almaty": "FC Kairat",
+  "maccabi haifa": "Maccabi Haifa F.C.",
+  "mura": "NŠ Mura",
+  "qarabag": "Qarabağ FK",
+  "randers": "Randers FC",
+  "union berlin": "1. FC Union Berlin",
+  "vitesse": "SBV Vitesse",
+
   // Conference League 2022-23 main-draw additions.
   "apollon limassol": "Apollon Limassol FC",
   "djurgardens if": "Djurgårdens IF Fotboll",
