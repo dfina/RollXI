@@ -1,6 +1,6 @@
 {
   "$comment": "Roll XI content target. This file is the SINGLE SOURCE OF TRUTH for what the finished dataset should contain. It declares scope as rules. scripts/coverage.mjs derives progress from the canonical decade shards and can prove depth/completeness only for editions where expectedRostersPerEdition is populated. Do not hand-edit progress into this file: progress is derived. Only edit this file to change the goal or to add researched expected counts.",
-  "version": "1.4",
+  "version": "1.5",
   "updated": "2026-08-10",
   "stageCodes": {
     "W": "Winner",
@@ -33,10 +33,15 @@
       "excludeReason": "Decided 2026-08-07: wartime and immediate post-war seasons are OUT OF SCOPE. Campionato Alta Italia 1944 and Divisione Nazionale 1945-46 were not a single national round-robin Serie A and are excluded permanently, not pending review.",
       "rule": "Every club that competed in the top division that season gets a full roster.",
       "priority": 2,
+      "sequentialExpansion": {
+        "anchorSeason": "1999-00",
+        "direction": "backward"
+      },
       "expectedRostersPerEdition": {
+        "1998-99": 18,
         "1999-00": 18
       },
-      "$expectedRostersNote": "1999-00 has a researched 18-club Serie A field. Other Serie A seasons remain unproven until their expected counts are populated."
+      "$expectedRostersNote": "1998-99 and 1999-00 each have a researched 18-club Serie A field. Other Serie A seasons remain unproven until their expected counts are populated."
     },
     {
       "id": "euro-ec-ucl",

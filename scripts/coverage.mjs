@@ -145,12 +145,38 @@ async function main() {
     const rostersBuiltKnown = known.reduce((n, e) => n + Math.min(e.rosters, e.expectedRosters), 0);
     const missingRostersKnown = known.reduce((n, e) => n + e.missingRosters, 0);
 
-    // Prefer a known-incomplete edition because it represents a provable gap.
-    // Work newest-to-oldest within a scope, matching the project's production
-    // order. If depth is unknown, fall back to the newest untouched edition.
+    // Prefer a measured depth gap. For domestic full-history production, advance
+    // the established completed frontier one season backwards. This prevents a
+    // partially covered season (often touched via European competition data)
+    // from being skipped, without jumping to unrelated modern seasons whose
+    // domestic depth has never been declared. Competition scopes without depth
+    // targets retain the breadth-only "newest untouched" fallback.
     const nextKnownIncomplete = incompleteKnown[incompleteKnown.length - 1] || null;
+    let nextDomesticFrontier = null;
+    const seq = scope.sequentialExpansion ?? null;
+    if (scope.kind === "domestic" && seq?.direction === "backward" && seq.anchorSeason) {
+      let i = editions.findIndex((e) => e.season === seq.anchorSeason);
+      if (i >= 0) {
+        // Walk backwards through the contiguous proven-complete run from the
+        // declared production anchor. The first unproven edition is the next
+        // domestic production target, even if it already contains one roster.
+        while (i >= 0 && editions[i].complete === true) i--;
+        if (i >= 0) nextDomesticFrontier = editions[i];
+      }
+    } else if (scope.kind === "domestic" && completeKnown.length) {
+      const oldestComplete = completeKnown[0];
+      const i = editions.findIndex((e) => e.season === oldestComplete.season);
+      if (i > 0 && editions[i - 1].complete !== true) nextDomesticFrontier = editions[i - 1];
+    }
     const nextUntouched = untouched[untouched.length - 1] || null;
-    const nextEdition = nextKnownIncomplete || nextUntouched;
+    const nextEdition = nextKnownIncomplete || nextDomesticFrontier || nextUntouched;
+    const nextReason = nextEdition
+      ? nextEdition.completenessKnown
+        ? "known-incomplete"
+        : nextEdition.touched
+          ? "touched-depth-unknown"
+          : "untouched"
+      : null;
 
     report.push({
       id: scope.id,
@@ -169,7 +195,7 @@ async function main() {
       rostersBuiltKnown,
       missingRostersKnown,
       nextSeason: nextEdition?.season || null,
-      nextReason: nextKnownIncomplete ? "known-incomplete" : nextUntouched ? "untouched" : null,
+      nextReason,
       editions
     });
   }
@@ -184,7 +210,12 @@ async function main() {
     if (!next) {
       console.log("No provable remaining gap. Any scope with unknown depth still needs expected roster counts before it can be declared complete.");
     } else {
-      const suffix = next.nextReason === "known-incomplete" ? " (known incomplete)" : " (untouched; depth target unknown)";
+      const suffix =
+        next.nextReason === "known-incomplete"
+          ? " (known incomplete)"
+          : next.nextReason === "touched-depth-unknown"
+            ? " (partially touched; depth target unknown)"
+            : " (untouched; depth target unknown)";
       console.log(`${next.label} — ${next.nextSeason}${suffix} — edit ${shardForSeason(next.nextSeason)}`);
     }
     return;
@@ -216,7 +247,12 @@ async function main() {
       console.log(`     "Touched" is not completion. Populate expectedRostersPerEdition before declaring them done.`);
     }
     if (r.nextSeason) {
-      const why = r.nextReason === "known-incomplete" ? "known incomplete" : "untouched; depth target unknown";
+      const why =
+        r.nextReason === "known-incomplete"
+          ? "known incomplete"
+          : r.nextReason === "touched-depth-unknown"
+            ? "partially touched; depth target unknown"
+            : "untouched; depth target unknown";
       console.log(`  next gap: ${r.nextSeason} (${why}); shard ${shardForSeason(r.nextSeason)}`);
     }
     console.log();
@@ -228,6 +264,8 @@ async function main() {
     console.log(`TARGET SHARD:             ${shardForSeason(next.nextSeason)}`);
     if (next.nextReason === "known-incomplete") {
       console.log("This is a measured depth gap, not merely an untouched season.");
+    } else if (next.nextReason === "touched-depth-unknown") {
+      console.log("This season already has partial content, but its domestic depth is unproven. Establish the expected roster count and complete it before moving further back.");
     } else {
       console.log("This is a breadth gap only; establish expected roster counts before calling the edition complete.");
     }
