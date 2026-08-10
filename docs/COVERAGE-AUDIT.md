@@ -949,3 +949,68 @@ no selected roster lacks a goalkeeper and no duplicate club-season row is introd
 `npm run coverage` reports Conference League at 168/168 known rosters (100%), with 5/5 editions proven complete and 0 roster rows missing;
 with the Conference League target complete, the next measured repository gap is Serie A 1999-00 (breadth target still to be established);
 `npm run build` cannot run in this sandbox because the uploaded repository has no installed Vite binary (`vite: not found`). This is an environment/dependency limitation rather than a source-validation failure.
+
+
+Roll XI — Serie A 1999-00 coverage expansion
+Date: 2026-08-10
+
+Scope and competition authority
+This cycle starts the next domestic-coverage phase after completion of the Conference League target. RSSSF's final 1999-2000 Serie A table is used as the competition-field authority: the season contains 18 clubs, from champions Lazio through Piacenza in 18th. The domestic coverage target now records `expectedRostersPerEdition["1999-00"] = 18`, so this edition can be measured as a proven 18/18 rather than merely marked as touched.
+Competition source: https://www.rsssf.org/tablesi/ital00.html
+Independent field/squad cross-check: https://www.footballsquads.co.uk/italy/1999-2000/seriea.htm
+
+Roster acquisition and source-evidence method
+The 18 squads were built with a bulk-first domestic workflow rather than copying 2000-01 rosters backwards. BDFutbol's season-specific Serie A team pages provide the principal appearance/minute ordering used to identify the 16-player cut. The FootballSquads 1999-2000 Serie A archive and targeted independent player/line-up sources are used to cross-check roster membership, broad/detailed position and nationality where a current Roll XI identity is absent or ambiguous.
+Representative BDFutbol sources:
+- Lazio: https://www.bdfutbol.com/en/t/t1999-003018.html
+- Juventus: https://www.bdfutbol.com/en/t/t1999-003004.html
+- Inter: https://www.bdfutbol.com/en/t/t1999-003008.html
+- Bari: https://www.bdfutbol.com/en/t/t1999-003001.html
+The same season/team-page method was applied to every club in the field.
+
+Selection rule
+Each club receives the 16-player house-standard roster. The cut is anchored to 1999-00 league usage rather than next-season presence, with a verified second goalkeeper retained where the season evidence supports one. Marginal selections and historical identity collisions are checked separately instead of being inferred from name similarity. This preserves season-specific transfers and short spells, including Peruzzi at Inter, Crespo at Parma, Batistuta at Fiorentina and Nakata's Perugia portion of the season.
+
+Priority A identity review
+The high-risk identity pass resolved the historical/same-name cases found during bulk production. No unresolved Priority A item remains. In particular:
+- Reggina's midfielder is Ezio Brevi, not Oscar Brevi;
+- Piacenza's Alessandro Mazzola is the 1969-born midfielder, not the former Inter forward of the same name;
+- Perugia's Hilário is Portuguese right-back Hilário Paulino Neves Freitas Leal, not goalkeeper Henrique Hilário;
+- Piacenza's defender is Gianluca Lamacchi and the backup goalkeeper is Michele Nicoletti;
+- Venezia's Runar Berg, Fabian Valtolina and Fabrizio Casazza were resolved against season-specific evidence;
+- Cagliari's Matteo Villa, Daniele Berretta, Nicola Diliso and Maurizio Franzone were resolved against season-specific evidence;
+- Bari's backup goalkeeper is Attilio Gregori;
+- Inter uses Fabrizio Ferron in the goalkeeper slot and AC Milan uses Daniele De Ascentis in midfield.
+
+Rating finalisation
+All 288 player slots use the repository-wide `absolute-v3` gameplay scale. Ratings are calibrated from team strength, 1999-00 role/usage, reviewed star/era anchors and nearby compatible Roll XI identity evidence; they are not third-party rating claims. The final team means deliberately span a broad range, from 80.50 for Lazio to 69.50 for Piacenza, instead of compressing the edition around the 70s. Every 16-player roster passes the v3 range, standard-deviation, distinct-value, anti-clustering and lower-tail rules. Teenage fringe-season cases such as Antonio Cassano and Alberto Gilardino are kept in the lower tail rather than receiving later-career ratings retrospectively.
+
+Source-evidence matrix
+Club	Primary season evidence	Independent cross-check	Priority A state
+Lazio	BDFutbol 1999-00 Serie A	FootballSquads / Roll XI adjacent identities	resolved
+Juventus	BDFutbol 1999-00 Serie A	FootballSquads / Roll XI adjacent identities	resolved
+AC Milan	BDFutbol 1999-00 Serie A	FootballSquads / Roll XI adjacent identities	resolved
+Inter	BDFutbol 1999-00 Serie A	FootballSquads / targeted identity checks	resolved
+Parma	BDFutbol 1999-00 Serie A	FootballSquads / Roll XI adjacent identities	resolved
+AS Roma	BDFutbol 1999-00 Serie A	FootballSquads / Roll XI adjacent identities	resolved
+Fiorentina	BDFutbol 1999-00 Serie A	FootballSquads / Roll XI adjacent identities	resolved
+Udinese	BDFutbol 1999-00 Serie A	FootballSquads / targeted identity checks	resolved
+Hellas Verona	BDFutbol 1999-00 Serie A	FootballSquads / targeted identity checks	resolved
+Perugia	BDFutbol 1999-00 Serie A	FootballSquads / targeted Hilário identity check	resolved
+Bologna	BDFutbol 1999-00 Serie A	FootballSquads / Roll XI adjacent identities	resolved
+Reggina	BDFutbol 1999-00 Serie A	FootballSquads / targeted Brevi identity check	resolved
+Lecce	BDFutbol 1999-00 Serie A	FootballSquads / targeted identity checks	resolved
+Bari	BDFutbol 1999-00 Serie A	FootballSquads / targeted Gregori check	resolved
+Torino	BDFutbol 1999-00 Serie A	FootballSquads / targeted identity checks	resolved
+Venezia	BDFutbol 1999-00 Serie A	FootballSquads / targeted identity checks	resolved
+Cagliari	BDFutbol 1999-00 Serie A	FootballSquads / targeted identity checks	resolved
+Piacenza	BDFutbol 1999-00 Serie A	FootballSquads / targeted Mazzola/Lamacchi/Nicoletti checks	resolved
+
+Release gate
+Final repository state after this expansion:
+- 18/18 researched 1999-00 Serie A participants have full 16-player rosters, adding 288 player slots to `clubs-1990s.json`;
+- no duplicate club-season row is introduced and every selected roster contains a goalkeeper;
+- `npm run validate` checks 1,256 club-seasons and reports no errors; 951 playable rosters pass the absolute-v3 rating-distribution checks;
+- `npm run coverage` reports Serie A 1999-00 at 18/18 known rosters, with 1/1 researched Serie A editions proven complete; the other 93 in-scope editions remain depth-unproven until expected counts are populated;
+- `npm run coverage:next` now identifies Serie A 1990-91 as the next breadth gap, targeting `clubs-1990s.json`;
+- `npm run build` cannot execute in the uploaded sandbox because Vite is not installed. A dependency restore was attempted with `npm ci`, but the sandbox npm mirror returned HTTP 404 for the locked `yallist@3.1.1` tarball; the subsequent build therefore still reports `vite: not found`. This is an environment/dependency-availability failure, not a data-validation failure.
