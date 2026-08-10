@@ -980,3 +980,39 @@ Piacenza's Alessandro Mazzola is explicitly a midfielder, preventing the legacy 
 `npm run validate` reports no errors across 1,271 club-season rows and confirms 968 playable rosters satisfy absolute-v3 distribution rules;
 `npm run coverage:next` advances the sequential Serie A frontier to 1997-98;
 `npm run build` cannot run in this sandbox because the uploaded repository has no installed Vite binary (`vite: not found`). This is an environment/dependency state, not a data-validation failure.
+
+
+Roll XI — Serie A 1997-98 sequential coverage expansion
+Date: 2026-08-10
+
+Scope and field authority
+This cycle advances the sequential Serie A frontier one season backwards from the proven-complete 1998-99 edition. The 1997-98 field contains 18 clubs: Juventus, Inter, Udinese, AS Roma, Fiorentina, Parma, Lazio, Bologna, Sampdoria, AC Milan, Bari, Empoli, Piacenza, Vicenza, Brescia, Atalanta, Lecce and Napoli. BDFutbol is the competition/table and season-participation authority; FootballSquads is retained as an independent whole-league squad-membership cross-check.
+BDFutbol classification: https://www.bdfutbol.com/en/t/tita1997-98.html?tab=stats
+FootballSquads: https://www.footballsquads.co.uk/italy/1997-1998/seriea.htm
+
+Roster selection and identity finalisation
+Each domestic roster contains exactly 16 players. The normal cut is the two goalkeepers with the most Serie A minutes plus the 14 outfielders with the most Serie A minutes on the linked BDFutbol 1997-98 club page. This keeps the expansion bulk-first and evidence-led rather than copying the following season. Bari illustrates the tie-sensitive goalkeeper rule: Emanuele Gentili's 46 league minutes place him just ahead of Emanuele Indiveri's 44 for the second goalkeeper slot.
+
+The identity pass resolved surname-only or misleading local-history matches before packaging. Lazio's López is Giovanni López, the Italian centre-back, not Claudio López. Piacenza's Marco Rossi is the 1964-born Italian defender who later became Hungary manager, not a younger same-name Roll XI identity. Atalanta's Piacentini is Giovanni Piacentini. Bari's Volpi and Giorgetti are Sergio Volpi and Rodolfo Giorgetti, both midfielders, and Lecce's Casale is Stefano Casale, also a midfielder. Sampdoria's Oumar is Senegalese centre-back Oumar Dieng Samba. Existing Roll XI identities and adjacent-season records remain cross-checks only where they are compatible with the 1997-98 source evidence.
+
+European achievement preservation/correction
+Inter's pre-existing UEFA Cup winner stub and Lazio's UEFA Cup runner-up stub are upgraded in place to full Serie A rosters, preserving their European achievements without duplicate club-season rows. Juventus is rebuilt to the 16-player domestic standard and its legacy `EC / MAIN` marker is corrected to `UCL / RU`: UEFA's official 1997-98 record places Juventus in the Champions League final against Real Madrid.
+UEFA final record: https://www.uefa.com/uefachampionsleague/match/54859--juventus-vs-real-madrid/
+
+Rating release state
+The edition contains 288 player slots across 18 full rosters, exactly 16 players and two goalkeepers per club. Ratings use the repository-wide absolute-v3 model and are calibrated at club level, with adjacent-season Roll XI values used as identity/history anchors rather than copied mechanically. The final team means range from 68.50 (Lecce and Napoli) to 80.06 (Juventus). Across the full edition the mean is 74.48, standard deviation 5.63, realised range 62-94, and 54 of 288 player slots are below 70. Juventus is deliberately recalibrated from its older legacy row to a 68-90 internal range; Empoli's first pass was also widened without changing its 69.50 mean after the validator identified an SD of 1.94, below the 2.00 release threshold.
+
+Coverage state
+`public/data/coverage-target.json` now declares 1997-98 as an 18-roster domestic edition alongside 1998-99 and 1999-00. This creates a contiguous three-edition proven-complete run from the 1999-00 anchor. `npm run coverage:next` therefore advances the sequential Serie A frontier to 1996-97 rather than treating the pre-existing European-derived 1996-97 rows as domestic completion.
+
+Release gate
+Final repository state after this cycle:
+18/18 Serie A 1997-98 clubs have full 16-player rosters;
+288/288 intended player slots are present and every roster has exactly two goalkeepers;
+Inter and Lazio are upgraded from European stubs without duplicate club-season rows;
+Juventus's 1997-98 European achievement is corrected to Champions League runner-up;
+`npm run validate` reports no errors across 1,286 club-season rows;
+985 playable rosters satisfy the absolute-v3 rating-distribution rules;
+Campaign scorer-pool, position-compatibility and coverage-production self-tests all pass;
+Serie A measured coverage is now 54/54 across the three researched 18-club editions (1997-98, 1998-99, 1999-00);
+`npm run coverage:next` advances to Serie A 1996-97.
