@@ -5884,32 +5884,6 @@
       ]
     },
     {
-      "id": "uefa-inter-199798",
-      "club": "Inter",
-      "country": "Italy",
-      "season": "1997-98",
-      "comps": [
-        "UEFA"
-      ],
-      "rating": 82,
-      "kit": [
-        "#1E71B8",
-        "#000000"
-      ],
-      "crest": null,
-      "scorers": [
-        "Ronaldo"
-      ],
-      "role": "stub",
-      "achievements": [
-        {
-          "comp": "UEFA",
-          "season": "1997-98",
-          "stage": "W"
-        }
-      ]
-    },
-    {
       "id": "ita-juv-9798",
       "club": "Juventus",
       "country": "Italy",
@@ -5924,7 +5898,7 @@
         {
           "n": "Angelo Peruzzi",
           "p": "GK",
-          "r": 82,
+          "r": 84,
           "nat": "Italy",
           "dp": [
             "GK"
@@ -5942,16 +5916,17 @@
         {
           "n": "Alessandro Birindelli",
           "p": "DF",
-          "r": 72,
           "nat": "Italy",
           "dp": [
-            "RB"
-          ]
+            "RB",
+            "RWB"
+          ],
+          "r": 74
         },
         {
           "n": "Moreno Torricelli",
           "p": "DF",
-          "r": 75,
+          "r": 77,
           "nat": "Italy",
           "dp": [
             "RB",
@@ -5961,7 +5936,7 @@
         {
           "n": "Paolo Montero",
           "p": "DF",
-          "r": 81,
+          "r": 82,
           "nat": "Uruguay",
           "dp": [
             "CB"
@@ -5970,7 +5945,7 @@
         {
           "n": "Mark Iuliano",
           "p": "DF",
-          "r": 76,
+          "r": 77,
           "nat": "Italy",
           "dp": [
             "CB"
@@ -5979,7 +5954,7 @@
         {
           "n": "Ciro Ferrara",
           "p": "DF",
-          "r": 80,
+          "r": 82,
           "nat": "Italy",
           "dp": [
             "CB"
@@ -5988,17 +5963,8 @@
         {
           "n": "Gianluca Pessotto",
           "p": "DF",
-          "r": 76,
+          "r": 77,
           "nat": "Italy",
-          "dp": [
-            "LB"
-          ]
-        },
-        {
-          "n": "Dimas",
-          "p": "DF",
-          "r": 72,
-          "nat": "Portugal",
           "dp": [
             "LB"
           ]
@@ -6006,7 +5972,7 @@
         {
           "n": "Didier Deschamps",
           "p": "MF",
-          "r": 81,
+          "r": 82,
           "nat": "France",
           "dp": [
             "DM",
@@ -6016,7 +5982,7 @@
         {
           "n": "Zinedine Zidane",
           "p": "MF",
-          "r": 86,
+          "r": 89,
           "nat": "France",
           "dp": [
             "AM"
@@ -6025,17 +5991,17 @@
         {
           "n": "Edgar Davids",
           "p": "MF",
-          "r": 80,
+          "r": 84,
           "nat": "Netherlands",
           "dp": [
-            "DM",
-            "CM"
+            "CM",
+            "DM"
           ]
         },
         {
           "n": "Antonio Conte",
           "p": "MF",
-          "r": 78,
+          "r": 79,
           "nat": "Italy",
           "dp": [
             "CM"
@@ -6044,7 +6010,7 @@
         {
           "n": "Angelo Di Livio",
           "p": "MF",
-          "r": 75,
+          "r": 76,
           "nat": "Italy",
           "dp": [
             "RM",
@@ -6054,17 +6020,16 @@
         {
           "n": "Alessio Tacchinardi",
           "p": "MF",
-          "r": 73,
+          "r": 74,
           "nat": "Italy",
           "dp": [
-            "CM",
-            "DM"
+            "CM"
           ]
         },
         {
           "n": "Alessandro Del Piero",
           "p": "FW",
-          "r": 85,
+          "r": 90,
           "nat": "Italy",
           "dp": [
             "SS",
@@ -6074,55 +6039,1052 @@
         {
           "n": "Filippo Inzaghi",
           "p": "FW",
-          "r": 81,
           "nat": "Italy",
           "dp": [
+            "ST",
             "CF"
-          ]
-        },
-        {
-          "n": "Nicola Amoruso",
-          "p": "FW",
-          "r": 72,
-          "nat": "Italy",
-          "dp": [
-            "CF"
-          ]
-        }
-      ],
-      "euro": [
-        {
-          "comp": "EC",
-          "season": "1997-98"
+          ],
+          "r": 86
         }
       ],
       "role": "roster",
       "achievements": [
         {
-          "comp": "EC",
+          "comp": "UCL",
           "season": "1997-98",
-          "stage": "MAIN"
+          "stage": "RU"
         }
       ]
+    },
+    {
+      "id": "uefa-inter-199798",
+      "club": "Inter",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#1E71B8",
+        "#000000"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Gianluca Pagliuca",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 84
+        },
+        {
+          "n": "Andrea Mazzantini",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Giuseppe Bergomi",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "RB"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Taribo West",
+          "p": "DF",
+          "nat": "Nigeria",
+          "dp": [
+            "CB"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Fabio Galante",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Javier Zanetti",
+          "p": "DF",
+          "nat": "Argentina",
+          "dp": [
+            "RB",
+            "RWB",
+            "RM"
+          ],
+          "r": 86
+        },
+        {
+          "n": "Francesco Colonnese",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Luigi Sartor",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "CB"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Diego Simeone",
+          "p": "MF",
+          "nat": "Argentina",
+          "dp": [
+            "DM",
+            "CM"
+          ],
+          "r": 84
+        },
+        {
+          "n": "Francesco Moriero",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "RM",
+            "RW"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Youri Djorkaeff",
+          "p": "FW",
+          "nat": "France",
+          "dp": [
+            "SS",
+            "AM"
+          ],
+          "r": 84
+        },
+        {
+          "n": "Aron Winter",
+          "p": "MF",
+          "nat": "Netherlands",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Benoît Cauet",
+          "p": "MF",
+          "nat": "France",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 76
+        },
+        {
+          "n": "Ronaldo",
+          "p": "FW",
+          "nat": "Brazil",
+          "dp": [
+            "CF"
+          ],
+          "r": 94
+        },
+        {
+          "n": "Salvatore Fresi",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "DM"
+          ],
+          "r": 74
+        },
+        {
+          "n": "Zé Elias",
+          "p": "MF",
+          "nat": "Brazil",
+          "dp": [
+            "DM",
+            "CM"
+          ],
+          "r": 76
+        }
+      ],
+      "role": "roster",
+      "achievements": [
+        {
+          "comp": "UEFA",
+          "season": "1997-98",
+          "stage": "W"
+        }
+      ]
+    },
+    {
+      "id": "ita-udi-9798",
+      "club": "Udinese",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#FFFFFF",
+        "#1D1D1B"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Luigi Turci",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 77
+        },
+        {
+          "n": "Marco Frezzolini",
+          "p": "GK",
+          "r": 68,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Thomas Helveg",
+          "p": "DF",
+          "nat": "Denmark",
+          "dp": [
+            "RB",
+            "RWB"
+          ],
+          "r": 80
+        },
+        {
+          "n": "Alessandro Pierini",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 75
+        },
+        {
+          "n": "Valerio Bertotto",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "RB"
+          ],
+          "r": 76
+        },
+        {
+          "n": "Alessandro Calori",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 75
+        },
+        {
+          "n": "Giuliano Giannichedda",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ],
+          "r": 78
+        },
+        {
+          "n": "Jonathan Bachini",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ],
+          "r": 75
+        },
+        {
+          "n": "Johan Walem",
+          "p": "MF",
+          "nat": "Belgium",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 76
+        },
+        {
+          "n": "Oliver Bierhoff",
+          "p": "FW",
+          "nat": "Germany",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 86
+        },
+        {
+          "n": "Paolo Poggi",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Márcio Amoroso",
+          "p": "FW",
+          "nat": "Brazil",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 85
+        },
+        {
+          "n": "Tomas Locatelli",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "CM"
+          ],
+          "r": 75
+        },
+        {
+          "n": "Martin Jørgensen",
+          "p": "MF",
+          "nat": "Denmark",
+          "dp": [
+            "RM",
+            "AM"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Francesco Statuto",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Martín Navas",
+          "p": "DF",
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ],
+          "r": 74
+        }
+      ],
+      "role": "roster",
+      "achievements": []
+    },
+    {
+      "id": "ita-roma-9798",
+      "club": "AS Roma",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#7A1E1E",
+        "#F0B323"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Michael Konsel",
+          "p": "GK",
+          "nat": "Austria",
+          "dp": [
+            "GK"
+          ],
+          "r": 71
+        },
+        {
+          "n": "Antonio Chimenti",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 74
+        },
+        {
+          "n": "Cafu",
+          "p": "DF",
+          "nat": "Brazil",
+          "dp": [
+            "RB",
+            "RWB"
+          ],
+          "r": 84
+        },
+        {
+          "n": "Vincent Candela",
+          "p": "DF",
+          "nat": "France",
+          "dp": [
+            "LB",
+            "LWB"
+          ],
+          "r": 78
+        },
+        {
+          "n": "Aldair",
+          "p": "DF",
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ],
+          "r": 80
+        },
+        {
+          "n": "Fabio Petruzzi",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 75
+        },
+        {
+          "n": "Eusebio Di Francesco",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "LM"
+          ],
+          "r": 76
+        },
+        {
+          "n": "Luigi Di Biagio",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Damiano Tommasi",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Francesco Totti",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "CF",
+            "SS",
+            "AM"
+          ],
+          "r": 86
+        },
+        {
+          "n": "Paulo Sérgio",
+          "p": "FW",
+          "nat": "Brazil",
+          "dp": [
+            "RW",
+            "AM"
+          ],
+          "r": 76
+        },
+        {
+          "n": "Abel Balbo",
+          "p": "FW",
+          "nat": "Argentina",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Marco Delvecchio",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 81
+        },
+        {
+          "n": "Antônio Carlos Zago",
+          "p": "DF",
+          "nat": "Brazil",
+          "dp": [
+            "CB"
+          ],
+          "r": 78
+        },
+        {
+          "n": "Carmine Gautieri",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "RM",
+            "RW"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Iván Helguera",
+          "p": "MF",
+          "r": 71,
+          "nat": "Spain",
+          "dp": [
+            "CM",
+            "CB"
+          ]
+        }
+      ],
+      "role": "roster",
+      "achievements": []
+    },
+    {
+      "id": "ita-fio-9798",
+      "club": "Fiorentina",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#552583",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Francesco Toldo",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 83
+        },
+        {
+          "n": "Valerio Fiori",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Michele Serena",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "LM"
+          ]
+        },
+        {
+          "n": "Stefan Schwarz",
+          "p": "MF",
+          "r": 79,
+          "nat": "Sweden",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Aldo Firicano",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Pasquale Padalino",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 77
+        },
+        {
+          "n": "Giulio Falcone",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 77
+        },
+        {
+          "n": "Rui Costa",
+          "p": "MF",
+          "nat": "Portugal",
+          "dp": [
+            "AM",
+            "CM"
+          ],
+          "r": 85
+        },
+        {
+          "n": "Sandro Cois",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ],
+          "r": 77
+        },
+        {
+          "n": "Domenico Morfeo",
+          "p": "MF",
+          "r": 77,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "SS"
+          ]
+        },
+        {
+          "n": "Luís Oliveira",
+          "p": "FW",
+          "nat": "Belgium",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 76
+        },
+        {
+          "n": "Gabriel Batistuta",
+          "p": "FW",
+          "nat": "Argentina",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 90
+        },
+        {
+          "n": "Fabio Tarozzi",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrei Kanchelskis",
+          "p": "MF",
+          "r": 80,
+          "nat": "Russia",
+          "dp": [
+            "RM",
+            "RW"
+          ]
+        },
+        {
+          "n": "Anselmo Robbiati",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "SS"
+          ],
+          "r": 78
+        },
+        {
+          "n": "Davide Bettarini",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "LWB"
+          ]
+        }
+      ],
+      "role": "roster",
+      "achievements": []
+    },
+    {
+      "id": "ita-parma-9798",
+      "club": "Parma",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#FFD200",
+        "#0046AA"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Gianluigi Buffon",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 85
+        },
+        {
+          "n": "Matteo Guardalben",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 75
+        },
+        {
+          "n": "Lilian Thuram",
+          "p": "DF",
+          "nat": "France",
+          "dp": [
+            "CB",
+            "RB"
+          ],
+          "r": 87
+        },
+        {
+          "n": "Enrico Chiesa",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 83
+        },
+        {
+          "n": "Fabio Cannavaro",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 84
+        },
+        {
+          "n": "Dino Baggio",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Roberto Sensini",
+          "p": "DF",
+          "nat": "Argentina",
+          "dp": [
+            "CB",
+            "DM"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Antonio Benarrivo",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "RB"
+          ],
+          "r": 80
+        },
+        {
+          "n": "Jesper Blomqvist",
+          "p": "MF",
+          "r": 76,
+          "nat": "Sweden",
+          "dp": [
+            "LM",
+            "LW"
+          ]
+        },
+        {
+          "n": "Hernán Crespo",
+          "p": "FW",
+          "nat": "Argentina",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 87
+        },
+        {
+          "n": "Mario Stanić",
+          "p": "MF",
+          "nat": "Croatia",
+          "dp": [
+            "RM",
+            "AM"
+          ],
+          "r": 77
+        },
+        {
+          "n": "Massimo Crippa",
+          "p": "MF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Zé Maria",
+          "p": "DF",
+          "nat": "Brazil",
+          "dp": [
+            "RB",
+            "RM"
+          ],
+          "r": 76
+        },
+        {
+          "n": "Stefano Fiore",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "CM"
+          ],
+          "r": 81
+        },
+        {
+          "n": "Roberto Mussi",
+          "p": "DF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Luigi Apolloni",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 74
+        }
+      ],
+      "role": "roster",
+      "achievements": []
     },
     {
       "id": "uefa-lazio-199798",
       "club": "Lazio",
       "country": "Italy",
+      "league": "ITA",
       "season": "1997-98",
-      "comps": [
-        "UEFA"
-      ],
-      "rating": 80,
       "kit": [
         "#87CEEB",
         "#FFFFFF"
       ],
       "crest": null,
-      "scorers": [
-        "Nedvěd"
+      "players": [
+        {
+          "n": "Luca Marchegiani",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 80
+        },
+        {
+          "n": "Marco Ballotta",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 74
+        },
+        {
+          "n": "Giuseppe Pancaro",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "LWB"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Giuseppe Favalli",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ],
+          "r": 80
+        },
+        {
+          "n": "Alessandro Nesta",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 86
+        },
+        {
+          "n": "Paolo Negro",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "RB"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Diego Fuser",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "RM",
+            "CM"
+          ],
+          "r": 80
+        },
+        {
+          "n": "Roberto Mancini",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "SS",
+            "CF"
+          ],
+          "r": 82
+        },
+        {
+          "n": "Vladimir Jugović",
+          "p": "MF",
+          "r": 81,
+          "nat": "Yugoslavia",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Pavel Nedvěd",
+          "p": "MF",
+          "nat": "Czech Republic",
+          "dp": [
+            "LM",
+            "AM"
+          ],
+          "r": 84
+        },
+        {
+          "n": "Pierluigi Casiraghi",
+          "p": "FW",
+          "r": 80,
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ]
+        },
+        {
+          "n": "Giorgio Venturin",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ],
+          "r": 79
+        },
+        {
+          "n": "Giovanni López",
+          "p": "DF",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Alen Bokšić",
+          "p": "FW",
+          "r": 80,
+          "nat": "Croatia",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Matías Almeyda",
+          "p": "MF",
+          "nat": "Argentina",
+          "dp": [
+            "DM",
+            "CM"
+          ],
+          "r": 81
+        },
+        {
+          "n": "Guerino Gottardi",
+          "p": "MF",
+          "r": 71,
+          "nat": "Switzerland",
+          "dp": [
+            "RM",
+            "CM"
+          ]
+        }
       ],
-      "role": "stub",
+      "role": "roster",
       "achievements": [
         {
           "comp": "UEFA",
@@ -6130,6 +7092,1863 @@
           "stage": "RU"
         }
       ]
+    },
+    {
+      "id": "ita-bol-9798",
+      "club": "Bologna",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#BA251E",
+        "#000033"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Marco Sterchele",
+          "p": "GK",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Paolo Brunner",
+          "p": "GK",
+          "nat": "Switzerland",
+          "dp": [
+            "GK"
+          ],
+          "r": 72
+        },
+        {
+          "n": "Fabio Mangone",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 77
+        },
+        {
+          "n": "Giancarlo Marocchi",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 76
+        },
+        {
+          "n": "Kennet Andersson",
+          "p": "FW",
+          "nat": "Sweden",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 80
+        },
+        {
+          "n": "Massimo Paganin",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 74
+        },
+        {
+          "n": "Lamberto Magoni",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Michele Paramatti",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "CB"
+          ],
+          "r": 74
+        },
+        {
+          "n": "Davide Nervo",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "RM"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Roberto Baggio",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "SS",
+            "AM",
+            "CF"
+          ],
+          "r": 87
+        },
+        {
+          "n": "Igor Kolyvanov",
+          "p": "FW",
+          "r": 76,
+          "nat": "Russia",
+          "dp": [
+            "SS",
+            "ST"
+          ]
+        },
+        {
+          "n": "Stefano Torrisi",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Fabio Tarantino",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ],
+          "r": 76
+        },
+        {
+          "n": "Paolo Cristallini",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ],
+          "r": 71
+        },
+        {
+          "n": "Daniele Carnasciali",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ],
+          "r": 72
+        },
+        {
+          "n": "Davide Fontolan",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 73
+        }
+      ],
+      "role": "roster",
+      "achievements": []
+    },
+    {
+      "id": "ita-samp-9798",
+      "club": "Sampdoria",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Fabrizio Ferron",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 71
+        },
+        {
+          "n": "Marco Ambrosio",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 68
+        },
+        {
+          "n": "Vincenzo Montella",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 82
+        },
+        {
+          "n": "Alain Boghossian",
+          "p": "MF",
+          "nat": "France",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 77
+        },
+        {
+          "n": "Pierre Laigle",
+          "p": "MF",
+          "nat": "France",
+          "dp": [
+            "CM",
+            "LM"
+          ],
+          "r": 74
+        },
+        {
+          "n": "Juan Sebastián Verón",
+          "p": "MF",
+          "nat": "Argentina",
+          "dp": [
+            "CM",
+            "AM"
+          ],
+          "r": 85
+        },
+        {
+          "n": "Siniša Mihajlović",
+          "p": "DF",
+          "nat": "Serbia and Montenegro",
+          "dp": [
+            "CB",
+            "LB"
+          ],
+          "r": 82
+        },
+        {
+          "n": "Marco Franceschetti",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 74
+        },
+        {
+          "n": "David Balleri",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "CB"
+          ],
+          "r": 72
+        },
+        {
+          "n": "Moreno Mannini",
+          "p": "DF",
+          "r": 75,
+          "nat": "Italy",
+          "dp": [
+            "RB"
+          ]
+        },
+        {
+          "n": "Hugo Miguel Fernandes Vieira",
+          "p": "DF",
+          "nat": "Portugal",
+          "dp": [
+            "CB"
+          ],
+          "r": 74
+        },
+        {
+          "n": "Marcello Castellini",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ],
+          "r": 75
+        },
+        {
+          "n": "Emanuele Pesaresi",
+          "p": "DF",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "LWB"
+          ]
+        },
+        {
+          "n": "Simone Vergassola",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Giuseppe Signori",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 84
+        },
+        {
+          "n": "Oumar Dieng Samba",
+          "p": "DF",
+          "r": 71,
+          "nat": "Senegal",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "role": "roster",
+      "achievements": []
+    },
+    {
+      "id": "ita-milan-9798",
+      "club": "AC Milan",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#FB090B",
+        "#000000"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Sebastiano Rossi",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 76
+        },
+        {
+          "n": "Massimo Taibi",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 74
+        },
+        {
+          "n": "Marcel Desailly",
+          "p": "DF",
+          "r": 82,
+          "nat": "France",
+          "dp": [
+            "CB",
+            "DM"
+          ]
+        },
+        {
+          "n": "Paolo Maldini",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "CB"
+          ],
+          "r": 86
+        },
+        {
+          "n": "Alessandro Costacurta",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 80
+        },
+        {
+          "n": "Demetrio Albertini",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 82
+        },
+        {
+          "n": "Ibrahim Ba",
+          "p": "MF",
+          "nat": "France",
+          "dp": [
+            "RM",
+            "RW"
+          ],
+          "r": 74
+        },
+        {
+          "n": "Patrick Kluivert",
+          "p": "FW",
+          "r": 80,
+          "nat": "Netherlands",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "George Weah",
+          "p": "FW",
+          "nat": "Liberia",
+          "dp": [
+            "CF"
+          ],
+          "r": 82
+        },
+        {
+          "n": "Leonardo",
+          "p": "MF",
+          "nat": "Brazil",
+          "dp": [
+            "AM",
+            "LM"
+          ],
+          "r": 78
+        },
+        {
+          "n": "Zvonimir Boban",
+          "p": "MF",
+          "nat": "Croatia",
+          "dp": [
+            "AM",
+            "CM"
+          ],
+          "r": 80
+        },
+        {
+          "n": "Christian Ziege",
+          "p": "DF",
+          "nat": "Germany",
+          "dp": [
+            "LB",
+            "LM"
+          ],
+          "r": 80
+        },
+        {
+          "n": "Giuseppe Cardone",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "RB"
+          ],
+          "r": 70
+        },
+        {
+          "n": "Maurizio Ganz",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 76
+        },
+        {
+          "n": "Stefano Maini",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 72
+        },
+        {
+          "n": "André Cruz",
+          "p": "DF",
+          "r": 76,
+          "nat": "Brazil",
+          "dp": [
+            "CB",
+            "LB"
+          ]
+        }
+      ],
+      "role": "roster",
+      "achievements": []
+    },
+    {
+      "id": "ita-bari-9798",
+      "club": "Bari",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#FFFFFF",
+        "#D71920"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Francesco Mancini",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 71
+        },
+        {
+          "n": "Emanuele Gentili",
+          "p": "GK",
+          "r": 65,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Klas Ingesson",
+          "p": "MF",
+          "nat": "Sweden",
+          "dp": [
+            "DM",
+            "CM"
+          ],
+          "r": 75
+        },
+        {
+          "n": "Sergio Volpi",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Rachid Neqrouz",
+          "p": "DF",
+          "nat": "Morocco",
+          "dp": [
+            "CB"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Gaetano De Rosa",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Gian Paolo Manighetti",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ],
+          "r": 68
+        },
+        {
+          "n": "Luigi Sala",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 77
+        },
+        {
+          "n": "Gianluca Zambrotta",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "RM",
+            "RW"
+          ],
+          "r": 77
+        },
+        {
+          "n": "Luigi Garzya",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "CB"
+          ],
+          "r": 72
+        },
+        {
+          "n": "Phil Masinga",
+          "p": "FW",
+          "nat": "South Africa",
+          "dp": [
+            "ST"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Miguel Ángel Guerrero Paz",
+          "p": "MF",
+          "r": 71,
+          "nat": "Colombia",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Mauro Bressan",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ],
+          "r": 72
+        },
+        {
+          "n": "Daniele De Ascentis",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 76
+        },
+        {
+          "n": "Rodolfo Giorgetti",
+          "p": "MF",
+          "r": 68,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "RM"
+          ]
+        },
+        {
+          "n": "Marcus Allbäck",
+          "p": "FW",
+          "r": 69,
+          "nat": "Sweden",
+          "dp": [
+            "ST",
+            "CF"
+          ]
+        }
+      ],
+      "role": "roster",
+      "achievements": []
+    },
+    {
+      "id": "ita-empoli-9798",
+      "club": "Empoli",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#0057B8",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Davide Roccati",
+          "p": "GK",
+          "r": 69,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Gianluca Pagotto",
+          "p": "GK",
+          "r": 67,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Stefano Bianconi",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 69
+        },
+        {
+          "n": "Massimo Ficini",
+          "p": "MF",
+          "r": 70,
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Alessandro Pane",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 69
+        },
+        {
+          "n": "Carmine Esposito",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 74
+        },
+        {
+          "n": "Pietro Fusco",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ],
+          "r": 71
+        },
+        {
+          "n": "Daniele Baldini",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "RB"
+          ],
+          "r": 70
+        },
+        {
+          "n": "Max Tonetto",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "LM",
+            "LB"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Raffaele Ametrano",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "RM",
+            "CM"
+          ],
+          "r": 68
+        },
+        {
+          "n": "Massimiliano Cappellini",
+          "p": "FW",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ]
+        },
+        {
+          "n": "Giovanni Martusciello",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "CM"
+          ],
+          "r": 65
+        },
+        {
+          "n": "Claudio Bonomi",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 68
+        },
+        {
+          "n": "Matjaž Florijančič",
+          "p": "FW",
+          "r": 70,
+          "nat": "Slovenia",
+          "dp": [
+            "ST",
+            "CF"
+          ]
+        },
+        {
+          "n": "Giorgio Lucenti",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "RM",
+            "CM"
+          ],
+          "r": 69
+        },
+        {
+          "n": "Stefano Bettella",
+          "p": "DF",
+          "r": 68,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "role": "roster",
+      "achievements": []
+    },
+    {
+      "id": "ita-pia-9798",
+      "club": "Piacenza",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#D40000",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Matteo Sereni",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Sergio Marcon",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 68
+        },
+        {
+          "n": "Paolo Tramezzani",
+          "p": "DF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "LWB"
+          ]
+        },
+        {
+          "n": "Daniele Delli Carri",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 70
+        },
+        {
+          "n": "Alessandro Mazzola",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ],
+          "r": 70
+        },
+        {
+          "n": "Pietro Vierchowod",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 76
+        },
+        {
+          "n": "Giuseppe Scienza",
+          "p": "MF",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Gianpietro Piovani",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "LM",
+            "LW"
+          ],
+          "r": 68
+        },
+        {
+          "n": "Marco Rossi",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "RB"
+          ],
+          "r": 71
+        },
+        {
+          "n": "Federico Dionigi",
+          "p": "FW",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ]
+        },
+        {
+          "n": "Roberto Murgita",
+          "p": "FW",
+          "r": 70,
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ]
+        },
+        {
+          "n": "Massimo Rastelli",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 70
+        },
+        {
+          "n": "Giovanni Stroppa",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "AM"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Roberto Bordin",
+          "p": "MF",
+          "r": 69,
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Stefano Sacchetti",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 68
+        },
+        {
+          "n": "Aladino Valoti",
+          "p": "MF",
+          "r": 68,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "role": "roster",
+      "achievements": []
+    },
+    {
+      "id": "ita-vic-9798",
+      "club": "Vicenza",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#D71920",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Pierluigi Brivio",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 71
+        },
+        {
+          "n": "Davide Falcioni",
+          "p": "GK",
+          "r": 66,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Domenico Di Carlo",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ],
+          "r": 68
+        },
+        {
+          "n": "Fabio Viviani",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ],
+          "r": 68
+        },
+        {
+          "n": "Giacomo Dicara",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 72
+        },
+        {
+          "n": "Marco Schenardi",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "RM",
+            "RW"
+          ],
+          "r": 71
+        },
+        {
+          "n": "Davide Belotti",
+          "p": "DF",
+          "r": 70,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Pasquale Luiso",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 68
+        },
+        {
+          "n": "Massimo Ambrosini",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ],
+          "r": 77
+        },
+        {
+          "n": "Gustavo Méndez",
+          "p": "DF",
+          "nat": "Uruguay",
+          "dp": [
+            "RB",
+            "CB"
+          ],
+          "r": 71
+        },
+        {
+          "n": "Gabriele Ambrosetti",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "LM",
+            "LW"
+          ],
+          "r": 71
+        },
+        {
+          "n": "Lamberto Zauli",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "AM"
+          ],
+          "r": 77
+        },
+        {
+          "n": "Francesco Coco",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "LWB"
+          ],
+          "r": 72
+        },
+        {
+          "n": "Arturo Di Napoli",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ],
+          "r": 74
+        },
+        {
+          "n": "Lorenzo Stovini",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 74
+        },
+        {
+          "n": "Massimo Beghetto",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "LB"
+          ],
+          "r": 74
+        }
+      ],
+      "role": "roster",
+      "achievements": []
+    },
+    {
+      "id": "ita-bre-9798",
+      "club": "Brescia",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#005EB8",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Giovanni Cervone",
+          "p": "GK",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Giacomo Zunico",
+          "p": "GK",
+          "r": 64,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Daniele Adani",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 70
+        },
+        {
+          "n": "Marco Savino",
+          "p": "DF",
+          "r": 68,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Marek Koźmiński",
+          "p": "DF",
+          "r": 71,
+          "nat": "Poland",
+          "dp": [
+            "LB",
+            "LM"
+          ]
+        },
+        {
+          "n": "Dario Hübner",
+          "p": "FW",
+          "r": 76,
+          "nat": "Italy",
+          "dp": [
+            "ST"
+          ]
+        },
+        {
+          "n": "Emanuele Filippini",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "RM"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Antonio Filippini",
+          "p": "MF",
+          "r": 74,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Tal Banin",
+          "p": "MF",
+          "r": 71,
+          "nat": "Israel",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Aimo Diana",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "RM",
+            "RW"
+          ],
+          "r": 70
+        },
+        {
+          "n": "Maurizio Neri",
+          "p": "FW",
+          "r": 68,
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ]
+        },
+        {
+          "n": "Luciano De Paola",
+          "p": "MF",
+          "r": 69,
+          "nat": "Italy",
+          "dp": [
+            "DM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Giovanni Bia",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 72
+        },
+        {
+          "n": "Andrea Pirlo",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "AM"
+          ],
+          "r": 71
+        },
+        {
+          "n": "Cristiano Doni",
+          "p": "MF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "AM",
+            "LM"
+          ]
+        },
+        {
+          "n": "Ivan Javorčić",
+          "p": "MF",
+          "r": 67,
+          "nat": "Croatia",
+          "dp": [
+            "CM"
+          ]
+        }
+      ],
+      "role": "roster",
+      "achievements": []
+    },
+    {
+      "id": "ita-ata-9798",
+      "club": "Atalanta",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#0057B8",
+        "#000000"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Alberto Fontana",
+          "p": "GK",
+          "r": 70,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Davide Pinato",
+          "p": "GK",
+          "r": 70,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Marco Sgrò",
+          "p": "MF",
+          "r": 70,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Fabio Gallo",
+          "p": "MF",
+          "r": 70,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Zoran Mirković",
+          "p": "DF",
+          "r": 75,
+          "nat": "Serbia and Montenegro",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Massimo Carrera",
+          "p": "DF",
+          "r": 73,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Andrea Sottil",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ],
+          "r": 72
+        },
+        {
+          "n": "Nicola Caccia",
+          "p": "FW",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Walter Bonacina",
+          "p": "MF",
+          "r": 71,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Fabio Rustico",
+          "p": "DF",
+          "r": 67,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Ljubiša Dundjerski",
+          "p": "MF",
+          "r": 67,
+          "nat": "Serbia and Montenegro",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Giovanni Piacentini",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 71
+        },
+        {
+          "n": "Cristiano Lucarelli",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 73
+        },
+        {
+          "n": "Paolo Foglio",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "CB"
+          ],
+          "r": 70
+        },
+        {
+          "n": "Angelo Carbone",
+          "p": "MF",
+          "r": 70,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Damiano Zenoni",
+          "p": "DF",
+          "r": 68,
+          "nat": "Italy",
+          "dp": [
+            "RB",
+            "RWB"
+          ]
+        }
+      ],
+      "role": "roster",
+      "achievements": []
+    },
+    {
+      "id": "ita-lec-9798",
+      "club": "Lecce",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#D71920",
+        "#FFD100"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Fabrizio Lorieri",
+          "p": "GK",
+          "r": 69,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Ivan Aiardi",
+          "p": "GK",
+          "r": 62,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Francesco Palmieri",
+          "p": "FW",
+          "nat": "Italy",
+          "dp": [
+            "ST",
+            "CF"
+          ],
+          "r": 70
+        },
+        {
+          "n": "Nenad Sakić",
+          "p": "DF",
+          "nat": "Serbia and Montenegro",
+          "dp": [
+            "CB"
+          ],
+          "r": 70
+        },
+        {
+          "n": "Jean-Pierre Cyprien",
+          "p": "DF",
+          "r": 70,
+          "nat": "France",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Luigi Piangerelli",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 69
+        },
+        {
+          "n": "Stefano Casale",
+          "p": "MF",
+          "r": 68,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Stefano Rossini",
+          "p": "DF",
+          "r": 68,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Marco Rossi",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "RB"
+          ],
+          "r": 68
+        },
+        {
+          "n": "Alessandro Conticchio",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 68
+        },
+        {
+          "n": "Fabio Viali",
+          "p": "DF",
+          "r": 67,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Claudio Bellucci",
+          "p": "FW",
+          "r": 68,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Dejan Govedarica",
+          "p": "MF",
+          "r": 71,
+          "nat": "Serbia and Montenegro",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Giuseppe Giannini",
+          "p": "MF",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "AM"
+          ]
+        },
+        {
+          "n": "Serhiy Valeriyovych Atelkin",
+          "p": "FW",
+          "r": 70,
+          "nat": "Ukraine",
+          "dp": [
+            "ST",
+            "CF"
+          ]
+        },
+        {
+          "n": "Giuseppe Baronchelli",
+          "p": "DF",
+          "r": 66,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        }
+      ],
+      "role": "roster",
+      "achievements": []
+    },
+    {
+      "id": "ita-nap-9798",
+      "club": "Napoli",
+      "country": "Italy",
+      "league": "ITA",
+      "season": "1997-98",
+      "kit": [
+        "#12A0D7",
+        "#FFFFFF"
+      ],
+      "crest": null,
+      "players": [
+        {
+          "n": "Giuseppe Taglialatela",
+          "p": "GK",
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ],
+          "r": 70
+        },
+        {
+          "n": "Raffaele Di Fusco",
+          "p": "GK",
+          "r": 66,
+          "nat": "Italy",
+          "dp": [
+            "GK"
+          ]
+        },
+        {
+          "n": "Daniele Baldini",
+          "p": "DF",
+          "nat": "Italy",
+          "dp": [
+            "CB",
+            "RB"
+          ],
+          "r": 67
+        },
+        {
+          "n": "Roberto Ayala",
+          "p": "DF",
+          "r": 76,
+          "nat": "Argentina",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Fabio Rossitto",
+          "p": "MF",
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ],
+          "r": 69
+        },
+        {
+          "n": "Claudio Bellucci",
+          "p": "FW",
+          "r": 68,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Francesco Turrini",
+          "p": "MF",
+          "r": 67,
+          "nat": "Italy",
+          "dp": [
+            "RM",
+            "CM"
+          ]
+        },
+        {
+          "n": "Roberto Goretti",
+          "p": "MF",
+          "r": 67,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "DM"
+          ]
+        },
+        {
+          "n": "Igor Protti",
+          "p": "FW",
+          "r": 72,
+          "nat": "Italy",
+          "dp": [
+            "CF"
+          ]
+        },
+        {
+          "n": "Raffaele Longo",
+          "p": "MF",
+          "r": 66,
+          "nat": "Italy",
+          "dp": [
+            "CM",
+            "AM"
+          ]
+        },
+        {
+          "n": "Bertrand Crasson",
+          "p": "DF",
+          "r": 70,
+          "nat": "Belgium",
+          "dp": [
+            "RB",
+            "CB"
+          ]
+        },
+        {
+          "n": "Luca Altomare",
+          "p": "MF",
+          "r": 66,
+          "nat": "Italy",
+          "dp": [
+            "CM"
+          ]
+        },
+        {
+          "n": "Mauro Facci",
+          "p": "DF",
+          "r": 64,
+          "nat": "Italy",
+          "dp": [
+            "CB"
+          ]
+        },
+        {
+          "n": "Raffaele Sergio",
+          "p": "DF",
+          "r": 68,
+          "nat": "Italy",
+          "dp": [
+            "LB",
+            "LWB"
+          ]
+        },
+        {
+          "n": "Damir Stojak",
+          "p": "FW",
+          "r": 66,
+          "nat": "Serbia and Montenegro",
+          "dp": [
+            "ST",
+            "CF"
+          ]
+        },
+        {
+          "n": "Aljoša Asanović",
+          "p": "MF",
+          "r": 74,
+          "nat": "Croatia",
+          "dp": [
+            "AM",
+            "CM"
+          ]
+        }
+      ],
+      "role": "roster",
+      "achievements": []
     },
     {
       "id": "esp-rma-9798",

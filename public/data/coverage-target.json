@@ -38,10 +38,11 @@
         "direction": "backward"
       },
       "expectedRostersPerEdition": {
+        "1997-98": 18,
         "1998-99": 18,
         "1999-00": 18
       },
-      "$expectedRostersNote": "1998-99 and 1999-00 each have a researched 18-club Serie A field. Other Serie A seasons remain unproven until their expected counts are populated."
+      "$expectedRostersNote": "1997-98, 1998-99 and 1999-00 each have a researched 18-club Serie A field. Other Serie A seasons remain unproven until their expected counts are populated."
     },
     {
       "id": "euro-ec-ucl",
