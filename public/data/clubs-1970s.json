@@ -4,7 +4,8 @@
     "schema": "club-season-v2",
     "seasonStartYearFrom": 1970,
     "seasonStartYearTo": 1979,
-    "note": "Canonical decade shard. Club-season records are stored exactly once, by season start year. Historical build provenance and evidence notes are consolidated in docs/COVERAGE-AUDIT.md."
+    "note": "Canonical decade shard. Club-season records are stored exactly once, by season start year. Historical build provenance and evidence notes are consolidated in docs/COVERAGE-AUDIT.md.",
+    "ratingModel": "absolute-v3"
   },
   "squads": [
     {
@@ -22,7 +23,7 @@
         {
           "n": "Piet Schrijvers",
           "p": "GK",
-          "r": 80,
+          "r": 77,
           "nat": "Netherlands",
           "dp": [
             "GK"
@@ -31,7 +32,7 @@
         {
           "n": "Hans Galjé",
           "p": "GK",
-          "r": 73,
+          "r": 71,
           "nat": "Netherlands",
           "dp": [
             "GK"
@@ -40,7 +41,7 @@
         {
           "n": "Frank Arnesen",
           "p": "MF",
-          "r": 81,
+          "r": 79,
           "nat": "Denmark",
           "dp": [
             "AM",
@@ -50,7 +51,7 @@
         {
           "n": "Ruud Krol",
           "p": "DF",
-          "r": 84,
+          "r": 81,
           "nat": "Netherlands",
           "dp": [
             "CB",
@@ -60,7 +61,7 @@
         {
           "n": "Wim Suurbier",
           "p": "DF",
-          "r": 79,
+          "r": 76,
           "nat": "Netherlands",
           "dp": [
             "RB"
@@ -69,7 +70,7 @@
         {
           "n": "Ronald Spelbos",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "Netherlands",
           "dp": [
             "CB"
@@ -78,7 +79,7 @@
         {
           "n": "Søren Lerby",
           "p": "MF",
-          "r": 83,
+          "r": 81,
           "nat": "Denmark",
           "dp": [
             "CM"
@@ -87,7 +88,7 @@
         {
           "n": "Jan Everse",
           "p": "MF",
-          "r": 77,
+          "r": 75,
           "nat": "Netherlands",
           "dp": [
             "LM"
@@ -96,7 +97,7 @@
         {
           "n": "Tscheu La Ling",
           "p": "FW",
-          "r": 81,
+          "r": 79,
           "nat": "Netherlands",
           "dp": [
             "RW"
@@ -105,7 +106,7 @@
         {
           "n": "Simon Tahamata",
           "p": "FW",
-          "r": 80,
+          "r": 78,
           "nat": "Netherlands",
           "dp": [
             "LW"
@@ -114,7 +115,7 @@
         {
           "n": "Wim Kieft",
           "p": "FW",
-          "r": 81,
+          "r": 79,
           "nat": "Netherlands",
           "dp": [
             "CF"
@@ -123,7 +124,7 @@
         {
           "n": "Dick Schoenaker",
           "p": "MF",
-          "r": 78,
+          "r": 76,
           "nat": "Netherlands",
           "dp": [
             "CM",
@@ -133,7 +134,7 @@
         {
           "n": "Frank Rijkaard",
           "p": "MF",
-          "r": 80,
+          "r": 78,
           "nat": "Netherlands",
           "dp": [
             "DM",
@@ -143,7 +144,7 @@
         {
           "n": "Henning Jensen",
           "p": "FW",
-          "r": 79,
+          "r": 77,
           "nat": "Denmark",
           "dp": [
             "CF"
@@ -152,7 +153,7 @@
         {
           "n": "Ray Clarke",
           "p": "FW",
-          "r": 77,
+          "r": 75,
           "nat": "England",
           "dp": [
             "CF"
@@ -161,7 +162,7 @@
         {
           "n": "Michel Valke",
           "p": "MF",
-          "r": 74,
+          "r": 72,
           "nat": "Netherlands",
           "dp": [
             "RM"
@@ -276,7 +277,7 @@
         {
           "n": "Rudi Kargus",
           "p": "GK",
-          "r": 79,
+          "r": 77,
           "nat": "West Germany",
           "dp": [
             "GK"
@@ -285,7 +286,7 @@
         {
           "n": "Manfred Kaltz",
           "p": "DF",
-          "r": 83,
+          "r": 81,
           "nat": "West Germany",
           "dp": [
             "RB"
@@ -294,7 +295,7 @@
         {
           "n": "Peter Nogly",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "West Germany",
           "dp": [
             "CB"
@@ -303,7 +304,7 @@
         {
           "n": "Ivan Buljan",
           "p": "DF",
-          "r": 80,
+          "r": 78,
           "nat": "Yugoslavia",
           "dp": [
             "CB",
@@ -313,7 +314,7 @@
         {
           "n": "Ditmar Jakobs",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "West Germany",
           "dp": [
             "LB",
@@ -323,7 +324,7 @@
         {
           "n": "Holger Hieronymus",
           "p": "MF",
-          "r": 76,
+          "r": 74,
           "nat": "West Germany",
           "dp": [
             "CM",
@@ -333,7 +334,7 @@
         {
           "n": "Felix Magath",
           "p": "MF",
-          "r": 82,
+          "r": 80,
           "nat": "West Germany",
           "dp": [
             "CM"
@@ -342,7 +343,7 @@
         {
           "n": "Caspar Memering",
           "p": "MF",
-          "r": 72,
+          "r": 70,
           "nat": "West Germany",
           "dp": [
             "CM"
@@ -351,7 +352,7 @@
         {
           "n": "Jimmy Hartwig",
           "p": "MF",
-          "r": 75,
+          "r": 73,
           "nat": "West Germany",
           "dp": [
             "CM"
@@ -360,7 +361,7 @@
         {
           "n": "Kevin Keegan",
           "p": "FW",
-          "r": 87,
+          "r": 84,
           "nat": "England",
           "dp": [
             "FW",
@@ -370,7 +371,7 @@
         {
           "n": "Willi Reimann",
           "p": "FW",
-          "r": 75,
+          "r": 73,
           "nat": "West Germany",
           "dp": [
             "FW"
@@ -379,7 +380,7 @@
         {
           "n": "Jürgen Milewski",
           "p": "FW",
-          "r": 74,
+          "r": 72,
           "nat": "West Germany",
           "dp": [
             "FW"
@@ -388,7 +389,7 @@
         {
           "n": "Horst Hrubesch",
           "p": "FW",
-          "r": 82,
+          "r": 80,
           "nat": "West Germany",
           "dp": [
             "CF"
@@ -425,7 +426,7 @@
         {
           "n": "Peter Shilton",
           "p": "GK",
-          "r": 89,
+          "r": 86,
           "nat": "England",
           "dp": [
             "GK"
@@ -434,7 +435,7 @@
         {
           "n": "Chris Woods",
           "p": "GK",
-          "r": 73,
+          "r": 71,
           "nat": "England",
           "dp": [
             "GK"
@@ -443,7 +444,7 @@
         {
           "n": "Viv Anderson",
           "p": "DF",
-          "r": 81,
+          "r": 79,
           "nat": "England",
           "dp": [
             "RB"
@@ -452,7 +453,7 @@
         {
           "n": "Larry Lloyd",
           "p": "DF",
-          "r": 80,
+          "r": 78,
           "nat": "England",
           "dp": [
             "CB"
@@ -461,7 +462,7 @@
         {
           "n": "Kenny Burns",
           "p": "DF",
-          "r": 83,
+          "r": 81,
           "nat": "Scotland",
           "dp": [
             "CB"
@@ -470,7 +471,7 @@
         {
           "n": "Frank Gray",
           "p": "DF",
-          "r": 77,
+          "r": 75,
           "nat": "Scotland",
           "dp": [
             "LB"
@@ -479,7 +480,7 @@
         {
           "n": "Bryn Gunn",
           "p": "DF",
-          "r": 70,
+          "r": 68,
           "nat": "England",
           "dp": [
             "CB"
@@ -488,7 +489,7 @@
         {
           "n": "Ian Bowyer",
           "p": "MF",
-          "r": 77,
+          "r": 75,
           "nat": "England",
           "dp": [
             "CM"
@@ -497,7 +498,7 @@
         {
           "n": "John McGovern",
           "p": "MF",
-          "r": 76,
+          "r": 74,
           "nat": "England",
           "dp": [
             "CM"
@@ -506,7 +507,7 @@
         {
           "n": "Gary Mills",
           "p": "MF",
-          "r": 73,
+          "r": 71,
           "nat": "England",
           "dp": [
             "CM"
@@ -515,7 +516,7 @@
         {
           "n": "John Robertson",
           "p": "MF",
-          "r": 84,
+          "r": 82,
           "nat": "Scotland",
           "dp": [
             "LW"
@@ -524,7 +525,7 @@
         {
           "n": "Martin O'Neill",
           "p": "MF",
-          "r": 79,
+          "r": 77,
           "nat": "Northern Ireland",
           "dp": [
             "RW",
@@ -534,7 +535,7 @@
         {
           "n": "Garry Birtles",
           "p": "FW",
-          "r": 80,
+          "r": 78,
           "nat": "England",
           "dp": [
             "CF"
@@ -543,7 +544,7 @@
         {
           "n": "John O'Hare",
           "p": "FW",
-          "r": 72,
+          "r": 71,
           "nat": "Scotland",
           "dp": [
             "FW"
@@ -580,7 +581,7 @@
         {
           "n": "Miguel Ángel González",
           "p": "GK",
-          "r": 82,
+          "r": 79,
           "nat": "Spain",
           "dp": [
             "GK"
@@ -589,7 +590,7 @@
         {
           "n": "Agustín Rodríguez",
           "p": "GK",
-          "r": 74,
+          "r": 71,
           "nat": "Spain",
           "dp": [
             "GK"
@@ -598,7 +599,7 @@
         {
           "n": "Gregorio Benito",
           "p": "DF",
-          "r": 80,
+          "r": 78,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -607,7 +608,7 @@
         {
           "n": "Antonio García Navajas",
           "p": "DF",
-          "r": 77,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -616,7 +617,7 @@
         {
           "n": "José Antonio Camacho",
           "p": "DF",
-          "r": 83,
+          "r": 79,
           "nat": "Spain",
           "dp": [
             "LB"
@@ -625,7 +626,7 @@
         {
           "n": "Rafael García Cortés",
           "p": "DF",
-          "r": 77,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "LB",
@@ -635,7 +636,7 @@
         {
           "n": "Vicente del Bosque",
           "p": "MF",
-          "r": 81,
+          "r": 79,
           "nat": "Spain",
           "dp": [
             "CM"
@@ -644,7 +645,7 @@
         {
           "n": "Ángel de los Santos",
           "p": "MF",
-          "r": 77,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "RM",
@@ -664,7 +665,7 @@
         {
           "n": "Juanito",
           "p": "FW",
-          "r": 83,
+          "r": 80,
           "nat": "Spain",
           "dp": [
             "RW",
@@ -674,7 +675,7 @@
         {
           "n": "Santillana",
           "p": "FW",
-          "r": 83,
+          "r": 82,
           "nat": "Spain",
           "dp": [
             "CF"
@@ -683,7 +684,7 @@
         {
           "n": "Laurie Cunningham",
           "p": "FW",
-          "r": 83,
+          "r": 81,
           "nat": "England",
           "dp": [
             "LW",
@@ -693,7 +694,7 @@
         {
           "n": "García Hernández",
           "p": "MF",
-          "r": 76,
+          "r": 73,
           "nat": "Spain",
           "dp": [
             "CM"
@@ -702,7 +703,7 @@
         {
           "n": "Isidro",
           "p": "DF",
-          "r": 76,
+          "r": 73,
           "nat": "Spain",
           "dp": [
             "RB"
@@ -711,7 +712,7 @@
         {
           "n": "Pirri",
           "p": "MF",
-          "r": 80,
+          "r": 78,
           "nat": "Spain",
           "dp": [
             "CM",
@@ -721,7 +722,7 @@
         {
           "n": "Francisco Pineda",
           "p": "MF",
-          "r": 75,
+          "r": 72,
           "nat": "Spain",
           "dp": [
             "RM"
@@ -784,7 +785,7 @@
         {
           "n": "Harald Schumacher",
           "p": "GK",
-          "r": 83,
+          "r": 81,
           "nat": "Germany",
           "dp": [
             "GK"
@@ -793,7 +794,7 @@
         {
           "n": "Klaus Scheer",
           "p": "GK",
-          "r": 72,
+          "r": 70,
           "nat": "Germany",
           "dp": [
             "GK"
@@ -802,7 +803,7 @@
         {
           "n": "Harald Konopka",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "Germany",
           "dp": [
             "RB"
@@ -811,7 +812,7 @@
         {
           "n": "Gerhard Strack",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "Germany",
           "dp": [
             "CB"
@@ -820,7 +821,7 @@
         {
           "n": "Herbert Zimmermann",
           "p": "MF",
-          "r": 79,
+          "r": 77,
           "nat": "Germany",
           "dp": [
             "RM",
@@ -830,7 +831,7 @@
         {
           "n": "Bernd Cullmann",
           "p": "MF",
-          "r": 79,
+          "r": 77,
           "nat": "Germany",
           "dp": [
             "CM",
@@ -840,7 +841,7 @@
         {
           "n": "Heinz Flohe",
           "p": "MF",
-          "r": 83,
+          "r": 81,
           "nat": "Germany",
           "dp": [
             "AM",
@@ -850,7 +851,7 @@
         {
           "n": "Bernd Klotz",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Germany",
           "dp": [
             "LB"
@@ -859,7 +860,7 @@
         {
           "n": "Roger Van Gool",
           "p": "FW",
-          "r": 79,
+          "r": 77,
           "nat": "Belgium",
           "dp": [
             "RW"
@@ -868,7 +869,7 @@
         {
           "n": "Dieter Müller",
           "p": "FW",
-          "r": 83,
+          "r": 81,
           "nat": "Germany",
           "dp": [
             "CF"
@@ -877,7 +878,7 @@
         {
           "n": "Rolf Pingel",
           "p": "FW",
-          "r": 75,
+          "r": 73,
           "nat": "Germany",
           "dp": [
             "CF"
@@ -886,7 +887,7 @@
         {
           "n": "Yasuhiko Okudera",
           "p": "MF",
-          "r": 77,
+          "r": 75,
           "nat": "Japan",
           "dp": [
             "LM",
@@ -896,7 +897,7 @@
         {
           "n": "Dieter Prestin",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Germany",
           "dp": [
             "CB"
@@ -905,7 +906,7 @@
         {
           "n": "Wolfgang Glock",
           "p": "MF",
-          "r": 75,
+          "r": 73,
           "nat": "Germany",
           "dp": [
             "CM"
@@ -914,7 +915,7 @@
         {
           "n": "Bernd Schuster",
           "p": "MF",
-          "r": 80,
+          "r": 78,
           "nat": "Germany",
           "dp": [
             "CM",
@@ -924,7 +925,7 @@
         {
           "n": "Dieter Heinrichs",
           "p": "DF",
-          "r": 74,
+          "r": 72,
           "nat": "Germany",
           "dp": [
             "LB"
@@ -961,7 +962,7 @@
         {
           "n": "Friedl Koncilia",
           "p": "GK",
-          "r": 81,
+          "r": 79,
           "nat": "Austria",
           "dp": [
             "GK"
@@ -970,7 +971,7 @@
         {
           "n": "Robert Sara",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "Austria",
           "dp": [
             "RB",
@@ -980,7 +981,7 @@
         {
           "n": "Erich Obermayer",
           "p": "DF",
-          "r": 79,
+          "r": 77,
           "nat": "Austria",
           "dp": [
             "CB"
@@ -989,7 +990,7 @@
         {
           "n": "Josef Hickersberger",
           "p": "MF",
-          "r": 80,
+          "r": 78,
           "nat": "Austria",
           "dp": [
             "CM",
@@ -999,7 +1000,7 @@
         {
           "n": "Heinrich Strasser",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Austria",
           "dp": [
             "LB"
@@ -1008,7 +1009,7 @@
         {
           "n": "Felix Gasselich",
           "p": "MF",
-          "r": 78,
+          "r": 76,
           "nat": "Austria",
           "dp": [
             "AM",
@@ -1018,7 +1019,7 @@
         {
           "n": "Herbert Prohaska",
           "p": "MF",
-          "r": 84,
+          "r": 82,
           "nat": "Austria",
           "dp": [
             "CM",
@@ -1028,7 +1029,7 @@
         {
           "n": "Thomas Parits",
           "p": "FW",
-          "r": 78,
+          "r": 76,
           "nat": "Austria",
           "dp": [
             "CF"
@@ -1037,7 +1038,7 @@
         {
           "n": "Walter Schachner",
           "p": "FW",
-          "r": 81,
+          "r": 79,
           "nat": "Austria",
           "dp": [
             "CF",
@@ -1047,7 +1048,7 @@
         {
           "n": "Johann Pirkner",
           "p": "FW",
-          "r": 77,
+          "r": 75,
           "nat": "Austria",
           "dp": [
             "CF"
@@ -1056,7 +1057,7 @@
         {
           "n": "Wilhelm Kreuz",
           "p": "MF",
-          "r": 77,
+          "r": 75,
           "nat": "Austria",
           "dp": [
             "LM",
@@ -1066,7 +1067,7 @@
         {
           "n": "Robert Daxbacher",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Austria",
           "dp": [
             "CB"
@@ -1075,7 +1076,7 @@
         {
           "n": "Gerhard Steinkogler",
           "p": "FW",
-          "r": 74,
+          "r": 72,
           "nat": "Austria",
           "dp": [
             "CF"
@@ -1084,7 +1085,7 @@
         {
           "n": "Franz Wohlfahrt",
           "p": "GK",
-          "r": 73,
+          "r": 71,
           "nat": "Austria",
           "dp": [
             "GK"
@@ -1093,7 +1094,7 @@
         {
           "n": "Ernst Baumeister",
           "p": "MF",
-          "r": 76,
+          "r": 74,
           "nat": "Austria",
           "dp": [
             "CM"
@@ -1102,7 +1103,7 @@
         {
           "n": "Karl Daxbacher",
           "p": "MF",
-          "r": 75,
+          "r": 73,
           "nat": "Austria",
           "dp": [
             "DM"
@@ -1217,7 +1218,7 @@
         {
           "n": "Jan Möller",
           "p": "GK",
-          "r": 77,
+          "r": 75,
           "nat": "Sweden",
           "dp": [
             "GK"
@@ -1226,7 +1227,7 @@
         {
           "n": "Roland Andersson",
           "p": "DF",
-          "r": 74,
+          "r": 72,
           "nat": "Sweden",
           "dp": [
             "RB"
@@ -1235,7 +1236,7 @@
         {
           "n": "Ingemar Erlandsson",
           "p": "DF",
-          "r": 73,
+          "r": 71,
           "nat": "Sweden",
           "dp": [
             "CB"
@@ -1244,7 +1245,7 @@
         {
           "n": "Staffan Tapper",
           "p": "MF",
-          "r": 78,
+          "r": 76,
           "nat": "Sweden",
           "dp": [
             "DM",
@@ -1254,7 +1255,7 @@
         {
           "n": "Magnus Andersson",
           "p": "DF",
-          "r": 73,
+          "r": 71,
           "nat": "Sweden",
           "dp": [
             "CB",
@@ -1264,7 +1265,7 @@
         {
           "n": "Kent Jönsson",
           "p": "DF",
-          "r": 74,
+          "r": 72,
           "nat": "Sweden",
           "dp": [
             "CB"
@@ -1273,7 +1274,7 @@
         {
           "n": "Robert Prytz",
           "p": "MF",
-          "r": 77,
+          "r": 75,
           "nat": "Sweden",
           "dp": [
             "AM",
@@ -1283,7 +1284,7 @@
         {
           "n": "Anders Ljungberg",
           "p": "MF",
-          "r": 76,
+          "r": 74,
           "nat": "Sweden",
           "dp": [
             "LW",
@@ -1293,7 +1294,7 @@
         {
           "n": "Tore Cervin",
           "p": "FW",
-          "r": 74,
+          "r": 72,
           "nat": "Sweden",
           "dp": [
             "FW"
@@ -1302,7 +1303,7 @@
         {
           "n": "Jan-Olov Kindvall",
           "p": "MF",
-          "r": 74,
+          "r": 72,
           "nat": "Sweden",
           "dp": [
             "RM",
@@ -1312,7 +1313,7 @@
         {
           "n": "Tommy Hansson",
           "p": "FW",
-          "r": 73,
+          "r": 71,
           "nat": "Sweden",
           "dp": [
             "FW"
@@ -1321,7 +1322,7 @@
         {
           "n": "Roy Andersson",
           "p": "DF",
-          "r": 77,
+          "r": 75,
           "nat": "Sweden",
           "dp": [
             "CB"
@@ -1330,7 +1331,7 @@
         {
           "n": "Krister Kristensson",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Sweden",
           "dp": [
             "CB"
@@ -1339,7 +1340,7 @@
         {
           "n": "Bo Larsson",
           "p": "FW",
-          "r": 82,
+          "r": 81,
           "nat": "Sweden",
           "dp": [
             "CF",
@@ -1349,7 +1350,7 @@
         {
           "n": "Claes Malmberg",
           "p": "MF",
-          "r": 72,
+          "r": 69,
           "nat": "Sweden",
           "dp": [
             "CM"
@@ -1358,7 +1359,7 @@
         {
           "n": "Mats Arvidsson",
           "p": "MF",
-          "r": 72,
+          "r": 70,
           "nat": "Sweden",
           "dp": [
             "RM"
@@ -1395,7 +1396,7 @@
         {
           "n": "Peter Shilton",
           "p": "GK",
-          "r": 88,
+          "r": 85,
           "nat": "England",
           "dp": [
             "GK"
@@ -1404,7 +1405,7 @@
         {
           "n": "Chris Woods",
           "p": "GK",
-          "r": 72,
+          "r": 70,
           "nat": "England",
           "dp": [
             "GK"
@@ -1413,7 +1414,7 @@
         {
           "n": "Viv Anderson",
           "p": "DF",
-          "r": 80,
+          "r": 78,
           "nat": "England",
           "dp": [
             "RB"
@@ -1422,7 +1423,7 @@
         {
           "n": "Kenny Burns",
           "p": "DF",
-          "r": 82,
+          "r": 80,
           "nat": "Scotland",
           "dp": [
             "CB"
@@ -1431,7 +1432,7 @@
         {
           "n": "Larry Lloyd",
           "p": "DF",
-          "r": 80,
+          "r": 78,
           "nat": "England",
           "dp": [
             "CB"
@@ -1440,7 +1441,7 @@
         {
           "n": "Frank Clark",
           "p": "DF",
-          "r": 75,
+          "r": 72,
           "nat": "England",
           "dp": [
             "LB"
@@ -1449,7 +1450,7 @@
         {
           "n": "Trevor Francis",
           "p": "FW",
-          "r": 85,
+          "r": 82,
           "nat": "England",
           "dp": [
             "RW",
@@ -1459,7 +1460,7 @@
         {
           "n": "Ian Bowyer",
           "p": "MF",
-          "r": 77,
+          "r": 75,
           "nat": "England",
           "dp": [
             "CM"
@@ -1468,7 +1469,7 @@
         {
           "n": "John McGovern",
           "p": "MF",
-          "r": 76,
+          "r": 74,
           "nat": "England",
           "dp": [
             "CM"
@@ -1477,7 +1478,7 @@
         {
           "n": "John Robertson",
           "p": "MF",
-          "r": 83,
+          "r": 81,
           "nat": "Scotland",
           "dp": [
             "LW"
@@ -1486,7 +1487,7 @@
         {
           "n": "Tony Woodcock",
           "p": "FW",
-          "r": 81,
+          "r": 78,
           "nat": "England",
           "dp": [
             "CF"
@@ -1495,7 +1496,7 @@
         {
           "n": "Garry Birtles",
           "p": "FW",
-          "r": 79,
+          "r": 77,
           "nat": "England",
           "dp": [
             "CF"
@@ -1504,7 +1505,7 @@
         {
           "n": "Archie Gemmill",
           "p": "MF",
-          "r": 80,
+          "r": 78,
           "nat": "Scotland",
           "dp": [
             "CM"
@@ -1513,7 +1514,7 @@
         {
           "n": "David Needham",
           "p": "DF",
-          "r": 73,
+          "r": 70,
           "nat": "England",
           "dp": [
             "CB"
@@ -1654,7 +1655,7 @@
         {
           "n": "Wolfgang Kneib",
           "p": "GK",
-          "r": 79,
+          "r": 77,
           "nat": "Germany",
           "dp": [
             "GK"
@@ -1672,7 +1673,7 @@
         {
           "n": "Berti Vogts",
           "p": "DF",
-          "r": 83,
+          "r": 81,
           "nat": "Germany",
           "dp": [
             "RB"
@@ -1681,7 +1682,7 @@
         {
           "n": "Hans Klinkhammer",
           "p": "DF",
-          "r": 77,
+          "r": 75,
           "nat": "Germany",
           "dp": [
             "CB"
@@ -1690,7 +1691,7 @@
         {
           "n": "Hans-Jürgen Wittkamp",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "Germany",
           "dp": [
             "CB"
@@ -1699,7 +1700,7 @@
         {
           "n": "Wilfried Hannes",
           "p": "DF",
-          "r": 77,
+          "r": 76,
           "nat": "Germany",
           "dp": [
             "CB"
@@ -1708,7 +1709,7 @@
         {
           "n": "Rainer Bonhof",
           "p": "MF",
-          "r": 83,
+          "r": 81,
           "nat": "Germany",
           "dp": [
             "CM",
@@ -1718,7 +1719,7 @@
         {
           "n": "Horst Wohlers",
           "p": "MF",
-          "r": 78,
+          "r": 76,
           "nat": "Germany",
           "dp": [
             "CM"
@@ -1727,7 +1728,7 @@
         {
           "n": "Uli Stielike",
           "p": "MF",
-          "r": 82,
+          "r": 80,
           "nat": "Germany",
           "dp": [
             "DM",
@@ -1737,7 +1738,7 @@
         {
           "n": "Allan Simonsen",
           "p": "FW",
-          "r": 85,
+          "r": 83,
           "nat": "Denmark",
           "dp": [
             "RW",
@@ -1747,7 +1748,7 @@
         {
           "n": "Jupp Heynckes",
           "p": "FW",
-          "r": 83,
+          "r": 81,
           "nat": "Germany",
           "dp": [
             "CF"
@@ -1756,7 +1757,7 @@
         {
           "n": "Herbert Wimmer",
           "p": "MF",
-          "r": 79,
+          "r": 77,
           "nat": "Germany",
           "dp": [
             "CM"
@@ -1765,7 +1766,7 @@
         {
           "n": "Christian Kulik",
           "p": "MF",
-          "r": 77,
+          "r": 73,
           "nat": "Germany",
           "dp": [
             "AM"
@@ -1774,7 +1775,7 @@
         {
           "n": "Kalle Del'Haye",
           "p": "FW",
-          "r": 77,
+          "r": 75,
           "nat": "Germany",
           "dp": [
             "RW",
@@ -1784,7 +1785,7 @@
         {
           "n": "Winfried Schäfer",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Germany",
           "dp": [
             "LB"
@@ -1793,7 +1794,7 @@
         {
           "n": "Dietmar Danner",
           "p": "MF",
-          "r": 77,
+          "r": 74,
           "nat": "Germany",
           "dp": [
             "RM",
@@ -1831,7 +1832,7 @@
         {
           "n": "Birger Jensen",
           "p": "GK",
-          "r": 78,
+          "r": 77,
           "nat": "Denmark",
           "dp": [
             "GK"
@@ -1840,7 +1841,7 @@
         {
           "n": "Alfons Bastijns",
           "p": "DF",
-          "r": 74,
+          "r": 71,
           "nat": "Belgium",
           "dp": [
             "RB"
@@ -1849,7 +1850,7 @@
         {
           "n": "Eduard Krieger",
           "p": "DF",
-          "r": 73,
+          "r": 69,
           "nat": "Belgium",
           "dp": [
             "CB"
@@ -1858,7 +1859,7 @@
         {
           "n": "Georges Leekens",
           "p": "DF",
-          "r": 77,
+          "r": 76,
           "nat": "Belgium",
           "dp": [
             "CB"
@@ -1867,7 +1868,7 @@
         {
           "n": "Gino Maes",
           "p": "DF",
-          "r": 73,
+          "r": 70,
           "nat": "Belgium",
           "dp": [
             "LB"
@@ -1876,7 +1877,7 @@
         {
           "n": "Julien Cools",
           "p": "MF",
-          "r": 76,
+          "r": 74,
           "nat": "Belgium",
           "dp": [
             "DM",
@@ -1886,7 +1887,7 @@
         {
           "n": "Daniel De Cubber",
           "p": "MF",
-          "r": 75,
+          "r": 73,
           "nat": "Belgium",
           "dp": [
             "CM"
@@ -1895,7 +1896,7 @@
         {
           "n": "René Vandereycken",
           "p": "MF",
-          "r": 80,
+          "r": 81,
           "nat": "Belgium",
           "dp": [
             "CM"
@@ -1904,7 +1905,7 @@
         {
           "n": "Lajos Kű",
           "p": "MF",
-          "r": 74,
+          "r": 71,
           "nat": "Hungary",
           "dp": [
             "AM"
@@ -1913,7 +1914,7 @@
         {
           "n": "Jan Sørensen",
           "p": "FW",
-          "r": 77,
+          "r": 76,
           "nat": "Denmark",
           "dp": [
             "FW"
@@ -1922,7 +1923,7 @@
         {
           "n": "Jan Simoen",
           "p": "FW",
-          "r": 74,
+          "r": 71,
           "nat": "Belgium",
           "dp": [
             "CF"
@@ -1931,7 +1932,7 @@
         {
           "n": "Erwin Vandenbergh",
           "p": "FW",
-          "r": 76,
+          "r": 75,
           "nat": "Belgium",
           "dp": [
             "CF"
@@ -1940,7 +1941,7 @@
         {
           "n": "Roger Van Gool",
           "p": "FW",
-          "r": 77,
+          "r": 76,
           "nat": "Belgium",
           "dp": [
             "RW"
@@ -1977,7 +1978,7 @@
         {
           "n": "Dino Zoff",
           "p": "GK",
-          "r": 86,
+          "r": 83,
           "nat": "Italy",
           "dp": [
             "GK"
@@ -1986,7 +1987,7 @@
         {
           "n": "Massimo Piloni",
           "p": "GK",
-          "r": 72,
+          "r": 69,
           "nat": "Italy",
           "dp": [
             "GK"
@@ -1995,7 +1996,7 @@
         {
           "n": "Claudio Gentile",
           "p": "DF",
-          "r": 83,
+          "r": 80,
           "nat": "Italy",
           "dp": [
             "RB",
@@ -2005,7 +2006,7 @@
         {
           "n": "Gaetano Scirea",
           "p": "DF",
-          "r": 85,
+          "r": 83,
           "nat": "Italy",
           "dp": [
             "CB"
@@ -2014,7 +2015,7 @@
         {
           "n": "Sergio Brio",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "Italy",
           "dp": [
             "CB"
@@ -2023,7 +2024,7 @@
         {
           "n": "Antonello Cuccureddu",
           "p": "DF",
-          "r": 78,
+          "r": 75,
           "nat": "Italy",
           "dp": [
             "LB",
@@ -2033,7 +2034,7 @@
         {
           "n": "Giuseppe Furino",
           "p": "MF",
-          "r": 81,
+          "r": 78,
           "nat": "Italy",
           "dp": [
             "CM",
@@ -2043,7 +2044,7 @@
         {
           "n": "Romeo Benetti",
           "p": "MF",
-          "r": 81,
+          "r": 78,
           "nat": "Italy",
           "dp": [
             "CM"
@@ -2052,7 +2053,7 @@
         {
           "n": "Marco Tardelli",
           "p": "MF",
-          "r": 82,
+          "r": 80,
           "nat": "Italy",
           "dp": [
             "CM"
@@ -2061,7 +2062,7 @@
         {
           "n": "Franco Causio",
           "p": "MF",
-          "r": 82,
+          "r": 79,
           "nat": "Italy",
           "dp": [
             "AM",
@@ -2071,7 +2072,7 @@
         {
           "n": "Roberto Bettega",
           "p": "FW",
-          "r": 84,
+          "r": 81,
           "nat": "Italy",
           "dp": [
             "CF"
@@ -2080,7 +2081,7 @@
         {
           "n": "Pietro Paolo Virdis",
           "p": "FW",
-          "r": 78,
+          "r": 76,
           "nat": "Italy",
           "dp": [
             "CF"
@@ -2089,7 +2090,7 @@
         {
           "n": "Roberto Boninsegna",
           "p": "FW",
-          "r": 81,
+          "r": 79,
           "nat": "Italy",
           "dp": [
             "CF"
@@ -2098,7 +2099,7 @@
         {
           "n": "Giuseppe Damiani",
           "p": "FW",
-          "r": 76,
+          "r": 73,
           "nat": "Italy",
           "dp": [
             "LW",
@@ -2108,7 +2109,7 @@
         {
           "n": "Domenico Marocchino",
           "p": "MF",
-          "r": 75,
+          "r": 72,
           "nat": "Italy",
           "dp": [
             "RM"
@@ -2117,7 +2118,7 @@
         {
           "n": "Gianfranco Zanon",
           "p": "DF",
-          "r": 74,
+          "r": 71,
           "nat": "Italy",
           "dp": [
             "RB"
@@ -2154,7 +2155,7 @@
         {
           "n": "Ray Clemence",
           "p": "GK",
-          "r": 87,
+          "r": 84,
           "nat": "England",
           "dp": [
             "GK"
@@ -2163,7 +2164,7 @@
         {
           "n": "Phil Neal",
           "p": "DF",
-          "r": 82,
+          "r": 79,
           "nat": "England",
           "dp": [
             "RB"
@@ -2172,7 +2173,7 @@
         {
           "n": "Phil Thompson",
           "p": "DF",
-          "r": 81,
+          "r": 78,
           "nat": "England",
           "dp": [
             "CB"
@@ -2181,7 +2182,7 @@
         {
           "n": "Alan Hansen",
           "p": "DF",
-          "r": 84,
+          "r": 81,
           "nat": "Scotland",
           "dp": [
             "CB"
@@ -2190,7 +2191,7 @@
         {
           "n": "Ray Kennedy",
           "p": "MF",
-          "r": 81,
+          "r": 78,
           "nat": "England",
           "dp": [
             "LM"
@@ -2199,7 +2200,7 @@
         {
           "n": "Emlyn Hughes",
           "p": "DF",
-          "r": 82,
+          "r": 79,
           "nat": "England",
           "dp": [
             "LB"
@@ -2208,7 +2209,7 @@
         {
           "n": "Terry McDermott",
           "p": "MF",
-          "r": 82,
+          "r": 79,
           "nat": "England",
           "dp": [
             "CM"
@@ -2217,7 +2218,7 @@
         {
           "n": "Jimmy Case",
           "p": "MF",
-          "r": 79,
+          "r": 76,
           "nat": "England",
           "dp": [
             "RM",
@@ -2227,7 +2228,7 @@
         {
           "n": "Graeme Souness",
           "p": "MF",
-          "r": 86,
+          "r": 83,
           "nat": "Scotland",
           "dp": [
             "CM"
@@ -2236,7 +2237,7 @@
         {
           "n": "Steve Heighway",
           "p": "MF",
-          "r": 79,
+          "r": 76,
           "nat": "Republic of Ireland",
           "dp": [
             "LW"
@@ -2245,7 +2246,7 @@
         {
           "n": "Kenny Dalglish",
           "p": "FW",
-          "r": 89,
+          "r": 86,
           "nat": "Scotland",
           "dp": [
             "SS",
@@ -2255,7 +2256,7 @@
         {
           "n": "David Fairclough",
           "p": "FW",
-          "r": 73,
+          "r": 70,
           "nat": "England",
           "dp": [
             "FW"
@@ -2370,7 +2371,7 @@
         {
           "n": "Wolfgang Kneib",
           "p": "GK",
-          "r": 77,
+          "r": 75,
           "nat": "West Germany",
           "dp": [
             "GK"
@@ -2379,7 +2380,7 @@
         {
           "n": "Berti Vogts",
           "p": "DF",
-          "r": 84,
+          "r": 82,
           "nat": "West Germany",
           "dp": [
             "RB"
@@ -2388,7 +2389,7 @@
         {
           "n": "Hans Klinkhammer",
           "p": "DF",
-          "r": 73,
+          "r": 72,
           "nat": "West Germany",
           "dp": [
             "CB"
@@ -2397,7 +2398,7 @@
         {
           "n": "Bernard Dietz",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "West Germany",
           "dp": [
             "CB"
@@ -2415,7 +2416,7 @@
         {
           "n": "Rainer Bonhof",
           "p": "MF",
-          "r": 83,
+          "r": 81,
           "nat": "West Germany",
           "dp": [
             "CM",
@@ -2425,7 +2426,7 @@
         {
           "n": "Herbert Wimmer",
           "p": "MF",
-          "r": 77,
+          "r": 75,
           "nat": "West Germany",
           "dp": [
             "CM"
@@ -2434,7 +2435,7 @@
         {
           "n": "Christian Kulik",
           "p": "MF",
-          "r": 73,
+          "r": 69,
           "nat": "West Germany",
           "dp": [
             "CM"
@@ -2443,7 +2444,7 @@
         {
           "n": "Uli Stielike",
           "p": "MF",
-          "r": 82,
+          "r": 80,
           "nat": "West Germany",
           "dp": [
             "DM"
@@ -2452,7 +2453,7 @@
         {
           "n": "Hans-Jürgen Wittkamp",
           "p": "DF",
-          "r": 73,
+          "r": 71,
           "nat": "West Germany",
           "dp": [
             "CB"
@@ -2461,7 +2462,7 @@
         {
           "n": "Frank Wohlers",
           "p": "MF",
-          "r": 73,
+          "r": 70,
           "nat": "West Germany",
           "dp": [
             "LM"
@@ -2470,7 +2471,7 @@
         {
           "n": "Allan Simonsen",
           "p": "FW",
-          "r": 86,
+          "r": 84,
           "nat": "Denmark",
           "dp": [
             "FW",
@@ -2480,7 +2481,7 @@
         {
           "n": "Jupp Heynckes",
           "p": "FW",
-          "r": 82,
+          "r": 80,
           "nat": "West Germany",
           "dp": [
             "CF"
@@ -2489,7 +2490,7 @@
         {
           "n": "Henning Jensen",
           "p": "FW",
-          "r": 77,
+          "r": 75,
           "nat": "Denmark",
           "dp": [
             "FW"
@@ -2526,7 +2527,7 @@
         {
           "n": "Yevhen Rudakov",
           "p": "GK",
-          "r": 82,
+          "r": 80,
           "nat": "Soviet Union",
           "dp": [
             "GK"
@@ -2535,7 +2536,7 @@
         {
           "n": "Mykhailo Mykhailov",
           "p": "GK",
-          "r": 72,
+          "r": 70,
           "nat": "Soviet Union",
           "dp": [
             "GK"
@@ -2544,7 +2545,7 @@
         {
           "n": "Volodymyr Troshkin",
           "p": "DF",
-          "r": 79,
+          "r": 77,
           "nat": "Soviet Union",
           "dp": [
             "RB"
@@ -2553,7 +2554,7 @@
         {
           "n": "Mykhailo Fomenko",
           "p": "DF",
-          "r": 79,
+          "r": 77,
           "nat": "Soviet Union",
           "dp": [
             "CB"
@@ -2562,7 +2563,7 @@
         {
           "n": "Stefan Reshko",
           "p": "DF",
-          "r": 79,
+          "r": 77,
           "nat": "Soviet Union",
           "dp": [
             "CB"
@@ -2571,7 +2572,7 @@
         {
           "n": "Viktor Matviyenko",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "Soviet Union",
           "dp": [
             "LB"
@@ -2580,7 +2581,7 @@
         {
           "n": "Volodymyr Muntyan",
           "p": "MF",
-          "r": 82,
+          "r": 80,
           "nat": "Soviet Union",
           "dp": [
             "CM",
@@ -2590,7 +2591,7 @@
         {
           "n": "Volodymyr Veremeyev",
           "p": "MF",
-          "r": 81,
+          "r": 79,
           "nat": "Soviet Union",
           "dp": [
             "CM"
@@ -2599,7 +2600,7 @@
         {
           "n": "Anatoliy Konkov",
           "p": "MF",
-          "r": 80,
+          "r": 78,
           "nat": "Soviet Union",
           "dp": [
             "DM",
@@ -2609,7 +2610,7 @@
         {
           "n": "Oleh Blokhin",
           "p": "FW",
-          "r": 86,
+          "r": 83,
           "nat": "Soviet Union",
           "dp": [
             "LW",
@@ -2619,7 +2620,7 @@
         {
           "n": "Volodymyr Onyshchenko",
           "p": "FW",
-          "r": 81,
+          "r": 79,
           "nat": "Soviet Union",
           "dp": [
             "CF"
@@ -2628,7 +2629,7 @@
         {
           "n": "Leonid Buryak",
           "p": "MF",
-          "r": 82,
+          "r": 80,
           "nat": "Soviet Union",
           "dp": [
             "CM",
@@ -2638,7 +2639,7 @@
         {
           "n": "Viktor Kolotov",
           "p": "MF",
-          "r": 82,
+          "r": 80,
           "nat": "Soviet Union",
           "dp": [
             "CM"
@@ -2647,7 +2648,7 @@
         {
           "n": "Anatoliy Boyko",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Soviet Union",
           "dp": [
             "RB"
@@ -2656,7 +2657,7 @@
         {
           "n": "Petro Slobodyan",
           "p": "FW",
-          "r": 77,
+          "r": 75,
           "nat": "Soviet Union",
           "dp": [
             "CF"
@@ -2665,7 +2666,7 @@
         {
           "n": "Oleksandr Berezhnyi",
           "p": "DF",
-          "r": 74,
+          "r": 72,
           "nat": "Soviet Union",
           "dp": [
             "CB"
@@ -2702,7 +2703,7 @@
         {
           "n": "Karl Grob",
           "p": "GK",
-          "r": 79,
+          "r": 78,
           "nat": "Switzerland",
           "dp": [
             "GK"
@@ -2711,7 +2712,7 @@
         {
           "n": "Erminio Pianta",
           "p": "GK",
-          "r": 72,
+          "r": 69,
           "nat": "Switzerland",
           "dp": [
             "GK"
@@ -2720,7 +2721,7 @@
         {
           "n": "Gianpietro Zappa",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "Switzerland",
           "dp": [
             "CB"
@@ -2729,7 +2730,7 @@
         {
           "n": "Rudolf Brunnenmeier",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Switzerland",
           "dp": [
             "RB"
@@ -2738,7 +2739,7 @@
         {
           "n": "Reto Stäuble",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Switzerland",
           "dp": [
             "CB"
@@ -2747,7 +2748,7 @@
         {
           "n": "Ruedi Heer",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Switzerland",
           "dp": [
             "LB"
@@ -2756,7 +2757,7 @@
         {
           "n": "Karl Heinz Fischbach",
           "p": "MF",
-          "r": 78,
+          "r": 76,
           "nat": "Switzerland",
           "dp": [
             "CM"
@@ -2765,7 +2766,7 @@
         {
           "n": "Iljas Katić",
           "p": "MF",
-          "r": 78,
+          "r": 76,
           "nat": "Yugoslavia",
           "dp": [
             "CM",
@@ -2775,7 +2776,7 @@
         {
           "n": "Hansruedi Baumann",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Switzerland",
           "dp": [
             "CB"
@@ -2784,7 +2785,7 @@
         {
           "n": "Franco Cucinotta",
           "p": "FW",
-          "r": 78,
+          "r": 76,
           "nat": "Switzerland",
           "dp": [
             "CF"
@@ -2793,7 +2794,7 @@
         {
           "n": "René Botteron",
           "p": "MF",
-          "r": 80,
+          "r": 79,
           "nat": "Switzerland",
           "dp": [
             "AM",
@@ -2803,7 +2804,7 @@
         {
           "n": "Daniel Jeandupeux",
           "p": "FW",
-          "r": 80,
+          "r": 79,
           "nat": "Switzerland",
           "dp": [
             "CF"
@@ -2812,7 +2813,7 @@
         {
           "n": "Peter Risi",
           "p": "FW",
-          "r": 79,
+          "r": 78,
           "nat": "Switzerland",
           "dp": [
             "CF"
@@ -2821,7 +2822,7 @@
         {
           "n": "Hansjörg Pfister",
           "p": "FW",
-          "r": 75,
+          "r": 73,
           "nat": "Switzerland",
           "dp": [
             "RW"
@@ -2830,7 +2831,7 @@
         {
           "n": "Kurt Baldinger",
           "p": "DF",
-          "r": 74,
+          "r": 71,
           "nat": "Switzerland",
           "dp": [
             "RB"
@@ -2839,7 +2840,7 @@
         {
           "n": "Walter Seili",
           "p": "MF",
-          "r": 73,
+          "r": 70,
           "nat": "Switzerland",
           "dp": [
             "LM"
@@ -2928,7 +2929,7 @@
         {
           "n": "Ray Clemence",
           "p": "GK",
-          "r": 87,
+          "r": 84,
           "nat": "England",
           "dp": [
             "GK"
@@ -2937,7 +2938,7 @@
         {
           "n": "Phil Neal",
           "p": "DF",
-          "r": 82,
+          "r": 79,
           "nat": "England",
           "dp": [
             "RB"
@@ -2946,7 +2947,7 @@
         {
           "n": "Joey Jones",
           "p": "DF",
-          "r": 74,
+          "r": 71,
           "nat": "Wales",
           "dp": [
             "LB"
@@ -2955,7 +2956,7 @@
         {
           "n": "Tommy Smith",
           "p": "DF",
-          "r": 80,
+          "r": 77,
           "nat": "England",
           "dp": [
             "CB"
@@ -2964,7 +2965,7 @@
         {
           "n": "Emlyn Hughes",
           "p": "DF",
-          "r": 83,
+          "r": 80,
           "nat": "England",
           "dp": [
             "CB"
@@ -2973,7 +2974,7 @@
         {
           "n": "Ian Callaghan",
           "p": "MF",
-          "r": 78,
+          "r": 75,
           "nat": "England",
           "dp": [
             "RM"
@@ -2982,7 +2983,7 @@
         {
           "n": "Terry McDermott",
           "p": "MF",
-          "r": 81,
+          "r": 78,
           "nat": "England",
           "dp": [
             "CM"
@@ -2991,7 +2992,7 @@
         {
           "n": "Jimmy Case",
           "p": "MF",
-          "r": 78,
+          "r": 75,
           "nat": "England",
           "dp": [
             "RM",
@@ -3001,7 +3002,7 @@
         {
           "n": "Steve Heighway",
           "p": "MF",
-          "r": 80,
+          "r": 77,
           "nat": "Republic of Ireland",
           "dp": [
             "LW"
@@ -3010,7 +3011,7 @@
         {
           "n": "Kevin Keegan",
           "p": "FW",
-          "r": 88,
+          "r": 85,
           "nat": "England",
           "dp": [
             "FW",
@@ -3020,7 +3021,7 @@
         {
           "n": "Kenny Dalglish",
           "p": "FW",
-          "r": 88,
+          "r": 85,
           "nat": "Scotland",
           "dp": [
             "SS"
@@ -3029,7 +3030,7 @@
         {
           "n": "David Fairclough",
           "p": "FW",
-          "r": 73,
+          "r": 70,
           "nat": "England",
           "dp": [
             "FW"
@@ -3038,7 +3039,7 @@
         {
           "n": "Ray Kennedy",
           "p": "MF",
-          "r": 80,
+          "r": 77,
           "nat": "England",
           "dp": [
             "LM"
@@ -3047,7 +3048,7 @@
         {
           "n": "Phil Thompson",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "England",
           "dp": [
             "CB"
@@ -3110,7 +3111,7 @@
         {
           "n": "Sepp Maier",
           "p": "GK",
-          "r": 87,
+          "r": 84,
           "nat": "West Germany",
           "dp": [
             "GK"
@@ -3119,7 +3120,7 @@
         {
           "n": "Johnny Hansen",
           "p": "DF",
-          "r": 74,
+          "r": 71,
           "nat": "Denmark",
           "dp": [
             "RB",
@@ -3129,7 +3130,7 @@
         {
           "n": "Udo Horsmann",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "West Germany",
           "dp": [
             "CB"
@@ -3138,7 +3139,7 @@
         {
           "n": "Hans-Georg Schwarzenbeck",
           "p": "DF",
-          "r": 82,
+          "r": 79,
           "nat": "West Germany",
           "dp": [
             "CB"
@@ -3147,7 +3148,7 @@
         {
           "n": "Franz Beckenbauer",
           "p": "DF",
-          "r": 91,
+          "r": 88,
           "nat": "West Germany",
           "dp": [
             "SW"
@@ -3156,7 +3157,7 @@
         {
           "n": "Bernd Dürnberger",
           "p": "MF",
-          "r": 76,
+          "r": 73,
           "nat": "West Germany",
           "dp": [
             "RM"
@@ -3165,7 +3166,7 @@
         {
           "n": "Franz Roth",
           "p": "MF",
-          "r": 78,
+          "r": 75,
           "nat": "West Germany",
           "dp": [
             "CM",
@@ -3175,7 +3176,7 @@
         {
           "n": "Jupp Kapellmann",
           "p": "MF",
-          "r": 75,
+          "r": 72,
           "nat": "West Germany",
           "dp": [
             "AM",
@@ -3185,7 +3186,7 @@
         {
           "n": "Karl-Heinz Rummenigge",
           "p": "FW",
-          "r": 83,
+          "r": 80,
           "nat": "West Germany",
           "dp": [
             "FW",
@@ -3195,7 +3196,7 @@
         {
           "n": "Gerd Müller",
           "p": "FW",
-          "r": 91,
+          "r": 88,
           "nat": "West Germany",
           "dp": [
             "CF"
@@ -3204,7 +3205,7 @@
         {
           "n": "Uli Hoeneß",
           "p": "FW",
-          "r": 82,
+          "r": 79,
           "nat": "West Germany",
           "dp": [
             "FW"
@@ -3213,7 +3214,7 @@
         {
           "n": "Rainer Zobel",
           "p": "MF",
-          "r": 73,
+          "r": 71,
           "nat": "West Germany",
           "dp": [
             "CM"
@@ -3222,7 +3223,7 @@
         {
           "n": "Conny Torstensson",
           "p": "MF",
-          "r": 76,
+          "r": 74,
           "nat": "Sweden",
           "dp": [
             "RM"
@@ -3311,7 +3312,7 @@
         {
           "n": "Jan van Beveren",
           "p": "GK",
-          "r": 84,
+          "r": 82,
           "nat": "Netherlands",
           "dp": [
             "GK"
@@ -3320,7 +3321,7 @@
         {
           "n": "Pim Doesburg",
           "p": "GK",
-          "r": 74,
+          "r": 72,
           "nat": "Netherlands",
           "dp": [
             "GK"
@@ -3329,7 +3330,7 @@
         {
           "n": "Krijn Blaauw",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Netherlands",
           "dp": [
             "RB"
@@ -3338,7 +3339,7 @@
         {
           "n": "Jan Poortvliet",
           "p": "DF",
-          "r": 79,
+          "r": 77,
           "nat": "Netherlands",
           "dp": [
             "CB"
@@ -3347,7 +3348,7 @@
         {
           "n": "Adri van Kraay",
           "p": "DF",
-          "r": 79,
+          "r": 77,
           "nat": "Netherlands",
           "dp": [
             "CB"
@@ -3356,7 +3357,7 @@
         {
           "n": "Gerrie Deijkers",
           "p": "FW",
-          "r": 77,
+          "r": 75,
           "nat": "Netherlands",
           "dp": [
             "LW"
@@ -3365,7 +3366,7 @@
         {
           "n": "Willy van der Kuijlen",
           "p": "FW",
-          "r": 84,
+          "r": 82,
           "nat": "Netherlands",
           "dp": [
             "CF",
@@ -3375,7 +3376,7 @@
         {
           "n": "Jan van der Veen",
           "p": "MF",
-          "r": 77,
+          "r": 75,
           "nat": "Netherlands",
           "dp": [
             "CM"
@@ -3384,7 +3385,7 @@
         {
           "n": "Ralf Edström",
           "p": "FW",
-          "r": 82,
+          "r": 80,
           "nat": "Sweden",
           "dp": [
             "CF"
@@ -3393,7 +3394,7 @@
         {
           "n": "Willy van de Kerkhof",
           "p": "MF",
-          "r": 81,
+          "r": 79,
           "nat": "Netherlands",
           "dp": [
             "CM",
@@ -3403,7 +3404,7 @@
         {
           "n": "René van de Kerkhof",
           "p": "FW",
-          "r": 81,
+          "r": 79,
           "nat": "Netherlands",
           "dp": [
             "RW"
@@ -3412,7 +3413,7 @@
         {
           "n": "Harry Lubse",
           "p": "MF",
-          "r": 76,
+          "r": 74,
           "nat": "Netherlands",
           "dp": [
             "CM"
@@ -3421,7 +3422,7 @@
         {
           "n": "Gerrie van der Heijden",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Netherlands",
           "dp": [
             "LB"
@@ -3430,7 +3431,7 @@
         {
           "n": "Jan Stevens",
           "p": "DF",
-          "r": 74,
+          "r": 72,
           "nat": "Netherlands",
           "dp": [
             "RB"
@@ -3439,7 +3440,7 @@
         {
           "n": "Piet Schrijvers",
           "p": "GK",
-          "r": 78,
+          "r": 76,
           "nat": "Netherlands",
           "dp": [
             "GK"
@@ -3448,7 +3449,7 @@
         {
           "n": "Theo Laseroms",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Netherlands",
           "dp": [
             "CB"
@@ -3485,7 +3486,7 @@
         {
           "n": "Miguel Ángel González",
           "p": "GK",
-          "r": 81,
+          "r": 78,
           "nat": "Spain",
           "dp": [
             "GK"
@@ -3494,7 +3495,7 @@
         {
           "n": "García Remón",
           "p": "GK",
-          "r": 75,
+          "r": 72,
           "nat": "Spain",
           "dp": [
             "GK"
@@ -3503,7 +3504,7 @@
         {
           "n": "Sol",
           "p": "DF",
-          "r": 77,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "RB"
@@ -3512,7 +3513,7 @@
         {
           "n": "Gregorio Benito",
           "p": "DF",
-          "r": 81,
+          "r": 79,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -3521,7 +3522,7 @@
         {
           "n": "Camacho",
           "p": "DF",
-          "r": 81,
+          "r": 79,
           "nat": "Spain",
           "dp": [
             "LB"
@@ -3530,7 +3531,7 @@
         {
           "n": "Pirri",
           "p": "MF",
-          "r": 83,
+          "r": 81,
           "nat": "Spain",
           "dp": [
             "CM",
@@ -3540,7 +3541,7 @@
         {
           "n": "Francisco Zoco",
           "p": "DF",
-          "r": 77,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -3549,7 +3550,7 @@
         {
           "n": "Manuel Velázquez",
           "p": "MF",
-          "r": 80,
+          "r": 77,
           "nat": "Spain",
           "dp": [
             "CM",
@@ -3559,7 +3560,7 @@
         {
           "n": "Günter Netzer",
           "p": "MF",
-          "r": 84,
+          "r": 82,
           "nat": "Germany",
           "dp": [
             "AM",
@@ -3569,7 +3570,7 @@
         {
           "n": "Amancio Amaro",
           "p": "FW",
-          "r": 82,
+          "r": 80,
           "nat": "Spain",
           "dp": [
             "RW",
@@ -3579,7 +3580,7 @@
         {
           "n": "Santillana",
           "p": "FW",
-          "r": 83,
+          "r": 81,
           "nat": "Spain",
           "dp": [
             "CF"
@@ -3588,7 +3589,7 @@
         {
           "n": "Roberto Martínez",
           "p": "FW",
-          "r": 78,
+          "r": 75,
           "nat": "Spain",
           "dp": [
             "CF"
@@ -3597,7 +3598,7 @@
         {
           "n": "Óscar Más",
           "p": "FW",
-          "r": 79,
+          "r": 76,
           "nat": "Argentina",
           "dp": [
             "LW",
@@ -3607,7 +3608,7 @@
         {
           "n": "Vicente del Bosque",
           "p": "MF",
-          "r": 80,
+          "r": 78,
           "nat": "Spain",
           "dp": [
             "CM"
@@ -3616,7 +3617,7 @@
         {
           "n": "José Luis",
           "p": "DF",
-          "r": 76,
+          "r": 73,
           "nat": "Spain",
           "dp": [
             "RB"
@@ -3625,7 +3626,7 @@
         {
           "n": "Rubiñán",
           "p": "DF",
-          "r": 75,
+          "r": 72,
           "nat": "Spain",
           "dp": [
             "LB"
@@ -3662,7 +3663,7 @@
         {
           "n": "Ivan Ćurković",
           "p": "GK",
-          "r": 82,
+          "r": 79,
           "nat": "Yugoslavia",
           "dp": [
             "GK"
@@ -3671,7 +3672,7 @@
         {
           "n": "Gérard Janvion",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "France",
           "dp": [
             "RB",
@@ -3681,7 +3682,7 @@
         {
           "n": "Christian Lopez",
           "p": "DF",
-          "r": 81,
+          "r": 78,
           "nat": "France",
           "dp": [
             "CB",
@@ -3691,7 +3692,7 @@
         {
           "n": "Oswaldo Piazza",
           "p": "DF",
-          "r": 84,
+          "r": 82,
           "nat": "Argentina",
           "dp": [
             "CB"
@@ -3700,7 +3701,7 @@
         {
           "n": "Pierre Repellini",
           "p": "DF",
-          "r": 73,
+          "r": 71,
           "nat": "France",
           "dp": [
             "LB",
@@ -3710,7 +3711,7 @@
         {
           "n": "Gérard Farison",
           "p": "DF",
-          "r": 74,
+          "r": 72,
           "nat": "France",
           "dp": [
             "LB"
@@ -3719,7 +3720,7 @@
         {
           "n": "Dominique Bathenay",
           "p": "MF",
-          "r": 81,
+          "r": 78,
           "nat": "France",
           "dp": [
             "CM",
@@ -3729,7 +3730,7 @@
         {
           "n": "Jean-Michel Larqué",
           "p": "MF",
-          "r": 82,
+          "r": 80,
           "nat": "France",
           "dp": [
             "CM",
@@ -3739,7 +3740,7 @@
         {
           "n": "Christian Synaeghel",
           "p": "MF",
-          "r": 75,
+          "r": 73,
           "nat": "France",
           "dp": [
             "CM",
@@ -3749,7 +3750,7 @@
         {
           "n": "Jacques Santini",
           "p": "MF",
-          "r": 74,
+          "r": 72,
           "nat": "France",
           "dp": [
             "CM",
@@ -3759,7 +3760,7 @@
         {
           "n": "Dominique Rocheteau",
           "p": "FW",
-          "r": 84,
+          "r": 82,
           "nat": "France",
           "dp": [
             "RW",
@@ -3769,7 +3770,7 @@
         {
           "n": "Hervé Revelli",
           "p": "FW",
-          "r": 83,
+          "r": 80,
           "nat": "France",
           "dp": [
             "CF"
@@ -3778,7 +3779,7 @@
         {
           "n": "Patrick Revelli",
           "p": "FW",
-          "r": 77,
+          "r": 75,
           "nat": "France",
           "dp": [
             "LW",
@@ -3788,7 +3789,7 @@
         {
           "n": "Christian Sarramagna",
           "p": "FW",
-          "r": 74,
+          "r": 72,
           "nat": "France",
           "dp": [
             "LW"
@@ -3845,7 +3846,7 @@
         {
           "n": "Pedro María Artola",
           "p": "GK",
-          "r": 79,
+          "r": 76,
           "nat": "Spain",
           "dp": [
             "GK"
@@ -3854,7 +3855,7 @@
         {
           "n": "Salvador Sadurní",
           "p": "GK",
-          "r": 77,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "GK"
@@ -3863,7 +3864,7 @@
         {
           "n": "Antonio de la Cruz",
           "p": "DF",
-          "r": 77,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "RB"
@@ -3872,7 +3873,7 @@
         {
           "n": "Antonio Torres",
           "p": "DF",
-          "r": 78,
+          "r": 75,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -3881,7 +3882,7 @@
         {
           "n": "Migueli",
           "p": "DF",
-          "r": 81,
+          "r": 78,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -3890,7 +3891,7 @@
         {
           "n": "Joaquim Rifé",
           "p": "DF",
-          "r": 78,
+          "r": 75,
           "nat": "Spain",
           "dp": [
             "RB",
@@ -3900,7 +3901,7 @@
         {
           "n": "Francisco Gallego",
           "p": "MF",
-          "r": 79,
+          "r": 76,
           "nat": "Spain",
           "dp": [
             "CM"
@@ -3909,7 +3910,7 @@
         {
           "n": "Johan Neeskens",
           "p": "MF",
-          "r": 86,
+          "r": 83,
           "nat": "Netherlands",
           "dp": [
             "CM"
@@ -3918,7 +3919,7 @@
         {
           "n": "Johan Cruyff",
           "p": "FW",
-          "r": 92,
+          "r": 89,
           "nat": "Netherlands",
           "dp": [
             "CF",
@@ -3928,7 +3929,7 @@
         {
           "n": "Juan Manuel Asensi",
           "p": "MF",
-          "r": 82,
+          "r": 79,
           "nat": "Spain",
           "dp": [
             "AM",
@@ -3938,7 +3939,7 @@
         {
           "n": "Charly Rexach",
           "p": "FW",
-          "r": 82,
+          "r": 79,
           "nat": "Spain",
           "dp": [
             "RW"
@@ -3947,7 +3948,7 @@
         {
           "n": "Marcial Pina",
           "p": "FW",
-          "r": 79,
+          "r": 76,
           "nat": "Spain",
           "dp": [
             "CF"
@@ -3956,7 +3957,7 @@
         {
           "n": "Hugo Sotil",
           "p": "FW",
-          "r": 82,
+          "r": 79,
           "nat": "Peru",
           "dp": [
             "CF",
@@ -3966,7 +3967,7 @@
         {
           "n": "Carles Marinho",
           "p": "DF",
-          "r": 75,
+          "r": 72,
           "nat": "Spain",
           "dp": [
             "LB"
@@ -3975,7 +3976,7 @@
         {
           "n": "Tente Sánchez",
           "p": "MF",
-          "r": 75,
+          "r": 72,
           "nat": "Spain",
           "dp": [
             "RM"
@@ -3984,7 +3985,7 @@
         {
           "n": "Juan Carlos Heredia",
           "p": "FW",
-          "r": 76,
+          "r": 73,
           "nat": "Spain",
           "dp": [
             "LW"
@@ -4021,7 +4022,7 @@
         {
           "n": "Sepp Maier",
           "p": "GK",
-          "r": 88,
+          "r": 85,
           "nat": "West Germany",
           "dp": [
             "GK"
@@ -4030,7 +4031,7 @@
         {
           "n": "Bernd Dürnberger",
           "p": "DF",
-          "r": 76,
+          "r": 73,
           "nat": "West Germany",
           "dp": [
             "RB"
@@ -4039,7 +4040,7 @@
         {
           "n": "Hans-Georg Schwarzenbeck",
           "p": "DF",
-          "r": 82,
+          "r": 79,
           "nat": "West Germany",
           "dp": [
             "CB"
@@ -4048,7 +4049,7 @@
         {
           "n": "Franz Beckenbauer",
           "p": "DF",
-          "r": 92,
+          "r": 89,
           "nat": "West Germany",
           "dp": [
             "SW"
@@ -4057,7 +4058,7 @@
         {
           "n": "Björn Andersson",
           "p": "DF",
-          "r": 74,
+          "r": 71,
           "nat": "Sweden",
           "dp": [
             "LB"
@@ -4066,7 +4067,7 @@
         {
           "n": "Franz Roth",
           "p": "MF",
-          "r": 78,
+          "r": 75,
           "nat": "West Germany",
           "dp": [
             "LM",
@@ -4076,7 +4077,7 @@
         {
           "n": "Conny Torstensson",
           "p": "MF",
-          "r": 77,
+          "r": 74,
           "nat": "Sweden",
           "dp": [
             "RM"
@@ -4085,7 +4086,7 @@
         {
           "n": "Rainer Zobel",
           "p": "MF",
-          "r": 74,
+          "r": 71,
           "nat": "West Germany",
           "dp": [
             "CM"
@@ -4094,7 +4095,7 @@
         {
           "n": "Jupp Kapellmann",
           "p": "MF",
-          "r": 75,
+          "r": 72,
           "nat": "West Germany",
           "dp": [
             "LW",
@@ -4104,7 +4105,7 @@
         {
           "n": "Gerd Müller",
           "p": "FW",
-          "r": 92,
+          "r": 89,
           "nat": "West Germany",
           "dp": [
             "CF"
@@ -4113,7 +4114,7 @@
         {
           "n": "Uli Hoeneß",
           "p": "FW",
-          "r": 83,
+          "r": 80,
           "nat": "West Germany",
           "dp": [
             "FW"
@@ -4122,7 +4123,7 @@
         {
           "n": "Johnny Hansen",
           "p": "DF",
-          "r": 73,
+          "r": 71,
           "nat": "Denmark",
           "dp": [
             "CB"
@@ -4131,7 +4132,7 @@
         {
           "n": "Karl-Heinz Rummenigge",
           "p": "FW",
-          "r": 80,
+          "r": 78,
           "nat": "West Germany",
           "dp": [
             "FW"
@@ -4246,7 +4247,7 @@
         {
           "n": "David Stewart",
           "p": "GK",
-          "r": 76,
+          "r": 73,
           "nat": "Scotland",
           "dp": [
             "GK"
@@ -4255,7 +4256,7 @@
         {
           "n": "Paul Reaney",
           "p": "DF",
-          "r": 77,
+          "r": 75,
           "nat": "England",
           "dp": [
             "RB"
@@ -4264,7 +4265,7 @@
         {
           "n": "Frank Gray",
           "p": "DF",
-          "r": 78,
+          "r": 75,
           "nat": "Scotland",
           "dp": [
             "LB"
@@ -4273,7 +4274,7 @@
         {
           "n": "Billy Bremner",
           "p": "MF",
-          "r": 86,
+          "r": 83,
           "nat": "Scotland",
           "dp": [
             "CM"
@@ -4282,7 +4283,7 @@
         {
           "n": "Paul Madeley",
           "p": "DF",
-          "r": 81,
+          "r": 78,
           "nat": "England",
           "dp": [
             "CB",
@@ -4292,7 +4293,7 @@
         {
           "n": "Norman Hunter",
           "p": "DF",
-          "r": 84,
+          "r": 81,
           "nat": "England",
           "dp": [
             "CB"
@@ -4301,7 +4302,7 @@
         {
           "n": "Peter Lorimer",
           "p": "MF",
-          "r": 83,
+          "r": 80,
           "nat": "Scotland",
           "dp": [
             "RM",
@@ -4311,7 +4312,7 @@
         {
           "n": "Johnny Giles",
           "p": "MF",
-          "r": 85,
+          "r": 82,
           "nat": "Republic of Ireland",
           "dp": [
             "CM"
@@ -4320,7 +4321,7 @@
         {
           "n": "Terry Yorath",
           "p": "MF",
-          "r": 74,
+          "r": 72,
           "nat": "Wales",
           "dp": [
             "CM"
@@ -4329,7 +4330,7 @@
         {
           "n": "Eddie Gray",
           "p": "MF",
-          "r": 78,
+          "r": 75,
           "nat": "Scotland",
           "dp": [
             "LW"
@@ -4338,7 +4339,7 @@
         {
           "n": "Allan Clarke",
           "p": "FW",
-          "r": 82,
+          "r": 79,
           "nat": "England",
           "dp": [
             "CF"
@@ -4347,7 +4348,7 @@
         {
           "n": "Joe Jordan",
           "p": "FW",
-          "r": 80,
+          "r": 77,
           "nat": "Scotland",
           "dp": [
             "CF"
@@ -4356,7 +4357,7 @@
         {
           "n": "Trevor Cherry",
           "p": "DF",
-          "r": 74,
+          "r": 71,
           "nat": "England",
           "dp": [
             "RB",
@@ -4394,7 +4395,7 @@
         {
           "n": "Ivan Ćurković",
           "p": "GK",
-          "r": 82,
+          "r": 80,
           "nat": "Yugoslavia",
           "dp": [
             "GK"
@@ -4403,7 +4404,7 @@
         {
           "n": "Daniel Rondelaere",
           "p": "GK",
-          "r": 72,
+          "r": 70,
           "nat": "France",
           "dp": [
             "GK"
@@ -4412,7 +4413,7 @@
         {
           "n": "Gérard Janvion",
           "p": "DF",
-          "r": 80,
+          "r": 77,
           "nat": "France",
           "dp": [
             "RB",
@@ -4422,7 +4423,7 @@
         {
           "n": "Gérard Farison",
           "p": "DF",
-          "r": 79,
+          "r": 76,
           "nat": "France",
           "dp": [
             "LB"
@@ -4431,7 +4432,7 @@
         {
           "n": "Osvaldo Piazza",
           "p": "DF",
-          "r": 82,
+          "r": 80,
           "nat": "Argentina",
           "dp": [
             "CB"
@@ -4440,7 +4441,7 @@
         {
           "n": "Christian Lopez",
           "p": "DF",
-          "r": 81,
+          "r": 79,
           "nat": "France",
           "dp": [
             "CB"
@@ -4449,7 +4450,7 @@
         {
           "n": "Pierre Repellini",
           "p": "DF",
-          "r": 77,
+          "r": 74,
           "nat": "France",
           "dp": [
             "RB"
@@ -4458,7 +4459,7 @@
         {
           "n": "Jean-Michel Larqué",
           "p": "MF",
-          "r": 83,
+          "r": 81,
           "nat": "France",
           "dp": [
             "CM",
@@ -4468,7 +4469,7 @@
         {
           "n": "Dominique Bathenay",
           "p": "MF",
-          "r": 81,
+          "r": 79,
           "nat": "France",
           "dp": [
             "CM",
@@ -4478,7 +4479,7 @@
         {
           "n": "Christian Synaeghel",
           "p": "MF",
-          "r": 78,
+          "r": 75,
           "nat": "France",
           "dp": [
             "CM"
@@ -4487,7 +4488,7 @@
         {
           "n": "Hervé Revelli",
           "p": "FW",
-          "r": 83,
+          "r": 81,
           "nat": "France",
           "dp": [
             "CF"
@@ -4496,7 +4497,7 @@
         {
           "n": "Patrick Revelli",
           "p": "FW",
-          "r": 79,
+          "r": 76,
           "nat": "France",
           "dp": [
             "RW",
@@ -4506,7 +4507,7 @@
         {
           "n": "Yves Triantafilos",
           "p": "FW",
-          "r": 78,
+          "r": 76,
           "nat": "France",
           "dp": [
             "LW",
@@ -4516,7 +4517,7 @@
         {
           "n": "Jacques Santini",
           "p": "MF",
-          "r": 78,
+          "r": 75,
           "nat": "France",
           "dp": [
             "RM",
@@ -4526,7 +4527,7 @@
         {
           "n": "Georges Bereta",
           "p": "FW",
-          "r": 80,
+          "r": 78,
           "nat": "France",
           "dp": [
             "LW"
@@ -4535,7 +4536,7 @@
         {
           "n": "Christian Sarramagna",
           "p": "FW",
-          "r": 77,
+          "r": 74,
           "nat": "France",
           "dp": [
             "LW"
@@ -4624,7 +4625,7 @@
         {
           "n": "Miguel Reina",
           "p": "GK",
-          "r": 79,
+          "r": 77,
           "nat": "Spain",
           "dp": [
             "GK"
@@ -4633,7 +4634,7 @@
         {
           "n": "Adelardo",
           "p": "MF",
-          "r": 79,
+          "r": 77,
           "nat": "Spain",
           "dp": [
             "CM",
@@ -4643,7 +4644,7 @@
         {
           "n": "Ramón Heredia",
           "p": "DF",
-          "r": 74,
+          "r": 72,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -4652,7 +4653,7 @@
         {
           "n": "Isacio Calleja",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -4661,7 +4662,7 @@
         {
           "n": "Javier Capón",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "RB"
@@ -4670,7 +4671,7 @@
         {
           "n": "Gonzalo Melo",
           "p": "DF",
-          "r": 73,
+          "r": 69,
           "nat": "Spain",
           "dp": [
             "LB"
@@ -4679,7 +4680,7 @@
         {
           "n": "Enrique Heraldo Bezerra",
           "p": "MF",
-          "r": 74,
+          "r": 72,
           "nat": "Brazil",
           "dp": [
             "CM"
@@ -4688,7 +4689,7 @@
         {
           "n": "Eusebio",
           "p": "MF",
-          "r": 76,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "RM",
@@ -4698,7 +4699,7 @@
         {
           "n": "Luís Pereira",
           "p": "DF",
-          "r": 81,
+          "r": 79,
           "nat": "Brazil",
           "dp": [
             "CB"
@@ -4707,7 +4708,7 @@
         {
           "n": "Luis Aragonés",
           "p": "FW",
-          "r": 84,
+          "r": 83,
           "nat": "Spain",
           "dp": [
             "AM",
@@ -4717,7 +4718,7 @@
         {
           "n": "José Eulogio Gárate",
           "p": "FW",
-          "r": 81,
+          "r": 80,
           "nat": "Spain",
           "dp": [
             "CF"
@@ -4726,7 +4727,7 @@
         {
           "n": "Alberto Fernández",
           "p": "FW",
-          "r": 75,
+          "r": 73,
           "nat": "Spain",
           "dp": [
             "FW"
@@ -4735,7 +4736,7 @@
         {
           "n": "Roberto Ufarte",
           "p": "FW",
-          "r": 73,
+          "r": 71,
           "nat": "Spain",
           "dp": [
             "FW"
@@ -4744,7 +4745,7 @@
         {
           "n": "Irureta",
           "p": "MF",
-          "r": 73,
+          "r": 71,
           "nat": "Spain",
           "dp": [
             "MF"
@@ -4781,7 +4782,7 @@
         {
           "n": "Sepp Maier",
           "p": "GK",
-          "r": 90,
+          "r": 87,
           "nat": "West Germany",
           "dp": [
             "GK"
@@ -4790,7 +4791,7 @@
         {
           "n": "Johnny Hansen",
           "p": "DF",
-          "r": 76,
+          "r": 73,
           "nat": "Denmark",
           "dp": [
             "RB",
@@ -4800,7 +4801,7 @@
         {
           "n": "Franz Beckenbauer",
           "p": "DF",
-          "r": 95,
+          "r": 91,
           "nat": "West Germany",
           "dp": [
             "CB",
@@ -4810,7 +4811,7 @@
         {
           "n": "Hans-Georg Schwarzenbeck",
           "p": "DF",
-          "r": 80,
+          "r": 77,
           "nat": "West Germany",
           "dp": [
             "CB"
@@ -4819,7 +4820,7 @@
         {
           "n": "Paul Breitner",
           "p": "DF",
-          "r": 88,
+          "r": 85,
           "nat": "West Germany",
           "dp": [
             "LB",
@@ -4829,7 +4830,7 @@
         {
           "n": "Franz Roth",
           "p": "MF",
-          "r": 79,
+          "r": 76,
           "nat": "West Germany",
           "dp": [
             "CM"
@@ -4838,7 +4839,7 @@
         {
           "n": "Rainer Zobel",
           "p": "MF",
-          "r": 73,
+          "r": 70,
           "nat": "West Germany",
           "dp": [
             "CM",
@@ -4848,7 +4849,7 @@
         {
           "n": "Jupp Kapellmann",
           "p": "MF",
-          "r": 75,
+          "r": 72,
           "nat": "West Germany",
           "dp": [
             "RM",
@@ -4858,7 +4859,7 @@
         {
           "n": "Bernd Dürnberger",
           "p": "MF",
-          "r": 74,
+          "r": 71,
           "nat": "West Germany",
           "dp": [
             "LM",
@@ -4868,7 +4869,7 @@
         {
           "n": "Uli Hoeneß",
           "p": "FW",
-          "r": 84,
+          "r": 81,
           "nat": "West Germany",
           "dp": [
             "RW",
@@ -4878,7 +4879,7 @@
         {
           "n": "Gerd Müller",
           "p": "FW",
-          "r": 95,
+          "r": 91,
           "nat": "West Germany",
           "dp": [
             "CF"
@@ -4887,7 +4888,7 @@
         {
           "n": "Conny Torstensson",
           "p": "FW",
-          "r": 76,
+          "r": 73,
           "nat": "Sweden",
           "dp": [
             "CF",
@@ -4913,7 +4914,7 @@
         {
           "n": "Ally Hunter",
           "p": "GK",
-          "r": 77,
+          "r": 75,
           "nat": "Scotland",
           "dp": [
             "GK"
@@ -4922,7 +4923,7 @@
         {
           "n": "Denis Connaghan",
           "p": "GK",
-          "r": 72,
+          "r": 70,
           "nat": "Scotland",
           "dp": [
             "GK"
@@ -4931,7 +4932,7 @@
         {
           "n": "Danny McGrain",
           "p": "DF",
-          "r": 82,
+          "r": 79,
           "nat": "Scotland",
           "dp": [
             "RB"
@@ -4940,7 +4941,7 @@
         {
           "n": "Billy McNeill",
           "p": "DF",
-          "r": 82,
+          "r": 80,
           "nat": "Scotland",
           "dp": [
             "CB"
@@ -4949,7 +4950,7 @@
         {
           "n": "Jim Brogan",
           "p": "DF",
-          "r": 77,
+          "r": 74,
           "nat": "Scotland",
           "dp": [
             "CB"
@@ -4958,7 +4959,7 @@
         {
           "n": "George Connelly",
           "p": "DF",
-          "r": 80,
+          "r": 78,
           "nat": "Scotland",
           "dp": [
             "CB",
@@ -4968,7 +4969,7 @@
         {
           "n": "Steve Murray",
           "p": "MF",
-          "r": 78,
+          "r": 76,
           "nat": "Scotland",
           "dp": [
             "CM"
@@ -4977,7 +4978,7 @@
         {
           "n": "Bobby Murdoch",
           "p": "MF",
-          "r": 81,
+          "r": 79,
           "nat": "Scotland",
           "dp": [
             "CM"
@@ -4986,7 +4987,7 @@
         {
           "n": "Kenny Dalglish",
           "p": "FW",
-          "r": 84,
+          "r": 82,
           "nat": "Scotland",
           "dp": [
             "CF",
@@ -4996,7 +4997,7 @@
         {
           "n": "Harry Hood",
           "p": "FW",
-          "r": 79,
+          "r": 76,
           "nat": "Scotland",
           "dp": [
             "CF"
@@ -5005,7 +5006,7 @@
         {
           "n": "Bobby Lennox",
           "p": "FW",
-          "r": 81,
+          "r": 79,
           "nat": "Scotland",
           "dp": [
             "RW",
@@ -5015,7 +5016,7 @@
         {
           "n": "Jimmy Johnstone",
           "p": "FW",
-          "r": 84,
+          "r": 82,
           "nat": "Scotland",
           "dp": [
             "RW"
@@ -5024,7 +5025,7 @@
         {
           "n": "Tommy Callaghan",
           "p": "MF",
-          "r": 77,
+          "r": 75,
           "nat": "Scotland",
           "dp": [
             "CM"
@@ -5033,7 +5034,7 @@
         {
           "n": "Paul Wilson",
           "p": "FW",
-          "r": 76,
+          "r": 74,
           "nat": "Scotland",
           "dp": [
             "LW"
@@ -5042,7 +5043,7 @@
         {
           "n": "Dixie Deans",
           "p": "FW",
-          "r": 79,
+          "r": 77,
           "nat": "Scotland",
           "dp": [
             "CF"
@@ -5051,7 +5052,7 @@
         {
           "n": "Pat McCluskey",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Scotland",
           "dp": [
             "CB",
@@ -5167,7 +5168,7 @@
         {
           "n": "István Géczi",
           "p": "GK",
-          "r": 79,
+          "r": 77,
           "nat": "Hungary",
           "dp": [
             "GK"
@@ -5176,7 +5177,7 @@
         {
           "n": "László Borbély",
           "p": "GK",
-          "r": 72,
+          "r": 70,
           "nat": "Hungary",
           "dp": [
             "GK"
@@ -5185,7 +5186,7 @@
         {
           "n": "Péter Kellner",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Hungary",
           "dp": [
             "RB"
@@ -5194,7 +5195,7 @@
         {
           "n": "Sándor Kondás",
           "p": "DF",
-          "r": 77,
+          "r": 75,
           "nat": "Hungary",
           "dp": [
             "CB"
@@ -5203,7 +5204,7 @@
         {
           "n": "Ede Dunai",
           "p": "FW",
-          "r": 80,
+          "r": 78,
           "nat": "Hungary",
           "dp": [
             "CF"
@@ -5212,7 +5213,7 @@
         {
           "n": "János Harsányi",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Hungary",
           "dp": [
             "LB"
@@ -5221,7 +5222,7 @@
         {
           "n": "Antal Dunai",
           "p": "FW",
-          "r": 81,
+          "r": 79,
           "nat": "Hungary",
           "dp": [
             "CF"
@@ -5230,7 +5231,7 @@
         {
           "n": "Ferenc Bene",
           "p": "FW",
-          "r": 83,
+          "r": 81,
           "nat": "Hungary",
           "dp": [
             "RW",
@@ -5240,7 +5241,7 @@
         {
           "n": "János Göröcs",
           "p": "MF",
-          "r": 80,
+          "r": 78,
           "nat": "Hungary",
           "dp": [
             "AM"
@@ -5249,7 +5250,7 @@
         {
           "n": "László Fazekas",
           "p": "FW",
-          "r": 81,
+          "r": 79,
           "nat": "Hungary",
           "dp": [
             "RW",
@@ -5259,7 +5260,7 @@
         {
           "n": "Imre Juhász",
           "p": "MF",
-          "r": 78,
+          "r": 76,
           "nat": "Hungary",
           "dp": [
             "CM"
@@ -5268,7 +5269,7 @@
         {
           "n": "Géza Tóth",
           "p": "MF",
-          "r": 76,
+          "r": 74,
           "nat": "Hungary",
           "dp": [
             "CM"
@@ -5277,7 +5278,7 @@
         {
           "n": "Béla Tóth",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Hungary",
           "dp": [
             "CB"
@@ -5286,7 +5287,7 @@
         {
           "n": "Zoltán Nagy",
           "p": "MF",
-          "r": 74,
+          "r": 72,
           "nat": "Hungary",
           "dp": [
             "RM"
@@ -5295,7 +5296,7 @@
         {
           "n": "Sándor Zámbó",
           "p": "MF",
-          "r": 75,
+          "r": 73,
           "nat": "Hungary",
           "dp": [
             "LM"
@@ -5304,7 +5305,7 @@
         {
           "n": "Mihály Kozma",
           "p": "DF",
-          "r": 74,
+          "r": 72,
           "nat": "Hungary",
           "dp": [
             "RB"
@@ -5367,7 +5368,7 @@
         {
           "n": "Heinz Stuy",
           "p": "GK",
-          "r": 80,
+          "r": 77,
           "nat": "Netherlands",
           "dp": [
             "GK"
@@ -5376,7 +5377,7 @@
         {
           "n": "Wim Suurbier",
           "p": "DF",
-          "r": 80,
+          "r": 77,
           "nat": "Netherlands",
           "dp": [
             "RB"
@@ -5385,7 +5386,7 @@
         {
           "n": "Barry Hulshoff",
           "p": "DF",
-          "r": 78,
+          "r": 75,
           "nat": "Netherlands",
           "dp": [
             "CB"
@@ -5394,7 +5395,7 @@
         {
           "n": "Horst Blankenburg",
           "p": "DF",
-          "r": 76,
+          "r": 73,
           "nat": "West Germany",
           "dp": [
             "CB"
@@ -5403,7 +5404,7 @@
         {
           "n": "Ruud Krol",
           "p": "DF",
-          "r": 83,
+          "r": 80,
           "nat": "Netherlands",
           "dp": [
             "LB"
@@ -5412,7 +5413,7 @@
         {
           "n": "Johan Neeskens",
           "p": "MF",
-          "r": 88,
+          "r": 85,
           "nat": "Netherlands",
           "dp": [
             "CM",
@@ -5422,7 +5423,7 @@
         {
           "n": "Arie Haan",
           "p": "MF",
-          "r": 82,
+          "r": 79,
           "nat": "Netherlands",
           "dp": [
             "CM"
@@ -5431,7 +5432,7 @@
         {
           "n": "Gerrie Mühren",
           "p": "MF",
-          "r": 78,
+          "r": 75,
           "nat": "Netherlands",
           "dp": [
             "MF"
@@ -5440,7 +5441,7 @@
         {
           "n": "Johan Cruyff",
           "p": "FW",
-          "r": 93,
+          "r": 89,
           "nat": "Netherlands",
           "dp": [
             "CF",
@@ -5450,7 +5451,7 @@
         {
           "n": "Johnny Rep",
           "p": "FW",
-          "r": 82,
+          "r": 79,
           "nat": "Netherlands",
           "dp": [
             "RW",
@@ -5460,7 +5461,7 @@
         {
           "n": "Piet Keizer",
           "p": "FW",
-          "r": 83,
+          "r": 80,
           "nat": "Netherlands",
           "dp": [
             "LW"
@@ -5469,7 +5470,7 @@
         {
           "n": "Rob Rensenbrink",
           "p": "FW",
-          "r": 80,
+          "r": 77,
           "nat": "Netherlands",
           "dp": [
             "LW"
@@ -5532,7 +5533,7 @@
         {
           "n": "Colin Boulton",
           "p": "GK",
-          "r": 78,
+          "r": 75,
           "nat": "England",
           "dp": [
             "GK"
@@ -5541,7 +5542,7 @@
         {
           "n": "Graham Moseley",
           "p": "GK",
-          "r": 72,
+          "r": 70,
           "nat": "England",
           "dp": [
             "GK"
@@ -5559,7 +5560,7 @@
         {
           "n": "David Nish",
           "p": "DF",
-          "r": 79,
+          "r": 77,
           "nat": "England",
           "dp": [
             "LB"
@@ -5568,7 +5569,7 @@
         {
           "n": "Roy McFarland",
           "p": "DF",
-          "r": 82,
+          "r": 80,
           "nat": "England",
           "dp": [
             "CB"
@@ -5577,7 +5578,7 @@
         {
           "n": "Colin Todd",
           "p": "DF",
-          "r": 82,
+          "r": 80,
           "nat": "England",
           "dp": [
             "CB"
@@ -5586,7 +5587,7 @@
         {
           "n": "John Robson",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "England",
           "dp": [
             "LB"
@@ -5595,7 +5596,7 @@
         {
           "n": "Archie Gemmill",
           "p": "MF",
-          "r": 81,
+          "r": 79,
           "nat": "Scotland",
           "dp": [
             "CM"
@@ -5604,7 +5605,7 @@
         {
           "n": "Henry Newton",
           "p": "MF",
-          "r": 78,
+          "r": 76,
           "nat": "England",
           "dp": [
             "CM",
@@ -5614,7 +5615,7 @@
         {
           "n": "Alan Durban",
           "p": "MF",
-          "r": 78,
+          "r": 74,
           "nat": "Wales",
           "dp": [
             "AM",
@@ -5624,7 +5625,7 @@
         {
           "n": "Kevin Hector",
           "p": "FW",
-          "r": 81,
+          "r": 79,
           "nat": "England",
           "dp": [
             "CF",
@@ -5634,7 +5635,7 @@
         {
           "n": "John O'Hare",
           "p": "FW",
-          "r": 79,
+          "r": 76,
           "nat": "Scotland",
           "dp": [
             "CF"
@@ -5643,7 +5644,7 @@
         {
           "n": "Alan Hinton",
           "p": "FW",
-          "r": 80,
+          "r": 78,
           "nat": "England",
           "dp": [
             "LW",
@@ -5653,7 +5654,7 @@
         {
           "n": "Roger Davies",
           "p": "FW",
-          "r": 78,
+          "r": 77,
           "nat": "England",
           "dp": [
             "CF"
@@ -5662,7 +5663,7 @@
         {
           "n": "Steve Powell",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "England",
           "dp": [
             "RB",
@@ -5672,7 +5673,7 @@
         {
           "n": "Terry Hennessey",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Wales",
           "dp": [
             "CB",
@@ -5710,7 +5711,7 @@
         {
           "n": "Dino Zoff",
           "p": "GK",
-          "r": 88,
+          "r": 85,
           "nat": "Italy",
           "dp": [
             "GK"
@@ -5719,7 +5720,7 @@
         {
           "n": "Sandro Salvadore",
           "p": "DF",
-          "r": 79,
+          "r": 77,
           "nat": "Italy",
           "dp": [
             "CB",
@@ -5729,7 +5730,7 @@
         {
           "n": "Francesco Morini",
           "p": "DF",
-          "r": 79,
+          "r": 76,
           "nat": "Italy",
           "dp": [
             "CB"
@@ -5738,7 +5739,7 @@
         {
           "n": "Luciano Marchetti",
           "p": "DF",
-          "r": 75,
+          "r": 72,
           "nat": "Italy",
           "dp": [
             "RB"
@@ -5747,7 +5748,7 @@
         {
           "n": "Giuseppe Longobucco",
           "p": "DF",
-          "r": 73,
+          "r": 70,
           "nat": "Italy",
           "dp": [
             "LB"
@@ -5756,7 +5757,7 @@
         {
           "n": "Romeo Benetti",
           "p": "MF",
-          "r": 78,
+          "r": 76,
           "nat": "Italy",
           "dp": [
             "DM",
@@ -5766,7 +5767,7 @@
         {
           "n": "Giuseppe Furino",
           "p": "MF",
-          "r": 78,
+          "r": 76,
           "nat": "Italy",
           "dp": [
             "CM"
@@ -5775,7 +5776,7 @@
         {
           "n": "Fabio Capello",
           "p": "MF",
-          "r": 84,
+          "r": 81,
           "nat": "Italy",
           "dp": [
             "AM",
@@ -5785,7 +5786,7 @@
         {
           "n": "Franco Causio",
           "p": "MF",
-          "r": 82,
+          "r": 79,
           "nat": "Italy",
           "dp": [
             "RW"
@@ -5794,7 +5795,7 @@
         {
           "n": "Antonello Cuccureddu",
           "p": "DF",
-          "r": 74,
+          "r": 72,
           "nat": "Italy",
           "dp": [
             "RB"
@@ -5803,7 +5804,7 @@
         {
           "n": "José Altafini",
           "p": "FW",
-          "r": 82,
+          "r": 80,
           "nat": "Brazil",
           "dp": [
             "CF"
@@ -5812,7 +5813,7 @@
         {
           "n": "Pietro Anastasi",
           "p": "FW",
-          "r": 83,
+          "r": 80,
           "nat": "Italy",
           "dp": [
             "CF"
@@ -5821,7 +5822,7 @@
         {
           "n": "Roberto Bettega",
           "p": "FW",
-          "r": 83,
+          "r": 80,
           "nat": "Italy",
           "dp": [
             "CF",
@@ -5911,7 +5912,7 @@
         {
           "n": "Andrés Junquera",
           "p": "GK",
-          "r": 78,
+          "r": 75,
           "nat": "Spain",
           "dp": [
             "GK"
@@ -5920,7 +5921,7 @@
         {
           "n": "García Remón",
           "p": "GK",
-          "r": 75,
+          "r": 73,
           "nat": "Spain",
           "dp": [
             "GK"
@@ -5929,7 +5930,7 @@
         {
           "n": "José Luis",
           "p": "DF",
-          "r": 77,
+          "r": 75,
           "nat": "Spain",
           "dp": [
             "RB"
@@ -5938,7 +5939,7 @@
         {
           "n": "Gregorio Benito",
           "p": "DF",
-          "r": 80,
+          "r": 78,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -5947,7 +5948,7 @@
         {
           "n": "Antonio Benito",
           "p": "DF",
-          "r": 77,
+          "r": 75,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -5956,7 +5957,7 @@
         {
           "n": "Francisco Zoco",
           "p": "DF",
-          "r": 79,
+          "r": 76,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -5965,7 +5966,7 @@
         {
           "n": "Manuel Sanchís Martínez",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "Spain",
           "dp": [
             "LB"
@@ -5974,7 +5975,7 @@
         {
           "n": "Pirri",
           "p": "MF",
-          "r": 83,
+          "r": 81,
           "nat": "Spain",
           "dp": [
             "CM",
@@ -5984,7 +5985,7 @@
         {
           "n": "Ignacio Zoco",
           "p": "MF",
-          "r": 78,
+          "r": 76,
           "nat": "Spain",
           "dp": [
             "DM"
@@ -5993,7 +5994,7 @@
         {
           "n": "Amancio Amaro",
           "p": "FW",
-          "r": 84,
+          "r": 82,
           "nat": "Spain",
           "dp": [
             "RW",
@@ -6003,7 +6004,7 @@
         {
           "n": "Pedro de Felipe",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -6012,7 +6013,7 @@
         {
           "n": "Aguilar",
           "p": "MF",
-          "r": 76,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "CM"
@@ -6021,7 +6022,7 @@
         {
           "n": "Santillana",
           "p": "FW",
-          "r": 82,
+          "r": 80,
           "nat": "Spain",
           "dp": [
             "CF"
@@ -6030,7 +6031,7 @@
         {
           "n": "Óscar Más",
           "p": "FW",
-          "r": 79,
+          "r": 77,
           "nat": "Argentina",
           "dp": [
             "LW",
@@ -6040,7 +6041,7 @@
         {
           "n": "Vicente del Bosque",
           "p": "MF",
-          "r": 79,
+          "r": 77,
           "nat": "Spain",
           "dp": [
             "CM"
@@ -6049,7 +6050,7 @@
         {
           "n": "Macanás",
           "p": "DF",
-          "r": 74,
+          "r": 72,
           "nat": "Spain",
           "dp": [
             "RB"
@@ -6086,7 +6087,7 @@
         {
           "n": "Heinz Stuy",
           "p": "GK",
-          "r": 80,
+          "r": 77,
           "nat": "Netherlands",
           "dp": [
             "GK"
@@ -6095,7 +6096,7 @@
         {
           "n": "Wim Suurbier",
           "p": "DF",
-          "r": 80,
+          "r": 77,
           "nat": "Netherlands",
           "dp": [
             "RB"
@@ -6104,7 +6105,7 @@
         {
           "n": "Barry Hulshoff",
           "p": "DF",
-          "r": 78,
+          "r": 75,
           "nat": "Netherlands",
           "dp": [
             "CB"
@@ -6113,7 +6114,7 @@
         {
           "n": "Horst Blankenburg",
           "p": "DF",
-          "r": 76,
+          "r": 73,
           "nat": "West Germany",
           "dp": [
             "CB"
@@ -6122,7 +6123,7 @@
         {
           "n": "Ruud Krol",
           "p": "DF",
-          "r": 82,
+          "r": 79,
           "nat": "Netherlands",
           "dp": [
             "LB"
@@ -6131,7 +6132,7 @@
         {
           "n": "Johan Neeskens",
           "p": "MF",
-          "r": 87,
+          "r": 84,
           "nat": "Netherlands",
           "dp": [
             "CM",
@@ -6141,7 +6142,7 @@
         {
           "n": "Arie Haan",
           "p": "MF",
-          "r": 81,
+          "r": 78,
           "nat": "Netherlands",
           "dp": [
             "CM"
@@ -6150,7 +6151,7 @@
         {
           "n": "Gerrie Mühren",
           "p": "MF",
-          "r": 78,
+          "r": 75,
           "nat": "Netherlands",
           "dp": [
             "MF"
@@ -6159,7 +6160,7 @@
         {
           "n": "Sjaak Swart",
           "p": "FW",
-          "r": 78,
+          "r": 75,
           "nat": "Netherlands",
           "dp": [
             "RW"
@@ -6168,7 +6169,7 @@
         {
           "n": "Johan Cruyff",
           "p": "FW",
-          "r": 93,
+          "r": 90,
           "nat": "Netherlands",
           "dp": [
             "CF",
@@ -6178,7 +6179,7 @@
         {
           "n": "Piet Keizer",
           "p": "FW",
-          "r": 84,
+          "r": 81,
           "nat": "Netherlands",
           "dp": [
             "LW"
@@ -6187,7 +6188,7 @@
         {
           "n": "Johnny Rep",
           "p": "FW",
-          "r": 80,
+          "r": 77,
           "nat": "Netherlands",
           "dp": [
             "RW",
@@ -6197,7 +6198,7 @@
         {
           "n": "Rob Rensenbrink",
           "p": "FW",
-          "r": 79,
+          "r": 76,
           "nat": "Netherlands",
           "dp": [
             "LW"
@@ -6234,7 +6235,7 @@
         {
           "n": "José Henrique",
           "p": "GK",
-          "r": 79,
+          "r": 77,
           "nat": "Portugal",
           "dp": [
             "GK"
@@ -6243,7 +6244,7 @@
         {
           "n": "Manuel Bento",
           "p": "GK",
-          "r": 77,
+          "r": 75,
           "nat": "Portugal",
           "dp": [
             "GK"
@@ -6252,7 +6253,7 @@
         {
           "n": "Adolfo Calisto",
           "p": "DF",
-          "r": 77,
+          "r": 74,
           "nat": "Portugal",
           "dp": [
             "RB"
@@ -6261,7 +6262,7 @@
         {
           "n": "Humberto Coelho",
           "p": "DF",
-          "r": 82,
+          "r": 79,
           "nat": "Portugal",
           "dp": [
             "CB"
@@ -6270,7 +6271,7 @@
         {
           "n": "Jacinto Santos",
           "p": "DF",
-          "r": 78,
+          "r": 75,
           "nat": "Portugal",
           "dp": [
             "CB"
@@ -6279,7 +6280,7 @@
         {
           "n": "António Simões",
           "p": "MF",
-          "r": 81,
+          "r": 78,
           "nat": "Portugal",
           "dp": [
             "LM",
@@ -6289,7 +6290,7 @@
         {
           "n": "Toni",
           "p": "MF",
-          "r": 81,
+          "r": 79,
           "nat": "Portugal",
           "dp": [
             "CM",
@@ -6299,7 +6300,7 @@
         {
           "n": "Adriano Correia",
           "p": "MF",
-          "r": 77,
+          "r": 75,
           "nat": "Portugal",
           "dp": [
             "CM"
@@ -6308,7 +6309,7 @@
         {
           "n": "Eusébio",
           "p": "FW",
-          "r": 88,
+          "r": 86,
           "nat": "Portugal",
           "dp": [
             "CF",
@@ -6318,7 +6319,7 @@
         {
           "n": "Jaime Graça",
           "p": "MF",
-          "r": 80,
+          "r": 78,
           "nat": "Portugal",
           "dp": [
             "CM",
@@ -6328,7 +6329,7 @@
         {
           "n": "Nené",
           "p": "FW",
-          "r": 82,
+          "r": 80,
           "nat": "Portugal",
           "dp": [
             "LW",
@@ -6338,7 +6339,7 @@
         {
           "n": "Rui Jordão",
           "p": "FW",
-          "r": 81,
+          "r": 79,
           "nat": "Portugal",
           "dp": [
             "CF"
@@ -6347,7 +6348,7 @@
         {
           "n": "Artur Correia",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Portugal",
           "dp": [
             "LB"
@@ -6356,7 +6357,7 @@
         {
           "n": "Messias",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Portugal",
           "dp": [
             "CB"
@@ -6365,7 +6366,7 @@
         {
           "n": "Vítor Martins",
           "p": "MF",
-          "r": 75,
+          "r": 73,
           "nat": "Portugal",
           "dp": [
             "RM"
@@ -6374,7 +6375,7 @@
         {
           "n": "Diamantino Costa",
           "p": "FW",
-          "r": 76,
+          "r": 74,
           "nat": "Portugal",
           "dp": [
             "RW"
@@ -6411,7 +6412,7 @@
         {
           "n": "Evan Williams",
           "p": "GK",
-          "r": 78,
+          "r": 75,
           "nat": "Scotland",
           "dp": [
             "GK"
@@ -6420,7 +6421,7 @@
         {
           "n": "Denis Connaghan",
           "p": "GK",
-          "r": 72,
+          "r": 70,
           "nat": "Scotland",
           "dp": [
             "GK"
@@ -6429,7 +6430,7 @@
         {
           "n": "Jim Craig",
           "p": "DF",
-          "r": 78,
+          "r": 75,
           "nat": "Scotland",
           "dp": [
             "RB"
@@ -6438,7 +6439,7 @@
         {
           "n": "Billy McNeill",
           "p": "DF",
-          "r": 83,
+          "r": 81,
           "nat": "Scotland",
           "dp": [
             "CB"
@@ -6447,7 +6448,7 @@
         {
           "n": "George Connelly",
           "p": "DF",
-          "r": 80,
+          "r": 78,
           "nat": "Scotland",
           "dp": [
             "CB",
@@ -6457,7 +6458,7 @@
         {
           "n": "Tommy Gemmell",
           "p": "DF",
-          "r": 80,
+          "r": 78,
           "nat": "Scotland",
           "dp": [
             "LB"
@@ -6466,7 +6467,7 @@
         {
           "n": "Jim Brogan",
           "p": "DF",
-          "r": 77,
+          "r": 74,
           "nat": "Scotland",
           "dp": [
             "LB",
@@ -6476,7 +6477,7 @@
         {
           "n": "Bobby Murdoch",
           "p": "MF",
-          "r": 82,
+          "r": 79,
           "nat": "Scotland",
           "dp": [
             "CM"
@@ -6485,7 +6486,7 @@
         {
           "n": "Bobby Lennox",
           "p": "FW",
-          "r": 81,
+          "r": 78,
           "nat": "Scotland",
           "dp": [
             "RW",
@@ -6495,7 +6496,7 @@
         {
           "n": "Kenny Dalglish",
           "p": "FW",
-          "r": 83,
+          "r": 81,
           "nat": "Scotland",
           "dp": [
             "CF",
@@ -6505,7 +6506,7 @@
         {
           "n": "Lou Macari",
           "p": "FW",
-          "r": 80,
+          "r": 77,
           "nat": "Scotland",
           "dp": [
             "CF"
@@ -6514,7 +6515,7 @@
         {
           "n": "Jimmy Johnstone",
           "p": "FW",
-          "r": 84,
+          "r": 82,
           "nat": "Scotland",
           "dp": [
             "RW"
@@ -6523,7 +6524,7 @@
         {
           "n": "Tommy Callaghan",
           "p": "MF",
-          "r": 77,
+          "r": 75,
           "nat": "Scotland",
           "dp": [
             "CM"
@@ -6532,7 +6533,7 @@
         {
           "n": "Harry Hood",
           "p": "FW",
-          "r": 78,
+          "r": 76,
           "nat": "Scotland",
           "dp": [
             "CF"
@@ -6541,7 +6542,7 @@
         {
           "n": "David Hay",
           "p": "MF",
-          "r": 79,
+          "r": 76,
           "nat": "Scotland",
           "dp": [
             "CM",
@@ -6551,7 +6552,7 @@
         {
           "n": "Danny McGrain",
           "p": "DF",
-          "r": 80,
+          "r": 78,
           "nat": "Scotland",
           "dp": [
             "RB"
@@ -6614,7 +6615,7 @@
         {
           "n": "Ivano Bordon",
           "p": "GK",
-          "r": 78,
+          "r": 76,
           "nat": "Italy",
           "dp": [
             "GK"
@@ -6623,7 +6624,7 @@
         {
           "n": "Tarcisio Burgnich",
           "p": "DF",
-          "r": 82,
+          "r": 80,
           "nat": "Italy",
           "dp": [
             "RB",
@@ -6633,7 +6634,7 @@
         {
           "n": "Mauro Bellugi",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Italy",
           "dp": [
             "CB",
@@ -6643,7 +6644,7 @@
         {
           "n": "Mario Giubertoni",
           "p": "DF",
-          "r": 74,
+          "r": 72,
           "nat": "Italy",
           "dp": [
             "CB"
@@ -6652,7 +6653,7 @@
         {
           "n": "Giacinto Facchetti",
           "p": "DF",
-          "r": 86,
+          "r": 83,
           "nat": "Italy",
           "dp": [
             "LB",
@@ -6662,7 +6663,7 @@
         {
           "n": "Gabriele Oriali",
           "p": "MF",
-          "r": 78,
+          "r": 76,
           "nat": "Italy",
           "dp": [
             "DM"
@@ -6671,7 +6672,7 @@
         {
           "n": "Gianfranco Bedin",
           "p": "MF",
-          "r": 75,
+          "r": 72,
           "nat": "Italy",
           "dp": [
             "CM"
@@ -6680,7 +6681,7 @@
         {
           "n": "Mario Frustalupi",
           "p": "MF",
-          "r": 74,
+          "r": 72,
           "nat": "Italy",
           "dp": [
             "CM"
@@ -6689,7 +6690,7 @@
         {
           "n": "Jair",
           "p": "FW",
-          "r": 78,
+          "r": 76,
           "nat": "Brazil",
           "dp": [
             "RW"
@@ -6698,7 +6699,7 @@
         {
           "n": "Sandro Mazzola",
           "p": "FW",
-          "r": 85,
+          "r": 83,
           "nat": "Italy",
           "dp": [
             "AM",
@@ -6708,7 +6709,7 @@
         {
           "n": "Roberto Boninsegna",
           "p": "FW",
-          "r": 83,
+          "r": 80,
           "nat": "Italy",
           "dp": [
             "CF"
@@ -6717,7 +6718,7 @@
         {
           "n": "Mario Corso",
           "p": "MF",
-          "r": 80,
+          "r": 78,
           "nat": "Italy",
           "dp": [
             "LW",
@@ -6833,7 +6834,7 @@
         {
           "n": "Heinz Stuy",
           "p": "GK",
-          "r": 80,
+          "r": 77,
           "nat": "Netherlands",
           "dp": [
             "GK"
@@ -6842,7 +6843,7 @@
         {
           "n": "Wim Suurbier",
           "p": "DF",
-          "r": 80,
+          "r": 77,
           "nat": "Netherlands",
           "dp": [
             "RB"
@@ -6851,7 +6852,7 @@
         {
           "n": "Velibor Vasović",
           "p": "DF",
-          "r": 82,
+          "r": 80,
           "nat": "Yugoslavia",
           "dp": [
             "SW",
@@ -6861,7 +6862,7 @@
         {
           "n": "Barry Hulshoff",
           "p": "DF",
-          "r": 78,
+          "r": 75,
           "nat": "Netherlands",
           "dp": [
             "CB"
@@ -6870,7 +6871,7 @@
         {
           "n": "Horst Blankenburg",
           "p": "DF",
-          "r": 76,
+          "r": 73,
           "nat": "West Germany",
           "dp": [
             "LB",
@@ -6880,7 +6881,7 @@
         {
           "n": "Johan Neeskens",
           "p": "MF",
-          "r": 87,
+          "r": 84,
           "nat": "Netherlands",
           "dp": [
             "CM",
@@ -6890,7 +6891,7 @@
         {
           "n": "Nico Rijnders",
           "p": "MF",
-          "r": 74,
+          "r": 71,
           "nat": "Netherlands",
           "dp": [
             "CM"
@@ -6899,7 +6900,7 @@
         {
           "n": "Gerrie Mühren",
           "p": "MF",
-          "r": 78,
+          "r": 75,
           "nat": "Netherlands",
           "dp": [
             "MF"
@@ -6908,7 +6909,7 @@
         {
           "n": "Arie Haan",
           "p": "MF",
-          "r": 81,
+          "r": 78,
           "nat": "Netherlands",
           "dp": [
             "CM"
@@ -6917,7 +6918,7 @@
         {
           "n": "Sjaak Swart",
           "p": "FW",
-          "r": 78,
+          "r": 75,
           "nat": "Netherlands",
           "dp": [
             "RW"
@@ -6926,7 +6927,7 @@
         {
           "n": "Johan Cruyff",
           "p": "FW",
-          "r": 93,
+          "r": 90,
           "nat": "Netherlands",
           "dp": [
             "CF",
@@ -6936,7 +6937,7 @@
         {
           "n": "Piet Keizer",
           "p": "FW",
-          "r": 84,
+          "r": 81,
           "nat": "Netherlands",
           "dp": [
             "LW"
@@ -6945,7 +6946,7 @@
         {
           "n": "Dick van Dijk",
           "p": "FW",
-          "r": 77,
+          "r": 74,
           "nat": "Netherlands",
           "dp": [
             "CF"
@@ -6954,7 +6955,7 @@
         {
           "n": "Ruud Krol",
           "p": "DF",
-          "r": 81,
+          "r": 78,
           "nat": "Netherlands",
           "dp": [
             "LB",
@@ -6964,7 +6965,7 @@
         {
           "n": "Johan Boskamp",
           "p": "MF",
-          "r": 72,
+          "r": 69,
           "nat": "Netherlands",
           "dp": [
             "MF"
@@ -7001,7 +7002,7 @@
         {
           "n": "Miguel Reina",
           "p": "GK",
-          "r": 80,
+          "r": 78,
           "nat": "Spain",
           "dp": [
             "GK"
@@ -7010,7 +7011,7 @@
         {
           "n": "Pacheco",
           "p": "GK",
-          "r": 72,
+          "r": 70,
           "nat": "Spain",
           "dp": [
             "GK"
@@ -7019,7 +7020,7 @@
         {
           "n": "Jorge Melo",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "RB"
@@ -7028,7 +7029,7 @@
         {
           "n": "Iglesias",
           "p": "DF",
-          "r": 77,
+          "r": 75,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -7037,7 +7038,7 @@
         {
           "n": "Ovejero",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -7046,7 +7047,7 @@
         {
           "n": "Eusebio Bejarano",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Spain",
           "dp": [
             "LB"
@@ -7055,7 +7056,7 @@
         {
           "n": "Adelardo",
           "p": "MF",
-          "r": 82,
+          "r": 80,
           "nat": "Spain",
           "dp": [
             "CM",
@@ -7065,7 +7066,7 @@
         {
           "n": "Luis Aragonés",
           "p": "MF",
-          "r": 83,
+          "r": 81,
           "nat": "Spain",
           "dp": [
             "AM",
@@ -7075,7 +7076,7 @@
         {
           "n": "Salcedo",
           "p": "MF",
-          "r": 77,
+          "r": 75,
           "nat": "Spain",
           "dp": [
             "CM"
@@ -7084,7 +7085,7 @@
         {
           "n": "José Eulogio Gárate",
           "p": "FW",
-          "r": 83,
+          "r": 81,
           "nat": "Spain",
           "dp": [
             "CF"
@@ -7093,7 +7094,7 @@
         {
           "n": "Javier Irureta",
           "p": "MF",
-          "r": 79,
+          "r": 77,
           "nat": "Spain",
           "dp": [
             "RM",
@@ -7103,7 +7104,7 @@
         {
           "n": "José Armando Ufarte",
           "p": "FW",
-          "r": 80,
+          "r": 78,
           "nat": "Spain",
           "dp": [
             "RW"
@@ -7112,7 +7113,7 @@
         {
           "n": "Alberto",
           "p": "FW",
-          "r": 77,
+          "r": 75,
           "nat": "Spain",
           "dp": [
             "CF"
@@ -7121,7 +7122,7 @@
         {
           "n": "Calleja",
           "p": "DF",
-          "r": 75,
+          "r": 73,
           "nat": "Spain",
           "dp": [
             "CB"
@@ -7130,7 +7131,7 @@
         {
           "n": "Benegas",
           "p": "DF",
-          "r": 74,
+          "r": 72,
           "nat": "Spain",
           "dp": [
             "RB"
@@ -7139,7 +7140,7 @@
         {
           "n": "Orozco",
           "p": "MF",
-          "r": 74,
+          "r": 72,
           "nat": "Spain",
           "dp": [
             "CM"
@@ -7254,7 +7255,7 @@
         {
           "n": "Takis Ikonomopoulos",
           "p": "GK",
-          "r": 74,
+          "r": 73,
           "nat": "Greece",
           "dp": [
             "GK"
@@ -7263,7 +7264,7 @@
         {
           "n": "Nikos Tomaras",
           "p": "DF",
-          "r": 73,
+          "r": 72,
           "nat": "Greece",
           "dp": [
             "RB"
@@ -7272,7 +7273,7 @@
         {
           "n": "Nikos Sourpis",
           "p": "DF",
-          "r": 73,
+          "r": 72,
           "nat": "Greece",
           "dp": [
             "CB"
@@ -7281,7 +7282,7 @@
         {
           "n": "Stelios Eleftherakis",
           "p": "DF",
-          "r": 74,
+          "r": 73,
           "nat": "Greece",
           "dp": [
             "CB"
@@ -7290,7 +7291,7 @@
         {
           "n": "Nikos Kamaras",
           "p": "DF",
-          "r": 72,
+          "r": 71,
           "nat": "Greece",
           "dp": [
             "LB"
@@ -7299,7 +7300,7 @@
         {
           "n": "Kostas Vlachos",
           "p": "DF",
-          "r": 73,
+          "r": 72,
           "nat": "Greece",
           "dp": [
             "CB"
@@ -7318,7 +7319,7 @@
         {
           "n": "Kostas Fylakouris",
           "p": "MF",
-          "r": 74,
+          "r": 73,
           "nat": "Greece",
           "dp": [
             "RM"
@@ -7327,7 +7328,7 @@
         {
           "n": "Antonis Grammos",
           "p": "MF",
-          "r": 73,
+          "r": 72,
           "nat": "Greece",
           "dp": [
             "CM"
@@ -7336,7 +7337,7 @@
         {
           "n": "Antonis Antoniadis",
           "p": "FW",
-          "r": 80,
+          "r": 79,
           "nat": "Greece",
           "dp": [
             "CF"
@@ -7345,7 +7346,7 @@
         {
           "n": "Giorgos Kapsis",
           "p": "FW",
-          "r": 74,
+          "r": 73,
           "nat": "Greece",
           "dp": [
             "FW"
@@ -7354,7 +7355,7 @@
         {
           "n": "Vaggelis Kalogiannis",
           "p": "MF",
-          "r": 71,
+          "r": 69,
           "nat": "Greece",
           "dp": [
             "MF"
@@ -7417,7 +7418,7 @@
         {
           "n": "Ognjen Petrović",
           "p": "GK",
-          "r": 78,
+          "r": 76,
           "nat": "Yugoslavia",
           "dp": [
             "GK"
@@ -7426,7 +7427,7 @@
         {
           "n": "Radomir Vukčević",
           "p": "GK",
-          "r": 72,
+          "r": 69,
           "nat": "Yugoslavia",
           "dp": [
             "GK"
@@ -7435,7 +7436,7 @@
         {
           "n": "Zoran Jelikić",
           "p": "DF",
-          "r": 76,
+          "r": 74,
           "nat": "Yugoslavia",
           "dp": [
             "RB"
@@ -7444,7 +7445,7 @@
         {
           "n": "Kiril Dojčinovski",
           "p": "DF",
-          "r": 78,
+          "r": 76,
           "nat": "Yugoslavia",
           "dp": [
             "CB"
@@ -7453,7 +7454,7 @@
         {
           "n": "Miroslav Pavlović",
           "p": "DF",
-          "r": 77,
+          "r": 75,
           "nat": "Yugoslavia",
           "dp": [
             "CB"
@@ -7462,7 +7463,7 @@
         {
           "n": "Jovan Aćimović",
           "p": "MF",
-          "r": 80,
+          "r": 79,
           "nat": "Yugoslavia",
           "dp": [
             "CM"
@@ -7471,7 +7472,7 @@
         {
           "n": "Slobodan Janković",
           "p": "DF",
-          "r": 77,
+          "r": 75,
           "nat": "Yugoslavia",
           "dp": [
             "CB"
@@ -7480,7 +7481,7 @@
         {
           "n": "Dragan Holcer",
           "p": "DF",
-          "r": 79,
+          "r": 78,
           "nat": "Yugoslavia",
           "dp": [
             "CB"
@@ -7489,7 +7490,7 @@
         {
           "n": "Vojin Lazarević",
           "p": "FW",
-          "r": 80,
+          "r": 79,
           "nat": "Yugoslavia",
           "dp": [
             "CF"
@@ -7498,7 +7499,7 @@
         {
           "n": "Dušan Savić",
           "p": "FW",
-          "r": 79,
+          "r": 78,
           "nat": "Yugoslavia",
           "dp": [
             "CF"
@@ -7507,7 +7508,7 @@
         {
           "n": "Trifun Mihajlović",
           "p": "MF",
-          "r": 76,
+          "r": 74,
           "nat": "Yugoslavia",
           "dp": [
             "LM"
@@ -7516,7 +7517,7 @@
         {
           "n": "Branko Klenkovski",
           "p": "MF",
-          "r": 75,
+          "r": 73,
           "nat": "Yugoslavia",
           "dp": [
             "RM"
@@ -7525,7 +7526,7 @@
         {
           "n": "Petar Krivokuća",
           "p": "MF",
-          "r": 76,
+          "r": 74,
           "nat": "Yugoslavia",
           "dp": [
             "CM"
@@ -7534,7 +7535,7 @@
         {
           "n": "Nikola Damjanac",
           "p": "GK",
-          "r": 73,
+          "r": 70,
           "nat": "Yugoslavia",
           "dp": [
             "GK"
@@ -7543,7 +7544,7 @@
         {
           "n": "Vladislav Bogićević",
           "p": "MF",
-          "r": 80,
+          "r": 79,
           "nat": "Yugoslavia",
           "dp": [
             "AM",
@@ -7553,7 +7554,7 @@
         {
           "n": "Stevan Ostojić",
           "p": "FW",
-          "r": 76,
+          "r": 74,
           "nat": "Yugoslavia",
           "dp": [
             "CF"

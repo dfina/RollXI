@@ -22,6 +22,7 @@ const CANONICAL_COMPS = new Set(["EC", "UCL", "CWC", "FAIRS", "UEFA", "UEL", "CO
 const CANONICAL_STAGES = new Set(["W", "RU", "SF", "QF", "R16", "GROUP", "MAIN"]);
 const DEPRECATED_ALIAS = { UECL: "CONFL", INT: "ITC" };
 const DEAD_FIELDS = ["decoys", "tier", "conf", "honour"];
+const RATING_MODEL = "absolute-v3";
 
 const CLUB_NAME_ALIASES = new Map([
   ["Olympique Marseille", "Marseille"],
@@ -145,6 +146,9 @@ async function main() {
     if (data?.meta?.schema !== "club-season-v2") {
       err(`${file} meta.schema must be "club-season-v2"`);
     }
+    if (data?.meta?.ratingModel !== RATING_MODEL) {
+      err(`${file} meta.ratingModel must be "${RATING_MODEL}" — run npm run ratings:recalibrate before release`);
+    }
     if (!Array.isArray(data.squads)) {
       err(`${file} must contain a "squads" array`);
       continue;
@@ -214,7 +218,15 @@ async function main() {
         if (players.length > 0 && (players.length < 12 || players.length > 20)) {
           warn(`${ctx} has ${players.length} players — house standard is 16, outside 12-20 is worth a second look`);
         }
+        const ratings = [];
         for (const p of players) {
+          if (!Number.isFinite(Number(p.r))) {
+            err(`${ctx}: ${p.n || "unnamed player"} has invalid rating ${JSON.stringify(p.r)}`);
+          } else {
+            const rating = Number(p.r);
+            ratings.push(rating);
+            if (rating < 62 || rating > 97) err(`${ctx}: ${p.n || "unnamed player"} rating ${rating} is outside the 62-97 scale`);
+          }
           if (!Array.isArray(p.dp) || p.dp.length === 0) {
             err(`${ctx}: ${p.n || "unnamed player"} has malformed dp ${JSON.stringify(p.dp)} — detailed positions must be a non-empty array`);
             continue;
@@ -224,6 +236,20 @@ async function main() {
               err(`${ctx}: ${p.n || "unnamed player"} uses unknown detailed position code ${JSON.stringify(code)}`);
             }
           }
+        }
+        if (ratings.length >= 12) {
+          const rMean = ratings.reduce((a, b) => a + b, 0) / ratings.length;
+          const rMin = Math.min(...ratings), rMax = Math.max(...ratings);
+          const variance = ratings.reduce((sum, r) => sum + (r - rMean) ** 2, 0) / ratings.length;
+          const rSd = Math.sqrt(variance);
+          const ratingCounts = new Map();
+          ratings.forEach((r) => ratingCounts.set(r, (ratingCounts.get(r) || 0) + 1));
+          const maxSameRating = Math.max(...ratingCounts.values());
+          if (rMax - rMin < 6) err(`${ctx} rating range ${rMin}-${rMax} is too flat for ${ratings.length} players`);
+          if (rSd < 2) err(`${ctx} rating SD ${rSd.toFixed(2)} is too flat for ${ratings.length} players`);
+          if (ratingCounts.size < 5) err(`${ctx} has only ${ratingCounts.size} distinct player ratings`);
+          if (maxSameRating / ratings.length > 0.40) err(`${ctx} has ${maxSameRating}/${ratings.length} players on the same rating`);
+          if (rMean < 75 && rMin >= 70) err(`${ctx} averages ${rMean.toFixed(2)} but has no player below 70`);
         }
       } else if (row.role === "stub") {
         if (Array.isArray(row.players) && row.players.length) err(`${ctx} is role "stub" but contains players[]`);

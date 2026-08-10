@@ -1,5 +1,5 @@
 import { mulberry32, hashStr, seededShuffle } from "./rng.js";
-import { playMatch, oppStrength, extraTime, penalties, goalTimeline, scorerPoolFromXI, scorerPoolFromOpponent, penaltyTakersFromXI } from "./match.js";
+import { playMatch, oppStrength, extraTime, penalties, goalTimeline, scorerPoolFromXI, scorerPoolFromOpponent, penaltyTakersFromXI, penaltyTakersFromOpponent } from "./match.js";
 
 /* ---- build the knockout bracket from the final league standings ----
    Modern UCL: 1-8 seeded into R16; 9-24 contest a play-off whose 8 winners
@@ -95,8 +95,10 @@ export function resolveLevel(you, tieObj, squadById = null) {
   if (homeTotal !== awayTotal) {
     return { et, pens: null, winnerId: homeTotal > awayTotal ? tieObj.home.id : tieObj.away.id, etDecided: true };
   }
-  const takers = penaltyTakersFromXI(you.xi);
-  const pk = penalties(homeStr, awayStr, tieObj.id, tieObj.home.isYou ? takers : [], tieObj.away.isYou ? takers : []);
+  const yourTakers = penaltyTakersFromXI(you.xi);
+  const homeTakers = tieObj.home.isYou ? yourTakers : penaltyTakersFromOpponent(tieObj.home, squadById);
+  const awayTakers = tieObj.away.isYou ? yourTakers : penaltyTakersFromOpponent(tieObj.away, squadById);
+  const pk = penalties(homeStr, awayStr, tieObj.id, homeTakers, awayTakers);
   return { et, pens: pk, winnerId: pk.winner === "home" ? tieObj.home.id : tieObj.away.id, etDecided: false };
 }
 
@@ -115,8 +117,10 @@ export function playFinal(you, a, b, squadById = null) {
     if (r.hg + et.hg !== r.ag + et.ag) {
       winnerId = (r.hg + et.hg > r.ag + et.ag) ? a.id : b.id;
     } else {
-      const takers = penaltyTakersFromXI(you.xi);
-      pens = penalties(sa, sb, seed, a.isYou ? takers : [], b.isYou ? takers : []);
+      const yourTakers = penaltyTakersFromXI(you.xi);
+      const aTakers = a.isYou ? yourTakers : penaltyTakersFromOpponent(a, squadById);
+      const bTakers = b.isYou ? yourTakers : penaltyTakersFromOpponent(b, squadById);
+      pens = penalties(sa, sb, seed, aTakers, bTakers);
       winnerId = pens.winner === "home" ? a.id : b.id;
     }
   } else {

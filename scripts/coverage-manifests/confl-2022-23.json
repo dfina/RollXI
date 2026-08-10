@@ -13,7 +13,7 @@
     "clubConcurrency": 4,
     "identityConcurrency": 8,
     "identityDatasetUrl": "https://pub-e682421888d945d684bcae8890b0ec20.r2.dev/data/players.csv.gz",
-    "ratingModel": "absolute-v2"
+    "ratingModel": "absolute-v3"
   },
   "sources": {
     "participants": "https://www.uefa.com/uefaconferenceleague/history/seasons/2023/clubs/",

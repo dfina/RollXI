@@ -2,9 +2,9 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadData } from "../src/lib/data.js";
-import { scorerPoolFromOpponent } from "../src/lib/match.js";
+import { scorerPoolFromOpponent, penaltyTakersFromOpponent } from "../src/lib/match.js";
 import { playMyFixture } from "../src/lib/campaign.js";
-import { playLeg } from "../src/lib/knockout.js";
+import { playLeg, resolveLevel } from "../src/lib/knockout.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -57,6 +57,47 @@ if (stubOnly) {
   if (!fallback.length || fallback.some((p) => p.weight !== 1)) {
     fail(`${stubOnly.id}: stub scorer fallback changed unexpectedly`);
   }
+}
+
+
+// Playable opponents must also expose real penalty takers, so shootout rows
+// can display names instead of the generic Scored/Missed fallback.
+if (overlaps.length) {
+  const opp = overlaps[0];
+  const rosterNames = new Set(data.squadById[opp.id].players.map((p) => p.n));
+  const takers = penaltyTakersFromOpponent(opp, data.squadById);
+  if (takers.length !== data.squadById[opp.id].players.length) {
+    fail(`${opp.id}: penalty taker pool has ${takers.length} players, roster has ${data.squadById[opp.id].players.length}`);
+  }
+  for (const name of takers) {
+    if (!rosterNames.has(name)) fail(`${opp.id}: penalty taker not found in playable roster: ${name}`);
+  }
+
+  const xi = [
+    { name: "Shootout GK", grp: "GK", dp: ["GK"], rating: 80 },
+    ...Array.from({ length: 4 }, (_, i) => ({ name: `Shootout DF ${i}`, grp: "DF", dp: ["CB"], rating: 80 })),
+    ...Array.from({ length: 3 }, (_, i) => ({ name: `Shootout MF ${i}`, grp: "MF", dp: ["CM"], rating: 80 })),
+    ...Array.from({ length: 3 }, (_, i) => ({ name: `Shootout FW ${i}`, grp: "FW", dp: ["CF"], rating: 80 }))
+  ];
+  const you = { xi, strength: { attack: 80, defence: 80, overall: 80 } };
+  let checkedShootout = false;
+  for (let i = 0; i < 400 && !checkedShootout; i++) {
+    const tie = {
+      id: `shootout-name-check-${i}`,
+      home: { id: "__you", club: "Your XI", isYou: true, rating: 80 },
+      away: { ...opp, isYou: false },
+      leg1: { hg: 0, ag: 0 },
+      leg2: { hg: 0, ag: 0 }
+    };
+    const rl = resolveLevel(you, tie, data.squadById);
+    if (!rl.pens) continue;
+    const opponentKicks = rl.pens.kicks.filter((k) => k.team === "away");
+    if (!opponentKicks.length || opponentKicks.some((k) => !k.kicker || !rosterNames.has(k.kicker))) {
+      fail(`${opp.id}: knockout shootout did not name playable-opponent penalty takers from its roster`);
+    }
+    checkedShootout = true;
+  }
+  if (!checkedShootout) fail(`${opp.id}: could not generate a penalty shootout for the name integration check`);
 }
 
 // Functional league + knockout integration check. Find a simulated opponent goal

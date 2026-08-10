@@ -169,12 +169,21 @@ The release house standard is **16 players** where source coverage supports it,
 with at least one goalkeeper. The validator keeps an 11-player hard minimum for
 historical compatibility but rebuilt/new release content should target 16.
 
-Ratings remain within 62-97, but there is no pack/cycle target mean. Ratings are
-absolute gameplay calibration: weak/minnow squads may legitimately average in the
-high 60s or low 70s, while elite squads may average above 80. A normal 16-player
-roster should show meaningful internal separation; as a release heuristic, a range
-under 6 points or standard deviation under 2 triggers review. Ratings are gameplay
-calibration, not claims of an external numerical rating.
+Ratings use the repository-wide `absolute-v3` model and remain within 62-97.
+There is no pack/cycle target mean. Weak/minnow squads may legitimately average in
+the high 60s or low 70s, while elite squads may average above 80. Player ratings
+must also be meaningfully distributed within every playable roster: for rosters of
+12+ players the validator requires a range of at least 6 points, standard
+deviation of at least 2, at least 5 distinct rating values, and no single exact
+rating may account for more than 40% of the roster. A squad averaging below 75
+must also contain at least one sub-70 player. These are hard repository gates,
+not expansion-only heuristics.
+Ratings are gameplay calibration, not claims of an external numerical rating.
+
+When rebuilding legacy content, preserve the existing player hierarchy where it
+contains useful information, but do not preserve an inflated absolute floor merely
+for continuity. `npm run ratings:recalibrate` applies the one-time v3 migration and
+`npm run ratings:check` verifies that all playable rosters remain compliant.
 
 Detailed positions should be as historically faithful as evidence supports.
 Do not broaden a player's stored `dp` merely to make a formation work. Gameplay

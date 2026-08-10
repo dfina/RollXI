@@ -164,16 +164,35 @@ function takerFor(list, round) {
   return list[(Math.max(1, round) - 1) % list.length] || null;
 }
 
-export function penaltyTakersFromXI(slots) {
-  const posWeight = { FW: 4, MF: 3, DF: 2, GK: 1 };
-  return slots
-    .filter((s) => s && s.name)
+const PENALTY_ROLE_WEIGHT = { FW: 4, MF: 3, DF: 2, GK: 1 };
+
+function orderedPenaltyTakers(rows, nameOf, groupOf, ratingOf) {
+  return (rows || [])
+    .filter((row) => row && nameOf(row))
     .slice()
     .sort((a, b) => {
-      const aw = posWeight[a.grp] || 0;
-      const bw = posWeight[b.grp] || 0;
+      const aw = PENALTY_ROLE_WEIGHT[groupOf(a)] || 0;
+      const bw = PENALTY_ROLE_WEIGHT[groupOf(b)] || 0;
       if (bw !== aw) return bw - aw;
-      return (b.rating || 0) - (a.rating || 0);
+      return (ratingOf(b) || 0) - (ratingOf(a) || 0);
     })
-    .map((s) => s.name);
+    .map(nameOf);
+}
+
+export function penaltyTakersFromXI(slots) {
+  return orderedPenaltyTakers(slots, (s) => s.name, (s) => s.grp, (s) => s.rating);
+}
+
+export function penaltyTakersFromRoster(players) {
+  return orderedPenaltyTakers(players, (p) => p.n, (p) => p.p, (p) => p.r);
+}
+
+/* If a Campaign opponent is also a playable historical squad, its penalty
+   shootout kicks should name real roster players just like open-play goals do.
+   Stub-only opponents deliberately return an empty list so the UI keeps the
+   generic Scored/Missed fallback rather than inventing names. */
+export function penaltyTakersFromOpponent(ref, squadById = null) {
+  const roster = ref && squadById ? squadById[ref.id] : null;
+  if (!roster || !Array.isArray(roster.players) || !roster.players.length) return [];
+  return penaltyTakersFromRoster(roster.players);
 }

@@ -864,3 +864,19 @@ Rating model v2 removes the edition-wide mean target. Club targets are now absol
 The release gate now flags 16-player squads whose rating range is under 6 or whose standard deviation is under 2. It also flags a below-75 squad with no player below 70 and flags a candidate mean more than two points from an explicit team target. There is no longer a 74-83 club or edition mean band.
 
 The already-built 2022-23 Conference League rosters were recalibrated with the same v2 principles using the captured competition-appearance ordering and the old ratings only as within-squad relative signals. The revised edition mean is 73.87, the range is 62-88, edition standard deviation is 5.31 and 115 of 512 player slots are below 70. This is a deliberate gameplay-scale revision; roster identities, positions, participation cuts, stages and achievements are unchanged.
+
+
+Roll XI — global absolute-v3 rating migration and shootout-name safeguard
+Date: 2026-08-10
+
+Scope
+The rating correction is now repository-wide rather than limited to Conference League expansion packs. All eight canonical decade shards were migrated in one deterministic pass. The migration preserves each squad's pre-existing relative player hierarchy where useful, supplements very flat rows with compatible career-relative Roll XI signals, and uses explicit reviewed signals for six recent squads whose legacy values contained too little internal information for a hierarchy-preserving transform.
+
+Absolute-v3 scale
+The old playable database contained 14,373 player-season ratings across 902 rosters with a mean of 78.15; only 0.9% of those ratings were below 70. After the v3 migration the same 14,373 player-season records average 75.92 and use a 62-95 realised range. A final neutral tie-dispersion pass breaks up legacy blocks of identical ratings by only ±1-2 points around the same tier; this leaves team strength effectively unchanged while preventing large artificial rating clusters. Team ordering is retained through a non-linear absolute-strength mapping rather than forcing every squad towards a common edition mean. Within-squad differences are then expanded from the existing/career-relative signals.
+
+The repository validator now blocks any playable 12+ player roster with a rating range below 6, standard deviation below 2, fewer than 5 distinct rating values, a single exact rating covering more than 40% of the roster, or an average below 75 without at least one player below 70. Every decade shard also records `meta.ratingModel: "absolute-v3"`; a stale shard therefore fails validation instead of silently mixing rating systems. `npm run ratings:check` performs the same distribution audit independently.
+
+Penalty shootout names
+Campaign penalty shootouts now use the full historical roster as the penalty-taker pool whenever the opponent is also a playable squad. The same role/rating ordering used for Your XI is applied to that opponent roster. Stub-only opponents retain the generic Scored/Missed fallback because inventing player names would be less accurate. The scorer integration test now forces a knockout shootout and verifies that every opponent kick is attributed to a name present in the playable roster.
+
