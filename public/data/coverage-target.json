@@ -1,7 +1,7 @@
 {
   "$comment": "Roll XI content target. This file is the SINGLE SOURCE OF TRUTH for what the finished dataset should contain. It declares scope as rules. scripts/coverage.mjs derives progress from the canonical decade shards and can prove depth/completeness only for editions where expectedRostersPerEdition is populated. Do not hand-edit progress into this file: progress is derived. Only edit this file to change the goal or to add researched expected counts.",
-  "version": "1.5",
-  "updated": "2026-08-10",
+  "version": "1.6",
+  "updated": "2026-08-11",
   "stageCodes": {
     "W": "Winner",
     "RU": "Runner-up",
@@ -38,11 +38,12 @@
         "direction": "backward"
       },
       "expectedRostersPerEdition": {
+        "1996-97": 18,
         "1997-98": 18,
         "1998-99": 18,
         "1999-00": 18
       },
-      "$expectedRostersNote": "1997-98, 1998-99 and 1999-00 each have a researched 18-club Serie A field. Other Serie A seasons remain unproven until their expected counts are populated."
+      "$expectedRostersNote": "1996-97, 1997-98, 1998-99 and 1999-00 each have a researched 18-club Serie A field. Other Serie A seasons remain unproven until their expected counts are populated."
     },
     {
       "id": "euro-ec-ucl",
