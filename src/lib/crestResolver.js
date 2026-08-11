@@ -150,6 +150,7 @@ export const CREST_PAGE_OVERRIDES = {
   "real betis": "Real Betis",
   "real madrid": "Real Madrid CF",
   "real sociedad": "Real Sociedad",
+  "reggiana": "AC Reggiana 1919",
   "real zaragoza": "Real Zaragoza",
   "rosenborg": "Rosenborg BK",
   "red star belgrade": "Red Star Belgrade",
