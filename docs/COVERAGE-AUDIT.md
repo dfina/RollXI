@@ -1016,3 +1016,65 @@ Juventus's 1997-98 European achievement is corrected to Champions League runner-
 Campaign scorer-pool, position-compatibility and coverage-production self-tests all pass;
 Serie A measured coverage is now 54/54 across the three researched 18-club editions (1997-98, 1998-99, 1999-00);
 `npm run coverage:next` advances to Serie A 1996-97.
+
+
+Roll XI — Serie A 1996-97 sequential coverage expansion
+Date: 2026-08-11
+
+Scope and field authority
+This cycle continues the measured Serie A C-series frontier immediately backwards from 1997-98. The 1996-97 Serie A field contains 18 clubs: Atalanta, Bologna, Cagliari, Fiorentina, Inter, Juventus, Lazio, AC Milan, Napoli, Parma, Perugia, Piacenza, Reggiana, AS Roma, Sampdoria, Udinese, Hellas Verona and Vicenza. RSSSF is the competition/table authority and FootballSquads provides the independent whole-league squad cross-check. BDFutbol and calcio-seriea.net are used as season-specific participation/appearance cross-checks, with Transfermarkt used selectively for detailed role/identity disambiguation where needed.
+RSSSF: https://www.rsssf.org/tablesi/ital97.html
+FootballSquads: https://www.footballsquads.co.uk/italy/1996-1997/seriea.htm
+BDFutbol: https://www.bdfutbol.com/en/t/tita1996-97.html
+Calcio-SerieA: https://calcio-seriea.net/
+
+Roster selection and identity finalisation
+The edition is finalised to the Roll XI house standard of 16 representative players and exactly two goalkeepers per club. Selection is appearance-led, using season participation evidence rather than copying the adjacent 1997-98 squads. Existing Roll XI identity history is reused only where compatible with the 1996-97 evidence; new or ambiguous identities retain conservative broad detailed-position codes until a stronger historical role source is available. High-impact season-defining cases are preserved even where a strict appearance rank would otherwise crowd them out. Examples include Filippo Inzaghi at Atalanta, whose 24 league goals made him the Serie A top scorer, and Juventus's deep forward rotation.
+
+Existing-row upgrades and corrections
+Inter's pre-existing 1996-97 UEFA Cup runner-up stub is upgraded in place to the full domestic roster, preserving `UEFA / RU` without creating a duplicate club-season row. Juventus's pre-existing domestic roster is rebuilt to the same 16-player/two-goalkeeper standard as the rest of the edition. Its legacy post-1992 European code is corrected from `EC` to `UCL`, and the stage is corrected from `MAIN` to `RU`; UEFA records Borussia Dortmund's 3-1 victory over Juventus in the 28 May 1997 Champions League final.
+UEFA final record: https://www.uefa.com/uefachampionsleague/match/53915--b-dortmund-vs-juventus/
+
+Naming and crest finalisation
+Reggiana receives an explicit crest-page override to `AC Reggiana 1919`. `Reggiana` / `Reggina` is added to the validator's known-distinct club-name pairs so the new historically separate club does not trigger a false near-name warning.
+
+Rating release state
+The edition contains 288 player slots across 18 full rosters, exactly 16 players and two goalkeepers per club. Ratings use the repository-wide absolute-v3 scale and are calibrated at club level with adjacent-season values used as identity/history anchors rather than copied mechanically. Team means range from 70.25 (Reggiana) to 80.62 (AC Milan); Juventus is 80.12. Across the full edition the mean is 75.31, standard deviation 5.08, realised range 65-90, and 37 of 288 player slots are below 70. The final distribution therefore preserves a visible lower tail while allowing elite 1996-97 performers to separate clearly from squad players.
+
+Source-evidence/stage matrix
+Club	Domestic status	Finalisation note
+Atalanta	Serie A	16-player appearance-led roster; Inzaghi retained as 24-goal league top scorer
+Bologna	Serie A	16-player appearance-led roster; Antonioli/Marocchi/Kolyvanov/Andersson core cross-checked
+Cagliari	Serie A	16-player appearance-led roster; Pancaro/Bettarini/Sanna/Muzzi core cross-checked
+Fiorentina	Serie A	16-player appearance-led roster; Toldo/Batistuta/Falcone core cross-checked
+Inter	Serie A + UEFA RU	Existing UEFA runner-up stub upgraded to full roster
+Juventus	Serie A + UCL RU	Existing roster rebuilt to 16; EC code corrected to UCL and final stage to RU
+Lazio	Serie A	16-player appearance-led roster; Marchegiani/Nedved/Signori core cross-checked
+AC Milan	Serie A	16-player appearance-led roster with veteran/high-impact core retained
+Napoli	Serie A	16-player appearance-led roster; Taglialatela/Caccia/Baldini core cross-checked
+Parma	Serie A	16-player appearance-led roster; Chiesa/Mussi and high-level defensive core retained
+Perugia	Serie A	16-player appearance-led roster; Pizzi/Negri/Castellini/Matrecano core cross-checked
+Piacenza	Serie A	16-player appearance-led roster; Luiso and Di Francesco core retained
+Reggiana	Serie A	16-player appearance-led roster; new crest/name disambiguation added
+AS Roma	Serie A	16-player appearance-led roster; Tommasi/Petruzzi/Di Biagio/Delvecchio/Totti core cross-checked
+Sampdoria	Serie A	16-player appearance-led roster; Mancini/Montella/Verón/Mihajlović core retained
+Udinese	Serie A	16-player appearance-led roster; Poggi/Rossitto/Helveg and Bierhoff/Amoroso attack retained
+Hellas Verona	Serie A	16-player appearance-led roster; Maniero/Siviglia/Bacci core cross-checked
+Vicenza	Serie A	16-player appearance-led roster; Otero-led attack and experienced defensive core retained
+
+Coverage state
+`public/data/coverage-target.json` now declares 1996-97 as an 18-roster domestic edition alongside 1997-98, 1998-99 and 1999-00. This creates a contiguous four-edition proven-complete run from the 1999-00 anchor. `npm run coverage` reports Serie A at 72/72 known rosters across 4/4 proven-complete editions, and `npm run coverage:next` advances the sequential frontier to 1995-96.
+
+Release gate
+Final repository state after this cycle:
+18/18 Serie A 1996-97 clubs have full 16-player rosters;
+288/288 intended player slots are present and every roster has exactly two goalkeepers;
+Inter is upgraded from its UEFA Cup runner-up stub without a duplicate club-season row;
+Juventus is standardised to 16 players and correctly marked as 1996-97 Champions League runner-up;
+`npm run validate` reports no errors or warnings across 1,302 club-season rows;
+1,002 playable rosters satisfy the absolute-v3 rating-distribution checks;
+208 pickable Campaign opponents use their full roster scorer pools;
+Campaign scorer-pool, position-compatibility and coverage-production self-tests all pass;
+Serie A measured coverage is now 72/72 across four researched 18-club editions (1996-97 through 1999-00);
+`npm run coverage:next` advances to Serie A 1995-96;
+`npm run build` cannot run in this sandbox because the uploaded repository has no installed Vite binary (`vite: not found`). This is an environment/dependency limitation rather than a data-validation failure.
