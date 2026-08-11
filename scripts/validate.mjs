@@ -45,6 +45,7 @@ const CLUB_NAME_ALIASES = new Map([
 const KNOWN_DISTINCT_CLUB_PAIRS = new Set([
   ["dundee", "dundee united"].sort().join("|"),
   ["randers", "rangers"].sort().join("|"),
+  ["reggiana", "reggina"].sort().join("|"),
 ]);
 
 const errors = [];
