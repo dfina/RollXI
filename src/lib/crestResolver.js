@@ -139,6 +139,7 @@ export const CREST_PAGE_OVERRIDES = {
   "olympique marseille": "Olympique de Marseille",
   "psv eindhoven": "PSV Eindhoven",
   "panathinaikos": "Panathinaikos F.C.",
+  "padova": "Calcio Padova",
   "paris saint-germain": "Paris Saint-Germain F.C.",
   "partizan belgrade": "FK Partizan",
   "pasching": "FC Juniors OÖ",
