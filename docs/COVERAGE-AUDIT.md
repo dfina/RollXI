@@ -1078,3 +1078,42 @@ Campaign scorer-pool, position-compatibility and coverage-production self-tests 
 Serie A measured coverage is now 72/72 across four researched 18-club editions (1996-97 through 1999-00);
 `npm run coverage:next` advances to Serie A 1995-96;
 `npm run build` cannot run in this sandbox because the uploaded repository has no installed Vite binary (`vite: not found`). This is an environment/dependency limitation rather than a data-validation failure.
+
+
+Roll XI — Serie A 1995-96 sequential coverage expansion
+Date: 2026-08-12
+
+Scope and field authority
+This cycle advances the measured Serie A frontier one season backwards from the proven-complete 1996-97 edition. The 1995-96 field contains 18 clubs: AC Milan, Juventus, Lazio, Fiorentina, AS Roma, Parma, Inter, Sampdoria, Vicenza, Cagliari, Udinese, Napoli, Atalanta, Piacenza, Bari, Torino, Cremonese and Padova. RSSSF is the competition/table authority, FootballSquads is the independent whole-league squad-membership cross-check, and BDFutbol's club pages provide the league-minute evidence used for the 16-player cuts.
+RSSSF: https://www.rsssf.org/tablesi/ital96.html
+FootballSquads: https://www.footballsquads.co.uk/italy/1995-1996/seriea.htm
+BDFutbol classification: https://www.bdfutbol.com/en/t/tita1995-96.html
+
+Roster selection and identity finalisation
+Every domestic roster contains exactly 16 players: the two goalkeepers with the most Serie A minutes plus the 14 outfielders with the most Serie A minutes on that club's BDFutbol season page. This establishes a consistent participation-led cut instead of copying the following season. FootballSquads resolves full names and broad roles where BDFutbol's display is surname-only, and compatible adjacent-season Roll XI records are used as identity/history anchors rather than as participation evidence. Specific resolutions include Vicenza's Maurizio Rossi and Massimo Lombardini, Bari's Gianluca Ricci and Pietro Parente, Cremonese's Marco Giandebiaggi and Marko Perović, and Padova's Silvio Giampietro and Goran Vlaović.
+
+Existing-row and European correction
+Juventus's pre-existing 18-player row is rebuilt to the same 16-player/two-goalkeeper domestic standard as the rest of the edition. Its legacy `EC / MAIN` marker is corrected to `UCL / W`: UEFA's official record lists Juventus as the 1995-96 Champions League winner after the final against Ajax finished 1-1 and Juventus won 4-2 on penalties.
+UEFA final record: https://www.uefa.com/uefachampionsleague/match/52534--ajax-vs-juventus/
+
+Naming and crest finalisation
+Padova receives the explicit crest-page mapping `Calcio Padova`, preventing a live-search fallback and allowing the final validator run to remain warning-free.
+
+Rating release state
+The edition contains 288 player slots across 18 full rosters. Ratings use the repository-wide absolute-v3 model and remain club-strength gameplay judgements, not claims of an external numerical rating. Team means range from 68.56 (Padova) to 82.31 (AC Milan). Across the edition the mean is 75.45, standard deviation 5.38, realised range 62-89, and 39 of 288 player slots are below 70. Every roster satisfies the range, dispersion, distinct-value, anti-clustering and lower-tail release rules.
+
+Coverage state
+`public/data/coverage-target.json` v1.7 now declares 1995-96 as an 18-roster domestic edition alongside 1996-97 through 1999-00. The measured contiguous run therefore covers five editions and `npm run coverage:next` advances the Serie A frontier to 1994-95.
+
+Release gate
+Final repository state after this cycle:
+18/18 Serie A 1995-96 clubs have full 16-player rosters;
+288/288 intended player slots are present and every roster has exactly two goalkeepers;
+Juventus is standardised to 16 players and correctly marked as 1995-96 Champions League winner;
+`npm run validate` reports no errors or warnings across 1,319 club-season rows;
+1,019 playable rosters satisfy the absolute-v3 rating-distribution checks;
+209 pickable Campaign opponents use their full roster scorer pools;
+Campaign scorer-pool, position-compatibility and coverage-production self-tests all pass;
+Serie A measured coverage is now 90/90 across five researched 18-club editions (1995-96 through 1999-00);
+`npm run coverage:next` advances to Serie A 1994-95;
+`npm run build` completes successfully with Vite 5.4.21.
